@@ -15,6 +15,11 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Event Filtering
 - Flexibility with Inputs
 
+## ✍️ Example
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ## 📖Usage
 
 - Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here]().
@@ -82,11 +87,6 @@ You can find an example [here]().
 | `IGNORE_EVENTS`   | The events to ignore, specified as a JSON array.             | No           | `[]`                                    |
 | `README_PATH`     | The path to the README file.                                 | No           | `README.MD`                             |
 | `COMMIT_MESSAGE`  | Commit Message                                               | No           | `Update README.md with latest activity` |
-
-## ✍️ Example
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 ## 📜License
 
