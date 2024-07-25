@@ -1,0 +1,25 @@
+name: 'Update GitHub Activity'
+description: 'Updates the GitHub activity in the README file.'
+
+inputs:
+  GITHUB_USERNAME:
+    description: 'The GitHub username.'
+    required: true
+  GITHUB_TOKEN:
+    description: 'The GitHub token.'
+    required: true
+  EVENT_LIMIT:
+    description: 'The maximum number of events to display.'
+    required: true
+  IGNORE_EVENTS:
+    description: 'The events to ignore, specified as a JSON array.'
+    required: false
+    default: '[]'
+  README_PATH:
+    description: 'The path to the README file.'
+    required: false
+    default: 'README.md'
+
+runs:
+  using: 'node20'
+  main: './src/index.js'

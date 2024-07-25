@@ -1,0 +1,27 @@
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+
+      - name: Run custom action
+        uses: ./
+        with:
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_LIMIT: ${{ secrets.EVENT_LIMIT }}
+          IGNORE_EVENTS: ${{ secrets.IGNORE_EVENTS }}
+          README_PATH: ${{ secrets.README_PATH }}
