@@ -17,7 +17,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 ## 📖Usage
 
-- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here]().
+- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->
+1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9c5355668199f4b95c93495eb040b758465952cf)
+2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/66e0bfa2f96649df06f05fed051c93dc1ccec09a)
+3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dd0ef8a1820e6fbf6adc37539fa2b3548d05f2fa)
+4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/aff0d71ac835dd271486b25fa9cb9d2b82720aaa)
+5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/701635bebf7c87b60a2e486b7c4402afc2776d43)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e9380dd3358a22b5ef215c310cf2932945752368)
+<!--END_SECTION:activity-->`. You can find  an example [here]().
 
 - Now create the workflow file.
 
