@@ -1,12 +1,97 @@
+<h1 align="center" id="title">Activity Log</h1>
+
+![activity log](https://socialify.git.ci/TheDanniCraft/activity-log/image?forks=1&issues=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66677362&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Made%20with%20Love%E2%9D%A4%EF%B8%8F-black?style=for-the-badge" alt="made with love">
+    <img src="https://img.shields.io/badge/Node:JS-node?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white&amp;color=%235FA04E" alt="typescript">
+</p>
+
+A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
+
+## 🛠️Features
+
+- Customizable Event Limits
+- Event Filtering
+- Flexibility with Inputs
+
+## 📖Usage
+
+- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here]().
+
+- Now create the workflow file.
+
+```yml
+# .github/workflows/update-activity.yml:
+
+name: Update GitHub Activity
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  update-activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update GitHub Activity
+        uses: thedannicraft/activity-log@v1
+        with:
+          GITHUB_USERNAME: "thedannicraft"
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+```
+
+Take a look at all possible [Inputs](#inputs) for customization
+
+The above job runs every half an hour, you can change it as you wish based on the [cron syntax](https://crontab.guru).
+
+Please note that only those public events that belong to the following list show up:
+
+- `PushEvent`
+- `IssuesEvent`
+  - `opened`
+  - `edited`
+  - `closed`
+- `PullRequestEvent`
+  - `opened`
+  - `synchronize`
+  - `closed`
+  - `merged`
+- `ReleaseEvent`
+- `ForkEvent`
+- `CommitCommentEvent`
+- `IssueCommentEvent`
+- `PullRequestReviewEvent`
+- `PullRequestReviewCommentEvent`
+- `RepositoryEvent`
+- `WatchEvent`
+- `StarEvent`
+- `PublicEvent`
+
+You can find an example [here]().
+
+### Inputs
+
+| **Input**         | **Description**                                              | **Required** | **Default**                             |
+|-------------------|--------------------------------------------------------------|--------------|-----------------------------------------|
+| `GITHUB_USERNAME` | The GitHub username.                                         | Yes          | `-`                                     |
+| `GITHUB_TOKEN`    | The GitHub token.                                            | Yes          | `-`                                     |
+| `EVENT_LIMIT`     | The maximum number of events to display.                     | No           | `10`                                    |
+| `IGNORE_EVENTS`   | The events to ignore, specified as a JSON array.             | No           | `[]`                                    |
+| `README_PATH`     | The path to the README file.                                 | No           | `README.MD`                             |
+| `COMMIT_MESSAGE`  | Commit Message                                               | No           | `Update README.md with latest activity` |
+
+## ✍️ Example
+
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dd0ef8a1820e6fbf6adc37539fa2b3548d05f2fa)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/aff0d71ac835dd271486b25fa9cb9d2b82720aaa)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/701635bebf7c87b60a2e486b7c4402afc2776d43)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e9380dd3358a22b5ef215c310cf2932945752368)
-5. 🌍 Made Repository [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio) public
-6. 🔔 Watching [Whisky-App/Whisky](https://github.com/Whisky-App/Whisky)
-7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/894b47e5c6a13ddd12f2b9e0498f25de627a58e0)
-8. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/3e7a3bfd421974c8ce9ec64c1a947fae16a0f85a)
-9. ❌ Closed issue in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/cdf3da4c40fbbc1aec1ef19100ddf5925d0d1d27)
 <!--END_SECTION:activity-->
+
+## 📜License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## ✍️Authors
+
+- [@thedannicraft](https://www.github.com/thedannicraft)
