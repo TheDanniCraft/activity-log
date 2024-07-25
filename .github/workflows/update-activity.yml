@@ -9,19 +9,13 @@ jobs:
   update-activity:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "latest"
-
-      - name: Run custom action
+      - uses: actions/checkout@v4
+      - name: Run Update GitHub Activity
         uses: ./
         with:
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EVENT_LIMIT: ${{ secrets.EVENT_LIMIT }}
-          IGNORE_EVENTS: ${{ secrets.IGNORE_EVENTS }}
-          README_PATH: ${{ secrets.README_PATH }}
+          EVENT_LIMIT: 10
+          IGNORE_EVENTS: "[]"
+          README_PATH: README.MD
+          COMMIT_MESSAGE: "⚡ Update README.md with latest activity"

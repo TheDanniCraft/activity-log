@@ -1,7 +1,9 @@
 const eventDescriptions = {
-    'PushEvent': ({ repo, isPrivate, payload }) => isPrivate
-        ? `📝 Committed to a private repo`
-        : `📝 Committed to [${repo.name}](https://github.com/${repo.name})`,
+    'PushEvent': ({ repo, isPrivate, payload }) => {
+        return isPrivate
+            ? '📝 Committed to a private repo'
+            : `📝 Committed to [${repo.name}](https://github.com/${repo.name}/commit/${payload.commits[0].sha})`;
+    },
 
     'IssuesEvent': {
         'opened': ({ repo, isPrivate }) => isPrivate
@@ -43,9 +45,12 @@ const eventDescriptions = {
         ? `🍴 Forked a private repo`
         : `🍴 Forked [${repo.name}](https://github.com/${repo.name})`,
 
-    'CommitCommentEvent': ({ repo, isPrivate, payload }) => isPrivate
-        ? `💬 Commented on a commit in a private repo`
-        : `💬 Commented on a commit in [${repo.name}](https://github.com/${repo.name})`,
+    'CommitCommentEvent': ({ repo, isPrivate, payload }) => {
+        const commitUrl = payload.commit_url;
+        return isPrivate
+            ? `💬 Commented on a commit in a private repo: [View Commit](${commitUrl})`
+            : `💬 Commented on a commit in [${repo.name}](https://github.com/${repo.name}): [View Commit](${commitUrl})`;
+    },
 
     'IssueCommentEvent': ({ repo, isPrivate }) => isPrivate
         ? `💬 Commented on an issue in a private repo`

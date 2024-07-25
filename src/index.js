@@ -1,6 +1,6 @@
 const { fetchAndFilterEvents } = require('./utils/github');
 const { updateReadme } = require('./utils/file');
-const { username, token, eventLimit, ignoreEvents, readmePath } = require('../config');
+const { username, token, eventLimit, ignoreEvents, readmePath, commitMessage } = require('./config');
 
 // Main function to execute the update process
 async function main() {

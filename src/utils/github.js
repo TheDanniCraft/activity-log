@@ -1,25 +1,13 @@
-const { execSync } = require('child_process');
+const github = require('@actions/github');
 const eventDescriptions = require('./eventDescriptions');
 const { username, token, eventLimit, ignoreEvents } = require('../config');
 
-// GitHub API URLs to fetch user events and repository details
-const eventsApiUrl = `https://api.github.com/users/${username}/events`;
-const repoApiUrl = `https://api.github.com/user/repos`;
-
-// Function to execute a curl command and return the result
-function executeCurl(url) {
-    try {
-        const result = execSync(`curl -s -H "Authorization: token ${token}" -H "Accept: application/vnd.github.v3+json" ${url}`, { encoding: 'utf-8' });
-        return JSON.parse(result);
-    } catch (error) {
-        console.error('❌ Error executing curl command:', error.message);
-        return [];
-    }
-}
+// Create an authenticated Octokit client
+const octokit = github.getOctokit(token);
 
 // Function to fetch repository details
-function fetchRepoDetails() {
-    const repos = executeCurl(repoApiUrl);
+async function fetchRepoDetails() {
+    const { data: repos } = await octokit.rest.repos.listForAuthenticatedUser();
 
     // Create a map of repo name to its visibility status
     return repos.reduce((map, repo) => {
@@ -29,19 +17,16 @@ function fetchRepoDetails() {
 }
 
 // Function to fetch all events with pagination and apply filtering
-function fetchAllEvents() {
+async function fetchAllEvents() {
     let allEvents = [];
     let page = 1;
 
     while (true) {
-        const url = `${eventsApiUrl}?page=${page}`;
-        const events = executeCurl(url);
-
-        // Check for API rate limit or pagination issues
-        if (events.message && events.message === "In order to keep the API fast for everyone, pagination is limited for this resource.") {
-            console.warn('⚠️ Warning: Some events may have been skipped due to API pagination limits.');
-            break;
-        }
+        const { data: events } = await octokit.rest.activity.listPublicEventsForUser({
+            username,
+            per_page: 30,
+            page
+        });
 
         if (events.length === 0) {
             break; // No more events to fetch
@@ -70,9 +55,9 @@ function fetchAllEvents() {
 }
 
 // Function to fetch and filter events
-function fetchAndFilterEvents() {
-    const { events, skipped } = fetchAllEvents(); // Fetch all events with pagination
-    const repoDetails = fetchRepoDetails();
+async function fetchAndFilterEvents() {
+    const { events, skipped } = await fetchAllEvents(); // Fetch all events with pagination
+    const repoDetails = await fetchRepoDetails();
 
     // Generate ordered list of events with descriptions
     const listItems = [];

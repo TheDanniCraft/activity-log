@@ -1,14 +1,5 @@
 const path = require('path');
-
-// Function to get inputs from GitHub Actions
-function getInput(name, options = {}) {
-    const { required = false, defaultValue = '' } = options;
-    const value = process.env[`INPUT_${name.replace(/ /g, '_').toUpperCase()}`] || defaultValue;
-    if (required && !value) {
-        throw new Error(`❌ Input required and not supplied: ${name}`);
-    }
-    return value.trim();
-}
+const core = require('@actions/core');
 
 // Function to process ignore events
 function processIgnoreEvents(value) {
@@ -19,16 +10,18 @@ function processIgnoreEvents(value) {
         .filter(Boolean); // Remove any empty values
 }
 
+// Load inputs from GitHub Actions
 module.exports = {
-    username: getInput('GITHUB_USERNAME', { required: true }),
-    token: getInput('GITHUB_TOKEN', { required: true }),
+    username: core.getInput('GITHUB_USERNAME', { required: true }),
+    token: core.getInput('GITHUB_TOKEN', { required: true }),
     eventLimit: (() => {
-        const limit = parseInt(getInput('EVENT_LIMIT', { required: true }));
+        const limit = parseInt(core.getInput('EVENT_LIMIT'), 10);
         if (limit > 100) {
             throw new Error('❌ EVENT_LIMIT cannot be greater than 100.');
         }
         return limit;
     })(),
-    ignoreEvents: processIgnoreEvents(getInput('IGNORE_EVENTS', { required: false, defaultValue: '[]' })),
-    readmePath: getInput('README_PATH', { required: false, defaultValue: path.resolve(__dirname, '../README.md') })
+    ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
+    readmePath: core.getInput('README_PATH'),
+    commitMessage: core.getInput('COMMIT_MESSAGE')
 };

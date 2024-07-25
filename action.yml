@@ -10,7 +10,7 @@ inputs:
     required: true
   EVENT_LIMIT:
     description: 'The maximum number of events to display.'
-    required: true
+    default: '10'
   IGNORE_EVENTS:
     description: 'The events to ignore, specified as a JSON array.'
     required: false
@@ -18,8 +18,12 @@ inputs:
   README_PATH:
     description: 'The path to the README file.'
     required: false
-    default: 'README.md'
+    default: 'README.MD'
+  COMMIT_MESSAGE:
+    description: 'Commit Message'
+    required: false
+    default: 'Update README.md with latest activity'
 
 runs:
   using: 'node20'
-  main: './src/index.js'
+  main: './dist/index.js'
