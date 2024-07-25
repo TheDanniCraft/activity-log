@@ -29451,6 +29451,21 @@ async function fetchRepoDetails() {
     }, {});
 }
 
+// Function to check if the event was likely triggered by GitHub Actions or bots
+function isTriggeredByGitHubActions(event) {
+    // Regex patterns to match common GitHub Actions or bot commit messages
+    const botPatterns = /(\[bot\]|GitHub Actions|github-actions)/i;
+
+    // Check if the commit author name matches any of the bot patterns
+    const isCommitEvent = event.type === 'PushEvent' && event.payload && event.payload.commits;
+    if (isCommitEvent) {
+        return event.payload.commits.some(commit =>
+            botPatterns.test(commit.author.name) // Test commit message against regex patterns
+        );
+    }
+    return false;
+}
+
 // Function to fetch all events with pagination and apply filtering
 async function fetchAllEvents() {
     let allEvents = [];
@@ -29481,6 +29496,7 @@ async function fetchAllEvents() {
     const filteredEvents = allEvents
         .filter(event => !ignoreEvents.includes(event.type)) // Exclude ignored events
         .filter(event => !['CreateEvent', 'DeleteEvent'].includes(event.type)) // Exclude branch-related events
+        .filter(event => !isTriggeredByGitHubActions(event)) // Exclude GitHub Actions triggered events
         .slice(0, eventLimit); // Limit to the number specified
 
     return {
