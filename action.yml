@@ -18,7 +18,7 @@ inputs:
   README_PATH:
     description: 'The path to the README file.'
     required: false
-    default: 'README.MD'
+    default: 'README.md'
   COMMIT_MESSAGE:
     description: 'Commit Message'
     required: false
