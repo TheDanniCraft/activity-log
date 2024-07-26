@@ -32,7 +32,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 ## 📖Usage
 
-- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here]().
+- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here](https://github.com/TheDanniCraft/activity-log/blob/aa249f7e4890d1c08ca7888f8483895a0d922c14/README.MD?plain=1#L20-L21).
 
 - Now create the workflow file.
 
@@ -52,7 +52,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update GitHub Activity
-        uses: thedannicraft/activity-log@v1
+        uses: TheDanniCraft/activity-log@v1.0.0
         with:
           GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
@@ -85,7 +85,7 @@ Please note that only those public events that belong to the following list show
 - `StarEvent`
 - `PublicEvent`
 
-You can find an example [here]().
+You can find an example [here](https://github.com/TheDanniCraft/activity-log/blob/master/.github/workflows/update-activity.yml).
 
 ### Inputs
 
