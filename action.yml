@@ -23,6 +23,9 @@ inputs:
     description: 'Commit Message'
     required: false
     default: 'Update README.md with latest activity'
+branding:
+  color: red
+  icon: activity
 
 runs:
   using: 'node20'
