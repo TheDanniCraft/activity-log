@@ -34,6 +34,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 - Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here](https://github.com/TheDanniCraft/activity-log/blob/aa249f7e4890d1c08ca7888f8483895a0d922c14/README.MD?plain=1#L20-L21).
 
+- [Create a Personal Acces Token](https://github.com/settings/tokens) with `repo` scopes and add the token as [Repository  Secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
+
 - Now create the workflow file.
 
 ```yml
@@ -52,7 +54,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update GitHub Activity
-        uses: TheDanniCraft/activity-log@v1.0.0
+        uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
