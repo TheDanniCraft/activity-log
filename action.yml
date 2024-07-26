@@ -1,4 +1,4 @@
-name: 'Update GitHub Activity'
+name: 'README Activity Update'
 description: 'Updates the GitHub activity in the README file.'
 
 inputs:
