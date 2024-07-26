@@ -29323,7 +29323,7 @@ const { commitMessage, readmePath, token } = __nccwpck_require__(2449);
 async function updateReadme(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            console.warn('⚠️ No activity to update. The README.md will not be changed.');
+            core.warning('⚠️ No activity to update. The README.md will not be changed.');
             return;
         }
 
@@ -29349,12 +29349,12 @@ async function updateReadme(activity) {
 
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            console.log('📄 No changes in README.MD, skipping...');
+            core.notice('📄 No changes in README.MD, skipping...');
             return;
         }
 
         fs.writeFileSync(readmePath, updatedContent, 'utf-8');
-        console.log('✅ README.md updated successfully!');
+        core.notice('✅ README.md updated successfully!');
 
         // Use @actions/github to commit and push changes
         const octokit = github.getOctokit(token);
@@ -29417,7 +29417,7 @@ async function updateReadme(activity) {
 
         // Construct the commit URL
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
-        console.log(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
+        core.notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
         core.setFailed(`❌ Error updating README.md: ${error.message}`);
     }
@@ -29481,7 +29481,7 @@ async function fetchAllEvents() {
 
         // Check for API rate limit or pagination issues
         if (events.length === 0) {
-            console.warn('⚠️ Alert: No more events available.');
+            core.warning('⚠️ No more events available.');
             break; // No more events to fetch
         }
 
@@ -29532,7 +29532,7 @@ async function fetchAndFilterEvents() {
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        console.warn(`⚠️ Alert: Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        core.warning(`⚠️ Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
     }
 
     // Generate ordered list of events with descriptions
@@ -31460,6 +31460,7 @@ var __webpack_exports__ = {};
 const { fetchAndFilterEvents } = __nccwpck_require__(4223);
 const { updateReadme } = __nccwpck_require__(2469);
 const { username, token, eventLimit, ignoreEvents, readmePath, commitMessage } = __nccwpck_require__(2449);
+const core = __nccwpck_require__(7122)
 
 // Main function to execute the update process
 async function main() {
@@ -31467,7 +31468,7 @@ async function main() {
         const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
         await updateReadme(activity, readmePath);
     } catch (error) {
-        console.error('❌ Error in the update process:', error);
+        core.error('❌ Error in the update process:', error);
     }
 }
 

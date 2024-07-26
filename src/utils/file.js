@@ -7,7 +7,7 @@ const { commitMessage, readmePath, token } = require('../config');
 async function updateReadme(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            console.warn('⚠️ No activity to update. The README.md will not be changed.');
+            core.warning('⚠️ No activity to update. The README.md will not be changed.');
             return;
         }
 
@@ -33,12 +33,12 @@ async function updateReadme(activity) {
 
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            console.log('📄 No changes in README.MD, skipping...');
+            core.notice('📄 No changes in README.MD, skipping...');
             return;
         }
 
         fs.writeFileSync(readmePath, updatedContent, 'utf-8');
-        console.log('✅ README.md updated successfully!');
+        core.notice('✅ README.md updated successfully!');
 
         // Use @actions/github to commit and push changes
         const octokit = github.getOctokit(token);
@@ -101,7 +101,7 @@ async function updateReadme(activity) {
 
         // Construct the commit URL
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
-        console.log(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
+        core.notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
         core.setFailed(`❌ Error updating README.md: ${error.message}`);
     }

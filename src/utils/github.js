@@ -46,7 +46,7 @@ async function fetchAllEvents() {
 
         // Check for API rate limit or pagination issues
         if (events.length === 0) {
-            console.warn('⚠️ Alert: No more events available.');
+            core.warning('⚠️ No more events available.');
             break; // No more events to fetch
         }
 
@@ -97,7 +97,7 @@ async function fetchAndFilterEvents() {
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        console.warn(`⚠️ Alert: Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        core.warning(`⚠️ Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
     }
 
     // Generate ordered list of events with descriptions
