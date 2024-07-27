@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95c154ad5d773cf09fc019a93212d184eb787a9e)
-2. 🚀 Created a new tag [`v1.0.0`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.0) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/b5c32c715fec2403c2357b9b3026276fbf182b35)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/60d37c1cff51c8a615a8e283a85b6c3a4ffb0a5b)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dffd2788036d2449ea21d0cb2eaef6a1279b17f4)
-6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1a108b9625626e6fc2f1e912ceef6b5be91cec61)
-7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c22782999138a7fbde7bd718889446ae235a978a)
-8. 📦 Published release [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🚀 Created a new tag [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗑️ Deleted a tag `v1.0.0` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🚀 Created a new tag [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🗑️ Deleted a tag `v1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 📦 Published release [`v1.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🚀 Created a new tag [`v1.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1f5a9730d9744cd81f957cac31d8864de3f9547e)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95c154ad5d773cf09fc019a93212d184eb787a9e)
+7. 🚀 Created a new tag [`v1.0.0`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.0) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/b5c32c715fec2403c2357b9b3026276fbf182b35)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/60d37c1cff51c8a615a8e283a85b6c3a4ffb0a5b)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dffd2788036d2449ea21d0cb2eaef6a1279b17f4)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
