@@ -14,12 +14,12 @@ const eventDescriptions = {
 
         if (ref_type === 'repository') {
             return isPrivate
-                ? '🚀 Created a new private repository'
-                : `🚀 Created a new repository [${repo.name}](https://github.com/${repo.name})`;
+                ? '🎉 Created a new private repository'
+                : `🎉 Created a new repository [${repo.name}](https://github.com/${repo.name})`;
         } else {
             return isPrivate
-                ? `🚀 Created a new ${ref_type} \`${ref}\` in a private repo`
-                : `🚀 Created a new ${ref_type} [\`${ref}\`](${refUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+                ? `➕ Created a new ${ref_type} \`${ref}\` in a private repo`
+                : `➕ Created a new ${ref_type} [\`${ref}\`](${refUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         }
     },
 
