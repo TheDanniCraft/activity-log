@@ -66,6 +66,7 @@ The above job runs every half an hour, you can change it as you wish based on th
 
 Please note that only those public events that belong to the following list show up:
 
+- `CreateEvent`
 - `PushEvent`
 - `IssuesEvent`
   - `opened`

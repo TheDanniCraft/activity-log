@@ -1,4 +1,5 @@
 const github = require('@actions/github');
+const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
 const { username, token, eventLimit, ignoreEvents } = require('../config');
 
@@ -7,13 +8,18 @@ const octokit = github.getOctokit(token);
 
 // Function to fetch repository details
 async function fetchRepoDetails() {
-    const { data: repos } = await octokit.rest.repos.listForAuthenticatedUser();
+    try {
+        const { data: repos } = await octokit.rest.repos.listForAuthenticatedUser();
 
-    // Create a map of repo name to its visibility status
-    return repos.reduce((map, repo) => {
-        map[repo.name] = !repo.private; // Store visibility status as true for public
-        return map;
-    }, {});
+        // Create a map of repo name to its visibility status
+        return repos.reduce((map, repo) => {
+            map[repo.name] = !repo.private; // Store visibility status as true for public
+            return map;
+        }, {});
+    } catch (error) {
+        core.error(`❌ Error fetching repository details: ${error.message}`);
+        return;
+    }
 }
 
 // Function to check if the event was likely triggered by GitHub Actions or bots
@@ -35,29 +41,32 @@ function isTriggeredByGitHubActions(event) {
 async function fetchAllEvents() {
     let allEvents = [];
     let page = 1;
-    let totalFetched = 0;
 
-    while (totalFetched < eventLimit) {
-        const { data: events } = await octokit.rest.activity.listPublicEventsForUser({
-            username,
-            per_page: 30,
-            page
-        });
+    while (allEvents.length < eventLimit) {
+        try {
+            const { data: events } = await octokit.rest.activity.listPublicEventsForUser({
+                username,
+                per_page: 30,
+                page
+            });
 
-        // Check for API rate limit or pagination issues
-        if (events.length === 0) {
-            core.warning('⚠️ No more events available.');
-            break; // No more events to fetch
+            // Check for API rate limit or pagination issues
+            if (events.length === 0) {
+                core.warning('⚠️ No more events available.');
+                break; // No more events to fetch
+            }
+
+            allEvents = allEvents.concat(events);
+            page++;
+
+            // Exit loop if we have enough events
+            if (allEvents.length >= eventLimit) {
+                break;
+            }
+        } catch (error) {
+            core.error(`❌ Error fetching events: ${error.message}`);
+            break;
         }
-
-        allEvents = allEvents.concat(events);
-        totalFetched = allEvents.length;
-
-        if (events.length < 30) {
-            break; // No more pages
-        }
-
-        page++;
     }
 
     return allEvents;
@@ -75,7 +84,6 @@ async function fetchAndFilterEvents() {
         // Apply filtering
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type)) // Exclude ignored events
-            .filter(event => !['CreateEvent', 'DeleteEvent'].includes(event.type)) // Exclude branch-related events
             .filter(event => !isTriggeredByGitHubActions(event)); // Exclude GitHub Actions triggered events
 
         // Slice to meet event limit if needed
@@ -106,7 +114,7 @@ async function fetchAndFilterEvents() {
     for (const event of filteredEvents) {
         const type = event.type;
         const repo = event.repo;
-        const isPrivate = repo.private;
+        const isPrivate = repoDetails[repo.name] === undefined ? repo.private : repoDetails[repo.name];
         const action = event.payload.action || (event.payload.pull_request && event.payload.pull_request.merged) ? (event.payload.action || 'merged') : '';
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
