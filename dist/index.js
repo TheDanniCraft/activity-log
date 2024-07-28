@@ -29285,8 +29285,8 @@ const eventDescriptions = {
 
     'PullRequestEvent': {
         'opened': ({ repo, pr, isPrivate }) => isPrivate
-            ? '🚀 Opened a PR in a private repo'
-            : `🚀 Opened [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+            ? '📥 Opened a PR in a private repo'
+            : `📥 Opened [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
         'synchronize': ({ repo, pr, isPrivate }) => isPrivate
             ? '🔄 Updated a PR in a private repo'
@@ -29306,11 +29306,11 @@ const eventDescriptions = {
         const releaseUrl = `https://github.com/${repo.name}/releases/tag/${release.tag_name}`;
         return release.draft
             ? (isPrivate
-                ? '📝 Created a draft release in a private repo'
-                : `📝 Created a draft release in [${repo.name}](https://github.com/${repo.name})`)
+                ? '✏️ Created a draft release in a private repo'
+                : `✏️ Created a draft release in [${repo.name}](https://github.com/${repo.name})`)
             : (isPrivate
-                ? '📦 Published release in a private repo'
-                : `📦 Published release [\`${release.tag_name}\`](${releaseUrl}) in [${repo.name}](https://github.com/${repo.name})`);
+                ? '🚀 Published release in a private repo'
+                : `🚀 Published release [\`${release.tag_name}\`](${releaseUrl}) in [${repo.name}](https://github.com/${repo.name})`);
     },
 
     'ForkEvent': ({ repo, isPrivate }) => isPrivate
