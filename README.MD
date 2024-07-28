@@ -25,7 +25,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 5. 🎉 Created a new repository [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
 6. ➕ Created a new tag [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 7. 🗑️ Deleted a tag `v1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 📦 Published release [`v1.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Published release [`v1.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 9. ➕ Created a new tag [`v1.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1f5a9730d9744cd81f957cac31d8864de3f9547e)
 <!--END_SECTION:activity-->
