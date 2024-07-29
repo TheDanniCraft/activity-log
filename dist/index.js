@@ -29191,7 +29191,6 @@ function wrappy (fn, cb) {
 /***/ 2449:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const fs = __nccwpck_require__(7147);
 const core = __nccwpck_require__(7122);
 
 // Function to process ignore events
@@ -29511,16 +29510,22 @@ const { username, token, eventLimit, ignoreEvents } = __nccwpck_require__(2449);
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
 
-// Function to fetch repository details
+// Function to fetch repository details and starred repositories
 async function fetchRepoDetails() {
     try {
         const { data: repos } = await octokit.rest.repos.listForAuthenticatedUser();
+        const { data: starredRepos } = await octokit.rest.activity.listReposStarredByAuthenticatedUser();
 
         // Create a map of repo name to its visibility status
-        return repos.reduce((map, repo) => {
+        const repoVisibility = repos.reduce((map, repo) => {
             map[repo.name] = !repo.private; // Store visibility status as true for public
             return map;
         }, {});
+
+        // Create a set of starred repo names
+        const starredRepoNames = new Set(starredRepos.map(repo => `${repo.owner.login}/${repo.name}`));
+
+        return { repoVisibility, starredRepoNames };
     } catch (error) {
         core.setFailed(`❌ Error fetching repository details: ${error.message}`);
         return;
@@ -29579,31 +29584,34 @@ async function fetchAllEvents() {
 
 // Function to fetch and filter events
 async function fetchAndFilterEvents() {
-    let allEvents = await fetchAllEvents(); // Fetch all events with pagination
-    const repoDetails = await fetchRepoDetails();
+    let allEvents = await fetchAllEvents();
+    const { repoVisibility, starredRepoNames } = await fetchRepoDetails();
 
     let filteredEvents = [];
 
-    // Apply filtering and refetch if necessary
     while (filteredEvents.length < eventLimit) {
-        // Apply filtering
         filteredEvents = allEvents
-            .filter(event => !ignoreEvents.includes(event.type)) // Exclude ignored events
-            .filter(event => !isTriggeredByGitHubActions(event)); // Exclude GitHub Actions triggered events
-
-        // Slice to meet event limit if needed
-        filteredEvents = filteredEvents.slice(0, eventLimit);
+            .filter(event => !ignoreEvents.includes(event.type))
+            .filter(event => !isTriggeredByGitHubActions(event))
+            .map(event => {
+                if (event.type === 'WatchEvent') {
+                    const isStarred = starredRepoNames.has(event.repo.name);
+                    console.log(starredRepoNames)
+                    // Change the event type to 'StarEvent' if the repo is starred
+                    return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
+                }
+                return event;
+            })
+            .slice(0, eventLimit);
 
         if (filteredEvents.length < eventLimit) {
-            // Fetch more events if we still need more
             const additionalEvents = await fetchAllEvents();
-            allEvents = additionalEvents.concat(allEvents); // Add new events to existing
+            allEvents = additionalEvents.concat(allEvents);
         } else {
-            break; // We have enough events
+            break;
         }
     }
 
-    // Final filtering and limiting
     filteredEvents = filteredEvents.slice(0, eventLimit);
 
     const fetchedEventCount = filteredEvents.length;
@@ -29614,12 +29622,10 @@ async function fetchAndFilterEvents() {
     }
 
     // Generate ordered list of events with descriptions
-    const listItems = [];
-
-    for (const event of filteredEvents) {
+    const listItems = filteredEvents.map((event, index) => {
         const type = event.type;
         const repo = event.repo;
-        const isPrivate = repoDetails[repo.name] === undefined ? repo.private : repoDetails[repo.name];
+        const isPrivate = repoVisibility[repo.name] === undefined ? repo.private : repoVisibility[repo.name];
         const action = event.payload.action || (event.payload.pull_request && event.payload.pull_request.merged) ? (event.payload.action || 'merged') : '';
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
@@ -29632,8 +29638,8 @@ async function fetchAndFilterEvents() {
                     : 'Unknown action'))
             : 'Unknown event';
 
-        listItems.push(`${listItems.length + 1}. ${description}`);
-    }
+        return `${index + 1}. ${description}`;
+    });
 
     return listItems.join('\n');
 }
@@ -29641,7 +29647,6 @@ async function fetchAndFilterEvents() {
 module.exports = {
     fetchAndFilterEvents,
 };
-
 
 /***/ }),
 
