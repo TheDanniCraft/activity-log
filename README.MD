@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2efa2ac0d2f693f05456e5f3b14c1bbc8cc21f1a)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fd76c8a81b20e28e87d2b9d4d0f3060c419e6ea7)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/598f06dcb9ea316de88955537787f3e9fe75d66b)
-4. ⭐ Starred [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/150431b4aadc484b56b180631be82aeef57226dd)
-6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9f11b654fba39784f89fe57a07b8eeff811143ed)
-7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/2b514c222b2fe3722d3847f0e00de34a87f53aa1)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f6cdc5b8398c5e1a2cb65b4bb1003371c37aebf7)
-9. 📝 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/08a45330311743ebee4fead3e45058acfc500d3d)
-10. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/tag-bumper/tree/master) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+1. ❌ Closed [PR #1](https://github.com/TheDanniCraft/tag-bumper/pull/1) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+2. ❌ Closed [PR #49](https://github.com/TheDanniCraft/Portfolio/pull/49) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+3. ❌ Closed [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. ❌ Closed [PR #10](https://github.com/Wiresense/wiresense.js/pull/10) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #10](https://github.com/Wiresense/wiresense.js/pull/10) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2efa2ac0d2f693f05456e5f3b14c1bbc8cc21f1a)
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fd76c8a81b20e28e87d2b9d4d0f3060c419e6ea7)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/598f06dcb9ea316de88955537787f3e9fe75d66b)
+10. ⭐ Starred [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
