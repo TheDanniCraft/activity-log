@@ -18,16 +18,6 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/150431b4aadc484b56b180631be82aeef57226dd)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9f11b654fba39784f89fe57a07b8eeff811143ed)
-4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/2b514c222b2fe3722d3847f0e00de34a87f53aa1)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f6cdc5b8398c5e1a2cb65b4bb1003371c37aebf7)
-6. 📝 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/08a45330311743ebee4fead3e45058acfc500d3d)
-7. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/tag-bumper/tree/master) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-8. 🎉 Created a new repository [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-9. ➕ Created a new tag [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗑️ Deleted a tag `v1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
@@ -41,7 +31,7 @@ Include the following placeholders in your `README.md` where you want the activi
 <!--END_SECTION:activity-->
 ```
 
-For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/aa249f7e4890d1c08ca7888f8483895a0d922c14/README.MD?plain=1#L20-L21).
+For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/598f06dcb9ea316de88955537787f3e9fe75d66b/README.MD?plain=1#L20-L21).
 
 ### 2. Create a Personal Access Token
 
