@@ -31,7 +31,7 @@ Include the following placeholders in your `README.md` where you want the activi
 <!--END_SECTION:activity-->
 ```
 
-For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/598f06dcb9ea316de88955537787f3e9fe75d66b/README.MD?plain=1#L20-L21).
+For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/fd76c8a81b20e28e87d2b9d4d0f3060c419e6ea7/README.MD?plain=1#L20-L21).
 
 ### 2. Create a Personal Access Token
 
