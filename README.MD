@@ -19,15 +19,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🔔 Watching [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/150431b4aadc484b56b180631be82aeef57226dd)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9f11b654fba39784f89fe57a07b8eeff811143ed)
+2. 📝 Committed to a private repo
+3. 📝 Committed to a private repo
 4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/2b514c222b2fe3722d3847f0e00de34a87f53aa1)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f6cdc5b8398c5e1a2cb65b4bb1003371c37aebf7)
+5. 📝 Committed to a private repo
 6. 📝 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/08a45330311743ebee4fead3e45058acfc500d3d)
 7. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/tag-bumper/tree/master) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
 8. 🎉 Created a new repository [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-9. ➕ Created a new tag [`v1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗑️ Deleted a tag `v1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ➕ Created a new tag `v1` in a private repo
+10. 🗑️ Deleted a tag `v1` in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
