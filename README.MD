@@ -32,11 +32,37 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 ## 📖Usage
 
-- Create the section in your `README.MD` by adding a start `<!--START_SECTION:activity-->`  and end `<!--END_SECTION:activity-->`. You can find  an example [here](https://github.com/TheDanniCraft/activity-log/blob/aa249f7e4890d1c08ca7888f8483895a0d922c14/README.MD?plain=1#L20-L21).
+### 1. Add Sections to `README.md`
 
-- [Create a Personal Acces Token](https://github.com/settings/tokens) with `repo` scopes and add the token as [Repository  Secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions).
+Include the following placeholders in your `README.md` where you want the activity log to appear:
 
-- Now create the workflow file.
+```markdown
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+```
+
+For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/aa249f7e4890d1c08ca7888f8483895a0d922c14/README.MD?plain=1#L20-L21).
+
+### 2. Create a Personal Access Token
+
+1. Go to your GitHub [Personal Access Tokens settings](https://github.com/settings/tokens).
+2. Click on "Generate new token".
+3. Provide a descriptive name for the token.
+4. Select the `repo` scope (recommended if you want private repo activity to show up).
+5. Click "Generate token" and copy the token (be sure to save it as you won’t be able to see it again).
+
+### 3. Add the Token as a Repository Secret
+
+1. Navigate to your GitHub repository.
+2. Go to "Settings" > "Secrets and variables" > "Actions".
+3. Click "New repository secret".
+4. Name the secret (e.g., `TOKEN`).
+5. Paste the personal access token into the value field.
+6. Click "Add secret".
+
+### 4. Create the Workflow File
+
+Create a new file in your repository under `.github/workflows/`, for example, `activity-log.yml`. Add the following content to this file:
 
 ```yml
 # .github/workflows/update-activity.yml:
@@ -57,7 +83,7 @@ jobs:
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # Ensure this matches the secret name in repository settings
 ```
 
 Take a look at all possible [Inputs](#inputs) for customization
