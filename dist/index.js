@@ -29191,7 +29191,7 @@ function wrappy (fn, cb) {
 /***/ 2449:
 /***/ ((module, __unused_webpack_exports, __nccwpck_require__) => {
 
-const path = __nccwpck_require__(1017);
+const fs = __nccwpck_require__(7147);
 const core = __nccwpck_require__(7122);
 
 // Function to process ignore events
@@ -29203,17 +29203,20 @@ function processIgnoreEvents(value) {
         .filter(Boolean); // Remove any empty values
 }
 
+// Function to process event limit
+function processEventLimit(value) {
+    const limit = parseInt(value, 10);
+    if (isNaN(limit)) core.setFailed('❌ EVENT_LIMIT is not a number');
+    if (limit < 1) core.setFailed('❌ EVENT_LIMIT can not be smaller than 1');
+    if (limit > 100) core.setFailed('❌ EVENT_LIMIT cannot be greater than 100.');
+    return limit;
+}
+
 // Load inputs from GitHub Actions
 module.exports = {
     username: core.getInput('GITHUB_USERNAME', { required: true }),
     token: core.getInput('GITHUB_TOKEN', { required: true }),
-    eventLimit: (() => {
-        const limit = parseInt(core.getInput('EVENT_LIMIT'), 10);
-        if (limit > 100) {
-            throw new Error('❌ EVENT_LIMIT cannot be greater than 100.');
-        }
-        return limit;
-    })(),
+    eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
     ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE')
@@ -29403,7 +29406,7 @@ async function updateReadme(activity) {
 
         const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
-            throw new Error('❌ Section markers not found or invalid in README.md.');
+            core.setFailed('❌ Section markers not found or invalid in README.md.');
         }
 
         const updatedContent = [
@@ -29519,7 +29522,7 @@ async function fetchRepoDetails() {
             return map;
         }, {});
     } catch (error) {
-        core.error(`❌ Error fetching repository details: ${error.message}`);
+        core.setFailed(`❌ Error fetching repository details: ${error.message}`);
         return;
     }
 }
@@ -29566,7 +29569,7 @@ async function fetchAllEvents() {
                 break;
             }
         } catch (error) {
-            core.error(`❌ Error fetching events: ${error.message}`);
+            core.setFailed(`❌ Error fetching events: ${error.message}`);
             break;
         }
     }
@@ -31543,7 +31546,7 @@ async function main() {
         const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
         await updateReadme(activity, readmePath);
     } catch (error) {
-        core.error('❌ Error in the update process:', error);
+        core.setFailed('❌ Error in the update process:', error);
     }
 }
 

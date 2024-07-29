@@ -17,7 +17,7 @@ async function fetchRepoDetails() {
             return map;
         }, {});
     } catch (error) {
-        core.error(`❌ Error fetching repository details: ${error.message}`);
+        core.setFailed(`❌ Error fetching repository details: ${error.message}`);
         return;
     }
 }
@@ -64,7 +64,7 @@ async function fetchAllEvents() {
                 break;
             }
         } catch (error) {
-            core.error(`❌ Error fetching events: ${error.message}`);
+            core.setFailed(`❌ Error fetching events: ${error.message}`);
             break;
         }
     }

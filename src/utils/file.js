@@ -20,7 +20,7 @@ async function updateReadme(activity) {
 
         const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
-            throw new Error('❌ Section markers not found or invalid in README.md.');
+            core.setFailed('❌ Section markers not found or invalid in README.md.');
         }
 
         const updatedContent = [
