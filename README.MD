@@ -98,11 +98,24 @@ Please note that only those public events that belong to the following list show
   - `opened`
   - `edited`
   - `closed`
+  - `reopened`
+  - `assigned`
+  - `unassigned`
+  - `labeled`
+  - `unlabeled`
 - `PullRequestEvent`
   - `opened`
-  - `synchronize`
+  - `edited`
   - `closed`
   - `merged`
+  - `reopened`
+  - `assigned`
+  - `unassigned`
+  - `review_requested`
+  - `review_request_removed`
+  - `labeled`
+  - `unlabeled`
+  - `synchronize`
 - `ReleaseEvent`
 - `ForkEvent`
 - `CommitCommentEvent`
@@ -113,6 +126,7 @@ Please note that only those public events that belong to the following list show
 - `WatchEvent`
 - `StarEvent`
 - `PublicEvent`
+- `SponsorshipEvent`
 
 You can find an example [here](https://github.com/TheDanniCraft/activity-log/blob/master/.github/workflows/update-activity.yml).
 

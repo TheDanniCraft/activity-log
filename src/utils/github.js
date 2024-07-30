@@ -92,7 +92,6 @@ async function fetchAndFilterEvents() {
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
-                    console.log(starredRepoNames)
                     // Change the event type to 'StarEvent' if the repo is starred
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
@@ -122,7 +121,10 @@ async function fetchAndFilterEvents() {
         const type = event.type;
         const repo = event.repo;
         const isPrivate = repoVisibility[repo.name] === undefined ? repo.private : repoVisibility[repo.name];
-        const action = event.payload.action || (event.payload.pull_request && event.payload.pull_request.merged) ? (event.payload.action || 'merged') : '';
+        const action = event.payload.pull_request
+            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+            : event.payload.action;
+
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
 
@@ -131,8 +133,8 @@ async function fetchAndFilterEvents() {
                 ? eventDescriptions[type]({ repo, isPrivate, pr, payload })
                 : (eventDescriptions[type][action]
                     ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
-                    : 'Unknown action'))
-            : 'Unknown event';
+                    : core.warning(`Unknown action: ${action}`)))
+            : core.warning(`Unknown event: ${event}`);
 
         return `${index + 1}. ${description}`;
     });

@@ -53,6 +53,46 @@ const eventDescriptions = {
             return isPrivate
                 ? '❌ Closed an issue in a private repo'
                 : `❌ Closed an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'reopened': ({ repo, isPrivate, payload }) => {
+            const { issue } = payload;
+            const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
+            return isPrivate
+                ? '🔄 Reopened an issue in a private repo'
+                : `🔄 Reopened an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'assigned': ({ repo, isPrivate, payload }) => {
+            const { issue } = payload;
+            const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
+            return isPrivate
+                ? '👤 Assigned an issue in a private repo'
+                : `👤 Assigned an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'unassigned': ({ repo, isPrivate, payload }) => {
+            const { issue } = payload;
+            const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
+            return isPrivate
+                ? '👤 Unassigned an issue in a private repo'
+                : `👤 Unassigned an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'labeled': ({ repo, isPrivate, payload }) => {
+            const { issue } = payload;
+            const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
+            return isPrivate
+                ? '🏷️ Added a label to an issue in a private repo'
+                : `🏷️ Added a label to an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'unlabeled': ({ repo, isPrivate, payload }) => {
+            const { issue } = payload;
+            const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
+            return isPrivate
+                ? '🏷️ Removed a label from an issue in a private repo'
+                : `🏷️ Removed a label from an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         }
     },
 
@@ -61,17 +101,53 @@ const eventDescriptions = {
             ? '📥 Opened a PR in a private repo'
             : `📥 Opened [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
-        'synchronize': ({ repo, pr, isPrivate }) => isPrivate
-            ? '🔄 Updated a PR in a private repo'
-            : `🔄 Updated [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+        'edited': ({ repo, pr, isPrivate }) => isPrivate
+            ? '📝 Edited a PR in a private repo'
+            : `📝 Edited [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
         'closed': ({ repo, pr, isPrivate }) => isPrivate
             ? '❌ Closed a PR in a private repo'
             : `❌ Closed [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
         'merged': ({ repo, pr, isPrivate }) => isPrivate
-            ? '✅ Merged a PR in a private repo'
-            : `✅ Merged [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`
+            ? '🔀 Merged a PR in a private repo'
+            : `🔀 Merged [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'reopened': ({ repo, pr, isPrivate }) => isPrivate
+            ? '🔄 Reopened a PR in a private repo'
+            : `🔄 Reopened [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'assigned': ({ repo, pr, isPrivate }) => isPrivate
+            ? '👤 Assigned a PR in a private repo'
+            : `👤 Assigned [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'unassigned': ({ repo, pr, isPrivate }) => isPrivate
+            ? '👤 Unassigned a PR in a private repo'
+            : `👤 Unassigned [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'review_requested': ({ repo, pr, isPrivate }) => isPrivate
+            ? '🔍 Requested a review for a PR in a private repo'
+            : `🔍 Requested a review for [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'review_request_removed': ({ repo, pr, isPrivate }) => isPrivate
+            ? '🔍 Removed a review request for a PR in a private repo'
+            : `🔍 Removed a review request for [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+
+        'labeled': ({ repo, pr, isPrivate }) => {
+            return isPrivate
+                ? '🏷️ Added a label to a PR in a private repo'
+                : `🏷️ Added a label to [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'unlabeled': ({ repo, pr, isPrivate }) => {
+            return isPrivate
+                ? '🏷️ Removed a label from a PR in a private repo'
+                : `🏷️ Removed a label from [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`;
+        },
+
+        'synchronize': ({ repo, pr, isPrivate }) => isPrivate
+            ? '🔄 Synchronized a PR in a private repo'
+            : `🔄 Synchronized [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`
     },
 
     'ReleaseEvent': ({ repo, isPrivate, payload }) => {
@@ -143,7 +219,16 @@ const eventDescriptions = {
         ? '⭐ Starred a private repo'
         : `⭐ Starred [${repo.name}](https://github.com/${repo.name})`,
 
-    'PublicEvent': ({ repo }) => `🌍 Made repository [${repo.name}](https://github.com/${repo.name}) public`
+    'PublicEvent': ({ repo }) => `🌍 Made repository [${repo.name}](https://github.com/${repo.name}) public`,
+
+    'SponsorshipEvent': ({ repo, isPrivate, payload }) => {
+        const { sponsorship } = payload;
+        const sponsorUrl = `https://github.com/${sponsorship.sponsor.login}`;
+        const sponsoredUrl = `https://github.com/${repo.name}`;
+        return isPrivate
+            ? '🤝 Supported a sponsor in a private repo'
+            : `🤝 Sponsored [${sponsorship.sponsor.login}](${sponsorUrl}) for [${repo.name}](${sponsoredUrl})`;
+    }
 };
 
 module.exports = eventDescriptions;
