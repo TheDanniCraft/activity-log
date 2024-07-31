@@ -138,7 +138,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `GITHUB_TOKEN`    | The GitHub token.                                            | Yes          | `-`                                     |
 | `EVENT_LIMIT`     | The maximum number of events to display.                     | No           | `10`                                    |
 | `IGNORE_EVENTS`   | The events to ignore, specified as a JSON array.             | No           | `[]`                                    |
-| `README_PATH`     | The path to the README file.                                 | No           | `README.MD`                             |
+| `README_PATH`     | The path to the README file.                                 | No           | `README.md`                             |
 | `COMMIT_MESSAGE`  | Commit Message                                               | No           | `Update README.md with latest activity` |
 
 ## 📜License
