@@ -29293,19 +29293,19 @@ const eventDescriptions = {
         },
 
         'assigned': ({ repo, isPrivate, payload }) => {
-            const { issue, assignee } = payload;
+            const { issue } = payload;
             const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
             return isPrivate
-                ? `👤 Assigned a user to an issue in a private repo`
-                : `👤 Assigned [${assignee.login}](https://github.com/${assignee.login}) to an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+                ? '👤 Assigned an issue in a private repo'
+                : `👤 Assigned an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         },
 
         'unassigned': ({ repo, isPrivate, payload }) => {
-            const { issue, assignee } = payload;
+            const { issue } = payload;
             const issueUrl = `https://github.com/${repo.name}/issues/${issue.number}`;
             return isPrivate
-                ? `👤 Unassigned a user from an issue in a private repo`
-                : `👤 Unassigned [${assignee.login}](https://github.com/${assignee.login}) from an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+                ? '👤 Unassigned an issue in a private repo'
+                : `👤 Unassigned an issue [#${issue.number}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         },
 
         'labeled': ({ repo, isPrivate, payload }) => {
@@ -29347,8 +29347,8 @@ const eventDescriptions = {
             : `🔄 Reopened [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
         'assigned': ({ repo, pr, isPrivate }) => isPrivate
-            ? '➕ Assigned a PR in a private repo'
-            : `➕ Assigned [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
+            ? '👤 Assigned a PR in a private repo'
+            : `👤 Assigned [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name})`,
 
         'unassigned': ({ repo, pr, isPrivate }) => isPrivate
             ? '👤 Unassigned a PR in a private repo'
@@ -29595,26 +29595,34 @@ const { username, token, eventLimit, ignoreEvents } = __nccwpck_require__(2449);
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
 
-// Function to fetch repository details and starred repositories
-async function fetchRepoDetails() {
-    try {
-        const { data: repos } = await octokit.rest.repos.listForAuthenticatedUser();
-        const { data: starredRepos } = await octokit.rest.activity.listReposStarredByAuthenticatedUser();
+// Function to fetch starred repositories with pagination
+async function fetchAllStarredRepos() {
+    let starredRepos = [];
+    let page = 1;
 
-        // Create a map of repo name to its visibility status
-        const repoVisibility = repos.reduce((map, repo) => {
-            map[repo.name] = !repo.private; // Store visibility status as true for public
-            return map;
-        }, {});
+    while (true) {
+        try {
+            const { data: pageStarredRepos } = await octokit.rest.activity.listReposStarredByAuthenticatedUser({
+                per_page: 100,
+                page
+            });
 
-        // Create a set of starred repo names
-        const starredRepoNames = new Set(starredRepos.map(repo => `${repo.owner.login}/${repo.name}`));
+            if (pageStarredRepos.length === 0) {
+                break;
+            }
 
-        return { repoVisibility, starredRepoNames };
-    } catch (error) {
-        core.setFailed(`❌ Error fetching repository details: ${error.message}`);
-        return;
+            starredRepos = starredRepos.concat(pageStarredRepos);
+            page++;
+        } catch (error) {
+            core.setFailed(`❌ Error fetching starred repositories: ${error.message}`);
+            return [];
+        }
     }
+
+    // Create a set of starred repo names
+    const starredRepoNames = new Set(starredRepos.map(repo => `${repo.owner.login}/${repo.name}`));
+
+    return { starredRepoNames };
 }
 
 // Function to check if the event was likely triggered by GitHub Actions or bots
@@ -29639,9 +29647,9 @@ async function fetchAllEvents() {
 
     while (allEvents.length < eventLimit) {
         try {
-            const { data: events } = await octokit.rest.activity.listPublicEventsForUser({
+            const { data: events } = await octokit.rest.activity.listEventsForAuthenticatedUser({
                 username,
-                per_page: 30,
+                per_page: 100,
                 page
             });
 
@@ -29669,8 +29677,8 @@ async function fetchAllEvents() {
 
 // Function to fetch and filter events
 async function fetchAndFilterEvents() {
+    const { starredRepoNames } = await fetchAllStarredRepos();
     let allEvents = await fetchAllEvents();
-    const { repoVisibility, starredRepoNames } = await fetchRepoDetails();
 
     let filteredEvents = [];
 
@@ -29709,7 +29717,7 @@ async function fetchAndFilterEvents() {
     const listItems = filteredEvents.map((event, index) => {
         const type = event.type;
         const repo = event.repo;
-        const isPrivate = repoVisibility[repo.name] === undefined ? repo.private : repoVisibility[repo.name];
+        const isPrivate = !event.public;
         const action = event.payload.pull_request
             ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
             : event.payload.action;
@@ -29734,6 +29742,7 @@ async function fetchAndFilterEvents() {
 module.exports = {
     fetchAndFilterEvents,
 };
+
 
 /***/ }),
 
