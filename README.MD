@@ -31,6 +31,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 10. 🔎 Reviewed [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 =======
 <!--START_SECTION:activity-->
+<<<<<<< HEAD
 1. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/donation/pull/33) in [TheDanniCraft/donation](https://github.com/TheDanniCraft/donation)
 2. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/stream-with-me/pull/27) in [TheDanniCraft/stream-with-me](https://github.com/TheDanniCraft/stream-with-me)
 3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cbea60b1af00e40e07650acf58971e73b573748e)
@@ -42,6 +43,18 @@ A GitHub Action that automatically updates your README file with the latest acti
 9. 🔀 Merged [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 10. 🔎 Reviewed [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 >>>>>>> 162e14e (⚡ Update README.md with latest activity)
+=======
+1. 🔀 Merged a PR in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 📝 Committed to a private repo
+4. 📝 Committed to a private repo
+5. 📝 Committed to a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged a PR in a private repo
+9. 🔀 Merged a PR in a private repo
+10. 🔎 Reviewed a PR in a private repo
+>>>>>>> 7574f8d (⚡ Update README.md with latest activity)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
