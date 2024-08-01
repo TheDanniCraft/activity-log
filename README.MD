@@ -18,12 +18,12 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged a PR in a private repo
+1. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/donation/pull/33) in [TheDanniCraft/donation](https://github.com/TheDanniCraft/donation)
+2. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/stream-with-me/pull/27) in [TheDanniCraft/stream-with-me](https://github.com/TheDanniCraft/stream-with-me)
 3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cbea60b1af00e40e07650acf58971e73b573748e)
 4. 📝 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/388f4cb5af3da41714afb705f4dd592301eef18f)
 5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dc2684c841ac20e19d5c2fda6f90623072257f50)
-6. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/season-pass/pull/10) in [TheDanniCraft/season-pass](https://github.com/TheDanniCraft/season-pass)
 7. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/tag-bumper/pull/1) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
 8. 🔀 Merged [PR #49](https://github.com/TheDanniCraft/Portfolio/pull/49) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 9. 🔀 Merged [PR #26](https://github.com/Wiresense/frontend/pull/26) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
