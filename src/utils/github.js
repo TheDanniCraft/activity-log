@@ -1,7 +1,7 @@
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
-const { username, token, eventLimit, ignoreEvents } = require('../config');
+const { username, token, eventLimit, style, ignoreEvents } = require('../config');
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -26,7 +26,7 @@ async function fetchAllStarredRepos() {
             page++;
         } catch (error) {
             core.setFailed(`❌ Error fetching starred repositories: ${error.message}`);
-            return [];
+            process.exit(1);
         }
     }
 
@@ -49,6 +49,13 @@ function isTriggeredByGitHubActions(event) {
         );
     }
     return false;
+}
+
+// Helper function to encode URLs
+function encodeHTML(str) {
+    return str
+        .replace(/`([^`]+)`/g, '<code>$1</code>') // Convert inline code (single backticks) to HTML <code> tags
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>'); // Convert [text](url) to <a href="url">text</a>
 }
 
 // Function to fetch all events with pagination and apply filtering
@@ -79,7 +86,7 @@ async function fetchAllEvents() {
             }
         } catch (error) {
             core.setFailed(`❌ Error fetching events: ${error.message}`);
-            break;
+            process.exit(1);
         }
     }
 
@@ -144,10 +151,14 @@ async function fetchAndFilterEvents() {
                     : core.warning(`Unknown action: ${action}`)))
             : core.warning(`Unknown event: ${event}`);
 
-        return `${index + 1}. ${description}`;
+        return style === 'MARKDOWN'
+            ? `${index + 1}. ${description}`
+            : `<li>${encodeHTML(description)}</li>`;
     });
 
-    return listItems.join('\n');
+    return style === 'MARKDOWN'
+        ? listItems.join('\n')
+        : `<ol>\n${listItems.join('\n')}\n</ol>`;
 }
 
 module.exports = {

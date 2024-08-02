@@ -33,7 +33,7 @@ async function updateReadme(activity) {
 
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            core.notice('📄 No changes in README.MD, skipping...');
+            core.notice('📄 No changes in README.md, skipping...');
             return;
         }
 

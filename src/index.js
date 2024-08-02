@@ -10,6 +10,7 @@ async function main() {
         await updateReadme(activity, readmePath);
     } catch (error) {
         core.setFailed('❌ Error in the update process:', error);
+        process.exit(1);
     }
 }
 

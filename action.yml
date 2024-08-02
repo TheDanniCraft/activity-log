@@ -1,32 +1,35 @@
-name: 'README Activity Update'
-description: 'Updates the GitHub activity in the README file.'
+name:  README Activity Update
+description:  Updates the GitHub activity in the README file.
 
 inputs:
   GITHUB_USERNAME:
-    description: 'The GitHub username.'
+    description:  Your GitHub username.
     required: true
   GITHUB_TOKEN:
-    description: 'The GitHub token.'
+    description:  Your GitHub token.
     required: true
   EVENT_LIMIT:
-    description: 'The maximum number of events to display.'
-    default: '10'
+    description:  The maximum number of events to display.
+    default:  '10'
+  OUTPUT_STYLE:
+    description:  Specifies the format in which the output should be rendered (MARKDOWN or HTML).
+    default:  MARKDOWN
   IGNORE_EVENTS:
-    description: 'The events to ignore, specified as a JSON array.'
+    description:  The events to ignore, specified as a JSON array.
     required: false
-    default: '[]'
+    default:  '[]'
   README_PATH:
-    description: 'The path to the README file.'
+    description:  The path to the README file.
     required: false
-    default: 'README.md'
+    default:  README.md
   COMMIT_MESSAGE:
-    description: 'Commit Message'
+    description:  Commit Message
     required: false
-    default: 'Update README.md with latest activity'
+    default:  Update README.md with latest activity
 branding:
   color: red
   icon: activity
 
 runs:
-  using: 'node20'
-  main: './dist/index.js'
+  using:  node20
+  main:  ./dist/index.js

@@ -16,6 +16,7 @@ jobs:
           GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           EVENT_LIMIT: 10
+          OUTPUT_STYLE: MARKDOWN
           IGNORE_EVENTS: "[]"
-          README_PATH: README.MD
+          README_PATH: README.md
           COMMIT_MESSAGE: "⚡ Update README.md with latest activity"
