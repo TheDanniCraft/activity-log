@@ -228,7 +228,30 @@ const eventDescriptions = {
         return isPrivate
             ? '🤝 Supported a sponsor in a private repo'
             : `🤝 Sponsored [${sponsorship.sponsor.login}](${sponsorUrl}) for [${repo.name}](${sponsoredUrl})`;
-    }
+    },
+
+    'GollumEvent': ({ repo, isPrivate, payload }) => {
+        const pageCounts = payload.pages.reduce((counts, page) => {
+            if (page.action === 'created') {
+                counts.created += 1;
+            } else if (page.action === 'edited') {
+                counts.edited += 1;
+            }
+            return counts;
+        }, { created: 0, edited: 0 });
+
+        const { created, edited } = pageCounts;
+        const totalUpdated = created + edited;
+
+        let description = '';
+        if (totalUpdated > 0) {
+            description = isPrivate
+                ? `📝 Updated ${totalUpdated} page${totalUpdated > 1 ? 's' : ''}${created > 0 ? ` (+${created} new page${created > 1 ? 's' : ''})` : ''} in a private repo`
+                : `📝 Updated ${totalUpdated} page${totalUpdated > 1 ? 's' : ''}${created > 0 ? ` (+${created} new page${created > 1 ? 's' : ''})` : ''} in [${repo.name}](https://github.com/${repo.name})`;
+        }
+
+        return description;
+    },
 };
 
 module.exports = eventDescriptions;

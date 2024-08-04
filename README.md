@@ -127,6 +127,7 @@ Please note that only those public events that belong to the following list show
 - `StarEvent`
 - `PublicEvent`
 - `SponsorshipEvent`
+- `GollumEvent`
 
 You can find an example [here](https://github.com/TheDanniCraft/activity-log/blob/master/.github/workflows/update-activity.yml).
 
