@@ -18,11 +18,12 @@ async function updateReadme(activity) {
         const startIdx = readmeContent.indexOf(startMarker);
         const endIdx = readmeContent.indexOf(endMarker);
 
-        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
             core.setFailed('❌ Section markers not found or invalid in README.md.');
+            return;
         }
 
+        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         const updatedContent = [
             readmeContent.substring(0, startIdx + startMarker.length),
             '\n',
@@ -34,15 +35,25 @@ async function updateReadme(activity) {
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
             core.notice('📄 No changes in README.md, skipping...');
+            if (process.env.ACT) {
+                core.debug('🚧 Act-Debug mode enabled)')
+                console.log(activity);
+            }
             return;
         }
 
+        // Write updated content to README.md
         fs.writeFileSync(readmePath, updatedContent, 'utf-8');
         core.notice('✅ README.md updated successfully!');
 
+        if (process.env.ACT) {
+            core.debug('🚧 Act-Debug mode enabled)')
+            console.log(activity);
+            return;
+        }
+
         // Use @actions/github to commit and push changes
         const octokit = github.getOctokit(token);
-
         const { owner, repo } = github.context.repo;
         const branch = github.context.ref.replace('refs/heads/', '');
 

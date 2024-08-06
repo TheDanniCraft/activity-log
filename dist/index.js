@@ -29419,8 +29419,8 @@ const eventDescriptions = {
         const commitUrl = `https://github.com/${repo.name}/commit/${comment.commit_id}`;
         const commentUrl = `${commitUrl}#commitcomment-${comment.id}`;
         return isPrivate
-            ? `💬 Commented on a commit in a private repo`
-            : `💬 Commented on [\`${comment.commit_id}\`](${commentUrl}) in [${repo.name}](https://github.com/${repo.name})`;
+            ? `🗣 Commented on a commit in a private repo`
+            : `🗣 Commented on [\`${comment.commit_id}\`](${commentUrl}) in [${repo.name}](https://github.com/${repo.name})`;
     },
 
     'IssueCommentEvent': ({ repo, isPrivate, payload }) => {
@@ -29429,8 +29429,8 @@ const eventDescriptions = {
         const issueUrl = `https://github.com/${repo.name}/issues/${issueNumber}`;
         const commentUrl = `${issueUrl}#issuecomment-${comment.id}`;
         return isPrivate
-            ? `💬 Commented on an issue in a private repo`
-            : `💬 Commented on issue [#${issueNumber}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name}): [View Comment](${commentUrl})`;
+            ? '🗣 Commented on an issue in a private repo'
+            : `🗣 Commented on issue [#${issueNumber}](${issueUrl}) in [${repo.name}](https://github.com/${repo.name}): [View Comment](${commentUrl})`;
     },
 
     'PullRequestReviewEvent': ({ repo, pr, isPrivate }) => isPrivate
@@ -29442,8 +29442,8 @@ const eventDescriptions = {
         const prUrl = `https://github.com/${repo.name}/pull/${pr.number}`;
         const commentUrl = `${prUrl}#pullrequestreviewcomment-${comment.id}`;
         return isPrivate
-            ? `💬 Commented on a review of a PR in a private repo`
-            : `💬 Commented on a review of [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name}): [View Comment](${commentUrl})`;
+            ? `🗣 Commented on a review of a PR in a private repo`
+            : `🗣 Commented on a review of [PR #${pr.number}](https://github.com/${repo.name}/pull/${pr.number}) in [${repo.name}](https://github.com/${repo.name}): [View Comment](${commentUrl})`;
     },
 
     'PullRequestReviewThreadEvent': ({ repo, pr, isPrivate, payload }) => {
@@ -29469,14 +29469,28 @@ const eventDescriptions = {
 
     'PublicEvent': ({ repo }) => `🌍 Made repository [${repo.name}](https://github.com/${repo.name}) public`,
 
-    'SponsorshipEvent': ({ repo, isPrivate, payload }) => {
-        const { sponsorship } = payload;
-        const sponsorUrl = `https://github.com/${sponsorship.sponsor.login}`;
-        const sponsoredUrl = `https://github.com/${repo.name}`;
-        return isPrivate
-            ? '🤝 Supported a sponsor in a private repo'
-            : `🤝 Sponsored [${sponsorship.sponsor.login}](${sponsorUrl}) for [${repo.name}](${sponsoredUrl})`;
-    }
+    'GollumEvent': ({ repo, isPrivate, payload }) => {
+        const pageCounts = payload.pages.reduce((counts, page) => {
+            if (page.action === 'created') {
+                counts.created += 1;
+            } else if (page.action === 'edited') {
+                counts.edited += 1;
+            }
+            return counts;
+        }, { created: 0, edited: 0 });
+
+        const { created, edited } = pageCounts;
+        const totalUpdated = created + edited;
+
+        let description = '';
+        if (totalUpdated > 0) {
+            description = isPrivate
+                ? `📝 Updated ${totalUpdated} page${totalUpdated > 1 ? 's' : ''}${created > 0 ? ` (+${created} new page${created > 1 ? 's' : ''})` : ''} in a private repo`
+                : `📝 Updated ${totalUpdated} page${totalUpdated > 1 ? 's' : ''}${created > 0 ? ` (+${created} new page${created > 1 ? 's' : ''})` : ''} in [${repo.name}](https://github.com/${repo.name})`;
+        }
+
+        return description;
+    },
 };
 
 module.exports = eventDescriptions;
@@ -29507,11 +29521,12 @@ async function updateReadme(activity) {
         const startIdx = readmeContent.indexOf(startMarker);
         const endIdx = readmeContent.indexOf(endMarker);
 
-        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
             core.setFailed('❌ Section markers not found or invalid in README.md.');
+            return;
         }
 
+        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
         const updatedContent = [
             readmeContent.substring(0, startIdx + startMarker.length),
             '\n',
@@ -29523,15 +29538,25 @@ async function updateReadme(activity) {
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
             core.notice('📄 No changes in README.md, skipping...');
+            if (process.env.ACT) {
+                core.debug('🚧 Act-Debug mode enabled)')
+                console.log(activity);
+            }
             return;
         }
 
+        // Write updated content to README.md
         fs.writeFileSync(readmePath, updatedContent, 'utf-8');
         core.notice('✅ README.md updated successfully!');
 
+        if (process.env.ACT) {
+            core.debug('🚧 Act-Debug mode enabled)')
+            console.log(activity);
+            return;
+        }
+
         // Use @actions/github to commit and push changes
         const octokit = github.getOctokit(token);
-
         const { owner, repo } = github.context.repo;
         const branch = github.context.ref.replace('refs/heads/', '');
 
