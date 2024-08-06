@@ -221,15 +221,6 @@ const eventDescriptions = {
 
     'PublicEvent': ({ repo }) => `🌍 Made repository [${repo.name}](https://github.com/${repo.name}) public`,
 
-    'SponsorshipEvent': ({ repo, isPrivate, payload }) => {
-        const { sponsorship } = payload;
-        const sponsorUrl = `https://github.com/${sponsorship.sponsor.login}`;
-        const sponsoredUrl = `https://github.com/${repo.name}`;
-        return isPrivate
-            ? '🤝 Supported a sponsor in a private repo'
-            : `🤝 Sponsored [${sponsorship.sponsor.login}](${sponsorUrl}) for [${repo.name}](${sponsoredUrl})`;
-    },
-
     'GollumEvent': ({ repo, isPrivate, payload }) => {
         const pageCounts = payload.pages.reduce((counts, page) => {
             if (page.action === 'created') {
