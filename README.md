@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔎 Reviewed [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9fadac9a131965bd92566f3b35f860914073cff2)
-5. ⭐ Starred [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons)
-6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/82a29a67caae5401f63fbfa2881b547a120922d0)
-7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/2d8c4c86ad40a8a4b36bc3efb4cf809a28a77bf3)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8d08a705672161fecc9bcb1161cad02c0f31cabb)
-9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fa768ba9bcd8eb7b77f0bc3aa85127337fba4761)
-10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/c93f85be52d453b7d15762d546b01f82831ddd98)
+1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/65d418dfc27860a98570c7f9fba5e5166febe9a5)
+2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e8a59cbf01680344143e12bf7b606a313df0d342)
+3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c71d03ad25e9cb6875b907eda385e026b528efba)
+4. 🗑️ Deleted a branch `renovate/postcss-8.x` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+5. 🔀 Merged [PR #151](https://github.com/TheDanniCraft/TerminalWebsite/pull/151) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+6. 🔀 Merged a PR in a private repo
+7. 🔀 Merged [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🔎 Reviewed [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9fadac9a131965bd92566f3b35f860914073cff2)
+10. ⭐ Starred [tandpfun/skill-icons](https://github.com/tandpfun/skill-icons)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
