@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2f28b721bc5d6012ce35d18ba20ceeebaf5cdf35)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/92565aee3b6685f2933475dd24db844f650f9845)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/65d418dfc27860a98570c7f9fba5e5166febe9a5)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e8a59cbf01680344143e12bf7b606a313df0d342)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c71d03ad25e9cb6875b907eda385e026b528efba)
-6. 🗑️ Deleted a branch `renovate/postcss-8.x` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-7. 🔀 Merged [PR #151](https://github.com/TheDanniCraft/TerminalWebsite/pull/151) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔎 Reviewed [PR #11](https://github.com/Wiresense/wiresense.js/pull/11) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/02afe3b31a2343c517743b8a5de24371029987d1)
+2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/63c5065feb27da8f4e60ff5bc3687b6ee46df42e)
+3. 📝 Committed to a private repo
+4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2f28b721bc5d6012ce35d18ba20ceeebaf5cdf35)
+5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/92565aee3b6685f2933475dd24db844f650f9845)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/65d418dfc27860a98570c7f9fba5e5166febe9a5)
+7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e8a59cbf01680344143e12bf7b606a313df0d342)
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c71d03ad25e9cb6875b907eda385e026b528efba)
+9. 🗑️ Deleted a branch `renovate/postcss-8.x` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+10. 🔀 Merged [PR #151](https://github.com/TheDanniCraft/TerminalWebsite/pull/151) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
