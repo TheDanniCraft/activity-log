@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/02afe3b31a2343c517743b8a5de24371029987d1)
-2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/63c5065feb27da8f4e60ff5bc3687b6ee46df42e)
-3. 📝 Committed to a private repo
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2f28b721bc5d6012ce35d18ba20ceeebaf5cdf35)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/92565aee3b6685f2933475dd24db844f650f9845)
-6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/65d418dfc27860a98570c7f9fba5e5166febe9a5)
-7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e8a59cbf01680344143e12bf7b606a313df0d342)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c71d03ad25e9cb6875b907eda385e026b528efba)
-9. 🗑️ Deleted a branch `renovate/postcss-8.x` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-10. 🔀 Merged [PR #151](https://github.com/TheDanniCraft/TerminalWebsite/pull/151) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+1. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/071d726cdd61e8a0b4093a57e3879ced94cceb19)
+2. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/017785be5e6476483e43ee7133181cc9a8f2fa62)
+3. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/652adf6b0c2352286b76e465ac5de7fbe6a2d880)
+4. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/e5dbfc3d568d5e17a2b964b7246374d27434ec58)
+5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/02afe3b31a2343c517743b8a5de24371029987d1)
+6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/63c5065feb27da8f4e60ff5bc3687b6ee46df42e)
+7. 📝 Committed to a private repo
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2f28b721bc5d6012ce35d18ba20ceeebaf5cdf35)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/92565aee3b6685f2933475dd24db844f650f9845)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/65d418dfc27860a98570c7f9fba5e5166febe9a5)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
