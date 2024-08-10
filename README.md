@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ➕ Created a new branch `master` in a private repo
-2. 🎉 Created a new private repository
-3. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0b5b69c34a0298e256494eb10d7938f9d90aefe6)
+2. ➕ Created a new branch `master` in a private repo
+3. 🎉 Created a new private repository
 4. 🔀 Merged a PR in a private repo
-5. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/071d726cdd61e8a0b4093a57e3879ced94cceb19)
-6. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/017785be5e6476483e43ee7133181cc9a8f2fa62)
-7. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/652adf6b0c2352286b76e465ac5de7fbe6a2d880)
-8. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/e5dbfc3d568d5e17a2b964b7246374d27434ec58)
-9. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/02afe3b31a2343c517743b8a5de24371029987d1)
-10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/63c5065feb27da8f4e60ff5bc3687b6ee46df42e)
+5. 🔀 Merged a PR in a private repo
+6. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/071d726cdd61e8a0b4093a57e3879ced94cceb19)
+7. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/017785be5e6476483e43ee7133181cc9a8f2fa62)
+8. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/652adf6b0c2352286b76e465ac5de7fbe6a2d880)
+9. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/e5dbfc3d568d5e17a2b964b7246374d27434ec58)
+10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/02afe3b31a2343c517743b8a5de24371029987d1)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
