@@ -42,10 +42,6 @@ async function updateReadme(activity) {
             return;
         }
 
-        // Write updated content to README.md
-        fs.writeFileSync(readmePath, updatedContent, 'utf-8');
-        core.notice('✅ README.md updated successfully!');
-
         if (process.env.ACT) {
             core.debug('🚧 Act-Debug mode enabled)')
             console.log(activity);
@@ -87,6 +83,8 @@ async function updateReadme(activity) {
                 content: updatedContent
             }]
         });
+
+        core.notice('✅ README.md updated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
