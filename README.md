@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ee149c4927242574547c32f468d6e32babef1823)
-2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-07-29` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0b5b69c34a0298e256494eb10d7938f9d90aefe6)
-4. ➕ Created a new branch `master` in a private repo
-5. 🎉 Created a new private repository
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged a PR in a private repo
-8. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/071d726cdd61e8a0b4093a57e3879ced94cceb19)
-9. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/017785be5e6476483e43ee7133181cc9a8f2fa62)
-10. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/652adf6b0c2352286b76e465ac5de7fbe6a2d880)
+1. 🔀 Merged [PR #27](https://github.com/Wiresense/frontend/pull/27) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔎 Reviewed [PR #27](https://github.com/Wiresense/frontend/pull/27) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #12](https://github.com/Wiresense/wiresense.js/pull/12) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #12](https://github.com/Wiresense/wiresense.js/pull/12) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ee149c4927242574547c32f468d6e32babef1823)
+6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-07-29` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0b5b69c34a0298e256494eb10d7938f9d90aefe6)
+8. ➕ Created a new branch `master` in a private repo
+9. 🎉 Created a new private repository
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
