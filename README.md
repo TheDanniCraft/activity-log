@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🗑️ Deleted a tag `v1.0.1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🗑️ Deleted a tag `v1.0.2` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🗑️ Deleted a tag `v1.0.0` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. ➕ Created a new tag [`v0.0.3`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.3) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. ➕ Created a new tag [`v0.0.2`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.2) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. ➕ Created a new tag [`v0.0.1`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.1) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🔀 Merged a PR in a private repo
-10. 📝 Committed to [TheDanniCraft/FlagSVG](https://github.com/TheDanniCraft/FlagSVG/commit/2ff7e1f01f039d713472e23d7939c0884366ba1a)
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-15` in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged a PR in a private repo
+4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-15` in a private repo
+5. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🗑️ Deleted a tag `v1.0.1` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🗑️ Deleted a tag `v1.0.2` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🗑️ Deleted a tag `v1.0.0` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. ➕ Created a new tag [`v0.0.3`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.3) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
