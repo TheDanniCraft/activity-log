@@ -45,11 +45,26 @@ For a reference example, you can view this [sample `README.md`](https://github.c
 
 ### 2. Create a Personal Access Token
 
-1. Go to your GitHub [Personal Access Tokens settings](https://github.com/settings/tokens).
-2. Click on "Generate new token".
-3. Provide a descriptive name for the token.
-4. Select the `repo` scope (recommended if you want private repo activity to show up).
-5. Click "Generate token" and copy the token (be sure to save it as you won’t be able to see it again).
+<details open>
+  <summary><strong>Quick Setup</strong> <i>(Recommended)</i></summary>
+
+  1. To create a personal access token with the necessary permissions, click this [link to create a new token](https://github.com/settings/tokens/new?description=Github%20Activity%20Log%20(TheDanniCraft/activity-log)&scopes=repo). This link pre-fills the token description and scopes for your convenience.
+  2. On the token creation page, review the pre-filled data and set the expiration date to "Never".
+  3. Click "Generate token" and copy the token (be sure to save it as you won’t be able to see it again).
+
+</details>
+
+<details>
+  <summary><strong>Manual Setup</strong></summary>
+
+  1. Go to your GitHub [Personal Access Tokens settings](https://github.com/settings/tokens).
+  2. Click on "Generate new token".
+  3. Provide a descriptive name for the token, such as `Github Activity Log (TheDanniCraft/activity-log)`.
+  4. Select the `repo` scope (recommended if you want private repo activity to show up).
+  5. Set the expiration date to "Never".
+  6. Click "Generate token" and copy the token (be sure to save it as you won’t be able to see it again).
+
+</details>
 
 ### 3. Add the Token as a Repository Secret
 
