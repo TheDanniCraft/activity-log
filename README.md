@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2f2fd06758df4b7af426ddc7f08d194a6a9c432b)
-2. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/HLTV.JS/tree/master) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-3. 🎉 Created a new repository [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/90c1a15d1796d157f67359283f3602b3148c0694)
-5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-15` in a private repo
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged a PR in a private repo
-8. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-15` in a private repo
-9. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🔀 Merged [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔎 Reviewed [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #13](https://github.com/Wiresense/wiresense.js/pull/13) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #13](https://github.com/Wiresense/wiresense.js/pull/13) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2f2fd06758df4b7af426ddc7f08d194a6a9c432b)
+6. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/HLTV.JS/tree/master) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+7. 🎉 Created a new repository [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/90c1a15d1796d157f67359283f3602b3148c0694)
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-15` in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
