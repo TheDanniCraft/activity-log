@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-2. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/Pixcurate/pull/3) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-3. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/swatch-studio/pull/3) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in a private repo
-5. 🔀 Merged a PR in a private repo
-6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-22` in a private repo
-7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #13](https://github.com/Wiresense/wiresense.js/pull/13) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/HLTV.JS/pull/1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+3. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/Pixcurate/pull/3) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+4. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/swatch-studio/pull/3) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-22` in a private repo
+8. 🔀 Merged a PR in a private repo
+9. 🔀 Merged [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔎 Reviewed [PR #28](https://github.com/Wiresense/frontend/pull/28) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
