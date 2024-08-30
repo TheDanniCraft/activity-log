@@ -18,15 +18,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔎 Reviewed a PR in a private repo
-2. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/6445fb3592fdb648f713fe67d3093c72373c5252)
-3. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/HLTV.JS/pull/1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-5. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/Pixcurate/pull/3) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-6. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/swatch-studio/pull/3) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in a private repo
-8. 🔀 Merged a PR in a private repo
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-22` in a private repo
+1. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d560b9f1875dbfa53bdee4e230d37bc3bdc79456)
+2. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/66e7b87c669df2aebe313fe340c430087bdfa6db)
+3. 🔎 Reviewed a PR in a private repo
+4. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/6445fb3592fdb648f713fe67d3093c72373c5252)
+5. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/HLTV.JS/pull/1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+7. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/Pixcurate/pull/3) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+8. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/swatch-studio/pull/3) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in a private repo
 10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
