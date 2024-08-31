@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/22b5a610319c5a3bf99403ad60e2f2482e9f005f)
-2. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d560b9f1875dbfa53bdee4e230d37bc3bdc79456)
-3. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/66e7b87c669df2aebe313fe340c430087bdfa6db)
-4. 🔎 Reviewed a PR in a private repo
-5. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/6445fb3592fdb648f713fe67d3093c72373c5252)
-6. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/HLTV.JS/pull/1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-8. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/Pixcurate/pull/3) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-9. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/swatch-studio/pull/3) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in a private repo
+1. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/8442947e6e6d39bcfdaccfae26afe6ef31ca29cc)
+2. 🗑️ Deleted a branch `master-1` in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+3. ➕ Created a new branch [`master-1`](https://github.com/TheDanniCraft/HLTV.JS/tree/master-1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+4. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/22b5a610319c5a3bf99403ad60e2f2482e9f005f)
+5. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d560b9f1875dbfa53bdee4e230d37bc3bdc79456)
+6. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/66e7b87c669df2aebe313fe340c430087bdfa6db)
+7. 🔎 Reviewed a PR in a private repo
+8. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/6445fb3592fdb648f713fe67d3093c72373c5252)
+9. 🔀 Merged [PR #1](https://github.com/TheDanniCraft/HLTV.JS/pull/1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-08-26` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
