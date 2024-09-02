@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/46755694793bddc509fcd87e104372ed26963a3d)
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/swatch-studio/pull/4) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-6. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/undefined)
-7. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/065431310d84204be26903f724a7b87f4ff111ef)
-8. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/8442947e6e6d39bcfdaccfae26afe6ef31ca29cc)
-9. 🗑️ Deleted a branch `master-1` in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-10. ➕ Created a new branch [`master-1`](https://github.com/TheDanniCraft/HLTV.JS/tree/master-1) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔀 Merged [PR #29](https://github.com/Wiresense/frontend/pull/29) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #14](https://github.com/Wiresense/wiresense.js/pull/14) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/46755694793bddc509fcd87e104372ed26963a3d)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/swatch-studio/pull/4) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/undefined)
+10. 📝 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/065431310d84204be26903f724a7b87f4ff111ef)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
