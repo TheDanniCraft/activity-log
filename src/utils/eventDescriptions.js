@@ -1,6 +1,6 @@
 const eventDescriptions = {
     'PushEvent': ({ repo, isPrivate, payload }) => {
-        const commitSha = payload.commits[0].sha;
+        const commitSha = payload.commits[0]?.sha;
         return isPrivate
             ? '📝 Committed to a private repo'
             : `📝 Committed to [${repo.name}](https://github.com/${repo.name}/commit/${commitSha})`;

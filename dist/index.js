@@ -29248,7 +29248,8 @@ module.exports = {
 
 const eventDescriptions = {
     'PushEvent': ({ repo, isPrivate, payload }) => {
-        const commitSha = payload.commits[0].sha;
+        console.log(payload)
+        const commitSha = payload.commits[0]?.sha;
         return isPrivate
             ? '📝 Committed to a private repo'
             : `📝 Committed to [${repo.name}](https://github.com/${repo.name}/commit/${commitSha})`;
@@ -29545,10 +29546,6 @@ async function updateReadme(activity) {
             return;
         }
 
-        // Write updated content to README.md
-        fs.writeFileSync(readmePath, updatedContent, 'utf-8');
-        core.notice('✅ README.md updated successfully!');
-
         if (process.env.ACT) {
             core.debug('🚧 Act-Debug mode enabled)')
             console.log(activity);
@@ -29590,6 +29587,8 @@ async function updateReadme(activity) {
                 content: updatedContent
             }]
         });
+
+        core.notice('✅ README.md updated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
@@ -31702,7 +31701,8 @@ async function main() {
         const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
         await updateReadme(activity, readmePath);
     } catch (error) {
-        core.setFailed('❌ Error in the update process:', error);
+        core.setFailed(`❌ Error in the update process: ${error.message}`);
+        console.error(error)
         process.exit(1);
     }
 }

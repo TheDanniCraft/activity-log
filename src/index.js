@@ -9,7 +9,8 @@ async function main() {
         const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
         await updateReadme(activity, readmePath);
     } catch (error) {
-        core.setFailed('❌ Error in the update process:', error);
+        core.setFailed(`❌ Error in the update process: ${error.message}`);
+        console.error(error)
         process.exit(1);
     }
 }
