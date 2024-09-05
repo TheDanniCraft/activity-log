@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-2. 🔀 Merged [PR #55](https://github.com/TheDanniCraft/Portfolio/pull/55) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #29](https://github.com/Wiresense/frontend/pull/29) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #14](https://github.com/Wiresense/wiresense.js/pull/14) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/46755694793bddc509fcd87e104372ed26963a3d)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/swatch-studio/pull/4) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+1. 🔀 Merged [PR #161](https://github.com/TheDanniCraft/TerminalWebsite/pull/161) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+2. 🗑️ Deleted a branch `renovate/nextjs-monorepo` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+4. 🔀 Merged [PR #55](https://github.com/TheDanniCraft/Portfolio/pull/55) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged [PR #29](https://github.com/Wiresense/frontend/pull/29) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔀 Merged [PR #14](https://github.com/Wiresense/wiresense.js/pull/14) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/46755694793bddc509fcd87e104372ed26963a3d)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
