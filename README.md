@@ -20,14 +20,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 <!--START_SECTION:activity-->
 1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-05` in a private repo
 2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #161](https://github.com/TheDanniCraft/TerminalWebsite/pull/161) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-4. 🗑️ Deleted a branch `renovate/nextjs-monorepo` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-6. 🔀 Merged [PR #55](https://github.com/TheDanniCraft/Portfolio/pull/55) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔀 Merged [PR #29](https://github.com/Wiresense/frontend/pull/29) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔀 Merged [PR #14](https://github.com/Wiresense/wiresense.js/pull/14) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-05` in a private repo
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #161](https://github.com/TheDanniCraft/TerminalWebsite/pull/161) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+6. 🗑️ Deleted a branch `renovate/nextjs-monorepo` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+8. 🔀 Merged [PR #55](https://github.com/TheDanniCraft/Portfolio/pull/55) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔀 Merged [PR #29](https://github.com/Wiresense/frontend/pull/29) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
