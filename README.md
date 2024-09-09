@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/Pixcurate/pull/4) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-05` in a private repo
+1. 🔀 Merged [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔎 Reviewed [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in a private repo
 6. 🔀 Merged a PR in a private repo
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-05` in a private repo
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #161](https://github.com/TheDanniCraft/TerminalWebsite/pull/161) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-10. 🗑️ Deleted a branch `renovate/nextjs-monorepo` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/Pixcurate/pull/4) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-05` in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
