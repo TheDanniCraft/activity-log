@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/update/npm/express-4.20.0` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/swatch-studio/pull/5) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔀 Merged [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔎 Reviewed [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-02` in a private repo
-10. 🔀 Merged a PR in a private repo
+1. ➕ Created a new branch `master` in a private repo
+2. 🎉 Created a new private repository
+3. 🗑️ Deleted a branch `depfu/update/npm/express-4.20.0` in a private repo
+4. 🔀 Merged a PR in a private repo
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+6. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/swatch-studio/pull/5) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 🔀 Merged [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🔎 Reviewed [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔀 Merged [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
