@@ -19,15 +19,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 📝 Committed to a private repo
-2. ➕ Created a new branch `master` in a private repo
-3. 🎉 Created a new private repository
-4. 🗑️ Deleted a branch `depfu/update/npm/express-4.20.0` in a private repo
-5. 🔀 Merged a PR in a private repo
-6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-7. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/swatch-studio/pull/5) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-8. 🔀 Merged [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #15](https://github.com/Wiresense/wiresense.js/pull/15) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+2. 📝 Committed to a private repo
+3. ➕ Created a new branch `master` in a private repo
+4. 🎉 Created a new private repository
+5. 🗑️ Deleted a branch `depfu/update/npm/express-4.20.0` in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/swatch-studio/pull/5) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🔀 Merged [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔎 Reviewed [PR #30](https://github.com/Wiresense/frontend/pull/30) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
