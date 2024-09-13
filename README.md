@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-2. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/Pixcurate/pull/5) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+1. 🗑️ Deleted a branch `wip` in a private repo
+2. 📝 Committed to a private repo
 3. 📝 Committed to a private repo
-4. ➕ Created a new branch `wip` in a private repo
-5. 📝 Committed to a private repo
+4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+5. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/Pixcurate/pull/5) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
 6. 📝 Committed to a private repo
-7. 📝 Committed to a private repo
-8. ➕ Created a new branch `master` in a private repo
-9. 🎉 Created a new private repository
-10. 🗑️ Deleted a branch `depfu/update/npm/express-4.20.0` in a private repo
+7. ➕ Created a new branch `wip` in a private repo
+8. 📝 Committed to a private repo
+9. 📝 Committed to a private repo
+10. 📝 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
