@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/swatch-studio/pull/7) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
-3. 🔀 Merged a PR in a private repo
+1. ⭐ Starred [angus-c/just](https://github.com/angus-c/just)
+2. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/swatch-studio/pull/7) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
 4. 🔀 Merged a PR in a private repo
-5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
-6. 🗑️ Deleted a branch `wip` in a private repo
-7. 📝 Committed to a private repo
+5. 🔀 Merged a PR in a private repo
+6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
+7. 🗑️ Deleted a branch `wip` in a private repo
 8. 📝 Committed to a private repo
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-10. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/Pixcurate/pull/5) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+9. 📝 Committed to a private repo
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-09` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
