@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-3. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
-5. 🔀 Merged a PR in a private repo
+1. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+4. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
 6. 🔀 Merged a PR in a private repo
-7. ⭐ Starred [angus-c/just](https://github.com/angus-c/just)
-8. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/swatch-studio/pull/7) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
-10. 🔀 Merged a PR in a private repo
+7. 🔀 Merged a PR in a private repo
+8. ⭐ Starred [angus-c/just](https://github.com/angus-c/just)
+9. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/swatch-studio/pull/7) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-12` in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
