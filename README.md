@@ -19,15 +19,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-5. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
-6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
-7. 🔀 Merged a PR in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+6. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
 8. 🔀 Merged a PR in a private repo
-9. ⭐ Starred [angus-c/just](https://github.com/angus-c/just)
-10. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/swatch-studio/pull/7) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🔀 Merged a PR in a private repo
+10. ⭐ Starred [angus-c/just](https://github.com/angus-c/just)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
