@@ -19,15 +19,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔀 Merged a PR in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-8. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
-10. 🔀 Merged a PR in a private repo
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+9. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-19` in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
