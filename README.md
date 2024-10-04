@@ -21,13 +21,13 @@ A GitHub Action that automatically updates your README file with the latest acti
 1. 🔀 Merged a PR in a private repo
 2. 🔀 Merged a PR in a private repo
 3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged a PR in a private repo
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-10. ⭐ Starred [github/relative-time-element](https://github.com/github/relative-time-element)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
