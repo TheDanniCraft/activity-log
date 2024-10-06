@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
+1. ❌ Closed [PR #59](https://github.com/TheDanniCraft/Portfolio/pull/59) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 2. 🔀 Merged a PR in a private repo
 3. 🔀 Merged a PR in a private repo
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged a PR in a private repo
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-9. 🔀 Merged a PR in a private repo
-10. 🔀 Merged [PR #60](https://github.com/TheDanniCraft/Portfolio/pull/60) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+8. 🔀 Merged a PR in a private repo
+9. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
