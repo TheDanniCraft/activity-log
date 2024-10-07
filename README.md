@@ -18,15 +18,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ❌ Closed [PR #59](https://github.com/TheDanniCraft/Portfolio/pull/59) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged a PR in a private repo
-6. 🔀 Merged [PR #32](https://github.com/Wiresense/frontend/pull/32) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🔀 Merged [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+2. 🔎 Reviewed [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔀 Merged [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c3033c6dd92c6ba79069aec4be284256be551447)
+5. 🔎 Reviewed [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. ❌ Closed [PR #59](https://github.com/TheDanniCraft/Portfolio/pull/59) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 7. 🔀 Merged a PR in a private repo
 8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/tag-bumper/pull/2) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+9. 🔀 Merged a PR in a private repo
 10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
