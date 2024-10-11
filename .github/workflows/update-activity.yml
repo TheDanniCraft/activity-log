@@ -1,0 +1,20 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜自動執行
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the repository code
+        uses: actions/checkout@v4
+
+      - name: Update README with activity
+        uses: TheDanniCraft/activity-log@v1
+        with:
+          GITHUB_USERNAME: huntertoby 
+          GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2024 }}  
