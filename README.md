@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-07` in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔎 Reviewed [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged [PR #33](https://github.com/Wiresense/frontend/pull/33) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔎 Reviewed [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔀 Merged [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c3033c6dd92c6ba79069aec4be284256be551447)
-10. 🔎 Reviewed [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/80b1f5a07c32d19989a78e1afb7e5e3d8007523b)
+2. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/6ef27681a7b930f423c9a6e125e7ccdd17bf7879)
+3. 🗑️ Deleted a branch `3-as-repo-owner-i-want-github-to-automatically-update-readme-to-include-recent-activities` in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
+4. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/3f7c418b5288c69904805aca8693e8524486f7ff)
+5. ❌ Closed an issue [#3](https://github.com/huntertoby/UnityFpsPractice/issues/3) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
+6. 🔀 Merged [PR #4](https://github.com/huntertoby/UnityFpsPractice/pull/4) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
+7. 📥 Opened [PR #4](https://github.com/huntertoby/UnityFpsPractice/pull/4) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
+8. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/7087b70b73e73fed846a9ee1cabeda1266ad595f)
+9. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/1b8114069af9070479b04b4d2df91f4fd3645bc1)
+10. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/3cf74b27f243f0c8ee0fa9c1f6f0399802f6b599)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
