@@ -1,43 +1,42 @@
 # Contributing Guidelines
-
-*Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!* 🐙
+*Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged!* :octocat:
 
 ### Contents
 
-- [Code of Conduct](#📚-code-of-conduct)
-- [Asking Questions](#💡-asking-questions)
-- [Opening an Issue](#📥-opening-an-issue)
-- [Feature Requests](#💌-feature-requests)
-- [Triaging Issues](#🔍-triaging-issues)
-- [Submitting Pull Requests](#🔁-submitting-pull-requests)
-- [Writing Commit Messages](#📝-writing-commit-messages)
-- [Using Gitmoji](#🎉-using-gitmoji)
-- [Code Review](#✅-code-review)
-- [Coding Style](#💅-coding-style)
-- [Certificate of Origin](#🥇-certificate-of-origin)
-- [Credits](#🙏-credits)
+- [Code of Conduct](#books-code-of-conduct)
+- [Asking Questions](#bulb-asking-questions)
+- [Opening an Issue](#inbox-tray-opening-an-issue)
+- [Feature Requests](#love_letter-feature-requests)
+- [Triaging Issues](#mag-triaging-issues)
+- [Submitting Pull Requests](#repeat-submitting-pull-requests)
+- [Writing Commit Messages](#memo-writing-commit-messages)
+- [Using Gitmoji](#tada-using-gitmoji)
+- [Code Review](#white_check_mark-code-review)
+- [Coding Style](#nail_care-coding-style)
+- [Certificate of Origin](#1st_place_medal-certificate-of-origin)
+- [Credits](#pray-credits)
 
 > **This guide serves to set clear expectations for everyone involved with the project so that we can improve it together while also creating a welcoming space for everyone to participate. Following these guidelines will help ensure a positive experience for contributors and maintainers.**
 
-## 📚 Code of Conduct
+## :books: Code of Conduct
 
 Please review our [Code of Conduct](https://github.com/TheDanniCraft/activity-log/blob/master/CODE_OF_CONDUCT.md). It is in effect at all times. We expect it to be honored by everyone who contributes to this project. Acting like an asshole will not be tolerated.
 
-## 💡 Asking Questions
+## :bulb: Asking Questions
 
 See our [Support Guide](https://github.com/TheDanniCraft/activity-log/blob/master/SUPPORT.md). In short, GitHub issues are not the appropriate place to debug your specific project, but should be reserved for filing bugs and feature requests.
 
-## 📥 Opening an Issue
+## :inbox_tray: Opening an Issue
 
 Before [creating an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), check if you are using the latest version of the project. If you are not up-to-date, see if updating fixes your issue first.
 
-### 🔒 Reporting Security Issues
+### :lock: Reporting Security Issues
 
 Review our [Security Policy](https://github.com/TheDanniCraft/activity-log/blob/master/SECURITY.md). **Do not** file a public issue for security vulnerabilities.
 
-### 🐞 Bug Reports and Other Issues
+### :bug: Bug Reports and Other Issues
 
-A great way to contribute to the project is to send a detailed issue when you encounter a problem. We always appreciate a well-written, thorough bug report. 👍
+A great way to contribute to the project is to send a detailed issue when you encounter a problem. We always appreciate a well-written, thorough bug report. :+1:
 
 In short, since you are most likely a developer, **provide an issue that you would like to receive**.
 
@@ -47,7 +46,7 @@ In short, since you are most likely a developer, **provide an issue that you wou
 - **Fully complete the provided issue template.** The bug report template requests all the information we need to quickly and efficiently address your issue. Be clear, concise, and descriptive. Provide as much information as you can, including steps to reproduce, stack traces, compiler errors, library versions, OS versions, and screenshots (if applicable).
 - **Use [GitHub-flavored Markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).** Especially put code blocks and console outputs in backticks (```). This improves readability.
 
-## 💌 Feature Requests
+## :love_letter: Feature Requests
 
 Feature requests are welcome! While we will consider all requests, we cannot guarantee your request will be accepted. We want to avoid [feature creep](https://en.wikipedia.org/wiki/Feature_creep). Your idea may be great, but also out-of-scope for the project. If accepted, we cannot make any commitments regarding the timeline for implementation and release. However, you are welcome to submit a pull request to help!
 
@@ -55,11 +54,11 @@ Feature requests are welcome! While we will consider all requests, we cannot gua
 - **Fully complete the provided issue template.** The feature request template asks for all necessary information for us to begin a productive conversation.
 - Be precise about the proposed outcome of the feature and how it relates to existing features. Include implementation details if possible.
 
-## 🔍 Triaging Issues
+## :mag: Triaging Issues
 
 You can triage issues which may include reproducing bug reports or asking for additional information, such as version numbers or reproduction instructions. Any help you can provide to quickly resolve an issue is very much appreciated!
 
-## 🔁 Submitting Pull Requests
+## :repeat: Submitting Pull Requests
 
 We **love** pull requests! Before [forking the repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/proposing-changes-to-your-work-with-pull-requests) for non-trivial changes, it is usually best to first open an issue to discuss the changes, or discuss your intended approach for solving the problem in the comments for an existing issue.
 
@@ -77,7 +76,7 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 - **Promptly address any CI failures.** If your pull request fails to build or pass tests, please push another commit to fix it.
 - When writing comments, use properly constructed sentences, including punctuation.
 
-## 📝 Writing Commit Messages
+## :memo: Writing Commit Messages
 
 Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
 
@@ -88,7 +87,7 @@ Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
 1. Use the imperative mood in the subject line (example: "Fix networking issue")
 1. Wrap the body at about 72 characters
 1. Use the body to explain **why**, *not what and how* (the code shows that!)
-1. If applicable, prefix the title with the relevant component name and the corresponding [Gitmoji](https://gitmoji.dev). (examples: "📝 Fix typo", "✨ Add user authentication")
+1. If applicable, prefix the title with the relevant component name and the corresponding [Gitmoji](https://gitmoji.dev). (examples: ":memo: Fix typo", ":sparkles: Add user authentication")
 
 ```
 🎉 Short summary of changes in 50 chars or less
@@ -110,32 +109,32 @@ change is being made, not how. Keep it simple. In case you need to
 explain something, use more paragraphs.
 ```
 
-## 🎉 Using Gitmoji
+## :tada: Using Gitmoji
 
 This project follows the Gitmoji standard. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard. Here is a short reference of the most commonly used emojis:
 
 | Emoji | Description                                           |
 |-------|-------------------------------------------------------|
-| ✨    | Introduce new features                                |
-| 🐛    | Fix bugs                                             |
-| 📚    | Documentation updates                                 |
-| 🔧    | Refactor code                                        |
-| ✅    | Add tests                                            |
-| 🔥    | Remove code or files                                  |
-| ⚡️    | Improve performance                                   |
-| 🎉    | Initial commit                                       |
-| 🗑    | Remove code or files                                  |
-| 🚧    | Work in progress                                      |
+| :sparkles: | Introduce new features                                |
+| :bug: | Fix bugs                                             |
+| :books: | Documentation updates                                 |
+| :wrench: | Refactor code                                        |
+| :white_check_mark: | Add tests                                            |
+| :fire: | Remove code or files                                  |
+| :zap: | Improve performance                                   |
+| :tada: | Initial commit                                       |
+| :wastebasket: | Remove code or files                                  |
+| :construction: | Work in progress                                      |
 
-## ✅ Code Review
+## :white_check_mark: Code Review
 
 Your pull request will be reviewed by a maintainer before being merged. This is a chance for us to collaborate and improve your contribution. We will provide feedback on your pull request and suggest changes if necessary. The review process may take time, but we appreciate your patience.
 
-## 💅 Coding Style
+## :nail_care: Coding Style
 
 Please follow the existing coding style and conventions in the project. Consistent style makes it easier for others to read and maintain the code. If you see something inconsistent, consider fixing it in your pull request.
 
-## 🥇 Certificate of Origin
+## :1st_place_medal: Certificate of Origin
 
 By contributing to this project, you certify that you agree to the following:
 
@@ -147,6 +146,6 @@ By contributing to this project, I certify that:
 - I am making my contribution under the project's license.
 ```
 
-## 🙏 Credits
+## :pray: Credits
 
-Thanks for contributing! Your contributions are what make this project successful. We look forward to working with you! 💖
+Thanks for contributing! Your contributions are what make this project successful. We look forward to working with you! :heart:
