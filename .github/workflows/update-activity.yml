@@ -11,10 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Update GitHub Activity
-        uses: ./
+        uses: yulin17-chang/activity-log@B_and_R-1
         with:
           GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.CAMP_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 確保這個是有效的 PAT
           EVENT_LIMIT: 10
           OUTPUT_STYLE: MARKDOWN
           IGNORE_EVENTS: "[]"
