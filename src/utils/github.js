@@ -73,7 +73,7 @@ async function fetchAllEvents() {
 
             // Check for API rate limit or pagination issues
             if (events.length === 0) {
-                core.warning('⚠️ No more events available.');
+                core.warning('⚠️ T5: No more events available.');
                 break; // No more events to fetch
             }
 
@@ -117,6 +117,7 @@ async function fetchAndFilterEvents() {
         break;
         // if (filteredEvents.length < eventLimit) {
         //     const additionalEvents = await fetchAllEvents();
+        //     if (additionalEvents.length === 0) break;
         //     allEvents = additionalEvents.concat(allEvents);
         // } else {
         //     break;
@@ -165,6 +166,3 @@ async function fetchAndFilterEvents() {
 module.exports = {
     fetchAndFilterEvents,
 };
-
-
-//test line edit
