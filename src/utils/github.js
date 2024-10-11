@@ -113,13 +113,13 @@ async function fetchAndFilterEvents() {
                 return event;
             })
             .slice(0, eventLimit);
-        break;
-        // if (filteredEvents.length < eventLimit) {
-        //     const additionalEvents = await fetchAllEvents();
-        //     allEvents = additionalEvents.concat(allEvents);
-        // } else {
-        //     break;
-        // }
+            
+        if (filteredEvents.length < eventLimit) {
+            const additionalEvents = await fetchAllEvents();
+            allEvents = additionalEvents.concat(allEvents);
+        } else {
+            break;
+        }
     }
 
     filteredEvents = filteredEvents.slice(0, eventLimit);
