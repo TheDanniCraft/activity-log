@@ -28,7 +28,7 @@ jobs:
           npm run build
       - name: Commit
         run: |
-          git config --global user.name huntertoby'
+          git config --global user.name 'huntertoby'
           git config --global user.email 'tobby8668@gmail.com'
           git commit -am "dist build"
           git push
