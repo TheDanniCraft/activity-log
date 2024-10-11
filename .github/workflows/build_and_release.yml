@@ -29,7 +29,7 @@ jobs:
       - name: Commit
         run: |
           git config --global user.name 'Yusi0114'
-          git config --global user.email 'Yusi0114@users.noreply.github.com'
+          git config --global user.email '132541872+Yusi0114@users.noreply.github.com'
           git commit -am "dist build"
           git push
 
@@ -41,7 +41,7 @@ jobs:
       - name: Pull latest
         run: |
           git config --global user.name 'Yusi0114'
-          git config --global user.email 'Yusi0114@users.noreply.github.com'
+          git config --global user.email '132541872+Yusi0114@users.noreply.github.com'
           git pull
       - name: Tag it
         run: |
