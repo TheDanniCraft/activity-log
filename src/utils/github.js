@@ -116,6 +116,7 @@ async function fetchAndFilterEvents() {
 
         if (filteredEvents.length < eventLimit) {
             const additionalEvents = await fetchAllEvents();
+            if (additionalEvents.length == 0) break; // Break the while loop when there is no additional event.
             allEvents = additionalEvents.concat(allEvents);
         } else {
             break;
