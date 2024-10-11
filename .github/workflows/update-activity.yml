@@ -14,7 +14,7 @@ jobs:
         uses: yulin17-chang/activity-log@B_and_R-1
         with:
           GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 確保這個是有效的 PAT
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # 確保這個是有效的 PAT
           EVENT_LIMIT: 10
           OUTPUT_STYLE: MARKDOWN
           IGNORE_EVENTS: "[]"
