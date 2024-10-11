@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📥 Opened [PR #5](https://github.com/TheDanniCraft/activity-log/pull/5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/13fe25b1695c655da2cbc03c2ac889b07534e9fa)
-3. ➕ Created a new branch [`follow-community-guidelines`](https://github.com/TheDanniCraft/activity-log/tree/follow-community-guidelines) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🆕 Opened an issue [#4](https://github.com/TheDanniCraft/activity-log/issues/4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🗣 Commented on issue [#3](https://github.com/TheDanniCraft/activity-log/issues/3) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/3#issuecomment-2406889242)
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-07` in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🔎 Reviewed [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔀 Merged [PR #33](https://github.com/Wiresense/frontend/pull/33) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c0582ff875abe33c694685397a22bd0e36877aaa)
+2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8bb6c60f5ca8a7847774690bbad2426ee3674bd6)
+3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8d87dc8ee0f1f7f1f142c0d5c33f63ec24d54c8a)
+4. 📥 Opened [PR #5](https://github.com/TheDanniCraft/activity-log/pull/5) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/13fe25b1695c655da2cbc03c2ac889b07534e9fa)
+6. ➕ Created a new branch [`follow-community-guidelines`](https://github.com/TheDanniCraft/activity-log/tree/follow-community-guidelines) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🆕 Opened an issue [#4](https://github.com/TheDanniCraft/activity-log/issues/4) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🗣 Commented on issue [#3](https://github.com/TheDanniCraft/activity-log/issues/3) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/3#issuecomment-2406889242)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
