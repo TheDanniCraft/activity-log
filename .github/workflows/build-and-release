@@ -1,0 +1,59 @@
+name: Build and Release
+
+on:
+  workflow_dispatch: # Allows manual triggering
+    inputs:
+      tag:
+        description: 'Tag name'     
+        required: true
+      note:
+        description: 'Release note'
+        
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build
+        run: |
+          npm i -g @vercel/ncc
+          npm i @actions/github
+          npm run build
+      - name: Commit
+        run: |
+          git config --global user.name 'raymundlin'
+          git config --global user.email '142639231+raymundlin@users.noreply.github.com'
+          git commit -am "dist build"
+          git push
+
+  release:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest
+        run: |
+          git config --global user.name 'raymundlin'
+          git config --global user.email '142639231+raymundlin@users.noreply.github.com'
+          git pull
+      - name: Tag it
+        run: |
+          git tag -a ${{ inputs.tag }} -m "${{ inputs.note }}" master
+          git push --tags
+      - name: Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        with:
+          tag_name: ${{ inputs.tag }}
+          release_name: Release ${{ inputs.tag }}
+          body: ${{ inputs.note }}
+          draft: false
+          prerelease: false
