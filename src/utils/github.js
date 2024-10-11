@@ -1,7 +1,7 @@
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
-const { username, token, eventLimit, style, ignoreEvents } = require('../config');
+const { username, token, eventLimit, style, targetRepos, ignoreEvents } = require('../config');
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -104,7 +104,7 @@ async function fetchAndFilterEvents() {
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type))
             .filter(event => !isTriggeredByGitHubActions(event))
-            .filter(event => TARGET_REPOS.includes(event.repo.name))
+            .filter(event => targetRepos.includes(event.repo.name))
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
