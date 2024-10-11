@@ -1,7 +1,7 @@
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
-const { username, token, eventLimit, style, ignoreEvents } = require('../config');
+const { username, token, eventLimit, style, targetRepos, ignoreEvents } = require('../config');
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -73,7 +73,7 @@ async function fetchAllEvents() {
 
             // Check for API rate limit or pagination issues
             if (events.length === 0) {
-                core.warning('⚠️ No more events available.');
+                core.warning('⚠️ T5: No more events available.');
                 break; // No more events to fetch
             }
 
@@ -104,6 +104,7 @@ async function fetchAndFilterEvents() {
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type))
             .filter(event => !isTriggeredByGitHubActions(event))
+            .filter(event => targetRepos.includes(event.repo.name))
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
@@ -113,13 +114,14 @@ async function fetchAndFilterEvents() {
                 return event;
             })
             .slice(0, eventLimit);
-
-        if (filteredEvents.length < eventLimit) {
-            const additionalEvents = await fetchAllEvents();
-            allEvents = additionalEvents.concat(allEvents);
-        } else {
-            break;
-        }
+        break;
+        // if (filteredEvents.length < eventLimit) {
+        //     const additionalEvents = await fetchAllEvents();
+        //     if (additionalEvents.length === 0) break;
+        //     allEvents = additionalEvents.concat(allEvents);
+        // } else {
+        //     break;
+        // }
     }
 
     filteredEvents = filteredEvents.slice(0, eventLimit);
