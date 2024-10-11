@@ -50,7 +50,7 @@ jobs:
       - name: Release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ ACTION_SECRET }}
+          GITHUB_TOKEN: ${{ secrets_TOKEN }}
         with:
           tag_name: ${{ inputs.tag }}
           release_name: Release ${{ inputs.tag }}
