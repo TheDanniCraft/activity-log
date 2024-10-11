@@ -30353,7 +30353,7 @@ module.exports = {
 const github = __nccwpck_require__(2335);
 const core = __nccwpck_require__(9619);
 const eventDescriptions = __nccwpck_require__(2619);
-const { username, token, eventLimit, style, ignoreEvents } = __nccwpck_require__(9530);
+const { username, token, eventLimit, style, targetRepos, ignoreEvents } = __nccwpck_require__(9530);
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -30456,7 +30456,7 @@ async function fetchAndFilterEvents() {
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type))
             .filter(event => !isTriggeredByGitHubActions(event))
-            .filter(event => TARGET_REPOS.includes(event.repo.name))
+            .filter(event => targetRepos.includes(event.repo.name))
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
@@ -32430,13 +32430,13 @@ module.exports = parseParams
 var __webpack_exports__ = {};
 const { fetchAndFilterEvents } = __nccwpck_require__(3905);
 const { updateReadme } = __nccwpck_require__(9204);
-const { username, token, eventLimit, ignoreEvents, readmePath, commitMessage } = __nccwpck_require__(9530);
+const { username, token, eventLimit, targetRepos, ignoreEvents, readmePath, commitMessage } = __nccwpck_require__(9530);
 const core = __nccwpck_require__(9619)
 
 // Main function to execute the update process
 async function main() {
     try {
-        const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
+        const activity = await fetchAndFilterEvents({ username, token, eventLimit, targetRepos, ignoreEvents });
         await updateReadme(activity, readmePath);
     } catch (error) {
         core.setFailed(`❌ Error in the update process: ${error.message}`);
