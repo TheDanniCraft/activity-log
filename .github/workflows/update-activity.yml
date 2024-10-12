@@ -13,8 +13,8 @@ jobs:
       - name: Run Update GitHub Activity
         uses: ./
         with:
-          GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_USERNAME: "paradisemom"
+          GITHUB_TOKEN: ${{ secrets.Token }}
           EVENT_LIMIT: 10
           OUTPUT_STYLE: MARKDOWN
           IGNORE_EVENTS: "[]"
