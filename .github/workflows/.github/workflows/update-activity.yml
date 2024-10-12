@@ -1,3 +1,5 @@
+# .github/workflows/update-activity.yml:
+
 name: Update GitHub Activity
 
 on:
@@ -10,13 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run Update GitHub Activity
-        uses: ./
+      - name: Update GitHub Activity
+        uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "paradisemom"
-          GITHUB_TOKEN: ${{ secrets.Token }}
-          EVENT_LIMIT: 10
-          OUTPUT_STYLE: MARKDOWN
-          IGNORE_EVENTS: "[]"
-          README_PATH: README.md
-          COMMIT_MESSAGE: "⚡ Update README.md with latest activity"
+          GITHUB_TOKEN: ${{ secrets.Token }} # Ensure this matches the secret name in repository settings
