@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/80b1f5a07c32d19989a78e1afb7e5e3d8007523b)
-2. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/6ef27681a7b930f423c9a6e125e7ccdd17bf7879)
-3. 🗑️ Deleted a branch `3-as-repo-owner-i-want-github-to-automatically-update-readme-to-include-recent-activities` in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
-4. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/3f7c418b5288c69904805aca8693e8524486f7ff)
-5. ❌ Closed an issue [#3](https://github.com/huntertoby/UnityFpsPractice/issues/3) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
-6. 🔀 Merged [PR #4](https://github.com/huntertoby/UnityFpsPractice/pull/4) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
-7. 📥 Opened [PR #4](https://github.com/huntertoby/UnityFpsPractice/pull/4) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
-8. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/7087b70b73e73fed846a9ee1cabeda1266ad595f)
-9. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/1b8114069af9070479b04b4d2df91f4fd3645bc1)
-10. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/3cf74b27f243f0c8ee0fa9c1f6f0399802f6b599)
+1. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/c3964628166423c604ddbf37aa16971fc65cc6c2)
+2. 📝 Committed to [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice/commit/34fbbbec075b9da975812383db7e512d3c38cc08)
+3. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/5d57e40c3c98c68c8b112b8a1cf8729c238a6f55)
+4. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/0defbf9280d7cbb071b54ccc227d829e180f3ad1)
+5. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/6baafb242493864f9cb007608872c4abb490beb4)
+6. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/b9e231a290860c3f8b04372160e65635c5593387)
+7. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/ab1d873c04e2965f8057ad05a21f8571e2929585)
+8. 🆕 Opened an issue [#5](https://github.com/huntertoby/UnityFpsPractice/issues/5) in [huntertoby/UnityFpsPractice](https://github.com/huntertoby/UnityFpsPractice)
+9. 📝 Committed to [huntertoby/activity-log](https://github.com/huntertoby/activity-log/commit/a06abbb1436f12c7d477d8f25455bd53194e6995)
+10. 🍴 Forked [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
