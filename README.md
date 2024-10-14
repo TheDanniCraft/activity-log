@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-4. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/Pixcurate/pull/6) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-5. 🔀 Merged a PR in a private repo
-6. 🗣 Commented on issue [#10](https://github.com/TheDanniCraft/activity-log/issues/10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/10#issuecomment-2408719528)
-7. ❌ Closed [PR #10](https://github.com/TheDanniCraft/activity-log/pull/10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🗣 Commented on issue [#9](https://github.com/TheDanniCraft/activity-log/issues/9) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/9#issuecomment-2408718477)
-9. 🗣 Commented on issue [#6](https://github.com/TheDanniCraft/activity-log/issues/6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/6#issuecomment-2408715182)
-10. 🗣 Commented on issue [#7](https://github.com/TheDanniCraft/activity-log/issues/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/7#issuecomment-2408710514)
+1. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799346089)
+2. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799363598)
+3. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799357469)
+4. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799352192)
+5. 🔎 Reviewed [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔎 Reviewed [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in a private repo
+8. 🔀 Merged a PR in a private repo
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+10. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/Pixcurate/pull/6) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
