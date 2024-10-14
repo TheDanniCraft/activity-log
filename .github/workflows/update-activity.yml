@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run Update GitHub Activity
-        uses: paradisemom/activity-log@v10
+        uses: paradisemom/activity-log
         with:
           GITHUB_USERNAME: "paradisemom"
           GITHUB_TOKEN: ${{ secrets.Token }}
