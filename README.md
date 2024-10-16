@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔎 Reviewed [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔀 Merged [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔎 Reviewed [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔔 Watching [dicebear/dicebear](https://github.com/dicebear/dicebear)
-6. 🆕 Opened an issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799346089)
-8. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799363598)
-9. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799357469)
-10. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799352192)
+1. 🗣 Commented on issue [#12](https://github.com/TheDanniCraft/activity-log/issues/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/12#issuecomment-2416638117)
+2. ❌ Closed [PR #12](https://github.com/TheDanniCraft/activity-log/pull/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🔀 Merged [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔀 Merged [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔎 Reviewed [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔔 Watching [dicebear/dicebear](https://github.com/dicebear/dicebear)
+8. 🆕 Opened an issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799346089)
+10. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799363598)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
