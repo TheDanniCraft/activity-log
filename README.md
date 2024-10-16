@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🔀 Merged a PR in a private repo
-3. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799346089)
-4. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799363598)
-5. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799357469)
-6. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799352192)
-7. 🔎 Reviewed [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. ⭐ Starred [dicebear/dicebear](https://github.com/dicebear/dicebear)
+2. 🆕 Opened an issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🔀 Merged a PR in a private repo
+4. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799346089)
+5. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799363598)
+6. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799357469)
+7. 🗣 Commented on a review of [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/7#pullrequestreviewcomment-1799352192)
 8. 🔎 Reviewed [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in a private repo
-10. 🔀 Merged a PR in a private repo
+9. 🔎 Reviewed [PR #7](https://github.com/TheDanniCraft/activity-log/pull/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-09-16` in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
