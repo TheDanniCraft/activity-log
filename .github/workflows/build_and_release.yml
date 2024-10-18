@@ -45,7 +45,7 @@ jobs:
       - name: Test index.js
         env:
           INPUT_GITHUB_USERNAME: "Yusi0114"
-          INPUT_GITHUB_TOKEN: ${{ ACTION_SECRET }}
+          INPUT_GITHUB_TOKEN: ${{ secrets.ACTION_SECRET }}
           INPUT_TARGET_REPOS: '[Yusi0114/activity-log]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
