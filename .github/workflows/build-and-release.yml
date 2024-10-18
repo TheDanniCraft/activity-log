@@ -35,6 +35,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     needs: build
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v4
       - name: Run Node.js script
