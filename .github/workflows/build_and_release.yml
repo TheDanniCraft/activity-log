@@ -33,6 +33,25 @@ jobs:
           git commit -am "dist build"
           git push
 
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test index.js
+        env:
+          INPUT_GITHUB_USERNAME: "8minus1Trout"
+          INPUT_GITHUB_TOKEN: ${{ secrets.Trout09008 }}
+          INPUT_TARGET_REPOS: '[8minus1Trout/activity-log]'
+          INPUT_OUTPUT_STYLE: MARKDOWN
+          INPUT_IGNORE_EVENTS: '[]'
+          INPUT_README_PATH: README.md
+          INPUT_COMMIT_MESSAGE: Update README.md
+          INPUT_EVENT_LIMIT: '100'
+        run: node ./dist/index.js
+        
   release:
     runs-on: ubuntu-latest
     needs: build
