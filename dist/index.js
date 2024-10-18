@@ -30454,6 +30454,7 @@ async function fetchAndFilterEvents() {
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type))
             .filter(event => !isTriggeredByGitHubActions(event))
+            .filter(event => targetRepos.includes(event.repop.name))
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
@@ -30464,12 +30465,12 @@ async function fetchAndFilterEvents() {
             })
             .slice(0, eventLimit);
 
-        if (filteredEvents.length < eventLimit) {
-            const additionalEvents = await fetchAllEvents();
-            allEvents = additionalEvents.concat(allEvents);
-        } else {
+        // if (filteredEvents.length < eventLimit) {
+        //     const additionalEvents = await fetchAllEvents();
+        //     allEvents = additionalEvents.concat(allEvents);
+        // } else {
             break;
-        }
+        // }
     }
 
     filteredEvents = filteredEvents.slice(0, eventLimit);
