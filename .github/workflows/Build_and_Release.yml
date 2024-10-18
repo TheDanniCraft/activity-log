@@ -43,9 +43,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: Test index.js
         env:
-          INPUT_GITHUB_USERNAME: "raymundlin"
+          INPUT_GITHUB_USERNAME: "huntertoby"
           INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2024 }}
-          INPUT_TARGET_REPOS: '[raymundlin/activity-log]'
+          INPUT_TARGET_REPOS: '[huntertoby/activity-log]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
           INPUT_README_PATH: README.md
