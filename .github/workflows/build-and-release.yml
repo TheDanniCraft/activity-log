@@ -42,13 +42,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run Node.js script
         env:
-          GITHUB_USERNAME: "junxiangzhan"
-          GITHUB_TOKEN: ${{ secrets.ACTIVITY_LOG_20241230 }}
-          OUTPUT_STYLE: 'MARKDOWN'
-          IGNORE_EVENTS: '[]'
-          README_PATH: 'README.md'
-          COMMIT_MESSAGE: 'Update README.md'
-          EVENT_LIMIT: '100'
+          INPUT_GITHUB_USERNAME: "junxiangzhan"
+          INPUT_GITHUB_TOKEN: ${{ secrets.ACTIVITY_LOG_20241230 }}
+          INPUT_OUTPUT_STYLE: 'MARKDOWN'
+          INPUT_IGNORE_EVENTS: '[]'
+          INPUT_README_PATH: 'README.md'
+          INPUT_COMMIT_MESSAGE: 'Update README.md'
+          INPUT_EVENT_LIMIT: '100'
         run: node ./dist/index.js
         
   release:
