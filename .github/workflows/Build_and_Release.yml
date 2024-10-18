@@ -30,8 +30,7 @@ jobs:
         run: |
           git config --global user.name 'huntertoby'
           git config --global user.email 'tobby8668@gmail.com'
-          git add .
-          git commit -m "dist build"
+          git commit -am "dist build"
           git push
 
   test:
@@ -46,17 +45,17 @@ jobs:
         env:
           INPUT_GITHUB_USERNAME: "huntertoby"
           INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2024 }}
-          INPUT_TARGET_REPOS: '["huntertoby/activity-log"]'
+          INPUT_TARGET_REPOS: '[huntertoby/activity-log]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
           INPUT_README_PATH: README.md
           INPUT_COMMIT_MESSAGE: Update README.md
           INPUT_EVENT_LIMIT: '100'
-        run: node ./dist/index.js        
+        run: node ./dist/index.js
 
   release:
     runs-on: ubuntu-latest
-    needs: build
+    needs: test
     steps:
       - uses: actions/checkout@v4
       - name: Pull latest
@@ -66,12 +65,12 @@ jobs:
           git pull
       - name: Tag it
         run: |
-          git tag -a ${{ inputs.tag }} -m "${{ inputs.note }}" HEAD
+          git tag -a ${{ inputs.tag }} -m "${{ inputs.note }}" master
           git push --tags
       - name: Release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.github_token }}
         with:
           tag_name: ${{ inputs.tag }}
           release_name: Release ${{ inputs.tag }}
