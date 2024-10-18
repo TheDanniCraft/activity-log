@@ -18,16 +18,106 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-07` in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔎 Reviewed [PR #17](https://github.com/Wiresense/wiresense.js/pull/17) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged [PR #33](https://github.com/Wiresense/frontend/pull/33) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔎 Reviewed [PR #16](https://github.com/Wiresense/wiresense.js/pull/16) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔀 Merged [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c3033c6dd92c6ba79069aec4be284256be551447)
-10. 🔎 Reviewed [PR #31](https://github.com/Wiresense/frontend/pull/31) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [junxiangzhan/activity-log](https://github.com/junxiangzhan/activity-log/commit/a5bd36b89cdf12fc96e1598cce5a3267e0c6b37f)
+2. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/2ab02903452e9670d8f8e5553e2dd3edc23303fc)
+3. undefined
+4. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/activity-log/issues/1) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+5. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/5d36b8240ee09fd5f94faf7edd190712d974f558)
+6. 🔀 Merged [PR #2](https://github.com/NTUSTDevOps113/activity-log/pull/2) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+7. 📥 Opened [PR #2](https://github.com/NTUSTDevOps113/activity-log/pull/2) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+8. ❌ Closed [PR #2](https://github.com/TheDanniCraft/activity-log/pull/2) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 📥 Opened [PR #2](https://github.com/TheDanniCraft/activity-log/pull/2) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/4b756423fd86d1131e48997c8372f6ba8b6f0360)
+11. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/5d36b8240ee09fd5f94faf7edd190712d974f558)
+12. ➕ Created a new branch [`bug-fix`](https://github.com/NTUSTDevOps113/activity-log/tree/bug-fix) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+13. 🆕 Opened an issue [#1](https://github.com/NTUSTDevOps113/activity-log/issues/1) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+14. ➕ Created a new branch [`test`](https://github.com/NTUSTDevOps113/activity-log/tree/test) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+15. undefined
+16. 🍴 Forked [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+17. 🆕 Opened an issue [#3](https://github.com/NTUSTDevOps113/DevOps1004/issues/3) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+18. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+19. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/7d2fd0737c26eca37ee16caff568b1a86c2d63c6)
+20. ➕ Created a new branch [`build-workflow-trace-activities`](https://github.com/NTUSTDevOps113/DevOps1004/tree/build-workflow-trace-activities) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+21. 🔄 Reopened an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+22. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cfbc45eb6f9ab00f5afeca80e5e8a229789bb195)
+23. 🗑️ Deleted a branch `build-workflow-trace-activities` in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+24. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+25. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cf9557ada15fe443fd9629b70a5b32ba522a634c)
+26. 🔀 Merged [PR #2](https://github.com/NTUSTDevOps113/DevOps1004/pull/2) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+27. 📥 Opened [PR #2](https://github.com/NTUSTDevOps113/DevOps1004/pull/2) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+28. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/008dd91765c03192e0a8d604b682eed9347bdc33)
+29. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cf9557ada15fe443fd9629b70a5b32ba522a634c)
+30. ➕ Created a new branch [`build-workflow-trace-activities`](https://github.com/NTUSTDevOps113/DevOps1004/tree/build-workflow-trace-activities) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+31. 🆕 Opened an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+32. 🎉 Created a new repository [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+33. ➕ Created a new branch [`main`](https://github.com/NTUSTDevOps113/DevOps1004/tree/main) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+34. ➕ Created a new branch `4-item-1` in a private repo
+35. ➕ Created a new branch `1-使用zenhub嘗試建立issue` in a private repo
+36. ❌ Closed an issue in a private repo
+37. ❌ Closed an issue in a private repo
+38. 🆕 Opened an issue in a private repo
+39. 🆕 Opened an issue in a private repo
+40. ❌ Closed an issue in a private repo
+41. 🆕 Opened an issue in a private repo
+42. 🆕 Opened an issue in a private repo
+43. 📝 Committed to [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator/commit/8e61511ce0603865f0294b43a933894f9aa1767e)
+44. 📝 Committed to [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator/commit/bce9688f9ebf30b36875c947e68cb6fb533014c6)
+45. ➕ Created a new branch [`main`](https://github.com/junxiangzhan/aba-translator/tree/main) in [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator)
+46. 🎉 Created a new repository [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator)
+47. ➕ Created a new branch [`main`](https://github.com/junxiangzhan/page/tree/main) in [junxiangzhan/page](https://github.com/junxiangzhan/page)
+48. 🎉 Created a new repository [junxiangzhan/page](https://github.com/junxiangzhan/page)
+49. 📝 Committed to a private repo
+50. ➕ Created a new branch `main` in a private repo
+51. 🎉 Created a new private repository
+52. 🆕 Opened an issue [#1](https://github.com/junxiangzhan/devops20240920/issues/1) in [junxiangzhan/devops20240920](https://github.com/junxiangzhan/devops20240920)
+53. ➕ Created a new branch [`test-20240920`](https://github.com/junxiangzhan/devops20240920/tree/test-20240920) in [junxiangzhan/devops20240920](https://github.com/junxiangzhan/devops20240920)
+54. 🎉 Created a new repository [junxiangzhan/devops20240920](https://github.com/junxiangzhan/devops20240920)
+55. ➕ Created a new branch [`main`](https://github.com/junxiangzhan/devops20240920/tree/main) in [junxiangzhan/devops20240920](https://github.com/junxiangzhan/devops20240920)
+56. 📝 Committed to [junxiangzhan/activity-log](https://github.com/junxiangzhan/activity-log/commit/a5bd36b89cdf12fc96e1598cce5a3267e0c6b37f)
+57. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/2ab02903452e9670d8f8e5553e2dd3edc23303fc)
+58. undefined
+59. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/activity-log/issues/1) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+60. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/5d36b8240ee09fd5f94faf7edd190712d974f558)
+61. 🔀 Merged [PR #2](https://github.com/NTUSTDevOps113/activity-log/pull/2) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+62. 📥 Opened [PR #2](https://github.com/NTUSTDevOps113/activity-log/pull/2) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+63. ❌ Closed [PR #2](https://github.com/TheDanniCraft/activity-log/pull/2) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+64. 📥 Opened [PR #2](https://github.com/TheDanniCraft/activity-log/pull/2) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+65. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/4b756423fd86d1131e48997c8372f6ba8b6f0360)
+66. 📝 Committed to [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log/commit/5d36b8240ee09fd5f94faf7edd190712d974f558)
+67. ➕ Created a new branch [`bug-fix`](https://github.com/NTUSTDevOps113/activity-log/tree/bug-fix) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+68. 🆕 Opened an issue [#1](https://github.com/NTUSTDevOps113/activity-log/issues/1) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+69. ➕ Created a new branch [`test`](https://github.com/NTUSTDevOps113/activity-log/tree/test) in [NTUSTDevOps113/activity-log](https://github.com/NTUSTDevOps113/activity-log)
+70. undefined
+71. 🍴 Forked [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+72. 🆕 Opened an issue [#3](https://github.com/NTUSTDevOps113/DevOps1004/issues/3) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+73. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+74. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/7d2fd0737c26eca37ee16caff568b1a86c2d63c6)
+75. ➕ Created a new branch [`build-workflow-trace-activities`](https://github.com/NTUSTDevOps113/DevOps1004/tree/build-workflow-trace-activities) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+76. 🔄 Reopened an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+77. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cfbc45eb6f9ab00f5afeca80e5e8a229789bb195)
+78. 🗑️ Deleted a branch `build-workflow-trace-activities` in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+79. ❌ Closed an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+80. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cf9557ada15fe443fd9629b70a5b32ba522a634c)
+81. 🔀 Merged [PR #2](https://github.com/NTUSTDevOps113/DevOps1004/pull/2) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+82. 📥 Opened [PR #2](https://github.com/NTUSTDevOps113/DevOps1004/pull/2) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+83. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/008dd91765c03192e0a8d604b682eed9347bdc33)
+84. 📝 Committed to [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004/commit/cf9557ada15fe443fd9629b70a5b32ba522a634c)
+85. ➕ Created a new branch [`build-workflow-trace-activities`](https://github.com/NTUSTDevOps113/DevOps1004/tree/build-workflow-trace-activities) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+86. 🆕 Opened an issue [#1](https://github.com/NTUSTDevOps113/DevOps1004/issues/1) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+87. 🎉 Created a new repository [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+88. ➕ Created a new branch [`main`](https://github.com/NTUSTDevOps113/DevOps1004/tree/main) in [NTUSTDevOps113/DevOps1004](https://github.com/NTUSTDevOps113/DevOps1004)
+89. ➕ Created a new branch `4-item-1` in a private repo
+90. ➕ Created a new branch `1-使用zenhub嘗試建立issue` in a private repo
+91. ❌ Closed an issue in a private repo
+92. ❌ Closed an issue in a private repo
+93. 🆕 Opened an issue in a private repo
+94. 🆕 Opened an issue in a private repo
+95. ❌ Closed an issue in a private repo
+96. 🆕 Opened an issue in a private repo
+97. 🆕 Opened an issue in a private repo
+98. 📝 Committed to [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator/commit/8e61511ce0603865f0294b43a933894f9aa1767e)
+99. 📝 Committed to [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator/commit/bce9688f9ebf30b36875c947e68cb6fb533014c6)
+100. ➕ Created a new branch [`main`](https://github.com/junxiangzhan/aba-translator/tree/main) in [junxiangzhan/aba-translator](https://github.com/junxiangzhan/aba-translator)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
