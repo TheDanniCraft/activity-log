@@ -104,7 +104,7 @@ async function fetchAndFilterEvents() {
         filteredEvents = allEvents
             .filter(event => !ignoreEvents.includes(event.type))
             .filter(event => !isTriggeredByGitHubActions(event))
-            .filter(event => targetRepos.icludes(event.repop.name);
+            .filter(event => targetRepos.includes(event.repop.name))
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
