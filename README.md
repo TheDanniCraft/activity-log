@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-17` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🗣 Commented on issue [#12](https://github.com/TheDanniCraft/activity-log/issues/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/12#issuecomment-2416638117)
-4. ❌ Closed [PR #12](https://github.com/TheDanniCraft/activity-log/pull/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🔀 Merged [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔀 Merged [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔎 Reviewed [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. ⭐ Starred [dicebear/dicebear](https://github.com/dicebear/dicebear)
-10. 🆕 Opened an issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🔀 Merged [PR #62](https://github.com/TheDanniCraft/Portfolio/pull/62) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-10-17` in a private repo
+3. 🔀 Merged a PR in a private repo
+4. 🗣 Commented on issue [#12](https://github.com/TheDanniCraft/activity-log/issues/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/12#issuecomment-2416638117)
+5. ❌ Closed [PR #12](https://github.com/TheDanniCraft/activity-log/pull/12) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔀 Merged [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔎 Reviewed [PR #18](https://github.com/Wiresense/wiresense.js/pull/18) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🔀 Merged [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔎 Reviewed [PR #34](https://github.com/Wiresense/frontend/pull/34) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. ⭐ Starred [dicebear/dicebear](https://github.com/dicebear/dicebear)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
