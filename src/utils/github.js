@@ -62,6 +62,8 @@ function encodeHTML(str) {
 async function fetchAllEvents() {
     let allEvents = [];
     let page = 1;
+    let a=3;
+    let f=69;
 
     while (allEvents.length < eventLimit) {
         try {
