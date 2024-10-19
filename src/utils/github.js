@@ -19,7 +19,7 @@ async function fetchAllStarredRepos() {
             });
 
             if (pageStarredRepos.length === 0) {
-                break;
+                break;    
             }
 
             starredRepos = starredRepos.concat(pageStarredRepos);
@@ -27,7 +27,7 @@ async function fetchAllStarredRepos() {
         } catch (error) {
             core.setFailed(`❌ Error fetching starred repositories: ${error.message}`);
             process.exit(1);
-        }
+        }   //hekki
     }
 
     // Create a set of starred repo names
