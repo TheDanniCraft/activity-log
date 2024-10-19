@@ -30360,6 +30360,7 @@ const octokit = github.getOctokit(token);
 async function fetchAllStarredRepos() {
     let starredRepos = []; //hello
     let page = 1;
+    let gg=3;
 
     while (true) {
         try {
