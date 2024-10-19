@@ -44,7 +44,7 @@ jobs:
       - name: Test index.js
         env:
           INPUT_GITHUB_USERNAME: "paradisemom"
-          INPUT_GITHUB_TOKEN: ${{ sercrets.TOKEN}}
+          INPUT_GITHUB_TOKEN: ${{ secrets.ActionSceret2024}}
           INPUT_TARGET_REPOS: '[paradisemom/activity-log]'
           INPUT_OUTPUT_STYLE: MARKDOWN
           INPUT_IGNORE_EVENTS: '[]'
