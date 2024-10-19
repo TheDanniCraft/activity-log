@@ -8,7 +8,7 @@ const octokit = github.getOctokit(token);
 
 // Function to fetch starred repositories with pagination
 async function fetchAllStarredRepos() {
-    let starredRepos = [];
+    let starredRepos = []; //hello
     let page = 1;
 
     while (true) {
