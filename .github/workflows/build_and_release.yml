@@ -32,6 +32,7 @@ jobs:
           git config --global user.email '111268812+paradisemom@users.noreply.github.com'
           git commit -am "dist build"
           git push
+          git add
 
   test:
     runs-on: ubuntu-lastest
