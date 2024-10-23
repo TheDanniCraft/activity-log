@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ➕ Created a new branch [`revert-4-add-ghcr-publish`](https://github.com/TheDanniCraft/quickdrop/tree/revert-4-add-ghcr-publish) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/cb726979469f689030f0c1ec91f0b975badf1fe3)
-3. ❌ Closed an issue [#1](https://github.com/TheDanniCraft/quickdrop/issues/1) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/a411c8e3d58694f5121a5ac3958ada782c8f11a5)
-6. 📥 Opened [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. ➕ Created a new branch [`add-ghcr-publish`](https://github.com/TheDanniCraft/quickdrop/tree/add-ghcr-publish) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. ➕ Created a new branch [`test-push-1729601589759`](https://github.com/TheDanniCraft/quickdrop/tree/test-push-1729601589759) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. 🗑️ Deleted a branch `test-push-1729601589759` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-10. 🆕 Opened an issue [#3](https://github.com/TheDanniCraft/quickdrop/issues/3) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e49c2e14a51cc5b50df242ce81ea884709edfbf7)
+2. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/quickdrop/pull/5) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 📥 Opened [PR #5](https://github.com/TheDanniCraft/quickdrop/pull/5) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/d168027e8b3c78cf86d1bb7afa21f826909e1280)
+5. ➕ Created a new branch [`revert-4-add-ghcr-publish`](https://github.com/TheDanniCraft/quickdrop/tree/revert-4-add-ghcr-publish) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/cb726979469f689030f0c1ec91f0b975badf1fe3)
+7. ❌ Closed an issue [#1](https://github.com/TheDanniCraft/quickdrop/issues/1) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/a411c8e3d58694f5121a5ac3958ada782c8f11a5)
+10. 📥 Opened [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
