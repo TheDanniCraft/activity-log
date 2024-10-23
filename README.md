@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ➕ Created a new branch [`test-push-1729601589759`](https://github.com/TheDanniCraft/quickdrop/tree/test-push-1729601589759) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🗑️ Deleted a branch `test-push-1729601589759` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. 🆕 Opened an issue [#3](https://github.com/TheDanniCraft/quickdrop/issues/3) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🆕 Opened an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 🆕 Opened an issue [#1](https://github.com/TheDanniCraft/quickdrop/issues/1) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/quickdrop/tree/master) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. 🎉 Created a new repository [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. 🔀 Merged [PR #35](https://github.com/Wiresense/frontend/pull/35) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #35](https://github.com/Wiresense/frontend/pull/35) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #19](https://github.com/Wiresense/wiresense.js/pull/19) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. ➕ Created a new branch [`revert-4-add-ghcr-publish`](https://github.com/TheDanniCraft/quickdrop/tree/revert-4-add-ghcr-publish) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/cb726979469f689030f0c1ec91f0b975badf1fe3)
+3. ❌ Closed an issue [#1](https://github.com/TheDanniCraft/quickdrop/issues/1) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/a411c8e3d58694f5121a5ac3958ada782c8f11a5)
+6. 📥 Opened [PR #4](https://github.com/TheDanniCraft/quickdrop/pull/4) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. ➕ Created a new branch [`add-ghcr-publish`](https://github.com/TheDanniCraft/quickdrop/tree/add-ghcr-publish) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. ➕ Created a new branch [`test-push-1729601589759`](https://github.com/TheDanniCraft/quickdrop/tree/test-push-1729601589759) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 🗑️ Deleted a branch `test-push-1729601589759` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. 🆕 Opened an issue [#3](https://github.com/TheDanniCraft/quickdrop/issues/3) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
