@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/cc46082c1a1689a5adf5f3235e727355423c24eb)
-2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e585cff52b75ee21953721d7077a3f71b191eaea)
-3. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/7a78d33cff5b6abcb3343204b5027e91ce72eee7)
-4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/307ae4262b9be07c931cc8f2a34912de9d979a8a)
-5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/7fb0c83a98349509904ef8897f6fa00933ba2868)
-6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e1c2d2d056054b4c775471b8e5caa8d1a7cfef80)
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/27743a6cb99ef75ec76e3212d730b0b6b088514a)
-8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/5b5f603735e623bff9887d82dcb5c670c6572854)
-9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/162bcfff606a4de337d6c57f1af768945ff1b80c)
-10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e49c2e14a51cc5b50df242ce81ea884709edfbf7)
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/79f5eaed30197fe68e0b9c5966841c0d8410699b)
+2. 🔔 Watching [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🗑️ Deleted a branch `revert-4-add-ghcr-publish` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🗑️ Deleted a branch `add-ghcr-publish` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/b18489566ca947e00cf7fab7902549c60afc82d9)
+6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/cc46082c1a1689a5adf5f3235e727355423c24eb)
+7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e585cff52b75ee21953721d7077a3f71b191eaea)
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/7a78d33cff5b6abcb3343204b5027e91ce72eee7)
+9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/307ae4262b9be07c931cc8f2a34912de9d979a8a)
+10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/7fb0c83a98349509904ef8897f6fa00933ba2868)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
