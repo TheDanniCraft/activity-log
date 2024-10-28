@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/23bde7fcbac234fa7d8492f26a00a973e1e8e04b)
-2. ❌ Closed an issue [#3](https://github.com/TheDanniCraft/quickdrop/issues/3) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/quickdrop/pull/6) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/789d68ef9f0fba019f6891d33f11baf844f6c5b6)
-5. 📥 Opened [PR #6](https://github.com/TheDanniCraft/quickdrop/pull/6) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. ➕ Created a new branch [`add-locals`](https://github.com/TheDanniCraft/quickdrop/tree/add-locals) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/97eb3753889ac4f9896f0bd263da8dd514298cdb)
-8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/d8019a3c35db212dd157e102d463d31a85f35133)
-9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/10049d45f029566a9bdb48674a73cbc087ec37e4)
-10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/a1ba3c6fd286c6abe1d2ba77dba9a6674013f93a)
+1. 🔀 Merged [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+2. 🔎 Reviewed [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔀 Merged [PR #36](https://github.com/Wiresense/frontend/pull/36) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #36](https://github.com/Wiresense/frontend/pull/36) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/23bde7fcbac234fa7d8492f26a00a973e1e8e04b)
+6. ❌ Closed an issue [#3](https://github.com/TheDanniCraft/quickdrop/issues/3) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/quickdrop/pull/6) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/789d68ef9f0fba019f6891d33f11baf844f6c5b6)
+9. 📥 Opened [PR #6](https://github.com/TheDanniCraft/quickdrop/pull/6) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. ➕ Created a new branch [`add-locals`](https://github.com/TheDanniCraft/quickdrop/tree/add-locals) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
