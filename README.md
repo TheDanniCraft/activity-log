@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4834656b97b4f56e1b48f2e935df0776d844c5b6)
-2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
-3. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
-5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4d9ad834f8e88e34beb8b38596c9cc819c192369)
-6. 📥 Opened [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. ➕ Created a new branch [`add-metric`](https://github.com/TheDanniCraft/quickdrop/tree/add-metric) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. 🔀 Merged [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🔎 Reviewed [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔀 Merged [PR #36](https://github.com/Wiresense/frontend/pull/36) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/d3c49485b8a2b46bcc208f71c882ce3bce4adbfb)
+2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4834656b97b4f56e1b48f2e935df0776d844c5b6)
+3. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
+4. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
+6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4d9ad834f8e88e34beb8b38596c9cc819c192369)
+7. 📥 Opened [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. ➕ Created a new branch [`add-metric`](https://github.com/TheDanniCraft/quickdrop/tree/add-metric) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 🔀 Merged [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
