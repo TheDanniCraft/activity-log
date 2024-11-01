@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/f129707162e53a2167de3d8db86af4da374b00f2)
-2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/d3c49485b8a2b46bcc208f71c882ce3bce4adbfb)
-3. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4834656b97b4f56e1b48f2e935df0776d844c5b6)
-4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
-5. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4d9ad834f8e88e34beb8b38596c9cc819c192369)
-8. 📥 Opened [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. ➕ Created a new branch [`add-metric`](https://github.com/TheDanniCraft/quickdrop/tree/add-metric) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-10. 🔀 Merged [PR #20](https://github.com/Wiresense/wiresense.js/pull/20) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/14291e08f13338f0abc30d4884e97dae07a9b13a)
+2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/f129707162e53a2167de3d8db86af4da374b00f2)
+3. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/d3c49485b8a2b46bcc208f71c882ce3bce4adbfb)
+4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4834656b97b4f56e1b48f2e935df0776d844c5b6)
+5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
+6. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3cae9028fd9662eb19d67f3a9a015128ae9766b9)
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/4d9ad834f8e88e34beb8b38596c9cc819c192369)
+9. 📥 Opened [PR #8](https://github.com/TheDanniCraft/quickdrop/pull/8) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. ➕ Created a new branch [`add-metric`](https://github.com/TheDanniCraft/quickdrop/tree/add-metric) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
