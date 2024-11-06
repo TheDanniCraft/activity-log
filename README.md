@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/251ca49aab68cf8e319e823dabdabe2028d0e702)
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔎 Reviewed [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #21](https://github.com/Wiresense/wiresense.js/pull/21) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #21](https://github.com/Wiresense/wiresense.js/pull/21) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🗣 Commented on issue [#21](https://github.com/TheDanniCraft/activity-log/issues/21) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/21#issuecomment-2456856388)
-8. ❌ Closed [PR #21](https://github.com/TheDanniCraft/activity-log/pull/21) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/ff130624ce529461fb2db0680bc62a30023d0a8a)
-10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/172e7352d01db2649b87d6a341d1b44ccfbd4e1f)
+1. 🗑️ Deleted a tag `1` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+2. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/251ca49aab68cf8e319e823dabdabe2028d0e702)
+3. 🔀 Merged a PR in a private repo
+4. 🔀 Merged [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔎 Reviewed [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged [PR #21](https://github.com/Wiresense/wiresense.js/pull/21) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔎 Reviewed [PR #21](https://github.com/Wiresense/wiresense.js/pull/21) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🗣 Commented on issue [#21](https://github.com/TheDanniCraft/activity-log/issues/21) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/21#issuecomment-2456856388)
+9. ❌ Closed [PR #21](https://github.com/TheDanniCraft/activity-log/pull/21) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/ff130624ce529461fb2db0680bc62a30023d0a8a)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
