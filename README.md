@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. ❌ Closed [PR #7](https://github.com/TheDanniCraft/quickdrop/pull/7) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. 🗑️ Deleted a branch `add-locals` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🗑️ Deleted a branch `add-metric` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/c8b993087e8004c965d6f04550a0ecacecaf21a5)
-6. 🗑️ Deleted a tag `1` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/251ca49aab68cf8e319e823dabdabe2028d0e702)
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔎 Reviewed [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/f04da8d8c2a6f8f3c8ea48c50cf9847d3abeace7)
+2. 🔀 Merged a PR in a private repo
+3. ❌ Closed [PR #7](https://github.com/TheDanniCraft/quickdrop/pull/7) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🗑️ Deleted a branch `add-locals` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+5. 🗑️ Deleted a branch `add-metric` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/c8b993087e8004c965d6f04550a0ecacecaf21a5)
+7. 🗑️ Deleted a tag `1` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/251ca49aab68cf8e319e823dabdabe2028d0e702)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged [PR #37](https://github.com/Wiresense/frontend/pull/37) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
