@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [snutij/esport_ics](https://github.com/snutij/esport_ics)
-2. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/quickdrop/pull/11) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. ❌ Closed [PR #10](https://github.com/TheDanniCraft/quickdrop/pull/10) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. ❌ Closed [PR #9](https://github.com/TheDanniCraft/quickdrop/pull/9) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 🔀 Merged [PR #38](https://github.com/Wiresense/frontend/pull/38) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #38](https://github.com/Wiresense/frontend/pull/38) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/f04da8d8c2a6f8f3c8ea48c50cf9847d3abeace7)
-8. 🔀 Merged a PR in a private repo
-9. ❌ Closed [PR #7](https://github.com/TheDanniCraft/quickdrop/pull/7) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-10. 🗑️ Deleted a branch `add-locals` in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+1. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/HLTV.JS/pull/2) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+2. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/swatch-studio/pull/6) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/Pixcurate/pull/7) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/tag-bumper/pull/3) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
+7. ⭐ Starred [snutij/esport_ics](https://github.com/snutij/esport_ics)
+8. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/quickdrop/pull/11) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. ❌ Closed [PR #10](https://github.com/TheDanniCraft/quickdrop/pull/10) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. ❌ Closed [PR #9](https://github.com/TheDanniCraft/quickdrop/pull/9) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
