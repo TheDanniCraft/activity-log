@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
+1. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/swatch-studio/pull/8) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/HLTV.JS/pull/2) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-4. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/swatch-studio/pull/6) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/Pixcurate/pull/7) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+3. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/Pixcurate/pull/8) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+4. 🔀 Merged [PR #39](https://github.com/Wiresense/frontend/pull/39) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged a PR in a private repo
 6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/tag-bumper/pull/3) in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper)
-9. ⭐ Starred [snutij/esport_ics](https://github.com/snutij/esport_ics)
-10. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/quickdrop/pull/11) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/HLTV.JS/pull/2) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+8. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/swatch-studio/pull/6) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/Pixcurate/pull/7) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
