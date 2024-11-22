@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-21` in a private repo
 2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/swatch-studio/pull/8) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged a PR in a private repo
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/Pixcurate/pull/8) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
-6. 🔀 Merged [PR #39](https://github.com/Wiresense/frontend/pull/39) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #2](https://github.com/TheDanniCraft/HLTV.JS/pull/2) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-10. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/swatch-studio/pull/6) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/swatch-studio/pull/8) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+6. 🔀 Merged a PR in a private repo
+7. 🔀 Merged [PR #8](https://github.com/TheDanniCraft/Pixcurate/pull/8) in [TheDanniCraft/Pixcurate](https://github.com/TheDanniCraft/Pixcurate)
+8. 🔀 Merged [PR #39](https://github.com/Wiresense/frontend/pull/39) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
