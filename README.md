@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔎 Reviewed [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. ❌ Closed a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e7dd10a75457446a9ae250f40a36ed022c8ee0dc)
+2. 🔀 Merged [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔎 Reviewed [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 4. ❌ Closed a PR in a private repo
-5. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/swatch-studio/pull/10) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-6. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-20` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-18` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-8. 🔀 Merged [PR #9](https://github.com/TheDanniCraft/swatch-studio/pull/9) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-21` in a private repo
-10. 🔀 Merged a PR in a private repo
+5. ❌ Closed a PR in a private repo
+6. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/swatch-studio/pull/10) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-20` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-18` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🔀 Merged [PR #9](https://github.com/TheDanniCraft/swatch-studio/pull/9) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+10. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-11-21` in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
