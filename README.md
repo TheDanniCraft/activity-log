@@ -20,14 +20,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 <!--START_SECTION:activity-->
 1. 🔀 Merged a PR in a private repo
 2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔎 Reviewed [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔀 Merged a PR in a private repo
-7. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/c706125220124fad97bd21c9aafb09a8839fa5ef)
-8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e7dd10a75457446a9ae250f40a36ed022c8ee0dc)
-9. 🔀 Merged [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔎 Reviewed [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔀 Merged a PR in a private repo
+4. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔀 Merged a PR in a private repo
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/c706125220124fad97bd21c9aafb09a8839fa5ef)
+9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e7dd10a75457446a9ae250f40a36ed022c8ee0dc)
+10. 🔀 Merged [PR #22](https://github.com/Wiresense/wiresense.js/pull/22) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
