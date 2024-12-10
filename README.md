@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged a PR in a private repo
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔎 Reviewed [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔀 Merged a PR in a private repo
-9. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/c706125220124fad97bd21c9aafb09a8839fa5ef)
-10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/e7dd10a75457446a9ae250f40a36ed022c8ee0dc)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
