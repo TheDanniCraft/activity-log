@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-2. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged a PR in a private repo
+1. 🔀 Merged a PR in a private repo
+2. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 5. 🔀 Merged a PR in a private repo
 6. 🔀 Merged a PR in a private repo
 7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔎 Reviewed [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🔀 Merged a PR in a private repo
+9. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔀 Merged [PR #23](https://github.com/Wiresense/wiresense.js/pull/23) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
