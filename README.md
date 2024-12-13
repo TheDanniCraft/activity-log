@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
-2. 🔀 Merged a PR in a private repo
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged a PR in a private repo
+1. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/quickdrop/pull/12) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+2. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
+3. 🔀 Merged a PR in a private repo
+4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 7. 🔀 Merged a PR in a private repo
 8. 🔀 Merged a PR in a private repo
 9. 🔀 Merged a PR in a private repo
-10. 🔀 Merged [PR #40](https://github.com/Wiresense/frontend/pull/40) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
