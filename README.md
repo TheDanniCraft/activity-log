@@ -18,13 +18,13 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/quickdrop/pull/12) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
-3. 🔀 Merged a PR in a private repo
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/a742f7ebf37022eaa2689a27742534904adcdf11)
+2. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/quickdrop/pull/12) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
+4. 🔀 Merged a PR in a private repo
+5. 🗑️ Deleted a branch `depfu/batch_all/npm/2024-12-09` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔎 Reviewed [PR #41](https://github.com/Wiresense/frontend/pull/41) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 8. 🔀 Merged a PR in a private repo
 9. 🔀 Merged a PR in a private repo
 10. 🔀 Merged a PR in a private repo
