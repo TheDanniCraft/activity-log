@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/HLTV.JS/pull/3) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-3. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/swatch-studio/pull/11) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 🔀 Merged a PR in a private repo
-5. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/160ca59f5d0b4d78fd3cb875125d10279b6c51f1)
-6. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/c2943975edf9ebc6ab935d0476e78824152ab012)
-7. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/a742f7ebf37022eaa2689a27742534904adcdf11)
-8. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/quickdrop/pull/12) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
-10. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7891a0bee69f96ea78f879a8b67ddc372171f035)
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/HLTV.JS/pull/3) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+4. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/swatch-studio/pull/11) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🔀 Merged a PR in a private repo
+6. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/160ca59f5d0b4d78fd3cb875125d10279b6c51f1)
+7. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/c2943975edf9ebc6ab935d0476e78824152ab012)
+8. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/a742f7ebf37022eaa2689a27742534904adcdf11)
+9. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/quickdrop/pull/12) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. 🌍 Made repository [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad) public
 <!--END_SECTION:activity-->
 
 ## 📖Usage
