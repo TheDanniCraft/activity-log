@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/381aea023487673d4143244de4ba61fa0bff7203)
-2. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/73114e8dd4a8989b5086c1e996d9d6b49168e6e3)
-3. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/197cb40ceb9a5c7fc12efb3c73c122c293e868e1)
-4. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2ead11a88f8fa45996035cb641c6f88a5bbacb7a)
-5. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7891a0bee69f96ea78f879a8b67ddc372171f035)
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #3](https://github.com/TheDanniCraft/HLTV.JS/pull/3) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-8. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/swatch-studio/pull/11) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-9. 🔀 Merged a PR in a private repo
-10. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/160ca59f5d0b4d78fd3cb875125d10279b6c51f1)
+1. 🔀 Merged a PR in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/381aea023487673d4143244de4ba61fa0bff7203)
+6. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/73114e8dd4a8989b5086c1e996d9d6b49168e6e3)
+7. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/197cb40ceb9a5c7fc12efb3c73c122c293e868e1)
+8. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2ead11a88f8fa45996035cb641c6f88a5bbacb7a)
+9. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7891a0bee69f96ea78f879a8b67ddc372171f035)
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
