@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ➕ Created a new branch `master` in a private repo
-2. 🎉 Created a new private repository
-3. 🔀 Merged a PR in a private repo
+1. 🔀 Merged [PR #24](https://github.com/Wiresense/wiresense.js/pull/24) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+2. ➕ Created a new branch `master` in a private repo
+3. 🎉 Created a new private repository
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/381aea023487673d4143244de4ba61fa0bff7203)
-8. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/73114e8dd4a8989b5086c1e996d9d6b49168e6e3)
-9. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/197cb40ceb9a5c7fc12efb3c73c122c293e868e1)
-10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2ead11a88f8fa45996035cb641c6f88a5bbacb7a)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔎 Reviewed [PR #43](https://github.com/Wiresense/frontend/pull/43) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/381aea023487673d4143244de4ba61fa0bff7203)
+9. 📝 Committed to [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad/commit/73114e8dd4a8989b5086c1e996d9d6b49168e6e3)
+10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/197cb40ceb9a5c7fc12efb3c73c122c293e868e1)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
