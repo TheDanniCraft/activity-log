@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on an issue in a private repo
-2. 🔀 Merged [PR #44](https://github.com/Wiresense/frontend/pull/44) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔎 Reviewed [PR #44](https://github.com/Wiresense/frontend/pull/44) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #74](https://github.com/TheDanniCraft/Portfolio/pull/74) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-5. 🔀 Merged [PR #75](https://github.com/TheDanniCraft/Portfolio/pull/75) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #72](https://github.com/TheDanniCraft/Portfolio/pull/72) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-8. 🔀 Merged [PR #42](https://github.com/Wiresense/frontend/pull/42) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #42](https://github.com/Wiresense/frontend/pull/42) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 📝 Committed to a private repo
+1. 🔀 Merged a PR in a private repo
+2. 🗣 Commented on an issue in a private repo
+3. 🔀 Merged [PR #44](https://github.com/Wiresense/frontend/pull/44) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #44](https://github.com/Wiresense/frontend/pull/44) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #74](https://github.com/TheDanniCraft/Portfolio/pull/74) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+6. 🔀 Merged [PR #75](https://github.com/TheDanniCraft/Portfolio/pull/75) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #72](https://github.com/TheDanniCraft/Portfolio/pull/72) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+9. 🔀 Merged [PR #42](https://github.com/Wiresense/frontend/pull/42) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔎 Reviewed [PR #42](https://github.com/Wiresense/frontend/pull/42) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
