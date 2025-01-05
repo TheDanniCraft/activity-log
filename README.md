@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/quickdrop/pull/14) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🔀 Merged [PR #13](https://github.com/TheDanniCraft/quickdrop/pull/13) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c0d61411754f0c111fa784b1d50280ac0c2bc207)
-4. 🗣 Commented on issue [#9](https://github.com/TheDanniCraft/activity-log/issues/9) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/9#issuecomment-2565787604)
-5. 🗣 Commented on issue [#6](https://github.com/TheDanniCraft/activity-log/issues/6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/6#issuecomment-2565785401)
-6. 🗣 Commented on issue [#7](https://github.com/TheDanniCraft/activity-log/issues/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/7#issuecomment-2565783262)
-7. 🔀 Merged [PR #45](https://github.com/Wiresense/frontend/pull/45) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔎 Reviewed [PR #45](https://github.com/Wiresense/frontend/pull/45) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/a935504c1689281f59b49eed1fa50ff2d6c4ce8b)
-10. 🔀 Merged a PR in a private repo
+1. 🔀 Merged a PR in a private repo
+2. 🔀 Merged [PR #46](https://github.com/Wiresense/frontend/pull/46) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔎 Reviewed [PR #46](https://github.com/Wiresense/frontend/pull/46) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/quickdrop/pull/14) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #13](https://github.com/TheDanniCraft/quickdrop/pull/13) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c0d61411754f0c111fa784b1d50280ac0c2bc207)
+8. 🗣 Commented on issue [#9](https://github.com/TheDanniCraft/activity-log/issues/9) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/9#issuecomment-2565787604)
+9. 🗣 Commented on issue [#6](https://github.com/TheDanniCraft/activity-log/issues/6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/6#issuecomment-2565785401)
+10. 🗣 Commented on issue [#7](https://github.com/TheDanniCraft/activity-log/issues/7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/7#issuecomment-2565783262)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
