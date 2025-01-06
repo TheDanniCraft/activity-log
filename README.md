@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-06` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/lichtskulpturenpfad/pull/7) in [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad)
-4. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/swatch-studio/pull/14) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🗑️ Deleted a branch `dependabot/npm_and_yarn/npm_and_yarn-9a95af742f` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-6. 🔀 Merged [PR #195](https://github.com/TheDanniCraft/TerminalWebsite/pull/195) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-7. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/lichtskulpturenpfad/pull/6) in [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad)
-8. 🔀 Merged [PR #4](https://github.com/TheDanniCraft/HLTV.JS/pull/4) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-9. 🔀 Merged [PR #12](https://github.com/TheDanniCraft/swatch-studio/pull/12) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/lichtskulpturenpfad/pull/5) in [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad)
+1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f3a613335d86b16b2b19d354e2872e43385a9d90)
+2. 📥 Opened [PR #22](https://github.com/TheDanniCraft/activity-log/pull/22) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. ➕ Created a new branch [`fix-endless-loop`](https://github.com/TheDanniCraft/activity-log/tree/fix-endless-loop) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-06` in a private repo
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #7](https://github.com/TheDanniCraft/lichtskulpturenpfad/pull/7) in [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad)
+7. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/swatch-studio/pull/14) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 🗑️ Deleted a branch `dependabot/npm_and_yarn/npm_and_yarn-9a95af742f` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+9. 🔀 Merged [PR #195](https://github.com/TheDanniCraft/TerminalWebsite/pull/195) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+10. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/lichtskulpturenpfad/pull/6) in [TheDanniCraft/lichtskulpturenpfad](https://github.com/TheDanniCraft/lichtskulpturenpfad)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
