@@ -1,5 +1,5 @@
 name: activity-log 
-description:  Displays your GitHub activity in a README file.
+description: Displays your GitHub activity in a README file.
 
 inputs:
   GITHUB_USERNAME:
