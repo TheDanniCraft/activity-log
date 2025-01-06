@@ -1,5 +1,5 @@
-name:  README Activity Update
-description:  Updates the GitHub activity in the README file.
+name: activity-log 
+description:  Displays your GitHub activity in a README file.
 
 inputs:
   GITHUB_USERNAME:
