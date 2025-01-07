@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f3919c4ca0a0b8488f9b3805bf40b8a612c894ae)
-2. 🔀 Merged [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔎 Reviewed [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574085550)
-5. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574008604)
-6. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3292bd71102c1cdb4e5b9ac185f3b6cbe20ab9bb)
-8. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. ➕ Created a new tag [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/890298f5fcdc5ee5f8ac0964b1edaf442a6ae24b)
+1. ❌ Closed an issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f3919c4ca0a0b8488f9b3805bf40b8a612c894ae)
+3. 🔀 Merged [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574085550)
+6. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574008604)
+7. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3292bd71102c1cdb4e5b9ac185f3b6cbe20ab9bb)
+9. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. ➕ Created a new tag [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
