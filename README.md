@@ -18,15 +18,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2580060504)
-2. 🔀 Merged a PR in a private repo
-3. 🔎 Reviewed a PR in a private repo
+1. 🔄 Reopened an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+2. ❌ Closed an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2580060504)
 4. 🔀 Merged a PR in a private repo
-5. 🔄 Reopened an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-6. 🔄 Reopened an issue in a private repo
-7. ❌ Closed an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-8. ❌ Closed an issue in a private repo
-9. 🔄 Reopened an issue in a private repo
+5. 🔎 Reviewed a PR in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🔄 Reopened an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+8. 🔄 Reopened an issue in a private repo
+9. ❌ Closed an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
 10. ❌ Closed an issue in a private repo
 <!--END_SECTION:activity-->
 
