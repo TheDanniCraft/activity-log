@@ -6,5 +6,8 @@
 	},
 	"scripts": {
 		"build": "bun i && ncc build src/index.js --license licenses.txt"
+	},
+	"devDependencies": {
+		"@vercel/ncc": "^0.38.3"
 	}
 }
