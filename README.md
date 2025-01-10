@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔎 Reviewed a PR in a private repo
-3. 🔀 Merged a PR in a private repo
-4. 🔄 Reopened an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-5. 🔄 Reopened an issue in a private repo
-6. ❌ Closed an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-7. ❌ Closed an issue in a private repo
-8. 🔄 Reopened an issue in a private repo
-9. ❌ Closed an issue in a private repo
-10. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2579088722)
+1. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2580060504)
+2. 🔀 Merged a PR in a private repo
+3. 🔎 Reviewed a PR in a private repo
+4. 🔀 Merged a PR in a private repo
+5. 🔄 Reopened an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+6. 🔄 Reopened an issue in a private repo
+7. ❌ Closed an issue [#5](https://github.com/TheDanniCraft/TerminalWebsite/issues/5) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+8. ❌ Closed an issue in a private repo
+9. 🔄 Reopened an issue in a private repo
+10. ❌ Closed an issue in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
