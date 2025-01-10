@@ -59,44 +59,32 @@ function encodeHTML(str) {
 }
 
 // Function to fetch all events with pagination and apply filtering
-async function fetchAllEvents() {
-    let allEvents = [];
-    let page = 1;
+async function fetchEvents(page) {
+    try {
+        const { data: events } = await octokit.rest.activity.listEventsForAuthenticatedUser({
+            username,
+            per_page: 100,
+            page
+        });
 
-    while (allEvents.length < eventLimit) {
-        try {
-            const { data: events } = await octokit.rest.activity.listEventsForAuthenticatedUser({
-                username,
-                per_page: 100,
-                page
-            });
-
-            // Check for API rate limit or pagination issues
-            if (events.length === 0) {
-                core.warning('⚠️ No more events available.');
-                break; // No more events to fetch
-            }
-
-            allEvents = allEvents.concat(events);
-            page++;
-
-            // Exit loop if we have enough events
-            if (allEvents.length >= eventLimit) {
-                break;
-            }
-        } catch (error) {
-            core.setFailed(`❌ Error fetching events: ${error.message}`);
-            process.exit(1);
+        // Check for API rate limit or pagination issues
+        if (events.length === 0) {
+            core.warning('⚠️ No more events available.');
+            return events; // No more events to fetch
         }
-    }
 
-    return allEvents;
+        return events;
+    } catch (error) {
+        core.setFailed(`❌ Error fetching events: ${error.message}`);
+        process.exit(1);
+    }
 }
 
 // Function to fetch and filter events
 async function fetchAndFilterEvents() {
     const { starredRepoNames } = await fetchAllStarredRepos();
-    let allEvents = await fetchAllEvents();
+    let page = 1;
+    let allEvents = await fetchEvents(page);
 
     let filteredEvents = [];
 
@@ -115,9 +103,15 @@ async function fetchAndFilterEvents() {
             .slice(0, eventLimit);
 
         if (filteredEvents.length < eventLimit) {
-            const additionalEvents = await fetchAllEvents();
+            page++;
+            if (page > 3) {
+                core.warning(`⚠️ Due to github limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
+                break;
+            };
+            const additionalEvents = await fetchEvents(page);
+
             if (additionalEvents.length === 0) break;
-            allEvents = additionalEvents.concat(allEvents);
+            allEvents = allEvents.concat(additionalEvents);
         } else {
             break;
         }
