@@ -18,8 +18,8 @@ function processEventLimit(value) {
         core.setFailed('❌ EVENT_LIMIT cannot be smaller than 1');
         process.exit(1);
     }
-    if (limit > 100) {
-        core.setFailed('❌ EVENT_LIMIT cannot be greater than 100.');
+    if (limit > 250) {
+        core.setFailed('❌ EVENT_LIMIT cannot be greater than 250.');
         process.exit(1);
     }
     return limit;
