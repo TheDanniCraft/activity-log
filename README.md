@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2581652593)
-2. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2581624293)
-3. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2581621748)
-4. 🗣 Commented on issue [#25](https://github.com/TheDanniCraft/activity-log/issues/25) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/25#issuecomment-2581205679)
-5. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2580451247)
-6. 🗣 Commented on issue [#25](https://github.com/TheDanniCraft/activity-log/issues/25) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/25#issuecomment-2580265932)
-7. 📝 Committed to a private repo
-8. 🔄 Reopened an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. ❌ Closed an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-10. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2580060504)
+1. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2582400041)
+2. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2581652593)
+3. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2581624293)
+4. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2581621748)
+5. 🗣 Commented on issue [#25](https://github.com/TheDanniCraft/activity-log/issues/25) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/25#issuecomment-2581205679)
+6. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2580451247)
+7. 🗣 Commented on issue [#25](https://github.com/TheDanniCraft/activity-log/issues/25) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/25#issuecomment-2580265932)
+8. 📝 Committed to a private repo
+9. 🔄 Reopened an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. ❌ Closed an issue [#2](https://github.com/TheDanniCraft/quickdrop/issues/2) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
