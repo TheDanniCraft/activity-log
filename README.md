@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🗑️ Deleted a branch `fix-endless-loop` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🗑️ Deleted a branch `follow-community-guidelines` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. ➕ Created a new branch [`11-add-unit-tests-jest`](https://github.com/TheDanniCraft/activity-log/tree/11-add-unit-tests-jest) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2584203076)
-6. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. ❌ Closed an issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4866ba58e583e186ff8420af97bda87f11f4c210)
-10. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/activity-log/pull/26) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. ⭐ Starred [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
+2. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🗑️ Deleted a branch `fix-endless-loop` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🗑️ Deleted a branch `follow-community-guidelines` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. ➕ Created a new branch [`11-add-unit-tests-jest`](https://github.com/TheDanniCraft/activity-log/tree/11-add-unit-tests-jest) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2584203076)
+7. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ❌ Closed an issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4866ba58e583e186ff8420af97bda87f11f4c210)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
