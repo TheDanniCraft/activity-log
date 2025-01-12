@@ -18,7 +18,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
+1. 🔔 Watching [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
 2. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 3. 🗑️ Deleted a branch `fix-endless-loop` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 4. 🗑️ Deleted a branch `follow-community-guidelines` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
