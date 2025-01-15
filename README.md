@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/quickdrop/pull/15) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🔀 Merged [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔎 Reviewed [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔎 Reviewed [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2587006775)
-7. 🔔 Watching [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
-8. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🗑️ Deleted a branch `fix-endless-loop` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗑️ Deleted a branch `follow-community-guidelines` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2591497323)
+2. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/quickdrop/pull/15) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🔀 Merged [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2587006775)
+8. 🔔 Watching [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
+9. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🗑️ Deleted a branch `fix-endless-loop` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
