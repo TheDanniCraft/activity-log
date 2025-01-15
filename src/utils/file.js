@@ -5,6 +5,7 @@ const { commitMessage, readmePath, token } = require('../config');
 
 // Function to update README.md and push changes
 async function updateReadme(activity) {
+    //debugger;
     try {
         if (!activity || activity.trim().length === 0) {
             core.warning('⚠️ No activity to update. The README.md will not be changed.');

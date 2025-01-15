@@ -16,4 +16,7 @@ async function main() {
 }
 
 // Execute the main function
-main();
+if (!process.env.JEST_WORKER_ID)
+{
+    main();
+}
