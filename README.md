@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2584203076)
-2. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.7) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. ❌ Closed an issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4866ba58e583e186ff8420af97bda87f11f4c210)
-6. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/activity-log/pull/26) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 📥 Opened [PR #26](https://github.com/TheDanniCraft/activity-log/pull/26) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. ➕ Created a new branch [`fix-multievents`](https://github.com/TheDanniCraft/activity-log/tree/fix-multievents) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🗣 Commented on issue [#24](https://github.com/TheDanniCraft/activity-log/issues/24) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/24#issuecomment-2582866246)
-10. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2582834974)
+1. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2575585872)
+2. ❌ Closed an issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f3919c4ca0a0b8488f9b3805bf40b8a612c894ae)
+4. 🔀 Merged [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔎 Reviewed [PR #25](https://github.com/Wiresense/wiresense.js/pull/25) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574085550)
+7. 🗣 Commented on issue [#23](https://github.com/TheDanniCraft/activity-log/issues/23) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/23#issuecomment-2574008604)
+8. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3292bd71102c1cdb4e5b9ac185f3b6cbe20ab9bb)
+10. 🚀 Published release [`v0.0.6`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.6) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
@@ -151,7 +151,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | `GITHUB_USERNAME` | Your GitHub username.                                                                                                                                                           | ✅               | `-`                                     | A valid GitHub username                                                    |
 | `GITHUB_TOKEN`    | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username) |
-| `EVENT_LIMIT`     | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer (250 max.)                                                       |
+| `EVENT_LIMIT`     | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer                                                       |
 | `OUTPUT_STYLE`    | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                       |
 | `IGNORE_EVENTS`   | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)               |
 | `README_PATH`     | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                        |
