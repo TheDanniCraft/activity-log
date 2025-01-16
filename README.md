@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/b195f1da93da663305ef81dfa4140fbc4e181435)
-2. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2591497323)
-3. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/quickdrop/pull/15) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔎 Reviewed [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔎 Reviewed [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2587006775)
-9. 🔔 Watching [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
-10. 🗑️ Deleted a branch `fix-multievents` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🗣 Commented on issue [#25](https://github.com/TheDanniCraft/activity-log/issues/25) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/25#issuecomment-2593708444)
+2. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/b195f1da93da663305ef81dfa4140fbc4e181435)
+3. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2591497323)
+4. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/quickdrop/pull/15) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+5. 🔀 Merged [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔎 Reviewed [PR #47](https://github.com/Wiresense/frontend/pull/47) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔀 Merged [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🔎 Reviewed [PR #26](https://github.com/Wiresense/wiresense.js/pull/26) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+9. 🗣 Commented on issue [#11](https://github.com/TheDanniCraft/activity-log/issues/11) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/11#issuecomment-2587006775)
+10. 🔔 Watching [oxylabs/how-to-scrape-indeed](https://github.com/oxylabs/how-to-scrape-indeed)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
