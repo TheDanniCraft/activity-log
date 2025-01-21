@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/quickdrop/pull/16) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🔀 Merged [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔀 Merged [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔎 Reviewed [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔎 Reviewed [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 📝 Committed to a private repo
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
-8. 🔀 Merged a PR in a private repo
-9. 🗣 Commented on a review of [PR #27](https://github.com/TheDanniCraft/activity-log/pull/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/27#pullrequestreviewcomment-1917252976)
-10. 🗣 Commented on a review of [PR #27](https://github.com/TheDanniCraft/activity-log/pull/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/27#pullrequestreviewcomment-1917263561)
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/quickdrop/pull/16) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🔀 Merged [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔀 Merged [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔎 Reviewed [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔎 Reviewed [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 📝 Committed to a private repo
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
