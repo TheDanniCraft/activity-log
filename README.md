@@ -20,14 +20,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 <!--START_SECTION:activity-->
 1. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
 2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/quickdrop/pull/16) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔎 Reviewed [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 📝 Committed to a private repo
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
-10. 🔀 Merged a PR in a private repo
+3. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/quickdrop/pull/16) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔀 Merged [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🔎 Reviewed [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+9. 🔎 Reviewed [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 📝 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
