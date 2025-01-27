@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/swatch-studio/pull/15) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
-4. 🔀 Merged a PR in a private repo
-5. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/quickdrop/pull/16) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. 🔀 Merged [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🔀 Merged [PR #48](https://github.com/Wiresense/frontend/pull/48) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔎 Reviewed [PR #27](https://github.com/Wiresense/wiresense.js/pull/27) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 🔀 Merged [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔎 Reviewed [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/swatch-studio/pull/15) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
+8. 🔀 Merged a PR in a private repo
+9. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
