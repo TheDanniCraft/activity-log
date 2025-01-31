@@ -18,14 +18,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-2. 🔎 Reviewed [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔀 Merged [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔎 Reviewed [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged a PR in a private repo
-6. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/swatch-studio/pull/15) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
-8. 🔀 Merged a PR in a private repo
+1. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-27` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+2. 🔀 Merged [PR #17](https://github.com/TheDanniCraft/swatch-studio/pull/17) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #28](https://github.com/Wiresense/wiresense.js/pull/28) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #15](https://github.com/TheDanniCraft/swatch-studio/pull/15) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 9. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-16` in a private repo
 10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
