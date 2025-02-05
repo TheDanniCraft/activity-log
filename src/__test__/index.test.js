@@ -12,7 +12,7 @@ jest.mock('@actions/core', () => ({
     setFailed: jest.fn(),
     warning: jest.fn((name)=>{ console.log("W-" + name);}),
     notice: jest.fn(
-      //(name)=>{ console.log("n-" + name);}
+      (name)=>{ console.log("n-" + name);}
     ),
     debug: jest.fn((name)=>{ console.log("D-" + name);})
   }));
