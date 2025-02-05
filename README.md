@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/swatch-studio/pull/16) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-2. 🔀 Merged [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/bb00997001f1247e440495f83d877ec8a599576a)
-4. 🔎 Reviewed [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-27` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-8. 🔀 Merged [PR #17](https://github.com/TheDanniCraft/swatch-studio/pull/17) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-9. 🔀 Merged [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔎 Reviewed [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2635455671)
+2. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/swatch-studio/pull/16) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/bb00997001f1247e440495f83d877ec8a599576a)
+5. 🔎 Reviewed [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔎 Reviewed [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-27` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+9. 🔀 Merged [PR #17](https://github.com/TheDanniCraft/swatch-studio/pull/17) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+10. 🔀 Merged [PR #49](https://github.com/Wiresense/frontend/pull/49) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
