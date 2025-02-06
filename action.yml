@@ -18,6 +18,10 @@ inputs:
     description:  The events to ignore, specified as a JSON array.
     required: false
     default:  '[]'
+  HIDE_DETAILS_ON_PRIVATE_REPOS:
+    description:  Hide details (branch/tag name) on private repositories
+    required: false
+    default:  'false'
   README_PATH:
     description:  The path to the README file.
     required: false
