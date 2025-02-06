@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2639661315)
-2. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2635455671)
-3. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/swatch-studio/pull/16) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 🔀 Merged [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/bb00997001f1247e440495f83d877ec8a599576a)
-6. 🔎 Reviewed [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔀 Merged [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔎 Reviewed [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-01-27` in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🔀 Merged [PR #17](https://github.com/TheDanniCraft/swatch-studio/pull/17) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+1. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2639722340)
+2. 🗣 Commented on issue [#27](https://github.com/TheDanniCraft/activity-log/issues/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/27#issuecomment-2639712910)
+3. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2639661315)
+4. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2635455671)
+5. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/swatch-studio/pull/16) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+6. 🔀 Merged [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/bb00997001f1247e440495f83d877ec8a599576a)
+8. 🔎 Reviewed [PR #50](https://github.com/Wiresense/frontend/pull/50) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔀 Merged [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #29](https://github.com/Wiresense/wiresense.js/pull/29) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
