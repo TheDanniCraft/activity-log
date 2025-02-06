@@ -6,7 +6,7 @@ const eventDescriptions = {
             : `📝 Committed to [${repo.name}](https://github.com/${repo.name}/commit/${commitSha})`;
     },
 
-    'CreateEvent': ({ repo, isPrivate, payload }) => {
+    'CreateEvent': ({ repo, isPrivate, payload, hideDetailsOnPrivateRepos }) => {
         const { ref_type, ref } = payload;
         const refUrl = ref_type === 'branch'
             ? `https://github.com/${repo.name}/tree/${ref}`
@@ -18,15 +18,15 @@ const eventDescriptions = {
                 : `🎉 Created a new repository [${repo.name}](https://github.com/${repo.name})`;
         } else {
             return isPrivate
-                ? `➕ Created a new ${ref_type} \`${ref}\` in a private repo`
+                ? `➕ Created a new ${ref_type}${hideDetailsOnPrivateRepos ? '' : ` \`${ref}\``} in a private repo`
                 : `➕ Created a new ${ref_type} [\`${ref}\`](${refUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         }
     },
 
-    'DeleteEvent': ({ repo, isPrivate, payload }) => {
+    'DeleteEvent': ({ repo, isPrivate, payload, hideDetailsOnPrivateRepos }) => {
         const { ref_type, ref } = payload;
         return isPrivate
-            ? `🗑️ Deleted a ${ref_type} \`${ref}\` in a private repo`
+            ? `🗑️ Deleted a ${ref_type}${hideDetailsOnPrivateRepos ? '' : ` \`${ref}\``} in a private repo`
             : `🗑️ Deleted a ${ref_type} \`${ref}\` in [${repo.name}](https://github.com/${repo.name})`;
     },
 
