@@ -36,6 +36,21 @@ function processStyle(value) {
     return value;
 }
 
+function processHideDetailsOnPrivateRepos(value) {
+    if (value === undefined || value === '') {
+        return false;
+    }
+
+    const boolValue = value.trim().toLowerCase();
+
+    if (!['true', 'false'].includes(boolValue)) {
+        core.setFailed('❌ HIDE_DETAILS_ON_PRIVATE_REPOS must be "true" or "false"');
+        process.exit(1);
+    }
+
+    return boolValue === 'true';
+}
+
 // Load inputs from GitHub Actions
 module.exports = {
     username: core.getInput('GITHUB_USERNAME', { required: true }),
@@ -43,6 +58,7 @@ module.exports = {
     eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
     style: processStyle(core.getInput('OUTPUT_STYLE')),
     ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
+    hideDetailsOnPrivateRepos: processHideDetailsOnPrivateRepos(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS')),
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE')
 };

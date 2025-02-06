@@ -29229,6 +29229,21 @@ function processStyle(value) {
     return value;
 }
 
+function processHideDetailsOnPrivateRepos(value) {
+    if (value === undefined || value === '') {
+        return false;
+    }
+
+    const boolValue = value.trim().toLowerCase();
+
+    if (!['true', 'false'].includes(boolValue)) {
+        core.setFailed('❌ HIDE_DETAILS_ON_PRIVATE_REPOS must be "true" or "false"');
+        process.exit(1);
+    }
+
+    return boolValue === 'true';
+}
+
 // Load inputs from GitHub Actions
 module.exports = {
     username: core.getInput('GITHUB_USERNAME', { required: true }),
@@ -29236,6 +29251,7 @@ module.exports = {
     eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
     style: processStyle(core.getInput('OUTPUT_STYLE')),
     ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
+    hideDetailsOnPrivateRepos: processHideDetailsOnPrivateRepos(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS')),
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE')
 };
@@ -29254,7 +29270,7 @@ const eventDescriptions = {
             : `📝 Committed to [${repo.name}](https://github.com/${repo.name}/commit/${commitSha})`;
     },
 
-    'CreateEvent': ({ repo, isPrivate, payload }) => {
+    'CreateEvent': ({ repo, isPrivate, payload, hideDetailsOnPrivateRepos }) => {
         const { ref_type, ref } = payload;
         const refUrl = ref_type === 'branch'
             ? `https://github.com/${repo.name}/tree/${ref}`
@@ -29266,15 +29282,15 @@ const eventDescriptions = {
                 : `🎉 Created a new repository [${repo.name}](https://github.com/${repo.name})`;
         } else {
             return isPrivate
-                ? `➕ Created a new ${ref_type} \`${ref}\` in a private repo`
+                ? `➕ Created a new ${ref_type}${hideDetailsOnPrivateRepos ? '' : ` \`${ref}\``} in a private repo`
                 : `➕ Created a new ${ref_type} [\`${ref}\`](${refUrl}) in [${repo.name}](https://github.com/${repo.name})`;
         }
     },
 
-    'DeleteEvent': ({ repo, isPrivate, payload }) => {
+    'DeleteEvent': ({ repo, isPrivate, payload, hideDetailsOnPrivateRepos }) => {
         const { ref_type, ref } = payload;
         return isPrivate
-            ? `🗑️ Deleted a ${ref_type} \`${ref}\` in a private repo`
+            ? `🗑️ Deleted a ${ref_type}${hideDetailsOnPrivateRepos ? '' : ` \`${ref}\``} in a private repo`
             : `🗑️ Deleted a ${ref_type} \`${ref}\` in [${repo.name}](https://github.com/${repo.name})`;
     },
 
@@ -29632,7 +29648,7 @@ module.exports = {
 const github = __nccwpck_require__(3228);
 const core = __nccwpck_require__(7484);
 const eventDescriptions = __nccwpck_require__(5232);
-const { username, token, eventLimit, style, ignoreEvents } = __nccwpck_require__(1283);
+const { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos } = __nccwpck_require__(1283);
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -29771,9 +29787,9 @@ async function fetchAndFilterEvents() {
 
         const description = eventDescriptions[type]
             ? (typeof eventDescriptions[type] === 'function'
-                ? eventDescriptions[type]({ repo, isPrivate, pr, payload })
+                ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
                 : (eventDescriptions[type][action]
-                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
+                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
                     : core.warning(`Unknown action: ${action}`)))
             : core.warning(`Unknown event: ${event}`);
 

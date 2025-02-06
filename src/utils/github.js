@@ -1,7 +1,7 @@
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
-const { username, token, eventLimit, style, ignoreEvents } = require('../config');
+const { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos } = require('../config');
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -140,9 +140,9 @@ async function fetchAndFilterEvents() {
 
         const description = eventDescriptions[type]
             ? (typeof eventDescriptions[type] === 'function'
-                ? eventDescriptions[type]({ repo, isPrivate, pr, payload })
+                ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
                 : (eventDescriptions[type][action]
-                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload })
+                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
                     : core.warning(`Unknown action: ${action}`)))
             : core.warning(`Unknown event: ${event}`);
 
