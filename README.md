@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #51](https://github.com/Wiresense/frontend/pull/51) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-2. 🔀 Merged [PR #30](https://github.com/Wiresense/wiresense.js/pull/30) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🗑️ Deleted a branch `hide-private-details` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640777650)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/70b57ee2de82ea3fea3e9667fad88ca5676e8e1f)
-6. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640621740)
-7. 🚀 Published release [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. ➕ Created a new tag [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. ❌ Closed an issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8ad6deb28efc2de53ce7466d7c67ee99d65ed684)
+1. 🗣 Commented on issue [#27](https://github.com/TheDanniCraft/activity-log/issues/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/27#issuecomment-2648084703)
+2. 🔀 Merged [PR #51](https://github.com/Wiresense/frontend/pull/51) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #30](https://github.com/Wiresense/wiresense.js/pull/30) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🗑️ Deleted a branch `hide-private-details` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640777650)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/70b57ee2de82ea3fea3e9667fad88ca5676e8e1f)
+7. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640621740)
+8. 🚀 Published release [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ➕ Created a new tag [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. ❌ Closed an issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
