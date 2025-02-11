@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🗣 Commented on issue [#27](https://github.com/TheDanniCraft/activity-log/issues/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/27#issuecomment-2648084703)
-3. 🔀 Merged [PR #51](https://github.com/Wiresense/frontend/pull/51) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #30](https://github.com/Wiresense/wiresense.js/pull/30) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🗑️ Deleted a branch `hide-private-details` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640777650)
-7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/70b57ee2de82ea3fea3e9667fad88ca5676e8e1f)
-8. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640621740)
-9. 🚀 Published release [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. ➕ Created a new tag [`v0.0.8`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.8) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 📝 Committed to a private repo
+2. ➕ Created a new branch `v2-rewrite` in a private repo
+3. 🔀 Merged a PR in a private repo
+4. 🗣 Commented on issue [#27](https://github.com/TheDanniCraft/activity-log/issues/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/27#issuecomment-2648084703)
+5. 🔀 Merged [PR #51](https://github.com/Wiresense/frontend/pull/51) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged [PR #30](https://github.com/Wiresense/wiresense.js/pull/30) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🗑️ Deleted a branch `hide-private-details` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640777650)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/70b57ee2de82ea3fea3e9667fad88ca5676e8e1f)
+10. 🗣 Commented on issue [#28](https://github.com/TheDanniCraft/activity-log/issues/28) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/28#issuecomment-2640621740)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
