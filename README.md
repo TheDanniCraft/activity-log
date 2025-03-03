@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
-2. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
-3. ⭐ Starred [basmilius/weather-icons](https://github.com/basmilius/weather-icons)
-4. 🔀 Merged [PR #18](https://github.com/TheDanniCraft/quickdrop/pull/18) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 🔀 Merged [PR #52](https://github.com/Wiresense/frontend/pull/52) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔀 Merged [PR #31](https://github.com/Wiresense/wiresense.js/pull/31) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 📝 Committed to a private repo
-8. ➕ Created a new branch `v2-rewrite` in a private repo
-9. 🔀 Merged a PR in a private repo
-10. 🗣 Commented on issue [#27](https://github.com/TheDanniCraft/activity-log/issues/27) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/27#issuecomment-2648084703)
+1. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2693925212)
+2. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
+3. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
+4. ⭐ Starred [basmilius/weather-icons](https://github.com/basmilius/weather-icons)
+5. 🔀 Merged [PR #18](https://github.com/TheDanniCraft/quickdrop/pull/18) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #52](https://github.com/Wiresense/frontend/pull/52) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔀 Merged [PR #31](https://github.com/Wiresense/wiresense.js/pull/31) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 📝 Committed to a private repo
+9. ➕ Created a new branch `v2-rewrite` in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
