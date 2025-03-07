@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔎 Reviewed [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2693925212)
-5. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
-6. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
-7. ⭐ Starred [basmilius/weather-icons](https://github.com/basmilius/weather-icons)
-8. 🔀 Merged [PR #18](https://github.com/TheDanniCraft/quickdrop/pull/18) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. 🔀 Merged [PR #52](https://github.com/Wiresense/frontend/pull/52) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #31](https://github.com/Wiresense/wiresense.js/pull/31) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 📝 Committed to a private repo
+2. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2693925212)
+6. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
+7. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
+8. ⭐ Starred [basmilius/weather-icons](https://github.com/basmilius/weather-icons)
+9. 🔀 Merged [PR #18](https://github.com/TheDanniCraft/quickdrop/pull/18) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. 🔀 Merged [PR #52](https://github.com/Wiresense/frontend/pull/52) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
