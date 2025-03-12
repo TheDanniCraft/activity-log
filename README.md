@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 📝 Committed to [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite/commit/3bfe4009f40ca1c4421fdd2e0b1688ad7b75612e)
-3. 📝 Committed to a private repo
-4. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2693925212)
-8. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
-9. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
-10. ⭐ Starred [basmilius/weather-icons](https://github.com/basmilius/weather-icons)
+1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
+2. 🔀 Merged a PR in a private repo
+3. 📝 Committed to [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite/commit/3bfe4009f40ca1c4421fdd2e0b1688ad7b75612e)
+4. 📝 Committed to a private repo
+5. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔎 Reviewed [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2693925212)
+9. ⭐ Starred [dead8309/Kizzy](https://github.com/dead8309/Kizzy)
+10. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2675228040)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
