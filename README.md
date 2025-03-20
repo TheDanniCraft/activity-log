@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔎 Reviewed [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
-5. 🔀 Merged a PR in a private repo
-6. 📝 Committed to [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite/commit/3bfe4009f40ca1c4421fdd2e0b1688ad7b75612e)
-7. 📝 Committed to a private repo
-8. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔎 Reviewed [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. ⭐ Starred [langgenius/dify](https://github.com/langgenius/dify)
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔎 Reviewed [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
+6. 🔀 Merged a PR in a private repo
+7. 📝 Committed to [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite/commit/3bfe4009f40ca1c4421fdd2e0b1688ad7b75612e)
+8. 📝 Committed to a private repo
+9. 🔀 Merged [PR #32](https://github.com/Wiresense/wiresense.js/pull/32) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔀 Merged [PR #53](https://github.com/Wiresense/frontend/pull/53) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
