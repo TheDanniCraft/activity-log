@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#3](https://github.com/operational-co/operational.co/issues/3) in [operational-co/operational.co](https://github.com/operational-co/operational.co)
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged [PR #57](https://github.com/Wiresense/frontend/pull/57) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #35](https://github.com/Wiresense/wiresense.js/pull/35) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. ⭐ Starred [langgenius/dify](https://github.com/langgenius/dify)
+1. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/quickdrop/pull/20) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+2. 🔀 Merged [PR #19](https://github.com/TheDanniCraft/swatch-studio/pull/19) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged a PR in a private repo
+4. 🔀 Merged [PR #83](https://github.com/TheDanniCraft/Portfolio/pull/83) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+5. 🔀 Merged a PR in a private repo
+6. 🆕 Opened an issue [#3](https://github.com/operational-co/operational.co/issues/3) in [operational-co/operational.co](https://github.com/operational-co/operational.co)
 7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
+8. 🔀 Merged [PR #57](https://github.com/Wiresense/frontend/pull/57) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged [PR #35](https://github.com/Wiresense/wiresense.js/pull/35) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
