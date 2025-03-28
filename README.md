@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #57](https://github.com/Wiresense/frontend/pull/57) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged [PR #35](https://github.com/Wiresense/wiresense.js/pull/35) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. ⭐ Starred [langgenius/dify](https://github.com/langgenius/dify)
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔎 Reviewed [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
-10. 🔀 Merged a PR in a private repo
+1. 🆕 Opened an issue [#3](https://github.com/operational-co/operational.co/issues/3) in [operational-co/operational.co](https://github.com/operational-co/operational.co)
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #57](https://github.com/Wiresense/frontend/pull/57) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged [PR #35](https://github.com/Wiresense/wiresense.js/pull/35) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. ⭐ Starred [langgenius/dify](https://github.com/langgenius/dify)
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🔎 Reviewed [PR #56](https://github.com/Wiresense/frontend/pull/56) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ffc852db7214c0a4b4c919d9a60f292083b4bbb7)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
