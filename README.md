@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🎉 Created a new private repository
-2. 🔎 Reviewed a PR in a private repo
-3. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/quickdrop/pull/20) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #19](https://github.com/TheDanniCraft/swatch-studio/pull/19) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged a PR in a private repo
-6. 🔀 Merged [PR #83](https://github.com/TheDanniCraft/Portfolio/pull/83) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+1. 🔀 Merged [PR #58](https://github.com/Wiresense/frontend/pull/58) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔀 Merged [PR #36](https://github.com/Wiresense/wiresense.js/pull/36) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🎉 Created a new private repository
+4. 🔎 Reviewed a PR in a private repo
+5. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/quickdrop/pull/20) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #19](https://github.com/TheDanniCraft/swatch-studio/pull/19) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 7. 🔀 Merged a PR in a private repo
-8. 🆕 Opened an issue [#3](https://github.com/operational-co/operational.co/issues/3) in [operational-co/operational.co](https://github.com/operational-co/operational.co)
+8. 🔀 Merged [PR #83](https://github.com/TheDanniCraft/Portfolio/pull/83) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 9. 🔀 Merged a PR in a private repo
-10. 🔀 Merged [PR #57](https://github.com/Wiresense/frontend/pull/57) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🆕 Opened an issue [#3](https://github.com/operational-co/operational.co/issues/3) in [operational-co/operational.co](https://github.com/operational-co/operational.co)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
