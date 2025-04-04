@@ -15,5 +15,9 @@ async function main() {
     }
 }
 
-// Execute the main function
-main();
+// avoid executing the main function when running tests
+if (!process.env.JEST_WORKER_ID)
+{
+    // Execute the main function
+    main();
+}
