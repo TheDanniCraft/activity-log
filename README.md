@@ -19,15 +19,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged a PR in a private repo
-4. 🔀 Merged [PR #59](https://github.com/Wiresense/frontend/pull/59) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cf2d59b2da0d28251531fd6da0c817f431e76cf0)
-6. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/activity-log/pull/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🗣 Commented on issue [#30](https://github.com/TheDanniCraft/activity-log/issues/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/30#issuecomment-2777468122)
-8. 🆕 Opened an issue [#18714](https://github.com/oven-sh/bun/issues/18714) in [oven-sh/bun](https://github.com/oven-sh/bun)
-9. 🔀 Merged [PR #58](https://github.com/Wiresense/frontend/pull/58) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #36](https://github.com/Wiresense/wiresense.js/pull/36) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+2. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/swatch-studio/pull/20) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/quickdrop/pull/21) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🔀 Merged [PR #84](https://github.com/TheDanniCraft/Portfolio/pull/84) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🔀 Merged a PR in a private repo
+8. 🔀 Merged [PR #59](https://github.com/Wiresense/frontend/pull/59) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cf2d59b2da0d28251531fd6da0c817f431e76cf0)
+10. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/activity-log/pull/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
