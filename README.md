@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/swatch-studio/pull/20) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/quickdrop/pull/21) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #84](https://github.com/TheDanniCraft/Portfolio/pull/84) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+1. 🔀 Merged [PR #60](https://github.com/Wiresense/frontend/pull/60) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+2. 🔎 Reviewed [PR #60](https://github.com/Wiresense/frontend/pull/60) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔀 Merged [PR #37](https://github.com/Wiresense/wiresense.js/pull/37) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #37](https://github.com/Wiresense/wiresense.js/pull/37) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 5. 🔀 Merged a PR in a private repo
-6. 🔀 Merged a PR in a private repo
-7. 🔀 Merged a PR in a private repo
-8. 🔀 Merged [PR #59](https://github.com/Wiresense/frontend/pull/59) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cf2d59b2da0d28251531fd6da0c817f431e76cf0)
-10. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/activity-log/pull/30) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔀 Merged [PR #20](https://github.com/TheDanniCraft/swatch-studio/pull/20) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/quickdrop/pull/21) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. 🔀 Merged [PR #84](https://github.com/TheDanniCraft/Portfolio/pull/84) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+9. 🔀 Merged a PR in a private repo
+10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
