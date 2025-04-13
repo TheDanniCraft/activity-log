@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c68fa1320c86a4eeb7482e1f7a762cd9337ea78)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e5c9fec4250bd36f59e32d2616ac9408601dd3f2)
-3. 🆕 Opened an issue [#2403](https://github.com/knadh/listmonk/issues/2403) in [knadh/listmonk](https://github.com/knadh/listmonk)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a2b9080d60a347b5c81bce929be9797535cb49de)
-5. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/clipify/tree/master) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🎉 Created a new repository [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🗣 Commented on issue [#900](https://github.com/sebhildebrandt/systeminformation/issues/900) in [sebhildebrandt/systeminformation](https://github.com/sebhildebrandt/systeminformation): [View Comment](https://github.com/sebhildebrandt/systeminformation/issues/900#issuecomment-2789612374)
-8. 🔀 Merged [PR #60](https://github.com/Wiresense/frontend/pull/60) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-9. 🔎 Reviewed [PR #60](https://github.com/Wiresense/frontend/pull/60) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #37](https://github.com/Wiresense/wiresense.js/pull/37) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c7a826a3265bd2587f9ed0f7e69d94f4e8fe67ff)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/74290f36df991ae6b96dff0e91b6336235d3b83b)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cdc90936223ba05e64f0af53806c0e5792d7e98b)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0db4ab9806858d948027af68523741eab3386370)
+5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c68fa1320c86a4eeb7482e1f7a762cd9337ea78)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e5c9fec4250bd36f59e32d2616ac9408601dd3f2)
+7. 🆕 Opened an issue [#2403](https://github.com/knadh/listmonk/issues/2403) in [knadh/listmonk](https://github.com/knadh/listmonk)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a2b9080d60a347b5c81bce929be9797535cb49de)
+9. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/clipify/tree/master) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🎉 Created a new repository [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
