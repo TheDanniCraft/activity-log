@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b055565dc0d1fee719d57796248a9ebe8d8a45)
-2. 📝 Committed to a private repo
-3. 🔀 Merged [PR #64](https://github.com/Wiresense/frontend/pull/64) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔀 Merged [PR #39](https://github.com/Wiresense/wiresense.js/pull/39) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔎 Reviewed [PR #39](https://github.com/Wiresense/wiresense.js/pull/39) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 📝 Committed to a private repo
-7. ➕ Created a new branch `master` in a private repo
-8. 🎉 Created a new private repository
-9. 🔀 Merged [PR #63](https://github.com/Wiresense/frontend/pull/63) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Merged [PR #38](https://github.com/Wiresense/wiresense.js/pull/38) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa1824edb23724daf4cb64520a0bfbae333ce234)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b055565dc0d1fee719d57796248a9ebe8d8a45)
+3. 📝 Committed to a private repo
+4. 🔀 Merged [PR #64](https://github.com/Wiresense/frontend/pull/64) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔀 Merged [PR #39](https://github.com/Wiresense/wiresense.js/pull/39) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #39](https://github.com/Wiresense/wiresense.js/pull/39) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 📝 Committed to a private repo
+8. ➕ Created a new branch `master` in a private repo
+9. 🎉 Created a new private repository
+10. 🔀 Merged [PR #63](https://github.com/Wiresense/frontend/pull/63) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
