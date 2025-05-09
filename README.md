@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to a private repo
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/515cdb8986465d599ab865408b7c1023b3986c36)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1bb2e4f13a30268163e36bba54b5606642fcb299)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/688cffc5359a5f70e3a20c45302c954fa2062bfd)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b0264c0cd3a0700347b036b8a6ecc5762ec106)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/427013e0afdf8b546de2ba71bb5ea090a7fa991c)
-7. 🔀 Merged a PR in a private repo
+1. ⭐ Starred [LayerXcom/next-navigation-guard](https://github.com/LayerXcom/next-navigation-guard)
+2. 📝 Committed to a private repo
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/515cdb8986465d599ab865408b7c1023b3986c36)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1bb2e4f13a30268163e36bba54b5606642fcb299)
+5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/688cffc5359a5f70e3a20c45302c954fa2062bfd)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b0264c0cd3a0700347b036b8a6ecc5762ec106)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/427013e0afdf8b546de2ba71bb5ea090a7fa991c)
 8. 🔀 Merged a PR in a private repo
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa1824edb23724daf4cb64520a0bfbae333ce234)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b055565dc0d1fee719d57796248a9ebe8d8a45)
+9. 🔀 Merged a PR in a private repo
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa1824edb23724daf4cb64520a0bfbae333ce234)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
