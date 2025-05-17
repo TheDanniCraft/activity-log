@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33cf7a9563c474131626ce3e8140c022ed410e34)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/812ac65815d1dd5bc1e387f6925d9047a7174909)
-3. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/697d190de56abd19567aee58079191056c53e597)
-4. 🔀 Merged [PR #41](https://github.com/Wiresense/wiresense.js/pull/41) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔀 Merged [PR #66](https://github.com/Wiresense/frontend/pull/66) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 📥 Opened [PR #41](https://github.com/Wiresense/wiresense.js/pull/41) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/697d190de56abd19567aee58079191056c53e597)
-8. ➕ Created a new branch [`alert-autofix-1`](https://github.com/Wiresense/wiresense.js/tree/alert-autofix-1) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🔀 Merged [PR #40](https://github.com/Wiresense/wiresense.js/pull/40) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔀 Merged [PR #65](https://github.com/Wiresense/frontend/pull/65) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c2c375bf2ba50c65f4425a6383aae3487d9474a5)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33cf7a9563c474131626ce3e8140c022ed410e34)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/812ac65815d1dd5bc1e387f6925d9047a7174909)
+4. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/697d190de56abd19567aee58079191056c53e597)
+5. 🔀 Merged [PR #41](https://github.com/Wiresense/wiresense.js/pull/41) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔀 Merged [PR #66](https://github.com/Wiresense/frontend/pull/66) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 📥 Opened [PR #41](https://github.com/Wiresense/wiresense.js/pull/41) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/697d190de56abd19567aee58079191056c53e597)
+9. ➕ Created a new branch [`alert-autofix-1`](https://github.com/Wiresense/wiresense.js/tree/alert-autofix-1) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔀 Merged [PR #40](https://github.com/Wiresense/wiresense.js/pull/40) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
