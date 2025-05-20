@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b7f39473bd7d5a579d0f5c6b789a93560b2b7e79)
-2. ❌ Closed [PR #80](https://github.com/TheDanniCraft/Portfolio/pull/80) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-3. 🔀 Merged [PR #86](https://github.com/TheDanniCraft/Portfolio/pull/86) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-4. 🔀 Merged [PR #42](https://github.com/Wiresense/wiresense.js/pull/42) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. 🔎 Reviewed [PR #42](https://github.com/Wiresense/wiresense.js/pull/42) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔀 Merged [PR #67](https://github.com/Wiresense/frontend/pull/67) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔎 Reviewed [PR #67](https://github.com/Wiresense/frontend/pull/67) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. ⭐ Starred [skellgreco/cially](https://github.com/skellgreco/cially)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c2c375bf2ba50c65f4425a6383aae3487d9474a5)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33cf7a9563c474131626ce3e8140c022ed410e34)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cfe25f6bf53e3b24f4eda332a7469ab4294a129f)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b7f39473bd7d5a579d0f5c6b789a93560b2b7e79)
+3. ❌ Closed [PR #80](https://github.com/TheDanniCraft/Portfolio/pull/80) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+4. 🔀 Merged [PR #86](https://github.com/TheDanniCraft/Portfolio/pull/86) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+5. 🔀 Merged [PR #42](https://github.com/Wiresense/wiresense.js/pull/42) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #42](https://github.com/Wiresense/wiresense.js/pull/42) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🔀 Merged [PR #67](https://github.com/Wiresense/frontend/pull/67) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🔎 Reviewed [PR #67](https://github.com/Wiresense/frontend/pull/67) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. ⭐ Starred [skellgreco/cially](https://github.com/skellgreco/cially)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c2c375bf2ba50c65f4425a6383aae3487d9474a5)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
