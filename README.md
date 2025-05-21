@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ❌ Closed a PR in a private repo
-2. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-3. ❌ Closed a PR in a private repo
-4. ❌ Closed [PR #18](https://github.com/TheDanniCraft/swatch-studio/pull/18) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/HLTV.JS/pull/5) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9abbf8caf839511a8d109554f7dd849d38d1bb10)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8ca5573549d6c80fd9c7ba0b2e32ec50814fbc6d)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4ef63e920afc32e81423a1c1fd1de8c4078cf797)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cbdee634d88c65fa2cf60d9c699fa86b5a5ca435)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a4b9751acfa31daa3d4d829103b080e4f191d60)
+1. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/swatch-studio/pull/21) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+2. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/HLTV.JS/pull/6) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+3. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/quickdrop/pull/22) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+4. 🔀 Merged a PR in a private repo
+5. 🔀 Merged a PR in a private repo
+6. ❌ Closed a PR in a private repo
+7. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+8. ❌ Closed a PR in a private repo
+9. ❌ Closed [PR #18](https://github.com/TheDanniCraft/swatch-studio/pull/18) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+10. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/HLTV.JS/pull/5) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
