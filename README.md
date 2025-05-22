@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/swatch-studio/pull/21) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-2. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/HLTV.JS/pull/6) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-3. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/quickdrop/pull/22) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/3fc3c3762d9800e2c2c87d388c083055a2b517a4)
+2. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/swatch-studio/pull/21) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+3. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/HLTV.JS/pull/6) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+4. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/quickdrop/pull/22) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 5. 🔀 Merged a PR in a private repo
-6. ❌ Closed a PR in a private repo
-7. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. ❌ Closed a PR in a private repo
-9. ❌ Closed [PR #18](https://github.com/TheDanniCraft/swatch-studio/pull/18) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🔀 Merged [PR #5](https://github.com/TheDanniCraft/HLTV.JS/pull/5) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+6. 🔀 Merged a PR in a private repo
+7. ❌ Closed a PR in a private repo
+8. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. ❌ Closed a PR in a private repo
+10. ❌ Closed [PR #18](https://github.com/TheDanniCraft/swatch-studio/pull/18) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
