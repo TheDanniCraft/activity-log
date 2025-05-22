@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c9f1607e87d5a01784a8471e5c99c09610618083)
-2. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/3fc3c3762d9800e2c2c87d388c083055a2b517a4)
-3. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/swatch-studio/pull/21) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/HLTV.JS/pull/6) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
-5. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/quickdrop/pull/22) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cd96ed2b06ed8744057aebcd0a07a97d3c160f20)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c9f1607e87d5a01784a8471e5c99c09610618083)
+3. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/3fc3c3762d9800e2c2c87d388c083055a2b517a4)
+4. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/swatch-studio/pull/21) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/HLTV.JS/pull/6) in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS)
+6. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/quickdrop/pull/22) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 7. 🔀 Merged a PR in a private repo
-8. ❌ Closed a PR in a private repo
-9. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-10. ❌ Closed a PR in a private repo
+8. 🔀 Merged a PR in a private repo
+9. ❌ Closed a PR in a private repo
+10. ❌ Closed [PR #19](https://github.com/TheDanniCraft/quickdrop/pull/19) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
