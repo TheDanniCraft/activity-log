@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #68](https://github.com/Wiresense/frontend/pull/68) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/88fee3ab8a0e2b69a03105fcfec377b3121f0cce)
+2. 🔀 Merged a PR in a private repo
+3. 🔀 Merged [PR #68](https://github.com/Wiresense/frontend/pull/68) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 4. 🔀 Merged a PR in a private repo
-5. 🔀 Merged [PR #88](https://github.com/TheDanniCraft/Portfolio/pull/88) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8a5099c6a856b6d7cd48af41e58dccaeca9133ae)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4342e96ac7f877b2417531031213b7d02163469a)
-8. 🔀 Merged [PR #43](https://github.com/Wiresense/wiresense.js/pull/43) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cd96ed2b06ed8744057aebcd0a07a97d3c160f20)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c9f1607e87d5a01784a8471e5c99c09610618083)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged [PR #88](https://github.com/TheDanniCraft/Portfolio/pull/88) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8a5099c6a856b6d7cd48af41e58dccaeca9133ae)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4342e96ac7f877b2417531031213b7d02163469a)
+9. 🔀 Merged [PR #43](https://github.com/Wiresense/wiresense.js/pull/43) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cd96ed2b06ed8744057aebcd0a07a97d3c160f20)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
