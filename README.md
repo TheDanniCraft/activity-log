@@ -18,15 +18,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#3702](https://github.com/Infisical/infisical/issues/3702) in [Infisical/infisical](https://github.com/Infisical/infisical): [View Comment](https://github.com/Infisical/infisical/issues/3702#issuecomment-2932856856)
-2. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/swatch-studio/pull/22) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🔀 Merged [PR #23](https://github.com/TheDanniCraft/quickdrop/pull/23) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #69](https://github.com/Wiresense/frontend/pull/69) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #44](https://github.com/Wiresense/wiresense.js/pull/44) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6bddc9807f01fc145952a96940de4f34d060f306)
-7. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/88fee3ab8a0e2b69a03105fcfec377b3121f0cce)
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged [PR #68](https://github.com/Wiresense/frontend/pull/68) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3810d26d7a35c4918627f2c02d506560af76a55)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2ee27ac94edb6881fe1b92ea68b24b6bdf1cb8ab)
+3. 🗣 Commented on issue [#3702](https://github.com/Infisical/infisical/issues/3702) in [Infisical/infisical](https://github.com/Infisical/infisical): [View Comment](https://github.com/Infisical/infisical/issues/3702#issuecomment-2932856856)
+4. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/swatch-studio/pull/22) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🔀 Merged [PR #23](https://github.com/TheDanniCraft/quickdrop/pull/23) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #69](https://github.com/Wiresense/frontend/pull/69) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🔀 Merged [PR #44](https://github.com/Wiresense/wiresense.js/pull/44) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6bddc9807f01fc145952a96940de4f34d060f306)
+9. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/88fee3ab8a0e2b69a03105fcfec377b3121f0cce)
 10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
