@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7f20b9feb1c4f863086b6ce59ad64436c091f2ad)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3810d26d7a35c4918627f2c02d506560af76a55)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2ee27ac94edb6881fe1b92ea68b24b6bdf1cb8ab)
-4. 🗣 Commented on issue [#3702](https://github.com/Infisical/infisical/issues/3702) in [Infisical/infisical](https://github.com/Infisical/infisical): [View Comment](https://github.com/Infisical/infisical/issues/3702#issuecomment-2932856856)
-5. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/swatch-studio/pull/22) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-6. 🔀 Merged [PR #23](https://github.com/TheDanniCraft/quickdrop/pull/23) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. 🔀 Merged [PR #69](https://github.com/Wiresense/frontend/pull/69) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔀 Merged [PR #44](https://github.com/Wiresense/wiresense.js/pull/44) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6bddc9807f01fc145952a96940de4f34d060f306)
-10. 📝 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/88fee3ab8a0e2b69a03105fcfec377b3121f0cce)
+1. ➕ Created a new tag [`v0.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Published release [`v0.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7f20b9feb1c4f863086b6ce59ad64436c091f2ad)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3810d26d7a35c4918627f2c02d506560af76a55)
+5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2ee27ac94edb6881fe1b92ea68b24b6bdf1cb8ab)
+6. 🗣 Commented on issue [#3702](https://github.com/Infisical/infisical/issues/3702) in [Infisical/infisical](https://github.com/Infisical/infisical): [View Comment](https://github.com/Infisical/infisical/issues/3702#issuecomment-2932856856)
+7. 🔀 Merged [PR #22](https://github.com/TheDanniCraft/swatch-studio/pull/22) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 🔀 Merged [PR #23](https://github.com/TheDanniCraft/quickdrop/pull/23) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 🔀 Merged [PR #69](https://github.com/Wiresense/frontend/pull/69) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔀 Merged [PR #44](https://github.com/Wiresense/wiresense.js/pull/44) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
