@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/75d1bde2473e536228831cc0fedd5a9c8d464302)
-4. 🔀 Merged a PR in a private repo
-5. ➕ Created a new tag [`v0.0.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Published release [`v0.0.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3502b1686b06b48bc45caf6eec8476f27461ed9d)
-8. 🚀 Published release [`v0.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. ➕ Created a new tag [`v0.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f6061af36497fa32a0010ba3a130a2b4da25e32d)
+1. ➕ Created a new branch [`implement-mollie`](https://github.com/TheDanniCraft/clipify/tree/implement-mollie) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/75d1bde2473e536228831cc0fedd5a9c8d464302)
+5. 🔀 Merged a PR in a private repo
+6. ➕ Created a new tag [`v0.0.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Published release [`v0.0.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3502b1686b06b48bc45caf6eec8476f27461ed9d)
+9. 🚀 Published release [`v0.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ➕ Created a new tag [`v0.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
