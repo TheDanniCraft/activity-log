@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #46](https://github.com/Wiresense/wiresense.js/pull/46) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔀 Merged [PR #71](https://github.com/Wiresense/frontend/pull/71) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🔀 Merged [PR #45](https://github.com/Wiresense/wiresense.js/pull/45) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔀 Merged [PR #70](https://github.com/Wiresense/frontend/pull/70) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7fd6dd8986311bb4f55a0a1c74087e85b0c5a993)
-6. ➕ Created a new branch [`implement-mollie`](https://github.com/TheDanniCraft/clipify/tree/implement-mollie) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/75d1bde2473e536228831cc0fedd5a9c8d464302)
-10. 🔀 Merged a PR in a private repo
+1. ⭐ Starred [usertour/usertour](https://github.com/usertour/usertour)
+2. 🔀 Merged [PR #46](https://github.com/Wiresense/wiresense.js/pull/46) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+3. 🔀 Merged [PR #71](https://github.com/Wiresense/frontend/pull/71) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔀 Merged [PR #45](https://github.com/Wiresense/wiresense.js/pull/45) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔀 Merged [PR #70](https://github.com/Wiresense/frontend/pull/70) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7fd6dd8986311bb4f55a0a1c74087e85b0c5a993)
+7. ➕ Created a new branch [`implement-mollie`](https://github.com/TheDanniCraft/clipify/tree/implement-mollie) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Published release [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. ➕ Created a new tag [`v0.0.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/75d1bde2473e536228831cc0fedd5a9c8d464302)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
