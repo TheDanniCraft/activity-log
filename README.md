@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67b520c2d8a2613d59949c766f8e47bf1ba3a787)
-2. 🔀 Merged a PR in a private repo
-3. 🔀 Merged a PR in a private repo
-4. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🗑️ Deleted a branch `implement-mollie` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/07f4b7855611e7e32aa0b6d5bf85ff08907aa795)
-8. ⭐ Starred [usertour/usertour](https://github.com/usertour/usertour)
-9. 🔀 Merged [PR #46](https://github.com/Wiresense/wiresense.js/pull/46) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔀 Merged [PR #71](https://github.com/Wiresense/frontend/pull/71) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🗑️ Deleted a tag `v0.0.5` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67b520c2d8a2613d59949c766f8e47bf1ba3a787)
+5. 🔀 Merged a PR in a private repo
+6. 🔀 Merged a PR in a private repo
+7. 🚀 Published release [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. ➕ Created a new tag [`v0.0.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🗑️ Deleted a branch `implement-mollie` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/07f4b7855611e7e32aa0b6d5bf85ff08907aa795)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
