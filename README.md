@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77ef6ac330e785c146d6bac9231db30001f38023)
-4. 🔀 Merged [PR #74](https://github.com/Wiresense/frontend/pull/74) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged [PR #25](https://github.com/TheDanniCraft/quickdrop/pull/25) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. 🔀 Merged [PR #48](https://github.com/Wiresense/wiresense.js/pull/48) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🔀 Merged [PR #24](https://github.com/TheDanniCraft/swatch-studio/pull/24) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-8. 🔀 Merged a PR in a private repo
-9. 🔀 Merged a PR in a private repo
-10. 🔀 Merged [PR #73](https://github.com/Wiresense/frontend/pull/73) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🚀 Published release [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ➕ Created a new tag [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0846794f498d5b436bdd94b45550cd73e86c413c)
+4. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77ef6ac330e785c146d6bac9231db30001f38023)
+7. 🔀 Merged [PR #74](https://github.com/Wiresense/frontend/pull/74) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🔀 Merged [PR #25](https://github.com/TheDanniCraft/quickdrop/pull/25) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 🔀 Merged [PR #48](https://github.com/Wiresense/wiresense.js/pull/48) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔀 Merged [PR #24](https://github.com/TheDanniCraft/swatch-studio/pull/24) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
