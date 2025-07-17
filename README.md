@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
-2. 🔀 Merged [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔎 Reviewed [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/66d4c4de29a1d812fa3fba939c2c7f21fb9660ca)
-5. 🚀 Published release [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. ➕ Created a new tag [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0846794f498d5b436bdd94b45550cd73e86c413c)
-8. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77ef6ac330e785c146d6bac9231db30001f38023)
+1. ⭐ Starred [FoxRefire/ChromeXPIPorter](https://github.com/FoxRefire/ChromeXPIPorter)
+2. ⭐ Starred [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
+3. 🔀 Merged [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/66d4c4de29a1d812fa3fba939c2c7f21fb9660ca)
+6. 🚀 Published release [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. ➕ Created a new tag [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0846794f498d5b436bdd94b45550cd73e86c413c)
+9. 🚀 Published release [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ➕ Created a new tag [`v0.0.7`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.7) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
