@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/quickdrop/pull/26) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🔀 Merged [PR #25](https://github.com/TheDanniCraft/swatch-studio/pull/25) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🔀 Merged [PR #50](https://github.com/Wiresense/wiresense.js/pull/50) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔎 Reviewed [PR #50](https://github.com/Wiresense/wiresense.js/pull/50) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-5. ⭐ Starred [FoxRefire/ChromeXPIPorter](https://github.com/FoxRefire/ChromeXPIPorter)
-6. ⭐ Starred [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
-7. 🔀 Merged [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔎 Reviewed [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/66d4c4de29a1d812fa3fba939c2c7f21fb9660ca)
-10. 🚀 Published release [`v0.0.11`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🔀 Merged [PR #97](https://github.com/TheDanniCraft/Portfolio/pull/97) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+2. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/quickdrop/pull/26) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🔀 Merged [PR #25](https://github.com/TheDanniCraft/swatch-studio/pull/25) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+4. 🔀 Merged [PR #50](https://github.com/Wiresense/wiresense.js/pull/50) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔎 Reviewed [PR #50](https://github.com/Wiresense/wiresense.js/pull/50) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. ⭐ Starred [FoxRefire/ChromeXPIPorter](https://github.com/FoxRefire/ChromeXPIPorter)
+7. ⭐ Starred [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
+8. 🔀 Merged [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+9. 🔎 Reviewed [PR #49](https://github.com/Wiresense/wiresense.js/pull/49) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/66d4c4de29a1d812fa3fba939c2c7f21fb9660ca)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
