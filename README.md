@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-2. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🔀 Merged [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🔎 Reviewed [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-5. 🔀 Merged a PR in a private repo
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d0d62d52c292f816f14b6c807b1eafc24ef264ea)
-7. ➕ Created a new tag [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Published release [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/12177d2282e2a2457d0e572e376caf47a830211e)
-10. 🔀 Merged [PR #97](https://github.com/TheDanniCraft/Portfolio/pull/97) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/b790b46e99357711de2060d2792d573b2e17e4e6)
+2. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+3. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+4. 🔀 Merged [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 🔎 Reviewed [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+6. 🔀 Merged a PR in a private repo
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d0d62d52c292f816f14b6c807b1eafc24ef264ea)
+8. ➕ Created a new tag [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Published release [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/12177d2282e2a2457d0e572e376caf47a830211e)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
