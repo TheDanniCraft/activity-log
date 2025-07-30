@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/dc5bb797e006f4e2fe2daf9622848c95378fab7d)
-2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/b790b46e99357711de2060d2792d573b2e17e4e6)
-3. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 🔀 Merged [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🔎 Reviewed [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🔀 Merged a PR in a private repo
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d0d62d52c292f816f14b6c807b1eafc24ef264ea)
-9. ➕ Created a new tag [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Published release [`v0.0.12`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.12) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1404a069bb491d099db0c0ae12cb93024022509d)
+2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/undefined)
+3. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f79b7d0f1e47a17b00ee7e63fea43476728189d5)
+4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/d448703085d317d5432a89f2159a71f736f67e83)
+5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/77d468436f0be2bf475babaf3f7cb23b1dc350b3)
+6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/dc5bb797e006f4e2fe2daf9622848c95378fab7d)
+7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/b790b46e99357711de2060d2792d573b2e17e4e6)
+8. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+9. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+10. 🔀 Merged [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
