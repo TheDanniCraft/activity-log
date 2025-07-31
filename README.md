@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1404a069bb491d099db0c0ae12cb93024022509d)
-2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/undefined)
-3. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f79b7d0f1e47a17b00ee7e63fea43476728189d5)
-4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/d448703085d317d5432a89f2159a71f736f67e83)
-5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/77d468436f0be2bf475babaf3f7cb23b1dc350b3)
-6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/dc5bb797e006f4e2fe2daf9622848c95378fab7d)
-7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/b790b46e99357711de2060d2792d573b2e17e4e6)
-8. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 🔀 Merged [PR #75](https://github.com/Wiresense/frontend/pull/75) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🔀 Merged [PR #101](https://github.com/TheDanniCraft/Portfolio/pull/101) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1404a069bb491d099db0c0ae12cb93024022509d)
+3. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/undefined)
+4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f79b7d0f1e47a17b00ee7e63fea43476728189d5)
+5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/d448703085d317d5432a89f2159a71f736f67e83)
+6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/77d468436f0be2bf475babaf3f7cb23b1dc350b3)
+7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/dc5bb797e006f4e2fe2daf9622848c95378fab7d)
+8. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/b790b46e99357711de2060d2792d573b2e17e4e6)
+9. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/quickdrop/pull/27) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. 🔀 Merged [PR #26](https://github.com/TheDanniCraft/swatch-studio/pull/26) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
