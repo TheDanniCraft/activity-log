@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/74fcf2db9b17334fc09701a6654a7094b5cfdaea)
-2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/883bd6271603e74dc5643b9a3d28ba2dfba32fba)
-3. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/0ac87c9e29802e52a7ed97e342786ddfeda25cf7)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac316b71ae595ba6eaab99e8634186a3615dc3b5)
-5. 🔀 Merged [PR #101](https://github.com/TheDanniCraft/Portfolio/pull/101) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1404a069bb491d099db0c0ae12cb93024022509d)
-7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/undefined)
-8. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f79b7d0f1e47a17b00ee7e63fea43476728189d5)
-9. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/d448703085d317d5432a89f2159a71f736f67e83)
-10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/77d468436f0be2bf475babaf3f7cb23b1dc350b3)
+1. 🗣 Commented on issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli): [View Comment](https://github.com/twitchdev/twitch-cli/issues/353#issuecomment-3148549048)
+2. 🆕 Opened an issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+3. 🍴 Forked [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+4. 🔔 Watching [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+5. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/74fcf2db9b17334fc09701a6654a7094b5cfdaea)
+6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/883bd6271603e74dc5643b9a3d28ba2dfba32fba)
+7. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/0ac87c9e29802e52a7ed97e342786ddfeda25cf7)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac316b71ae595ba6eaab99e8634186a3615dc3b5)
+9. 🔀 Merged [PR #101](https://github.com/TheDanniCraft/Portfolio/pull/101) in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/1404a069bb491d099db0c0ae12cb93024022509d)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
