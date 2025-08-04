@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/swatch-studio/pull/27) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-3. 🔎 Reviewed [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 🔀 Merged [PR #28](https://github.com/TheDanniCraft/quickdrop/pull/28) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 🗣 Commented on issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli): [View Comment](https://github.com/twitchdev/twitch-cli/issues/353#issuecomment-3148549048)
-6. 🆕 Opened an issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
-7. 🍴 Forked [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
-8. 🔔 Watching [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
-9. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/74fcf2db9b17334fc09701a6654a7094b5cfdaea)
-10. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/883bd6271603e74dc5643b9a3d28ba2dfba32fba)
+1. 🚀 Published release [`v0.0.13`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ➕ Created a new tag [`v0.0.13`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔀 Merged [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/swatch-studio/pull/27) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 🔎 Reviewed [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔀 Merged [PR #28](https://github.com/TheDanniCraft/quickdrop/pull/28) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 🗣 Commented on issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli): [View Comment](https://github.com/twitchdev/twitch-cli/issues/353#issuecomment-3148549048)
+8. 🆕 Opened an issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+9. 🍴 Forked [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+10. 🔔 Watching [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
