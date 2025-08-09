@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `blog-thumbnails` in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
-2. ➕ Created a new branch [`blog-thumbnails`](https://github.com/TheDanniCraft/TheDanniCraft/tree/blog-thumbnails) in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
-3. 🚀 Published release [`v0.0.13`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. ➕ Created a new tag [`v0.0.13`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🔀 Merged [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔀 Merged [PR #27](https://github.com/TheDanniCraft/swatch-studio/pull/27) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-7. 🔎 Reviewed [PR #51](https://github.com/Wiresense/wiresense.js/pull/51) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-8. 🔀 Merged [PR #28](https://github.com/TheDanniCraft/quickdrop/pull/28) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-9. 🗣 Commented on issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli): [View Comment](https://github.com/twitchdev/twitch-cli/issues/353#issuecomment-3148549048)
-10. 🆕 Opened an issue [#353](https://github.com/twitchdev/twitch-cli/issues/353) in [twitchdev/twitch-cli](https://github.com/twitchdev/twitch-cli)
+1. 🚀 Published release [`v0.0.15`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.15) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ➕ Created a new tag [`v0.0.15`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.15) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d00735c64ee9292dc74a0e9048f3a0ee516dbca7)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f40dc721d3cf89a18098064e992533114bf1227c)
+5. 🚀 Published release [`v0.0.14`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.14) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. ➕ Created a new tag [`v0.0.14`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.14) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b77871b75bddf53477b6267e6c1afd2d330a463f)
+8. 🗑️ Deleted a branch `blog-thumbnails` in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
+9. ➕ Created a new branch [`blog-thumbnails`](https://github.com/TheDanniCraft/TheDanniCraft/tree/blog-thumbnails) in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
+10. 🚀 Published release [`v0.0.13`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
