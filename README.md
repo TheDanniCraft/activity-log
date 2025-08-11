@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔎 Reviewed [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔀 Merged [PR #29](https://github.com/TheDanniCraft/quickdrop/pull/29) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-4. 🔀 Merged [PR #28](https://github.com/TheDanniCraft/swatch-studio/pull/28) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/15f8b9e692f5cfbd8199a1df8ff22641f3048a26)
-6. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-07-21` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. ❌ Closed [PR #1](https://github.com/TheDanniCraft/clipify/pull/1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. ➕ Created a new tag [`v0.0.17`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.17) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Published release [`v0.0.17`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.17) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/01c36a2d3872d26826b72c8adb7c9c874173cd8b)
+1. 🚀 Published release [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ➕ Created a new tag [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔀 Merged [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🔀 Merged [PR #29](https://github.com/TheDanniCraft/quickdrop/pull/29) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+6. 🔀 Merged [PR #28](https://github.com/TheDanniCraft/swatch-studio/pull/28) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/15f8b9e692f5cfbd8199a1df8ff22641f3048a26)
+8. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-07-21` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. ❌ Closed [PR #1](https://github.com/TheDanniCraft/clipify/pull/1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ➕ Created a new tag [`v0.0.17`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.17) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
