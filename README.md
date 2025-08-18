@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-2. 🔎 Reviewed [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🚀 Published release [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecb293fde793fe4445cbcff01aebb1a3697ff960)
+1. ➕ Created a new branch [`blog-post-images`](https://github.com/TheDanniCraft/TheDanniCraft/tree/blog-post-images) in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
+2. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/818957f88c9beae9d950a3b42a36ce4bd7c4f3fa)
+3. 🔀 Merged [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+4. 🔎 Reviewed [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 5. 🚀 Published release [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. ➕ Created a new tag [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Published release [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. ➕ Created a new tag [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔀 Merged [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔎 Reviewed [PR #52](https://github.com/Wiresense/wiresense.js/pull/52) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecb293fde793fe4445cbcff01aebb1a3697ff960)
+7. 🚀 Published release [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. ➕ Created a new tag [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Published release [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ➕ Created a new tag [`v0.0.18`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
