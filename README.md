@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ea03a2b85563733cf058ab3897e5ea43733c8445)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/de9b72f443026fb3cc2fd71398ae93281f7dc752)
-3. ➕ Created a new branch [`blog-post-images`](https://github.com/TheDanniCraft/TheDanniCraft/tree/blog-post-images) in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
-4. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/818957f88c9beae9d950a3b42a36ce4bd7c4f3fa)
-5. 🔀 Merged [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 🚀 Published release [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecb293fde793fe4445cbcff01aebb1a3697ff960)
+1. ➕ Created a new tag [`v0.0.21`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Published release [`v0.0.21`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ea03a2b85563733cf058ab3897e5ea43733c8445)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/de9b72f443026fb3cc2fd71398ae93281f7dc752)
+5. ➕ Created a new branch [`blog-post-images`](https://github.com/TheDanniCraft/TheDanniCraft/tree/blog-post-images) in [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft)
+6. 📝 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/818957f88c9beae9d950a3b42a36ce4bd7c4f3fa)
+7. 🔀 Merged [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+8. 🔎 Reviewed [PR #53](https://github.com/Wiresense/wiresense.js/pull/53) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 9. 🚀 Published release [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. ➕ Created a new tag [`v0.0.20`](https://github.com/TheDanniCraft/clipify/releases/tag/v0.0.20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecb293fde793fe4445cbcff01aebb1a3697ff960)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
