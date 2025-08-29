@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/031e5873f52f46b6310bbc83f50a25ba191818bd)
-2. 📥 Opened [PR #9](https://github.com/TheDanniCraft/clipify/pull/9) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. ➕ Created a new branch [`add-security-policy`](https://github.com/TheDanniCraft/clipify/tree/add-security-policy) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. ⭐ Starred [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🗑️ Deleted a branch `alert-autofix-1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c6c73f5da724ef3a2cd45fe3eedd3c69f7ac2c9e)
-7. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/quickdrop/pull/30) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-8. ⭐ Starred [henrygd/beszel](https://github.com/henrygd/beszel)
-9. 🔀 Merged [PR #6](https://github.com/TheDanniCraft/clipify/pull/6) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🗑️ Deleted a branch `copilot/fix-3d58403e-4fd6-46cc-b984-f33dfc6d5272` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🗑️ Deleted a branch `add-security-policy` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/966daac6fa405f6a107518c3f13b52b6fc21dd6f)
+3. 🔀 Merged [PR #9](https://github.com/TheDanniCraft/clipify/pull/9) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/031e5873f52f46b6310bbc83f50a25ba191818bd)
+5. 📥 Opened [PR #9](https://github.com/TheDanniCraft/clipify/pull/9) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. ➕ Created a new branch [`add-security-policy`](https://github.com/TheDanniCraft/clipify/tree/add-security-policy) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. ⭐ Starred [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🗑️ Deleted a branch `alert-autofix-1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c6c73f5da724ef3a2cd45fe3eedd3c69f7ac2c9e)
+10. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/quickdrop/pull/30) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
