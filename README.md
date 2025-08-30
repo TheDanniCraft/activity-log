@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📥 Opened [PR #11](https://github.com/TheDanniCraft/clipify/pull/11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ➕ Created a new branch [`bump-packages`](https://github.com/TheDanniCraft/clipify/tree/bump-packages) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🗑️ Deleted a branch `migrate-lockfile` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/79c80a61f8b6add1e38de84f2922f024d13b2991)
-5. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/clipify/pull/10) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 📥 Opened [PR #10](https://github.com/TheDanniCraft/clipify/pull/10) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. ➕ Created a new branch [`migrate-lockfile`](https://github.com/TheDanniCraft/clipify/tree/migrate-lockfile) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🗑️ Deleted a branch `add-security-policy` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/966daac6fa405f6a107518c3f13b52b6fc21dd6f)
-10. 🔀 Merged [PR #9](https://github.com/TheDanniCraft/clipify/pull/9) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🗑️ Deleted a branch `bump-packages` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/64c6e0ff1b3f2e741628e85752dd678b9d8933c1)
+3. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/clipify/pull/11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 📥 Opened [PR #11](https://github.com/TheDanniCraft/clipify/pull/11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. ➕ Created a new branch [`bump-packages`](https://github.com/TheDanniCraft/clipify/tree/bump-packages) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🗑️ Deleted a branch `migrate-lockfile` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/79c80a61f8b6add1e38de84f2922f024d13b2991)
+8. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/clipify/pull/10) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 📥 Opened [PR #10](https://github.com/TheDanniCraft/clipify/pull/10) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ➕ Created a new branch [`migrate-lockfile`](https://github.com/TheDanniCraft/clipify/tree/migrate-lockfile) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
