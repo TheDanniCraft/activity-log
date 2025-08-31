@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗑️ Deleted a branch `renovate/node-22.x` in a private repo
-2. 🔀 Merged a PR in a private repo
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/09630ea35d6f3c41a53de5bc375ff8972c7a8231)
-4. 🔀 Merged a PR in a private repo
-5. 🔎 Reviewed a PR in a private repo
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e0a76c9859bb5b5a8269ad2e9bd34a9b408c98b)
-7. 📥 Opened [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a48efbc8e7fee35318e5882a85900b00c1780d15)
-9. ➕ Created a new branch [`prepare-v1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4dae185bd51b25f4f336b0b5e00f292e56348f8)
+2. 🗑️ Deleted a branch `renovate/node-22.x` in a private repo
+3. 🔀 Merged a PR in a private repo
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/09630ea35d6f3c41a53de5bc375ff8972c7a8231)
+5. 🔀 Merged a PR in a private repo
+6. 🔎 Reviewed a PR in a private repo
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e0a76c9859bb5b5a8269ad2e9bd34a9b408c98b)
+8. 📥 Opened [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a48efbc8e7fee35318e5882a85900b00c1780d15)
+10. ➕ Created a new branch [`prepare-v1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
