@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/09630ea35d6f3c41a53de5bc375ff8972c7a8231)
 2. 🔀 Merged a PR in a private repo
-3. 🗑️ Deleted a branch `bump-packages` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/64c6e0ff1b3f2e741628e85752dd678b9d8933c1)
-5. 🔀 Merged [PR #11](https://github.com/TheDanniCraft/clipify/pull/11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 📥 Opened [PR #11](https://github.com/TheDanniCraft/clipify/pull/11) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. ➕ Created a new branch [`bump-packages`](https://github.com/TheDanniCraft/clipify/tree/bump-packages) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🗑️ Deleted a branch `migrate-lockfile` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/79c80a61f8b6add1e38de84f2922f024d13b2991)
-10. 🔀 Merged [PR #10](https://github.com/TheDanniCraft/clipify/pull/10) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔎 Reviewed a PR in a private repo
+4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e0a76c9859bb5b5a8269ad2e9bd34a9b408c98b)
+5. 📥 Opened [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a48efbc8e7fee35318e5882a85900b00c1780d15)
+7. ➕ Created a new branch [`prepare-v1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔀 Merged a PR in a private repo
+9. 🔀 Merged a PR in a private repo
+10. 🗑️ Deleted a branch `bump-packages` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
