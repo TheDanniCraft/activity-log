@@ -18,15 +18,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dab5e58ff994f7e995e282233a821ae9c101b07b)
-2. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-09-01` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/clipify/pull/14) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🔀 Merged [PR #31](https://github.com/TheDanniCraft/quickdrop/pull/31) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-5. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/swatch-studio/pull/30) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4dae185bd51b25f4f336b0b5e00f292e56348f8)
-7. 🗑️ Deleted a branch `renovate/node-22.x` in a private repo
-8. 🔀 Merged a PR in a private repo
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/09630ea35d6f3c41a53de5bc375ff8972c7a8231)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/undefined)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/24c60b3805997a08565790b08219bb9781562c01)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dab5e58ff994f7e995e282233a821ae9c101b07b)
+4. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-09-01` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/clipify/pull/14) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🔀 Merged [PR #31](https://github.com/TheDanniCraft/quickdrop/pull/31) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+7. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/swatch-studio/pull/30) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4dae185bd51b25f4f336b0b5e00f292e56348f8)
+9. 🗑️ Deleted a branch `renovate/node-22.x` in a private repo
 10. 🔀 Merged a PR in a private repo
 <!--END_SECTION:activity-->
 
