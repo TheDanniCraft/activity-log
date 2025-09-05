@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/undefined)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/24c60b3805997a08565790b08219bb9781562c01)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dab5e58ff994f7e995e282233a821ae9c101b07b)
-4. 🗑️ Deleted a branch `depfu/batch_all/npm/2025-09-01` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🔀 Merged [PR #14](https://github.com/TheDanniCraft/clipify/pull/14) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🔀 Merged [PR #31](https://github.com/TheDanniCraft/quickdrop/pull/31) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-7. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/swatch-studio/pull/30) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4dae185bd51b25f4f336b0b5e00f292e56348f8)
-9. 🗑️ Deleted a branch `renovate/node-22.x` in a private repo
-10. 🔀 Merged a PR in a private repo
+1. 🗑️ Deleted a branch `hotfix-lockfile` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7f6756d862ffec8bbbeb4c6d03041cc3df70d640)
+3. 🔀 Merged [PR #16](https://github.com/TheDanniCraft/clipify/pull/16) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 📥 Opened [PR #16](https://github.com/TheDanniCraft/clipify/pull/16) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. ➕ Created a new branch [`hotfix-lockfile`](https://github.com/TheDanniCraft/clipify/tree/hotfix-lockfile) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fcd8a593fff99b5460bfb178f812676a49048686)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2b3274514ee4129a6f0a5fa11fefadd6eb32644c)
+8. 📥 Opened [PR #15](https://github.com/TheDanniCraft/clipify/pull/15) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. ➕ Created a new branch [`add-preview-deployments`](https://github.com/TheDanniCraft/clipify/tree/add-preview-deployments) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/undefined)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
