@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged a PR in a private repo
-2. 🔀 Merged [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-3. 🔎 Reviewed [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0f9f77287d5c3eba56d28ee2deaf9263c2cabeff)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/undefined)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5afb5bc371704e5d449062dbb10b64aaad26914)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e26d67b476bf0ec60deb3e822253b4669f6ea3dc)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7f6756d862ffec8bbbeb4c6d03041cc3df70d640)
-9. 🗑️ Deleted a branch `add-preview-deployments` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2b3274514ee4129a6f0a5fa11fefadd6eb32644c)
+1. 👤 Assigned an issue [#32](https://github.com/TheDanniCraft/activity-log/issues/32) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🏷️ Added a label to an issue [#32](https://github.com/TheDanniCraft/activity-log/issues/32) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🆕 Opened an issue [#32](https://github.com/TheDanniCraft/activity-log/issues/32) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 📝 Committed to a private repo
+5. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/a47d608aa537391dc87ab6653f487d7c64c01de9)
+6. 🔎 Reviewed [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0f9f77287d5c3eba56d28ee2deaf9263c2cabeff)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e26d67b476bf0ec60deb3e822253b4669f6ea3dc)
+9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5afb5bc371704e5d449062dbb10b64aaad26914)
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e26d67b476bf0ec60deb3e822253b4669f6ea3dc)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
