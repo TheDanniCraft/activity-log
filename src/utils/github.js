@@ -37,18 +37,38 @@ async function fetchAllStarredRepos() {
 }
 
 // Function to check if the event was likely triggered by GitHub Actions or bots
-function isTriggeredByGitHubActions(event) {
+async function isTriggeredByGitHubActions(event) {
     // Regex patterns to match common GitHub Actions or bot commit messages
-    const botPatterns = /(\[bot\]|GitHub Actions|github-actions)/i;
+    const botPattern = /\[bot\]$|^github-actions$|^dependabot$|^dependabot\[bot\]$/i;
+
+    const sha = event.payload.head;
+    const fullName = event.repo.name;
+
+    if (!sha || !fullName) return false;
+
+    const [owner, repo] = fullName.split("/");
+    const { data: commit } = await octokit.rest.repos.getCommit({
+        owner,
+        repo,
+        ref: sha,
+    });
 
     // Check if the commit author name matches any of the bot patterns
-    const isCommitEvent = event.type === 'PushEvent' && event.payload && event.payload.commits;
-    if (isCommitEvent) {
-        return event.payload.commits.some(commit =>
-            botPatterns.test(commit.author.name) // Test commit message against regex patterns
-        );
-    }
-    return false;
+    const fields = [
+        commit?.author?.login,
+        commit?.committer?.login,
+        commit?.commit?.author?.name,
+        commit?.commit?.author?.email,
+        commit?.commit?.committer?.name,
+        commit?.commit?.committer?.email,
+    ].filter(Boolean);
+
+    const message = commit?.commit?.message || "";
+
+    const messageLooksAutomated =
+        /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
+
+    return fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
 }
 
 // Helper function to encode URLs
@@ -89,13 +109,18 @@ async function fetchAndFilterEvents() {
     let filteredEvents = [];
 
     while (filteredEvents.length < eventLimit) {
-        filteredEvents = allEvents
-            .filter(event => !ignoreEvents.includes(event.type))
-            .filter(event => !isTriggeredByGitHubActions(event))
+        const candidates = allEvents
+            .filter(event => !ignoreEvents.includes(event.type));
+
+        const keepFlags = await Promise.all(
+            candidates.map(async (event) => !(await isTriggeredByGitHubActions(event)))
+        );
+
+        filteredEvents = candidates
+            .filter((_, i) => keepFlags[i])
             .map(event => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
-                    // Change the event type to 'StarEvent' if the repo is starred
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
                 return event;
