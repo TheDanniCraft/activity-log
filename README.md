@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#33](https://github.com/TheDanniCraft/activity-log/issues/33) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/33#issuecomment-3270203483)
-2. 📝 Committed to a private repo
-3. 🔀 Merged a PR in a private repo
-4. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/a47d608aa537391dc87ab6653f487d7c64c01de9)
-5. 🔀 Merged [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🔎 Reviewed [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0f9f77287d5c3eba56d28ee2deaf9263c2cabeff)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e26d67b476bf0ec60deb3e822253b4669f6ea3dc)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5afb5bc371704e5d449062dbb10b64aaad26914)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e26d67b476bf0ec60deb3e822253b4669f6ea3dc)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a4f2030ba8bd4f2d983f6b9eeb906d514a8d666a)
+2. 📥 Opened [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a7dbcc5124f85db1fb288536e068c44c78f2534)
+4. ➕ Created a new branch [`add-unit-tests`](https://github.com/TheDanniCraft/clipify/tree/add-unit-tests) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🗣 Commented on issue [#33](https://github.com/TheDanniCraft/activity-log/issues/33) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/33#issuecomment-3270203483)
+6. 📝 Committed to a private repo
+7. 🔀 Merged a PR in a private repo
+8. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/a47d608aa537391dc87ab6653f487d7c64c01de9)
+9. 🔀 Merged [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #54](https://github.com/Wiresense/wiresense.js/pull/54) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
