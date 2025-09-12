@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49e5486f7949a5fd64e81c986a35aed85156eed8)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a4f2030ba8bd4f2d983f6b9eeb906d514a8d666a)
-4. 📥 Opened [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a7dbcc5124f85db1fb288536e068c44c78f2534)
-6. ➕ Created a new branch [`add-unit-tests`](https://github.com/TheDanniCraft/clipify/tree/add-unit-tests) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🗣 Commented on issue [#33](https://github.com/TheDanniCraft/activity-log/issues/33) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/33#issuecomment-3270203483)
-8. 📝 Committed to a private repo
-9. 🔀 Merged a PR in a private repo
-10. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/a47d608aa537391dc87ab6653f487d7c64c01de9)
+1. 📝 Committed to a private repo
+2. 🔀 Merged a PR in a private repo
+3. 📝 Committed to a private repo
+4. 🔀 Merged a PR in a private repo
+5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
+6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49e5486f7949a5fd64e81c986a35aed85156eed8)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a4f2030ba8bd4f2d983f6b9eeb906d514a8d666a)
+8. 📥 Opened [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a7dbcc5124f85db1fb288536e068c44c78f2534)
+10. ➕ Created a new branch [`add-unit-tests`](https://github.com/TheDanniCraft/clipify/tree/add-unit-tests) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
