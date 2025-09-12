@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to a private repo
-2. 🔀 Merged a PR in a private repo
+1. 🗣 Commented on issue [#18](https://github.com/TheDanniCraft/clipify/issues/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify): [View Comment](https://github.com/TheDanniCraft/clipify/issues/18#issuecomment-3285075808)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e2813a8b22e039adabe3b68251cef417778da39f)
 3. 📝 Committed to a private repo
 4. 🔀 Merged a PR in a private repo
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49e5486f7949a5fd64e81c986a35aed85156eed8)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a4f2030ba8bd4f2d983f6b9eeb906d514a8d666a)
-8. 📥 Opened [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a7dbcc5124f85db1fb288536e068c44c78f2534)
-10. ➕ Created a new branch [`add-unit-tests`](https://github.com/TheDanniCraft/clipify/tree/add-unit-tests) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 📝 Committed to a private repo
+6. 🔀 Merged a PR in a private repo
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
+8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49e5486f7949a5fd64e81c986a35aed85156eed8)
+9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a4f2030ba8bd4f2d983f6b9eeb906d514a8d666a)
+10. 📥 Opened [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
