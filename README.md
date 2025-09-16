@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/61ba16980793ccea522e1855ab5b5a6e1e112a38)
-2. 📝 Committed to [TheDanniCraft/uptime-kuma](https://github.com/TheDanniCraft/uptime-kuma/commit/aed7b63fc4526a28539b41bdcb4c38a41fa24131)
-3. 🗣 Commented on issue [#18](https://github.com/TheDanniCraft/clipify/issues/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify): [View Comment](https://github.com/TheDanniCraft/clipify/issues/18#issuecomment-3285075808)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e2813a8b22e039adabe3b68251cef417778da39f)
-5. 📝 Committed to a private repo
-6. 🔀 Merged a PR in a private repo
-7. 📝 Committed to a private repo
-8. 🔀 Merged a PR in a private repo
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49e5486f7949a5fd64e81c986a35aed85156eed8)
+1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4b5c0a007e0f67cb6c7bddcf2244c93729742e02)
+2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/61ba16980793ccea522e1855ab5b5a6e1e112a38)
+3. 📝 Committed to [TheDanniCraft/uptime-kuma](https://github.com/TheDanniCraft/uptime-kuma/commit/aed7b63fc4526a28539b41bdcb4c38a41fa24131)
+4. 🗣 Commented on issue [#18](https://github.com/TheDanniCraft/clipify/issues/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify): [View Comment](https://github.com/TheDanniCraft/clipify/issues/18#issuecomment-3285075808)
+5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e2813a8b22e039adabe3b68251cef417778da39f)
+6. 📝 Committed to a private repo
+7. 🔀 Merged a PR in a private repo
+8. 📝 Committed to a private repo
+9. 🔀 Merged a PR in a private repo
+10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b083aae7533d58566b17862353cf3bc055e85ba)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
