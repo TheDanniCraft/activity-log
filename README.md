@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db2d00612f394b592f4fcf23ae9ad543692e18a8)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d16eb72d23ecdae48eddbe636b1980d3a398c541)
-3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/839cff62c6704985f69d4a1e221b8ae0b6919e6f)
-4. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/410b93e83579039d5540dc622b4f28698495543f)
-5. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a38e0823d0644a36c93cd2af4df352346e5e770a)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/91a73fc40258615605bb484ecccc809bb0115843)
-7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d2627bee44e0895941ed8606f915ad0505964958)
-8. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/12ae82b645601073987f8b8092914e13feca0d8b)
-9. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/779f1b5a454217875703a7c52d0a4a3e65d85eb2)
-10. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5b6329fe44e0f515a947969c49a184b871338349)
+1. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
+2. 🔀 Merged [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6f7e247834b4eb6206cd48a39747d0f55ef96fa2)
+4. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/swatch-studio/pull/32) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+5. 📝 Committed to a private repo
+6. 🔀 Merged a PR in a private repo
+7. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/0a63d055e5ea77715da85a88904697f343a80d28)
+8. 🔀 Merged [PR #56](https://github.com/Wiresense/wiresense.js/pull/56) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+9. 🔎 Reviewed [PR #56](https://github.com/Wiresense/wiresense.js/pull/56) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🔎 Reviewed [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
