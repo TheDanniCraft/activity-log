@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3328449250)
-2. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5b7d76fccfe666a741380118987efaa0d6fe37cb)
-3. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324866779)
-4. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324800984)
-5. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
-6. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
-7. 🔀 Merged [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6f7e247834b4eb6206cd48a39747d0f55ef96fa2)
-9. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/swatch-studio/pull/32) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 📝 Committed to a private repo
+1. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3329950335)
+2. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3328449250)
+3. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5b7d76fccfe666a741380118987efaa0d6fe37cb)
+4. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324866779)
+5. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324800984)
+6. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
+7. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
+8. 🔀 Merged [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6f7e247834b4eb6206cd48a39747d0f55ef96fa2)
+10. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/swatch-studio/pull/32) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
