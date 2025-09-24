@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
-2. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
-3. 🔀 Merged [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6f7e247834b4eb6206cd48a39747d0f55ef96fa2)
-5. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/swatch-studio/pull/32) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-6. 📝 Committed to a private repo
-7. 🔀 Merged a PR in a private repo
-8. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/0a63d055e5ea77715da85a88904697f343a80d28)
-9. 🔀 Merged [PR #56](https://github.com/Wiresense/wiresense.js/pull/56) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-10. 🔎 Reviewed [PR #56](https://github.com/Wiresense/wiresense.js/pull/56) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+1. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324800984)
+2. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
+3. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
+4. 🔀 Merged [PR #77](https://github.com/Wiresense/frontend/pull/77) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+5. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6f7e247834b4eb6206cd48a39747d0f55ef96fa2)
+6. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/swatch-studio/pull/32) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+7. 📝 Committed to a private repo
+8. 🔀 Merged a PR in a private repo
+9. 📝 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/0a63d055e5ea77715da85a88904697f343a80d28)
+10. 🔀 Merged [PR #56](https://github.com/Wiresense/wiresense.js/pull/56) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
