@@ -18,16 +18,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to a private repo
-2. 🔀 Merged a PR in a private repo
-3. 🔎 Reviewed a PR in a private repo
-4. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3329950335)
-5. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3328449250)
-6. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5b7d76fccfe666a741380118987efaa0d6fe37cb)
-7. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324866779)
-8. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324800984)
-9. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
-10. 📝 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b54b4f9c64672ed4ffd3c71d695c6edb5ec2df2f)
+1. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3335250732)
+2. 📝 Committed to a private repo
+3. 🔀 Merged a PR in a private repo
+4. 🔎 Reviewed a PR in a private repo
+5. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3329950335)
+6. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3328449250)
+7. 📝 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5b7d76fccfe666a741380118987efaa0d6fe37cb)
+8. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324866779)
+9. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3324800984)
+10. 🆕 Opened an issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
