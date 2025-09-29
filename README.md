@@ -19,16 +19,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/237fb358147c43aca0f6977fc237af026f20453b)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/85a2c3d62c2c6eb4e55e376d59f8cbf2756331b4)
-3. 🚀 Published release [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. ➕ Created a new tag [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/53e4f2ec094259d339b2fe82de341150e763bd9b)
-6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a1d9b98705162d4c2fa36192f4500ebd850e05ec)
-7. ❌ Closed [PR #20](https://github.com/TheDanniCraft/clipify/pull/20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/51f298fc77575c12a15017a688320f35fbef91a5)
-9. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/swatch-studio/pull/33) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-10. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/30c0aa7f8c015c8c396ee6b141a962423ac8b555)
+1. 🗑️ Deleted a branch `badge` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/10a09001cb1287b9828a1abe601ebb891e35f29a)
+3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7257dca32b377eb8fe350dbb7742d6bb49bbbf06)
+4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e35f5f8b5c5ce42ce280a43180ab3952d33568c)
+5. ➕ Created a new branch [`badge`](https://github.com/TheDanniCraft/activity-log/tree/badge) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/237fb358147c43aca0f6977fc237af026f20453b)
+7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/85a2c3d62c2c6eb4e55e376d59f8cbf2756331b4)
+8. 🚀 Published release [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ➕ Created a new tag [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/53e4f2ec094259d339b2fe82de341150e763bd9b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
