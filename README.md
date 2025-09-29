@@ -19,16 +19,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ❌ Closed [PR #20](https://github.com/TheDanniCraft/clipify/pull/20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/51f298fc77575c12a15017a688320f35fbef91a5)
-3. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/swatch-studio/pull/33) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
-4. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/30c0aa7f8c015c8c396ee6b141a962423ac8b555)
-5. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/quickdrop/pull/33) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
-6. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3335250732)
-7. 📝 Committed to a private repo
-8. 🔀 Merged a PR in a private repo
-9. 🔎 Reviewed a PR in a private repo
-10. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3329950335)
+1. 🚀 Published release [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. ➕ Created a new tag [`v0.0.10`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.10) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/53e4f2ec094259d339b2fe82de341150e763bd9b)
+4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a1d9b98705162d4c2fa36192f4500ebd850e05ec)
+5. ❌ Closed [PR #20](https://github.com/TheDanniCraft/clipify/pull/20) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 📝 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/51f298fc77575c12a15017a688320f35fbef91a5)
+7. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/swatch-studio/pull/33) in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio)
+8. 📝 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/30c0aa7f8c015c8c396ee6b141a962423ac8b555)
+9. 🔀 Merged [PR #33](https://github.com/TheDanniCraft/quickdrop/pull/33) in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop)
+10. 🗣 Commented on issue [#327](https://github.com/animir/node-rate-limiter-flexible/issues/327) in [animir/node-rate-limiter-flexible](https://github.com/animir/node-rate-limiter-flexible): [View Comment](https://github.com/animir/node-rate-limiter-flexible/issues/327#issuecomment-3335250732)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
