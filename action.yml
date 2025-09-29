@@ -1,4 +1,4 @@
-name: Github activity-log
+name: GitHub Activity Log
 description: Displays your GitHub activity in a README file.
 
 inputs:
