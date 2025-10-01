@@ -7,12 +7,13 @@ const { commitMessage, readmePath, token, dryRun } = require('../config');
 function logDebugActivity(activity) {
     if (process.env.ACT) {
         core.debug('🚧 Act-Debug mode enabled');
-    }
-    else if (dryRun) {
+    } else if (dryRun) {
         core.notice('🚧 Dry run mode enabled');
     }
 
-    console.log(activity);
+    if (process.env.ACT || dryRun) {
+        console.log(activity);
+    }
 }
 
 // Function to update README.md and push changes
@@ -53,6 +54,7 @@ async function updateReadme(activity) {
             return;
         }
 
+        // Only log debug activity if ACT or dryRun is enabled
         if (process.env.ACT || dryRun) {
             logDebugActivity(activity);
             return;
