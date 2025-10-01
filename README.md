@@ -158,6 +158,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Your commit message.                                                                                                                                                            | ❌               | `-`                                     | Any valid commit message                                                    |
+| `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 📜License
 

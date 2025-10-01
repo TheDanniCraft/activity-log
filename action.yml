@@ -30,6 +30,10 @@ inputs:
     description:  Commit Message
     required: false
     default:  Update README.md with latest activity
+  DRY_RUN:
+    description: Enable dry run mode (no changes will be committed)
+    required: false
+    default: 'false'
 branding:
   color: red
   icon: activity

@@ -1,7 +1,19 @@
 const fs = require('fs');
 const core = require('@actions/core');
 const github = require('@actions/github');
-const { commitMessage, readmePath, token } = require('../config');
+const { commitMessage, readmePath, token, dryRun } = require('../config');
+
+// Helper function for debug output logic
+function logDebugActivity(activity) {
+    if (process.env.ACT) {
+        core.debug('🚧 Act-Debug mode enabled');
+    }
+    else if (dryRun) {
+        core.notice('🚧 Dry run mode enabled');
+    }
+
+    console.log(activity);
+}
 
 // Function to update README.md and push changes
 async function updateReadme(activity) {
@@ -35,16 +47,14 @@ async function updateReadme(activity) {
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
             core.notice('📄 No changes in README.md, skipping...');
-            if (process.env.ACT) {
-                core.debug('🚧 Act-Debug mode enabled)')
-                console.log(activity);
+            if (process.env.ACT || dryRun) {
+                logDebugActivity(activity);
             }
             return;
         }
 
-        if (process.env.ACT) {
-            core.debug('🚧 Act-Debug mode enabled)')
-            console.log(activity);
+        if (process.env.ACT || dryRun) {
+            logDebugActivity(activity);
             return;
         }
 
