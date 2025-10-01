@@ -54,7 +54,7 @@ async function updateReadme(activity) {
             return;
         }
 
-        // Only log debug activity if ACT or dryRun is enabled
+        // Log debug activity and skip update if ACT or dryRun is enabled
         if (process.env.ACT || dryRun) {
             logDebugActivity(activity);
             return;
