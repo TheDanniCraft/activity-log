@@ -52816,7 +52816,7 @@ function processStyle(value) {
     return value;
 }
 
-function processHideDetailsOnPrivateRepos(value) {
+function processBooleanInput(value, inputName) {
     if (value === undefined || value === '') {
         return false;
     }
@@ -52824,7 +52824,7 @@ function processHideDetailsOnPrivateRepos(value) {
     const boolValue = value.trim().toLowerCase();
 
     if (!['true', 'false'].includes(boolValue)) {
-        core.setFailed('❌ HIDE_DETAILS_ON_PRIVATE_REPOS must be "true" or "false"');
+        core.setFailed(`❌ ${inputName} must be "true" or "false"`);
         process.exit(1);
     }
 
@@ -52838,9 +52838,10 @@ module.exports = {
     eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
     style: processStyle(core.getInput('OUTPUT_STYLE')),
     ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
-    hideDetailsOnPrivateRepos: processHideDetailsOnPrivateRepos(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS')),
+    hideDetailsOnPrivateRepos: processBooleanInput(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS'),
     readmePath: core.getInput('README_PATH'),
-    commitMessage: core.getInput('COMMIT_MESSAGE')
+    commitMessage: core.getInput('COMMIT_MESSAGE'),
+    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
 };
 
 
@@ -53107,7 +53108,20 @@ module.exports = eventDescriptions;
 const fs = __nccwpck_require__(9896);
 const core = __nccwpck_require__(7484);
 const github = __nccwpck_require__(3228);
-const { commitMessage, readmePath, token } = __nccwpck_require__(1283);
+const { commitMessage, readmePath, token, dryRun } = __nccwpck_require__(1283);
+
+// Helper function for debug output logic
+function logDebugActivity(activity) {
+    if (process.env.ACT) {
+        core.notice('🚧 Act-Debug mode enabled');
+    } else if (dryRun) {
+        core.notice('🚧 Dry run mode enabled');
+    }
+
+    if (process.env.ACT || dryRun) {
+        console.log(activity);
+    }
+}
 
 // Function to update README.md and push changes
 async function updateReadme(activity) {
@@ -53141,16 +53155,15 @@ async function updateReadme(activity) {
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
             core.notice('📄 No changes in README.md, skipping...');
-            if (process.env.ACT) {
-                core.debug('🚧 Act-Debug mode enabled)')
-                console.log(activity);
+            if (process.env.ACT || dryRun) {
+                logDebugActivity(activity);
             }
             return;
         }
 
-        if (process.env.ACT) {
-            core.debug('🚧 Act-Debug mode enabled)')
-            console.log(activity);
+        // Log debug activity and skip update if ACT or dryRun is enabled
+        if (process.env.ACT || dryRun) {
+            logDebugActivity(activity);
             return;
         }
 

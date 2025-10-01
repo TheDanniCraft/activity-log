@@ -21,5 +21,8 @@ jobs:
           EVENT_LIMIT: 10
           OUTPUT_STYLE: MARKDOWN
           IGNORE_EVENTS: "[]"
+          HIDE_DETAILS_ON_PRIVATE_REPOS: false
           README_PATH: README.md
           COMMIT_MESSAGE: "⚡ Update README.md with latest activity"
+          DRY_RUN: false
+

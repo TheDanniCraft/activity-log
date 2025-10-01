@@ -36,7 +36,7 @@ function processStyle(value) {
     return value;
 }
 
-function processHideDetailsOnPrivateRepos(value) {
+function processBooleanInput(value, inputName) {
     if (value === undefined || value === '') {
         return false;
     }
@@ -44,7 +44,7 @@ function processHideDetailsOnPrivateRepos(value) {
     const boolValue = value.trim().toLowerCase();
 
     if (!['true', 'false'].includes(boolValue)) {
-        core.setFailed('❌ HIDE_DETAILS_ON_PRIVATE_REPOS must be "true" or "false"');
+        core.setFailed(`❌ ${inputName} must be "true" or "false"`);
         process.exit(1);
     }
 
@@ -58,7 +58,8 @@ module.exports = {
     eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
     style: processStyle(core.getInput('OUTPUT_STYLE')),
     ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
-    hideDetailsOnPrivateRepos: processHideDetailsOnPrivateRepos(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS')),
+    hideDetailsOnPrivateRepos: processBooleanInput(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS'),
     readmePath: core.getInput('README_PATH'),
-    commitMessage: core.getInput('COMMIT_MESSAGE')
+    commitMessage: core.getInput('COMMIT_MESSAGE'),
+    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
 };
