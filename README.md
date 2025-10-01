@@ -19,16 +19,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#35](https://github.com/TheDanniCraft/activity-log/issues/35) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🆕 Opened an issue [#34](https://github.com/TheDanniCraft/activity-log/issues/34) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9884864a8ddba730c3f4f1c535b554c0b62a6fcc)
-4. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/endpoints/tree/master) in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints)
-5. 🎉 Created a new repository [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints)
-6. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c155d3a96cb0c040922ae4b62fde40d532410dc3)
-7. 🗑️ Deleted a branch `badge` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/10a09001cb1287b9828a1abe601ebb891e35f29a)
-9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7257dca32b377eb8fe350dbb7742d6bb49bbbf06)
-10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e35f5f8b5c5ce42ce280a43180ab3952d33568c)
+1. 🆕 Opened an issue [#36](https://github.com/TheDanniCraft/activity-log/issues/36) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🆕 Opened an issue [#35](https://github.com/TheDanniCraft/activity-log/issues/35) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🆕 Opened an issue [#34](https://github.com/TheDanniCraft/activity-log/issues/34) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9884864a8ddba730c3f4f1c535b554c0b62a6fcc)
+5. ➕ Created a new branch [`master`](https://github.com/TheDanniCraft/endpoints/tree/master) in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints)
+6. 🎉 Created a new repository [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints)
+7. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c155d3a96cb0c040922ae4b62fde40d532410dc3)
+8. 🗑️ Deleted a branch `badge` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/10a09001cb1287b9828a1abe601ebb891e35f29a)
+10. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7257dca32b377eb8fe350dbb7742d6bb49bbbf06)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
