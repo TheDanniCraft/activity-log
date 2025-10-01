@@ -6,7 +6,7 @@ const { commitMessage, readmePath, token, dryRun } = require('../config');
 // Helper function for debug output logic
 function logDebugActivity(activity) {
     if (process.env.ACT) {
-        core.debug('🚧 Act-Debug mode enabled');
+        core.notice('🚧 Act-Debug mode enabled');
     } else if (dryRun) {
         core.notice('🚧 Dry run mode enabled');
     }
