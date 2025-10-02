@@ -6,12 +6,12 @@ on:
 jobs:
   deploy-dev:
     runs-on: ubuntu-latest
-    environment: dev (開發環境)
+    environment: dev
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Prepare deployment
+      - name: Prepare deployment - 名稱：準備部署
         run: echo "Deploying to dev environment"
 
       - name: Create dev release
@@ -48,7 +48,7 @@ jobs:
   deploy-staging:
     needs: build
     runs-on: ubuntu-latest
-    environment: staging (預備環境)
+    environment: staging
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -71,7 +71,7 @@ jobs:
   deploy-production:
     needs: deploy-staging
     runs-on: ubuntu-latest
-    environment: production (生產環境)
+    environment: production
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
