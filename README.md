@@ -181,7 +181,7 @@ with:
     PushEvent: "🚀"
     CreateEvent: "✨"
     DeleteEvent: "🔥"
-    IssuesEvent:
+    IssuesEvent: |
       opened: "🆕"
       closed: "✅"
 ```
