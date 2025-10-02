@@ -45,6 +45,21 @@ inputs:
     description: Enable dry run mode (no changes will be committed)
     required: false
     default: 'false'
+  EVENT_TEMPLATE:
+    description: |
+      Custom template for event formatting. Supports placeholders:
+      {icon} - Event emoji/icon
+      {action} - Event action (e.g., opened, closed, committed)
+      {repo} - Repository name
+      {repo_url} - Repository URL
+      {date} - Event date
+      {number} - Issue/PR number (if applicable)
+      {url} - Direct URL to the event (if applicable)
+      {ref} - Branch/tag name (if applicable)
+      {ref_type} - Type of ref (branch, tag, etc.)
+      Example: "[{icon}] {action} {repo} on {date}"
+    required: false
+    default: ""
 branding:
   color: red
   icon: activity

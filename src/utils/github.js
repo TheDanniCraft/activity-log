@@ -1,7 +1,8 @@
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
-const { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos } = require('../config');
+const { applyTemplate, extractEventData } = require('./templateEngine');
+const { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos, eventEmojiMap, eventTemplate } = require('../config');
 
 // Create an authenticated Octokit client
 const octokit = github.getOctokit(token);
@@ -163,13 +164,33 @@ async function fetchAndFilterEvents() {
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
 
-        const description = eventDescriptions[type]
-            ? (typeof eventDescriptions[type] === 'function'
-                ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
-                : (eventDescriptions[type][action]
-                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
-                    : core.warning(`Unknown action: ${action}`)))
-            : core.warning(`Unknown event: ${event}`);
+        let description;
+        
+        // Use custom template if provided
+        if (eventTemplate) {
+            const eventData = extractEventData(event, eventEmojiMap);
+            description = applyTemplate(eventTemplate, eventData);
+            
+            // If template returns null or empty, fall back to default formatting
+            if (!description) {
+                description = eventDescriptions[type]
+                    ? (typeof eventDescriptions[type] === 'function'
+                        ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                        : (eventDescriptions[type][action]
+                            ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                            : core.warning(`Unknown action: ${action}`)))
+                    : core.warning(`Unknown event: ${event}`);
+            }
+        } else {
+            // Use default formatting
+            description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : core.warning(`Unknown action: ${action}`)))
+                : core.warning(`Unknown event: ${event}`);
+        }
 
         return style === 'MARKDOWN'
             ? `${index + 1}. ${description}`
