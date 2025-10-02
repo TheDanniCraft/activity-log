@@ -35,17 +35,21 @@ jobs:
   deploy-dev-release:
     needs: build
     runs-on: ubuntu-latest
-    environment: dev (開發環境)
+    environment: dev (開發環境)environment: dev (開發環境)
     steps:
       - name: Download artifact (下載構建成品)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact (構建成品)
 
-      - name: Release Dev Build (發布開發版本)
+      - name: Check and create release (檢查並創建發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: ${{ vars.BUILD_TAG }}-$(date +%s)  # 添加時間戳避免重複
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
-          gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes  # 創建發布
+          if gh release view "$TAG" 2>/dev/null; then
+            echo "Release $TAG already exists, skipping creation"
+          else
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+          fi
