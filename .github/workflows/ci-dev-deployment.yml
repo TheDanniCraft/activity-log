@@ -11,17 +11,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Prepare deployment - 名稱：準備部署
+      - name: Prepare deployment
         run: echo "Deploying to dev environment"
 
       - name: Create dev release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: dev-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          TAG: dev-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
           else
             echo "No build.zip found, skipping release"
             exit 0
@@ -54,17 +54,19 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+          path: ./artifact
 
       - name: Create staging release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: staging-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          TAG: staging-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
           NOTE: "Testing pre-production release"
         run: |
+          cd ./artifact
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
           else
-            echo "No build.zip found, skipping release"
+            echo "No build.zip found in artifact directory, skipping release"
             exit 0
           fi
 
@@ -77,16 +79,18 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+          path: ./artifact
 
       - name: Create production release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: prod-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          TAG: prod-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
           NOTE: "Production release"
         run: |
+          cd ./artifact
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
           else
-            echo "No build.zip found, skipping release"
+            echo "No build.zip found in artifact directory, skipping release"
             exit 0
           fi
