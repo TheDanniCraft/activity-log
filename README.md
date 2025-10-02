@@ -20,6 +20,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Custom Commit Messages
 - Markdown or HTML Output Styles
 - Hide Details on Private Repositories
+- Custom Event Formatting with Templates
+- Customizable Emojis for Event Types
 
 ## ✍️ Example
 
@@ -157,13 +159,13 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | `GITHUB_USERNAME`               | Your GitHub username.                                                                                                                                                           | ✅               | `-`                                     | A valid GitHub username                                                     |
 | `GITHUB_TOKEN`                  | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username)  |
-| `EVENT_LIMIT`                   | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
 | `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                        |
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
+| `EVENT_TEMPLATE`                 | Custom template for event formatting. Supports placeholders like `{icon}`, `{action}`, `{repo}`, etc. (See [🎯 Custom Event Formatting](#-custom-event-formatting))             | ❌               | `""`                                    | Template string with placeholders                                           |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -188,10 +190,91 @@ with:
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
 
+## 🎯 Custom Event Formatting
+
+You can customize how events are displayed in your README using the `EVENT_TEMPLATE` input. This feature allows you to define custom templates with placeholders that will be replaced with actual event data.
+
+### Available Placeholders
+
+| Placeholder | Description | Example |
+|-------------|-------------|---------|
+| `{icon}` | Event emoji/icon | 🚀 |
+| `{action}` | Event action (e.g., opened, closed, committed) | committed |
+| `{repo}` | Repository name | username/repo |
+| `{repo_url}` | Repository URL | https://github.com/username/repo |
+| `{date}` | Event date | 10/2/2024 |
+| `{number}` | Issue/PR number (if applicable) | #42 |
+| `{url}` | Direct URL to the event (if applicable) | https://github.com/username/repo/pull/42 |
+| `{ref}` | Branch/tag name (if applicable) | main |
+| `{ref_type}` | Type of ref (branch, tag, etc.) | branch |
+
+### Example Templates
+
+**Simple format:**
+```
+[{icon}] {action} {repo} on {date}
+```
+**Result:**
+```
+[🚀] committed username/repo on 10/2/2024
+```
+
+**Detailed format with links:**
+```
+{icon} **{action}** [{repo}]({repo_url}) - {date}
+```
+**Result:**
+```
+🚀 **committed** [username/repo](https://github.com/username/repo) - 10/2/2024
+```
+
+**Compact format:**
+```
+{icon} {action} {repo}
+```
+**Result:**
+```
+🚀 committed username/repo
+```
+
+**Format with PR/issue numbers:**
+```
+{icon} {action} {number} in {repo}
+```
+**Result:**
+```
+🆕 opened #42 in username/repo
+```
+
+### Usage in Workflow
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "yourusername"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  EVENT_TEMPLATE: "[{icon}] {action} {repo} on {date}"
+```
+
+### Advanced Example
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "yourusername"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  EVENT_TEMPLATE: |
+    {icon} **{action}** [{repo}]({repo_url}) 
+    {if:number}({number}){endif:number} 
+    {if:url}([View]({url})){endif:url}
+```
+
+> **Note:** The `{if:field}...{endif:field}` syntax is not yet supported. Only the basic placeholders listed above are available in this version.
+
 ## 📜License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## ✍️Authors
-
+- [@AJ0070](https://www.github.com/AJ0070)
 - [@thedannicraft](https://www.github.com/thedannicraft)
