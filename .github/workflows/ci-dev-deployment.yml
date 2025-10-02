@@ -30,7 +30,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
-          path: .
+          path: ./release-artifacts
 
       - name: Create dev release
         env:
@@ -38,8 +38,10 @@ jobs:
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
+          cd ./release-artifacts
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
+            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
+            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
           else
             echo "No build.zip found, skipping release"
             ls -la
@@ -55,7 +57,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
-          path: .
+          path: ./release-artifacts
 
       - name: Create staging release
         env:
@@ -63,8 +65,10 @@ jobs:
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
+          cd ./release-artifacts
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
+            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
+            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
           else
             echo "No build.zip found, skipping release"
             ls -la
@@ -80,7 +84,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
-          path: .
+          path: ./release-artifacts
 
       - name: Create production release
         env:
@@ -88,8 +92,10 @@ jobs:
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
+          cd ./release-artifacts
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
+            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
+            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
           else
             echo "No build.zip found, skipping release"
             ls -la
