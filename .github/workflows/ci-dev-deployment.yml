@@ -14,19 +14,6 @@ jobs:
       - name: Prepare deployment
         run: echo "Deploying to dev environment"
 
-      - name: Create dev release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: dev-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
-          NOTE: ${{ vars.RELEASE_NOTE }}
-        run: |
-          if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
-          else
-            echo "No build.zip found, skipping release"
-            exit 0
-          fi
-
   build:
     needs: deploy-dev
     runs-on: ubuntu-latest
@@ -54,7 +41,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
-          path: ./artifact
+          path: .  # 直接下載到當前目錄
 
       - name: Create staging release
         env:
@@ -62,11 +49,11 @@ jobs:
           TAG: staging-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
           NOTE: "Testing pre-production release"
         run: |
-          cd ./artifact
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed: $?"; exit 0; }
           else
-            echo "No build.zip found in artifact directory, skipping release"
+            echo "No build.zip found, skipping release"
+            ls -la  # 列出當前目錄內容以診斷
             exit 0
           fi
 
@@ -79,7 +66,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
-          path: ./artifact
+          path: .  # 直接下載到當前目錄
 
       - name: Create production release
         env:
@@ -87,10 +74,10 @@ jobs:
           TAG: prod-v${{ github.run_id }}  # 使用運行 ID 生成唯一標籤
           NOTE: "Production release"
         run: |
-          cd ./artifact
           if [ -f build.zip ]; then
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed, skipping"; exit 0; }
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes || { echo "Release creation failed: $?"; exit 0; }
           else
-            echo "No build.zip found in artifact directory, skipping release"
+            echo "No build.zip found, skipping release"
+            ls -la  # 列出當前目錄內容以診斷
             exit 0
           fi
