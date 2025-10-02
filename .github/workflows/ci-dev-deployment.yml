@@ -9,11 +9,20 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 獲取完整歷史以便 git describe
 
       - name: Simulate build
         run: |
           echo "Generating build artifact"
           zip -r build.zip . -x "*.git*"
+
+      - name: Determine version
+        id: version
+        run: |
+          VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo "v1.0")
+          echo "BUILD_TAG=${VERSION}-${GITHUB_REF_NAME}" >> $GITHUB_OUTPUT
+          echo "Generated BUILD_TAG: $VERSION-${GITHUB_REF_NAME}"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -28,6 +37,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -38,7 +49,7 @@ jobs:
       - name: Create dev release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: dev-${{ needs.build.outputs.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
@@ -58,6 +69,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -68,7 +81,7 @@ jobs:
       - name: Create staging release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: staging-${{ needs.build.outputs.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
@@ -88,6 +101,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -98,7 +113,7 @@ jobs:
       - name: Create production release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: prod-${{ needs.build.outputs.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
