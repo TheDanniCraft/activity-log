@@ -55,10 +55,20 @@ jobs:
         with:
           name: build-artifact
 
-      - name: Deploy to staging
-        run: echo "Deploying to staging environment"
+      - name: Create staging release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: staging-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          NOTE: "Testing pre-production release"
+        run: |
+          if [ -f build.zip ]; then
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+          else
+            echo "No build.zip found, skipping release"
+            exit 0
+          fi
 
-  deploy-prod:
+  deploy-production:
     needs: deploy-staging
     runs-on: ubuntu-latest
     environment: production (生產環境)
@@ -68,5 +78,15 @@ jobs:
         with:
           name: build-artifact
 
-      - name: Deploy to production
-        run: echo "Deploying to production environment"
+      - name: Create production release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: prod-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          NOTE: "Production release"
+        run: |
+          if [ -f build.zip ]; then
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+          else
+            echo "No build.zip found, skipping release"
+            exit 0
+          fi
