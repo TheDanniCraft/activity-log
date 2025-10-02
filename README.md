@@ -15,6 +15,11 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Customizable Event Limits
 - Event Filtering
 - Flexibility with Inputs
+- Customizable
+- Dry Run Mode (preview changes without committing)
+- Custom Commit Messages
+- Markdown or HTML Output Styles
+- Hide Details on Private Repositories
 
 ## ✍️ Example
 
@@ -157,8 +162,31 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
-| `COMMIT_MESSAGE`                | Your commit message.                                                                                                                                                            | ❌               | `-`                                     | Any valid commit message                                                    |
+| `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
+| `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
+
+## 🎨 Customizing Emojis
+
+You can personalize the emojis shown for each event type using the `EVENT_EMOJI_MAP` input. This input accepts a YAML object mapping event types (and subtypes) to your preferred emojis.
+
+**Example usage in your workflow:**
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "thedannicraft"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  EVENT_EMOJI_MAP: |
+    PushEvent: "🚀"
+    CreateEvent: "✨"
+    DeleteEvent: "🔥"
+    IssuesEvent:
+      opened: "🆕"
+      closed: "✅"
+```
+
+Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
 
 ## 📜License
 

@@ -24,5 +24,14 @@ jobs:
           HIDE_DETAILS_ON_PRIVATE_REPOS: false
           README_PATH: README.md
           COMMIT_MESSAGE: "⚡ Update README.md with latest activity"
+          EVENT_EMOJI_MAP: |
+            PushEvent: "🚀"
+            CreateEvent: "✨"
+            DeleteEvent: "🔥"
+            IssuesEvent: |
+              opened: "🆕"
+              closed: "✅"
+            PullRequestEvent: |
+              opened: "🔀"
           DRY_RUN: false
 

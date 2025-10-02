@@ -2,7 +2,8 @@
 	"dependencies": {
 		"@actions/core": "^1.11.1",
 		"@actions/github": "^6.0.1",
-		"axios": "^1.11.0"
+		"axios": "^1.11.0",
+		"yaml": "^2.8.1"
 	},
 	"scripts": {
 		"build": "bun i && ncc build src/index.js --license licenses.txt"

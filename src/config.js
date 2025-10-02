@@ -1,4 +1,5 @@
 const core = require('@actions/core');
+const { parse } = require('yaml');
 
 function processIgnoreEvents(value) {
     return value
@@ -51,6 +52,88 @@ function processBooleanInput(value, inputName) {
     return boolValue === 'true';
 }
 
+function processEventEmojiMap(value) {
+    const map = {
+        PushEvent: "📝",
+        CreateEvent: "🎉",
+        DeleteEvent: "🗑️",
+        IssuesEvent: {
+            opened: "🆕",
+            edited: "🔧",
+            closed: "❌",
+            reopened: "🔄",
+            assigned: "👤",
+            unassigned: "👤",
+            labeled: "🏷️",
+            unlabeled: "🏷️",
+        },
+        PullRequestEvent: {
+            opened: "📥",
+            edited: "📝",
+            closed: "❌",
+            merged: "🔀",
+            reopened: "🔄",
+            assigned: "👤",
+            unassigned: "👤",
+            review_requested: "🔍",
+            review_request_removed: "🔍",
+            labeled: "🏷️",
+            unlabeled: "🏷️",
+            synchronize: "🔄",
+        },
+        ReleaseEvent: {
+            draft: "✏️",
+            published: "🚀",
+        },
+        ForkEvent: "🍴",
+        CommitCommentEvent: "🗣",
+        IssueCommentEvent: "🗣",
+        PullRequestReviewEvent: "🔎",
+        PullRequestReviewCommentEvent: "🗣",
+        PullRequestReviewThreadEvent: "🧵",
+        RepositoryEvent: "📋",
+        WatchEvent: "🔔",
+        StarEvent: "⭐",
+        PublicEvent: "🌍",
+        GollumEvent: "📝",
+    };
+
+    if (value && typeof value === 'string') {
+        let userMap;
+        try {
+            userMap = parse(value);
+        } catch (error) {
+            core.setFailed(`❌ Failed to parse user-provided EVENT_EMOJI_MAP YAML: ${error.message}`);
+            process.exit(1);
+        }
+
+        Object.keys(userMap).forEach(event => {
+            let userValue = userMap[event];
+            // If the value is a string, attempt to parse it as YAML to handle nested objects
+            if (typeof userValue === 'string') {
+                try {
+                    userValue = parse(userValue);
+                } catch (error) {
+                    core.setFailed(`❌ Failed to parse nested YAML structure in EVENT_EMOJI_MAP for "${event}": ${error.message}`);
+                    process.exit(1);
+                }
+            }
+            if (typeof map[event] === 'object' && typeof userValue === 'string') {
+                core.setFailed(`❌ EVENT_EMOJI_MAP for "${event}" must be an object, not a string`);
+                process.exit(1);
+            }
+            if (typeof map[event] === 'object' && typeof userValue === 'object') {
+                Object.assign(map[event], userValue);
+            } else {
+                map[event] = userValue;
+            }
+        });
+    }
+
+    core.notice(`🔣 Using event emoji map keys: ${JSON.stringify(map)}`);
+    return map;
+}
+
 // Load inputs from GitHub Actions
 module.exports = {
     username: core.getInput('GITHUB_USERNAME', { required: true }),
@@ -61,5 +144,6 @@ module.exports = {
     hideDetailsOnPrivateRepos: processBooleanInput(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS'),
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE'),
+    eventEmojiMap: processEventEmojiMap(core.getInput('EVENT_EMOJI_MAP')),
     dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
 };

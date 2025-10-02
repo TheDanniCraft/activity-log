@@ -30,6 +30,17 @@ inputs:
     description:  Commit Message
     required: false
     default:  Update README.md with latest activity
+  EVENT_EMOJI_MAP:
+    description: |
+      Optional YAML object mapping event types to emojis.
+      Example (YAML):
+        PushEvent: "🚀"
+        CreateEvent: "✨"
+        DeleteEvent: "🔥"
+        IssuesEvent: |
+          opened: "🆕"
+    required: false
+    default: ""
   DRY_RUN:
     description: Enable dry run mode (no changes will be committed)
     required: false
