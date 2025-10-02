@@ -24,16 +24,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/28da8fc38d2c9321b80fbd044993a1ca559cb538)
-2. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ca4678cd6e33fd57869ec6d9cbb1030b515a12e3)
-3. 📥 Opened [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e3c8c2f6908a165c43aec0d078981c5e1476bd6)
-5. ➕ Created a new branch [`add-dry-run-mode`](https://github.com/TheDanniCraft/activity-log/tree/add-dry-run-mode) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗑️ Deleted a branch `update-issues-template` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. ❌ Closed an issue [#35](https://github.com/TheDanniCraft/activity-log/issues/35) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 📝 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4afed599ab4c484bc9f99cd701a4d4be35e8ff80)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/28da8fc38d2c9321b80fbd044993a1ca559cb538)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ca4678cd6e33fd57869ec6d9cbb1030b515a12e3)
+3. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e3c8c2f6908a165c43aec0d078981c5e1476bd6)
+5. ✨ Created a new branch [`add-dry-run-mode`](https://github.com/TheDanniCraft/activity-log/tree/add-dry-run-mode) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔥 Deleted a branch `update-issues-template` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. ✅ Closed an issue [#35](https://github.com/TheDanniCraft/activity-log/issues/35) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4afed599ab4c484bc9f99cd701a4d4be35e8ff80)
 9. 🔀 Merged [PR #38](https://github.com/TheDanniCraft/activity-log/pull/38) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 📥 Opened [PR #38](https://github.com/TheDanniCraft/activity-log/pull/38) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🔀 Opened [PR #38](https://github.com/TheDanniCraft/activity-log/pull/38) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
