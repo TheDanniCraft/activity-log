@@ -1,40 +1,43 @@
 name: CI Dev Deployment (CI 開發部署)
 on:
   push:
-    branches: [ master ]  # 調整為 master 分支
+    branches: [ master ]  # 使用 master 分支
 
 jobs:
-  build:
+  deploy-dev:
     runs-on: ubuntu-latest
+    environment: dev (開發環境)
     steps:
-      - name: Checkout (簽出儲存庫)
+      - name: Checkout code (簽出代碼)
         uses: actions/checkout@v4
 
-      - name: Set up Node.js (設置 Node.js)
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'  # 快取 npm 以加速
+      - name: Prepare deployment (準備部署)
+        run: echo "Preparing deployment to dev environment"
 
-      - name: Install Dependencies (安裝依賴)
-        run: npm install --ignore-scripts  # 安裝依賴，忽略腳本以防錯誤
+  build:
+    needs: deploy-dev
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code (簽出代碼)
+        uses: actions/checkout@v4
 
-      - name: Prepare Artifact (準備構建成品)
+      - name: Simulate build (模擬構建)
         run: |
-          zip -r build.zip . -x "*.git*" "*.node_modules*"  # 壓縮專案，排除 .git 和 node_modules
+          echo "Generating build artifact"
+          zip -r build.zip . -x "*.git*"  # 壓縮整個專案，排除 .git
 
-      - name: Upload Artifact (上傳構建成品)
+      - name: Upload artifact (上傳構建成品)
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact (構建成品)
           path: build.zip
 
-  deploy-dev:
+  deploy-dev-release:
     needs: build
     runs-on: ubuntu-latest
     environment: dev (開發環境)
     steps:
-      - name: Download Artifact (下載構建成品)
+      - name: Download artifact (下載構建成品)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact (構建成品)
