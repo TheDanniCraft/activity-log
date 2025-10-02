@@ -24,16 +24,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d9893a5ec1cf2c1c771f631870aa94668604318e)
-2. ✅ Closed an issue [#36](https://github.com/TheDanniCraft/activity-log/issues/36) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/39d3a1928bb1093eb8f9512fee26bc51d26a3241)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8848f955961ad97c6d92d7e7bf86a45bbee0e716)
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/28da8fc38d2c9321b80fbd044993a1ca559cb538)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ca4678cd6e33fd57869ec6d9cbb1030b515a12e3)
-8. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e3c8c2f6908a165c43aec0d078981c5e1476bd6)
-10. ✨ Created a new branch [`add-dry-run-mode`](https://github.com/TheDanniCraft/activity-log/tree/add-dry-run-mode) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2399695485)
+2. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2399642731)
+3. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d9893a5ec1cf2c1c771f631870aa94668604318e)
+6. ✅ Closed an issue [#36](https://github.com/TheDanniCraft/activity-log/issues/36) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/39d3a1928bb1093eb8f9512fee26bc51d26a3241)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8848f955961ad97c6d92d7e7bf86a45bbee0e716)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/28da8fc38d2c9321b80fbd044993a1ca559cb538)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
