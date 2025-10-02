@@ -42,66 +42,39 @@ function applyTemplate(template, data) {
  * @param {Object} eventEmojiMap - Emoji mapping for events
  * @returns {Object} Formatted data object with all template variables
  */
-function extractEventData(event, eventEmojiMap) {
-    const type = event.type;
-    const repo = event.repo;
-    const isPrivate = !event.public;
-    const payload = event.payload;
-    
-    // Determine action
+function getActionFromEvent(type, payload) {
+    // Determine action from payload
     let action = payload.pull_request
         ? (payload.pull_request.merged ? 'merged' : payload.action)
         : payload.action;
     
     // Set default action based on event type if no action is available
     if (!action) {
-        switch (type) {
-            case 'PushEvent':
-                action = 'committed';
-                break;
-            case 'CreateEvent':
-                action = 'created';
-                break;
-            case 'DeleteEvent':
-                action = 'deleted';
-                break;
-            case 'ForkEvent':
-                action = 'forked';
-                break;
-            case 'WatchEvent':
-                action = 'watched';
-                break;
-            case 'StarEvent':
-                action = 'starred';
-                break;
-            case 'PublicEvent':
-                action = 'publicized';
-                break;
-            case 'ReleaseEvent':
-                action = payload.release && payload.release.draft ? 'drafted' : 'published';
-                break;
-            case 'CommitCommentEvent':
-                action = 'commented';
-                break;
-            case 'IssueCommentEvent':
-                action = 'commented';
-                break;
-            case 'PullRequestReviewEvent':
-                action = 'reviewed';
-                break;
-            case 'PullRequestReviewCommentEvent':
-                action = 'commented';
-                break;
-            case 'GollumEvent':
-                action = 'updated';
-                break;
-            default:
-                action = 'performed action';
-        }
+        const defaultActions = {
+            'PushEvent': 'committed',
+            'CreateEvent': 'created',
+            'DeleteEvent': 'deleted',
+            'ForkEvent': 'forked',
+            'WatchEvent': 'watched',
+            'StarEvent': 'starred',
+            'PublicEvent': 'publicized',
+            'ReleaseEvent': payload.release && payload.release.draft ? 'drafted' : 'published',
+            'CommitCommentEvent': 'commented',
+            'IssueCommentEvent': 'commented',
+            'PullRequestReviewEvent': 'reviewed',
+            'PullRequestReviewCommentEvent': 'commented',
+            'GollumEvent': 'updated'
+        };
+        
+        action = defaultActions[type] || 'performed action';
     }
+    
+    return action;
+}
 
-    // Get icon/emoji
+function getIconFromEvent(type, action, eventEmojiMap) {
     let icon = '';
+    
     if (eventEmojiMap[type]) {
         if (typeof eventEmojiMap[type] === 'object' && eventEmojiMap[type][action]) {
             icon = eventEmojiMap[type][action];
@@ -109,49 +82,86 @@ function extractEventData(event, eventEmojiMap) {
             icon = eventEmojiMap[type];
         }
     }
+    
+    return icon;
+}
 
-    // Get repository information
+function getRepoInfo(repo, isPrivate) {
     const repoName = isPrivate ? 'a private repository' : repo.name;
     const repoUrl = isPrivate ? '' : `https://github.com/${repo.name}`;
+    
+    return { repoName, repoUrl };
+}
 
-    // Get date
-    const date = new Date(event.created_at).toLocaleDateString();
-
-    // Get number (for issues/PRs)
-    let number = '';
+function getNumberFromPayload(payload) {
     if (payload.issue) {
-        number = `#${payload.issue.number}`;
+        return `#${payload.issue.number}`;
     } else if (payload.pull_request) {
-        number = `#${payload.pull_request.number}`;
+        return `#${payload.pull_request.number}`;
     }
+    
+    return '';
+}
 
-    // Get URL
-    let url = '';
+function getUrlFromEvent(type, payload, repoName) {
     if (payload.issue) {
-        url = `https://github.com/${repo.name}/issues/${payload.issue.number}`;
+        return `https://github.com/${repoName}/issues/${payload.issue.number}`;
     } else if (payload.pull_request) {
-        url = `https://github.com/${repo.name}/pull/${payload.pull_request.number}`;
+        return `https://github.com/${repoName}/pull/${payload.pull_request.number}`;
     } else if (type === 'PushEvent' && payload.head) {
-        url = `https://github.com/${repo.name}/commit/${payload.head}`;
+        return `https://github.com/${repoName}/commit/${payload.head}`;
     } else if (type === 'CreateEvent' && payload.ref) {
         const refType = payload.ref_type;
-        if (refType === 'branch') {
-            url = `https://github.com/${repo.name}/tree/${payload.ref}`;
-        } else if (refType === 'tag') {
-            url = `https://github.com/${repo.name}/releases/tag/${payload.ref}`;
-        } else if (refType === 'repository') {
-            url = `https://github.com/${repo.name}`;
-        }
+        const urlTemplates = {
+            'branch': `https://github.com/${repoName}/tree/${payload.ref}`,
+            'tag': `https://github.com/${repoName}/releases/tag/${payload.ref}`,
+            'repository': `https://github.com/${repoName}`
+        };
+        
+        return urlTemplates[refType] || '';
     }
+    
+    return '';
+}
 
-    // Get ref and ref_type
-    let ref = '';
-    let refType = '';
+function getRefInfo(payload) {
     if (payload.ref) {
-        ref = payload.ref;
-        refType = payload.ref_type || '';
+        return {
+            ref: payload.ref,
+            refType: payload.ref_type || ''
+        };
     }
+    
+    return { ref: '', refType: '' };
+}
 
+function extractEventData(event, eventEmojiMap) {
+    const type = event.type;
+    const repo = event.repo;
+    const isPrivate = !event.public;
+    const payload = event.payload;
+    
+    // Get action
+    const action = getActionFromEvent(type, payload);
+    
+    // Get icon
+    const icon = getIconFromEvent(type, action, eventEmojiMap);
+    
+    // Get repository information
+    const { repoName, repoUrl } = getRepoInfo(repo, isPrivate);
+    
+    // Get date
+    const date = new Date(event.created_at).toLocaleDateString();
+    
+    // Get number (for issues/PRs)
+    const number = getNumberFromPayload(payload);
+    
+    // Get URL
+    const url = getUrlFromEvent(type, payload, repo.name);
+    
+    // Get ref and ref_type
+    const { ref, refType } = getRefInfo(payload);
+    
     return {
         icon,
         action,
