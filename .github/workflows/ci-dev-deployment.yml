@@ -8,48 +8,65 @@ jobs:
     runs-on: ubuntu-latest
     environment: dev (開發環境)
     steps:
-      - name: Checkout code (簽出代碼)
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Prepare deployment (準備部署)
-        run: echo "Preparing deployment to dev environment"
+      - name: Prepare deployment
+        run: echo "Deploying to dev environment"
+
+      - name: Create dev release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: dev-v${{ github.run_number }}  # 使用運行號碼生成唯一標籤
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
+          if [ -f build.zip ]; then
+            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
+          else
+            echo "No build.zip found, skipping release"
+            exit 0
+          fi
 
   build:
     needs: deploy-dev
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code (簽出代碼)
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Simulate build (模擬構建)
+      - name: Simulate build
         run: |
           echo "Generating build artifact"
           zip -r build.zip . -x "*.git*"
 
-      - name: Upload artifact (上傳構建成品)
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: build-artifact (構建成品)
+          name: build-artifact
           path: build.zip
 
-  deploy-dev-release:
+  deploy-staging:
     needs: build
     runs-on: ubuntu-latest
-    environment: dev (開發環境)
+    environment: staging (預備環境)
     steps:
-      - name: Download artifact (下載構建成品)
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: build-artifact (構建成品)
+          name: build-artifact
 
-      - name: Check and create release (檢查並創建發布)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-$(date +%s)  # 添加時間戳避免重複
-          NOTE: ${{ vars.RELEASE_NOTE }}
-        run: |
-          if gh release view "$TAG" 2>/dev/null; then
-            echo "Release $TAG already exists, skipping creation"
-          else
-            gh release create "$TAG" build.zip --notes "$NOTE" --generate-notes
-          fi
+      - name: Deploy to staging
+        run: echo "Deploying to staging environment"
+
+  deploy-prod:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production (生產環境)
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Deploy to production
+        run: echo "Deploying to production environment"
