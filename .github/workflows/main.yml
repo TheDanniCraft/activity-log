@@ -1,0 +1,46 @@
+name: CI Dev Deployment (CI 開發部署)
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (簽出儲存庫)
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js (設置 Node.js)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build (構建)
+        run: |
+          npm install
+          npm run build
+          zip -r build.zip .
+
+      - name: Upload Artifact (上傳構建成品)
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact (構建成品)
+          path: build.zip
+
+  deploy-dev:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev (開發環境)
+    steps:
+      - name: Download Artifact (下載構建成品)
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact (構建成品)
+
+      - name: Release Dev Build (發布開發版本)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
+          gh release create "$TAG" build.zip --notes "$NOTE"
