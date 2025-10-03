@@ -54,9 +54,12 @@ function processBooleanInput(value, inputName) {
 
 function processEventTemplate(value) {
     if (!value || value.trim() === '') {
+        core.notice('ℹ️ No custom event template provided, using default formatting');
         return null;
     }
-    return value.trim();
+    const template = value.trim();
+    core.notice(`📝 Using event template: ${template}`);
+    return template;
 }
 
 function processEventEmojiMap(value) {

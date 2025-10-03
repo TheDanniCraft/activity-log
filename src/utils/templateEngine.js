@@ -1,53 +1,21 @@
-/**
- * Template engine for custom event formatting
- */
-
-/**
- * Apply custom template to event data
- * @param {string} template - The template string with placeholders
- * @param {Object} data - Event data containing all available information
- * @returns {string} Formatted string with placeholders replaced
- */
-function applyTemplate(template, data) {
-    if (!template || typeof template !== 'string') {
-        return null;
-    }
-
+function applyTemplate(template, placeholders) {
+    if (!template) return null;
+    
     let result = template;
-
-    // Replace all available placeholders
-    const placeholders = {
-        '{icon}': data.icon || '',
-        '{action}': data.action || '',
-        '{repo}': data.repo || '',
-        '{repo_url}': data.repo_url || '',
-        '{date}': data.date || '',
-        '{number}': data.number || '',
-        '{url}': data.url || '',
-        '{ref}': data.ref || '',
-        '{ref_type}': data.ref_type || ''
-    };
-
+    
     // Replace each placeholder with its value
     for (const [placeholder, value] of Object.entries(placeholders)) {
-        result = result.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), value);
+        result = result.replace(new RegExp(placeholder.replace(/[{}]/g, '\\\\$&'), 'g'), value);
     }
-
+    
     return result;
 }
 
-/**
- * Extract event data for template processing
- * @param {Object} event - GitHub event object
- * @param {Object} eventEmojiMap - Emoji mapping for events
- * @returns {Object} Formatted data object with all template variables
- */
 function getActionFromEvent(type, payload) {
     // Determine action from payload
     let action = payload.pull_request
         ? (payload.pull_request.merged ? 'merged' : payload.action)
         : payload.action;
-    
     // Set default action based on event type if no action is available
     if (!action) {
         const defaultActions = {
