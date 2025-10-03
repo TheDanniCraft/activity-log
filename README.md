@@ -78,7 +78,7 @@ For a reference example, you can view this [sample `README.md`](https://github.c
 1. Navigate to your GitHub repository.
 2. Go to "Settings" > "Secrets and variables" > "Actions".
 3. Click "New repository secret".
-4. Name the secret (e.g., `GITHUB_TOKEN`).
+4. Name the secret (e.g., `TOKEN`).
 5. Paste the personal access token into the value field.
 6. Click "Add secret".
 
@@ -105,7 +105,7 @@ jobs:
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Ensure this matches the secret name in repository settings
+          GITHUB_TOKEN: ${{ secrets.TOKEN }} # Ensure this matches the secret name in repository settings
 ```
 
 Take a look at all possible [Inputs](#inputs) for customization
@@ -177,7 +177,7 @@ You can personalize the emojis shown for each event type using the `EVENT_EMOJI_
 uses: TheDanniCraft/activity-log@v1
 with:
   GITHUB_USERNAME: "thedannicraft"
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
   EVENT_EMOJI_MAP: |
     PushEvent: "🚀"
     CreateEvent: "✨"
