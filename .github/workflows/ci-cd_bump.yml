@@ -1,4 +1,4 @@
-name: CI/CD Deployment Pipeline
+name: CI/CD Deployment Pipeline Bump
 
 on:
   push:
