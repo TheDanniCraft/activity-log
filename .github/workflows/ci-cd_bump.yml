@@ -53,6 +53,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 拿完整 git 歷史，bump 才能正常運作
+      - name: Bump version
+        id: bump
+        uses: phips28/gh-action-bump-version@v11.0.7
+        with:
+          tag-prefix: "v"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
