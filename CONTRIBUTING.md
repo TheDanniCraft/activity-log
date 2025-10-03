@@ -9,6 +9,7 @@
 - [Feature Requests](#love_letter-feature-requests)
 - [Triaging Issues](#mag-triaging-issues)
 - [Submitting Pull Requests](#repeat-submitting-pull-requests)
+- [Testing GitHub Actions Locally with nektos/act](#test_tube-testing-github-actions-locally-with-nektosact)
 - [Writing Commit Messages](#memo-writing-commit-messages)
 - [Using Gitmoji](#tada-using-gitmoji)
 - [Code Review](#white_check_mark-code-review)
@@ -75,6 +76,24 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 - **[Resolve any merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)** that occur.
 - **Promptly address any CI failures.** If your pull request fails to build or pass tests, please push another commit to fix it.
 - When writing comments, use properly constructed sentences, including punctuation.
+
+## :test_tube: Testing GitHub Actions Locally with nektos/act
+
+You can run GitHub Actions workflows locally before submitting them in a pull request. The tool [`nektos/act`](https://github.com/nektos/act) simulates the execution of actions on your machine.
+
+**Workflow Trigger:**
+- The [`update-activity.yml`](.github/workflows/update-activity.yml) workflow uses both a schedule (`cron`) and [`workflow_dispatch`](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch).
+- For local testing with `act`, use the `workflow_dispatch` trigger:
+  ```
+  act workflow_dispatch -W .github/workflows/update-activity.yml
+  ```
+
+**Recommended Extension:**
+- For better local testing and debugging, use the VS Code extension [GitHub Local Actions](https://marketplace.visualstudio.com/items?itemName=SanjulaGanepola.github-local-actions).
+
+**Notes:**
+- Not all GitHub features are fully supported, but most workflows can be tested this way.
+- If you encounter issues, check the output from `act` and adjust the configuration if necessary.
 
 ## :memo: Writing Commit Messages
 
