@@ -17,6 +17,7 @@ Fixes #(issue)
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 - [ ] Any dependent changes have been merged and published in downstream modules
+- [ ] I tested my actions (see [Testing GitHub Actions locally with nektos/act](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#test_tube-testing-github-actions-locally-with-nektosact))
 
 ## 💬 Other information
 
