@@ -24,16 +24,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `fix-typo` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/44360bab92d8a97567d58966ccce4d9f22f18467)
-3. 🔀 Merged [PR #43](https://github.com/TheDanniCraft/activity-log/pull/43) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🔀 Opened [PR #43](https://github.com/TheDanniCraft/activity-log/pull/43) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. ✨ Created a new branch [`fix-typo`](https://github.com/TheDanniCraft/activity-log/tree/fix-typo) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2399695485)
-7. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2399642731)
-8. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d9893a5ec1cf2c1c771f631870aa94668604318e)
+1. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401529845)
+2. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401497516)
+3. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🔥 Deleted a branch `fix-typo` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/44360bab92d8a97567d58966ccce4d9f22f18467)
+7. 🔀 Merged [PR #43](https://github.com/TheDanniCraft/activity-log/pull/43) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🔀 Opened [PR #43](https://github.com/TheDanniCraft/activity-log/pull/43) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ✨ Created a new branch [`fix-typo`](https://github.com/TheDanniCraft/activity-log/tree/fix-typo) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2399695485)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
