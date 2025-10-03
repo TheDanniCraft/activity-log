@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/badge/Made%20with%20Love%E2%9D%A4%EF%B8%8F-black?style=for-the-badge" alt="made with love">
     <img src="https://img.shields.io/badge/Node.JS-node?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white&amp;color=%235FA04E" alt="nodejs">
     <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TheDanniCraft/endpoints/refs/heads/master/badge/activity-log.json&style=for-the-badge" alt="Count of Action Users">
+    <img src="https://www.codefactor.io/repository/github/thedannicraft/activity-log/badge?style=for-the-badge" alt="CodeFactor Grade">
 </p>
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
@@ -77,7 +78,7 @@ For a reference example, you can view this [sample `README.md`](https://github.c
 1. Navigate to your GitHub repository.
 2. Go to "Settings" > "Secrets and variables" > "Actions".
 3. Click "New repository secret".
-4. Name the secret (e.g., `TOKEN`).
+4. Name the secret (e.g., `GITHUB_TOKEN`).
 5. Paste the personal access token into the value field.
 6. Click "Add secret".
 
@@ -176,7 +177,7 @@ You can personalize the emojis shown for each event type using the `EVENT_EMOJI_
 uses: TheDanniCraft/activity-log@v1
 with:
   GITHUB_USERNAME: "thedannicraft"
-  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   EVENT_EMOJI_MAP: |
     PushEvent: "🚀"
     CreateEvent: "✨"
