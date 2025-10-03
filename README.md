@@ -104,7 +104,7 @@ jobs:
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "thedannicraft"
-          GITHUB_TOKEN: ${{ secrets.TOKEN }} # Ensure this matches the secret name in repository settings
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Ensure this matches the secret name in repository settings
 ```
 
 Take a look at all possible [Inputs](#inputs) for customization
