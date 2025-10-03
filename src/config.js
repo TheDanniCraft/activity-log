@@ -98,7 +98,12 @@ function processEventEmojiMap(value) {
         GollumEvent: "📝",
     };
 
-    if (value && typeof value === 'string') {
+    if (!value || (typeof value === 'string' && value.trim() === '')) {
+        core.notice('ℹ️ No custom emoji mapping provided, using default emojis.');
+        return map;
+    }
+
+    if (typeof value === 'string') {
         let userMap;
         try {
             userMap = parse(value);
