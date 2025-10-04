@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `qol-improvements` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a203a1f81b27dd59b7db4479a0be7845e68e22bb)
-3. 🔀 Merged [PR #44](https://github.com/TheDanniCraft/activity-log/pull/44) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ce1527041f66cfd2750eab2063dabaf74f6f3f8b)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1d7dfa3c1cf7216b423491d0638a077deab2781d)
-6. 🔀 Opened [PR #44](https://github.com/TheDanniCraft/activity-log/pull/44) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/97512ebe07e9ecff81bf3a7337f02550928ac5c7)
-8. ✨ Created a new branch [`qol-improvements`](https://github.com/TheDanniCraft/activity-log/tree/qol-improvements) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401529845)
-10. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401497516)
+1. 🔥 Deleted a branch `hotfix-secret-name` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/894f2ca5323c9f581275b26e76b8f9afc9014faa)
+3. 🔀 Merged [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🔀 Opened [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95aed1dc1862d8b82ae66b0ff141b67b363ccb2b)
+6. ✨ Created a new branch [`hotfix-secret-name`](https://github.com/TheDanniCraft/activity-log/tree/hotfix-secret-name) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🔥 Deleted a branch `qol-improvements` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a203a1f81b27dd59b7db4479a0be7845e68e22bb)
+9. 🔀 Merged [PR #44](https://github.com/TheDanniCraft/activity-log/pull/44) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ce1527041f66cfd2750eab2063dabaf74f6f3f8b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
