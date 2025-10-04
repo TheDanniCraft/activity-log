@@ -1,3 +1,6 @@
+
+// Adding a comment as per devops-assignment4. -Juha
+
 const github = require('@actions/github');
 const core = require('@actions/core');
 const eventDescriptions = require('./eventDescriptions');
