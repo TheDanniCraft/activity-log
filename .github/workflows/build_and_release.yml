@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name 'juhasauna'
           git config --global user.email 'juha.saunaaho@gmail.com'
-          git commit -am "dist build"
+          git commit --allow-empty -am "dist build"
           git push
 
   test:
