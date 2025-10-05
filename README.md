@@ -25,16 +25,27 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `qol-improvements` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a203a1f81b27dd59b7db4479a0be7845e68e22bb)
-3. 🔀 Merged [PR #44](https://github.com/TheDanniCraft/activity-log/pull/44) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ce1527041f66cfd2750eab2063dabaf74f6f3f8b)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1d7dfa3c1cf7216b423491d0638a077deab2781d)
-6. 🔀 Opened [PR #44](https://github.com/TheDanniCraft/activity-log/pull/44) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/97512ebe07e9ecff81bf3a7337f02550928ac5c7)
-8. ✨ Created a new branch [`qol-improvements`](https://github.com/TheDanniCraft/activity-log/tree/qol-improvements) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401529845)
-10. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2401497516)
+1. 📝 Committed to [juhasauna/activity-log](https://github.com/juhasauna/activity-log/commit/6eddf49feb2792a972dc155dffd167223414ec7b)
+2. 📝 Committed to [juhasauna/activity-log](https://github.com/juhasauna/activity-log/commit/66fdd4d609da0a763c889c21943ec4bc51c69c46)
+3. 🍴 Forked [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/24e57e01db6bee1551b5fef7499cd28c4f390507)
+5. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/386de0ff5da4a340065c9936db48f12558b463a2)
+6. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/7bfc772d23899e00dbb715f745c339902de64c85)
+7. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/083e21482c613acaf70e693c602c3da386e76595)
+8. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/3881abb1bf7040980e223668f606d48f9541c805)
+9. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/ebe6be7a9f834745dec7c9b04223a6878cfa0ca6)
+10. 📥 Opened [PR #4](https://github.com/juhasauna/NTUST-devops/pull/4) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+11. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/85277a9850fb9b0a3bc298209e8aefcc8311195b)
+12. 🎉 Created a new branch [`improve-login-flow`](https://github.com/juhasauna/NTUST-devops/tree/improve-login-flow) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+13. 🆕 Opened an issue [#3](https://github.com/juhasauna/NTUST-devops/issues/3) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+14. 🆕 Opened an issue [#2](https://github.com/juhasauna/NTUST-devops/issues/2) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+15. 🆕 Opened an issue [#1](https://github.com/juhasauna/NTUST-devops/issues/1) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+16. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/b3d9b8179e099c04fc946819be4a7cbe543ff86c)
+17. 🎉 Created a new branch [`SCRUM-3`](https://github.com/juhasauna/NTUST-devops/tree/SCRUM-3) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+18. 🎉 Created a new branch [`jira1`](https://github.com/juhasauna/NTUST-devops/tree/jira1) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+19. 📝 Committed to [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops/commit/d314bf9443a12e4d19048f22ffb972f988ac46ee)
+20. 🎉 Created a new repository [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
+21. 🎉 Created a new branch [`main`](https://github.com/juhasauna/NTUST-devops/tree/main) in [juhasauna/NTUST-devops](https://github.com/juhasauna/NTUST-devops)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
