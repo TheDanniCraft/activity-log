@@ -10,6 +10,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
       - name: Build
         run: |
           npm install
