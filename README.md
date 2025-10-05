@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84394c46d82948fbe74ab7f85f3d0e96a01b7dc2)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/62f761c63436ff08e4db181bf2913a62ec3fae3e)
-3. 🔥 Deleted a branch `hotfix-secret-name` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/894f2ca5323c9f581275b26e76b8f9afc9014faa)
-5. 🔀 Merged [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🔀 Opened [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95aed1dc1862d8b82ae66b0ff141b67b363ccb2b)
-8. ✨ Created a new branch [`hotfix-secret-name`](https://github.com/TheDanniCraft/activity-log/tree/hotfix-secret-name) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🔥 Deleted a branch `qol-improvements` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a203a1f81b27dd59b7db4479a0be7845e68e22bb)
+1. 🆕 Opened an issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🆕 Opened an issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84394c46d82948fbe74ab7f85f3d0e96a01b7dc2)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/62f761c63436ff08e4db181bf2913a62ec3fae3e)
+5. 🔥 Deleted a branch `hotfix-secret-name` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/894f2ca5323c9f581275b26e76b8f9afc9014faa)
+7. 🔀 Merged [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🔀 Opened [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95aed1dc1862d8b82ae66b0ff141b67b363ccb2b)
+10. ✨ Created a new branch [`hotfix-secret-name`](https://github.com/TheDanniCraft/activity-log/tree/hotfix-secret-name) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
