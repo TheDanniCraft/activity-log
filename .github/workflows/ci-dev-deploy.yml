@@ -1,0 +1,46 @@
+name: CI Dev Deployment
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Build Project
+        run: |
+          echo "🛠️ Building project..."
+          mkdir build
+          echo "Build completed at $(date)" > build/info.txt
+          zip -r build.zip build
+          echo "✅ Build artifact created"
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: build.zip
+
+  deploy-dev:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Release Dev Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
+          echo "🚀 Deploying to Dev Environment"
+          gh release create "$TAG" build.zip --notes "$NOTE"
+          echo "✅ Dev Release Created Successfully"
