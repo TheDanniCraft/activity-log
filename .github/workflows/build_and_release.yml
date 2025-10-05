@@ -1,41 +1,79 @@
-name: CI Dev Deployment
-on:
-  workflow_dispatch:
-  push:
-    branches: [ master ]
+name: Build and Release
 
+on:
+  workflow_dispatch: # Allows manual triggering
+    inputs:
+      tag:
+        description: 'Tag name'     
+        required: true
+      note:
+        description: 'Release note'
+        
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
+      - uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Build
         run: |
-          npm install
+          npm i -g @vercel/ncc
+          npm i @actions/github
           npm run build
-          zip -r build.zip .
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-artifact
-          path: build.zip
-
-  deploy-dev:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: dev
-    steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build-artifact
-
-      - name: Release Dev Build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+      - name: Commit
         run: |
-          gh release create "$TAG" build.zip --notes "$NOTE"
+          git config --global user.name 'juhasauna'
+          git config --global user.email 'juha.saunaaho@gmail.com'
+          git commit -am "dist build"
+          git push
+
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test index.js
+        env:
+          INPUT_GITHUB_USERNAME: "juhasauna"
+          INPUT_GITHUB_TOKEN: ${{ secrets.ACTIONSECRET2025 }}
+          INPUT_TARGET_REPOS: '[juhasauna/activity-log]'
+          INPUT_OUTPUT_STYLE: MARKDOWN
+          INPUT_IGNORE_EVENTS: '[]'
+          INPUT_README_PATH: README.md
+          INPUT_COMMIT_MESSAGE: Update README.md
+          INPUT_EVENT_LIMIT: '100'
+        run: node ./dist/index.js
+
+  release:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest
+        run: |
+          git config --global user.name 'juhasauna'
+          git config --global user.email 'juha.saunaaho@gmail.com'
+          git pull
+      - name: Tag it
+        run: |
+          git tag -a ${{ inputs.tag }} -m "${{ inputs.note }}" master
+          git push --tags
+      - name: Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        with:
+          tag_name: ${{ inputs.tag }}
+          release_name: Release ${{ inputs.tag }}
+          body: ${{ inputs.note }}
+          draft: false
+          prerelease: false
