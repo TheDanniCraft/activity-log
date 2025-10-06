@@ -5,7 +5,7 @@ function applyTemplate(template, placeholders) {
     
     // Replace each placeholder with its value
     for (const [placeholder, value] of Object.entries(placeholders)) {
-        result = result.replace(new RegExp(placeholder.replace(/[{}]/g, '\\\\$&'), 'g'), value);
+        result = result.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), value);
     }
     
     return result;
