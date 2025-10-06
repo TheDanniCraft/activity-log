@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/badge/Made%20with%20Love%E2%9D%A4%EF%B8%8F-black?style=for-the-badge" alt="made with love">
     <img src="https://img.shields.io/badge/Node.JS-node?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white&amp;color=%235FA04E" alt="nodejs">
     <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TheDanniCraft/endpoints/refs/heads/master/badge/activity-log.json&style=for-the-badge" alt="Count of Action Users">
+    <img src="https://www.codefactor.io/repository/github/thedannicraft/activity-log/badge?style=for-the-badge" alt="CodeFactor Grade">
 </p>
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
@@ -20,22 +21,20 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Custom Commit Messages
 - Markdown or HTML Output Styles
 - Hide Details on Private Repositories
-- Custom Event Formatting with Templates
-- Customizable Emojis for Event Types
 
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/28da8fc38d2c9321b80fbd044993a1ca559cb538)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ca4678cd6e33fd57869ec6d9cbb1030b515a12e3)
-3. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/activity-log/pull/39) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e3c8c2f6908a165c43aec0d078981c5e1476bd6)
-5. ✨ Created a new branch [`add-dry-run-mode`](https://github.com/TheDanniCraft/activity-log/tree/add-dry-run-mode) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🔥 Deleted a branch `update-issues-template` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. ✅ Closed an issue [#35](https://github.com/TheDanniCraft/activity-log/issues/35) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4afed599ab4c484bc9f99cd701a4d4be35e8ff80)
-9. 🔀 Merged [PR #38](https://github.com/TheDanniCraft/activity-log/pull/38) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🔀 Opened [PR #38](https://github.com/TheDanniCraft/activity-log/pull/38) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
+3. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
+5. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔥 Deleted a branch `depfu/batch_all/npm/2025-10-06` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7372cefe431a96d2b7374b22fd7783d3627350b7)
+8. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/clipify/pull/21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08f1dac4d517ecf8d8acae9516f8d9809779db09)
+10. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2e7bb53f2742b13126c1c92ba1ed30ed4d43e61b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
@@ -159,14 +158,13 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | `GITHUB_USERNAME`               | Your GitHub username.                                                                                                                                                           | ✅               | `-`                                     | A valid GitHub username                                                     |
 | `GITHUB_TOKEN`                  | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username)  |
-| `EVENT_LIMIT`                   | Maximum number of events to display in the activity log.                                                                                                                        | ❌               | `10`                                    | Any positive integer                                                        |
+| `EVENT_LIMIT`                   | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
 | `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                        |
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
-| `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity` | Any valid commit message                                                    |
+| `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
-| `EVENT_TEMPLATE`                | Custom template for event formatting. Supports placeholders like `{icon}`, `{action}`, `{repo}`, etc. (See [🎯 Custom Event Formatting](#-custom-event-formatting))              | ❌               | `""`                                    | Template string with placeholders                                           |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -184,93 +182,12 @@ with:
     PushEvent: "🚀"
     CreateEvent: "✨"
     DeleteEvent: "🔥"
-    IssuesEvent:
+    IssuesEvent: |
       opened: "🆕"
       closed: "✅"
 ```
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
-
-## 🎯 Custom Event Formatting
-
-You can customize how events are displayed in your README using the `EVENT_TEMPLATE` input. This feature allows you to define custom templates with placeholders that will be replaced with actual event data.
-
-### Available Placeholders
-
-| Placeholder | Description | Example |
-|-------------|-------------|---------|
-| `{icon}` | Event emoji/icon | 🚀 |
-| `{action}` | Event action (e.g., opened, closed, committed) | committed |
-| `{repo}` | Repository name | username/repo |
-| `{repo_url}` | Repository URL | https://github.com/username/repo |
-| `{date}` | Event date | 10/2/2024 |
-| `{number}` | Issue/PR number (if applicable) | #42 |
-| `{url}` | Direct URL to the event (if applicable) | https://github.com/username/repo/pull/42 |
-| `{ref}` | Branch/tag name (if applicable) | main |
-| `{ref_type}` | Type of ref (branch, tag, etc.) | branch |
-
-### Example Templates
-
-**Simple format:**
-```
-[{icon}] {action} {repo} on {date}
-```
-**Result:**
-```
-[🚀] committed username/repo on 10/2/2024
-```
-
-**Detailed format with links:**
-```
-{icon} **{action}** [{repo}]({repo_url}) - {date}
-```
-**Result:**
-```
-🚀 **committed** [username/repo](https://github.com/username/repo) - 10/2/2024
-```
-
-**Compact format:**
-```
-{icon} {action} {repo}
-```
-**Result:**
-```
-🚀 committed username/repo
-```
-
-**Format with PR/issue numbers:**
-```
-{icon} {action} {number} in {repo}
-```
-**Result:**
-```
-🆕 opened #42 in username/repo
-```
-
-### Usage in Workflow
-
-```yaml
-uses: TheDanniCraft/activity-log@v1
-with:
-  GITHUB_USERNAME: "yourusername"
-  GITHUB_TOKEN: ${{ secrets.TOKEN }}
-  EVENT_TEMPLATE: "[{icon}] {action} {repo} on {date}"
-```
-
-### Advanced Example
-
-```yaml
-uses: TheDanniCraft/activity-log@v1
-with:
-  GITHUB_USERNAME: "yourusername"
-  GITHUB_TOKEN: ${{ secrets.TOKEN }}
-  EVENT_TEMPLATE: |
-    {icon} **{action}** [{repo}]({repo_url}) 
-    {if:number}({number}){endif:number} 
-    {if:url}([View]({url})){endif:url}
-```
-
-> **Note:** The `{if:field}...{endif:field}` syntax is not yet supported. Only the basic placeholders listed above are available in this version.
 
 ## 📜License
 

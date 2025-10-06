@@ -2,11 +2,12 @@
 
 ## Supported Version
 
+Supported versions use the format `TheDanniCraft/activity-log@<version>`. For example, `TheDanniCraft/activity-log@v1`.
+
 The following versions are supported with security updates:
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x.x   | :white_check_mark: |
-| 0.x.x   | :white_check_mark: |
+| v1   | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
@@ -14,7 +15,7 @@ If you discover a security vulnerability, please report it to us. We take all se
 
 ### How to Report
 
-1. **GitHub Security Advisories**: Report the vulnerability via our [GitHub Security Advisories page](https://github.com/Wiresense/wiresense.js/security/advisories/new).
+1. **GitHub Security Advisories**: Report the vulnerability via our [GitHub Security Advisories page](https://github.com/TheDanniCraft/activity-log/security/advisories/new).
 2. **Details**: Include as much information as possible about the vulnerability. This should include:
    - Steps to reproduce the vulnerability
    - Potential impact of the vulnerability
@@ -32,7 +33,7 @@ We will publish a summary of the vulnerability and its resolution once the fix h
 
 ## Our Security Measures
 
-To ensure the security of our wiresense.js library, we use the following tools and practices:
+To ensure the security of our activity-log project, we use the following tools and practices:
 
 - **Depfu**: Automated dependency updates.
 - **Dependabot**: Alerts us to potential security vulnerabilities in our dependencies.  
