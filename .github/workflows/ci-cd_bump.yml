@@ -14,7 +14,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
-            bun-version: latest
+          bun-version: latest
       - name: Build
         run: |
           npm install
@@ -37,12 +37,20 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+
+      - name: Get version from package.json
+        id: version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: Release Staging Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+          NOTE: "Staging release for version ${{ env.VERSION }}"
         run: |
+          TAG="staging-v${{ env.VERSION }}"
+          echo "Using tag: $TAG"
           gh release delete "$TAG" -y || true
           gh release create "$TAG" build.zip --notes "$NOTE"
 
@@ -54,24 +62,53 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # 拿完整 git 歷史，bump 才能正常運作
-      - name: Bump version
-        id: bump
-        uses: phips28/gh-action-bump-version@v11.0.7
-        with:
-          tag-prefix: "v"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+
+
+      - name: Determine version bump
+        id: bump-type
+        run: |
+          msg=$(git log -1 --pretty=%B)
+          echo "Last commit message: $msg"
+
+          if [[ "$msg" == *"BREAKING CHANGE"* ]] || [[ "$msg" == *"refactor!"* ]]; then
+            echo "BUMP=major" >> $GITHUB_ENV
+          elif [[ "$msg" == feat:* ]]; then
+            echo "BUMP=minor" >> $GITHUB_ENV
+          else
+            echo "BUMP=patch" >> $GITHUB_ENV
+          fi
+
+      - name: Auto bump version
+        id: bump
+        run: |
+          current=$(node -p "require('./package.json').version")
+          echo "Current version: $current"
+
+          npm version $BUMP --no-git-tag-version
+          new=$(node -p "require('./package.json').version")
+          echo "New version: $new"
+
+          echo "VERSION=$new" >> $GITHUB_ENV
+
+      - name: Commit bumped version
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add package.json package-lock.json || true
+          git commit -m "ci: bump $BUMP version to v${{ env.VERSION }}" || echo "No changes to commit"
+          git push origin master
+
       - name: Release Production Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+          NOTE: "Production release v${{ env.VERSION }} ($BUMP)"
         run: |
+          TAG="v${{ env.VERSION }}"
+          echo "Using tag: $TAG"
           gh release delete "$TAG" -y || true
           gh release create "$TAG" build.zip --notes "$NOTE"
-
