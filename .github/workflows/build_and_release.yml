@@ -12,7 +12,7 @@ permissions:
   contents: write  # 允許建立 release 與上傳資產
 
 jobs:
-  build:
+  build: 
     name: Build Artifact
     runs-on: ubuntu-latest
     steps:
