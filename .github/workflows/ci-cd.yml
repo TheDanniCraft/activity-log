@@ -37,12 +37,18 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+
+      - name: Get version from package.json
+        id: version
+        run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+
       - name: Release Staging Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+          NOTE: "Staging release for version ${{ env.VERSION }}"
         run: |
+          TAG="staging-v${{ env.VERSION }}"
+          echo "Using tag: $TAG"
           gh release delete "$TAG" -y || true
           gh release create "$TAG" build.zip --notes "$NOTE"
 
@@ -57,12 +63,17 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
+      - name: Get version from package.json
+        id: version
+        run: echo "VERSION=$(node -p \"require('./package.json').version\")" >> $GITHUB_ENV
+
       - name: Release Production Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+          NOTE: "Production release for version ${{ env.VERSION }}"
         run: |
+          TAG="prod-v${{ env.VERSION }}"
+          echo "Using tag: $TAG"
           gh release delete "$TAG" -y || true
           gh release create "$TAG" build.zip --notes "$NOTE"
 

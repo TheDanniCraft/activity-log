@@ -1,6 +1,6 @@
 {
 	"name": "activity-log",             
-  	"version": "1.0.0",                
+  	"version": "1.0.1",                
   	"description": "GitHub Actions CI/CD demo",  
 
 	"dependencies": {
@@ -15,4 +15,4 @@
 	"devDependencies": {
 		"@vercel/ncc": "^0.38.3"
 	}
-}
+}	
