@@ -1,8 +1,7 @@
 {
-	"name": "activity-log",             
-  	"version": "1.0.1",                
-  	"description": "GitHub Actions CI/CD demo",  
-
+	"name": "activity-log",
+	"version": "1.0.2",
+	"description": "GitHub Actions CI/CD demo",
 	"dependencies": {
 		"@actions/core": "^1.11.1",
 		"@actions/github": "^6.0.1",
@@ -15,4 +14,4 @@
 	"devDependencies": {
 		"@vercel/ncc": "^0.38.3"
 	}
-}	
+}
