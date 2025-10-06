@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🆕 Opened an issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84394c46d82948fbe74ab7f85f3d0e96a01b7dc2)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/62f761c63436ff08e4db181bf2913a62ec3fae3e)
-5. 🔥 Deleted a branch `hotfix-secret-name` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/894f2ca5323c9f581275b26e76b8f9afc9014faa)
-7. 🔀 Merged [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🔀 Opened [PR #45](https://github.com/TheDanniCraft/activity-log/pull/45) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/95aed1dc1862d8b82ae66b0ff141b67b363ccb2b)
-10. ✨ Created a new branch [`hotfix-secret-name`](https://github.com/TheDanniCraft/activity-log/tree/hotfix-secret-name) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2e7bb53f2742b13126c1c92ba1ed30ed4d43e61b)
+2. 🔀 Merged [PR #78](https://github.com/Wiresense/frontend/pull/78) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+3. 🔎 Reviewed [PR #78](https://github.com/Wiresense/frontend/pull/78) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/92113de31801b101787806793a726e1987eb0e39)
+5. 🔀 Merged [PR #57](https://github.com/Wiresense/wiresense.js/pull/57) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🔎 Reviewed [PR #57](https://github.com/Wiresense/wiresense.js/pull/57) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🆕 Opened an issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🆕 Opened an issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84394c46d82948fbe74ab7f85f3d0e96a01b7dc2)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/62f761c63436ff08e4db181bf2913a62ec3fae3e)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
