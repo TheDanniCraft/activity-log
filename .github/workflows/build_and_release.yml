@@ -1,0 +1,55 @@
+name: Build and Release (A)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Release tag (e.g., v0.1.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: write  # 允許建立 release 與上傳資產
+
+jobs:
+  build:
+    name: Build Artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 與語言無關：把整個專案壓成 zip 當作建置產物
+      - name: Create zip
+        run: |
+          zip -r activity-log-${{ github.sha }}.zip . -x ".git/*"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: activity-log-${{ github.sha }}
+          path: activity-log-${{ github.sha }}.zip
+          if-no-files-found: error
+          retention-days: 7
+
+  release:
+    name: Create GitHub Release
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-log-${{ github.sha }}
+          path: .
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag_name }}
+          name: ${{ inputs.tag_name }}
+          draft: false
+          prerelease: false
+          files: |
+            activity-log-${{ github.sha }}.zip
+          make_latest: true
