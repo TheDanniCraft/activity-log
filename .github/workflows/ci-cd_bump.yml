@@ -114,7 +114,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NOTE: "Production release v${{ env.VERSION }} ($BUMP)"
         run: |
-          TAG="v${{ env.VERSION }}"
+          TAG="prod-v${{ env.VERSION }}"
           echo "Using tag: $TAG"
           gh release delete "$TAG" -y || true
           gh release create "$TAG" build.zip --notes "$NOTE"
