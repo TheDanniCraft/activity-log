@@ -1,0 +1,96 @@
+name: CI CD Deployment Pipeline
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    outputs:
+      computed-tag: ${{ steps.compute.outputs.tag }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies and build
+        run: |
+          npm ci || true
+          npm run build || true
+          zip -r build.zip . -x node_modules/\* || true
+
+      - name: Compute tag
+        id: compute
+        run: |
+          if [ -f package.json ]; then
+            ver=$(jq -r .version package.json 2>/dev/null || echo "")
+            if [ -n "$ver" ] && [ "$ver" != "null" ]; then
+              echo "tag=v$ver" >> $GITHUB_OUTPUT
+            else
+              echo "tag=build-${GITHUB_RUN_NUMBER}" >> $GITHUB_OUTPUT
+            fi
+          else
+            echo "tag=build-${GITHUB_RUN_NUMBER}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: build.zip
+
+  deploy-staging:
+    name: Deploy to Staging
+    needs: build
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Create staging release (REST API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: staging-${{ needs.build.outputs.computed-tag }}
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases \
+            -d "$(jq -n --arg tag \"$TAG\" --arg name \"$TAG\" --arg body \"Testing pre-production release\" '{ tag_name: $tag, name: $name, body: $body }')"
+
+  deploy-production:
+    name: Deploy to Production
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Create production release (REST API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: prod-${{ needs.build.outputs.computed-tag }}
+        run: |
+          curl -s -X POST \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/releases \
+            -d "$(jq -n --arg tag \"$TAG\" --arg name \"$TAG\" --arg body \"Production release triggered from pipeline\" '{ tag_name: $tag, name: $name, body: $body }')"
