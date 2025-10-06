@@ -1,0 +1,80 @@
+name: Build and Deploy (E)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Release tag (e.g., v0.2.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: write   # 需要建立 Release、上傳資產
+
+jobs:
+  build:
+    name: Build Artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 建置產物（語言無關）：整個專案壓成 zip
+      - name: Create zip
+        run: |
+          zip -r activity-log-${{ github.sha }}.zip . -x ".git/*"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: activity-log-${{ github.sha }}
+          path: activity-log-${{ github.sha }}.zip
+          if-no-files-found: error
+          retention-days: 7
+
+  deploy-dev:
+    name: Deploy to DEV
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - run: echo "✅ Deployed to DEV"
+
+  deploy-uat:
+    name: Deploy to UAT
+    needs: deploy-dev
+    runs-on: ubuntu-latest
+    environment: uat
+    steps:
+      - run: echo "✅ Deployed to UAT"
+
+  deploy-staging:
+    name: Deploy to STAGING
+    needs: deploy-uat
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - run: echo "✅ Deployed to STAGING"
+
+  deploy-production:
+    name: Deploy to PRODUCTION (Create Release)
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production   # 這一步會觸發你在 production 設的審核
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-log-${{ github.sha }}
+          path: .
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag_name }}
+          name: "Production Release ${{ inputs.tag_name }}"
+          draft: false
+          prerelease: false
+          files: |
+            activity-log-${{ github.sha }}.zip
+          make_latest: true
