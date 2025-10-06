@@ -1,6 +1,6 @@
 {
 	"name": "activity-log",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"description": "GitHub Actions CI/CD demo",
 	"dependencies": {
 		"@actions/core": "^1.11.1",
