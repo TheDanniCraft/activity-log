@@ -107,8 +107,6 @@ jobs:
         with:
           GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.TOKEN }} # Ensure this matches the secret name in repository settings
-          # Optional: Customize how events are displayed
-          EVENT_TEMPLATE: "[{icon}] {action} {repo} on {date}"  # Example: [🚀] committed username/repo on 10/2/2024
 ```
 
 Take a look at all possible [Inputs](#inputs) for customization
