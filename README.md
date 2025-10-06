@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
-2. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
-4. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🔥 Deleted a branch `depfu/batch_all/npm/2025-10-06` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7372cefe431a96d2b7374b22fd7783d3627350b7)
-7. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/clipify/pull/21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08f1dac4d517ecf8d8acae9516f8d9809779db09)
-9. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2e7bb53f2742b13126c1c92ba1ed30ed4d43e61b)
-10. 🔀 Merged [PR #78](https://github.com/Wiresense/frontend/pull/78) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+1. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
+3. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
+5. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔥 Deleted a branch `depfu/batch_all/npm/2025-10-06` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7372cefe431a96d2b7374b22fd7783d3627350b7)
+8. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/clipify/pull/21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08f1dac4d517ecf8d8acae9516f8d9809779db09)
+10. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2e7bb53f2742b13126c1c92ba1ed30ed4d43e61b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
