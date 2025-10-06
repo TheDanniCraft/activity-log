@@ -99,9 +99,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add package.json package-lock.json || true
+          git add package.json package.json || true
           git commit -m "ci: bump $BUMP version to v${{ env.VERSION }}" || echo "No changes to commit"
           git push origin master
+
+      - name: Get version from package.json
+        id: version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Release Production Build
         env:
