@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408849995)
-2. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408640496)
-3. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🗣 Commented on issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/55#issuecomment-3378622903)
+2. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408849995)
+3. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408640496)
 4. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
-7. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
-9. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🔥 Deleted a branch `depfu/batch_all/npm/2025-10-06` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
+8. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
+10. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
