@@ -1,0 +1,246 @@
+name: Build · Test · Deploy (O)
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Override tag (e.g., v1.2.3). Leave blank to auto-bump."
+        required: false
+        type: string
+      bump:
+        description: "Auto-bump (patch|minor|major) when tag_name is empty."
+        required: false
+        default: "patch"
+        type: choice
+        options: ["patch","minor","major"]
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  version:
+    name: Compute version (auto-bump if needed)
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.setver.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - id: setver
+        name: Decide tag
+        shell: bash
+        run: |
+          set -e
+          if [ -n "${{ inputs.tag_name }}" ]; then
+            TAG="${{ inputs.tag_name }}"
+          else
+            git fetch --tags --force
+            LAST="$(git tag --list 'v[0-9]*' --sort=-v:refname | head -n1)"
+            if [ -z "$LAST" ]; then
+              MAJOR=0; MINOR=1; PATCH=0
+            else
+              V="${LAST#v}"
+              IFS='.' read -r MAJOR MINOR PATCH <<< "$V"
+              case "${{ inputs.bump }}" in
+                major) MAJOR=$((MAJOR+1)); MINOR=0; PATCH=0;;
+                minor) MINOR=$((MINOR+1)); PATCH=0;;
+                *)     PATCH=$((PATCH+1));;
+              esac
+            fi
+            TAG="v${MAJOR}.${MINOR}.${PATCH}"
+          fi
+          echo "Using tag: $TAG"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+  quality:
+    name: Lint/Test (matrix)
+    needs: version
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [18, 20]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node ${{ matrix.node }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - name: Install deps (if package.json exists)
+        run: |
+          if [ -f package.json ]; then
+            npm ci || npm i
+          else
+            echo "No package.json, skipping install."
+          fi
+      - name: Lint (if present)
+        run: |
+          if [ -f package.json ]; then
+            npm run lint --if-present
+          fi
+      - name: Test (if present)
+        run: |
+          if [ -f package.json ]; then
+            npm test --if-present
+          fi
+      - name: Upload test logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-logs-node-${{ matrix.node }}
+          path: |
+            npm-debug.log*
+            ./**/junit*.xml
+            ./**/coverage/**
+
+  build:
+    name: Build artifact
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create zip
+        run: zip -r app-${{ github.sha }}.zip . -x ".git/*"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-${{ github.sha }}
+          path: app-${{ github.sha }}.zip
+          retention-days: 7
+
+  deploy-dev:
+    name: Deploy to DEV
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev
+    env:
+      STAGE_TOKEN: ${{ secrets.DEPLOY_TOKEN }}   # ← Environment secret（dev）
+    steps:
+      - run: |
+          if [ -n "$STAGE_TOKEN" ]; then echo "DEV secret detected."; else echo "DEV secret NOT set."; fi
+          echo "✅ Deployed to DEV (mock)."
+
+  deploy-uat:
+    name: Deploy to UAT
+    needs: deploy-dev
+    runs-on: ubuntu-latest
+    environment: uat
+    env:
+      STAGE_TOKEN: ${{ secrets.DEPLOY_TOKEN }}   # ← Environment secret（uat）
+    steps:
+      - run: |
+          if [ -n "$STAGE_TOKEN" ]; then echo "UAT secret detected."; else echo "UAT secret NOT set."; fi
+          echo "✅ Deployed to UAT (mock)."
+
+  deploy-staging:
+    name: Deploy to STAGING
+    needs: deploy-uat
+    runs-on: ubuntu-latest
+    environment: staging
+    env:
+      STAGE_TOKEN: ${{ secrets.DEPLOY_TOKEN }}   # ← Environment secret（staging）
+    steps:
+      - run: |
+          if [ -n "$STAGE_TOKEN" ]; then echo "STAGING secret detected."; else echo "STAGING secret NOT set."; fi
+          echo "✅ Deployed to STAGING (mock)."
+
+  deploy-production:
+    name: Deploy to PRODUCTION (tag + release + notify)
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production     # ← 仍會觸發審核
+    outputs:
+      rel_tag: ${{ steps.vars.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: app-${{ github.sha }}
+          path: .
+
+      - id: vars
+        run: echo "tag=${{ needs.version.outputs.tag }}" >> "$GITHUB_OUTPUT"
+
+      - name: Create & push tag
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch --tags --force
+          if git rev-parse "${{ needs.version.outputs.tag }}" >/dev/null 2>&1; then
+            echo "Tag already exists."
+          else
+            git tag -a "${{ needs.version.outputs.tag }}" -m "CI release"
+            git push origin "${{ needs.version.outputs.tag }}"
+          fi
+
+      - name: Create GitHub Release
+        id: rel
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ needs.version.outputs.tag }}
+          name: "Production Release ${{ needs.version.outputs.tag }}"
+          generate_release_notes: true
+          files: app-${{ github.sha }}.zip
+          make_latest: true
+
+      - name: Notify (comment on commit)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const tag = '${{ needs.version.outputs.tag }}';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = `✅ Released **${tag}**\n\n• Actor: ${context.actor}\n• Run: ${runUrl}`;
+            await github.rest.repos.createCommitComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: context.sha,
+              body
+            });
+
+  cleanup:
+    name: Auto-rollback (delete failed release & tag)
+    needs: [deploy-production]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete release (if created)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const tag = '${{ needs.version.outputs.tag }}';
+            try {
+              const rel = await github.rest.repos.getReleaseByTag({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                tag
+              });
+              await github.rest.repos.deleteRelease({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                release_id: rel.data.id
+              });
+              core.info(`Deleted release for ${tag}`);
+            } catch (e) {
+              core.info('No release found; skip delete.');
+            }
+      - name: Delete tag (if exists)
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const tag = '${{ needs.version.outputs.tag }}';
+            try {
+              await github.rest.git.deleteRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `tags/${tag}`
+              });
+              core.info(`Deleted tag ${tag}`);
+            } catch (e) {
+              core.info('No tag found; skip delete.');
+            }
