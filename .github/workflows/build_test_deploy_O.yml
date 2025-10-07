@@ -175,9 +175,9 @@ jobs:
 
   deploy-production:
     name: Deploy to PRODUCTION (tag + release + notify)
-    needs: deploy-staging
+    needs: [deploy-staging, version]   # ← 加上 version，確保能讀到它的 outputs
     runs-on: ubuntu-latest
-    environment: production     # ← 仍會觸發審核
+    environment: production
     outputs:
       rel_tag: ${{ steps.vars.outputs.tag }}
     steps:
@@ -191,26 +191,33 @@ jobs:
           path: .
 
       - id: vars
-        run: echo "tag=${{ needs.version.outputs.tag }}" >> "$GITHUB_OUTPUT"
+        name: Read version output
+        run: |
+          TAG='${{ needs.version.outputs.tag }}'
+          if [ -z "$TAG" ]; then
+            echo "ERROR: empty tag from version job"; exit 1
+          fi
+          echo "Using tag: $TAG"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
 
       - name: Create & push tag
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch --tags --force
-          if git rev-parse "${{ needs.version.outputs.tag }}" >/dev/null 2>&1; then
-            echo "Tag already exists."
+          if git rev-parse "${{ steps.vars.outputs.tag }}" >/dev/null 2>&1; then
+            echo "Tag already exists: ${{ steps.vars.outputs.tag }}"
           else
-            git tag -a "${{ needs.version.outputs.tag }}" -m "CI release"
-            git push origin "${{ needs.version.outputs.tag }}"
+            git tag -a "${{ steps.vars.outputs.tag }}" -m "CI release"
+            git push origin "${{ steps.vars.outputs.tag }}"
           fi
 
       - name: Create GitHub Release
         id: rel
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ needs.version.outputs.tag }}
-          name: "Production Release ${{ needs.version.outputs.tag }}"
+          tag_name: ${{ steps.vars.outputs.tag }}
+          name: "Production Release ${{ steps.vars.outputs.tag }}"
           generate_release_notes: true
           files: app-${{ github.sha }}.zip
           make_latest: true
@@ -219,7 +226,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const tag = '${{ needs.version.outputs.tag }}';
+            const tag = '${{ steps.vars.outputs.tag }}';
             const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
             const body = `✅ Released **${tag}**\n\n• Actor: ${context.actor}\n• Run: ${runUrl}`;
             await github.rest.repos.createCommitComment({
