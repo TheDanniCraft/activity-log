@@ -64,29 +64,50 @@ jobs:
         node: [18, 20]
     steps:
       - uses: actions/checkout@v4
-      - name: Use Node ${{ matrix.node }}
+
+      - name: Detect Node project & lockfile
+        id: detect
+        run: |
+          HAS_PKG=$([ -f package.json ] && echo true || echo false)
+          # 支援的 lock 檔：npm/yarn/pnpm 任一存在即視為有 lock
+          if [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ] || [ -f yarn.lock ] || [ -f pnpm-lock.yaml ]; then
+            HAS_LOCK=true
+          else
+            HAS_LOCK=false
+          fi
+          echo "has_pkg=$HAS_PKG"   >> "$GITHUB_OUTPUT"
+          echo "has_lock=$HAS_LOCK" >> "$GITHUB_OUTPUT"
+
+      # 若有 lockfile → 用 cache；否則先不用 cache（避免報錯）
+      - name: Use Node ${{ matrix.node }} (with cache if lockfile exists)
+        if: steps.detect.outputs.has_lock == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
           cache: npm
-      - name: Install deps (if package.json exists)
+
+      - name: Use Node ${{ matrix.node }} (no cache)
+        if: steps.detect.outputs.has_lock != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install deps (only when package.json exists)
+        if: steps.detect.outputs.has_pkg == 'true'
         run: |
-          if [ -f package.json ]; then
-            npm ci || npm i
-          else
-            echo "No package.json, skipping install."
-          fi
-      - name: Lint (if present)
+          npm ci || npm i
+
+      - name: Lint (only when package.json exists)
+        if: steps.detect.outputs.has_pkg == 'true'
         run: |
-          if [ -f package.json ]; then
-            npm run lint --if-present
-          fi
-      - name: Test (if present)
+          npm run lint --if-present
+
+      - name: Test (only when package.json exists)
+        if: steps.detect.outputs.has_pkg == 'true'
         run: |
-          if [ -f package.json ]; then
-            npm test --if-present
-          fi
-      - name: Upload test logs
+          npm test --if-present
+
+      - name: Upload QA logs/artifacts (always try, don't fail)
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -95,7 +116,12 @@ jobs:
             npm-debug.log*
             ./**/junit*.xml
             ./**/coverage/**
+          if-no-files-found: ignore
 
+      # 若整個 repo 根本不是 Node 專案，給一個清楚訊息，並讓 job 成功
+      - name: Not a Node project → skip lint/test
+        if: steps.detect.outputs.has_pkg != 'true'
+        run: echo "No package.json detected. Skipping lint/test for Node ${{ matrix.node }}."
   build:
     name: Build artifact
     needs: quality
