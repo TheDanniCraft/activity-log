@@ -1,0 +1,45 @@
+name: CI Dev Deployment
+
+on:
+  push:
+    branches: [ main ]   # 每次 push 到 main 時觸發
+
+jobs:
+  build:
+    name: Build and Archive
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies and Build
+        run: |
+          npm install
+          npm run build
+          zip -r build.zip .    # 將專案壓縮成 artifact
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: build.zip
+
+  deploy-dev:
+    name: Deploy to Dev Environment
+    needs: build               # 等 build job 完成後再執行
+    runs-on: ubuntu-latest
+    environment: dev           # 指定 dev 環境（使用 vars 與 secrets）
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Release Dev Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
+          echo "Releasing Dev Build: $TAG"
+          gh release create "$TAG" build.zip --notes "$NOTE"
