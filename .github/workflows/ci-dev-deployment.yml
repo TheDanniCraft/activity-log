@@ -7,35 +7,46 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code - 名稱：結帳代碼
+      - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-
-      - name: Simulate build
+      - name: Simulate build (模擬建置)
         run: |
           echo "Generating build artifact"
           zip -r build.zip . -x "*.git*"
-
-      - name: Upload artifact
+      - name: Upload artifact (上傳構件)
         uses: actions/upload-artifact@v4
         with:
           name: build-artifact
           path: build.zip
 
-  deploy-dev:
-    needs: build
+  test:
     runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact (下載構件)
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: ./test-artifacts
+      - name: Run Automated Tests (執行自動化測試)
+        run: |
+          cd ./test-artifacts
+          chmod +x ../test-script.sh
+          ../test-script.sh || exit 1
+
+  deploy-dev:
+    runs-on: ubuntu-latest
+    needs: test
     environment: dev
     steps:
-      - name: Checkout code
+      - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-
-      - name: Download artifact
+      - name: Download artifact (下載構件)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
           path: ./release-artifacts
-
-      - name: Create dev release
+      - name: Create dev release (創建 dev 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ vars.BUILD_TAG }}
@@ -52,20 +63,18 @@ jobs:
           fi
 
   deploy-staging:
-    needs: deploy-dev
     runs-on: ubuntu-latest
+    needs: deploy-dev
     environment: staging
     steps:
-      - name: Checkout code
+      - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-
-      - name: Download artifact
+      - name: Download artifact (下載構件)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
           path: ./release-artifacts
-
-      - name: Create staging release
+      - name: Create staging release (創建 staging 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ vars.BUILD_TAG }}
@@ -82,20 +91,18 @@ jobs:
           fi
 
   deploy-production:
-    needs: deploy-staging
     runs-on: ubuntu-latest
+    needs: deploy-staging
     environment: production
     steps:
-      - name: Checkout code
+      - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-
-      - name: Download artifact
+      - name: Download artifact (下載構件)
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
           path: ./release-artifacts
-
-      - name: Create production release
+      - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ vars.BUILD_TAG }}
@@ -110,4 +117,3 @@ jobs:
             ls -la
             exit 0
           fi
-
