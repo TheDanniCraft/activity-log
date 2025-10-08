@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code (結帳代碼)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4使用：actions/checkout@v4
       - name: Simulate build (模擬建置)
         run: |
           echo "Generating build artifact"
@@ -66,8 +66,8 @@ jobs:
           cd ./release-artifacts
           if [ -f build.zip ]; then
             TAG="${BASE_TAG}-$(date +%s)"
-            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
-            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 1; }
+            echo "Found build.zip, creating pre-release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
+            gh release create "$TAG" ./build.zip --notes "$NOTE" --prerelease || { echo "Release creation failed: $?"; exit 1; }
           else
             echo "No build.zip found, skipping release"
             ls -la
