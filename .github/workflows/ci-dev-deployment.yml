@@ -47,6 +47,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: test-integration
     environment: staging
+    env:
+      TEST_ENV: staging
     steps:
       - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
@@ -58,12 +60,12 @@ jobs:
       - name: Create staging release (創建 staging 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-staging
+          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
           if [ -f build.zip ]; then
-            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
+            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
             gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
           else
             echo "No build.zip found, skipping release"
@@ -75,6 +77,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy-staging
     environment: production
+    env:
+      TEST_ENV: prod
     steps:
       - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
@@ -86,12 +90,12 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-prod
+          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}標籤：$ {{vars.build_tag}}  -  $ {env.test_env}}}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
           if [ -f build.zip ]; then
-            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
+            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
             gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
           else
             echo "No build.zip found, skipping release"
