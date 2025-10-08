@@ -60,7 +60,7 @@ jobs:
       - name: Create staging release (創建 staging 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
+          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}-$(date +%s)
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
@@ -90,7 +90,7 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
+          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}-$(date +%s)
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
@@ -102,4 +102,3 @@ jobs:
             ls -la
             exit 1
           fi
-
