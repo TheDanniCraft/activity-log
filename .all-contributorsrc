@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "RounakJoshi09",
+      "name": "Rounak Joshi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97701228?v=4",
+      "profile": "https://leetcode.com/u/_theRJ_/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "activity-log",
+  "projectOwner": "TheDanniCraft"
+}
