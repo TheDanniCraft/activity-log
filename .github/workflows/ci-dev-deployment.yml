@@ -7,8 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code (結帳代碼)
-        uses: actions/checkout@v4使用：actions/checkout@v4
+      - name: Checkout code (結帳代碼)  # 確保註解在 name 行後
+        uses: actions/checkout@v4使用：actions/checkout@v4使用：actions/checkout@v4
       - name: Simulate build (模擬建置)
         run: |
           echo "Generating build artifact"
@@ -91,7 +91,7 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
+          BASE_TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}BASE_TAG：${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
