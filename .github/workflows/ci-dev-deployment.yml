@@ -4,7 +4,7 @@ on:
     branches: [ master ]  # 使用 master 分支
 
 jobs:
-  build:
+  build:建造：
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code (結帳代碼)
