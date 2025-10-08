@@ -2,9 +2,8 @@ name: CI Dev Deployment (CI 開發部署)
 on:
   push:
     branches: [ master ]  # 使用 master 分支
-
 jobs:
-  build:建造：
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code (結帳代碼)
