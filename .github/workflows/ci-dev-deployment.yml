@@ -19,53 +19,33 @@ jobs:
           name: build-artifact
           path: build.zip
 
-  test:
+  test-unit:
     runs-on: ubuntu-latest
     needs: build
     steps:
       - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-      - name: Download artifact (下載構件)
-        uses: actions/download-artifact@v4
-        with:
-          name: build-artifact
-          path: ./test-artifacts
-      - name: Run Automated Tests (執行自動化測試)
+      - name: Run Unit Tests (執行單元測試)
         run: |
           chmod +x test-script.sh
+          echo "Running mock unit tests..."
           ./test-script.sh || exit 1
 
-  deploy-dev:
+  test-integration:
     runs-on: ubuntu-latest
-    needs: test
-    environment: dev
+    needs: test-unit
     steps:
       - name: Checkout code (結帳代碼)
         uses: actions/checkout@v4
-      - name: Download artifact (下載構件)
-        uses: actions/download-artifact@v4
-        with:
-          name: build-artifact
-          path: ./release-artifacts
-      - name: Create dev release (創建 dev 發布)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+      - name: Run Integration Tests (執行整合測試)
         run: |
-          cd ./release-artifacts
-          if [ -f build.zip ]; then
-            echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE"
-            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
-          else
-            echo "No build.zip found, skipping release"
-            ls -la
-            exit 0
-          fi
+          chmod +x test-script.sh
+          echo "Running mock integration tests..."
+          ./test-script.sh || exit 1
 
   deploy-staging:
     runs-on: ubuntu-latest
-    needs: deploy-dev
+    needs: test-integration
     environment: staging
     steps:
       - name: Checkout code (結帳代碼)
@@ -78,7 +58,7 @@ jobs:
       - name: Create staging release (創建 staging 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: ${{ vars.BUILD_TAG }}-staging
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
@@ -106,7 +86,7 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: ${{ vars.BUILD_TAG }}-prod
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
