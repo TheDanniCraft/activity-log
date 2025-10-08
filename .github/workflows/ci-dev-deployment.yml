@@ -66,11 +66,11 @@ jobs:
           cd ./release-artifacts
           if [ -f build.zip ]; then
             echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
-            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
+            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 1; }
           else
             echo "No build.zip found, skipping release"
             ls -la
-            exit 0
+            exit 1
           fi
 
   deploy-production:
@@ -90,15 +90,15 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}標籤：$ {{vars.build_tag}}  -  $ {env.test_env}}}
+          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
           if [ -f build.zip ]; then
             echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
-            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 0; }
+            gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 1; }
           else
             echo "No build.zip found, skipping release"
             ls -la
-            exit 0
+            exit 1
           fi
