@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Running mock automated tests..."
-if [ $((RANDOM % 2)) -eq 0 ]; then
+if [ $((RANDOM % 2)) -ne 0 ]; then
   echo "✅ All tests passed"
   exit 0
 else
