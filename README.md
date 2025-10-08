@@ -26,15 +26,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🗣 Commented on issue [#56](https://github.com/TheDanniCraft/activity-log/issues/56) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/56#issuecomment-3381251723)
-2. 🗣 Commented on issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/55#issuecomment-3378622903)
-3. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408849995)
-4. 🗣 Commented on a review of [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/42#pullrequestreviewcomment-2408640496)
-5. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
-9. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
+2. 🏷️ Added a label to an issue [#57](https://github.com/TheDanniCraft/activity-log/issues/57) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🗣 Commented on issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/55#issuecomment-3378622903)
+4. 👤 Unassigned an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 👤 Assigned an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. ❌ Closed [PR #53](https://github.com/TheDanniCraft/activity-log/pull/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3376011711)
+8. 🏷️ Added a label to [PR #53](https://github.com/TheDanniCraft/activity-log/pull/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🏷️ Removed a label from [PR #53](https://github.com/TheDanniCraft/activity-log/pull/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3375998782)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
