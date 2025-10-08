@@ -2,6 +2,7 @@ name: CI Dev Deployment (CI 開發部署)
 on:
   push:
     branches: [ master ]  # 使用 master 分支
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -59,11 +60,12 @@ jobs:
       - name: Create staging release (創建 staging 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}-$(date +%s)
+          BASE_TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
           if [ -f build.zip ]; then
+            TAG="${BASE_TAG}-$(date +%s)"
             echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
             gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 1; }
           else
@@ -89,11 +91,12 @@ jobs:
       - name: Create production release (創建 production 發布)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}-$(date +%s)
+          BASE_TAG: ${{ vars.BUILD_TAG }}-${{ env.TEST_ENV }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           cd ./release-artifacts
           if [ -f build.zip ]; then
+            TAG="${BASE_TAG}-$(date +%s)"
             echo "Found build.zip, creating release with TAG=$TAG and NOTE=$NOTE for TEST_ENV=$TEST_ENV"
             gh release create "$TAG" ./build.zip --notes "$NOTE" || { echo "Release creation failed: $?"; exit 1; }
           else
