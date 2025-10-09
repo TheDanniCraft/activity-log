@@ -25,16 +25,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔎 Reviewed [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🔎 Reviewed [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🗣 Commented on a review of [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/59#pullrequestreviewcomment-2415938567)
-4. 🗣 Commented on a review of [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/59#pullrequestreviewcomment-2415916923)
-5. 🗣 Commented on issue [#56](https://github.com/TheDanniCraft/activity-log/issues/56) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/56#issuecomment-3381251723)
-6. 🏷️ Added a label to an issue [#57](https://github.com/TheDanniCraft/activity-log/issues/57) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🗣 Commented on issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/55#issuecomment-3378622903)
-8. 👤 Unassigned an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 👤 Assigned an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. ❌ Closed [PR #53](https://github.com/TheDanniCraft/activity-log/pull/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🏷️ Added a label to an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 👤 Assigned an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🏷️ Added a label to an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🆕 Opened an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🔎 Reviewed [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🔎 Reviewed [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🗣 Commented on a review of [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/59#pullrequestreviewcomment-2415938567)
+8. 🗣 Commented on a review of [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/59#pullrequestreviewcomment-2415916923)
+9. 🗣 Commented on issue [#56](https://github.com/TheDanniCraft/activity-log/issues/56) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/56#issuecomment-3381251723)
+10. 🏷️ Added a label to an issue [#57](https://github.com/TheDanniCraft/activity-log/issues/57) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
