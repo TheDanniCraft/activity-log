@@ -52,7 +52,7 @@ jobs:
 
       - name: Run Python Tests
         run: |
-          echo "Running tests..."
+          echo "Running Unit Tests (TEST_ENV=$TEST_ENV)..."
           pytest -v tests/unit
 
   deploy-dev:
