@@ -1,5 +1,5 @@
 {
-    "projectName": "activity-log",
+	"projectName": "activity-log",
 	"projectOwner": "TheDanniCraft",
 	"repoType": "github",
 	"repoHost": "https://github.com",
@@ -22,5 +22,5 @@
 	],
 	"contributorsPerLine": 7,
 	"linkToUsage": false,
-	"badgeTemplate": "<a href=\"#contributors-\"><img src=\"https://img.shields.io/github/all-contributors/TheDanniCraft/activity-log?style=for-the-badge\" alt=\"All Contributors\"></a>"
+	"badgeTemplate": "<a href=\"#contributors\"><img src=\"https://img.shields.io/github/all-contributors/TheDanniCraft/activity-log?style=for-the-badge\" alt=\"All Contributors\"></a>"
 }
