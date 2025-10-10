@@ -1,6 +1,6 @@
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../src")))
-from main import check_sign, describe_number
+from main import check_sign
 
 def test_check_sign():
     assert check_sign(10) == "positive"
