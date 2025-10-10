@@ -1,26 +1,26 @@
 {
-  "projectName": "activity-log",
-  "projectOwner": "TheDanniCraft",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": true,
-  "commitConvention": "gitmoji",
-  "contributors": [
-    {
-      "login": "RounakJoshi09",
-      "name": "Rounak Joshi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/97701228?v=4",
-      "profile": "https://leetcode.com/u/_theRJ_/",
-      "contributions": [
-        "doc"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "linkToUsage": false,
-  "badgeTemplate": "<a href=\"#contributors-\"><img src=\"https://img.shields.io/badge/all_contributors-{{contributors}}-orange.svg?style=for-the-badge\" alt=\"All Contributors\"></a>"
+	"projectName": "activity-log",
+	"projectOwner": "TheDanniCraft",
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"files": [
+		"README.md"
+	],
+	"imageSize": 100,
+	"commit": true,
+	"commitConvention": "gitmoji",
+	"contributors": [
+		{
+			"login": "RounakJoshi09",
+			"name": "Rounak Joshi",
+			"avatar_url": "https://avatars.githubusercontent.com/u/97701228?v=4",
+			"profile": "https://leetcode.com/u/_theRJ_/",
+			"contributions": [
+				"doc"
+			]
+		}
+	],
+	"contributorsPerLine": 7,
+	"linkToUsage": false,
+	"badgeTemplate": "<a href=\"#contributors\"><img src=\"https://img.shields.io/github/all-contributors/TheDanniCraft/activity-log?style=for-the-badge\" alt=\"All Contributors\"></a>"
 }
