@@ -35,9 +35,8 @@ Mark (x) all the types that apply to this PR.
 - [ ] I have **commented** my code where necessary  
 - [ ] I have **updated documentation** if applicable  
 - [ ] My changes **generate no new warnings or errors**  
-- [ ] I have verified **backward compatibility** (no unintended breaking changes)  
-- [ ] I have **tested my actions** locally (see [Testing GitHub Actions with `nektos/act`](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#test_tube-testing-github-actions-locally-with-nektosact))  
 - [ ] Any **dependent changes** have been merged and published in downstream modules  
+- [ ] I have **tested my actions** locally (see [Testing GitHub Actions with `nektos/act`](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#test_tube-testing-github-actions-locally-with-nektosact))  
 
 ## 💬 Other Information
 
