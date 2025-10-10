@@ -284,7 +284,7 @@ with:
 - [@AJ0070](https://www.github.com/AJ0070)
 - [@thedannicraft](https://www.github.com/thedannicraft)
 
-## Contributors ✨
+## ✨Contributors 
 
 Thanks goes to these wonderful people: [Emoji key for contribution types](https://allcontributors.org/docs/en/emoji-key).
 
