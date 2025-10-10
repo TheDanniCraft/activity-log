@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/61#issuecomment-3388704764)
-2. 👤 Unassigned an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 👤 Assigned an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. ✅ Closed an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🔥 Deleted a branch `all-contributors/add-RounakJoshi09` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗣 Commented on issue [#60](https://github.com/TheDanniCraft/activity-log/issues/60) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/60#issuecomment-3388698534)
-7. ❌ Closed [PR #60](https://github.com/TheDanniCraft/activity-log/pull/60) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fb7d1264f0f20fa25d6116ed5491f76d830f901c)
-9. 🔎 Reviewed [PR #59](https://github.com/TheDanniCraft/activity-log/pull/59) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🚀 Committed to [RounakJoshi09/activity-log](https://github.com/RounakJoshi09/activity-log/commit/e8d11af00b4fd38e0026a09d3afb7f36aa84654d)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5c771d65d11ba02accc85a8523f4bfad092c3843)
+2. 🔎 Reviewed [PR #62](https://github.com/TheDanniCraft/activity-log/pull/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🗣 Commented on issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/61#issuecomment-3388704764)
+4. 👤 Unassigned an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 👤 Assigned an issue [#61](https://github.com/TheDanniCraft/activity-log/issues/61) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. ✅ Closed an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🔥 Deleted a branch `all-contributors/add-RounakJoshi09` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🗣 Commented on issue [#60](https://github.com/TheDanniCraft/activity-log/issues/60) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/60#issuecomment-3388698534)
+9. ❌ Closed [PR #60](https://github.com/TheDanniCraft/activity-log/pull/60) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fb7d1264f0f20fa25d6116ed5491f76d830f901c)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
@@ -200,7 +200,7 @@ Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for m
 
 - [@thedannicraft](https://www.github.com/thedannicraft)
 
-## Contributors ✨
+## ✨Contributors 
 
 Thanks goes to these wonderful people: [Emoji key for contribution types](https://allcontributors.org/docs/en/emoji-key).
 
