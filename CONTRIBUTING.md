@@ -9,6 +9,7 @@
 - [Feature Requests](#love_letter-feature-requests)
 - [Triaging Issues](#mag-triaging-issues)
 - [Submitting Pull Requests](#repeat-submitting-pull-requests)
+- [Usage of AI in Contributions](#robot-usage-of-ai-in-contributions)
 - [Testing GitHub Actions Locally with nektos/act](#test_tube-testing-github-actions-locally-with-nektosact)
 - [Writing Commit Messages](#memo-writing-commit-messages)
 - [Using Gitmoji](#tada-using-gitmoji)
