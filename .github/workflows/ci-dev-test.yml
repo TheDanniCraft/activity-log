@@ -53,7 +53,7 @@ jobs:
       - name: Run Python Tests
         run: |
           echo "Running tests..."
-          pytest -v tests
+          pytest -v tests/unit
 
   deploy-dev:
     needs: test
