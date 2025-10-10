@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3389254344)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7c4a77cfd81c4862e67d6786eb36703616a1b937)
-3. 🗣 Commented on issue [#64](https://github.com/TheDanniCraft/activity-log/issues/64) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/64#issuecomment-3389057796)
-4. 🔎 Reviewed [PR #64](https://github.com/TheDanniCraft/activity-log/pull/64) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3389051431)
-6. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3388969688)
-7. 🗣 Commented on issue [#63](https://github.com/TheDanniCraft/activity-log/issues/63) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/63#issuecomment-3388933993)
-8. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3388891426)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5c771d65d11ba02accc85a8523f4bfad092c3843)
-10. 🔎 Reviewed [PR #62](https://github.com/TheDanniCraft/activity-log/pull/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3389832168)
+2. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3389254344)
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7c4a77cfd81c4862e67d6786eb36703616a1b937)
+4. 🗣 Commented on issue [#64](https://github.com/TheDanniCraft/activity-log/issues/64) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/64#issuecomment-3389057796)
+5. 🔎 Reviewed [PR #64](https://github.com/TheDanniCraft/activity-log/pull/64) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3389051431)
+7. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3388969688)
+8. 🗣 Commented on issue [#63](https://github.com/TheDanniCraft/activity-log/issues/63) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/63#issuecomment-3388933993)
+9. 🗣 Commented on issue [#62](https://github.com/TheDanniCraft/activity-log/issues/62) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/62#issuecomment-3388891426)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5c771d65d11ba02accc85a8523f4bfad092c3843)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
