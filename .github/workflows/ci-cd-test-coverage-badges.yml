@@ -62,26 +62,6 @@ jobs:
         run: |
           coverage-badge -o coverage.svg -f
 
-      - name: Upload Coverage Reports
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-unit-report
-          path: htmlcov/
-
-      - name: Update Coverage Badge in README
-        run: |
-          echo "Updating coverage badge in README..."
-          if grep -q "coverage.svg" README.md; then
-            echo "Badge already exists — skipping insertion."
-          else
-            echo "![Coverage](./coverage.svg)" >> README.md
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add coverage.svg README.md
-          git commit -m "Update coverage badge [skip ci]" || echo "No changes to commit"
-          git push
-
   test-integration:
     needs: test-unit
     runs-on: ubuntu-latest
