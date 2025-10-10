@@ -1,5 +1,16 @@
 <h1 align="center" id="title">Activity Log</h1>
 
+## Status badges
+整體 CI 流程結果
+[![CI/CD Deployment Pipeline Test Coverage Readme](https://github.com/luhongxuan/activity-log-temp/actions/workflows/ci-cd-test-coverage-readme.yml/badge.svg?branch=main)](https://github.com/luhongxuan/activity-log-temp/actions/workflows/ci-cd-test-coverage-readme.yml)
+
+最新 Release 版本
+![Latest Release](https://img.shields.io/github/v/release/luhongxuan/activity-log-temp?sort=semver)
+
+Coverage
+![Coverage](./coverage.svg)
+
+
 ![activity log](https://socialify.git.ci/TheDanniCraft/activity-log/image?forks=1&issues=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66677362&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
 <p align="center">
