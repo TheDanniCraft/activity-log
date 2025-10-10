@@ -32,6 +32,9 @@ jobs:
   test-unit:
     needs: build
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
     permissions:
       contents: write
     steps:
@@ -47,7 +50,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest pytest-cov coverage-badge
-
+ 
       - name: Run Unit Tests with Coverage
         env:
           TEST_ENV: unit
