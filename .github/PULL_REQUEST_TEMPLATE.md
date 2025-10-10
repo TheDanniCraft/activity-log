@@ -18,7 +18,7 @@ Fixes #(issue)
 - [ ] My changes generate no new warnings
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I tested my actions (see [Testing GitHub Actions locally with nektos/act](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#test_tube-testing-github-actions-locally-with-nektosact))
-- [ ] I have reviewed and followed the [AI usage policy](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#robot-usage-of-ai-in-contributions) and clearly noted under *Other Information* where AI assistance was used, if applicable
+- [ ] I have reviewed and followed the [AI usage policy](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#robot-usage-of-ai-in-contributions)
 
 ## Other Information
 
