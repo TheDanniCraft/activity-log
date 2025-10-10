@@ -200,7 +200,7 @@ Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for m
 
 - [@thedannicraft](https://www.github.com/thedannicraft)
 
-## Contributors ✨
+## ✨Contributors 
 
 Thanks goes to these wonderful people: [Emoji key for contribution types](https://allcontributors.org/docs/en/emoji-key).
 
