@@ -85,6 +85,8 @@ jobs:
         run: |
           git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release' }}"
           git push origin "$TAG"
+          echo "✅ Tests passed. Releasing new dev build..."
+          gh release create "dev-$TAG" dist/* --notes "Automated release after successful tests"
       - name: Release
         uses: actions/create-release@v1
         env:
