@@ -86,7 +86,6 @@ jobs:
           git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release' }}"
           git push origin "$TAG"
       - name: Release to dev
-        uses: actions/create-release@v1
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
