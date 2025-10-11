@@ -85,8 +85,32 @@ jobs:
         run: |
           git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release' }}"
           git push origin "$TAG"
-      - name: Release to dev
+      - name: Release
+        uses: actions/create-release@v1
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.TAG }}
+          release_name: Release ${{ env.TAG }}
+          body: ${{ inputs.note }}
+          draft: false
+          prerelease: false
+  deploy-dev:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Release Dev Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
-          gh release create "dev-$TAG" dist/* --notes "${{ github.event.inputs.note || 'Automated release after successful tests' }}" --prerelease
+          gh release create "$TAG" build.zip --notes "$NOTE"
