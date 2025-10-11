@@ -197,7 +197,7 @@ Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for m
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## ✍️Authors
-
+- [@AJ0070](https://www.github.com/AJ0070)
 - [@thedannicraft](https://www.github.com/thedannicraft)
 
 ## ✨Contributors 
