@@ -85,15 +85,9 @@ jobs:
         run: |
           git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release' }}"
           git push origin "$TAG"
-          echo "✅ Tests passed. Releasing new dev build..."
-          gh release create "dev-$TAG" dist/* --notes "Automated release after successful tests"
-      - name: Release
+      - name: Release to dev
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.TAG }}
-          release_name: Release ${{ env.TAG }}
-          body: ${{ inputs.note }}
-          draft: false
-          prerelease: false
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "dev-$TAG" dist/* --notes "${{ github.event.inputs.note || 'Automated release after successful tests' }}" --prerelease
