@@ -64,6 +64,7 @@ jobs:
   release:
     runs-on: ubuntu-latest
     needs: test
+    environment: dev
     steps:
       - uses: actions/checkout@v4
       - name: Pull latest
@@ -95,22 +96,3 @@ jobs:
           body: ${{ inputs.note }}
           draft: false
           prerelease: false
-  deploy-dev:
-    needs: build
-    runs-on: ubuntu-latest
-    environment: dev
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build-artifact
-
-      - name: Release Dev Build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
-        run: |
-          gh release create "$TAG" build.zip --notes "$NOTE"
