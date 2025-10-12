@@ -137,7 +137,7 @@ You can run GitHub Actions workflows locally before submitting them in a pull re
 
 Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
 
-**⚠️ Important:** This project uses **automated commit message validation** via CI. All commits must follow the gitmoji format or your pull request will fail the checks.
+**⚠️ Important:** This project uses **automated commit message validation** in CI/CD. All commit messages in pull requests must follow the gitmoji format or the PR checks will fail.
 
 1. **Start with a gitmoji emoji** - Use the appropriate [gitmoji](https://gitmoji.dev) for your change
 1. **Follow conventional commit format**: `[gitmoji] [type]: [description]`
@@ -171,7 +171,7 @@ explain something, use more paragraphs.
 
 ## :tada: Using Gitmoji
 
-This project **requires** the Gitmoji standard for all commit messages, enforced by automated CI checks. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard with conventional commit format.
+This project **requires** the Gitmoji standard for all commit messages, enforced by automated CI checks on pull requests. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard with conventional commit format.
 
 ### ✅ Correct Examples:
 ```
