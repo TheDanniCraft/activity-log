@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f61ca58cc29777a36ff6d5f9490b625ec9afb9ef)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/955a9bd7a6a99d321c9c2b99b19913c367b20c5c)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbaacf6fe4e1dd65b842694145758ea22ed59878)
-4. 🏷️ Added a label to [PR #66](https://github.com/TheDanniCraft/activity-log/pull/66) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. ❌ Closed [PR #66](https://github.com/TheDanniCraft/activity-log/pull/66) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🗣 Commented on issue [#66](https://github.com/TheDanniCraft/activity-log/issues/66) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/66#issuecomment-3392472403)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d17d33029238fc0e627ad5fa544765eb5aea8684)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dc8061293e92b9cd3eb9431d43d7b0e1526bec9f)
-9. 🔎 Reviewed [PR #65](https://github.com/TheDanniCraft/activity-log/pull/65) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/dc037aec57dbecaaff0debe08b19d3e21aaf3d09)
+1. 🏷️ Added a label to [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🗣 Commented on issue [#68](https://github.com/TheDanniCraft/activity-log/issues/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/68#issuecomment-3396290538)
+3. ❌ Closed [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/eababfdc358cea77ee18aaa316ecfd9a750d876d)
+5. 🔎 Reviewed [PR #58](https://github.com/Wiresense/wiresense.js/pull/58) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+6. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f61ca58cc29777a36ff6d5f9490b625ec9afb9ef)
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/955a9bd7a6a99d321c9c2b99b19913c367b20c5c)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbaacf6fe4e1dd65b842694145758ea22ed59878)
+9. 🏷️ Added a label to [PR #66](https://github.com/TheDanniCraft/activity-log/pull/66) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. ❌ Closed [PR #66](https://github.com/TheDanniCraft/activity-log/pull/66) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
