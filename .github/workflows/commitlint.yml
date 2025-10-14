@@ -18,14 +18,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install commitlint dependencies
         run: |
-          npm install --no-save @commitlint/cli@^20.1.0 commitlint-config-gitmoji@^2.3.1
+          bun add -d @commitlint/cli@^20.1.0 commitlint-config-gitmoji@^2.3.1
 
       - name: Create commitlint config
         run: |
@@ -33,8 +31,8 @@ jobs:
 
       - name: Validate current commit (push)
         if: github.event_name == 'push'
-        run: npx commitlint --from HEAD~1 --to HEAD --verbose
+        run: bunx commitlint --from HEAD~1 --to HEAD --verbose
 
       - name: Validate PR commits
         if: github.event_name == 'pull_request'
-        run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+        run: bunx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose

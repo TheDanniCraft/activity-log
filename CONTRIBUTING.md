@@ -175,7 +175,7 @@ This project **requires** the Gitmoji standard for all commit messages, enforced
 
 ### ✅ Correct Examples:
 ```
-🎆 feat: add new feature for user authentication
+✨ feat: add new feature for user authentication
 🐛 fix: resolve login validation bug
 📚 docs: update installation guide
 🔧 chore: update dependencies
@@ -184,8 +184,8 @@ This project **requires** the Gitmoji standard for all commit messages, enforced
 ### ❌ Incorrect Examples:
 ```
 Add new feature          # Missing gitmoji and type
-fix bug                  # Missing gitmoji  
-🎆 add new feature       # Missing type after gitmoji
+fix bug                  # Missing gitmoji
+✨ add new feature       # Missing type after gitmoji
 ```
 
 ### Common Gitmoji Reference:
