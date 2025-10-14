@@ -1,0 +1,120 @@
+name: A5-E · Build → Unit → Integration → Staging → Production
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master, main, a5-test-pipeline ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create zip artifact
+        run: zip -r app-${{ github.sha }}.zip . -x ".git/*"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: app-${{ github.sha }}.zip
+          if-no-files-found: error
+
+  test-unit:
+    name: Unit tests (gate 1)
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pytest
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Run unit tests
+        run: |
+          echo "Running UNIT tests..."
+          # 預設執行所有未標 integration 的測試
+          pytest -v -k "not integration" tests/
+
+  test-integration:
+    name: Integration tests (gate 2)
+    needs: test-unit
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: "staging"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install pytest
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      - name: Run INTEGRATION tests
+        run: |
+          echo "Running INTEGRATION tests (TEST_ENV=$TEST_ENV)..."
+          # 執行所有 integration 測試（或使用 -k "integration"）
+          pytest -v tests/
+
+  deploy-staging:
+    name: Deploy to STAGING (only if tests pass)
+    needs: test-integration
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: .
+
+      # 做一個 Staging 版的 Release（示範）
+      - name: Create Staging Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: a5-staging-${{ github.run_number }}
+          name: "A5 Staging Release #${{ github.run_number }}"
+          prerelease: true
+          files: app-${{ github.sha }}.zip
+
+  deploy-production:
+    name: Deploy to PRODUCTION (requires approval)
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment:
+      name: production         # ← 這會觸發你 Settings 的 Required reviewers
+    env:
+      TEST_ENV: "production"
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: .
+
+      - name: Smoke check before release (prod)
+        run: |
+          echo "Smoke check… TEST_ENV=$TEST_ENV"
+          python - <<'PY'
+          import os; assert os.getenv("TEST_ENV")=="production"
+          PY
+
+      - name: Create Production Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: a5-prod-${{ github.run_number }}
+          name: "A5 Production Release #${{ github.run_number }}"
+          make_latest: false
+          files: app-${{ github.sha }}.zip
