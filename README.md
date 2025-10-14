@@ -30,16 +30,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ⭐ Starred [cyprieng/github-breakout](https://github.com/cyprieng/github-breakout)
-2. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3396459078)
-3. 🗣 Commented on issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/46#issuecomment-3396402453)
-4. 🏷️ Added a label to [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🗣 Commented on issue [#68](https://github.com/TheDanniCraft/activity-log/issues/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/68#issuecomment-3396290538)
-6. ❌ Closed [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/eababfdc358cea77ee18aaa316ecfd9a750d876d)
-8. 🔎 Reviewed [PR #58](https://github.com/Wiresense/wiresense.js/pull/58) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-9. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f61ca58cc29777a36ff6d5f9490b625ec9afb9ef)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/955a9bd7a6a99d321c9c2b99b19913c367b20c5c)
+1. 🚀 Committed to a private repo
+2. ⭐ Starred [cyprieng/github-breakout](https://github.com/cyprieng/github-breakout)
+3. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3396459078)
+4. 🗣 Commented on issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/46#issuecomment-3396402453)
+5. 🏷️ Added a label to [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🗣 Commented on issue [#68](https://github.com/TheDanniCraft/activity-log/issues/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/68#issuecomment-3396290538)
+7. ❌ Closed [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/eababfdc358cea77ee18aaa316ecfd9a750d876d)
+9. 🔎 Reviewed [PR #58](https://github.com/Wiresense/wiresense.js/pull/58) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+10. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/f61ca58cc29777a36ff6d5f9490b625ec9afb9ef)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
