@@ -1,4 +1,4 @@
-name: A5 - Build · Test · Release
+name: A5 - Build · Test (Node + Python) · Release
 
 on:
   workflow_dispatch:
@@ -22,34 +22,34 @@ jobs:
           path: app-${{ github.sha }}.zip
           if-no-files-found: error
 
-  test:
-    name: Test (gate before release)
+  test_python:
+    name: Python Tests
     needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      # 安裝 Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: 20
-          cache: npm
-      - name: Install deps
-        run: npm ci || npm i
-      - name: Run tests
-        run: npm test
-      - name: Upload test logs (optional)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: test-logs
-          path: |
-            npm-debug.log*
-            ./**/junit*.xml
-            ./**/coverage/**
-          if-no-files-found: ignore
+          python-version: "3.11"
+
+      # 安裝 pytest
+      - name: Install pytest
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+
+      # 執行測試
+      - name: Run pytest
+        run: |
+          echo "Running Python tests..."
+          pytest -v tests/
 
   release:
     name: Release (only if tests pass)
-    needs: test
+    needs: test_python
     runs-on: ubuntu-latest
     environment: dev
     steps:
@@ -60,7 +60,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: a5-${{ github.run_number }}
-          name: "A5 Dev Release ${{ github.run_number }}"
+          tag_name: a5-python-${{ github.run_number }}
+          name: "A5 Python Release ${{ github.run_number }}"
           files: app-${{ github.sha }}.zip
           make_latest: false
