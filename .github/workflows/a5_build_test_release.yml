@@ -1,0 +1,66 @@
+name: A5 - Build · Test · Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ master, main, a5-test-pipeline ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create zip artifact
+        run: zip -r app-${{ github.sha }}.zip . -x ".git/*"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: app-${{ github.sha }}.zip
+          if-no-files-found: error
+
+  test:
+    name: Test (gate before release)
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - name: Install deps
+        run: npm ci || npm i
+      - name: Run tests
+        run: npm test
+      - name: Upload test logs (optional)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-logs
+          path: |
+            npm-debug.log*
+            ./**/junit*.xml
+            ./**/coverage/**
+          if-no-files-found: ignore
+
+  release:
+    name: Release (only if tests pass)
+    needs: test
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: .
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: a5-${{ github.run_number }}
+          name: "A5 Dev Release ${{ github.run_number }}"
+          files: app-${{ github.sha }}.zip
+          make_latest: false
