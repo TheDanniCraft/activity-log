@@ -1,0 +1,66 @@
+name: Commitlint
+
+on:
+  pull_request:
+    branches: [master]
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+jobs:
+  commitlint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install commitlint dependencies
+        run: |
+          bun add -d @commitlint/cli@^20.1.0 commitlint-config-gitmoji@^2.3.1
+
+      - name: Create commitlint config
+        run: |
+          echo "module.exports = { extends: ['gitmoji'] };" > commitlint.config.js
+
+      - name: Validate current commit (push)
+        if: github.event_name == 'push'
+        run: bunx commitlint --from HEAD~1 --to HEAD --verbose
+
+      - name: Validate PR commits
+        if: github.event_name == 'pull_request'
+        run: bunx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
+
+      - name: Add comment on PR failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `## ❌ Commit Message Check Failed
+              
+              Your commit messages don't follow the required gitmoji format. Please make sure your commits follow this pattern:
+              
+              \`✨ feat: add new feature\`
+              \`🐛 fix: resolve bug issue\`
+              \`📚 docs: update documentation\`
+              
+              **Format:** \`[gitmoji] [type]: [description]\`
+              
+              📖 **Resources:**
+              - [Gitmoji Guide](https://gitmoji.dev/)
+              - [Conventional Commits](https://www.conventionalcommits.org/)
+              
+              Please update your commit messages and push again. You can use \`git commit --amend\` for the last commit or \`git rebase -i\` for multiple commits.`
+            })

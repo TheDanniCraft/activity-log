@@ -137,14 +137,17 @@ You can run GitHub Actions workflows locally before submitting them in a pull re
 
 Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
 
+**⚠️ Important:** This project uses **automated commit message validation** in CI/CD. All commit messages in pull requests must follow the gitmoji format or the PR checks will fail.
+
+1. **Start with a gitmoji emoji** - Use the appropriate [gitmoji](https://gitmoji.dev) for your change
+1. **Follow conventional commit format**: `[gitmoji] [type]: [description]`
 1. Separate subject from body with a blank line
-1. Limit the subject line to 50 characters
+1. Limit the subject line to 50 characters (excluding the gitmoji)
 1. Capitalize the subject line
 1. Do not end the subject line with a period
 1. Use the imperative mood in the subject line (example: "Fix networking issue")
 1. Wrap the body at about 72 characters
 1. Use the body to explain **why**, *not what and how* (the code shows that!)
-1. If applicable, prefix the title with the relevant component name and the corresponding [Gitmoji](https://gitmoji.dev). (examples: ":memo: Fix typo", ":sparkles: Add user authentication")
 
 ```
 🎉 Short summary of changes in 50 chars or less
@@ -168,7 +171,24 @@ explain something, use more paragraphs.
 
 ## :tada: Using Gitmoji
 
-This project follows the Gitmoji standard. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard. Here is a short reference of the most commonly used emojis:
+This project **requires** the Gitmoji standard for all commit messages, enforced by automated CI checks on pull requests. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard with conventional commit format.
+
+### ✅ Correct Examples:
+```
+✨ feat: add new feature for user authentication
+🐛 fix: resolve login validation bug
+📚 docs: update installation guide
+🔧 chore: update dependencies
+```
+
+### ❌ Incorrect Examples:
+```
+Add new feature          # Missing gitmoji and type
+fix bug                  # Missing gitmoji
+✨ add new feature       # Missing type after gitmoji
+```
+
+### Common Gitmoji Reference:
 
 | Emoji | Description                                           |
 |-------|-------------------------------------------------------|
