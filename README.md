@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b9d2aeaf082da92409c1a00715f611714b9c82e8)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6b1659193da6018cf23c122516cd52dbfa8d86c6)
-3. 🔎 Reviewed [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🗣 Commented on a review of [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/67#pullrequestreviewcomment-2428407648)
-5. 🗣 Commented on a review of [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/67#pullrequestreviewcomment-2428402243)
-6. 🚀 Committed to a private repo
-7. ⭐ Starred [cyprieng/github-breakout](https://github.com/cyprieng/github-breakout)
-8. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3396459078)
-9. 🗣 Commented on issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/46#issuecomment-3396402453)
-10. 🏷️ Added a label to [PR #68](https://github.com/TheDanniCraft/activity-log/pull/68) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1c74975dbd0ff38767417cd4e312692fcf9c13f)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b9d2aeaf082da92409c1a00715f611714b9c82e8)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6b1659193da6018cf23c122516cd52dbfa8d86c6)
+4. 🔎 Reviewed [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🗣 Commented on a review of [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/67#pullrequestreviewcomment-2428407648)
+6. 🗣 Commented on a review of [PR #67](https://github.com/TheDanniCraft/activity-log/pull/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/67#pullrequestreviewcomment-2428402243)
+7. 🚀 Committed to a private repo
+8. ⭐ Starred [cyprieng/github-breakout](https://github.com/cyprieng/github-breakout)
+9. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3396459078)
+10. 🗣 Commented on issue [#46](https://github.com/TheDanniCraft/activity-log/issues/46) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/46#issuecomment-3396402453)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
