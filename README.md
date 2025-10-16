@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🔎 Reviewed a PR in a private repo
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/433cbeb3c4cf32c268446fe99c26238ddfd11aba)
-4. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/activity-log/pull/70) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cc5d570c7f7bc4f4debfcd5cd3219144be7567dd)
-6. ✨ Created a new branch [`fix-update-workflow`](https://github.com/TheDanniCraft/activity-log/tree/fix-update-workflow) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🗣 Commented on issue [#57](https://github.com/TheDanniCraft/activity-log/issues/57) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/57#issuecomment-3409291735)
-8. 👤 Assigned an issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 👤 Unassigned an issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🗣 Commented on issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/47#issuecomment-3409247845)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/35ecbcf99d1bf1e7de222c5717cdd29feae9f26e)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fbfdce263e365855deb543b99d1dcb76642f5890)
+3. 🔀 Opened [PR #71](https://github.com/TheDanniCraft/activity-log/pull/71) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. ✨ Created a new branch [`update-contribution`](https://github.com/TheDanniCraft/activity-log/tree/update-contribution) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🚀 Committed to a private repo
+6. 🔎 Reviewed a PR in a private repo
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/433cbeb3c4cf32c268446fe99c26238ddfd11aba)
+8. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/activity-log/pull/70) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cc5d570c7f7bc4f4debfcd5cd3219144be7567dd)
+10. ✨ Created a new branch [`fix-update-workflow`](https://github.com/TheDanniCraft/activity-log/tree/fix-update-workflow) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
