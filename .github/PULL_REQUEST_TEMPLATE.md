@@ -30,7 +30,7 @@ Mark (x) all the types that apply to this PR.
 
 - [ ] I have **read and understood** the [Contribution Guidelines](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md)  
 - [ ] My code **follows the project’s coding style**  
-- [ ] My commit messages follow the [Gitmoji syntax](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#tada-using-gitmoji)  
+- [ ] My commit messages follow the [commit syntax](https://github.com/TheDanniCraft/activity-log/blob/master/CONTRIBUTING.md#memo-writing-commit-messages)  
 - [ ] I have **performed a self-review** of my own code  
 - [ ] I have **commented** my code where necessary  
 - [ ] I have **updated documentation** if applicable  

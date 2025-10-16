@@ -12,7 +12,6 @@
 - [Usage of AI in Contributions](#robot-usage-of-ai-in-contributions)
 - [Testing GitHub Actions Locally with nektos/act](#test_tube-testing-github-actions-locally-with-nektosact)
 - [Writing Commit Messages](#memo-writing-commit-messages)
-- [Using Gitmoji](#tada-using-gitmoji)
 - [Code Review](#white_check_mark-code-review)
 - [Coding Style](#nail_care-coding-style)
 - [Certificate of Origin](#1st_place_medal-certificate-of-origin)
@@ -135,73 +134,143 @@ You can run GitHub Actions workflows locally before submitting them in a pull re
 
 ## :memo: Writing Commit Messages
 
-Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
+**⚠️ Important:** This project uses **automated commit message validation** in CI/CD.  
+All commit messages **must follow the Gitmoji + Conventional Commit format**, or pull requests will fail.
 
-**⚠️ Important:** This project uses **automated commit message validation** in CI/CD. All commit messages in pull requests must follow the gitmoji format or the PR checks will fail.
+Writing clear commits helps maintain a readable history, improves collaboration, and enables automated tools like changelogs and release notes.
 
-1. **Start with a gitmoji emoji** - Use the appropriate [gitmoji](https://gitmoji.dev) for your change
-1. **Follow conventional commit format**: `[gitmoji] [type]: [description]`
-1. Separate subject from body with a blank line
-1. Limit the subject line to 50 characters (excluding the gitmoji)
-1. Capitalize the subject line
-1. Do not end the subject line with a period
-1. Use the imperative mood in the subject line (example: "Fix networking issue")
-1. Wrap the body at about 72 characters
-1. Use the body to explain **why**, *not what and how* (the code shows that!)
+---
+
+### 🧱 Commit Format
 
 ```
-🎉 Short summary of changes in 50 chars or less
+[gitmoji] [type](scope?): [Subject line in imperative form]
 
-Add a more detailed explanation here, if necessary. Possibly give 
-some background about the issue being fixed, etc. The body of the 
-commit message can be several paragraphs. Further paragraphs come 
-after blank lines and please do proper word-wrap.
+[Optional body explaining WHY the change was made]
+```
+_? = optional_
 
-Wrap it to about 72 characters or so. In some contexts, 
-the first line is treated as the subject of the commit and the 
-rest of the text as the body. The blank line separating the summary 
-from the body is critical (unless you omit the body entirely); 
-various tools like `log`, `shortlog` and `rebase` can get confused 
-if you run the two together.
+---
 
-Explain the problem that this commit is solving. Focus on why the 
-change is being made, not how. Keep it simple. In case you need to 
-explain something, use more paragraphs.
+### 🗒 Rules for Commit Messages
+
+1. **Start with a Gitmoji emoji**  
+   Use an emoji that best represents the change  
+   → Full list: https://gitmoji.dev
+
+1. **Use Conventional Commit style**  
+   `:emoji: type(scope?): subject`
+
+   _Scope is optional. Use it only if it adds clarity (e.g. `🐛 fix(parser)`).  
+   Multiple scopes can be separated with commas._
+
+1. **Separate subject from body with a blank line**
+
+1. **Limit the subject to 50 characters**  
+   _(excluding the Gitmoji)_
+
+1. **Capitalize the subject line**
+
+1. **Do not end the subject with a period**
+
+1. **Use imperative mood**  
+   _Example: “Add login support” (✅), not “Added login support” (❌)_
+
+1. **Wrap the body at ~72 characters**
+
+1. **Use the body to explain WHY, not WHAT or HOW**  
+   _Code already shows what was changed._
+
+---
+
+### ✅ Good Commit Example
+
+```markdown
+✨ feat: Add OAuth2 login support
+
+Allow users to authenticate using Google and GitHub.
+This improves onboarding and prepares the system for future SSO providers.
 ```
 
-## :tada: Using Gitmoji
+```markdown
+✨ feat(auth): Add OAuth2 login support
 
-This project **requires** the Gitmoji standard for all commit messages, enforced by automated CI checks on pull requests. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard with conventional commit format.
-
-### ✅ Correct Examples:
-```
-✨ feat: add new feature for user authentication
-🐛 fix: resolve login validation bug
-📚 docs: update installation guide
-🔧 chore: update dependencies
+Allow users to authenticate using Google and GitHub.
+This improves onboarding and prepares the system for future SSO providers.
 ```
 
-### ❌ Incorrect Examples:
-```
-Add new feature          # Missing gitmoji and type
-fix bug                  # Missing gitmoji
-✨ add new feature       # Missing type after gitmoji
+```markdown
+✨ feat(auth,ui): Add OAuth2 login button and handler
+
+Add a login button in the UI and implement the OAuth2 handler
+for Google and GitHub. Includes basic error handling and tests.
 ```
 
-### Common Gitmoji Reference:
+```markdown
+🐛 fix(auth): Handle expired refresh tokens
 
-| Emoji | Description                                           |
-|-------|-------------------------------------------------------|
-| :sparkles: | Introduce new features                                |
-| :bug: | Fix bugs                                             |
-| :books: | Documentation updates                                 |
-| :wrench: | Refactor code                                        |
-| :white_check_mark: | Add tests                                            |
-| :fire: | Remove code or files                                  |
-| :zap: | Improve performance                                   |
-| :tada: | Initial commit                                       |
-| :wastebasket: | Remove code or files                                  |
-| :construction: | Work in progress                                      |
+Detect expired refresh tokens and force re-authentication
+to prevent silent failures during API calls.
+```
+
+```markdown
+📝 docs(README): Document OAuth2 setup and env vars
+
+Document required OAuth client IDs, secrets, and redirect
+URIs for Google and GitHub in the README.
+```
+
+---
+
+### ❌ Bad Commit Examples
+
+```
+Add login support                       # Missing emoji and type
+✨ add login                            # Missing type
+feat(auth): add login                   # Missing emoji
+✨ feat auth: add login                 # Missing parentheses around scope
+✨ add abc                              # Emoji + subject, missing type
+✨ feat: add login.                     # Trailing period (do not end subject with a period)
+✨ feat(auth) add login                 # Missing colon after scope
+🐛 fix: added login                     # Use imperative mood — "added" is past tense
+📚 docs: update readme                  # Subject should be capitalized ("Update README")
+✨ feat(auth): This subject line is way too long and exceeds fifty characters  # Subject > 50 chars
+✨feat(auth): Add login                 # Missing space after emoji
+```
+
+---
+
+### 🎨 Common Gitmoji
+
+| Emoji | Purpose |
+|-------|---------|
+| ✨ | New feature |
+| 🐛 | Bug fix |
+| 📝 | Documentation |
+| ♻️ | Refactor (no behavior change) |
+| ✅ | Tests |
+| 🔥 | Remove code or files |
+| 🚧 | Work in progress |
+
+---
+
+### 🔢 Supported Commit Types
+
+| Type | Description |
+|------|-------------|
+| feat | New feature |
+| fix | Bug fix |
+| docs | Documentation only |
+| refactor | Code cleanup |
+| style | Formatting or style only |
+| test | Tests |
+| build | Build or dependencies |
+| ci | CI configuration |
+| perf | Performance changes |
+| chore | Maintenance tasks |
+| revert | Revert commit |
+
+---
 
 ## :white_check_mark: Code Review
 
