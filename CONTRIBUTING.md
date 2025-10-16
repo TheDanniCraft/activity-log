@@ -214,7 +214,7 @@ to prevent silent failures during API calls.
 ```
 
 ```markdown
-📝 docs(README): Document OAuth2 setup and env vars
+📝 docs(readme): Document OAuth2 setup and env vars
 
 Document required OAuth client IDs, secrets, and redirect
 URIs for Google and GitHub in the README.
