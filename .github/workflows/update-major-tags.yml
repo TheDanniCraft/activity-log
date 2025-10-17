@@ -22,9 +22,10 @@ jobs:
           VERSION=${GITHUB_REF#refs/tags/}
           echo "Processing release: $VERSION"
 
-          # Check if the tag follows semantic versioning (vX.Y.Z)
-          if [[ ! $VERSION =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-            echo "Tag $VERSION does not follow semantic versioning (vX.Y.Z). Skipping."
+          # Check if the tag follows semantic versioning (vX.Y.Z with optional pre-release suffix)
+          # This regex now accepts tags like v1.2.3, v1.2.3-test, v1.2.3-beta.1, etc.
+          if [[ ! $VERSION =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[a-zA-Z0-9\-\.]+)?$ ]]; then
+            echo "Tag $VERSION does not follow semantic versioning (vX.Y.Z[-PRERELEASE]). Skipping."
             exit 0
           fi
 
