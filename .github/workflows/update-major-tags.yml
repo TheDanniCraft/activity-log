@@ -22,6 +22,12 @@ jobs:
           VERSION=${GITHUB_REF#refs/tags/}
           echo "Processing release: $VERSION"
 
+          # Check if the tag follows semantic versioning (vX.Y.Z)
+          if [[ ! $VERSION =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Tag $VERSION does not follow semantic versioning (vX.Y.Z). Skipping."
+            exit 0
+          fi
+
           # Extract major version
           MAJOR_VERSION=$(echo $VERSION | cut -d. -f1 | sed 's/v//')
           echo "Major version: $MAJOR_VERSION"
