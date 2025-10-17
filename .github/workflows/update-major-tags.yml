@@ -1,0 +1,51 @@
+name: Update Major Version Tags
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-major-tag:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push tags
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for all tags
+
+      - name: Update major version tag
+        run: |
+          # Extract version from the release tag
+          VERSION=${GITHUB_REF#refs/tags/}
+          echo "Processing release: $VERSION"
+
+          # Extract major version
+          MAJOR_VERSION=$(echo $VERSION | cut -d. -f1 | sed 's/v//')
+          echo "Major version: $MAJOR_VERSION"
+
+          # Special case: update v1 tag for v0.x.x releases
+          if [[ "$MAJOR_VERSION" == "0" ]]; then
+            MAJOR_VERSION="1"
+            echo "Using v1 for v0.x.x release"
+          fi
+
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Delete existing major tag if it exists
+          if git rev-parse --verify "refs/tags/v$MAJOR_VERSION" >/dev/null 2>&1; then
+            echo "Deleting existing tag v$MAJOR_VERSION"
+            git tag -d v$MAJOR_VERSION
+            git push origin :refs/tags/v$MAJOR_VERSION
+          fi
+
+          # Create and push new major tag pointing to this release
+          echo "Creating new tag v$MAJOR_VERSION pointing to $VERSION"
+          git tag v$MAJOR_VERSION $VERSION
+          git push origin v$MAJOR_VERSION
+
+          echo "Successfully updated v$MAJOR_VERSION tag to point to $VERSION"
