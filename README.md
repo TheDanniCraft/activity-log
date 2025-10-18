@@ -30,16 +30,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#72](https://github.com/TheDanniCraft/activity-log/issues/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/72#issuecomment-3418192136)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a87b078a350ca5c765290ac42b26660ec2fc616a)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/871d1993abedf3ebe5df90b5e9d0f33f604c0f0e)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ce6ad1e901e794b7016544bdc93b5375ddd00e66)
-5. 🔥 Deleted a branch `fix-update-workflow` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🔥 Deleted a branch `update-contribution` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f7a5012e907015b840dc2966e91da79aeee98807)
-8. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3410137347)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/35ecbcf99d1bf1e7de222c5717cdd29feae9f26e)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fbfdce263e365855deb543b99d1dcb76642f5890)
+1. 🗣 Commented on issue [#72](https://github.com/TheDanniCraft/activity-log/issues/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/72#issuecomment-3418466843)
+2. 🗣 Commented on issue [#72](https://github.com/TheDanniCraft/activity-log/issues/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/72#issuecomment-3418192136)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a87b078a350ca5c765290ac42b26660ec2fc616a)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/871d1993abedf3ebe5df90b5e9d0f33f604c0f0e)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ce6ad1e901e794b7016544bdc93b5375ddd00e66)
+6. 🔥 Deleted a branch `fix-update-workflow` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🔥 Deleted a branch `update-contribution` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f7a5012e907015b840dc2966e91da79aeee98807)
+9. 🗣 Commented on issue [#67](https://github.com/TheDanniCraft/activity-log/issues/67) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/67#issuecomment-3410137347)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/35ecbcf99d1bf1e7de222c5717cdd29feae9f26e)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
