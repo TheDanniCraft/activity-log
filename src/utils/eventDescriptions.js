@@ -247,4 +247,101 @@ const eventDescriptions = {
     },
 };
 
+/**
+ * Formats events as a markdown table
+ * @param {Array} events - Array of GitHub events with descriptions
+ * @param {string} style - Output style (MARKDOWN or HTML)
+ * @returns {string} - Markdown table string
+ */
+function formatEventsAsTable(events, style = 'MARKDOWN') {
+    if (!events || events.length === 0) {
+        return '';
+    }
+
+    if (style === 'HTML') {
+        // HTML table format
+        const tableRows = events.map(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `<a href="https://github.com/${event.repo.name}">${event.repo.name}</a>`
+                : 'Private Repo';
+            
+            // Get the description without the emoji and list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = require('../config');
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            return `<tr><td>${date}</td><td>${eventType}</td><td>${repo}</td><td>${description}</td></tr>`;
+        });
+
+        return `<table><thead><tr><th>Date</th><th>Event</th><th>Repository</th><th>Description</th></tr></thead><tbody>${tableRows.join('')}</tbody></table>`;
+    } else {
+        // Markdown table format
+        const tableRows = [];
+        
+        // Table header
+        tableRows.push('| Date | Event | Repository | Description |');
+        tableRows.push('|------|-------|------------|-------------|');
+        
+        // Table rows
+        events.forEach(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `[${event.repo.name}](https://github.com/${event.repo.name})`
+                : 'Private Repo';
+            
+            // Get the description without the list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = require('../config');
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            // Escape pipe characters in description to avoid breaking table
+            const escapedDescription = description.replace(/\|/g, '\\|');
+            
+            tableRows.push(`| ${date} | ${eventType} | ${repo} | ${escapedDescription} |`);
+        });
+        
+        return tableRows.join('\n');
+    }
+}
+
 module.exports = eventDescriptions;
+module.exports.formatEventsAsTable = formatEventsAsTable;
