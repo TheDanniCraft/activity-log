@@ -343,5 +343,199 @@ function formatEventsAsTable(events, style = 'MARKDOWN') {
     }
 }
 
+/**
+ * Escapes XML/HTML special characters for safe SVG text rendering
+ * @param {string} text - Text to escape
+ * @returns {string} - Escaped text
+ */
+function escapeXml(text) {
+    if (!text) return '';
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+}
+
+/**
+ * Wraps text to fit within a specified width
+ * @param {string} text - Text to wrap
+ * @param {number} maxWidth - Maximum width in characters
+ * @returns {Array<string>} - Array of wrapped lines
+ */
+function wrapText(text, maxWidth) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = '';
+
+    words.forEach(word => {
+        const testLine = currentLine ? `${currentLine} ${word}` : word;
+        if (testLine.length <= maxWidth) {
+            currentLine = testLine;
+        } else {
+            if (currentLine) lines.push(currentLine);
+            currentLine = word;
+        }
+    });
+
+    if (currentLine) lines.push(currentLine);
+    return lines;
+}
+
+/**
+ * Formats events as an SVG image
+ * @param {Array} events - Array of GitHub events
+ * @returns {string} - SVG string
+ */
+function formatEventsAsSVG(events) {
+    if (!events || events.length === 0) {
+        return generateEmptySVG();
+    }
+
+    const width = 900;
+    const padding = 20;
+    const lineHeight = 24;
+    const rowSpacing = 12;
+    const headerHeight = 60;
+    const footerHeight = 40;
+    
+    let yPosition = headerHeight + padding;
+    const rows = [];
+
+    // Process each event
+    events.forEach((event, index) => {
+        const type = event.type;
+        const isPrivate = !event.public;
+        const action = event.payload.pull_request
+            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+            : event.payload.action;
+        const pr = event.payload.pull_request || {};
+        const payload = event.payload;
+        const { hideDetailsOnPrivateRepos } = require('../config');
+
+        // Get the description
+        let description = eventDescriptions[type]
+            ? (typeof eventDescriptions[type] === 'function'
+                ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                : (eventDescriptions[type][action]
+                    ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                    : 'Unknown action'))
+            : 'Unknown event';
+
+        // Format date
+        const date = new Date(event.created_at).toLocaleDateString('en-US', {
+            month: 'short',
+            day: 'numeric',
+            year: 'numeric'
+        });
+
+        // Strip markdown links for plain text, but keep emojis
+        const plainDescription = description
+            .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1') // Remove markdown links
+            .replace(/`([^`]+)`/g, '$1'); // Remove code backticks
+
+        // Wrap text to fit within SVG width
+        const maxChars = 85;
+        const lines = wrapText(plainDescription, maxChars);
+        
+        const rowHeight = (lines.length * lineHeight) + rowSpacing;
+        
+        rows.push({
+            y: yPosition,
+            date,
+            lines,
+            height: rowHeight,
+            index: index + 1
+        });
+
+        yPosition += rowHeight;
+    });
+
+    const totalHeight = yPosition + footerHeight;
+
+    // Generate SVG
+    let svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${width}" height="${totalHeight}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .header-bg { fill: #f6f8fa; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .title { font: bold 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .subtitle { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+      .row-bg { fill: #ffffff; }
+      .row-bg-alt { fill: #f6f8fa; }
+      .row-border { stroke: #d0d7de; stroke-width: 0.5; }
+      .date-text { font: 12px 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; fill: #57606a; }
+      .desc-text { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .number { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="bg" width="${width}" height="${totalHeight}" rx="6"/>
+  <rect class="border" width="${width}" height="${totalHeight}" rx="6"/>
+  
+  <!-- Header -->
+  <rect class="header-bg" width="${width}" height="${headerHeight}" rx="6"/>
+  <line x1="0" y1="${headerHeight}" x2="${width}" y2="${headerHeight}" class="row-border"/>
+  <text x="${padding}" y="32" class="title">⚡ Recent Activity</text>
+  <text x="${padding}" y="50" class="subtitle">GitHub Activity Log</text>
+  
+  <!-- Activity Rows -->
+`;
+
+    rows.forEach((row, idx) => {
+        const isAlt = idx % 2 === 1;
+        const rowClass = isAlt ? 'row-bg-alt' : 'row-bg';
+        
+        svg += `  <rect class="${rowClass}" x="0" y="${row.y - rowSpacing/2}" width="${width}" height="${row.height}"/>\n`;
+        svg += `  <line x1="${padding}" y1="${row.y + row.height - rowSpacing/2}" x2="${width - padding}" y2="${row.y + row.height - rowSpacing/2}" class="row-border"/>\n`;
+        
+        // Number
+        svg += `  <text x="${padding + 5}" y="${row.y + 4}" class="number">${row.index}.</text>\n`;
+        
+        // Date
+        svg += `  <text x="${padding + 35}" y="${row.y + 4}" class="date-text">${escapeXml(row.date)}</text>\n`;
+        
+        // Description lines
+        row.lines.forEach((line, lineIdx) => {
+            const textY = row.y + 4 + ((lineIdx + 1) * lineHeight);
+            svg += `  <text x="${padding + 35}" y="${textY}" class="desc-text">${escapeXml(line)}</text>\n`;
+        });
+    });
+
+    // Footer
+    const footerY = totalHeight - 25;
+    svg += `  
+  <!-- Footer -->
+  <text x="${width/2}" y="${footerY}" text-anchor="middle" class="subtitle">Generated by github-activity-log</text>
+</svg>`;
+
+    return svg;
+}
+
+/**
+ * Generates an empty SVG when no events are available
+ * @returns {string} - SVG string
+ */
+function generateEmptySVG() {
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .text { font: 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  <rect class="bg" width="900" height="200" rx="6"/>
+  <rect class="border" width="900" height="200" rx="6"/>
+  <text x="450" y="100" text-anchor="middle" class="text">No recent activity</text>
+</svg>`;
+}
+
 module.exports = eventDescriptions;
 module.exports.formatEventsAsTable = formatEventsAsTable;
+module.exports.formatEventsAsSVG = formatEventsAsSVG;
