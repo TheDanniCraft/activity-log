@@ -176,9 +176,15 @@ async function fetchAndFilterEvents() {
             : `<li>${encodeHTML(description)}</li>`;
     });
 
-    return style === 'MARKDOWN'
+    const formattedString = style === 'MARKDOWN'
         ? listItems.join('\n')
         : `<ol>\n${listItems.join('\n')}\n</ol>`;
+
+    // Return both formatted string and raw events for flexibility
+    return {
+        formattedString,
+        rawEvents: filteredEvents
+    };
 }
 
 module.exports = {
