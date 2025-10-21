@@ -1,3 +1,6 @@
 setEnv.bat
 
 node_modules
+
+# Test outputs
+test-output.svg
