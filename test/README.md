@@ -29,17 +29,17 @@ You can test the functionality locally without running GitHub Actions.
 
 **Test List Mode (default):**
 ```bash
-node test-local.js list
+node test/local.js list
 ```
 
 **Test Table Mode:**
 ```bash
-node test-local.js table
+node test/local.js table
 ```
 
 **Test SVG Mode:**
 ```bash
-node test-local.js svg
+node test/local.js svg
 ```
 
 ### What to Look For

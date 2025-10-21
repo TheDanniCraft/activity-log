@@ -300,9 +300,9 @@ if (mode === 'table' || mode === 'all') {
 if (mode === 'svg' || mode === 'all') {
     console.log('🎨 SVG MODE\n');
     const svgOutput = formatEventsAsSVG(mockEvents);
-    fs.writeFileSync('test-output.svg', svgOutput);
-    console.log('✅ SVG generated: test-output.svg');
-    console.log('📁 Open test-output.svg in your browser to view the result!\n');
+    fs.writeFileSync('test/output.svg', svgOutput);
+    console.log('✅ SVG generated: test/output.svg');
+    console.log('📁 Open test/output.svg in your browser to view the result!\n');
     console.log('First few lines of SVG:');
     console.log('---');
     console.log(svgOutput.split('\n').slice(0, 10).join('\n'));
