@@ -52,6 +52,17 @@ function processBooleanInput(value, inputName) {
     return boolValue === 'true';
 }
 
+function processOutputMode(value) {
+    const mode = value.toLowerCase();
+
+    if (mode !== 'list' && mode !== 'table') {
+        core.setFailed('❌ OUTPUT_MODE must be "list" or "table"');
+        process.exit(1);
+    }
+
+    return mode;
+}
+
 function processEventEmojiMap(value) {
     const map = {
         PushEvent: "📝",
@@ -150,5 +161,6 @@ module.exports = {
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE'),
     eventEmojiMap: processEventEmojiMap(core.getInput('EVENT_EMOJI_MAP')),
-    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
+    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN'),
+    outputMode: processOutputMode(core.getInput('OUTPUT_MODE'))
 };

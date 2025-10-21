@@ -45,6 +45,10 @@ inputs:
     description: Enable dry run mode (no changes will be committed)
     required: false
     default: 'false'
+  OUTPUT_MODE:
+    description: Output format for the activity log (list or table)
+    required: false
+    default: 'list'
 branding:
   color: red
   icon: activity
