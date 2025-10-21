@@ -30,16 +30,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/25d62bef3b81c2863581e18f79185a7189562413)
-2. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/77be897fc13727beccdde2799b917bdd3d33df09)
-3. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/3cad765b015ed7e1dd9f630ae5fbdcf7a2deb20c)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e975cc10e8290e85d990d22c711aa0dd137e49ec)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/786b17d369463f791dd416a10a3eefc16497d05b)
-6. ⭐ Starred [apteryxxyz/next-ws](https://github.com/apteryxxyz/next-ws)
-7. 🏷️ Added a label to [PR #72](https://github.com/TheDanniCraft/activity-log/pull/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c24a9e798d46e3a83a864b98ca230eaeee23ebc0)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a1ce730902b689816fbcf0f571ef8339e6571c8b)
-10. 🗣 Commented on issue [#72](https://github.com/TheDanniCraft/activity-log/issues/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/72#issuecomment-3418466843)
+1. 🗣 Commented on issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/47#issuecomment-3426870033)
+2. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/25d62bef3b81c2863581e18f79185a7189562413)
+3. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/77be897fc13727beccdde2799b917bdd3d33df09)
+4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/3cad765b015ed7e1dd9f630ae5fbdcf7a2deb20c)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e975cc10e8290e85d990d22c711aa0dd137e49ec)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/786b17d369463f791dd416a10a3eefc16497d05b)
+7. ⭐ Starred [apteryxxyz/next-ws](https://github.com/apteryxxyz/next-ws)
+8. 🏷️ Added a label to [PR #72](https://github.com/TheDanniCraft/activity-log/pull/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c24a9e798d46e3a83a864b98ca230eaeee23ebc0)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/a1ce730902b689816fbcf0f571ef8339e6571c8b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
