@@ -55,8 +55,8 @@ function processBooleanInput(value, inputName) {
 function processOutputMode(value) {
     const mode = value.toLowerCase();
 
-    if (mode !== 'list' && mode !== 'table') {
-        core.setFailed('❌ OUTPUT_MODE must be "list" or "table"');
+    if (mode !== 'list' && mode !== 'table' && mode !== 'svg') {
+        core.setFailed('❌ OUTPUT_MODE must be "list", "table", or "svg"');
         process.exit(1);
     }
 

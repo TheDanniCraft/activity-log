@@ -46,7 +46,7 @@ inputs:
     required: false
     default: 'false'
   OUTPUT_MODE:
-    description: Output format for the activity log (list or table)
+    description: 'Output format for the activity log (list, table, or svg). When set to svg, generates an SVG image file instead of updating README directly.'
     required: false
     default: 'list'
 branding:
