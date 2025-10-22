@@ -63,21 +63,23 @@ choco install act-cli
 
 **Or download from:** https://github.com/nektos/act/releases
 
-### Run Workflow Tests
+### Run Workflow Examples
+
+**Note:** The example workflows are located in `.github/workflows/examples/` directory.
 
 **Test List Mode:**
 ```bash
-act workflow_dispatch -W .github/workflows/test-list-mode.yml -s GITHUB_TOKEN="your_token"
+act workflow_dispatch -W .github/workflows/examples/test-list-mode.yml -s GITHUB_TOKEN="your_token"
 ```
 
 **Test Table Mode:**
 ```bash
-act workflow_dispatch -W .github/workflows/test-table-mode.yml -s GITHUB_TOKEN="your_token"
+act workflow_dispatch -W .github/workflows/examples/test-table-mode.yml -s GITHUB_TOKEN="your_token"
 ```
 
 **Test SVG Mode:**
 ```bash
-act workflow_dispatch -W .github/workflows/test-svg-mode.yml -s GITHUB_TOKEN="your_token"
+act workflow_dispatch -W .github/workflows/examples/test-svg-mode.yml -s GITHUB_TOKEN="your_token"
 ```
 
 ## Method 3: GitHub Actions Extension in VS Code
@@ -85,12 +87,14 @@ act workflow_dispatch -W .github/workflows/test-svg-mode.yml -s GITHUB_TOKEN="yo
 You have the GitHub Actions extension installed, so you can test directly in VS Code:
 
 1. **Open the GitHub Actions view** (Activity Bar → GitHub Actions icon)
-2. **Find the test workflows**:
-   - Test List Mode (Default)
-   - Test Table Mode
-   - Test SVG Mode
+2. **Navigate to `.github/workflows/examples/`** to find the example workflows:
+   - test-list-mode.yml
+   - test-table-mode.yml
+   - test-svg-mode.yml
 3. **Right-click on a workflow** → "Run Workflow"
 4. **Check the output** in the Actions view
+
+**Note:** These are example workflows for reference. You'll need to copy them to `.github/workflows/` and customize them for your repository to use them as actual workflows.
 
 ## Expected Results
 

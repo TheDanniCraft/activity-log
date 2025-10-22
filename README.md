@@ -244,6 +244,16 @@ with:
 - ✅ Can be used in a separate automation repository
 - ✅ Text remains selectable and accessible
 
+### 📋 Example Workflows
+
+Complete workflow examples for each output mode are available in [`.github/workflows/examples/`](.github/workflows/examples/):
+
+- **[test-list-mode.yml](.github/workflows/examples/test-list-mode.yml)** - List mode example
+- **[test-table-mode.yml](.github/workflows/examples/test-table-mode.yml)** - Table mode example  
+- **[test-svg-mode.yml](.github/workflows/examples/test-svg-mode.yml)** - SVG mode example
+
+These examples show complete GitHub Actions workflow configurations you can copy and adapt for your own repository.
+
 ## 🎨 Customizing Emojis
 
 You can personalize the emojis shown for each event type using the `EVENT_EMOJI_MAP` input. This input accepts a YAML object mapping event types (and subtypes) to your preferred emojis.
