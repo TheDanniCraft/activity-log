@@ -29,15 +29,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3429831355)
-3. 🗣 Commented on issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/47#issuecomment-3426870033)
-4. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/25d62bef3b81c2863581e18f79185a7189562413)
-5. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/77be897fc13727beccdde2799b917bdd3d33df09)
-6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/3cad765b015ed7e1dd9f630ae5fbdcf7a2deb20c)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e975cc10e8290e85d990d22c711aa0dd137e49ec)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/786b17d369463f791dd416a10a3eefc16497d05b)
-9. ⭐ Starred [apteryxxyz/next-ws](https://github.com/apteryxxyz/next-ws)
-10. 🏷️ Added a label to [PR #72](https://github.com/TheDanniCraft/activity-log/pull/72) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2453086139)
+4. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+5. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3429831355)
+6. 🗣 Commented on issue [#47](https://github.com/TheDanniCraft/activity-log/issues/47) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/47#issuecomment-3426870033)
+7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/25d62bef3b81c2863581e18f79185a7189562413)
+8. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/77be897fc13727beccdde2799b917bdd3d33df09)
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/3cad765b015ed7e1dd9f630ae5fbdcf7a2deb20c)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e975cc10e8290e85d990d22c711aa0dd137e49ec)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
