@@ -370,12 +370,18 @@ function wrapText(text, maxWidth) {
     let currentLine = '';
 
     words.forEach(word => {
-        const testLine = currentLine ? `${currentLine} ${word}` : word;
+        // Handle words that exceed maxWidth by truncating with ellipsis
+        let processedWord = word;
+        if (word.length > maxWidth) {
+            processedWord = word.substring(0, maxWidth - 3) + '...';
+        }
+        
+        const testLine = currentLine ? `${currentLine} ${processedWord}` : processedWord;
         if (testLine.length <= maxWidth) {
             currentLine = testLine;
         } else {
             if (currentLine) lines.push(currentLine);
-            currentLine = word;
+            currentLine = processedWord;
         }
     });
 
@@ -493,16 +499,19 @@ function formatEventsAsSVG(events) {
         svg += `  <rect class="${rowClass}" x="0" y="${row.y - rowSpacing/2}" width="${width}" height="${row.height}"/>\n`;
         svg += `  <line x1="${padding}" y1="${row.y + row.height - rowSpacing/2}" x2="${width - padding}" y2="${row.y + row.height - rowSpacing/2}" class="row-border"/>\n`;
         
-        // Number
-        svg += `  <text x="${padding + 5}" y="${row.y + 4}" class="number">${row.index}.</text>\n`;
+        // Calculate vertical center of the row
+        const rowCenterY = row.y + (row.height / 2);
         
-        // Date
-        svg += `  <text x="${padding + 35}" y="${row.y + 4}" class="date-text">${escapeXml(row.date)}</text>\n`;
+        // Number - centered vertically in the row
+        svg += `  <text x="${padding + 5}" y="${rowCenterY}" dominant-baseline="middle" class="number">${row.index}.</text>\n`;
         
-        // Description lines
+        // Date - positioned above center with symmetric spacing
+        svg += `  <text x="${padding + 35}" y="${rowCenterY - 8}" dominant-baseline="middle" class="date-text">${escapeXml(row.date)}</text>\n`;
+        
+        // Description lines - positioned below date with consistent spacing
         row.lines.forEach((line, lineIdx) => {
-            const textY = row.y + 4 + ((lineIdx + 1) * lineHeight);
-            svg += `  <text x="${padding + 35}" y="${textY}" class="desc-text">${escapeXml(line)}</text>\n`;
+            const textY = rowCenterY + 8 + (lineIdx * lineHeight);
+            svg += `  <text x="${padding + 35}" y="${textY}" dominant-baseline="middle" class="desc-text">${escapeXml(line)}</text>\n`;
         });
     });
 
