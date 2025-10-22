@@ -166,8 +166,12 @@ async function writeSvgFile(activityData) {
             // File doesn't exist yet, that's fine
         }
 
+        // Cache normalized strings to avoid redundant operations
+        const normalizedCurrent = currentContent.replace(/\s+/g, ' ').trim();
+        const normalizedNew = svgContent.replace(/\s+/g, ' ').trim();
+
         // Don't update if content hasn't changed
-        if (currentContent.replace(/\s+/g, ' ').trim() === svgContent.replace(/\s+/g, ' ').trim()) {
+        if (normalizedCurrent === normalizedNew) {
             core.notice('📄 No changes in SVG file, skipping...');
             if (process.env.ACT || dryRun) {
                 logDebugActivity(svgContent);
