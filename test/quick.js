@@ -5,7 +5,7 @@
  * This script tests the formatters with mock data
  */
 
-const { formatEventsAsTable, formatEventsAsSVG } = require('./src/utils/eventDescriptions');
+const { formatEventsAsTable, formatEventsAsSVG } = require('../src/utils/eventDescriptions');
 
 // Mock event data for testing
 const mockEvents = [

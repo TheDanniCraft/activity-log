@@ -30,4 +30,4 @@ console.log(`Dry Run: ${process.env.INPUT_DRY_RUN}`);
 console.log('================================\n');
 
 // Run the main script
-require('./src/index.js');
+require('../src/index.js');
