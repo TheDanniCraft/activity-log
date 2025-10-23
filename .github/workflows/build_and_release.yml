@@ -75,6 +75,10 @@ jobs:
       #    git config --global user.name 'juhasauna'
       #    git config --global user.email 'juha.saunaaho@gmail.com'
       #    git pull
+      - name: Set Git user
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
       - name: Tag it
         run: |
           if [ -n "${{ github.event.inputs.tag }}" ]; then
