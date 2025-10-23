@@ -70,11 +70,11 @@ jobs:
     environment: dev
     steps:
       - uses: actions/checkout@v4
-      - name: Pull latest
-        run: |
-          git config --global user.name 'juhasauna'
-          git config --global user.email 'juha.saunaaho@gmail.com'
-          git pull
+      #- name: Pull latest
+      #  run: |
+      #    git config --global user.name 'juhasauna'
+      #    git config --global user.email 'juha.saunaaho@gmail.com'
+      #    git pull
       - name: Tag it
         run: |
           if [ -n "${{ github.event.inputs.tag }}" ]; then
