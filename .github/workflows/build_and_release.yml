@@ -57,15 +57,10 @@ jobs:
     environment: dev
     steps:
       - uses: actions/checkout@v4
-      #- name: Pull latest
-      #  run: |
-      #    git config --global user.name 'juhasauna'
-      #    git config --global user.email 'juha.saunaaho@gmail.com'
-      #    git pull
       - name: Set Git user
         run: |
-          git config user.name 'juhasauna'
-          git config user.email 'juha.saunaaho@gmail.com'
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
       - name: Tag it
         run: |
           if [ -n "${{ github.event.inputs.tag }}" ]; then
