@@ -1,1 +1,2 @@
 Initial content\n
+Collaborator 1 change: Add feature A
