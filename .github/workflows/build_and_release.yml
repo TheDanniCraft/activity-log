@@ -46,11 +46,15 @@ jobs:
         run: echo "Test job running, but no actions performed."
 
   release:
-    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     needs: test
     environment: dev
     steps:
+      - name: Check trigger and exit early if it's not manual
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          echo "Not workflow_dispatch, skipping release."
+          exit 0
       - uses: actions/checkout@v4
       - name: Set Git user
         run: |
