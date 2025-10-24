@@ -65,14 +65,14 @@ jobs:
           if [ -n "${{ github.event.inputs.tag }}" ]; then
             TAG="${{ github.event.inputs.tag }}"
           else
-            TAG="v$(date +'%Y%m%d-%H%M%S')"
+            TAG="v$(date +'%Y%m%d-%H%M%S')-A"
           fi
           echo "TAG=$TAG" >> $GITHUB_ENV
           echo "Using tag: $TAG"
 
       - name: Create and push tag
         run: |
-          git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release' }}"
+          git tag -a "$TAG" -m "${{ github.event.inputs.note || 'Automatic release-A' }}"
           git push origin "$TAG"
       - name: Release
         uses: actions/create-release@v1
