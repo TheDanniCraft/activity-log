@@ -45,6 +45,8 @@ jobs:
       #    git push
 
   test:
+    runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Skip test
         run: echo "Test job running, but no actions performed."
