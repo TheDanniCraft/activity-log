@@ -9,7 +9,6 @@ on:
 
 permissions:
   contents: read
-  issues: write
 
 concurrency:
   group: commitlint-${{ github.event.pull_request.number || github.ref }}
@@ -58,7 +57,6 @@ jobs:
       - name: Add comment on PR failure
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             github.rest.issues.createComment({
               issue_number: context.payload.pull_request.number,
