@@ -166,17 +166,19 @@ async function writeSvgFile(activityData) {
             // File doesn't exist yet, that's fine
         }
 
-        // Cache normalized strings to avoid redundant operations
-        const normalizedCurrent = currentContent.replace(/\s+/g, ' ').trim();
-        const normalizedNew = svgContent.replace(/\s+/g, ' ').trim();
+        // Quick length check before expensive normalization
+        if (currentContent.length === svgContent.length) {
+            // Only normalize if lengths match (likely unchanged)
+            const normalizedCurrent = currentContent.replace(/\s+/g, ' ').trim();
+            const normalizedNew = svgContent.replace(/\s+/g, ' ').trim();
 
-        // Don't update if content hasn't changed
-        if (normalizedCurrent === normalizedNew) {
-            core.notice('📄 No changes in SVG file, skipping...');
-            if (process.env.ACT || dryRun) {
-                logDebugActivity(svgContent);
+            if (normalizedCurrent === normalizedNew) {
+                core.notice('📄 No changes in SVG file, skipping...');
+                if (process.env.ACT || dryRun) {
+                    logDebugActivity(svgContent);
+                }
+                return;
             }
-            return;
         }
 
         // Log debug activity and skip update if ACT or dryRun is enabled
