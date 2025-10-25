@@ -65,7 +65,7 @@ jobs:
           if [ -n "${{ github.event.inputs.tag }}" ]; then
             TAG="${{ github.event.inputs.tag }}"
           else
-            TAG="v$(date +'%Y%m%d-%H%M%S')-A"
+            TAG="v$(date +'%Y%m%d-%H%M%S')-$(git config user.name)"
           fi
           echo "TAG=$TAG" >> $GITHUB_ENV
           echo "Using tag: $TAG"
