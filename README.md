@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3448835720)
-2. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-3. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2464017892)
-5. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2464017619)
-6. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2464017570)
-7. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2464011066)
-8. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3448444727)
-9. 🗣 Commented on issue [#81](https://github.com/TheDanniCraft/activity-log/issues/81) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/81#issuecomment-3448420318)
-10. 🗣 Commented on issue [#80](https://github.com/TheDanniCraft/activity-log/issues/80) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/80#issuecomment-3448420174)
+1. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/35ffc5c866395ca71a96e0275eda3f6ec25df1cd)
+2. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/91fbe82b7f7d37268400991717c8509f9bee8580)
+3. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/cb7b5b9669fe6eb21842497195cf0ae43300f446)
+4. 🔎 Reviewed [PR #60](https://github.com/Wiresense/wiresense.js/pull/60) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/079ef62e1154313cd1793ada8786a44d85dec84f)
+6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/3aa89780af6323dbf6b44c79ebe2d50154e9c79e)
+7. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3448835720)
+8. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. 🔎 Reviewed [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🗣 Commented on a review of [PR #73](https://github.com/TheDanniCraft/activity-log/pull/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/pull/73#pullrequestreviewcomment-2464017892)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
