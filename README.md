@@ -7,6 +7,9 @@
     <img src="https://img.shields.io/badge/Node.JS-node?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white&amp;color=%235FA04E" alt="nodejs">
     <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TheDanniCraft/endpoints/refs/heads/master/badge/activity-log.json&style=for-the-badge" alt="Count of Action Users">
     <img src="https://www.codefactor.io/repository/github/thedannicraft/activity-log/badge?style=for-the-badge" alt="CodeFactor Grade">
+    <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="#contributors"><img src="https://img.shields.io/github/all-contributors/TheDanniCraft/activity-log?style=for-the-badge" alt="All Contributors"></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
@@ -25,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🆕 Opened an issue [#55](https://github.com/TheDanniCraft/activity-log/issues/55) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-2. 🗣 Commented on issue [#53](https://github.com/TheDanniCraft/activity-log/issues/53) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/53#issuecomment-3370683624)
-3. 🔥 Deleted a branch `copilot/fix-9a865b17-3f43-4526-beb8-170937a6167b` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-4. 🗣 Commented on issue [#51](https://github.com/TheDanniCraft/activity-log/issues/51) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/51#issuecomment-3370598874)
-5. ❌ Closed [PR #54](https://github.com/TheDanniCraft/activity-log/pull/54) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🔥 Deleted a branch `depfu/batch_all/npm/2025-10-06` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7372cefe431a96d2b7374b22fd7783d3627350b7)
-8. 🔀 Merged [PR #21](https://github.com/TheDanniCraft/clipify/pull/21) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08f1dac4d517ecf8d8acae9516f8d9809779db09)
-10. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/2e7bb53f2742b13126c1c92ba1ed30ed4d43e61b)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c42e867d51b79bce0bd0f90bd6a0a3b636aa229)
+2. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3457164921)
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/13f36e2aecba188ce799810d2ed925f3b9088c6e)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/43b5a739b51c8f3f98bc676b00565b4e4f8bbf56)
+5. 🔀 Opened [PR #83](https://github.com/TheDanniCraft/activity-log/pull/83) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/99edc0da313ca486046060fe36fd024a9de4cd65)
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cafee301f91088ff6d5b49f7e7b7a701f8e1fa79)
+8. ✨ Created a new branch [`docs/use-emoji-shortcodes`](https://github.com/TheDanniCraft/activity-log/tree/docs/use-emoji-shortcodes) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+9. ❌ Closed [PR #247](https://github.com/TheDanniCraft/TerminalWebsite/pull/247) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
@@ -196,3 +199,26 @@ Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for m
 ## ✍️Authors
 - [@AJ0070](https://www.github.com/AJ0070)
 - [@thedannicraft](https://www.github.com/thedannicraft)
+
+## ✨Contributors 
+
+Thanks goes to these wonderful people: [Emoji key for contribution types](https://allcontributors.org/docs/en/emoji-key).
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://leetcode.com/u/_theRJ_/"><img src="https://avatars.githubusercontent.com/u/97701228?v=4?s=100" width="100px;" alt="Rounak Joshi"/><br /><sub><b>Rounak Joshi</b></sub></a><br /><a href="https://github.com/TheDanniCraft/activity-log/commits?author=RounakJoshi09" title="Documentation">📖</a> <a href="https://github.com/TheDanniCraft/activity-log/commits?author=RounakJoshi09" title="Code">💻</a> <a href="https://github.com/TheDanniCraft/activity-log/commits?author=RounakJoshi09" title="Tests">⚠️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gltched-usr"><img src="https://avatars.githubusercontent.com/u/126079750?v=4?s=100" width="100px;" alt="Glched"/><br /><sub><b>Glched</b></sub></a><br /><a href="https://github.com/TheDanniCraft/activity-log/issues?q=author%3Agltched-usr" title="Bug reports">🐛</a> <a href="https://github.com/TheDanniCraft/activity-log/commits?author=gltched-usr" title="Documentation">📖</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

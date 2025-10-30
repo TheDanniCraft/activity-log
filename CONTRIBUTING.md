@@ -9,9 +9,9 @@
 - [Feature Requests](#love_letter-feature-requests)
 - [Triaging Issues](#mag-triaging-issues)
 - [Submitting Pull Requests](#repeat-submitting-pull-requests)
+- [Usage of AI in Contributions](#robot-usage-of-ai-in-contributions)
 - [Testing GitHub Actions Locally with nektos/act](#test_tube-testing-github-actions-locally-with-nektosact)
 - [Writing Commit Messages](#memo-writing-commit-messages)
-- [Using Gitmoji](#tada-using-gitmoji)
 - [Code Review](#white_check_mark-code-review)
 - [Coding Style](#nail_care-coding-style)
 - [Certificate of Origin](#1st_place_medal-certificate-of-origin)
@@ -77,6 +77,43 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 - **Promptly address any CI failures.** If your pull request fails to build or pass tests, please push another commit to fix it.
 - When writing comments, use properly constructed sentences, including punctuation.
 
+## :robot: Usage of AI in Contributions
+
+We see AI as a tool to **speed up productivity**, **enhance creativity**, and **assist in repetitive tasks**, not to replace understanding or responsibility.  
+Using AI to help write code, documentation, or tests is **welcome**, as long as it improves quality and is done responsibly.
+
+AI may also be used to help **create issues**, such as bug reports or feature requests, as long as the **provided issue templates are fully followed** and the information is correct and relevant.  
+However, using AI to generate or submit **security reports** (for example, through GitHub’s Security Advisory Program) is **not allowed**.
+
+### ✅ Allowed if:
+- The generated code or text is **thoroughly reviewed** by you before submission.  
+- You **understand every line** of the code or documentation produced.  
+- The pull request maintains or improves the overall **quality and consistency** of the project.  
+- The AI-generated content is used to **accelerate or enhance development**, not to bypass effort.  
+- You **disclose in the PR description** that AI was used, when applicable.
+
+### ❌ Not allowed if:
+- The PR or issue contains **low-quality, irrelevant, or untested content**.  
+- The PR or issue is **spammy, bulk-generated**, or **created without review**.  
+- You submit content that you **do not understand** or cannot explain.  
+- The contribution **introduces security risks**, **plagiarism**, or **license violations**.  
+- AI is used to **generate or submit security reports** through GitHub’s Security Advisory Program or other sensitive disclosure channels.
+
+### ⚠️ Responsibility Notice
+
+When using AI to generate part or all of your contribution, **you remain fully responsible** for what it produces.  
+You must ensure all AI-assisted code or text meets the same standards as any manually written contribution.  
+If you are unsure, seek a code review or open a draft PR to discuss it before submitting.
+
+The maintainers **reserve the right to close pull requests or issues as invalid** if these rules are breached.  
+In cases of repeated or severe violations, contributors **may be blocked from further participation** in the repository.  
+
+Examples include, but are not limited to:
+- Submitting several low-quality AI-generated pull requests or issues without review.  
+- Using AI to generate copied or license-violating content.  
+- Submitting a large PR that introduces critical bugs or breaks existing features without testing.  
+- Attempting to bypass review or feedback by repeatedly opening new PRs with the same AI-generated code.
+
 ## :test_tube: Testing GitHub Actions Locally with nektos/act
 
 You can run GitHub Actions workflows locally before submitting them in a pull request. The tool [`nektos/act`](https://github.com/nektos/act) simulates the execution of actions on your machine.
@@ -97,53 +134,143 @@ You can run GitHub Actions workflows locally before submitting them in a pull re
 
 ## :memo: Writing Commit Messages
 
-Please [write a great commit message](https://chris.beams.io/posts/git-commit/).
+**⚠️ Important:** This project uses **automated commit message validation** in CI/CD.  
+All commit messages **must follow the Gitmoji + Conventional Commit format**, or pull requests will fail.
 
-1. Separate subject from body with a blank line
-1. Limit the subject line to 50 characters
-1. Capitalize the subject line
-1. Do not end the subject line with a period
-1. Use the imperative mood in the subject line (example: "Fix networking issue")
-1. Wrap the body at about 72 characters
-1. Use the body to explain **why**, *not what and how* (the code shows that!)
-1. If applicable, prefix the title with the relevant component name and the corresponding [Gitmoji](https://gitmoji.dev). (examples: ":memo: Fix typo", ":sparkles: Add user authentication")
+Writing clear commits helps maintain a readable history, improves collaboration, and enables automated tools like changelogs and release notes.
+
+---
+
+### 🧱 Commit Format
 
 ```
-🎉 Short summary of changes in 50 chars or less
+[gitmoji] [type](scope?): [Subject line in imperative form]
 
-Add a more detailed explanation here, if necessary. Possibly give 
-some background about the issue being fixed, etc. The body of the 
-commit message can be several paragraphs. Further paragraphs come 
-after blank lines and please do proper word-wrap.
+[Optional body explaining WHY the change was made]
+```
+_? = optional_
 
-Wrap it to about 72 characters or so. In some contexts, 
-the first line is treated as the subject of the commit and the 
-rest of the text as the body. The blank line separating the summary 
-from the body is critical (unless you omit the body entirely); 
-various tools like `log`, `shortlog` and `rebase` can get confused 
-if you run the two together.
+---
 
-Explain the problem that this commit is solving. Focus on why the 
-change is being made, not how. Keep it simple. In case you need to 
-explain something, use more paragraphs.
+### 🗒 Rules for Commit Messages
+
+1. **Start with a Gitmoji emoji**  
+   Use an emoji that best represents the change  
+   → Full list: https://gitmoji.dev
+
+1. **Use Conventional Commit style**  
+   `:emoji: type(scope?): subject`
+
+   _Scope is optional. Use it only if it adds clarity (e.g. `🐛 fix(parser)`).  
+   Multiple scopes can be separated with commas._
+
+1. **Separate subject from body with a blank line**
+
+1. **Limit the subject to 50 characters**  
+   _(excluding the Gitmoji)_
+
+1. **Capitalize the subject line**
+
+1. **Do not end the subject with a period**
+
+1. **Use imperative mood**  
+   _Example: “Add login support” (✅), not “Added login support” (❌)_
+
+1. **Wrap the body at ~72 characters**
+
+1. **Use the body to explain WHY, not WHAT or HOW**  
+   _Code already shows what was changed._
+
+---
+
+### ✅ Good Commit Example
+
+```markdown
+✨ feat: Add OAuth2 login support
+
+Allow users to authenticate using Google and GitHub.
+This improves onboarding and prepares the system for future SSO providers.
 ```
 
-## :tada: Using Gitmoji
+```markdown
+✨ feat(auth): Add OAuth2 login support
 
-This project follows the Gitmoji standard. When writing commit messages, please use the [Gitmoji](https://gitmoji.dev) standard. Here is a short reference of the most commonly used emojis:
+Allow users to authenticate using Google and GitHub.
+This improves onboarding and prepares the system for future SSO providers.
+```
 
-| Emoji | Description                                           |
-|-------|-------------------------------------------------------|
-| :sparkles: | Introduce new features                                |
-| :bug: | Fix bugs                                             |
-| :books: | Documentation updates                                 |
-| :wrench: | Refactor code                                        |
-| :white_check_mark: | Add tests                                            |
-| :fire: | Remove code or files                                  |
-| :zap: | Improve performance                                   |
-| :tada: | Initial commit                                       |
-| :wastebasket: | Remove code or files                                  |
-| :construction: | Work in progress                                      |
+```markdown
+✨ feat(auth,ui): Add OAuth2 login button and handler
+
+Add a login button in the UI and implement the OAuth2 handler
+for Google and GitHub. Includes basic error handling and tests.
+```
+
+```markdown
+🐛 fix(auth): Handle expired refresh tokens
+
+Detect expired refresh tokens and force re-authentication
+to prevent silent failures during API calls.
+```
+
+```markdown
+📝 docs(readme): Document OAuth2 setup and env vars
+
+Document required OAuth client IDs, secrets, and redirect
+URIs for Google and GitHub in the README.
+```
+
+---
+
+### ❌ Bad Commit Examples
+
+```
+Add login support                       # Missing emoji and type
+✨ add login                            # Missing type
+feat(auth): add login                   # Missing emoji
+✨ feat auth: add login                 # Missing parentheses around scope
+✨ add abc                              # Emoji + subject, missing type
+✨ feat: add login.                     # Trailing period (do not end subject with a period)
+✨ feat(auth) add login                 # Missing colon after scope
+🐛 fix: added login                     # Use imperative mood — "added" is past tense
+📚 docs: update readme                  # Subject should be capitalized ("Update README")
+✨ feat(auth): This subject line is way too long and exceeds fifty characters  # Subject > 50 chars
+✨feat(auth): Add login                 # Missing space after emoji
+```
+
+---
+
+### 🎨 Common Gitmoji
+
+| Emoji | Purpose |
+|-------|---------|
+| ✨ | New feature |
+| 🐛 | Bug fix |
+| 📝 | Documentation |
+| ♻️ | Refactor (no behavior change) |
+| ✅ | Tests |
+| 🔥 | Remove code or files |
+| 🚧 | Work in progress |
+
+---
+
+### 🔢 Supported Commit Types
+
+| Type | Description |
+|------|-------------|
+| feat | New feature |
+| fix | Bug fix |
+| docs | Documentation only |
+| refactor | Code cleanup |
+| style | Formatting or style only |
+| test | Tests |
+| build | Build or dependencies |
+| ci | CI configuration |
+| perf | Performance changes |
+| chore | Maintenance tasks |
+| revert | Revert commit |
+
+---
 
 ## :white_check_mark: Code Review
 
