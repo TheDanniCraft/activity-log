@@ -192,7 +192,86 @@ with:
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
 
-## 📜License
+## 🎯 Custom Event Formatting
+
+You can customize how events are displayed in your README using the `EVENT_TEMPLATE` input. This feature allows you to define custom templates with placeholders that will be replaced with actual event data.
+
+### Available Placeholders
+
+| Placeholder | Description | Example |
+|-------------|-------------|---------|
+| `{icon}` | Event emoji/icon | 🚀 |
+| `{action}` | Event action (e.g., opened, closed, committed) | committed |
+| `{repo}` | Repository name | username/repo |
+| `{repo_url}` | Repository URL | https://github.com/username/repo |
+| `{date}` | Event date | 10/2/2024 |
+| `{number}` | Issue/PR number (if applicable) | #42 |
+| `{url}` | Direct URL to the event (if applicable) | https://github.com/username/repo/pull/42 |
+| `{ref}` | Branch/tag name (if applicable) | main |
+| `{ref_type}` | Type of ref (branch, tag, etc.) | branch |
+
+### Example Templates
+
+**Simple format:**
+```
+[{icon}] {action} {repo} on {date}
+```
+**Result:**
+```
+[🚀] committed username/repo on 10/2/2024
+```
+
+**Detailed format with links:**
+```
+{icon} **{action}** [{repo}]({repo_url}) - {date}
+```
+**Result:**
+```
+🚀 **committed** [username/repo](https://github.com/username/repo) - 10/2/2024
+```
+
+**Compact format:**
+```
+{icon} {action} {repo}
+```
+**Result:**
+```
+🚀 committed username/repo
+```
+
+**Format with PR/issue numbers:**
+```
+{icon} {action} {number} in {repo}
+```
+**Result:**
+```
+🆕 opened #42 in username/repo
+```
+
+### Usage in Workflow
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "yourusername"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  EVENT_TEMPLATE: "[{icon}] {action} {repo} on {date}"
+```
+
+### Advanced Example
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "yourusername"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  EVENT_TEMPLATE: |
+    {icon} **{action}** [{repo}]({repo_url}) 
+    {if:number}({number}){endif:number} 
+    {if:url}([View]({url})){endif:url}
+```
+
+## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
