@@ -274,9 +274,7 @@ with:
     {if:url}([View]({url})){endif:url}
 ```
 
-> **Note:** The `{if:field}...{endif:field}` syntax is not yet supported. Only the basic placeholders listed above are available in this version.
-
-## 📜License
+## 📜 License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
