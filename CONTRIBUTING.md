@@ -139,6 +139,9 @@ All commit messages **must follow the Gitmoji + Conventional Commit format**, or
 
 Writing clear commits helps maintain a readable history, improves collaboration, and enables automated tools like changelogs and release notes.
 
+> [!NOTE]  
+> We recommend using Gitmoji shortcodes (e.g. `:zap:`) instead of pasting emoji characters directly. Shortcodes are parsed more reliably by CI tools (like commitlint-config-gitmoji), while direct Unicode emoji can sometimes behave inconsistently. You can copy the :shortcode: from gitmoji.dev or type it manually (e.g. `:zap: feat: Add OAuth2 login` (renders as `⚡ feat: Add OAuth2 login`)).
+
 ---
 
 ### 🧱 Commit Format

@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c42e867d51b79bce0bd0f90bd6a0a3b636aa229)
-2. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3457164921)
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/13f36e2aecba188ce799810d2ed925f3b9088c6e)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/43b5a739b51c8f3f98bc676b00565b4e4f8bbf56)
-5. 🔀 Opened [PR #83](https://github.com/TheDanniCraft/activity-log/pull/83) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/99edc0da313ca486046060fe36fd024a9de4cd65)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cafee301f91088ff6d5b49f7e7b7a701f8e1fa79)
-8. ✨ Created a new branch [`docs/use-emoji-shortcodes`](https://github.com/TheDanniCraft/activity-log/tree/docs/use-emoji-shortcodes) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. ❌ Closed [PR #247](https://github.com/TheDanniCraft/TerminalWebsite/pull/247) in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-10. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2beb69cc89cb72ed64ec451d5b97ed49b6a35b04)
+2. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🔥 Deleted a branch `docs/use-emoji-shortcodes` in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/69cc0cafe0a8d440c6ad3d195bb2eb196af9f9ca)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/b2dc5e5217cc029023debd0ff1db6c38311e5fea)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c42e867d51b79bce0bd0f90bd6a0a3b636aa229)
+7. 🗣 Commented on issue [#73](https://github.com/TheDanniCraft/activity-log/issues/73) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/73#issuecomment-3457164921)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/13f36e2aecba188ce799810d2ed925f3b9088c6e)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/43b5a739b51c8f3f98bc676b00565b4e4f8bbf56)
+10. 🔀 Opened [PR #83](https://github.com/TheDanniCraft/activity-log/pull/83) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
