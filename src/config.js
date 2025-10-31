@@ -52,6 +52,16 @@ function processBooleanInput(value, inputName) {
     return boolValue === 'true';
 }
 
+function processEventTemplate(value) {
+    if (!value || value.trim() === '') {
+        core.notice('ℹ️ No custom event template provided, using default formatting');
+        return null;
+    }
+    const template = value.trim();
+    core.notice(`📝 Using event template: ${template}`);
+    return template;
+}
+
 function processEventEmojiMap(value) {
     const map = {
         PushEvent: "📝",
@@ -150,5 +160,6 @@ module.exports = {
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE'),
     eventEmojiMap: processEventEmojiMap(core.getInput('EVENT_EMOJI_MAP')),
+    eventTemplate: processEventTemplate(core.getInput('EVENT_TEMPLATE')),
     dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
 };
