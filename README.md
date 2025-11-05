@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/974a2511927e2461e26ed1aafe7bcf1f753f9893)
-2. ❌ Closed [PR #24](https://github.com/TheDanniCraft/clipify/pull/24) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to a private repo
-4. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/5c8c8e831a15880ac9622a5f0eac19af9c21092c)
-5. 🔎 Reviewed [PR #61](https://github.com/Wiresense/wiresense.js/pull/61) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
-6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/d01842efa9581e86fab91c13020b9612d3a2225d)
-7. 🗣 Commented on issue [#42](https://github.com/TheDanniCraft/activity-log/issues/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/42#issuecomment-3475231387)
-8. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2beb69cc89cb72ed64ec451d5b97ed49b6a35b04)
-10. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/257733137d80d47910074c5c009fafa69ffee544)
+2. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/974a2511927e2461e26ed1aafe7bcf1f753f9893)
+3. ❌ Closed [PR #24](https://github.com/TheDanniCraft/clipify/pull/24) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/5c8c8e831a15880ac9622a5f0eac19af9c21092c)
+6. 🔎 Reviewed [PR #61](https://github.com/Wiresense/wiresense.js/pull/61) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/d01842efa9581e86fab91c13020b9612d3a2225d)
+8. 🗣 Commented on issue [#42](https://github.com/TheDanniCraft/activity-log/issues/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log): [View Comment](https://github.com/TheDanniCraft/activity-log/issues/42#issuecomment-3475231387)
+9. 🔎 Reviewed [PR #42](https://github.com/TheDanniCraft/activity-log/pull/42) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2beb69cc89cb72ed64ec451d5b97ed49b6a35b04)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
