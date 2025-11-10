@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/476e7ffb3844ffae73b088abf30a3f79a4ef8d38)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1a6c4b6f3b2235fc37eda578b20b1d9e4f2afb57)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ba5ad6be87a19f8f0c5de7aad1862297031561c)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7a95f6651095e9d9310a941ea34153cb5d79ac22)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0dfc54b102917327f4e3eba2419b62a95e25fa46)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd19950539b94c984d8b4e644467267b2d2d66da)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4027985f01e1d4432b4cf611d01870f4557341b)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2fee2eaaa45bde5cde5257e939e0d915cf47b86e)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c42e867d51b79bce0bd0f90bd6a0a3b636aa229)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/421ced430b750f76ed5257547361afde799beda8)
+1. 🚀 Committed to a private repo
+2. ❌ Closed [PR #25](https://github.com/TheDanniCraft/clipify/pull/25) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/476e7ffb3844ffae73b088abf30a3f79a4ef8d38)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1a6c4b6f3b2235fc37eda578b20b1d9e4f2afb57)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ba5ad6be87a19f8f0c5de7aad1862297031561c)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7a95f6651095e9d9310a941ea34153cb5d79ac22)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0dfc54b102917327f4e3eba2419b62a95e25fa46)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd19950539b94c984d8b4e644467267b2d2d66da)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4027985f01e1d4432b4cf611d01870f4557341b)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2fee2eaaa45bde5cde5257e939e0d915cf47b86e)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
