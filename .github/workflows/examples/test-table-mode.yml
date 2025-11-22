@@ -1,0 +1,24 @@
+name: Test Table Mode
+
+on:
+  workflow_dispatch: # Manual trigger only for testing
+
+permissions:
+  contents: write
+
+jobs:
+  test-table-mode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Table Mode
+        uses: ./
+        with:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_LIMIT: 5
+          OUTPUT_STYLE: MARKDOWN
+          OUTPUT_MODE: table
+          README_PATH: README.md
+          COMMIT_MESSAGE: "🧪 test: Update README with table mode"
+          DRY_RUN: true

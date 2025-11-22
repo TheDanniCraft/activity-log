@@ -52832,6 +52832,17 @@ function processBooleanInput(value, inputName) {
     return boolValue === 'true';
 }
 
+function processOutputMode(value) {
+    const mode = value.toLowerCase();
+
+    if (mode !== 'list' && mode !== 'table' && mode !== 'svg') {
+        core.setFailed('❌ OUTPUT_MODE must be "list", "table", or "svg"');
+        process.exit(1);
+    }
+
+    return mode;
+}
+
 function processEventEmojiMap(value) {
     const map = {
         PushEvent: "📝",
@@ -52930,7 +52941,8 @@ module.exports = {
     readmePath: core.getInput('README_PATH'),
     commitMessage: core.getInput('COMMIT_MESSAGE'),
     eventEmojiMap: processEventEmojiMap(core.getInput('EVENT_EMOJI_MAP')),
-    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
+    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN'),
+    outputMode: processOutputMode(core.getInput('OUTPUT_MODE'))
 };
 
 
@@ -53188,7 +53200,270 @@ const eventDescriptions = {
     },
 };
 
+function formatEventsAsTable(events, style = 'MARKDOWN') {
+    if (!events || events.length === 0) {
+        return '';
+    }
+
+    if (style === 'HTML') {
+        // HTML table format
+        const tableRows = events.map(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `<a href="https://github.com/${event.repo.name}">${event.repo.name}</a>`
+                : 'Private Repo';
+            
+            // Get the description without the emoji and list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = __nccwpck_require__(1283);
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            return `<tr><td>${date}</td><td>${eventType}</td><td>${repo}</td><td>${description}</td></tr>`;
+        });
+
+        return `<table><thead><tr><th>Date</th><th>Event</th><th>Repository</th><th>Description</th></tr></thead><tbody>${tableRows.join('')}</tbody></table>`;
+    } else {
+        // Markdown table format
+        const tableRows = [];
+        
+        // Table header
+        tableRows.push('| Date | Event | Repository | Description |');
+        tableRows.push('|------|-------|------------|-------------|');
+        
+        // Table rows
+        events.forEach(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `[${event.repo.name}](https://github.com/${event.repo.name})`
+                : 'Private Repo';
+            
+            // Get the description without the list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = __nccwpck_require__(1283);
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            // Escape pipe characters in description to avoid breaking table
+            const escapedDescription = description.replace(/\|/g, '\\|');
+            
+            tableRows.push(`| ${date} | ${eventType} | ${repo} | ${escapedDescription} |`);
+        });
+        
+        return tableRows.join('\n');
+    }
+}
+
+function escapeXml(text) {
+    if (!text) return '';
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+}
+
+function wrapText(text, maxWidth) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = '';
+
+    words.forEach(word => {
+        let processedWord = word;
+        
+        // Handle words that exceed maxWidth
+        if (word.length > maxWidth) {
+            // Guard against maxWidth being too small for ellipsis
+            if (maxWidth > 3) {
+                processedWord = word.substring(0, maxWidth - 3) + '...';
+            } else {
+                // Edge case: maxWidth is 1-3, just truncate
+                processedWord = word.substring(0, maxWidth);
+            }
+        }
+        
+        const testLine = currentLine ? `${currentLine} ${processedWord}` : processedWord;
+        if (testLine.length <= maxWidth) {
+            currentLine = testLine;
+        } else {
+            if (currentLine) lines.push(currentLine);
+            currentLine = processedWord;
+        }
+    });
+
+    if (currentLine) lines.push(currentLine);
+    return lines;
+}
+
+function formatEventsAsSVG(events) {
+    if (!events || events.length === 0) {
+        return generateEmptySVG();
+    }
+
+    // SVG layout constants
+    const SVG_LAYOUT = {
+        WIDTH: 900,
+        HEIGHT_HEADER: 60,
+        HEIGHT_ROW: 44,
+        HEIGHT_FOOTER: 30,
+        PADDING_LEFT: 20,
+        PADDING_RIGHT: 20,
+        X_NUMBER: 25,
+        X_TEXT: 55,
+        RADIUS: 6
+    };
+
+    const totalHeight = SVG_LAYOUT.HEIGHT_HEADER + 
+                       (events.length * SVG_LAYOUT.HEIGHT_ROW) + 
+                       SVG_LAYOUT.HEIGHT_FOOTER;
+
+    const { hideDetailsOnPrivateRepos } = __nccwpck_require__(1283);
+    
+    // Generate SVG header
+    let svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .header-bg { fill: #f6f8fa; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .title { font: bold 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .subtitle { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+      .row-bg { fill: #ffffff; }
+      .row-bg-alt { fill: #f6f8fa; }
+      .row-border { stroke: #d0d7de; stroke-width: 0.5; }
+      .row-text { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .number { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="bg" width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <rect class="border" width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" rx="${SVG_LAYOUT.RADIUS}"/>
+  
+  <!-- Header -->
+  <rect class="header-bg" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT_HEADER}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <line x1="0" y1="${SVG_LAYOUT.HEIGHT_HEADER}" x2="${SVG_LAYOUT.WIDTH}" y2="${SVG_LAYOUT.HEIGHT_HEADER}" class="row-border"/>
+  <text x="${SVG_LAYOUT.PADDING_LEFT}" y="32" class="title">⚡ Recent Activity</text>
+  <text x="${SVG_LAYOUT.PADDING_LEFT}" y="50" class="subtitle">GitHub Activity Log</text>
+  
+  <!-- Activity Rows -->
+`;
+
+    // Generate each event row
+    events.forEach((event, index) => {
+        const type = event.type;
+        const isPrivate = !event.public;
+        const action = event.payload.pull_request
+            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+            : event.payload.action;
+        const pr = event.payload.pull_request || {};
+        const payload = event.payload;
+
+        // Get the description
+        let description = eventDescriptions[type]
+            ? (typeof eventDescriptions[type] === 'function'
+                ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                : (eventDescriptions[type][action]
+                    ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                    : 'Unknown action'))
+            : 'Unknown event';
+
+        // Strip markdown links and code backticks for plain text
+        const plainDescription = description
+            .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
+            .replace(/`([^`]+)`/g, '$1');
+
+        const y = SVG_LAYOUT.HEIGHT_HEADER + (index * SVG_LAYOUT.HEIGHT_ROW);
+        const rowBg = index % 2 === 0 ? 'row-bg' : 'row-bg-alt';
+        const rowCenterY = y + (SVG_LAYOUT.HEIGHT_ROW / 2);
+        
+        // Row background
+        svg += `  <rect class="${rowBg}" x="0" y="${y}" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT_ROW}"/>\n`;
+        
+        // Row divider
+        const dividerY = y + SVG_LAYOUT.HEIGHT_ROW;
+        svg += `  <line x1="${SVG_LAYOUT.PADDING_LEFT}" y1="${dividerY}" x2="${SVG_LAYOUT.WIDTH - SVG_LAYOUT.PADDING_RIGHT}" y2="${dividerY}" class="row-border"/>\n`;
+        
+        // Row number
+        svg += `  <text x="${SVG_LAYOUT.X_NUMBER}" y="${rowCenterY}" class="number" dominant-baseline="middle">${index + 1}.</text>\n`;
+        
+        // Row description (single line, centered)
+        svg += `  <text x="${SVG_LAYOUT.X_TEXT}" y="${rowCenterY}" class="row-text" dominant-baseline="middle">${escapeXml(plainDescription)}</text>\n`;
+    });
+
+    // Footer
+    const footerY = totalHeight - 15;
+    svg += `  
+  <!-- Footer -->
+  <text x="${SVG_LAYOUT.WIDTH / 2}" y="${footerY}" text-anchor="middle" class="subtitle">Generated by activity-log</text>
+</svg>`;
+
+    return svg;
+}
+
+function generateEmptySVG() {
+    const SVG_LAYOUT = {
+        WIDTH: 900,
+        HEIGHT: 200,
+        RADIUS: 6
+    };
+    
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .text { font: 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  <rect class="bg" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <rect class="border" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <text x="${SVG_LAYOUT.WIDTH / 2}" y="${SVG_LAYOUT.HEIGHT / 2}" text-anchor="middle" dominant-baseline="middle" class="text">No recent activity</text>
+</svg>`;
+}
+
 module.exports = eventDescriptions;
+module.exports.formatEventsAsTable = formatEventsAsTable;
+module.exports.formatEventsAsSVG = formatEventsAsSVG;
 
 
 /***/ }),
@@ -53199,7 +53474,8 @@ module.exports = eventDescriptions;
 const fs = __nccwpck_require__(9896);
 const core = __nccwpck_require__(7484);
 const github = __nccwpck_require__(3228);
-const { commitMessage, readmePath, token, dryRun } = __nccwpck_require__(1283);
+const { commitMessage, readmePath, token, dryRun, outputMode } = __nccwpck_require__(1283);
+const { formatEventsAsTable, formatEventsAsSVG } = __nccwpck_require__(5232);
 
 // Helper function for debug output logic
 function logDebugActivity(activity) {
@@ -53214,9 +53490,22 @@ function logDebugActivity(activity) {
     }
 }
 
+// Function to format activity based on output mode
+function formatActivity(formattedString, rawEvents) {
+    if (outputMode === 'table') {
+        const { style } = __nccwpck_require__(1283);
+        return formatEventsAsTable(rawEvents, style);
+    }
+    // Default: use the pre-formatted string (list mode)
+    return formattedString;
+}
+
 // Function to update README.md and push changes
-async function updateReadme(activity) {
+async function updateReadme(activityData) {
     try {
+        const { formattedString, rawEvents } = activityData;
+        const activity = formatActivity(formattedString, rawEvents);
+
         if (!activity || activity.trim().length === 0) {
             core.warning('⚠️ No activity to update. The README.md will not be changed.');
             return;
@@ -53326,8 +53615,122 @@ async function updateReadme(activity) {
     }
 }
 
+// Function to write SVG file and push changes
+async function writeSvgFile(activityData) {
+    try {
+        const { rawEvents } = activityData;
+
+        if (!rawEvents || rawEvents.length === 0) {
+            core.warning('⚠️ No activity to generate SVG. The file will not be created.');
+            return;
+        }
+
+        // Generate SVG content
+        const svgContent = formatEventsAsSVG(rawEvents);
+
+        // Determine SVG file path (default to activity-log.svg in the repo root)
+        const svgPath = 'activity-log.svg';
+
+        // Read current SVG if it exists to check for changes
+        let currentContent = '';
+        try {
+            currentContent = fs.readFileSync(svgPath, 'utf-8');
+        } catch (error) {
+            // File doesn't exist yet, that's fine
+        }
+
+        // Quick length check before expensive normalization
+        if (currentContent.length === svgContent.length) {
+            // Only normalize if lengths match (likely unchanged)
+            const normalizedCurrent = currentContent.replace(/\s+/g, ' ').trim();
+            const normalizedNew = svgContent.replace(/\s+/g, ' ').trim();
+
+            if (normalizedCurrent === normalizedNew) {
+                core.notice('📄 No changes in SVG file, skipping...');
+                if (process.env.ACT || dryRun) {
+                    logDebugActivity(svgContent);
+                }
+                return;
+            }
+        }
+
+        // Log debug activity and skip update if ACT or dryRun is enabled
+        if (process.env.ACT || dryRun) {
+            logDebugActivity(svgContent);
+            return;
+        }
+
+        // Use @actions/github to commit and push changes
+        const octokit = github.getOctokit(token);
+        const { owner, repo } = github.context.repo;
+        const branch = github.context.ref.replace('refs/heads/', '');
+
+        // Get the last commit SHA
+        const { data: refData } = await octokit.rest.git.getRef({
+            owner,
+            repo,
+            ref: `heads/${branch}`
+        });
+
+        const lastCommitSha = refData.object.sha;
+
+        // Get the tree SHA
+        const { data: commitData } = await octokit.rest.git.getCommit({
+            owner,
+            repo,
+            commit_sha: lastCommitSha
+        });
+
+        const treeSha = commitData.tree.sha;
+
+        // Create a new tree with the updated SVG file
+        const { data: newTree } = await octokit.rest.git.createTree({
+            owner,
+            repo,
+            base_tree: treeSha,
+            tree: [{
+                path: svgPath,
+                mode: '100644',
+                type: 'blob',
+                content: svgContent
+            }]
+        });
+
+        core.notice(`✅ ${svgPath} generated successfully!`);
+
+        // Create a new commit with the author set to github-actions[bot]
+        const { data: newCommit } = await octokit.rest.git.createCommit({
+            owner,
+            repo,
+            message: commitMessage || 'Update activity log SVG',
+            tree: newTree.sha,
+            parents: [lastCommitSha],
+            author: {
+                name: 'github-actions[bot]',
+                email: 'github-actions[bot]@users.noreply.github.com',
+                date: new Date().toISOString()
+            }
+        });
+
+        // Update the reference to point to the new commit
+        await octokit.rest.git.updateRef({
+            owner,
+            repo,
+            ref: `heads/${branch}`,
+            sha: newCommit.sha
+        });
+
+        // Construct the commit URL
+        const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
+        core.notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
+    } catch (error) {
+        core.setFailed(`❌ Error writing SVG file: ${error.message}`);
+    }
+}
+
 module.exports = {
     updateReadme,
+    writeSvgFile,
 };
 
 
@@ -53514,9 +53917,15 @@ async function fetchAndFilterEvents() {
             : `<li>${encodeHTML(description)}</li>`;
     });
 
-    return style === 'MARKDOWN'
+    const formattedString = style === 'MARKDOWN'
         ? listItems.join('\n')
         : `<ol>\n${listItems.join('\n')}\n</ol>`;
+
+    // Return both formatted string and raw events for flexibility
+    return {
+        formattedString,
+        rawEvents: filteredEvents
+    };
 }
 
 module.exports = {
@@ -64042,15 +64451,32 @@ exports.visitAsync = visitAsync;
 /************************************************************************/
 var __webpack_exports__ = {};
 const { fetchAndFilterEvents } = __nccwpck_require__(8708);
-const { updateReadme } = __nccwpck_require__(7513);
-const { username, token, eventLimit, ignoreEvents, readmePath, commitMessage } = __nccwpck_require__(1283);
+const { updateReadme, writeSvgFile } = __nccwpck_require__(7513);
+const { username, token, eventLimit, ignoreEvents, readmePath, commitMessage, outputMode } = __nccwpck_require__(1283);
 const core = __nccwpck_require__(7484)
 
 // Main function to execute the update process
 async function main() {
     try {
-        const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
-        await updateReadme(activity, readmePath);
+        core.info(`🔄 Fetching recent activity for ${username}...`);
+        const activityData = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
+
+        if (!activityData.rawEvents || activityData.rawEvents.length === 0) {
+            core.warning('⚠️ No events found to process.');
+            return;
+        }
+
+        core.info(`📊 Processing ${activityData.rawEvents.length} events in '${outputMode}' mode...`);
+
+        // Route to appropriate handler based on output mode
+        if (outputMode === 'svg') {
+            await writeSvgFile(activityData);
+        } else {
+            // list or table mode - both update README
+            await updateReadme(activityData);
+        }
+
+        core.info('✅ Activity log updated successfully!');
     } catch (error) {
         core.setFailed(`❌ Error in the update process: ${error.message}`);
         console.error(error)
