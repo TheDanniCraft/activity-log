@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97efa43fbc61119a9ac89e54bef9012eccc60169)
-2. ⭐ Starred [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness)
-3. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/286e6ecc56417dcf7e497a2c0d43fa51f43ec19a)
-4. ❌ Closed [PR #27](https://github.com/TheDanniCraft/clipify/pull/27) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/579505f55414902a4e3cc179c4ad5d797896c998)
-7. 🍴 Forked [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
-8. 🔥 Deleted a branch `dependabot/npm_and_yarn/npm_and_yarn-3c67cbb9cd` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
-9. ❌ Closed [PR #26](https://github.com/TheDanniCraft/clipify/pull/26) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/8d6ab31e5c7d178484dd7d6883fe3a5999bc8b6c)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/56969880e2425b1838688118433916c3913c8921)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97efa43fbc61119a9ac89e54bef9012eccc60169)
+3. ⭐ Starred [CodeWithCJ/SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness)
+4. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/286e6ecc56417dcf7e497a2c0d43fa51f43ec19a)
+5. ❌ Closed [PR #27](https://github.com/TheDanniCraft/clipify/pull/27) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/579505f55414902a4e3cc179c4ad5d797896c998)
+8. 🍴 Forked [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+9. 🔥 Deleted a branch `dependabot/npm_and_yarn/npm_and_yarn-3c67cbb9cd` in [TheDanniCraft/TerminalWebsite](https://github.com/TheDanniCraft/TerminalWebsite)
+10. ❌ Closed [PR #26](https://github.com/TheDanniCraft/clipify/pull/26) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
