@@ -37,7 +37,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/f956be466afd276579c2e8c9e82c14386d1087c3)
 8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/bb68d2f3d80f7885fc7658b8904647c5fd4a0962)
 9. ❌ Closed [PR #28](https://github.com/TheDanniCraft/clipify/pull/28) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🍴 Forked [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+10. 🍴 Forked [dfg-ar/numok](https://github.com/dfg-ar/numok)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
