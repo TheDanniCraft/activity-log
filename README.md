@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/525f9229f9d09bba5c3d57c9a94a994b1e483d3f)
-3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/a77eb1ed204fe68e9913f55e57026cf73cfa3e4e)
-4. 🆕 Opened an issue [#12](https://github.com/dfg-ar/numok/issues/12) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8f4aaf107746cf4d29a16c582dd2dafe81f73899)
-6. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/f956be466afd276579c2e8c9e82c14386d1087c3)
-7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/bb68d2f3d80f7885fc7658b8904647c5fd4a0962)
-8. ❌ Closed [PR #28](https://github.com/TheDanniCraft/clipify/pull/28) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🍴 Forked [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
-10. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3591681690)
+1. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+2. 🔀 Opened [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/525f9229f9d09bba5c3d57c9a94a994b1e483d3f)
+4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/a77eb1ed204fe68e9913f55e57026cf73cfa3e4e)
+5. 🆕 Opened an issue [#12](https://github.com/dfg-ar/numok/issues/12) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8f4aaf107746cf4d29a16c582dd2dafe81f73899)
+7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/f956be466afd276579c2e8c9e82c14386d1087c3)
+8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/bb68d2f3d80f7885fc7658b8904647c5fd4a0962)
+9. ❌ Closed [PR #28](https://github.com/TheDanniCraft/clipify/pull/28) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🍴 Forked [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
