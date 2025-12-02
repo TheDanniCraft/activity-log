@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/185bb845522e448ed064939ff946ae2688876931)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0bd0cd31dcb171504c78bb745d43b437e35d85aa)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d187719ea10a99ac76ee84337ae09d57f7e09bf2)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1cccd057b448104ceed052e3c3c4080250fb10e)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/50231329fc283e6eaccbd65700c02429dddbdacd)
-8. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
-9. 🔀 Opened [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/525f9229f9d09bba5c3d57c9a94a994b1e483d3f)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0840ab8b592af4e7ae6c40cd4680e9885fc1fc7d)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d578e67b41e55a3a4c696d2df37f8954c897d0a0)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/185bb845522e448ed064939ff946ae2688876931)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0bd0cd31dcb171504c78bb745d43b437e35d85aa)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d187719ea10a99ac76ee84337ae09d57f7e09bf2)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1cccd057b448104ceed052e3c3c4080250fb10e)
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/50231329fc283e6eaccbd65700c02429dddbdacd)
+10. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
