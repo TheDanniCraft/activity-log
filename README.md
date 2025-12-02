@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/50231329fc283e6eaccbd65700c02429dddbdacd)
-2. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
-3. 🔀 Opened [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/525f9229f9d09bba5c3d57c9a94a994b1e483d3f)
-5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/a77eb1ed204fe68e9913f55e57026cf73cfa3e4e)
-6. 🆕 Opened an issue [#12](https://github.com/dfg-ar/numok/issues/12) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8f4aaf107746cf4d29a16c582dd2dafe81f73899)
-8. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/f956be466afd276579c2e8c9e82c14386d1087c3)
-9. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/bb68d2f3d80f7885fc7658b8904647c5fd4a0962)
-10. ❌ Closed [PR #28](https://github.com/TheDanniCraft/clipify/pull/28) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/50231329fc283e6eaccbd65700c02429dddbdacd)
+4. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+5. 🔀 Opened [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/525f9229f9d09bba5c3d57c9a94a994b1e483d3f)
+7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/a77eb1ed204fe68e9913f55e57026cf73cfa3e4e)
+8. 🆕 Opened an issue [#12](https://github.com/dfg-ar/numok/issues/12) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8f4aaf107746cf4d29a16c582dd2dafe81f73899)
+10. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/f956be466afd276579c2e8c9e82c14386d1087c3)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
