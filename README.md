@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0840ab8b592af4e7ae6c40cd4680e9885fc1fc7d)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d578e67b41e55a3a4c696d2df37f8954c897d0a0)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/185bb845522e448ed064939ff946ae2688876931)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0bd0cd31dcb171504c78bb745d43b437e35d85aa)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d187719ea10a99ac76ee84337ae09d57f7e09bf2)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1cccd057b448104ceed052e3c3c4080250fb10e)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/50231329fc283e6eaccbd65700c02429dddbdacd)
-10. ✨ Created a new branch [`feature/add-payout-options`](https://github.com/TheDanniCraft/numok/tree/feature/add-payout-options) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/18cb1962729eeaffc86cdb80bd5c386a65f78e57)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5e9670cfe951d9b00fd2d4dc48c8b2027c788524)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0840ab8b592af4e7ae6c40cd4680e9885fc1fc7d)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d578e67b41e55a3a4c696d2df37f8954c897d0a0)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/185bb845522e448ed064939ff946ae2688876931)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0bd0cd31dcb171504c78bb745d43b437e35d85aa)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d187719ea10a99ac76ee84337ae09d57f7e09bf2)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1cccd057b448104ceed052e3c3c4080250fb10e)
+9. 🚀 Committed to a private repo
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
