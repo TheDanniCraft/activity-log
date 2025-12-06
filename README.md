@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/65fde72331184ca3d25908352f4a744260a5ac77)
-2. 🚀 Committed to a private repo
-3. 🔎 Reviewed a PR in a private repo
-4. 🚀 Committed to a private repo
-5. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/75cca6b006920c7e8434cfe9fefae4dfb90bd0fd)
-6. 🔎 Reviewed [PR #79](https://github.com/Wiresense/frontend/pull/79) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-7. 🚀 Committed to a private repo
-8. 🗣 Commented on issue [#5892](https://github.com/heroui-inc/heroui/issues/5892) in [heroui-inc/heroui](https://github.com/heroui-inc/heroui): [View Comment](https://github.com/heroui-inc/heroui/issues/5892#issuecomment-3610913739)
-9. 🚀 Committed to a private repo
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5866a6c2925f8dcb86f990dfad37ee92f8183425)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/65fde72331184ca3d25908352f4a744260a5ac77)
+3. 🚀 Committed to a private repo
+4. 🔎 Reviewed a PR in a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/75cca6b006920c7e8434cfe9fefae4dfb90bd0fd)
+7. 🔎 Reviewed [PR #79](https://github.com/Wiresense/frontend/pull/79) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+8. 🚀 Committed to a private repo
+9. 🗣 Commented on issue [#5892](https://github.com/heroui-inc/heroui/issues/5892) in [heroui-inc/heroui](https://github.com/heroui-inc/heroui): [View Comment](https://github.com/heroui-inc/heroui/issues/5892#issuecomment-3610913739)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
