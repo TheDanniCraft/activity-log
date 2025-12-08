@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v1.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/34d39eb50613aa8b88ad7abdb9a74a2040e86b59)
-3. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/45bc5e5509ba371f23d494ff31077a90a29e3f68)
+2. 🚀 Published release [`v1.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/34d39eb50613aa8b88ad7abdb9a74a2040e86b59)
 4. 🚀 Committed to a private repo
-5. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0f3001f23216641e9479708c5da780e7adda9237)
-6. 🔥 Deleted a branch `prepare-v1-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e5ecbebe36f75c8e0c403ed34196bca02eaa67ff)
-8. 🔀 Merged [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. ❌ Closed [PR #29](https://github.com/TheDanniCraft/clipify/pull/29) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0f3001f23216641e9479708c5da780e7adda9237)
+7. 🔥 Deleted a branch `prepare-v1-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e5ecbebe36f75c8e0c403ed34196bca02eaa67ff)
+9. 🔀 Merged [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ❌ Closed [PR #29](https://github.com/TheDanniCraft/clipify/pull/29) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
