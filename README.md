@@ -28,15 +28,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/65fde72331184ca3d25908352f4a744260a5ac77)
+1. 🚀 Published release [`v1.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/34d39eb50613aa8b88ad7abdb9a74a2040e86b59)
 3. 🚀 Committed to a private repo
-4. 🔎 Reviewed a PR in a private repo
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/75cca6b006920c7e8434cfe9fefae4dfb90bd0fd)
-7. 🔎 Reviewed [PR #79](https://github.com/Wiresense/frontend/pull/79) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🚀 Committed to a private repo
-9. 🗣 Commented on issue [#5892](https://github.com/heroui-inc/heroui/issues/5892) in [heroui-inc/heroui](https://github.com/heroui-inc/heroui): [View Comment](https://github.com/heroui-inc/heroui/issues/5892#issuecomment-3610913739)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0f3001f23216641e9479708c5da780e7adda9237)
+6. 🔥 Deleted a branch `prepare-v1-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e5ecbebe36f75c8e0c403ed34196bca02eaa67ff)
+8. 🔀 Merged [PR #13](https://github.com/TheDanniCraft/clipify/pull/13) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. ❌ Closed [PR #29](https://github.com/TheDanniCraft/clipify/pull/29) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
