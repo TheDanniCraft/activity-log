@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v1.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🔥 Deleted a branch `hotfix-url` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/clipify/pull/30) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee029d7eaf5d0d6e739d8b622d7d6fc6f6b5a58c)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6641d72687f27152f8914ff48732670ed9c87c6)
-6. 🔀 Opened [PR #30](https://github.com/TheDanniCraft/clipify/pull/30) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. ✨ Created a new branch [`hotfix-url`](https://github.com/TheDanniCraft/clipify/tree/hotfix-url) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/45bc5e5509ba371f23d494ff31077a90a29e3f68)
-9. 🚀 Published release [`v1.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/34d39eb50613aa8b88ad7abdb9a74a2040e86b59)
+1. 🔀 Opened [PR #31](https://github.com/TheDanniCraft/clipify/pull/31) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. ✨ Created a new branch [`update-next-config`](https://github.com/TheDanniCraft/clipify/tree/update-next-config) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Published release [`v1.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🔥 Deleted a branch `hotfix-url` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🔀 Merged [PR #30](https://github.com/TheDanniCraft/clipify/pull/30) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee029d7eaf5d0d6e739d8b622d7d6fc6f6b5a58c)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6641d72687f27152f8914ff48732670ed9c87c6)
+8. 🔀 Opened [PR #30](https://github.com/TheDanniCraft/clipify/pull/30) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. ✨ Created a new branch [`hotfix-url`](https://github.com/TheDanniCraft/clipify/tree/hotfix-url) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/45bc5e5509ba371f23d494ff31077a90a29e3f68)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
