@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
-2. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f18c06b7dc9077fe061b86a5a8adcd9cb8430ab2)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a9d3aaf84064cbc0211178fe66ad54588f6596d1)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3e8542e8b818b5dc66046a3a8ce013934229963)
-7. 🔀 Merged [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e411e617fde232fc000422f7d3de926880cc391)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97c52d8c923e7651d54e76ef4fbed2f268a70713)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0b9b1e9a0c1548a8fff1d49ccc95cfd324f18d9d)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
+3. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
+4. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f18c06b7dc9077fe061b86a5a8adcd9cb8430ab2)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a9d3aaf84064cbc0211178fe66ad54588f6596d1)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3e8542e8b818b5dc66046a3a8ce013934229963)
+9. 🔀 Merged [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e411e617fde232fc000422f7d3de926880cc391)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
