@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a9d3aaf84064cbc0211178fe66ad54588f6596d1)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3e8542e8b818b5dc66046a3a8ce013934229963)
-3. 🔀 Merged [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e411e617fde232fc000422f7d3de926880cc391)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97c52d8c923e7651d54e76ef4fbed2f268a70713)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0b9b1e9a0c1548a8fff1d49ccc95cfd324f18d9d)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9234b646b494e3a47b2ccc1bdc9e890daba769d6)
-8. 🔀 Opened [PR #31](https://github.com/TheDanniCraft/clipify/pull/31) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. ✨ Created a new branch [`update-next-config`](https://github.com/TheDanniCraft/clipify/tree/update-next-config) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Published release [`v1.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a9d3aaf84064cbc0211178fe66ad54588f6596d1)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3e8542e8b818b5dc66046a3a8ce013934229963)
+4. 🔀 Merged [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e411e617fde232fc000422f7d3de926880cc391)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97c52d8c923e7651d54e76ef4fbed2f268a70713)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0b9b1e9a0c1548a8fff1d49ccc95cfd324f18d9d)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9234b646b494e3a47b2ccc1bdc9e890daba769d6)
+9. 🔀 Opened [PR #31](https://github.com/TheDanniCraft/clipify/pull/31) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. ✨ Created a new branch [`update-next-config`](https://github.com/TheDanniCraft/clipify/tree/update-next-config) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
