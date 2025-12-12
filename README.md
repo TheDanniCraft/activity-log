@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to a private repo
+1. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
+2. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
-7. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
-8. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f18c06b7dc9077fe061b86a5a8adcd9cb8430ab2)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
+9. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
+10. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
