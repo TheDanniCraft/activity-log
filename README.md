@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
-4. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
-5. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f18c06b7dc9077fe061b86a5a8adcd9cb8430ab2)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a9d3aaf84064cbc0211178fe66ad54588f6596d1)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3e8542e8b818b5dc66046a3a8ce013934229963)
-10. 🔀 Merged [PR #13](https://github.com/dfg-ar/numok/pull/13) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to a private repo
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
+7. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
+8. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f18c06b7dc9077fe061b86a5a8adcd9cb8430ab2)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcaaddfcf0f931a37255e6957b14bb6d5c4ddff7)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
