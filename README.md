@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
-3. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
-5. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc2b97933424cc322995bea9f6a66bc4bce21a32)
+2. 🔀 Opened [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
+4. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
+6. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 7. 🚀 Committed to a private repo
 8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
+9. 🚀 Committed to a private repo
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
