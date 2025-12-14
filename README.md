@@ -28,14 +28,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/923c517a131e5112ae8cb036aa42423ae4b3350d)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc2b97933424cc322995bea9f6a66bc4bce21a32)
-3. 🔀 Opened [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
-5. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
-7. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cf0ac463b83f7c61d399676359b109eb3557b58c)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/923c517a131e5112ae8cb036aa42423ae4b3350d)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc2b97933424cc322995bea9f6a66bc4bce21a32)
+4. 🔀 Opened [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
+6. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
+8. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 9. 🚀 Committed to a private repo
 10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
