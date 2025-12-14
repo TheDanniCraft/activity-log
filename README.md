@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
-2. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-3. 🚀 Committed to a private repo
-4. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
+2. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/b921d1ffedb8ef26e5612eae0c1441666f215b9a)
+4. 🔎 Reviewed [PR #80](https://github.com/Wiresense/frontend/pull/80) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
 5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
-9. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3643425244)
-10. 🆕 Opened an issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c556d6ac854ad8f5b8c337343a4a2ac8dcd6cbd6)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b49d886f577615707ce5eb1f704017d2d2793164)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ebcadd99dde013f7e869cbab8a928827d688fbdb)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
