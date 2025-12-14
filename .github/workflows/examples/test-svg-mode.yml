@@ -1,0 +1,22 @@
+name: Test SVG Mode
+
+on:
+  workflow_dispatch: # Manual trigger only for testing
+
+permissions:
+  contents: write
+
+jobs:
+  test-svg-mode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test SVG Mode
+        uses: ./
+        with:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT_LIMIT: 5
+          OUTPUT_MODE: svg
+          COMMIT_MESSAGE: "🧪 test: Generate activity-log.svg"
+          DRY_RUN: true
