@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93032d2a7236b8f1c01b013cb27a4ae967e1226b)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/771654ee021a084cf7c20683c8a7c608633662bc)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b7fd964f117bd3e9fed7e2640a37d0932f9c436)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1fd15f030c1b3e58d16f526b79d6092d59b0b101)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cf0ac463b83f7c61d399676359b109eb3557b58c)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/923c517a131e5112ae8cb036aa42423ae4b3350d)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc2b97933424cc322995bea9f6a66bc4bce21a32)
-8. 🔀 Opened [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e313cf7df5a629bae8d79906b2371e8828b7fd39)
-10. ✨ Created a new branch [`prepare-v1.1-release`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.1-release) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. ❌ Closed [PR #84](https://github.com/TheDanniCraft/activity-log/pull/84) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/eb5a5d5f8a0a0d5a8f3593a2f0ed13250f9dd5c2)
+3. 🔎 Reviewed [PR #81](https://github.com/Wiresense/frontend/pull/81) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/93f1f5da8b29abd90c9032223ed6c218790cbc8b)
+5. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/a4b6c1ea82d0a09722d74567fb369c7143c141b6)
+6. 🔎 Reviewed [PR #63](https://github.com/Wiresense/wiresense.js/pull/63) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js)
+7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/539c460a86487ebd9c6c4a7fea10870d2a3bcfa7)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93032d2a7236b8f1c01b013cb27a4ae967e1226b)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/771654ee021a084cf7c20683c8a7c608633662bc)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b7fd964f117bd3e9fed7e2640a37d0932f9c436)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
