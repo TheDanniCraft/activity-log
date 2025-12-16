@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v1.1.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.1.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🔥 Deleted a branch `prepare-v1.1-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6845a9e24541b8fdfaf93bffc5acdda342d4c3eb)
-4. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/def9a80f265685f784975e623c4d02145485e193)
-6. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3661634083)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee63866678a411095cae97b604e2eb839f015fd7)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97a96251eb82e4d8de0ab34e2d4a5e180c59a3d4)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/04d11d59fcbaa03267cff7a19f0ca419656c9988)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded4bf8854175978f98c1cde675f31af2abfa0db)
+1. ✨ Created a new branch [`hotfix-1.1.1`](https://github.com/TheDanniCraft/clipify/tree/hotfix-1.1.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Published release [`v1.1.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.1.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔥 Deleted a branch `prepare-v1.1-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6845a9e24541b8fdfaf93bffc5acdda342d4c3eb)
+5. 🔀 Merged [PR #32](https://github.com/TheDanniCraft/clipify/pull/32) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/def9a80f265685f784975e623c4d02145485e193)
+7. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3661634083)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee63866678a411095cae97b604e2eb839f015fd7)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97a96251eb82e4d8de0ab34e2d4a5e180c59a3d4)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/04d11d59fcbaa03267cff7a19f0ca419656c9988)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
