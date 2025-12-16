@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8b71fa44652f0ec3a483c7dc41aec6854ad0a8f6)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e0290c8e39306da0fda6eedf02aa092f371acd14)
-3. ✨ Created a new branch [`hotfix-v1.1.2`](https://github.com/TheDanniCraft/clipify/tree/hotfix-v1.1.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Published release [`v1.1.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.1.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🔥 Deleted a branch `hotfix-1.1.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🔀 Merged [PR #34](https://github.com/TheDanniCraft/clipify/pull/34) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6dd0335f8f55ad4af12e2822cc336254193457a)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd6af4855e9c76740332426826cf6ec37b2d5be0)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/31de419cd1d4eb7e5fa84c647b92b9acc2b7d1c9)
-10. 🔀 Opened [PR #34](https://github.com/TheDanniCraft/clipify/pull/34) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2a79202957e5964b2938ebf977a911af5e1859b8)
+2. 🔀 Opened [PR #35](https://github.com/TheDanniCraft/clipify/pull/35) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8b71fa44652f0ec3a483c7dc41aec6854ad0a8f6)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e0290c8e39306da0fda6eedf02aa092f371acd14)
+5. ✨ Created a new branch [`hotfix-v1.1.2`](https://github.com/TheDanniCraft/clipify/tree/hotfix-v1.1.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Published release [`v1.1.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.1.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🔥 Deleted a branch `hotfix-1.1.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔀 Merged [PR #34](https://github.com/TheDanniCraft/clipify/pull/34) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6dd0335f8f55ad4af12e2822cc336254193457a)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd6af4855e9c76740332426826cf6ec37b2d5be0)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
