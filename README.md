@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #37](https://github.com/TheDanniCraft/clipify/pull/37) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ✨ Created a new branch [`prepare-v1.2.0`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.2.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. ❌ Closed [PR #33](https://github.com/TheDanniCraft/clipify/pull/33) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. ❌ Closed [PR #31](https://github.com/TheDanniCraft/clipify/pull/31) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🗣 Commented on issue [#33](https://github.com/TheDanniCraft/clipify/issues/33) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify): [View Comment](https://github.com/TheDanniCraft/clipify/issues/33#issuecomment-3663353463)
-6. 🔥 Deleted a branch `update-workflows` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🔀 Merged [PR #36](https://github.com/TheDanniCraft/clipify/pull/36) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a5a6931d75369343de380bd0eeab05eaa7eeabd)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/884076af3e5fb071ab5168c41c037d517ce93ada)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4eae36302f6a562ffcfdb8ec6569d4a7576f758)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c098eddaf7eb4e2e76dafa7076ade6466f554d71)
+2. 🔀 Opened [PR #37](https://github.com/TheDanniCraft/clipify/pull/37) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. ✨ Created a new branch [`prepare-v1.2.0`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.2.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. ❌ Closed [PR #33](https://github.com/TheDanniCraft/clipify/pull/33) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. ❌ Closed [PR #31](https://github.com/TheDanniCraft/clipify/pull/31) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🗣 Commented on issue [#33](https://github.com/TheDanniCraft/clipify/issues/33) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify): [View Comment](https://github.com/TheDanniCraft/clipify/issues/33#issuecomment-3663353463)
+7. 🔥 Deleted a branch `update-workflows` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔀 Merged [PR #36](https://github.com/TheDanniCraft/clipify/pull/36) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a5a6931d75369343de380bd0eeab05eaa7eeabd)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/884076af3e5fb071ab5168c41c037d517ce93ada)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
