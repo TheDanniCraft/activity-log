@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8429321490913862e5281f40e74907c71dd320dd)
-2. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/63a167f1605e62f6cbc9214f8ccb2d8db2c73338)
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/88d75c68a5d85f5d7bbc798d7a87ae730d289c31)
-4. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/5302ee4078259f3b4b340315621b7bdfc7acfdf6)
-5. 🔎 Reviewed [PR #82](https://github.com/Wiresense/frontend/pull/82) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0a35b22d77a1f192b8e281c06bf598106312bc52)
-7. 🔀 Opened [PR #87597](https://github.com/vercel/next.js/pull/87597) in [vercel/next.js](https://github.com/vercel/next.js)
-8. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/f22a52b3cc5dacf220adc2f41162a2a72da7a21e)
-9. 🍴 Forked [vercel/next.js](https://github.com/vercel/next.js)
-10. 🗣 Commented on issue [#87071](https://github.com/vercel/next.js/issues/87071) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87071#issuecomment-3679690798)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5a36b6d041f0c74c8d30b7e8668a786a5ae71147)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8429321490913862e5281f40e74907c71dd320dd)
+3. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/63a167f1605e62f6cbc9214f8ccb2d8db2c73338)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/88d75c68a5d85f5d7bbc798d7a87ae730d289c31)
+5. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/5302ee4078259f3b4b340315621b7bdfc7acfdf6)
+6. 🔎 Reviewed [PR #82](https://github.com/Wiresense/frontend/pull/82) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0a35b22d77a1f192b8e281c06bf598106312bc52)
+8. 🔀 Opened [PR #87597](https://github.com/vercel/next.js/pull/87597) in [vercel/next.js](https://github.com/vercel/next.js)
+9. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/f22a52b3cc5dacf220adc2f41162a2a72da7a21e)
+10. 🍴 Forked [vercel/next.js](https://github.com/vercel/next.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
