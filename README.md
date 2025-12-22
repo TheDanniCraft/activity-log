@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a30a962505fc44d5de5261b7281839e9e2975ca6)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5a36b6d041f0c74c8d30b7e8668a786a5ae71147)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8429321490913862e5281f40e74907c71dd320dd)
-4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/63a167f1605e62f6cbc9214f8ccb2d8db2c73338)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/88d75c68a5d85f5d7bbc798d7a87ae730d289c31)
-6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/5302ee4078259f3b4b340315621b7bdfc7acfdf6)
-7. 🔎 Reviewed [PR #82](https://github.com/Wiresense/frontend/pull/82) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0a35b22d77a1f192b8e281c06bf598106312bc52)
-9. 🔀 Opened [PR #87597](https://github.com/vercel/next.js/pull/87597) in [vercel/next.js](https://github.com/vercel/next.js)
-10. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/f22a52b3cc5dacf220adc2f41162a2a72da7a21e)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d62d32541cbb4f9e3f10423319858ada65bd2a60)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a30a962505fc44d5de5261b7281839e9e2975ca6)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5a36b6d041f0c74c8d30b7e8668a786a5ae71147)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8429321490913862e5281f40e74907c71dd320dd)
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/63a167f1605e62f6cbc9214f8ccb2d8db2c73338)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/88d75c68a5d85f5d7bbc798d7a87ae730d289c31)
+7. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/5302ee4078259f3b4b340315621b7bdfc7acfdf6)
+8. 🔎 Reviewed [PR #82](https://github.com/Wiresense/frontend/pull/82) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+9. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/0a35b22d77a1f192b8e281c06bf598106312bc52)
+10. 🔀 Opened [PR #87597](https://github.com/vercel/next.js/pull/87597) in [vercel/next.js](https://github.com/vercel/next.js)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
