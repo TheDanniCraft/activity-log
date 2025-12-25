@@ -28,8 +28,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a tag `v1.1.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ✏️ Created a draft release in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Published release [`v1.2.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.2.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a tag `v1.1.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 3. 🔥 Deleted a branch `prepare-v1.2.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 4. 🔀 Merged [PR #37](https://github.com/TheDanniCraft/clipify/pull/37) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c37d782e9f003f2d088b78b77407421354a139c8)
