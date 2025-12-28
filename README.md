@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/db8f415d1e90b072282c4c7c2a7e31ab949b46b4)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/03d26bb54a2f0a5643344c7ae5e719be90e535b2)
-3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/10445a743e4342284df316dab14f6fb19b5e7281)
-4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/90d25b187745bb8676203376df53f6232f402b3e)
-5. ❌ Closed [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Published release [`v1.2.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.2.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🔥 Deleted a branch `hotfix-v1.2.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ceeb0990f8376a075d3c9f15fa991b3d8bdfbfd2)
-9. 🔀 Merged [PR #38](https://github.com/TheDanniCraft/clipify/pull/38) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/409f597462e9725cbb212d329dd84f5bc572b2a7)
+1. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/92373296dafb290275ecddfebe7cc8f87fd2930d)
+2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/db8f415d1e90b072282c4c7c2a7e31ab949b46b4)
+3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/03d26bb54a2f0a5643344c7ae5e719be90e535b2)
+4. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/10445a743e4342284df316dab14f6fb19b5e7281)
+5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/90d25b187745bb8676203376df53f6232f402b3e)
+6. ❌ Closed [PR #18](https://github.com/TheDanniCraft/clipify/pull/18) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Published release [`v1.2.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.2.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔥 Deleted a branch `hotfix-v1.2.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ceeb0990f8376a075d3c9f15fa991b3d8bdfbfd2)
+10. 🔀 Merged [PR #38](https://github.com/TheDanniCraft/clipify/pull/38) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
