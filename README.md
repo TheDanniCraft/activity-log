@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/1d2ccbe81550168f7c0d2e9f3afacdd564a85f75)
-2. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/5f33bc0e95434ade4e1f312b65c2c4e356125d55)
-3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/6e4259b374b056ba7be91cd9d4ce0edfd4c5e64d)
-4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/240f17b61698e32cb58f32fc9f4772fec6b1eda0)
-5. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/b843c2eb21feec97f9657321aa94465415c02811)
-6. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/92373296dafb290275ecddfebe7cc8f87fd2930d)
-7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/db8f415d1e90b072282c4c7c2a7e31ab949b46b4)
-8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/03d26bb54a2f0a5643344c7ae5e719be90e535b2)
-9. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/10445a743e4342284df316dab14f6fb19b5e7281)
-10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/90d25b187745bb8676203376df53f6232f402b3e)
+1. ✨ Created a new branch [`release-1.3.0`](https://github.com/TheDanniCraft/clipify/tree/release-1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/1d2ccbe81550168f7c0d2e9f3afacdd564a85f75)
+3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/5f33bc0e95434ade4e1f312b65c2c4e356125d55)
+4. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/6e4259b374b056ba7be91cd9d4ce0edfd4c5e64d)
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/240f17b61698e32cb58f32fc9f4772fec6b1eda0)
+6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/b843c2eb21feec97f9657321aa94465415c02811)
+7. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/92373296dafb290275ecddfebe7cc8f87fd2930d)
+8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/db8f415d1e90b072282c4c7c2a7e31ab949b46b4)
+9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/03d26bb54a2f0a5643344c7ae5e719be90e535b2)
+10. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/10445a743e4342284df316dab14f6fb19b5e7281)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
