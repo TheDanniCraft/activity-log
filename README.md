@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/c26b08a6bcd502deab5418be28856580a1dfa3df)
+2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/61574445769973d88a3ea64917792430dffd2156)
 3. 🚀 Committed to a private repo
 4. 🚀 Committed to a private repo
-5. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/366f772e4e8b47fc53cd3eb51a62b3cad75c48b9)
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to a private repo
 7. 🚀 Committed to a private repo
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0799321d9ca5c06cc0c78ead844fb00efd453bf7)
-10. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/485b496c73fc912dc252320d11b6227ede87fc35)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/366f772e4e8b47fc53cd3eb51a62b3cad75c48b9)
+9. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
