@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/configure` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4ed5e3b385389daa1b975e2fb3c06ec8e99b705)
-3. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/1a0a3f354fc26063eff3411384603a1bf0c83b09)
-4. 🔥 Deleted a branch `renovate/github-codeql-action-4.x` in [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava)
-5. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/6dec00a6d23ef282ab8fda3d7fdcaace26369431)
-6. ❌ Closed a PR in a private repo
-7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/68491a25c5d30a45dbfb10baa60bd1ffabd6929f)
-8. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e71255f4c4a1aa2ce6288d7474313dc8e5dd0b02)
-9. 🔎 Reviewed [PR #83](https://github.com/Wiresense/frontend/pull/83) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-10. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/8ea6f0aad307755d4f99c8b7588935b59b11731f)
+3. 🚀 Committed to [TheDanniCraft/TheDanniCraft](https://github.com/TheDanniCraft/TheDanniCraft/commit/6906e99e84f6046a20a58ac3a53f4a6086186ef0)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/36c7dcf561381dcd373996229106ea7d99af7281)
+7. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/da38ffb0a7c94fc51a1cad1d23cdc7ce381be502)
+8. 🚀 Committed to [TheDanniCraft/gamerforge-guide](https://github.com/TheDanniCraft/gamerforge-guide/commit/8a6ef01b7f39137e303c51397fa513b2b7345657)
+9. 🚀 Committed to a private repo
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
