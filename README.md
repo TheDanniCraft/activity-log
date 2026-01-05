@@ -35,8 +35,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 5. 🚀 Committed to a private repo
 6. 🚀 Committed to a private repo
 7. 🚀 Committed to a private repo
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/366f772e4e8b47fc53cd3eb51a62b3cad75c48b9)
-9. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/366f772e4e8b47fc53cd3eb51a62b3cad75c48b9)
 10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
