@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ed29f2908a951b5999719dc9867b57d9799a7e40)
-3. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5e506151d14b9b35cbda863b1b49f89cb981b4b2)
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ed29f2908a951b5999719dc9867b57d9799a7e40)
 4. 🚀 Committed to a private repo
-5. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/1de346b0ec241d9975836140fdb7f7885463920e)
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d60dd3b2d086d982a56d0210fd001fa21ba8488d)
-8. 🚀 Committed to a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/1de346b0ec241d9975836140fdb7f7885463920e)
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d60dd3b2d086d982a56d0210fd001fa21ba8488d)
 9. 🚀 Committed to a private repo
-10. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/cfb413e53d247aa34e12be1f56e673740c99aa5f)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
