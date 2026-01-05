@@ -23,6 +23,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Dry Run Mode (preview changes without committing)
 - Custom Commit Messages
 - Markdown or HTML Output Styles
+- Multiple Output Modes (List, Table, SVG)
 - Hide Details on Private Repositories
 
 ## ✍️ Example
@@ -163,12 +164,95 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `GITHUB_TOKEN`                  | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username)  |
 | `EVENT_LIMIT`                   | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
 | `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                        |
+| `OUTPUT_MODE`                   | Specifies the output mode. <br> <ins>Must be one of:</ins> <br> - `list`: Ordered list format (default) <br> - `table`: Table with Date, Event, Repository, Description <br> - `svg`: Generate an SVG image file | ❌               | `list`                                  | `list`, `table`, or `svg`                                                   |
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
+
+## 📊 Output Modes
+
+The `OUTPUT_MODE` input allows you to choose how your activity log is displayed. Three modes are available:
+
+### 1. **List Mode** (Default)
+
+Traditional numbered list format - perfect for inline README sections.
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "your-username"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: list  # Can be omitted since it's the default
+```
+
+**Example output:**
+```
+1. 📝 Committed to [repo-name](link)
+2. ⭐ Starred [repo-name](link)
+3. 🔀 Opened a pull request in [repo-name](link)
+```
+
+### 2. **Table Mode**
+
+Displays activity in a structured table with columns for Date, Event, Repository, and Description.
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "your-username"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: table
+```
+
+**Example output:**
+
+| Date | Event | Repository | Description |
+|------|-------|------------|-------------|
+| Oct 22, 2025 | Push | [repo-name](link) | 📝 Committed to [repo-name](link) |
+| Oct 21, 2025 | Star | [repo-name](link) | ⭐ Starred [repo-name](link) |
+
+### 3. **SVG Mode**
+
+Generates a beautiful SVG image file with your activity log. Perfect for visual displays and avoiding commit noise.
+
+```yaml
+uses: TheDanniCraft/activity-log@v1
+with:
+  GITHUB_USERNAME: "your-username"
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: svg
+  COMMIT_MESSAGE: "Update activity-log.svg"
+```
+
+**Features:**
+- 🎨 GitHub-styled card design with alternating row colors
+- 📝 Selectable text (users can copy text from the SVG)
+- 📐 Automatic height calculation based on number of events
+- 🎯 Generated as `activity-log.svg` in your repository root
+
+**Embed in your README:**
+```markdown
+![Activity Log](./activity-log.svg)
+```
+
+**Why use SVG mode?**
+- ✅ Reduces commit noise (one file vs. README updates)
+- ✅ Visually appealing with GitHub styling
+- ✅ Can be used in a separate automation repository
+- ✅ Text remains selectable and accessible
+
+### 📋 Example Workflows
+
+Complete workflow examples for each output mode are available in [`.github/workflows/examples/`](.github/workflows/examples/):
+
+- **[test-list-mode.yml](.github/workflows/examples/test-list-mode.yml)** - List mode example
+- **[test-table-mode.yml](.github/workflows/examples/test-table-mode.yml)** - Table mode example  
+- **[test-svg-mode.yml](.github/workflows/examples/test-svg-mode.yml)** - SVG mode example
+
+These examples show complete GitHub Actions workflow configurations you can copy and adapt for your own repository.
 
 ## 🎨 Customizing Emojis
 

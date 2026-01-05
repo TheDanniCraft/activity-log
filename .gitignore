@@ -1,3 +1,7 @@
 setEnv.bat
 
 node_modules
+
+# Test outputs
+coverage/
+test-output.svg

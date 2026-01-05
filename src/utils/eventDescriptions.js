@@ -247,4 +247,267 @@ const eventDescriptions = {
     },
 };
 
+function formatEventsAsTable(events, style = 'MARKDOWN') {
+    if (!events || events.length === 0) {
+        return '';
+    }
+
+    if (style === 'HTML') {
+        // HTML table format
+        const tableRows = events.map(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `<a href="https://github.com/${event.repo.name}">${event.repo.name}</a>`
+                : 'Private Repo';
+            
+            // Get the description without the emoji and list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = require('../config');
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            return `<tr><td>${date}</td><td>${eventType}</td><td>${repo}</td><td>${description}</td></tr>`;
+        });
+
+        return `<table><thead><tr><th>Date</th><th>Event</th><th>Repository</th><th>Description</th></tr></thead><tbody>${tableRows.join('')}</tbody></table>`;
+    } else {
+        // Markdown table format
+        const tableRows = [];
+        
+        // Table header
+        tableRows.push('| Date | Event | Repository | Description |');
+        tableRows.push('|------|-------|------------|-------------|');
+        
+        // Table rows
+        events.forEach(event => {
+            const date = new Date(event.created_at).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+            
+            const eventType = event.type.replace('Event', '');
+            const repo = event.public
+                ? `[${event.repo.name}](https://github.com/${event.repo.name})`
+                : 'Private Repo';
+            
+            // Get the description without the list number
+            const type = event.type;
+            const isPrivate = !event.public;
+            const action = event.payload.pull_request
+                ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+                : event.payload.action;
+            const pr = event.payload.pull_request || {};
+            const payload = event.payload;
+            const { hideDetailsOnPrivateRepos } = require('../config');
+
+            let description = eventDescriptions[type]
+                ? (typeof eventDescriptions[type] === 'function'
+                    ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                    : (eventDescriptions[type][action]
+                        ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                        : 'Unknown action'))
+                : 'Unknown event';
+
+            // Escape pipe characters in description to avoid breaking table
+            const escapedDescription = description.replace(/\|/g, '\\|');
+            
+            tableRows.push(`| ${date} | ${eventType} | ${repo} | ${escapedDescription} |`);
+        });
+        
+        return tableRows.join('\n');
+    }
+}
+
+function escapeXml(text) {
+    if (!text) return '';
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+}
+
+function wrapText(text, maxWidth) {
+    const words = text.split(' ');
+    const lines = [];
+    let currentLine = '';
+
+    words.forEach(word => {
+        let processedWord = word;
+        
+        // Handle words that exceed maxWidth
+        if (word.length > maxWidth) {
+            // Guard against maxWidth being too small for ellipsis
+            if (maxWidth > 3) {
+                processedWord = word.substring(0, maxWidth - 3) + '...';
+            } else {
+                // Edge case: maxWidth is 1-3, just truncate
+                processedWord = word.substring(0, maxWidth);
+            }
+        }
+        
+        const testLine = currentLine ? `${currentLine} ${processedWord}` : processedWord;
+        if (testLine.length <= maxWidth) {
+            currentLine = testLine;
+        } else {
+            if (currentLine) lines.push(currentLine);
+            currentLine = processedWord;
+        }
+    });
+
+    if (currentLine) lines.push(currentLine);
+    return lines;
+}
+
+function formatEventsAsSVG(events) {
+    if (!events || events.length === 0) {
+        return generateEmptySVG();
+    }
+
+    // SVG layout constants
+    const SVG_LAYOUT = {
+        WIDTH: 900,
+        HEIGHT_HEADER: 60,
+        HEIGHT_ROW: 44,
+        HEIGHT_FOOTER: 30,
+        PADDING_LEFT: 20,
+        PADDING_RIGHT: 20,
+        X_NUMBER: 25,
+        X_TEXT: 55,
+        RADIUS: 6
+    };
+
+    const totalHeight = SVG_LAYOUT.HEIGHT_HEADER + 
+                       (events.length * SVG_LAYOUT.HEIGHT_ROW) + 
+                       SVG_LAYOUT.HEIGHT_FOOTER;
+
+    const { hideDetailsOnPrivateRepos } = require('../config');
+    
+    // Generate SVG header
+    let svg = `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .header-bg { fill: #f6f8fa; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .title { font: bold 20px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .subtitle { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+      .row-bg { fill: #ffffff; }
+      .row-bg-alt { fill: #f6f8fa; }
+      .row-border { stroke: #d0d7de; stroke-width: 0.5; }
+      .row-text { font: 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #24292f; }
+      .number { font: bold 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect class="bg" width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <rect class="border" width="${SVG_LAYOUT.WIDTH}" height="${totalHeight}" rx="${SVG_LAYOUT.RADIUS}"/>
+  
+  <!-- Header -->
+  <rect class="header-bg" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT_HEADER}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <line x1="0" y1="${SVG_LAYOUT.HEIGHT_HEADER}" x2="${SVG_LAYOUT.WIDTH}" y2="${SVG_LAYOUT.HEIGHT_HEADER}" class="row-border"/>
+  <text x="${SVG_LAYOUT.PADDING_LEFT}" y="32" class="title">⚡ Recent Activity</text>
+  <text x="${SVG_LAYOUT.PADDING_LEFT}" y="50" class="subtitle">GitHub Activity Log</text>
+  
+  <!-- Activity Rows -->
+`;
+
+    // Generate each event row
+    events.forEach((event, index) => {
+        const type = event.type;
+        const isPrivate = !event.public;
+        const action = event.payload.pull_request
+            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
+            : event.payload.action;
+        const pr = event.payload.pull_request || {};
+        const payload = event.payload;
+
+        // Get the description
+        let description = eventDescriptions[type]
+            ? (typeof eventDescriptions[type] === 'function'
+                ? eventDescriptions[type]({ repo: event.repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
+                : (eventDescriptions[type][action]
+                    ? eventDescriptions[type][action]({ repo: event.repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
+                    : 'Unknown action'))
+            : 'Unknown event';
+
+        // Strip markdown links and code backticks for plain text
+        const plainDescription = description
+            .replace(/\[([^\]]+)\]\([^\)]+\)/g, '$1')
+            .replace(/`([^`]+)`/g, '$1');
+
+        const y = SVG_LAYOUT.HEIGHT_HEADER + (index * SVG_LAYOUT.HEIGHT_ROW);
+        const rowBg = index % 2 === 0 ? 'row-bg' : 'row-bg-alt';
+        const rowCenterY = y + (SVG_LAYOUT.HEIGHT_ROW / 2);
+        
+        // Row background
+        svg += `  <rect class="${rowBg}" x="0" y="${y}" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT_ROW}"/>\n`;
+        
+        // Row divider
+        const dividerY = y + SVG_LAYOUT.HEIGHT_ROW;
+        svg += `  <line x1="${SVG_LAYOUT.PADDING_LEFT}" y1="${dividerY}" x2="${SVG_LAYOUT.WIDTH - SVG_LAYOUT.PADDING_RIGHT}" y2="${dividerY}" class="row-border"/>\n`;
+        
+        // Row number
+        svg += `  <text x="${SVG_LAYOUT.X_NUMBER}" y="${rowCenterY}" class="number" dominant-baseline="middle">${index + 1}.</text>\n`;
+        
+        // Row description (single line, centered)
+        svg += `  <text x="${SVG_LAYOUT.X_TEXT}" y="${rowCenterY}" class="row-text" dominant-baseline="middle">${escapeXml(plainDescription)}</text>\n`;
+    });
+
+    // Footer
+    const footerY = totalHeight - 15;
+    svg += `  
+  <!-- Footer -->
+  <text x="${SVG_LAYOUT.WIDTH / 2}" y="${footerY}" text-anchor="middle" class="subtitle">Generated by activity-log</text>
+</svg>`;
+
+    return svg;
+}
+
+function generateEmptySVG() {
+    const SVG_LAYOUT = {
+        WIDTH: 900,
+        HEIGHT: 200,
+        RADIUS: 6
+    };
+    
+    return `<?xml version="1.0" encoding="UTF-8"?>
+<svg width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .border { stroke: #d0d7de; stroke-width: 1; fill: none; }
+      .text { font: 16px -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #57606a; }
+    </style>
+  </defs>
+  <rect class="bg" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <rect class="border" width="${SVG_LAYOUT.WIDTH}" height="${SVG_LAYOUT.HEIGHT}" rx="${SVG_LAYOUT.RADIUS}"/>
+  <text x="${SVG_LAYOUT.WIDTH / 2}" y="${SVG_LAYOUT.HEIGHT / 2}" text-anchor="middle" dominant-baseline="middle" class="text">No recent activity</text>
+</svg>`;
+}
+
 module.exports = eventDescriptions;
+module.exports.formatEventsAsTable = formatEventsAsTable;
+module.exports.formatEventsAsSVG = formatEventsAsSVG;
