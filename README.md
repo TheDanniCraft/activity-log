@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa644007f7561fc5f58f629c2bdf7a3e1bd0d0b9)
-3. ✨ Created a new branch [`release-1.3.0`](https://github.com/TheDanniCraft/clipify/tree/release-1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/1d2ccbe81550168f7c0d2e9f3afacdd564a85f75)
-5. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/5f33bc0e95434ade4e1f312b65c2c4e356125d55)
-6. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/6e4259b374b056ba7be91cd9d4ce0edfd4c5e64d)
-7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/240f17b61698e32cb58f32fc9f4772fec6b1eda0)
-8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/b843c2eb21feec97f9657321aa94465415c02811)
-9. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/92373296dafb290275ecddfebe7cc8f87fd2930d)
-10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/db8f415d1e90b072282c4c7c2a7e31ab949b46b4)
+1. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/68491a25c5d30a45dbfb10baa60bd1ffabd6929f)
+2. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e71255f4c4a1aa2ce6288d7474313dc8e5dd0b02)
+3. 🔎 Reviewed [PR #83](https://github.com/Wiresense/frontend/pull/83) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+4. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa644007f7561fc5f58f629c2bdf7a3e1bd0d0b9)
+6. ✨ Created a new branch [`release-1.3.0`](https://github.com/TheDanniCraft/clipify/tree/release-1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/1d2ccbe81550168f7c0d2e9f3afacdd564a85f75)
+8. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/5f33bc0e95434ade4e1f312b65c2c4e356125d55)
+9. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/6e4259b374b056ba7be91cd9d4ce0edfd4c5e64d)
+10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/240f17b61698e32cb58f32fc9f4772fec6b1eda0)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
