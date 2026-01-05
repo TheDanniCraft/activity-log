@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/1a0a3f354fc26063eff3411384603a1bf0c83b09)
-2. 🔥 Deleted a branch `renovate/github-codeql-action-4.x` in [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava)
-3. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/6dec00a6d23ef282ab8fda3d7fdcaace26369431)
-4. ❌ Closed a PR in a private repo
-5. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/68491a25c5d30a45dbfb10baa60bd1ffabd6929f)
-6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e71255f4c4a1aa2ce6288d7474313dc8e5dd0b02)
-7. 🔎 Reviewed [PR #83](https://github.com/Wiresense/frontend/pull/83) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-8. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa644007f7561fc5f58f629c2bdf7a3e1bd0d0b9)
-10. ✨ Created a new branch [`release-1.3.0`](https://github.com/TheDanniCraft/clipify/tree/release-1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🔥 Deleted a branch `renovate/configure` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4ed5e3b385389daa1b975e2fb3c06ec8e99b705)
+3. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/1a0a3f354fc26063eff3411384603a1bf0c83b09)
+4. 🔥 Deleted a branch `renovate/github-codeql-action-4.x` in [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava)
+5. 🚀 Committed to [TheDanniCraft/Jumjava](https://github.com/TheDanniCraft/Jumjava/commit/6dec00a6d23ef282ab8fda3d7fdcaace26369431)
+6. ❌ Closed a PR in a private repo
+7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/68491a25c5d30a45dbfb10baa60bd1ffabd6929f)
+8. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e71255f4c4a1aa2ce6288d7474313dc8e5dd0b02)
+9. 🔎 Reviewed [PR #83](https://github.com/Wiresense/frontend/pull/83) in [Wiresense/frontend](https://github.com/Wiresense/frontend)
+10. 🔀 Opened [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
