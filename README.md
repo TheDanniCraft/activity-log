@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/d7edb153068acc89d58e7f0d1212cdfe512df1cf)
-2. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/4771a4147c1a463673badac85864ee298898aed4)
-3. 🔥 Deleted a branch `renovate/actions-cache-5.x` in [Wiresense/frontend](https://github.com/Wiresense/frontend)
-4. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e4647ce55998852b768c9b01ea7eaf33f27441bf)
-5. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/5c040d62a856d771a4a9b2493e3fafd6af5915c5)
-6. 🚀 Committed to [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py/commit/fcfdd5b17e33f6b11f7d91affaa07c9d30519e13)
-7. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/6561ba8ac26520a71a62aacb4c9ffb1986880b97)
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/421574e49d0cbbd4359bce3f7327842510ade5c0)
-10. 🚀 Committed to a private repo
+1. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/6944ca7b0939b34cb577dbded62a625b6fe32b41)
+2. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/3748848e926fbb16b2bea14ecbf4c9e5da0d2084)
+3. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/269e8e07659421515b7c999cee6e44c57773fda3)
+4. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/6764ff266c1b2d2a130e341d7d61af47a2d9025a)
+5. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/8194462e41e989ccc90faf760bdb0f3dd621f4b2)
+6. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c890706eb9b584be3aa7e01a42d39ef401f8493e)
+7. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/c5899eb44dd53550e3bf473dc31ed0f5828a73e3)
+8. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/e4bedb91791c60c8078e7107c65a0a316bf3a5ac)
+9. 🚀 Committed to [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/2f28f49dca0b4b81764671835f4c3b1bd06f13e3)
+10. 🚀 Committed to [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py/commit/f61136310bfd811d1ebd87a66f67c0b625e87f3b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
