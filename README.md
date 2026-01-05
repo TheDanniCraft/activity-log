@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7b7a65fb075fd0b120651d1b6f0a8d550efeabc5)
-2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/5ca3dbcc052079f3feee713a5ddd2f32b2316b82)
-3. 🔥 Deleted a branch `renovate/npm/major-tabler-icons` in a private repo
-4. 🚀 Committed to a private repo
-5. 🔥 Deleted a branch `renovate/npm/major-mollie-api-client` in a private repo
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/6944ca7b0939b34cb577dbded62a625b6fe32b41)
-8. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/3748848e926fbb16b2bea14ecbf4c9e5da0d2084)
-9. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/269e8e07659421515b7c999cee6e44c57773fda3)
-10. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/6764ff266c1b2d2a130e341d7d61af47a2d9025a)
+1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/956e501fcf047b651e68c4e0853f2b139d0fd8da)
+2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7b7a65fb075fd0b120651d1b6f0a8d550efeabc5)
+3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/5ca3dbcc052079f3feee713a5ddd2f32b2316b82)
+4. 🔥 Deleted a branch `renovate/npm/major-tabler-icons` in a private repo
+5. 🚀 Committed to a private repo
+6. 🔥 Deleted a branch `renovate/npm/major-mollie-api-client` in a private repo
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/6944ca7b0939b34cb577dbded62a625b6fe32b41)
+9. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/3748848e926fbb16b2bea14ecbf4c9e5da0d2084)
+10. 🚀 Committed to [Wiresense/frontend](https://github.com/Wiresense/frontend/commit/269e8e07659421515b7c999cee6e44c57773fda3)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
