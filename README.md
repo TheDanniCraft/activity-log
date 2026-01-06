@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5e506151d14b9b35cbda863b1b49f89cb981b4b2)
+1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/12e1ad69c6e86e6e8ddbb6404252a5ee082b5ef5)
 2. 🚀 Committed to a private repo
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ed29f2908a951b5999719dc9867b57d9799a7e40)
+3. 🚀 Committed to a private repo
 4. 🚀 Committed to a private repo
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/1de346b0ec241d9975836140fdb7f7885463920e)
+5. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/939f2aedd1a9997eae63e5fd28efb8cb7962e5fd)
 7. 🚀 Committed to a private repo
-8. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d60dd3b2d086d982a56d0210fd001fa21ba8488d)
-9. 🚀 Committed to a private repo
-10. 🚀 Committed to a private repo
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9e06a65854c3af0b146e0f03a8536670853124cf)
+10. 🔥 Deleted a branch `renovate/bun/ws-8.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
