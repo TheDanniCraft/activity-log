@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33dc6a4f13aed95540930cb1149b6fcf9de346fe)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbd1090b150a0f81d8fae75617cc2bf065bfc0f9)
-3. 🔥 Deleted a branch `renovate/migrate-config` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a042d496cd4dae3e378c415bda2026c7bd863ae9)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/12e1ad69c6e86e6e8ddbb6404252a5ee082b5ef5)
-6. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9a08cbfdb7f836cfc65e275b0ec46fc41cb9c233)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33dc6a4f13aed95540930cb1149b6fcf9de346fe)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbd1090b150a0f81d8fae75617cc2bf065bfc0f9)
+4. 🔥 Deleted a branch `renovate/migrate-config` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a042d496cd4dae3e378c415bda2026c7bd863ae9)
+6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/12e1ad69c6e86e6e8ddbb6404252a5ee082b5ef5)
 7. 🚀 Committed to a private repo
 8. 🚀 Committed to a private repo
-9. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/939f2aedd1a9997eae63e5fd28efb8cb7962e5fd)
+9. 🚀 Committed to a private repo
+10. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
