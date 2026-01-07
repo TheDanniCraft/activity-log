@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9a08cbfdb7f836cfc65e275b0ec46fc41cb9c233)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33dc6a4f13aed95540930cb1149b6fcf9de346fe)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbd1090b150a0f81d8fae75617cc2bf065bfc0f9)
-4. 🔥 Deleted a branch `renovate/migrate-config` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a042d496cd4dae3e378c415bda2026c7bd863ae9)
-6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/12e1ad69c6e86e6e8ddbb6404252a5ee082b5ef5)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to a private repo
-10. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/065512f131f59bb25b8d67e89d1c3bbe6d677f10)
+3. 🚀 Committed to a private repo
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9a08cbfdb7f836cfc65e275b0ec46fc41cb9c233)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33dc6a4f13aed95540930cb1149b6fcf9de346fe)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbd1090b150a0f81d8fae75617cc2bf065bfc0f9)
+7. 🔥 Deleted a branch `renovate/migrate-config` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a042d496cd4dae3e378c415bda2026c7bd863ae9)
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/12e1ad69c6e86e6e8ddbb6404252a5ee082b5ef5)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
