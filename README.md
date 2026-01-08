@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/f94cc11322d9c830f810df350f4a7347f4c02a5f)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded54424a60645137d61cf96afa5bf1b799b389c)
-3. ⭐ Starred [operational-co/operational.co](https://github.com/operational-co/operational.co)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afc3e523390ce4f150a2cdc938e84447a9e47256)
-5. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54d321f712686c50f3737340b034eae218b1393f)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/eaa1f4f3c658441dbe368eeff5204ed7fc96fc53)
-9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/cd4840fd54848d0776ba9b15c48539e821b339df)
-10. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/96227bb78fd52e87f0d413fcffa97fcac1c7f8f8)
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcb042968c1294d34a7ac9a0e357d1d1c77c215)
+4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/f94cc11322d9c830f810df350f4a7347f4c02a5f)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded54424a60645137d61cf96afa5bf1b799b389c)
+6. ⭐ Starred [operational-co/operational.co](https://github.com/operational-co/operational.co)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afc3e523390ce4f150a2cdc938e84447a9e47256)
+8. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54d321f712686c50f3737340b034eae218b1393f)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
