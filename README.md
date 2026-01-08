@@ -34,8 +34,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8aadb0a52ab2e6a8bbec5bfcdbc7e888696adefe)
 5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/f26f2902539597d3c0188d1c249aa5bb5cc0d73d)
 6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93f07d0603f44595058d78ce02d3d75a2a915d87)
-8. 🔥 Deleted a branch `renovate/bun/vercel-nft-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🔥 Deleted a branch `renovate/bun/vercel-nft-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93f07d0603f44595058d78ce02d3d75a2a915d87)
 9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae36bc7a1ce5d7143c2cf25b0e1cbe205dfae46e)
 10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/82450d7ac57e2b95ba95dd0be87dcc284867e6bf)
 <!--END_SECTION:activity-->
