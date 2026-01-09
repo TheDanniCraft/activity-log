@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4055d50abc2622fb4068fd49f8dc36580c961778)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3b0ba8524b1d01bcbfb2659cec096ca61f7e00d4)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbd6404d2a17c6f05a4197b0b29582439d87f5d0)
+2. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4e8d4663843f1b0364ff5ceccb8edd7f701080f8)
 3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e28b79c6150349e7d327c0b569bb24a96044911)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/96227bb78fd52e87f0d413fcffa97fcac1c7f8f8)
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcb042968c1294d34a7ac9a0e357d1d1c77c215)
-8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/f94cc11322d9c830f810df350f4a7347f4c02a5f)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded54424a60645137d61cf96afa5bf1b799b389c)
-10. ⭐ Starred [operational-co/operational.co](https://github.com/operational-co/operational.co)
+4. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/fd99b1e3d8b9ced15c3f5be7ac01f74c2d0c5d14)
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/fa89136072eb0d6dfebedf89cb868c6c9c229f0d)
+6. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a810cf7e4472497dfe8af1e81eb398b8a2def27c)
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4055d50abc2622fb4068fd49f8dc36580c961778)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3b0ba8524b1d01bcbfb2659cec096ca61f7e00d4)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
