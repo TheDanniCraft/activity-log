@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@actions/core": "^2.0.1",
+		"@actions/core": "^2.0.2",
 		"@actions/github": "^7.0.0",
 		"axios": "^1.13.2",
 		"commitlint-config-gitmoji": "^2.3.1",
