@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e28b79c6150349e7d327c0b569bb24a96044911)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/96227bb78fd52e87f0d413fcffa97fcac1c7f8f8)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4055d50abc2622fb4068fd49f8dc36580c961778)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3b0ba8524b1d01bcbfb2659cec096ca61f7e00d4)
 3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcb042968c1294d34a7ac9a0e357d1d1c77c215)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/f94cc11322d9c830f810df350f4a7347f4c02a5f)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded54424a60645137d61cf96afa5bf1b799b389c)
-7. ⭐ Starred [operational-co/operational.co](https://github.com/operational-co/operational.co)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afc3e523390ce4f150a2cdc938e84447a9e47256)
-9. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54d321f712686c50f3737340b034eae218b1393f)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e28b79c6150349e7d327c0b569bb24a96044911)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/96227bb78fd52e87f0d413fcffa97fcac1c7f8f8)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcb042968c1294d34a7ac9a0e357d1d1c77c215)
+8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/f94cc11322d9c830f810df350f4a7347f4c02a5f)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded54424a60645137d61cf96afa5bf1b799b389c)
+10. ⭐ Starred [operational-co/operational.co](https://github.com/operational-co/operational.co)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
