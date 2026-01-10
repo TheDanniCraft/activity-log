@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4fde5bdc8a488633338069109b7b01924bec13ef)
-2. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/fd3b458c35631e61d5246ac70834c3acd012a803)
-3. ⭐ Starred [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)
-4. 🚀 Published release [`v1.3.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54ed273035941454d7df32d6738ef49f3793d3a2)
-8. 🔥 Deleted a branch `renovate/npm/mantine-monorepo` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+1. 🗣 Commented on issue [#87597](https://github.com/vercel/next.js/issues/87597) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87597#issuecomment-3733643909)
+2. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4fde5bdc8a488633338069109b7b01924bec13ef)
+3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/fd3b458c35631e61d5246ac70834c3acd012a803)
+4. ⭐ Starred [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)
+5. 🚀 Published release [`v1.3.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54ed273035941454d7df32d6738ef49f3793d3a2)
 9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/4f8e6588ac8a11378d4a3f49f5cdd3cbf7fe1ee4)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37686a52f98ea4c19f44e927810e3638f2e90796)
+10. 🔥 Deleted a branch `renovate/npm/mantine-monorepo` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
