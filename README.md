@@ -34,8 +34,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 4. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 5. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54ed273035941454d7df32d6738ef49f3793d3a2)
-7. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/4f8e6588ac8a11378d4a3f49f5cdd3cbf7fe1ee4)
-8. 🔥 Deleted a branch `renovate/npm/mantine-monorepo` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+7. 🔥 Deleted a branch `renovate/npm/mantine-monorepo` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/4f8e6588ac8a11378d4a3f49f5cdd3cbf7fe1ee4)
 9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37686a52f98ea4c19f44e927810e3638f2e90796)
 10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
