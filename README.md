@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/700178eed99863616b6f0a52571c3989477429f6)
-2. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b31c7f40ee28f367e55e21b6fc30b0fb15490398)
-4. 🗣 Commented on issue [#87597](https://github.com/vercel/next.js/issues/87597) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87597#issuecomment-3733643909)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4fde5bdc8a488633338069109b7b01924bec13ef)
-6. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/fd3b458c35631e61d5246ac70834c3acd012a803)
-7. ⭐ Starred [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)
-8. 🚀 Published release [`v1.3.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Published release [`v1.3.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2599c548b965da90e2d2e0883620bf05a1dbd9a1)
+3. 🔥 Deleted a branch `hotfix-1.3.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🔀 Merged [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c4fbcf190acca425ba3a59ebf004d4c31ebc1cb)
+6. 🔀 Opened [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. ✨ Created a new branch [`hotfix-1.3.1`](https://github.com/TheDanniCraft/clipify/tree/hotfix-1.3.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/700178eed99863616b6f0a52571c3989477429f6)
+9. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b31c7f40ee28f367e55e21b6fc30b0fb15490398)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
