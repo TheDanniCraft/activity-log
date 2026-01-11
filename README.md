@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b31c7f40ee28f367e55e21b6fc30b0fb15490398)
-3. 🗣 Commented on issue [#87597](https://github.com/vercel/next.js/issues/87597) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87597#issuecomment-3733643909)
-4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4fde5bdc8a488633338069109b7b01924bec13ef)
-5. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/fd3b458c35631e61d5246ac70834c3acd012a803)
-6. ⭐ Starred [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)
-7. 🚀 Published release [`v1.3.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/54ed273035941454d7df32d6738ef49f3793d3a2)
+1. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/700178eed99863616b6f0a52571c3989477429f6)
+2. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b31c7f40ee28f367e55e21b6fc30b0fb15490398)
+4. 🗣 Commented on issue [#87597](https://github.com/vercel/next.js/issues/87597) in [vercel/next.js](https://github.com/vercel/next.js): [View Comment](https://github.com/vercel/next.js/issues/87597#issuecomment-3733643909)
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/4fde5bdc8a488633338069109b7b01924bec13ef)
+6. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/fd3b458c35631e61d5246ac70834c3acd012a803)
+7. ⭐ Starred [ridafkih/keeper.sh](https://github.com/ridafkih/keeper.sh)
+8. 🚀 Published release [`v1.3.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🔥 Deleted a branch `release-1.3.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🔀 Merged [PR #39](https://github.com/TheDanniCraft/clipify/pull/39) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
