@@ -29,8 +29,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🚀 Published release [`v1.3.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2599c548b965da90e2d2e0883620bf05a1dbd9a1)
-3. 🔥 Deleted a branch `hotfix-1.3.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a branch `hotfix-1.3.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2599c548b965da90e2d2e0883620bf05a1dbd9a1)
 4. 🔀 Merged [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c4fbcf190acca425ba3a59ebf004d4c31ebc1cb)
 6. 🔀 Opened [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
