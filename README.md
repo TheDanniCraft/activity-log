@@ -30,8 +30,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 <!--START_SECTION:activity-->
 1. ⭐ Starred [Free-TV/IPTV](https://github.com/Free-TV/IPTV)
 2. 🚀 Published release [`v1.3.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔥 Deleted a branch `hotfix-1.3.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2599c548b965da90e2d2e0883620bf05a1dbd9a1)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2599c548b965da90e2d2e0883620bf05a1dbd9a1)
+4. 🔥 Deleted a branch `hotfix-1.3.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 5. 🔀 Merged [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c4fbcf190acca425ba3a59ebf004d4c31ebc1cb)
 7. 🔀 Opened [PR #58](https://github.com/TheDanniCraft/clipify/pull/58) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
