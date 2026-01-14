@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/ec9b1ffed35affbe6e25f17fcfe53e0581e37ec7)
-3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9468ff1139420e2aa6a0e03da31fcee45eadeac9)
-4. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/dfb0220694253dbc332db6565745b641a9d1189e)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6e80cf6b9608b5ad9e6b2f75ad844835b751a557)
-6. 🚀 Committed to a private repo
-7. 🔀 Opened [PR #65](https://github.com/TheDanniCraft/clipify/pull/65) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ffade41e5fa73892bd66978411042b0f26a202fc)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d5dc499768f0d483d41721b2b46d484ea7c79490)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8610da52bc8d68ce3eaf51caf4ff440ae5b0d613)
+1. 🔥 Deleted a branch `renovate/npm/pocketbase` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/233805cfe703fb75bac3726a8a40c1d3090714b7)
+3. 🚀 Committed to a private repo
+4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/ec9b1ffed35affbe6e25f17fcfe53e0581e37ec7)
+5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9468ff1139420e2aa6a0e03da31fcee45eadeac9)
+6. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/dfb0220694253dbc332db6565745b641a9d1189e)
+7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6e80cf6b9608b5ad9e6b2f75ad844835b751a557)
+8. 🚀 Committed to a private repo
+9. 🔀 Opened [PR #65](https://github.com/TheDanniCraft/clipify/pull/65) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ffade41e5fa73892bd66978411042b0f26a202fc)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
