@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e8f100ea5f4eb5261c8bfeff2dca575ba5aeafd)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a38ffd363cbe54cb775f0c97b65e4f89b12c254a)
-3. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/clipify/pull/70) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d3ab05f232d49c7ee47724ae53fc419fa29ec88)
-5. ✨ Created a new branch [`patch-v1.4.0`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🗣 Commented on issue [#3](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server): [View Comment](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3#issuecomment-3756079967)
-7. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/557ae7c83a69a8ce67914371241a6d9f8362ed9d)
-8. ❌ Closed [PR #2](https://github.com/TheDanniCraft/plausible-mcp-server/pull/2) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server)
-9. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/9be27e1de048dfa4d4feb83009a7c36be3853ed2)
-10. 🍴 Forked [AVIMBU/plausible-mcp-server](https://github.com/AVIMBU/plausible-mcp-server)
+1. 🚀 Published release [`v1.4.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a branch `patch-v1.4.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔀 Merged [PR #70](https://github.com/TheDanniCraft/clipify/pull/70) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6784bbccc9712c264927f3f3d15bc12ff8b09b5)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/167a31329939290cff7604f09a39c73bc4eaa4aa)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e8f100ea5f4eb5261c8bfeff2dca575ba5aeafd)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a38ffd363cbe54cb775f0c97b65e4f89b12c254a)
+8. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/clipify/pull/70) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d3ab05f232d49c7ee47724ae53fc419fa29ec88)
+10. ✨ Created a new branch [`patch-v1.4.0`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
