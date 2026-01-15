@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/npm/exiftool-vendored-35.x` in a private repo
-2. 🚀 Committed to a private repo
-3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/ed4cded2ea633f0d96605503218db07ebe1e756f)
-5. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/41a577ddf05f88974e2ca8e9bb9d8ebe38c43047)
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/7e28ccd9f4f1278fadcbbe40c2e29e9bf23e1769)
+1. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/9be27e1de048dfa4d4feb83009a7c36be3853ed2)
+2. 🍴 Forked [AVIMBU/plausible-mcp-server](https://github.com/AVIMBU/plausible-mcp-server)
+3. 🔥 Deleted a branch `renovate/npm/exiftool-vendored-35.x` in a private repo
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/ed4cded2ea633f0d96605503218db07ebe1e756f)
+7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/41a577ddf05f88974e2ca8e9bb9d8ebe38c43047)
 8. 🚀 Committed to a private repo
-9. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/371fbbb013c873c0f7ebc2162cc2c58ed263cddb)
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/7e28ccd9f4f1278fadcbbe40c2e29e9bf23e1769)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
