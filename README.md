@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f78dfe5c0c3b7054ce104f134033a1c3852774b7)
-3. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e1db3d99082add09d902b324baf80db4af6a5fec)
-5. 🚀 Published release [`v1.3.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.3.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🔥 Deleted a branch `patch-v1.3.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🔀 Merged [PR #65](https://github.com/TheDanniCraft/clipify/pull/65) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4852996a39da23deaa3e24ae104ba2ccf4d88ce5)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4aa11355b10652e9d0d77863b51eb325c6a98c53)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5ed57775ad95b22354ff822e3d87246c2c0001d6)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/ed4cded2ea633f0d96605503218db07ebe1e756f)
+3. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/41a577ddf05f88974e2ca8e9bb9d8ebe38c43047)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/7e28ccd9f4f1278fadcbbe40c2e29e9bf23e1769)
+6. 🚀 Committed to a private repo
+7. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/371fbbb013c873c0f7ebc2162cc2c58ed263cddb)
+9. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f78dfe5c0c3b7054ce104f134033a1c3852774b7)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
