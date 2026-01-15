@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/clipify/pull/70) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d3ab05f232d49c7ee47724ae53fc419fa29ec88)
-3. ✨ Created a new branch [`patch-v1.4.0`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🗣 Commented on issue [#3](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server): [View Comment](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3#issuecomment-3756079967)
-5. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/557ae7c83a69a8ce67914371241a6d9f8362ed9d)
-6. ❌ Closed [PR #2](https://github.com/TheDanniCraft/plausible-mcp-server/pull/2) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server)
-7. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/9be27e1de048dfa4d4feb83009a7c36be3853ed2)
-8. 🍴 Forked [AVIMBU/plausible-mcp-server](https://github.com/AVIMBU/plausible-mcp-server)
-9. 🔥 Deleted a branch `renovate/npm/exiftool-vendored-35.x` in a private repo
-10. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e8f100ea5f4eb5261c8bfeff2dca575ba5aeafd)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a38ffd363cbe54cb775f0c97b65e4f89b12c254a)
+3. 🔀 Opened [PR #70](https://github.com/TheDanniCraft/clipify/pull/70) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d3ab05f232d49c7ee47724ae53fc419fa29ec88)
+5. ✨ Created a new branch [`patch-v1.4.0`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🗣 Commented on issue [#3](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server): [View Comment](https://github.com/TheDanniCraft/plausible-mcp-server/issues/3#issuecomment-3756079967)
+7. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/557ae7c83a69a8ce67914371241a6d9f8362ed9d)
+8. ❌ Closed [PR #2](https://github.com/TheDanniCraft/plausible-mcp-server/pull/2) in [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server)
+9. 🚀 Committed to [TheDanniCraft/plausible-mcp-server](https://github.com/TheDanniCraft/plausible-mcp-server/commit/9be27e1de048dfa4d4feb83009a7c36be3853ed2)
+10. 🍴 Forked [AVIMBU/plausible-mcp-server](https://github.com/AVIMBU/plausible-mcp-server)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
