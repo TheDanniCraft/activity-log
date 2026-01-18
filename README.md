@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4db543a3a73a795f7eb6b2b65313f78504c4f438)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d1bbb6daaa8a9ee32e99bde1e8fc7e871865f9d7)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5aa88b0035c594e055bef3deb977da09360222da)
-4. 🔀 Opened [PR #74](https://github.com/TheDanniCraft/clipify/pull/74) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0dc30620d5c53e951504cef25d8e433773afdbb5)
-6. ✨ Created a new branch [`patch-1.4.2`](https://github.com/TheDanniCraft/clipify/tree/patch-1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f20bde250bb712fd9b9c333bf9ab5851fae20ead)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4db543a3a73a795f7eb6b2b65313f78504c4f438)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d1bbb6daaa8a9ee32e99bde1e8fc7e871865f9d7)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5aa88b0035c594e055bef3deb977da09360222da)
+5. 🔀 Opened [PR #74](https://github.com/TheDanniCraft/clipify/pull/74) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0dc30620d5c53e951504cef25d8e433773afdbb5)
+7. ✨ Created a new branch [`patch-1.4.2`](https://github.com/TheDanniCraft/clipify/tree/patch-1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/ce40fcbd02f0d7edf1113679ba869903e83c65f3)
-10. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to a private repo
+10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/ce40fcbd02f0d7edf1113679ba869903e83c65f3)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
