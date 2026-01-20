@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to a private repo
-3. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/69129bd9cc6125e9f3b6f7d45ec57c149079f6ae)
-4. 🚀 Committed to a private repo
-5. 🚀 Committed to a private repo
-6. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/96b524ce857c1f394e0a3455c870ea37aff04eb4)
-8. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ed7f6e9b739848fcc5edb08c812b3defe4fa291)
-10. 🚀 Published release [`v1.4.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/480c99fd32089566987041b812c3975b1c38c993)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b0cbe9c209d7370e0d28972173a7680f02f62033)
+4. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2531bb435eda406342a020164e3fd484fc6b52a3)
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/69129bd9cc6125e9f3b6f7d45ec57c149079f6ae)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
