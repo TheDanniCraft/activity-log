@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/502fa1b9c94a9ddaded3eae044c1944eb85edfc3)
-3. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/59d27c73e6d90a853c6aeeecd5ac450eef8eb45d)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/866b8195a1e1cf4d46718bf8402f1d521f8b84f4)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33752b016c894e0014a902132258bcf00fef6b2b)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3d978271a6c1a4325b9447c4d0020e7f67bb67c4)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a1e41a8b245b87c10e661ddec33b62a323eb1db)
-9. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac5db67282eef46c07d2e1e6257002c0c1393048)
+1. 🚀 Published release [`v1.4.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a0d1be85496f6f0733fa0ea83e630730cbf4e010)
+3. 🔥 Deleted a branch `patch-1.4.2` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77d505925874d250568c333b8f2683fe14349f79)
+5. 🔀 Merged [PR #74](https://github.com/TheDanniCraft/clipify/pull/74) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f1c96fb7eccabef8192709f2e934f42ccd630d12)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44d10f5c9a036f7704ea3ce3b9ae856251f527de)
+8. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/502fa1b9c94a9ddaded3eae044c1944eb85edfc3)
+10. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
