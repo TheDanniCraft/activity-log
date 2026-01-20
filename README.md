@@ -35,8 +35,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 5. 🚀 Committed to a private repo
 6. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/96b524ce857c1f394e0a3455c870ea37aff04eb4)
-8. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ed7f6e9b739848fcc5edb08c812b3defe4fa291)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ed7f6e9b739848fcc5edb08c812b3defe4fa291)
+9. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 10. 🚀 Published release [`v1.4.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
