@@ -28,8 +28,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ed7f6e9b739848fcc5edb08c812b3defe4fa291)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ed7f6e9b739848fcc5edb08c812b3defe4fa291)
+2. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 3. 🚀 Published release [`v1.4.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a0d1be85496f6f0733fa0ea83e630730cbf4e010)
 5. 🔥 Deleted a branch `patch-1.4.2` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
