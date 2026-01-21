@@ -33,8 +33,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c3b1b5e88ef7778010d5b14f8962c1dbfb44faef)
 4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a100b10ebb19bd0a9db0a0e3b354e42147973b8c)
 5. ✨ Created a new branch [`patch-v1.4.3`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a69c7368ae682cdee1eb5346248ff8ccede550c3)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a69c7368ae682cdee1eb5346248ff8ccede550c3)
+7. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 8. 🚀 Committed to a private repo
 9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/557840d684cb1053bc4060acd9353c914069582e)
 10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8dbf39491e55a8b9dbfb81eec77d01532115fce5)
