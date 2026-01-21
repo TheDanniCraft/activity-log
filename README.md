@@ -37,7 +37,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a69c7368ae682cdee1eb5346248ff8ccede550c3)
 8. 🚀 Committed to a private repo
 9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/557840d684cb1053bc4060acd9353c914069582e)
-10. 🔥 Deleted a branch `renovate/bun/vercel-nft-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8dbf39491e55a8b9dbfb81eec77d01532115fce5)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
