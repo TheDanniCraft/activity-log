@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🍴 Forked [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
-2. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/1739b37c3d1eb435134876c1656584474c58a4f7)
-3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8d1a95c50918ede106c5b2ca19f8ddecabf9c993)
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8fc024dfacc4b6efdb0ceeafb6c4dfd1a62240b9)
-6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/558e23e42e84566fcba3185395c029a1eeee9856)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to a private repo
-10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/7e7bc3d003e344408ad6092f29997d0f625ec277)
+1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/5c2c3258d49a2a543f9b9b15e9173e6d4ccf3c9e)
+2. 🔥 Deleted a branch `renovate/npm/tiptap-editor` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/50d838e1a4eb4af8721cd0626f6663eb6bf16be4)
+4. 🍴 Forked [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+5. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/1739b37c3d1eb435134876c1656584474c58a4f7)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8d1a95c50918ede106c5b2ca19f8ddecabf9c993)
+8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/8fc024dfacc4b6efdb0ceeafb6c4dfd1a62240b9)
+9. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/558e23e42e84566fcba3185395c029a1eeee9856)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
