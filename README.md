@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release [`v1.4.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🔥 Deleted a tag `v1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔥 Deleted a tag `1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to a private repo
-5. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/5c9fe48dcbf05b01f1bf43db896a0fa2ea2a4bde)
-6. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c3e168e9665c2692ecc31b643046d3a0e3fa5f98)
-8. 🚀 Committed to a private repo
+1. ✨ Created a new branch [`patch-v1.4.4`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Published release [`v1.4.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔥 Deleted a tag `v1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🔥 Deleted a tag `1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/5c9fe48dcbf05b01f1bf43db896a0fa2ea2a4bde)
+7. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c3e168e9665c2692ecc31b643046d3a0e3fa5f98)
 9. 🚀 Committed to a private repo
-10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/e42872fce7c258b1e53e18867267650923fdc39e)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
