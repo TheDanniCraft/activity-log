@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
-2. ✨ Created a new branch [`fix/13334-invalid-sitemap-structure`](https://github.com/TheDanniCraft/chatwoot/tree/fix/13334-invalid-sitemap-structure) in [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot)
-3. 🚀 Committed to [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot/commit/ad2329c237fe1948dbffcadcf4124508095da64a)
-4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/fcf6f6eb7d486c58f921a1f4cf12f6131ac33db2)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb14c900bdfae0c07f15b14a366d6a00c98cd0ed)
-6. ✨ Created a new branch [`patch-v1.4.4`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Published release [`v1.4.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🔥 Deleted a tag `v1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔥 Deleted a tag `1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/a27b78e73abd74fa01fcac37817f9effd8b9e15f)
+2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/3a3b3bb5d21f4670d55f82d47b8ecb9402ebaf29)
+3. 🔀 Opened [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+4. ✨ Created a new branch [`fix/13334-invalid-sitemap-structure`](https://github.com/TheDanniCraft/chatwoot/tree/fix/13334-invalid-sitemap-structure) in [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot)
+5. 🚀 Committed to [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot/commit/ad2329c237fe1948dbffcadcf4124508095da64a)
+6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/fcf6f6eb7d486c58f921a1f4cf12f6131ac33db2)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb14c900bdfae0c07f15b14a366d6a00c98cd0ed)
+8. ✨ Created a new branch [`patch-v1.4.4`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.4.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Published release [`v1.4.3`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🔥 Deleted a tag `v1.4.3` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
