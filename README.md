@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #89](https://github.com/TheDanniCraft/clipify/pull/89) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b83de79ba8f358ea78a48ce16f30115bd36e322c)
-3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/315f0d5bde6ad4d148fecd09301911b25b38a326)
-4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/a27b78e73abd74fa01fcac37817f9effd8b9e15f)
-5. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/3a3b3bb5d21f4670d55f82d47b8ecb9402ebaf29)
-6. 🔀 Opened [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
-7. ✨ Created a new branch [`fix/13334-invalid-sitemap-structure`](https://github.com/TheDanniCraft/chatwoot/tree/fix/13334-invalid-sitemap-structure) in [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot)
-8. 🚀 Committed to [TheDanniCraft/chatwoot](https://github.com/TheDanniCraft/chatwoot/commit/ad2329c237fe1948dbffcadcf4124508095da64a)
-9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/fcf6f6eb7d486c58f921a1f4cf12f6131ac33db2)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb14c900bdfae0c07f15b14a366d6a00c98cd0ed)
+1. 🚀 Published release [`v1.4.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a branch `patch-v1.4.4` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🔀 Merged [PR #89](https://github.com/TheDanniCraft/clipify/pull/89) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b876a5b3bd9bf3f52b2dd1b396a9c42edb96a403)
+5. 🔀 Opened [PR #89](https://github.com/TheDanniCraft/clipify/pull/89) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b83de79ba8f358ea78a48ce16f30115bd36e322c)
+7. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/315f0d5bde6ad4d148fecd09301911b25b38a326)
+8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/a27b78e73abd74fa01fcac37817f9effd8b9e15f)
+9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/3a3b3bb5d21f4670d55f82d47b8ecb9402ebaf29)
+10. 🔀 Opened [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
