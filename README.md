@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/axios-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ec66b37e06f91f77072c8781fbcfeb27d102e757)
-3. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0484da64b966f47bef7c928fadbfd25aaf1efea0)
-4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/e2b83f25843dc1eed70ef5b7fe3a6a04ed4513cc)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c93168506585112f3c571af11eaea2a5ed736ba3)
-7. 🔥 Deleted a branch `renovate/npm/http-client` in a private repo
-8. 🚀 Committed to a private repo
+1. 🔀 Merged [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
+2. 🔥 Deleted a branch `renovate/bun/axios-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ec66b37e06f91f77072c8781fbcfeb27d102e757)
+4. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0484da64b966f47bef7c928fadbfd25aaf1efea0)
+5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/e2b83f25843dc1eed70ef5b7fe3a6a04ed4513cc)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c93168506585112f3c571af11eaea2a5ed736ba3)
+8. 🔥 Deleted a branch `renovate/npm/http-client` in a private repo
 9. 🚀 Committed to a private repo
-10. 🚀 Published release [`v1.4.4`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.4.4) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
