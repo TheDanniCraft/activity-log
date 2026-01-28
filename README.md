@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to a private repo
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/00870c0e9dacba355bba186c0046fd850fb6678a)
+1. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0008c68db565074f1ef08d6e8d4eec86b9aa138d)
+2. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/29bf7ab12758a95ac9bb203e9c71f893bb8309ac)
+3. 🚀 Committed to a private repo
 4. 🚀 Committed to a private repo
-5. 🔀 Merged [PR #13357](https://github.com/chatwoot/chatwoot/pull/13357) in [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot)
-6. 🔥 Deleted a branch `renovate/bun/axios-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ec66b37e06f91f77072c8781fbcfeb27d102e757)
-8. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0484da64b966f47bef7c928fadbfd25aaf1efea0)
-9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/e2b83f25843dc1eed70ef5b7fe3a6a04ed4513cc)
-10. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5cc0b7c616ead803a5c907b530cb7f4a32f71f29)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/b221c8b53d3432b3d0249151b242ab356f546b38)
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0a9b006f6aa00209d362d2aa885c89662db531af)
+8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/a1eb30c53556e98cb0a862e2b78687e2e8af8b41)
+9. 🔥 Deleted a branch `renovate/bun/re2js-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1a083dbe2861810fd4d2fbe22e52a4e029ca87e8)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
