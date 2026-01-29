@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8ecc7db73d40db26329521305243c9a433744bc)
-3. 🔥 Deleted a branch `renovate/bun/nextreact-ecosystem` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3ebf40042875a6e5fbaa4c4b4982701f3eeaeb87)
-5. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f8f80503fa576d2d15f6561e66361e9d2227a8fe)
-7. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/9efdbdc64b88e0f5f6a63962a427a1560e329646)
-8. 🚀 Committed to a private repo
-9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/22ca0ca35eaba70c94708195ae56023b562988e1)
-10. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/07472bccdbf070e8dbadbfb8008803549cd5ea18)
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8773e028ff1a7d1d89d1a96262704ff40de2df10)
+4. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f44194c47b4cd9185caa9ef49d9b50cb6873772b)
+6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/2d89ac5fbbc8fa93788ab7b93bee3c02a4846601)
+7. 🔥 Deleted a branch `renovate/npm/nextreact-ecosystem` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
+8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c7a935640826a28f24c9dda36ae354757f6d6ea3)
+9. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8ecc7db73d40db26329521305243c9a433744bc)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
