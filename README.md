@@ -36,8 +36,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 6. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/2d89ac5fbbc8fa93788ab7b93bee3c02a4846601)
 7. 🔥 Deleted a branch `renovate/npm/nextreact-ecosystem` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
 8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c7a935640826a28f24c9dda36ae354757f6d6ea3)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8ecc7db73d40db26329521305243c9a433744bc)
-10. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8ecc7db73d40db26329521305243c9a433744bc)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
