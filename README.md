@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #101](https://github.com/TheDanniCraft/clipify/pull/101) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. ✨ Created a new branch [`prepare-v1.5.0`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.5.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/07472bccdbf070e8dbadbfb8008803549cd5ea18)
-4. 🚀 Committed to a private repo
-5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8773e028ff1a7d1d89d1a96262704ff40de2df10)
-6. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f44194c47b4cd9185caa9ef49d9b50cb6873772b)
-8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/2d89ac5fbbc8fa93788ab7b93bee3c02a4846601)
-9. 🔥 Deleted a branch `renovate/npm/nextreact-ecosystem` in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio)
-10. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c7a935640826a28f24c9dda36ae354757f6d6ea3)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/526d16f4836a91e052fdfa55845a0a55ace6489a)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9f8d0768911908ec1efa2aedb440393c8678602)
+3. 🔀 Opened [PR #101](https://github.com/TheDanniCraft/clipify/pull/101) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. ✨ Created a new branch [`prepare-v1.5.0`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.5.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/07472bccdbf070e8dbadbfb8008803549cd5ea18)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8773e028ff1a7d1d89d1a96262704ff40de2df10)
+8. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f44194c47b4cd9185caa9ef49d9b50cb6873772b)
+10. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/2d89ac5fbbc8fa93788ab7b93bee3c02a4846601)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
