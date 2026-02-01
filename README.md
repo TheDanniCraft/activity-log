@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/865cdac0c4793606d634f4ac47a32238a685825a)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1eda2ef7c0631b5401a4791cdbdff7e6a5b2acd4)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9d2059c897ff818cd77546b3313afdb4cde67f40)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b742f96871ff0abda0ffca6de88740cf3565eb)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/38835f437c09848fb83d71d1ce5ff75142d95ebf)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b742f96871ff0abda0ffca6de88740cf3565eb)
-7. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b30489c76a8afd3601fd99b97cb800ca2c75c2b)
-9. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67f8c4033cff07ab1241c979b9d9f8fa399cfcb6)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/25031295120ebf7b6e49af441f59ed67e6465ea1)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/865cdac0c4793606d634f4ac47a32238a685825a)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1eda2ef7c0631b5401a4791cdbdff7e6a5b2acd4)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9d2059c897ff818cd77546b3313afdb4cde67f40)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b742f96871ff0abda0ffca6de88740cf3565eb)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/38835f437c09848fb83d71d1ce5ff75142d95ebf)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b742f96871ff0abda0ffca6de88740cf3565eb)
+8. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b30489c76a8afd3601fd99b97cb800ca2c75c2b)
+10. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
