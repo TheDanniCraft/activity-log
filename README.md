@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to a private repo
-2. 🚀 Committed to a private repo
-3. ⭐ Starred [NicKraneis/play-game-night-public](https://github.com/NicKraneis/play-game-night-public)
-4. 🚀 Published release [`v1.5.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.5.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/42b5c3a454402f6c3cd22956b798aa31911db92d)
-6. 🔀 Merged [PR #101](https://github.com/TheDanniCraft/clipify/pull/101) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🔥 Deleted a branch `prepare-v1.5.0` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d3d72f17bfebd5fbedf300030440f7d13cca363d)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b37a3d382a89ec08067df2a0f588ed5cf8af9bf5)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9945e456cf2086b9719016438ed48de5e95ecdfa)
+1. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db0106cfd17c31a2b3723f10bcab4c1082fadb2f)
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d40ceb91d2fbf8e49e57f3cb817a372c47b1cdb7)
+4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/fdb48d47a2cc02bc4db6bf3a7c63cb4bccfd8636)
+5. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2b76b6d15adc16e569bc4a0a40ec9bb3f7c8a274)
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/34d69d249d8b36773685436f540d5676d45e78fa)
+10. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/dd9a95928000f2b16bbde17b066d4897277fa7ba)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
