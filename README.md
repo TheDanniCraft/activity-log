@@ -36,8 +36,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/74df2b4c4d4e6cb95d226aa6ddfeda069f4cba7a)
 7. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1d80fd1165b6e1eaafec1f645922af8b2ebc8991)
-9. 🔥 Deleted a branch `renovate/bun/dotenv-17.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/34375e9e0356d32e03aeff252f5d70f32021407f)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/34375e9e0356d32e03aeff252f5d70f32021407f)
+10. 🔥 Deleted a branch `renovate/bun/dotenv-17.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
