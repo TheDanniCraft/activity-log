@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/35cdaecbd2bd968f34530fa615d821ae1e68b901)
-2. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/41566b7a6c88f2bce651337ca26855bd3c1ac57b)
-3. 🚀 Committed to a private repo
-4. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/40efa83b76f0208b26a497e4d00ceb6a18e56c52)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/431fd0143c6e2ca4c60ce3137b5f264f2df48045)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/b4746eff7afdd586fc12bb9c0c1c9c6231299acb)
-9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/cb61c33b7fea8b0f4f91b501fa0759fc6dd840b5)
-10. 🚀 Committed to a private repo
+1. ✨ Created a new branch [`patch-v1.5.3`](https://github.com/TheDanniCraft/clipify/tree/patch-v1.5.3) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/35cdaecbd2bd968f34530fa615d821ae1e68b901)
+3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/41566b7a6c88f2bce651337ca26855bd3c1ac57b)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/40efa83b76f0208b26a497e4d00ceb6a18e56c52)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/431fd0143c6e2ca4c60ce3137b5f264f2df48045)
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/b4746eff7afdd586fc12bb9c0c1c9c6231299acb)
+10. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/cb61c33b7fea8b0f4f91b501fa0759fc6dd840b5)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
