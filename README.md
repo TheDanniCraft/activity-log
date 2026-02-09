@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/ed7e0bc22b1014b216e78f671f25cf4b51803ee7)
-2. 🚀 Published release [`v1.5.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.5.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2ae16b99e827de5b3ef7dcca47e209801117fff8)
-4. 🔥 Deleted a branch `patch-v1.5.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🔀 Merged [PR #114](https://github.com/TheDanniCraft/clipify/pull/114) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3c1296e71e6a9ef454a439715cbadc0882151cb5)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1d73b9956ff53a65ba98acab4d53281cadfc7bf3)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b886a5449994f3eb45b88f390846c477a8238e4)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c0e394b825a4bf844d2016dfadb4b28d65ea43f5)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7cbcc86afa8d9b2abb0b4ff0ff9eeaf2317a5450)
+1. 🚀 Committed to a private repo
+2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/40efa83b76f0208b26a497e4d00ceb6a18e56c52)
+3. 🚀 Committed to a private repo
+4. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/431fd0143c6e2ca4c60ce3137b5f264f2df48045)
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/b4746eff7afdd586fc12bb9c0c1c9c6231299acb)
+7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/cb61c33b7fea8b0f4f91b501fa0759fc6dd840b5)
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac7aba4488f11ae7d2563ede9c9af8415653859c)
+10. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
