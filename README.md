@@ -37,7 +37,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 7. 🚀 Published release [`v1.5.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.5.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a7f4a707a53f7cb4dd739200f1ebeb7156d36f1)
 9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/954a2a8923b485cc4135244071200100486272db)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/710eb0ac8760be297ab6f409f52c9d9e324956ca)
+10. 🔥 Deleted a branch `patch-v1.5.5` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
