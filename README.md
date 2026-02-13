@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/606ffd717be9af6aeefecc5f37ab2061081dbba9)
-2. 🔥 Deleted a branch `renovate/bun/minimatch-10.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37602836bed06bb895d87c952013533510dc2b4f)
-4. 🔥 Deleted a branch `renovate/bun/dotenv-17.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b47620af8eabeeaf5bb27fe38525b75f03621e96)
-6. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/060fb1347c3da9bd0f85d749d11c2467dfbdf5fb)
-7. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3893099453)
-8. 🚀 Published release [`v1.5.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.5.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a7f4a707a53f7cb4dd739200f1ebeb7156d36f1)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/954a2a8923b485cc4135244071200100486272db)
+1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/edb326b64edcea9375c95d5a3f224bdfea8b9202)
+2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/606ffd717be9af6aeefecc5f37ab2061081dbba9)
+3. 🔥 Deleted a branch `renovate/bun/minimatch-10.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37602836bed06bb895d87c952013533510dc2b4f)
+5. 🔥 Deleted a branch `renovate/bun/dotenv-17.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b47620af8eabeeaf5bb27fe38525b75f03621e96)
+7. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/060fb1347c3da9bd0f85d749d11c2467dfbdf5fb)
+8. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3893099453)
+9. 🚀 Published release [`v1.5.5`](https://github.com/TheDanniCraft/clipify/releases/tag/v1.5.5) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a7f4a707a53f7cb4dd739200f1ebeb7156d36f1)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
