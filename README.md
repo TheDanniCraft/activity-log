@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/71b2a8b89156f36035d49ca7fbf2083b7a9cd2be)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/78c145e879b9684b27f66ff0c7d04120c0401a30)
-3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f60294587fc704cea9e62baa5809538a0b96fa04)
-4. 🔀 Opened [PR #1](https://github.com/TheDanniCraft/numok/pull/1) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
-5. 🔀 Opened [PR #15](https://github.com/dfg-ar/numok/pull/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
-6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/ecd4e4850d17b8c169b7fb2779fd8a89a2e2ff0a)
-7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f4d7e0c817ad5482256e14c00fd2bee75ed5c989)
-8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/edb326b64edcea9375c95d5a3f224bdfea8b9202)
-9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/606ffd717be9af6aeefecc5f37ab2061081dbba9)
-10. 🔥 Deleted a branch `renovate/bun/minimatch-10.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/9e0a7438eaa7e7379729768049ba3ab637f6e59d)
+2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/71b2a8b89156f36035d49ca7fbf2083b7a9cd2be)
+3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/78c145e879b9684b27f66ff0c7d04120c0401a30)
+4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f60294587fc704cea9e62baa5809538a0b96fa04)
+5. 🔀 Opened [PR #1](https://github.com/TheDanniCraft/numok/pull/1) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+6. 🔀 Opened [PR #15](https://github.com/dfg-ar/numok/pull/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok)
+7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/ecd4e4850d17b8c169b7fb2779fd8a89a2e2ff0a)
+8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f4d7e0c817ad5482256e14c00fd2bee75ed5c989)
+9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/edb326b64edcea9375c95d5a3f224bdfea8b9202)
+10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/606ffd717be9af6aeefecc5f37ab2061081dbba9)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
