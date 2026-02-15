@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/3362ef37211e824e5dc010d0d3a2d0ad8732db0b)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/2e3708b2738cf4a50e24faff63508cad2cbc5f7f)
-3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/42c381e3390ddb5850339d608a81652ba02d109f)
-4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/fa7286adcae446495701d9487fadd98e144407e0)
-5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/6a1e04959d3acfef8a47ea94832eeba5c2d6c129)
-6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/9e0a7438eaa7e7379729768049ba3ab637f6e59d)
-7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/71b2a8b89156f36035d49ca7fbf2083b7a9cd2be)
-8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/78c145e879b9684b27f66ff0c7d04120c0401a30)
-9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f60294587fc704cea9e62baa5809538a0b96fa04)
-10. 🔀 Opened [PR #1](https://github.com/TheDanniCraft/numok/pull/1) in [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok)
+1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/c1b035127fec69979227d4ec39b3dc2ca89f865f)
+2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/006f11a834c260114439d9a8442bbef06c891306)
+3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/3362ef37211e824e5dc010d0d3a2d0ad8732db0b)
+4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/2e3708b2738cf4a50e24faff63508cad2cbc5f7f)
+5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/42c381e3390ddb5850339d608a81652ba02d109f)
+6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/fa7286adcae446495701d9487fadd98e144407e0)
+7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/6a1e04959d3acfef8a47ea94832eeba5c2d6c129)
+8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/9e0a7438eaa7e7379729768049ba3ab637f6e59d)
+9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/71b2a8b89156f36035d49ca7fbf2083b7a9cd2be)
+10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/78c145e879b9684b27f66ff0c7d04120c0401a30)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
