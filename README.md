@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4d69ba50a4c8e358964ed2980a62793f08a464ba)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/073563da365b13d737704f6151191c7115c9de8f)
-3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f85e43c17fd5a5308a4d5b0f14433944e7632453)
-4. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0da501d86daabeff6c7510629c6c74224e4ec72b)
-5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9fbd9a8153599c1be2075697b56836edcbeaa98b)
-6. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7513afd4d21cfe0014dc7643b63bd282cf05fc04)
-7. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/513a77d70119b914b4fadff159a7525c1d5ef4db)
-9. 🚀 Committed to [TheDanniCraft/gamerforge-guide](https://github.com/TheDanniCraft/gamerforge-guide/commit/c0ccd14eb46439f6bd5ae202122a024f7c104397)
-10. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/5e48a395215d622a81a9ec540d087a7d5878252a)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19237d41e8cba51ff62ba8a66e626d330863d06c)
+2. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3910544378)
+3. 🗣 Commented on issue [#15](https://github.com/dfg-ar/numok/issues/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/15#issuecomment-3910527334)
+4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4d69ba50a4c8e358964ed2980a62793f08a464ba)
+5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/073563da365b13d737704f6151191c7115c9de8f)
+6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f85e43c17fd5a5308a4d5b0f14433944e7632453)
+7. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0da501d86daabeff6c7510629c6c74224e4ec72b)
+8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9fbd9a8153599c1be2075697b56836edcbeaa98b)
+9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7513afd4d21cfe0014dc7643b63bd282cf05fc04)
+10. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
