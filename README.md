@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/5e48a395215d622a81a9ec540d087a7d5878252a)
-2. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/a87312bd5366ad776beb69681e107f5e889f2b1a)
-3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2cc08e35561d206acac96d3500c228e423ee44ea)
-4. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/1cfbe325c42453edd56f019d5ff295ec8a7b06ee)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to a private repo
-7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6c17a30766fc8caa59857aaa9760c07136eef701)
-8. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/8b0b911b497b691ef784ef90c38de8b052f005e6)
-9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/88a9de8171f15c41ea59261399ca392a82062517)
-10. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0da501d86daabeff6c7510629c6c74224e4ec72b)
+2. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9fbd9a8153599c1be2075697b56836edcbeaa98b)
+3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7513afd4d21cfe0014dc7643b63bd282cf05fc04)
+4. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/513a77d70119b914b4fadff159a7525c1d5ef4db)
+6. 🚀 Committed to [TheDanniCraft/gamerforge-guide](https://github.com/TheDanniCraft/gamerforge-guide/commit/c0ccd14eb46439f6bd5ae202122a024f7c104397)
+7. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/5e48a395215d622a81a9ec540d087a7d5878252a)
+8. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/a87312bd5366ad776beb69681e107f5e889f2b1a)
+9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2cc08e35561d206acac96d3500c228e423ee44ea)
+10. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/1cfbe325c42453edd56f019d5ff295ec8a7b06ee)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
