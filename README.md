@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/09424ef0e7d153b052d044fe1681c6ac76eaee09)
-2. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4316b546eec9fba2e32ba9bd2fa9da65797c58b3)
-3. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/105294ef5487f3316eb72563863447525bdd5bfd)
-4. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/c1b035127fec69979227d4ec39b3dc2ca89f865f)
-5. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/006f11a834c260114439d9a8442bbef06c891306)
-6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/3362ef37211e824e5dc010d0d3a2d0ad8732db0b)
-7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/2e3708b2738cf4a50e24faff63508cad2cbc5f7f)
-8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/42c381e3390ddb5850339d608a81652ba02d109f)
-9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/fa7286adcae446495701d9487fadd98e144407e0)
-10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/6a1e04959d3acfef8a47ea94832eeba5c2d6c129)
+1. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/5e48a395215d622a81a9ec540d087a7d5878252a)
+2. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/a87312bd5366ad776beb69681e107f5e889f2b1a)
+3. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2cc08e35561d206acac96d3500c228e423ee44ea)
+4. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/1cfbe325c42453edd56f019d5ff295ec8a7b06ee)
+5. 🚀 Committed to a private repo
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/6c17a30766fc8caa59857aaa9760c07136eef701)
+8. 🚀 Committed to [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/8b0b911b497b691ef784ef90c38de8b052f005e6)
+9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/88a9de8171f15c41ea59261399ca392a82062517)
+10. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
