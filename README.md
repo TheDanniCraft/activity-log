@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3915079794)
-2. ⭐ Starred [peakoss/anti-slop](https://github.com/peakoss/anti-slop)
-3. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/9e9a1e3fc4be8724d70475d6211e9d090634b6bc)
-4. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ae2553a5ac42bb99184fa3cf3c5df011a1620fe)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19237d41e8cba51ff62ba8a66e626d330863d06c)
-7. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3910544378)
-8. 🗣 Commented on issue [#15](https://github.com/dfg-ar/numok/issues/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/15#issuecomment-3910527334)
-9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4d69ba50a4c8e358964ed2980a62793f08a464ba)
-10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/073563da365b13d737704f6151191c7115c9de8f)
+1. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dd007eef1a157e48165df6645ec4b7ec13f2f111)
+3. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/1edd98b9a5cc99c06aa8f128cd09fb5a25c5b9f5)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ece9921399bc780e0ce44845196df653265b0197)
+6. 🔥 Deleted a branch `renovate/bun/minimatch-10.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to a private repo
+8. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3915079794)
+9. ⭐ Starred [peakoss/anti-slop](https://github.com/peakoss/anti-slop)
+10. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/9e9a1e3fc4be8724d70475d6211e9d090634b6bc)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
