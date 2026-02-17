@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ae2553a5ac42bb99184fa3cf3c5df011a1620fe)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19237d41e8cba51ff62ba8a66e626d330863d06c)
-4. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3910544378)
-5. 🗣 Commented on issue [#15](https://github.com/dfg-ar/numok/issues/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/15#issuecomment-3910527334)
-6. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4d69ba50a4c8e358964ed2980a62793f08a464ba)
-7. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/073563da365b13d737704f6151191c7115c9de8f)
-8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f85e43c17fd5a5308a4d5b0f14433944e7632453)
-9. 🚀 Committed to [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/0da501d86daabeff6c7510629c6c74224e4ec72b)
-10. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9fbd9a8153599c1be2075697b56836edcbeaa98b)
+1. ⭐ Starred [peakoss/anti-slop](https://github.com/peakoss/anti-slop)
+2. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/9e9a1e3fc4be8724d70475d6211e9d090634b6bc)
+3. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ae2553a5ac42bb99184fa3cf3c5df011a1620fe)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19237d41e8cba51ff62ba8a66e626d330863d06c)
+6. 🗣 Commented on issue [#11](https://github.com/dfg-ar/numok/issues/11) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/11#issuecomment-3910544378)
+7. 🗣 Commented on issue [#15](https://github.com/dfg-ar/numok/issues/15) in [dfg-ar/numok](https://github.com/dfg-ar/numok): [View Comment](https://github.com/dfg-ar/numok/issues/15#issuecomment-3910527334)
+8. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/4d69ba50a4c8e358964ed2980a62793f08a464ba)
+9. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/073563da365b13d737704f6151191c7115c9de8f)
+10. 🚀 Committed to [TheDanniCraft/numok](https://github.com/TheDanniCraft/numok/commit/f85e43c17fd5a5308a4d5b0f14433944e7632453)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
