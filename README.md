@@ -36,8 +36,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fca0e407f95ddb4c83c363a7f1140d1f0d9ceb81)
 7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/526374558eebfbb6b3de38bcdb90de283a5620ee)
 8. 🔥 Deleted a branch `renovate/bun/tabler-icons-react-3.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/619f1ffc098427c56fef69f13e493dd278ce6c1d)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/619f1ffc098427c56fef69f13e493dd278ce6c1d)
+10. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
