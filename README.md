@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a23ad96784c3c898b7836276c6253a9ca3265d47)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4dd830412272a409836321f21d3805ff8e7216c)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0ab8d49f7f27e4d0462e95e4a6f851b158102aa1)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb94b7a91c48fd879b572a7cdeaa861fdbc338f7)
-5. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5792d9ee8daeb632fd0dcac3e029c4fa7cf176c3)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3e42e00149129ac859c29c044554274e685339de)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d17f7c041cb10daf38d4000d83e22feb8284ac3e)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c4f01d6811c68470a638e73a874304dc75900aa4)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0df522647cfd162df1090ec2b2d9f753a15f1c92)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9144e477624c5e25abfb2db4465d95ecf1230b1)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a23ad96784c3c898b7836276c6253a9ca3265d47)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4dd830412272a409836321f21d3805ff8e7216c)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0ab8d49f7f27e4d0462e95e4a6f851b158102aa1)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb94b7a91c48fd879b572a7cdeaa861fdbc338f7)
+6. 🔥 Deleted a branch `renovate/bun/typescript-and-types` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5792d9ee8daeb632fd0dcac3e029c4fa7cf176c3)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3e42e00149129ac859c29c044554274e685339de)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d17f7c041cb10daf38d4000d83e22feb8284ac3e)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c4f01d6811c68470a638e73a874304dc75900aa4)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
