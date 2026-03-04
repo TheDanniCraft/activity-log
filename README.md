@@ -33,8 +33,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 3. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/1bbf94864e78ae988f667c72bfd3f8e3dea3d0db)
 4. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/cdf95a6dd91a1f826a86c4686ac7c3341a0168e9)
 5. ✨ Created a new branch [`master`](https://github.com/TheDanniCraft/SES-Template-Pilot/tree/master) in [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a84b8c194fcad7675043a09edacf433139177b88)
-7. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+6. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a84b8c194fcad7675043a09edacf433139177b88)
 8. 🚀 Committed to [TheDanniCraft/next.js](https://github.com/TheDanniCraft/next.js/commit/c371297ce9c9accb5c603a60eb08d111c5cf52f8)
 9. 🚀 Committed to a private repo
 10. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/abdbbc772b346d314c67839c2b0feaf01d6b40e3)
