@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8f914e02ae56044d20e97f4f44de000d7d5b1895)
-2. 🔀 Opened [PR #162](https://github.com/TheDanniCraft/clipify/pull/162) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2a6879e8bc582ae3e3a453011d11dba65cf410ba)
-4. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a49d009963959ac7cc58f5110b16a0629f5e3f3d)
-6. 🔥 Deleted a branch `renovate/github-actions/major-github-actions` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d4a6f81b64a9c474d9983a7cd777b432dec743b6)
-8. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/10a3575bfc5a1a150645698d0c896857f5783d9f)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6674a3821fdef28b9deea1bb0c768b7264ac1366)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e55a1bb3d6d5a0c66e8354d5111781a87c855db)
+2. 🚀 Committed to a private repo
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4b531b4968c3bf71d710b0bf74cbbd0a3b1f0bd4)
+4. 🚀 Committed to a private repo
+5. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ba26125a2d53fcf31784fd1ad1bafa0c2f55cd0a)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to a private repo
+8. 🚀 Committed to [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/82790d2b25c79d709c6f06f200d4e9441939f902)
+9. 🚀 Committed to [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/cef09f428320fba79df835acde6b83882e054202)
+10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
 ## 📖Usage
