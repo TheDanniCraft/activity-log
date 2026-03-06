@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch [`prepare-v1.6.2`](https://github.com/TheDanniCraft/clipify/tree/prepare-v1.6.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/3660d8994b55801f728778976456171141d015f0)
-3. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/9b9fbe3022ce611f9adfc6ac9943e62e1764ffa4)
-4. ⭐ Starred [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot)
-5. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/54b6e10d89ae99311a214f88f0ae58c223c7a4fc)
-6. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/1bbf94864e78ae988f667c72bfd3f8e3dea3d0db)
-7. 🚀 Committed to [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot/commit/cdf95a6dd91a1f826a86c4686ac7c3341a0168e9)
-8. ✨ Created a new branch [`master`](https://github.com/TheDanniCraft/SES-Template-Pilot/tree/master) in [TheDanniCraft/SES-Template-Pilot](https://github.com/TheDanniCraft/SES-Template-Pilot)
-9. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a84b8c194fcad7675043a09edacf433139177b88)
+1. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a49d009963959ac7cc58f5110b16a0629f5e3f3d)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d4a6f81b64a9c474d9983a7cd777b432dec743b6)
+4. 🔥 Deleted a branch `renovate/github-actions/major-github-actions` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/10a3575bfc5a1a150645698d0c896857f5783d9f)
+6. 🔥 Deleted a branch `renovate/bun/database-(drizzlepg)` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6674a3821fdef28b9deea1bb0c768b7264ac1366)
+8. 🔥 Deleted a branch `renovate/bun/sentry-javascript-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🔥 Deleted a branch `renovate/bun/tabler-icons-react-3.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b522117ef19bfc84de8d3dc5aa2352782799f63)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
