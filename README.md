@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch [`master`](https://github.com/Template-Pilot/template-pilot-docs/tree/master) in [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee294fbec0c4a998a7f4e5af1a81eb0ae7e2b976)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae940272c6957e6bdeb49aff3648f53c688cac0b)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c080eb2a054b6369f1f4a35ff1eb00ee1934fcbb)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/71b733aa0fb5f6cc05b9892955a82f37caf85c08)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/975597516d41fe4b6bc235736a5fcd21706b0838)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/190bf1bed1ce2ce244595026705b30f935696411)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/52372decaeb4fdb175537ccd73dbd04fa5fe92c7)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/613dc4a94f4888bff3b795a2764f0d6a50d4e4fa)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e55a1bb3d6d5a0c66e8354d5111781a87c855db)
+1. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/501af4db9739c35cfa5fe4bc7bd615a072e15d46)
+2. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/28611bc99856d5f8d7771f9df2e36cd60b990dd2)
+3. 🚀 Committed to [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/0ce44ce73740a0192f621428dc1445c4bbb52eeb)
+4. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/923d6e8a0aa99e5c284f76fe33490dfa2cf5e399)
+5. ✨ Created a new branch [`master`](https://github.com/Template-Pilot/template-pilot-docs/tree/master) in [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ee294fbec0c4a998a7f4e5af1a81eb0ae7e2b976)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae940272c6957e6bdeb49aff3648f53c688cac0b)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c080eb2a054b6369f1f4a35ff1eb00ee1934fcbb)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/71b733aa0fb5f6cc05b9892955a82f37caf85c08)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/975597516d41fe4b6bc235736a5fcd21706b0838)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
