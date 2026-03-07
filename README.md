@@ -28,15 +28,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/190bf1bed1ce2ce244595026705b30f935696411)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/52372decaeb4fdb175537ccd73dbd04fa5fe92c7)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/613dc4a94f4888bff3b795a2764f0d6a50d4e4fa)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e55a1bb3d6d5a0c66e8354d5111781a87c855db)
-5. 🚀 Committed to a private repo
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4b531b4968c3bf71d710b0bf74cbbd0a3b1f0bd4)
-7. 🚀 Committed to a private repo
-8. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ba26125a2d53fcf31784fd1ad1bafa0c2f55cd0a)
-9. 🚀 Committed to a private repo
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/975597516d41fe4b6bc235736a5fcd21706b0838)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/190bf1bed1ce2ce244595026705b30f935696411)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/52372decaeb4fdb175537ccd73dbd04fa5fe92c7)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/613dc4a94f4888bff3b795a2764f0d6a50d4e4fa)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6e55a1bb3d6d5a0c66e8354d5111781a87c855db)
+6. 🚀 Committed to a private repo
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4b531b4968c3bf71d710b0bf74cbbd0a3b1f0bd4)
+8. 🚀 Committed to a private repo
+9. 🚀 Committed to [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ba26125a2d53fcf31784fd1ad1bafa0c2f55cd0a)
 10. 🚀 Committed to a private repo
 <!--END_SECTION:activity-->
 
