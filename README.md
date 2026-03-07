@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9c3d45658af4a5cfdf7f7a9cb31cac4ee65a602)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/179ac946932a9b2a9072e312146b31d5df24c4f3)
-3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/72213e51ccd17041e764c9f8ad888a68d662e79d)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/130d1c95dffbbae6e3973fceb56cd95394bc5256)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/78095bba97a3272ee468ff0997ce94bb08d123bc)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ed3da5376ba6e035a4455c13d913270a35f53f58)
-7. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/501af4db9739c35cfa5fe4bc7bd615a072e15d46)
-8. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/28611bc99856d5f8d7771f9df2e36cd60b990dd2)
-9. 🚀 Committed to [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/0ce44ce73740a0192f621428dc1445c4bbb52eeb)
-10. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/923d6e8a0aa99e5c284f76fe33490dfa2cf5e399)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/daa9a455457a5c0a40118bfab8b6ba99026055dd)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9c3d45658af4a5cfdf7f7a9cb31cac4ee65a602)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/179ac946932a9b2a9072e312146b31d5df24c4f3)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/72213e51ccd17041e764c9f8ad888a68d662e79d)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/130d1c95dffbbae6e3973fceb56cd95394bc5256)
+6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/78095bba97a3272ee468ff0997ce94bb08d123bc)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ed3da5376ba6e035a4455c13d913270a35f53f58)
+8. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/501af4db9739c35cfa5fe4bc7bd615a072e15d46)
+9. 🚀 Committed to [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/28611bc99856d5f8d7771f9df2e36cd60b990dd2)
+10. 🚀 Committed to [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/0ce44ce73740a0192f621428dc1445c4bbb52eeb)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
