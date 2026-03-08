@@ -34,8 +34,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5795136a83f8537280c3b9fb715d77c4cc4908da)
 5. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/48bfbde82dbc7309430d9eca5c8656661eb57123)
-7. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87091142da0e634f999e2b5ba3706fd095386d12)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87091142da0e634f999e2b5ba3706fd095386d12)
+8. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 9. 🔀 Opened [PR #168](https://github.com/TheDanniCraft/clipify/pull/168) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 10. ❌ Closed [PR #162](https://github.com/TheDanniCraft/clipify/pull/162) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 <!--END_SECTION:activity-->
