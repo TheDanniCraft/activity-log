@@ -28,8 +28,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d32bc284de9d54852c042ecdaf70471449f9d83d)
-2. 🔥 Deleted a branch `renovate/bun/linting` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🔥 Deleted a branch `renovate/bun/linting` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d32bc284de9d54852c042ecdaf70471449f9d83d)
 3. 🔥 Deleted a branch `renovate/bun/tabler-icons-react-3.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5795136a83f8537280c3b9fb715d77c4cc4908da)
 5. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
