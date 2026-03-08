@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d32bc284de9d54852c042ecdaf70471449f9d83d)
-2. 🔥 Deleted a branch `renovate/bun/linting` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔥 Deleted a branch `renovate/bun/tabler-icons-react-3.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5795136a83f8537280c3b9fb715d77c4cc4908da)
-5. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/48bfbde82dbc7309430d9eca5c8656661eb57123)
-7. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87091142da0e634f999e2b5ba3706fd095386d12)
-9. 🔀 Opened [PR #168](https://github.com/TheDanniCraft/clipify/pull/168) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. ❌ Closed [PR #162](https://github.com/TheDanniCraft/clipify/pull/162) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+1. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/60906fb452f578eb2d4d10ceb1dc80ab96144e4a)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/343bbce6ad45eee1a6d5bf0fd428d91ce158b21b)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d32bc284de9d54852c042ecdaf70471449f9d83d)
+4. 🔥 Deleted a branch `renovate/bun/linting` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5795136a83f8537280c3b9fb715d77c4cc4908da)
+6. 🔥 Deleted a branch `renovate/bun/tabler-icons-react-3.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🔥 Deleted a branch `renovate/bun/stripe` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/48bfbde82dbc7309430d9eca5c8656661eb57123)
+9. 🔥 Deleted a branch `renovate/bun/heroui-react-2.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87091142da0e634f999e2b5ba3706fd095386d12)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
