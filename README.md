@@ -29,8 +29,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🚀 Published release [`v2.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2562003c7cd7d9a8056e928962cb63aa2515f9d7)
-3. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2562003c7cd7d9a8056e928962cb63aa2515f9d7)
 4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e28c01797bc6daf6a4d9240013721bd9010f286)
 5. 🔥 Deleted a branch `renovate/bun/usesend-js-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
 6. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44a98319f566c84ea2d218f22530d61d244d1866)
