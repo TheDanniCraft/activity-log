@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened [PR #174](https://github.com/TheDanniCraft/clipify/pull/174) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f82f297cd32b2511f985973366f7720c0027469b)
-3. ✨ Created a new branch [`hotfix-v2.0.2`](https://github.com/TheDanniCraft/clipify/tree/hotfix-v2.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Published release [`v2.0.1`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f6ee106a23df848001d564835143450e11fa17cf)
-6. 🔥 Deleted a branch `prepare-v2.0.1` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8ea4174f1003331307d516b3fe747d1085091021)
-8. 🔀 Merged [PR #173](https://github.com/TheDanniCraft/clipify/pull/173) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcca5f285823c8dbe01bad9e962f0c97148b62dc)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3347ad49dd086879eea49fed990eb6ce6b9018b)
+1. 🔥 Deleted a branch `renovate/bun/jest-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a224d18f43cdd04101036e19257f9cf9f28b62a)
+3. 🚀 Published release [`v2.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+4. 🔥 Deleted a branch `hotfix-v2.0.2` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/286b0039e9ba24e7d08a220b0a6dc47abcbaa979)
+6. 🔀 Merged [PR #174](https://github.com/TheDanniCraft/clipify/pull/174) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f5b34acd73617608d72e53be6d3515fc042955d)
+8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/90e6b979b04d171b4bdf6c4cc71e6e8f43fae684)
+9. 🔀 Opened [PR #174](https://github.com/TheDanniCraft/clipify/pull/174) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f82f297cd32b2511f985973366f7720c0027469b)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
