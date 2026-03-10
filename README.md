@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f1905332f5e2601bd939b7e675b7e13de64016f1)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3cc2696d49c4e55cdd9e982f3331f451410771fd)
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0a63d93046667c9c314a463b5a770e7288b93441)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/fcc3d5bb0913c6ee892eba3f07b98d3c85e7a099)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0a63d93046667c9c314a463b5a770e7288b93441)
-6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/4c2a2a0fcd1d58b9722e886e9fe358d196cd7f93)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/30d14433a2b9917e013ea2e2232681a2d4b51866)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/6edd140ee143839952fed0f493bbd0c3eacc94ca)
-9. ✨ Created a new branch [`chore/qol-docs-refactor`](https://github.com/TheDanniCraft/activity-log/tree/chore/qol-docs-refactor) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-10. 🔀 Merged [PR #109](https://github.com/TheDanniCraft/activity-log/pull/109) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/877ffad9032fb068aa786817be76102efb2bbf63)
+2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/40d2e6da17a4d0cff454a87b40de6ce356f2fdb7)
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0707d85be0e5cd4501ab37713850e32e78acc3b5)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0ce34d662dc6dd70c8ce6fe1da57e69604014f22)
+5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c8ce2f540b10590ea2632a54ad757946f71bcbab)
+6. 🔀 Opened [PR #110](https://github.com/TheDanniCraft/activity-log/pull/110) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5dda0ebd1089c6d9e3dfced8d857999e0a7a3a5b)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f1905332f5e2601bd939b7e675b7e13de64016f1)
+9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3cc2696d49c4e55cdd9e982f3331f451410771fd)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0a63d93046667c9c314a463b5a770e7288b93441)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
