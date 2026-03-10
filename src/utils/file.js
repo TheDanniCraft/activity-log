@@ -89,7 +89,7 @@ async function updateReadme(activity) {
             repo,
             base_tree: treeSha,
             tree: [{
-                path: readmePath.replace(/^.*[\\\/]/, ''),
+                path: readmePath.replace(/\\/g, '/').replace(/^\.\//, ''),
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent

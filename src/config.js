@@ -2,11 +2,26 @@ import { getInput, notice, setFailed } from '@actions/core';
 import { parse } from 'yaml';
 
 function processIgnoreEvents(value) {
+    if (!value || value.trim() === '') {
+        return [];
+    }
+
+    try {
+        const parsed = JSON.parse(value);
+        if (Array.isArray(parsed)) {
+            return parsed
+                .map((event) => String(event).trim())
+                .filter(Boolean);
+        }
+    } catch {
+        // Fallback for non-JSON comma-separated input.
+    }
+
     return value
-        .replace(/^\[|\]$/g, '') // Remove leading and trailing brackets
+        .replace(/^\[|\]$/g, '')
         .split(',')
-        .map(event => event.trim())
-        .filter(Boolean); // Remove any empty values
+        .map((event) => event.trim().replace(/^['"]|['"]$/g, ''))
+        .filter(Boolean);
 }
 
 function processEventLimit(value) {
@@ -34,7 +49,7 @@ function processStyle(value) {
         process.exit(1);
     }
 
-    return value;
+    return style;
 }
 
 function processBooleanInput(value, inputName) {
