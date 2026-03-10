@@ -175,6 +175,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
+| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `""`                                    | Template string                                                             |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -198,6 +199,29 @@ with:
 ```
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
+
+## 🎯 Custom Event Templates
+
+You can customize event rendering with one global template using `EVENT_TEMPLATE`.
+
+Supported placeholders:
+
+- `{emoji}`
+- `{event_type}`
+- `{action}`
+- `{repo}`
+- `{repo_url}`
+- `{date}`
+- `{number}`
+- `{url}`
+- `{ref}`
+- `{ref_type}`
+
+Example:
+
+```yaml
+EVENT_TEMPLATE: "{emoji} {action} [{repo}]({repo_url})"
+```
 
 ## 📜License
 

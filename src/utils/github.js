@@ -1,7 +1,17 @@
 import { getOctokit } from '@actions/github';
 import { warning } from '@actions/core';
 import eventDescriptions from './eventDescriptions.js';
-import { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos } from '../config.js';
+import { applyTemplate, extractEventData } from './templateEngine.js';
+import {
+    username,
+    token,
+    eventLimit,
+    style,
+    ignoreEvents,
+    hideDetailsOnPrivateRepos,
+    eventEmojiMap,
+    eventTemplate
+} from '../config.js';
 
 // Create an authenticated Octokit client
 const octokit = getOctokit(token);
@@ -168,17 +178,25 @@ async function fetchAndFilterEvents() {
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
 
-        let description;
-        if (!eventDescriptions[type]) {
-            warning(`Unknown event type: ${type}`);
-            description = `Unknown event in ${repo.name}`;
-        } else if (typeof eventDescriptions[type] === 'function') {
-            description = eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
-        } else if (eventDescriptions[type][action]) {
-            description = eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos });
-        } else {
-            warning(`Unknown action "${action}" for event type "${type}"`);
-            description = `Unknown ${type} action in ${repo.name}`;
+        let description = null;
+
+        if (eventTemplate) {
+            const eventData = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
+            description = applyTemplate(eventTemplate, eventData);
+        }
+
+        if (!description) {
+            if (!eventDescriptions[type]) {
+                warning(`Unknown event type: ${type}`);
+                description = `Unknown event in ${repo.name}`;
+            } else if (typeof eventDescriptions[type] === 'function') {
+                description = eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
+            } else if (eventDescriptions[type][action]) {
+                description = eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos });
+            } else {
+                warning(`Unknown action "${action}" for event type "${type}"`);
+                description = `Unknown ${type} action in ${repo.name}`;
+            }
         }
 
         return style === 'MARKDOWN'

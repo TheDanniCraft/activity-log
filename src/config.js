@@ -67,6 +67,16 @@ function processBooleanInput(value, inputName) {
     return boolValue === 'true';
 }
 
+function processEventTemplate(value) {
+    if (!value || value.trim() === '') {
+        notice('ℹ️ No custom EVENT_TEMPLATE provided, using default event descriptions.');
+        return null;
+    }
+    const template = value.trim();
+    notice(`🧩 Using EVENT_TEMPLATE: ${template}`);
+    return template;
+}
+
 function processEventEmojiMap(value) {
     const map = {
         PushEvent: "📝",
@@ -164,6 +174,7 @@ const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_
 const readmePath = getInput('README_PATH');
 const commitMessage = getInput('COMMIT_MESSAGE');
 const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
+const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
 const dryRun = processBooleanInput(getInput('DRY_RUN'), 'DRY_RUN');
 
 export {
@@ -176,5 +187,6 @@ export {
     readmePath,
     commitMessage,
     eventEmojiMap,
+    eventTemplate,
     dryRun,
 };

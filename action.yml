@@ -41,6 +41,13 @@ inputs:
           opened: "🆕"
     required: false
     default: ""
+  EVENT_TEMPLATE:
+    description: |
+      Template string used to render all events.
+      Placeholders: {emoji}, {event_type}, {action}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}
+      Example: "{emoji} {action} [{repo}]({repo_url})"
+    required: false
+    default: ""
   DRY_RUN:
     description: Enable dry run mode (no changes will be committed)
     required: false
