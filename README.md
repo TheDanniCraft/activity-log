@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Activity Log</h1>
+y<h1 align="center" id="title">Activity Log</h1>
 
 ![activity log](https://socialify.git.ci/TheDanniCraft/activity-log/image?forks=1&issues=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66677362&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
@@ -13,6 +13,13 @@
 </p>
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
+
+## 📚 Project Docs
+
+- [Contributing Guidelines](./CONTRIBUTING.md)
+- [Security Policy](./SECURITY.md)
+- [Support Guide](./SUPPORT.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ## 🛠️Features
 
@@ -168,6 +175,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
+| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `""`                                    | Template string                                                             |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -191,6 +199,29 @@ with:
 ```
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
+
+## 🎯 Custom Event Templates
+
+You can customize event rendering with one global template using `EVENT_TEMPLATE`.
+
+Supported placeholders:
+
+- `{emoji}`
+- `{event_type}`
+- `{action}`
+- `{repo}`
+- `{repo_url}`
+- `{date}`
+- `{number}`
+- `{url}`
+- `{ref}`
+- `{ref_type}`
+
+Example:
+
+```yaml
+EVENT_TEMPLATE: "{emoji} {action} [{repo}]({repo_url})"
+```
 
 ## 📜License
 
@@ -222,3 +253,20 @@ Thanks goes to these wonderful people: [Emoji key for contribution types](https:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## 📝 Blog Posts
+
+<table>
+  <tr>
+    <td>
+      <a href="https://thedannicraft.blog/how-to-automate-your-github-readme/">
+        <img width="140px" src="https://n8n.thedannicraft.de/webhook/bb79c6e2-3bfb-44a3-a111-f983a4410487/grabPostImage/6878fdd7970ad800016c79c0">
+      </a>
+    </td>
+    <td>
+      <a href="https://thedannicraft.blog/how-to-automate-your-github-readme/">How to automate your GitHub README</a><br/>Oct 23, 2025 • by TheDanniCraft
+    </td>
+  </tr>
+</table>
+
+Wrote a blog post about activity-log? [Open an issue](https://github.com/TheDanniCraft/activity-log/issues/new) and share the article link.

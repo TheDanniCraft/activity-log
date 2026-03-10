@@ -26,6 +26,8 @@ We take all security vulnerabilities seriously and will address them promptly.
    - Steps to reproduce the vulnerability  
    - Potential impact of the vulnerability  
    - Any possible fixes or workarounds  
+   - Affected versions/tags (for example, `@v1`)  
+   - Proof-of-concept logs, payloads, or screenshots (if available)  
 
 ## :robot: Use of AI in Security Reports
 
@@ -62,6 +64,9 @@ the maintainers reserve the right to close your reports as invalid and block you
 - We will acknowledge your report within 48 hours.  
 - We will investigate the issue and provide an initial response within 5 business days.  
 - We aim to provide a fix within 30 days, depending on severity and complexity.  
+
+> [!NOTE]
+> Timelines are best-effort and may vary based on severity, exploitability, and maintenance capacity.
 
 ## :mega: Public Disclosure
 

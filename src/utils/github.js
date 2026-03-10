@@ -1,7 +1,17 @@
 import { getOctokit } from '@actions/github';
-import { setFailed, warning } from '@actions/core';
+import { warning } from '@actions/core';
 import eventDescriptions from './eventDescriptions.js';
-import { username, token, eventLimit, style, ignoreEvents, hideDetailsOnPrivateRepos } from '../config.js';
+import { applyTemplate, extractEventData } from './templateEngine.js';
+import {
+    username,
+    token,
+    eventLimit,
+    style,
+    ignoreEvents,
+    hideDetailsOnPrivateRepos,
+    eventEmojiMap,
+    eventTemplate
+} from '../config.js';
 
 // Create an authenticated Octokit client
 const octokit = getOctokit(token);
@@ -25,13 +35,12 @@ async function fetchAllStarredRepos() {
             starredRepos = starredRepos.concat(pageStarredRepos);
             page++;
         } catch (error) {
-            setFailed(`❌ Error fetching starred repositories: ${error.message}`);
-            process.exit(1);
+            throw new Error(`Error fetching starred repositories: ${error.message}`);
         }
     }
 
     // Create a set of starred repo names
-    const starredRepoNames = new Set(starredRepos.map(repo => `${repo.owner.login}/${repo.name}`));
+    const starredRepoNames = new Set(starredRepos.map((repo) => `${repo.owner.login}/${repo.name}`));
 
     return { starredRepoNames };
 }
@@ -46,7 +55,7 @@ async function isTriggeredByGitHubActions(event) {
 
     if (!sha || !fullName) return false;
 
-    const [owner, repo] = fullName.split("/");
+    const [owner, repo] = fullName.split('/');
 
     try {
         const { data: commit } = await octokit.rest.repos.getCommit({
@@ -65,7 +74,7 @@ async function isTriggeredByGitHubActions(event) {
             commit?.commit?.committer?.email,
         ].filter(Boolean);
 
-        const message = commit?.commit?.message || "";
+        const message = commit?.commit?.message || '';
 
         const messageLooksAutomated =
             /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
@@ -83,8 +92,8 @@ async function isTriggeredByGitHubActions(event) {
 // Helper function to encode URLs
 function encodeHTML(str) {
     return str
-        .replace(/`([^`]+)`/g, '<code>$1</code>') // Convert inline code (single backticks) to HTML <code> tags
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>'); // Convert [text](url) to <a href="url">text</a>
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
 }
 
 // Function to fetch all events with pagination and apply filtering
@@ -96,16 +105,14 @@ async function fetchEvents(page) {
             page
         });
 
-        // Check for API rate limit or pagination issues
         if (events.length === 0) {
-            warning('⚠️ No more events available.');
-            return events; // No more events to fetch
+            warning('No more events available.');
+            return events;
         }
 
         return events;
     } catch (error) {
-        setFailed(`❌ Error fetching events: ${error.message}`);
-        process.exit(1);
+        throw new Error(`Error fetching events: ${error.message}`);
     }
 }
 
@@ -118,8 +125,7 @@ async function fetchAndFilterEvents() {
     let filteredEvents = [];
 
     while (filteredEvents.length < eventLimit) {
-        const candidates = allEvents
-            .filter(event => !ignoreEvents.includes(event.type));
+        const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
             candidates.map(async (event) => !(await isTriggeredByGitHubActions(event)))
@@ -127,7 +133,7 @@ async function fetchAndFilterEvents() {
 
         filteredEvents = candidates
             .filter((_, i) => keepFlags[i])
-            .map(event => {
+            .map((event) => {
                 if (event.type === 'WatchEvent') {
                     const isStarred = starredRepoNames.has(event.repo.name);
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
@@ -139,9 +145,9 @@ async function fetchAndFilterEvents() {
         if (filteredEvents.length < eventLimit) {
             page++;
             if (page > 3) {
-                warning(`⚠️ Due to github limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
+                warning(`Due to GitHub limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
                 break;
-            };
+            }
             const additionalEvents = await fetchEvents(page);
 
             if (additionalEvents.length === 0) break;
@@ -157,7 +163,7 @@ async function fetchAndFilterEvents() {
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        warning(`⚠️ Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
     }
 
     // Generate ordered list of events with descriptions
@@ -172,13 +178,26 @@ async function fetchAndFilterEvents() {
         const pr = event.payload.pull_request || {};
         const payload = event.payload;
 
-        const description = eventDescriptions[type]
-            ? (typeof eventDescriptions[type] === 'function'
-                ? eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos })
-                : (eventDescriptions[type][action]
-                    ? eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos })
-                    : warning(`Unknown action: ${action}`)))
-            : warning(`Unknown event: ${event}`);
+        let description = null;
+
+        if (eventTemplate) {
+            const eventData = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
+            description = applyTemplate(eventTemplate, eventData);
+        }
+
+        if (!description) {
+            if (!eventDescriptions[type]) {
+                warning(`Unknown event type: ${type}`);
+                description = `Unknown event in ${repo.name}`;
+            } else if (typeof eventDescriptions[type] === 'function') {
+                description = eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
+            } else if (eventDescriptions[type][action]) {
+                description = eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos });
+            } else {
+                warning(`Unknown action "${action}" for event type "${type}"`);
+                description = `Unknown ${type} action in ${repo.name}`;
+            }
+        }
 
         return style === 'MARKDOWN'
             ? `${index + 1}. ${description}`

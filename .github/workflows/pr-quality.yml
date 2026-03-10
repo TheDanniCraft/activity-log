@@ -36,15 +36,15 @@ jobs:
                   max-description-length: 2500
                   max-emoji-count: 3
                   max-code-references: 5
-                  require-linked-issue: false
-                  blocked-terms: ""
+                  require-linked-issue: true
+                  blocked-terms: "PINEAPPLE"
                   blocked-issue-numbers: ""
 
                   # PR Template Checks
                   require-pr-template: true
-                  strict-pr-template-sections: ""
-                  optional-pr-template-sections: ""
-                  max-additional-pr-template-sections: 0
+                  strict-pr-template-sections: "📝 Description,🧩 Type of Change,📋 Checklist,🤖 AI Usage"
+                  optional-pr-template-sections: "💬 Other Information"
+                  max-additional-pr-template-sections: 1
 
                   # Commit Message Checks
                   max-commit-message-length: 500
@@ -58,20 +58,26 @@ jobs:
                   blocked-paths: |
                       LICENSE
                       CODE_OF_CONDUCT.md
+                      CONTRIBUTING.md
+                      SECURITY.md
+                      SUPPORT.md
+                      AGENTS.md
+                      .github/PULL_REQUEST_TEMPLATE.md
+                      .github/ISSUE_TEMPLATE/
                   require-final-newline: true
                   max-added-comments: 15
 
                   # User Checks
                   detect-spam-usernames: true
-                  min-account-age: 7
-                  max-daily-forks: 10
-                  min-profile-completeness: 2
+                  min-account-age: 30
+                  max-daily-forks: 3
+                  min-profile-completeness: 4
 
                   # Merge Checks
-                  min-repo-merged-prs: 0
-                  min-repo-merge-ratio: 0
-                  min-global-merge-ratio: 0
-                  global-merge-ratio-exclude-own: false
+                  min-repo-merged-prs: 5
+                  min-repo-merge-ratio: 60
+                  min-global-merge-ratio: 60
+                  global-merge-ratio-exclude-own: true
 
                   # Exemptions
                   exempt-draft-prs: false
@@ -82,7 +88,7 @@ jobs:
                   exempt-users: ""
                   exempt-author-association: "OWNER,MEMBER,COLLABORATOR"
                   exempt-label: "quality/exempt"
-                  exempt-pr-label: ""
+                  exempt-pr-label: "quality/exempt"
                   exempt-all-milestones: false
                   exempt-all-pr-milestones: false
                   exempt-milestones: ""
@@ -92,9 +98,10 @@ jobs:
                   success-add-pr-labels: "quality/verified"
 
                   # PR Failure Actions
-                  failure-remove-pr-labels: ""
+                  failure-remove-pr-labels: "quality/verified"
                   failure-remove-all-pr-labels: false
                   failure-add-pr-labels: "quality/rejected"
-                  failure-pr-message: "⚠️ This PR did not pass quality checks. Please review the feedback above and make the necessary changes."
-                  close-pr: false
+                  failure-pr-message: "⚠️ This PR was automatically closed because it did not pass our quality requirements. Please update the PR and reopen it when it is ready for review."
+                  close-pr: true
                   lock-pr: false
+

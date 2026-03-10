@@ -2,11 +2,26 @@ import { getInput, notice, setFailed } from '@actions/core';
 import { parse } from 'yaml';
 
 function processIgnoreEvents(value) {
+    if (!value || value.trim() === '') {
+        return [];
+    }
+
+    try {
+        const parsed = JSON.parse(value);
+        if (Array.isArray(parsed)) {
+            return parsed
+                .map((event) => String(event).trim())
+                .filter(Boolean);
+        }
+    } catch {
+        // Fallback for non-JSON comma-separated input.
+    }
+
     return value
-        .replace(/^\[|\]$/g, '') // Remove leading and trailing brackets
+        .replace(/^\[|\]$/g, '')
         .split(',')
-        .map(event => event.trim())
-        .filter(Boolean); // Remove any empty values
+        .map((event) => event.trim().replace(/^['"]|['"]$/g, ''))
+        .filter(Boolean);
 }
 
 function processEventLimit(value) {
@@ -34,7 +49,7 @@ function processStyle(value) {
         process.exit(1);
     }
 
-    return value;
+    return style;
 }
 
 function processBooleanInput(value, inputName) {
@@ -50,6 +65,16 @@ function processBooleanInput(value, inputName) {
     }
 
     return boolValue === 'true';
+}
+
+function processEventTemplate(value) {
+    if (!value || value.trim() === '') {
+        notice('ℹ️ No custom EVENT_TEMPLATE provided, using default event descriptions.');
+        return null;
+    }
+    const template = value.trim();
+    notice(`🧩 Using EVENT_TEMPLATE: ${template}`);
+    return template;
 }
 
 function processEventEmojiMap(value) {
@@ -149,6 +174,7 @@ const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_
 const readmePath = getInput('README_PATH');
 const commitMessage = getInput('COMMIT_MESSAGE');
 const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
+const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
 const dryRun = processBooleanInput(getInput('DRY_RUN'), 'DRY_RUN');
 
 export {
@@ -161,5 +187,6 @@ export {
     readmePath,
     commitMessage,
     eventEmojiMap,
+    eventTemplate,
     dryRun,
 };

@@ -21,7 +21,7 @@
 
 ## :books: Code of Conduct
 
-Please review our [Code of Conduct](https://github.com/TheDanniCraft/activity-log/blob/master/CODE_OF_CONDUCT.md). It is in effect at all times. We expect it to be honored by everyone who contributes to this project. Acting like an asshole will not be tolerated.
+Please review our [Code of Conduct](https://github.com/TheDanniCraft/activity-log/blob/master/CODE_OF_CONDUCT.md). It is in effect at all times. We expect it to be honored by everyone who contributes to this project. Harassment, abuse, and disrespectful behavior will not be tolerated.
 
 ## :bulb: Asking Questions
 
@@ -65,6 +65,9 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 
 *Note: All contributions will be licensed under the project's license.*
 
+- **Issue-first policy.** For non-trivial work, open or use an existing issue **before** coding.
+- **Assignment-first policy.** Only open a PR for non-trivial work if you are assigned to that issue by a maintainer. Unassigned PRs may be closed as out-of-scope to avoid wasted work.
+- **PR template is required.** Pull requests with a removed, empty, or unfilled PR template may be closed until the template is properly completed.
 - **Smaller is better.** Submit **one** pull request per bug fix or feature. A pull request should contain isolated changes pertaining to a single bug fix or feature implementation. **Do not** refactor or reformat code that is unrelated to your change. It is better to **submit many small pull requests** rather than a single large one. Enormous pull requests will take enormous amounts of time to review, or may be rejected altogether.
 - **Coordinate bigger changes.** For large and non-trivial changes, open an issue to discuss a strategy with the maintainers. Otherwise, you risk doing a lot of work for nothing!
 - **Prioritize understanding over cleverness.** Write code clearly and concisely. Remember that source code usually gets written once and read often. Ensure the code is clear to the reader. The purpose and logic should be obvious to a reasonably skilled developer; otherwise, you should add a comment that explains it.
@@ -72,7 +75,7 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 - **Include test coverage.** Add unit tests or UI tests when possible. Follow existing patterns for implementing tests.
 - **Update the example project** if one exists to exercise any new functionality you have added.
 - **Add documentation.** Document your changes with code doc comments or in existing guides.
-- **Use the repo's default branch.** Branch from and [submit your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the repo's default branch. Usually this is `main`, but it could be `dev`, `develop`, or `master`.
+- **Use the repo's default branch.** Branch from and [submit your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the repo's default branch (`master` in this repository, unless changed by maintainers).
 - **[Resolve any merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)** that occur.
 - **Promptly address any CI failures.** If your pull request fails to build or pass tests, please push another commit to fix it.
 - When writing comments, use properly constructed sentences, including punctuation.
@@ -95,6 +98,7 @@ However, using AI to generate or submit **security reports** (for example, throu
 ### ❌ Not allowed if:
 - The PR or issue contains **low-quality, irrelevant, or untested content**.  
 - The PR or issue is **spammy, bulk-generated**, or **created without review**.  
+- The PR or issue contains generic **AI slop** (low-signal, template-like, or shallow content without project-specific understanding).  
 - You submit content that you **do not understand** or cannot explain.  
 - The contribution **introduces security risks**, **plagiarism**, or **license violations**.  
 - AI is used to **generate or submit security reports** through GitHub’s Security Advisory Program or other sensitive disclosure channels.
