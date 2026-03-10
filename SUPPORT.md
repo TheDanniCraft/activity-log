@@ -16,7 +16,7 @@ Please seek support in the following ways:
 
 ## What NOT to do 
 
-Please **do not** do any the following:
+Please **do not** do any of the following:
 
 1. ❌ Do not reach out to the author or contributor on Twitter (or other social media) by tweeting or sending a direct message.
 
@@ -26,7 +26,4 @@ Please **do not** do any the following:
 
 These are not appropriate avenues for seeking help or support with an open-source project. Please follow the guidelines in the previous section. Public questions get public answers, which benefits everyone in the community. ✌️
 
-## Customer Support
-
-I do not provide any sort of "customer support" for open-source projects. However, I am available for hire. For details on contracting and consulting, visit [thedannicraft.de](https://thedannicraft.de).
 

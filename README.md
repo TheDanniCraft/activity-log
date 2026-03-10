@@ -14,6 +14,13 @@
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
 
+## 📚 Project Docs
+
+- [Contributing Guidelines](./CONTRIBUTING.md)
+- [Security Policy](./SECURITY.md)
+- [Support Guide](./SUPPORT.md)
+- [Code of Conduct](./CODE_OF_CONDUCT.md)
+
 ## 🛠️Features
 
 - Customizable Event Limits

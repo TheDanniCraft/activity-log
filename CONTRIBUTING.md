@@ -21,7 +21,7 @@
 
 ## :books: Code of Conduct
 
-Please review our [Code of Conduct](https://github.com/TheDanniCraft/activity-log/blob/master/CODE_OF_CONDUCT.md). It is in effect at all times. We expect it to be honored by everyone who contributes to this project. Acting like an asshole will not be tolerated.
+Please review our [Code of Conduct](https://github.com/TheDanniCraft/activity-log/blob/master/CODE_OF_CONDUCT.md). It is in effect at all times. We expect it to be honored by everyone who contributes to this project. Harassment, abuse, and disrespectful behavior will not be tolerated.
 
 ## :bulb: Asking Questions
 
@@ -72,7 +72,7 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 - **Include test coverage.** Add unit tests or UI tests when possible. Follow existing patterns for implementing tests.
 - **Update the example project** if one exists to exercise any new functionality you have added.
 - **Add documentation.** Document your changes with code doc comments or in existing guides.
-- **Use the repo's default branch.** Branch from and [submit your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the repo's default branch. Usually this is `main`, but it could be `dev`, `develop`, or `master`.
+- **Use the repo's default branch.** Branch from and [submit your pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) to the repo's default branch (`master` in this repository, unless changed by maintainers).
 - **[Resolve any merge conflicts](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-on-github)** that occur.
 - **Promptly address any CI failures.** If your pull request fails to build or pass tests, please push another commit to fix it.
 - When writing comments, use properly constructed sentences, including punctuation.
