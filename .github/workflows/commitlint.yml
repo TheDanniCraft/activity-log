@@ -1,7 +1,7 @@
 name: Commitlint
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, edited, synchronize]
     branches: [master]
   push:
@@ -9,8 +9,6 @@ on:
 
 permissions:
   contents: read
-  issues: write
-  pull-requests: write
 
 concurrency:
   group: commitlint-${{ github.event.pull_request.number || github.ref }}
@@ -23,11 +21,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v6
         with:
-          repository: ${{ github.event.pull_request.base.repo.full_name || github.event.repository.full_name }}
-          ref: ${{ github.event.pull_request.base.sha || github.sha }}
           fetch-depth: 0
+
       - name: Fetch PR commits (no checkout of PR code)
-        if: startsWith(github.event_name, 'pull_request')
+        if: github.event_name == 'pull_request'
         run: |
           git fetch origin +refs/pull/${{ github.event.number }}/head:refs/remotes/origin/pr/${{ github.event.number }}
           # sanity: ensure head sha is present locally
@@ -46,38 +43,5 @@ jobs:
           bunx commitlint --from HEAD~1 --to HEAD --verbose
 
       - name: Validate PR commits
-        if: startsWith(github.event_name, 'pull_request')
+        if: github.event_name == 'pull_request'
         run: bunx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.event.pull_request.head.sha }} --verbose
-  post-comment:
-    needs: commitlint
-    continue-on-error: true
-    permissions:
-      issues: write
-    runs-on: ubuntu-latest
-    if: failure() && startsWith(github.event_name, 'pull_request')
-    steps:
-      - name: Add comment on PR failure
-        uses: actions/github-script@v8
-        with:
-          github-token: ${{ secrets.COMMITLINT_TOKEN }}
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.payload.pull_request.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `## ❌ Commit Message Check Failed
-              
-              Your commit messages don't follow the required gitmoji format. Please make sure your commits follow this pattern:
-              
-              \`✨ feat: add new feature\`
-              \`🐛 fix: resolve bug issue\`
-              \`📚 docs: update documentation\`
-                
-              **Format:** \`[gitmoji] [type]: [description]\`
-              
-              📖 **Resources:**
-              - [Gitmoji Guide](https://gitmoji.dev/)
-              - [Conventional Commits](https://www.conventionalcommits.org/)
-                
-              Please update your commit messages and push again. You can use \`git commit --amend\` for the last commit or \`git rebase -i\` for multiple commits.`
-            });
