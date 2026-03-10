@@ -1,0 +1,48 @@
+name: Commitlint Comment
+
+on:
+  workflow_run:
+    workflows: [Commitlint]
+    types: [completed]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  post-comment:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'failure'
+    steps:
+      - name: Add comment on PR failure
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr_number = context.payload.workflow_run?.pull_requests?.[0]?.number;
+            if (!pr_number) {
+              console.log('No PR number found');
+              return;
+            }
+            await github.rest.issues.createComment({
+              issue_number: pr_number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: [
+                '## ❌ Commit Message Check Failed',
+                '',
+                "Your commit messages don't follow the required gitmoji format. Please make sure your commits follow this pattern:",
+                '',
+                '`✨ feat: add new feature`',
+                '`🐛 fix: resolve bug issue`',
+                '`📚 docs: update documentation`',
+                '',
+                '**Format:** `[gitmoji] [type]: [description]`',
+                '',
+                '📖 **Resources:**',
+                '- [Gitmoji Guide](https://gitmoji.dev/)',
+                '- [Conventional Commits](https://www.conventionalcommits.org/)',
+                '',
+                'Please update your commit messages and push again. You can use `git commit --amend` for the last commit or `git rebase -i` for multiple commits.'
+              ].join('\n')
+            });

@@ -1,4 +1,4 @@
-const { eventEmojiMap } = require('../config');
+import { eventEmojiMap } from '../config.js';
 
 const eventDescriptions = {
     'PushEvent': ({ repo, isPrivate, payload }) => {
@@ -247,4 +247,4 @@ const eventDescriptions = {
     },
 };
 
-module.exports = eventDescriptions;
+export default eventDescriptions;
