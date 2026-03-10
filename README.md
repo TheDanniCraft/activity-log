@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/877ffad9032fb068aa786817be76102efb2bbf63)
-2. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/40d2e6da17a4d0cff454a87b40de6ce356f2fdb7)
-3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0707d85be0e5cd4501ab37713850e32e78acc3b5)
-4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0ce34d662dc6dd70c8ce6fe1da57e69604014f22)
-5. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/c8ce2f540b10590ea2632a54ad757946f71bcbab)
-6. 🔀 Opened [PR #110](https://github.com/TheDanniCraft/activity-log/pull/110) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
-7. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5dda0ebd1089c6d9e3dfced8d857999e0a7a3a5b)
-8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f1905332f5e2601bd939b7e675b7e13de64016f1)
-9. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/3cc2696d49c4e55cdd9e982f3331f451410771fd)
-10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0a63d93046667c9c314a463b5a770e7288b93441)
+1. 🚀 published TheDanniCraft/activity-log on Mar 10, 2026
+2. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
+3. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
+4. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
+5. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
+6. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
+7. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
+8. 🔀 merged TheDanniCraft/activity-log on Mar 10, 2026
+9. 🚀 committed TheDanniCraft/activity-log on Mar 10, 2026
+10. 🚀 committed TheDanniCraft/activity-log on Mar 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
