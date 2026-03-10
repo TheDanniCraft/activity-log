@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch `renovate/bun/jest-monorepo` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a224d18f43cdd04101036e19257f9cf9f28b62a)
-3. 🚀 Published release [`v2.0.2`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.2) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🔥 Deleted a branch `hotfix-v2.0.2` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/286b0039e9ba24e7d08a220b0a6dc47abcbaa979)
-6. 🔀 Merged [PR #174](https://github.com/TheDanniCraft/clipify/pull/174) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f5b34acd73617608d72e53be6d3515fc042955d)
-8. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/90e6b979b04d171b4bdf6c4cc71e6e8f43fae684)
-9. 🔀 Opened [PR #174](https://github.com/TheDanniCraft/clipify/pull/174) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f82f297cd32b2511f985973366f7720c0027469b)
+1. 🚀 Published release [`v0.0.14`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.14) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+2. 🔀 Merged [PR #108](https://github.com/TheDanniCraft/activity-log/pull/108) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+3. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ad46ba920efb05bffbd2437dc87b8948d22db3cf)
+4. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/26c554707393d6dabac7aff4421a77fa07d4a79f)
+5. 🔀 Opened [PR #108](https://github.com/TheDanniCraft/activity-log/pull/108) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+6. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/2556efccf247e3fbe8db4af6998d3fb723645eb2)
+7. 🚀 Published release [`v0.0.13`](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.13) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+8. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/673b2a95eaa70afcec7a2fc2361df29f15e42017)
+9. 🔀 Merged [PR #107](https://github.com/TheDanniCraft/activity-log/pull/107) in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log)
+10. 🚀 Committed to [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9613e0d4da2edaebe1a9b299e0933982e85f9db5)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
