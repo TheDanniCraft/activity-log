@@ -33,6 +33,24 @@ jobs:
           MAJOR_TAG="v${BASH_REMATCH[1]}"
 
           git fetch --tags --force
+          HIGHEST_STABLE_TAG="$(
+            git tag -l "${MAJOR_TAG}.*.*" \
+              | grep -E "^${MAJOR_TAG}\.[0-9]+\.[0-9]+$" \
+              | sort -V \
+              | tail -n 1 \
+              || true
+          )"
+
+          if [[ -z "$HIGHEST_STABLE_TAG" ]]; then
+            echo "No stable tags found for $MAJOR_TAG. Skipping."
+            exit 0
+          fi
+
+          if [[ "$RELEASE_TAG" != "$HIGHEST_STABLE_TAG" ]]; then
+            echo "Published tag $RELEASE_TAG is not the highest stable $MAJOR_TAG release ($HIGHEST_STABLE_TAG). Skipping."
+            exit 0
+          fi
+
           RELEASE_SHA="$(git rev-list -n 1 "$RELEASE_TAG")"
           git tag -f "$MAJOR_TAG" "$RELEASE_SHA"
           git push origin "refs/tags/$MAJOR_TAG" --force
