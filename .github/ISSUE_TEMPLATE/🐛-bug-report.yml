@@ -1,6 +1,6 @@
-name: "ðŸ› Bug report"
+name: "🐛 Bug report"
 description: Create a bug report to help us improve
-title: "[ðŸ›] Bug Report:"
+title: "[🐛] Bug Report:"
 labels: [bug]
 assignees:
   - TheDanniCraft
