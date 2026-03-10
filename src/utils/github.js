@@ -47,28 +47,37 @@ async function isTriggeredByGitHubActions(event) {
     if (!sha || !fullName) return false;
 
     const [owner, repo] = fullName.split("/");
-    const { data: commit } = await octokit.rest.repos.getCommit({
-        owner,
-        repo,
-        ref: sha,
-    });
 
-    // Check if the commit author name matches any of the bot patterns
-    const fields = [
-        commit?.author?.login,
-        commit?.committer?.login,
-        commit?.commit?.author?.name,
-        commit?.commit?.author?.email,
-        commit?.commit?.committer?.name,
-        commit?.commit?.committer?.email,
-    ].filter(Boolean);
+    try {
+        const { data: commit } = await octokit.rest.repos.getCommit({
+            owner,
+            repo,
+            ref: sha,
+        });
 
-    const message = commit?.commit?.message || "";
+        // Check if the commit author name matches any of the bot patterns
+        const fields = [
+            commit?.author?.login,
+            commit?.committer?.login,
+            commit?.commit?.author?.name,
+            commit?.commit?.author?.email,
+            commit?.commit?.committer?.name,
+            commit?.commit?.committer?.email,
+        ].filter(Boolean);
 
-    const messageLooksAutomated =
-        /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
+        const message = commit?.commit?.message || "";
 
-    return fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
+        const messageLooksAutomated =
+            /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
+
+        return fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
+    } catch (error) {
+        if (error.status === 404) {
+            // Commit was force-pushed or deleted; skip bot-check and keep going
+            return false;
+        }
+        throw error;
+    }
 }
 
 // Helper function to encode URLs
