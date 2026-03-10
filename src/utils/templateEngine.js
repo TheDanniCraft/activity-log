@@ -28,10 +28,6 @@ function applyTemplate(template, data) {
 }
 
 function getEventAction(type, payload) {
-    if (type === 'ReleaseEvent') {
-        return payload.release && payload.release.draft ? 'draft' : 'published';
-    }
-
     const forcedActions = {
         WatchEvent: 'watched',
         StarEvent: 'starred',
@@ -67,11 +63,18 @@ function getEventAction(type, payload) {
     return defaultActions[type] || 'performed action';
 }
 
-function getEventEmoji(type, action, eventEmojiMap) {
+function getEventEmoji(type, action, eventEmojiMap, payload = {}) {
     if (!eventEmojiMap[type]) return '';
 
-    if (typeof eventEmojiMap[type] === 'object' && eventEmojiMap[type][action]) {
-        return eventEmojiMap[type][action];
+    if (typeof eventEmojiMap[type] === 'object') {
+        if (eventEmojiMap[type][action]) {
+            return eventEmojiMap[type][action];
+        }
+        if (type === 'ReleaseEvent') {
+            // Keep release icon semantics stable even when action is created/edited/etc.
+            const releaseKey = payload.release && payload.release.draft ? 'draft' : 'published';
+            return eventEmojiMap[type][releaseKey] || '';
+        }
     }
     if (typeof eventEmojiMap[type] === 'string') {
         return eventEmojiMap[type];
@@ -172,7 +175,7 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
     const isPrivate = !event.public;
     const payload = event.payload;
     const action = getEventAction(type, payload);
-    const emoji = getEventEmoji(type, action, eventEmojiMap);
+    const emoji = getEventEmoji(type, action, eventEmojiMap, payload);
 
     const repoName = isPrivate ? 'a private repository' : repo.name;
     const repoUrl = isPrivate ? '' : `https://github.com/${repo.name}`;
