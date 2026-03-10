@@ -18,7 +18,7 @@ function applyTemplate(template, data) {
     };
 
     for (const [placeholder, value] of Object.entries(placeholders)) {
-        result = result.replace(new RegExp(placeholder.replace(/[{}]/g, '\\$&'), 'g'), () => value);
+        result = result.replace(new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), () => value);
     }
 
     // Prevent broken markdown links when URL placeholders are empty (e.g. private events).
