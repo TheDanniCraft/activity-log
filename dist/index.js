@@ -44927,6 +44927,78 @@ function getEventEmoji(type, action, eventEmojiMap) {
     return '';
 }
 
+function getFormattedDate(isoDate) {
+    return new Intl.DateTimeFormat('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        timeZone: 'UTC'
+    }).format(new Date(isoDate));
+}
+
+function getEventNumber(payload, isPrivate) {
+    if (isPrivate) return '';
+    if (payload.issue) return `#${payload.issue.number}`;
+    if (payload.pull_request) return `#${payload.pull_request.number}`;
+    return '';
+}
+
+function getEventUrl(type, payload, repoName, isPrivate) {
+    if (isPrivate) return '';
+
+    if (type === 'CommitCommentEvent' && payload.comment) {
+        const commitUrl = `https://github.com/${repoName}/commit/${payload.comment.commit_id}`;
+        return `${commitUrl}#commitcomment-${payload.comment.id}`;
+    }
+    if (type === 'IssueCommentEvent' && payload.comment?.id && payload.issue?.number) {
+        return `https://github.com/${repoName}/issues/${payload.issue.number}#issuecomment-${payload.comment.id}`;
+    }
+    if (type === 'PullRequestReviewEvent') {
+        return payload.review?.html_url || (payload.pull_request?.number
+            ? `https://github.com/${repoName}/pull/${payload.pull_request.number}`
+            : '');
+    }
+    if (type === 'PullRequestReviewCommentEvent' && payload.comment?.id && payload.pull_request?.number) {
+        return `https://github.com/${repoName}/pull/${payload.pull_request.number}#pullrequestreviewcomment-${payload.comment.id}`;
+    }
+    if (type === 'PullRequestReviewThreadEvent' && payload.thread?.id && payload.pull_request?.number) {
+        return `https://github.com/${repoName}/pull/${payload.pull_request.number}#discussion_r_${payload.thread.id}`;
+    }
+    if (payload.issue?.number) {
+        return `https://github.com/${repoName}/issues/${payload.issue.number}`;
+    }
+    if (payload.pull_request?.number) {
+        return `https://github.com/${repoName}/pull/${payload.pull_request.number}`;
+    }
+    if (type === 'PushEvent' && payload.head) {
+        return `https://github.com/${repoName}/commit/${payload.head}`;
+    }
+    if (type === 'CreateEvent') {
+        if (payload.ref_type === 'branch' && payload.ref) {
+            return `https://github.com/${repoName}/tree/${payload.ref}`;
+        }
+        if (payload.ref_type === 'tag' && payload.ref) {
+            return `https://github.com/${repoName}/releases/tag/${payload.ref}`;
+        }
+        if (payload.ref_type === 'repository') {
+            return `https://github.com/${repoName}`;
+        }
+        return '';
+    }
+    if (type === 'ReleaseEvent' && payload.release?.tag_name) {
+        return `https://github.com/${repoName}/releases/tag/${payload.release.tag_name}`;
+    }
+
+    return '';
+}
+
+function getEventRef(payload, isPrivate, hideDetailsOnPrivateRepos) {
+    if (isPrivate && hideDetailsOnPrivateRepos) {
+        return '';
+    }
+    return payload.ref || '';
+}
+
 function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = false) {
     const type = event.type;
     const repo = event.repo;
@@ -44937,56 +45009,10 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
 
     const repoName = isPrivate ? 'a private repository' : repo.name;
     const repoUrl = isPrivate ? '' : `https://github.com/${repo.name}`;
-    const date = new Intl.DateTimeFormat('en-US', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        timeZone: 'UTC'
-    }).format(new Date(event.created_at));
-
-    let number = '';
-    if (payload.issue) {
-        number = `#${payload.issue.number}`;
-    } else if (payload.pull_request) {
-        number = `#${payload.pull_request.number}`;
-    }
-    if (isPrivate) {
-        number = '';
-    }
-
-    let url = '';
-    if (isPrivate) {
-        url = '';
-    } else if (type === 'CommitCommentEvent' && payload.comment) {
-        const commitUrl = `https://github.com/${repo.name}/commit/${payload.comment.commit_id}`;
-        url = `${commitUrl}#commitcomment-${payload.comment.id}`;
-    } else if (type === 'IssueCommentEvent' && payload.comment?.id && payload.issue?.number) {
-        url = `https://github.com/${repo.name}/issues/${payload.issue.number}#issuecomment-${payload.comment.id}`;
-    } else if (type === 'PullRequestReviewEvent') {
-        url = payload.review?.html_url || (payload.pull_request?.number
-            ? `https://github.com/${repo.name}/pull/${payload.pull_request.number}`
-            : '');
-    } else if (type === 'PullRequestReviewCommentEvent' && payload.comment?.id && payload.pull_request?.number) {
-        url = `https://github.com/${repo.name}/pull/${payload.pull_request.number}#pullrequestreviewcomment-${payload.comment.id}`;
-    } else if (type === 'PullRequestReviewThreadEvent' && payload.thread?.id && payload.pull_request?.number) {
-        url = `https://github.com/${repo.name}/pull/${payload.pull_request.number}#discussion_r_${payload.thread.id}`;
-    } else if (payload.issue?.number) {
-        url = `https://github.com/${repo.name}/issues/${payload.issue.number}`;
-    } else if (payload.pull_request?.number) {
-        url = `https://github.com/${repo.name}/pull/${payload.pull_request.number}`;
-    } else if (type === 'PushEvent' && payload.head) {
-        url = `https://github.com/${repo.name}/commit/${payload.head}`;
-    } else if (type === 'CreateEvent') {
-        if (payload.ref_type === 'branch' && payload.ref) {
-            url = `https://github.com/${repo.name}/tree/${payload.ref}`;
-        } else if (payload.ref_type === 'tag' && payload.ref) {
-            url = `https://github.com/${repo.name}/releases/tag/${payload.ref}`;
-        } else if (payload.ref_type === 'repository') {
-            url = `https://github.com/${repo.name}`;
-        }
-    } else if (type === 'ReleaseEvent' && payload.release?.tag_name) {
-        url = `https://github.com/${repo.name}/releases/tag/${payload.release.tag_name}`;
-    }
+    const date = getFormattedDate(event.created_at);
+    const number = getEventNumber(payload, isPrivate);
+    const url = getEventUrl(type, payload, repo.name, isPrivate);
+    const ref = getEventRef(payload, isPrivate, hideDetailsOnPrivateRepos);
 
     return {
         emoji,
@@ -44997,7 +45023,7 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
         date,
         number,
         url,
-        ref: isPrivate && hideDetailsOnPrivateRepos ? '' : (payload.ref || ''),
+        ref,
         ref_type: payload.ref_type || '',
     };
 }
