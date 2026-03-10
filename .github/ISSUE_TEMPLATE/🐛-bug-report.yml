@@ -1,6 +1,6 @@
-name: "🐛 Bug report"
+name: "ðŸ› Bug report"
 description: Create a bug report to help us improve
-title: "[🐛] Bug Report:"
+title: "[ðŸ›] Bug Report:"
 labels: [bug]
 assignees:
   - TheDanniCraft
@@ -45,6 +45,15 @@ body:
       label: Workflow Link
       description: Paste a link to the related workflow.
       placeholder: https://github.com/owner/repo/actions/workflows/filename.yml
+    validations:
+      required: true
+
+  - type: input
+    id: action-run-url
+    attributes:
+      label: Action Run URL
+      description: Paste a link to the failing action run.
+      placeholder: https://github.com/owner/repo/actions/runs/123456789
     validations:
       required: true
 
