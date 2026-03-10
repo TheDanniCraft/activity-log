@@ -95,9 +95,7 @@ function getEventNumber(payload, isPrivate) {
     return '';
 }
 
-function getEventUrl(type, payload, repoName, isPrivate) {
-    if (isPrivate) return '';
-
+function getCommentReviewUrl(type, payload, repoName) {
     if (type === 'CommitCommentEvent' && payload.comment) {
         const commitUrl = `https://github.com/${repoName}/commit/${payload.comment.commit_id}`;
         return `${commitUrl}#commitcomment-${payload.comment.id}`;
@@ -116,12 +114,20 @@ function getEventUrl(type, payload, repoName, isPrivate) {
     if (type === 'PullRequestReviewThreadEvent' && payload.thread?.id && payload.pull_request?.number) {
         return `https://github.com/${repoName}/pull/${payload.pull_request.number}#discussion_r_${payload.thread.id}`;
     }
+    return '';
+}
+
+function getIssuePrUrl(payload, repoName) {
     if (payload.issue?.number) {
         return `https://github.com/${repoName}/issues/${payload.issue.number}`;
     }
     if (payload.pull_request?.number) {
         return `https://github.com/${repoName}/pull/${payload.pull_request.number}`;
     }
+    return '';
+}
+
+function getPushCreateReleaseUrl(type, payload, repoName) {
     if (type === 'PushEvent' && payload.head) {
         return `https://github.com/${repoName}/commit/${payload.head}`;
     }
@@ -140,8 +146,17 @@ function getEventUrl(type, payload, repoName, isPrivate) {
     if (type === 'ReleaseEvent' && payload.release?.tag_name) {
         return `https://github.com/${repoName}/releases/tag/${payload.release.tag_name}`;
     }
-
     return '';
+}
+
+function getEventUrl(type, payload, repoName, isPrivate) {
+    if (isPrivate) return '';
+
+    return (
+        getCommentReviewUrl(type, payload, repoName) ||
+        getIssuePrUrl(payload, repoName) ||
+        getPushCreateReleaseUrl(type, payload, repoName)
+    );
 }
 
 function getEventRef(payload, isPrivate, hideDetailsOnPrivateRepos) {
