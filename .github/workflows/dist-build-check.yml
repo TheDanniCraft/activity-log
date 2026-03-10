@@ -1,0 +1,36 @@
+name: Dist Build Check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    branches: [master]
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dist-build-check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  dist-build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Build distribution files
+        run: bun run build
+
+      - name: Verify dist is up-to-date
+        run: |
+          git diff --quiet -- dist/index.js dist/licenses.txt dist/package.json || (
+            echo "dist artifacts are out of date. Run 'bun run build' and commit the updated dist files." &&
+            git diff -- dist/index.js dist/licenses.txt dist/package.json &&
+            exit 1
+          )
