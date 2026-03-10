@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Activity Log</h1>
+y<h1 align="center" id="title">Activity Log</h1>
 
 ![activity log](https://socialify.git.ci/TheDanniCraft/activity-log/image?forks=1&issues=1&language=1&logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F66677362&name=1&owner=1&pattern=Solid&pulls=1&stargazers=1&theme=Auto)
 
@@ -229,3 +229,20 @@ Thanks goes to these wonderful people: [Emoji key for contribution types](https:
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## 📝 Blog Posts
+
+<table>
+  <tr>
+    <td>
+      <a href="https://thedannicraft.blog/how-to-automate-your-github-readme/">
+        <img width="140px" src="https://n8n.thedannicraft.de/webhook/bb79c6e2-3bfb-44a3-a111-f983a4410487/grabPostImage/6878fdd7970ad800016c79c0">
+      </a>
+    </td>
+    <td>
+      <a href="https://thedannicraft.blog/how-to-automate-your-github-readme/">How to automate your GitHub README</a><br/>Oct 23, 2025 • by TheDanniCraft
+    </td>
+  </tr>
+</table>
+
+Wrote a blog post about activity-log? [Open an issue](https://github.com/TheDanniCraft/activity-log/issues/new) and share the article link.
