@@ -65,6 +65,9 @@ We **love** pull requests! Before [forking the repo](https://help.github.com/en/
 
 *Note: All contributions will be licensed under the project's license.*
 
+- **Issue-first policy.** For non-trivial work, open or use an existing issue **before** coding.
+- **Assignment-first policy.** Only open a PR for non-trivial work if you are assigned to that issue by a maintainer. Unassigned PRs may be closed as out-of-scope to avoid wasted work.
+- **PR template is required.** Pull requests with a removed, empty, or unfilled PR template may be closed until the template is properly completed.
 - **Smaller is better.** Submit **one** pull request per bug fix or feature. A pull request should contain isolated changes pertaining to a single bug fix or feature implementation. **Do not** refactor or reformat code that is unrelated to your change. It is better to **submit many small pull requests** rather than a single large one. Enormous pull requests will take enormous amounts of time to review, or may be rejected altogether.
 - **Coordinate bigger changes.** For large and non-trivial changes, open an issue to discuss a strategy with the maintainers. Otherwise, you risk doing a lot of work for nothing!
 - **Prioritize understanding over cleverness.** Write code clearly and concisely. Remember that source code usually gets written once and read often. Ensure the code is clear to the reader. The purpose and logic should be obvious to a reasonably skilled developer; otherwise, you should add a comment that explains it.
@@ -95,6 +98,7 @@ However, using AI to generate or submit **security reports** (for example, throu
 ### ❌ Not allowed if:
 - The PR or issue contains **low-quality, irrelevant, or untested content**.  
 - The PR or issue is **spammy, bulk-generated**, or **created without review**.  
+- The PR or issue contains generic **AI slop** (low-signal, template-like, or shallow content without project-specific understanding).  
 - You submit content that you **do not understand** or cannot explain.  
 - The contribution **introduces security risks**, **plagiarism**, or **license violations**.  
 - AI is used to **generate or submit security reports** through GitHub’s Security Advisory Program or other sensitive disclosure channels.
