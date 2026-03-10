@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
-		"build": "bun i && ncc build src/index.js --license licenses.txt",
+		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
 		"lint:commit": "commitlint --last --verbose"
 	},
 	"devDependencies": {
