@@ -1,14 +1,14 @@
-const fs = require('fs');
-const core = require('@actions/core');
-const github = require('@actions/github');
-const { commitMessage, readmePath, token, dryRun } = require('../config');
+import fs from 'fs';
+import { notice, setFailed, warning } from '@actions/core';
+import { context, getOctokit } from '@actions/github';
+import { commitMessage, readmePath, token, dryRun } from '../config.js';
 
 // Helper function for debug output logic
 function logDebugActivity(activity) {
     if (process.env.ACT) {
-        core.notice('🚧 Act-Debug mode enabled');
+        notice('🚧 Act-Debug mode enabled');
     } else if (dryRun) {
-        core.notice('🚧 Dry run mode enabled');
+        notice('🚧 Dry run mode enabled');
     }
 
     if (process.env.ACT || dryRun) {
@@ -20,7 +20,7 @@ function logDebugActivity(activity) {
 async function updateReadme(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            core.warning('⚠️ No activity to update. The README.md will not be changed.');
+            warning('⚠️ No activity to update. The README.md will not be changed.');
             return;
         }
 
@@ -32,7 +32,7 @@ async function updateReadme(activity) {
         const endIdx = readmeContent.indexOf(endMarker);
 
         if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
-            core.setFailed('❌ Section markers not found or invalid in README.md.');
+            setFailed('❌ Section markers not found or invalid in README.md.');
             return;
         }
 
@@ -47,7 +47,7 @@ async function updateReadme(activity) {
 
         // Don't run if section didn't change
         if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            core.notice('📄 No changes in README.md, skipping...');
+            notice('📄 No changes in README.md, skipping...');
             if (process.env.ACT || dryRun) {
                 logDebugActivity(activity);
             }
@@ -61,9 +61,9 @@ async function updateReadme(activity) {
         }
 
         // Use @actions/github to commit and push changes
-        const octokit = github.getOctokit(token);
-        const { owner, repo } = github.context.repo;
-        const branch = github.context.ref.replace('refs/heads/', '');
+        const octokit = getOctokit(token);
+        const { owner, repo } = context.repo;
+        const branch = context.ref.replace('refs/heads/', '');
 
         // Get the last commit SHA
         const { data: refData } = await octokit.rest.git.getRef({
@@ -96,7 +96,7 @@ async function updateReadme(activity) {
             }]
         });
 
-        core.notice('✅ README.md updated successfully!');
+        notice('✅ README.md updated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
@@ -122,12 +122,12 @@ async function updateReadme(activity) {
 
         // Construct the commit URL
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
-        core.notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
+        notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
-        core.setFailed(`❌ Error updating README.md: ${error.message}`);
+        setFailed(`❌ Error updating README.md: ${error.message}`);
     }
 }
 
-module.exports = {
+export {
     updateReadme,
 };

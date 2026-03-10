@@ -1,5 +1,5 @@
-const core = require('@actions/core');
-const { parse } = require('yaml');
+import { getInput, notice, setFailed } from '@actions/core';
+import { parse } from 'yaml';
 
 function processIgnoreEvents(value) {
     return value
@@ -12,15 +12,15 @@ function processIgnoreEvents(value) {
 function processEventLimit(value) {
     const limit = parseInt(value, 10);
     if (isNaN(limit)) {
-        core.setFailed('❌ EVENT_LIMIT is not a number');
+        setFailed('❌ EVENT_LIMIT is not a number');
         process.exit(1);
     }
     if (limit < 1) {
-        core.setFailed('❌ EVENT_LIMIT cannot be smaller than 1');
+        setFailed('❌ EVENT_LIMIT cannot be smaller than 1');
         process.exit(1);
     }
     if (limit > 250) {
-        core.setFailed('❌ EVENT_LIMIT cannot be greater than 250.');
+        setFailed('❌ EVENT_LIMIT cannot be greater than 250.');
         process.exit(1);
     }
     return limit;
@@ -30,7 +30,7 @@ function processStyle(value) {
     const style = value.toUpperCase();
 
     if (style !== "MARKDOWN" && style !== "HTML") {
-        core.setFailed('❌ OUTPUT_STYLE is not MARKDOWN or HTML');
+        setFailed('❌ OUTPUT_STYLE is not MARKDOWN or HTML');
         process.exit(1);
     }
 
@@ -45,7 +45,7 @@ function processBooleanInput(value, inputName) {
     const boolValue = value.trim().toLowerCase();
 
     if (!['true', 'false'].includes(boolValue)) {
-        core.setFailed(`❌ ${inputName} must be "true" or "false"`);
+        setFailed(`❌ ${inputName} must be "true" or "false"`);
         process.exit(1);
     }
 
@@ -99,7 +99,7 @@ function processEventEmojiMap(value) {
     };
 
     if (!value || (typeof value === 'string' && value.trim() === '')) {
-        core.notice('ℹ️ No custom emoji mapping provided, using default emojis.');
+        notice('ℹ️ No custom emoji mapping provided, using default emojis.');
         return map;
     }
 
@@ -108,7 +108,7 @@ function processEventEmojiMap(value) {
         try {
             userMap = parse(value);
         } catch (error) {
-            core.setFailed(`❌ Failed to parse user-provided EVENT_EMOJI_MAP YAML: ${error.message}`);
+            setFailed(`❌ Failed to parse user-provided EVENT_EMOJI_MAP YAML: ${error.message}`);
             process.exit(1);
         }
 
@@ -119,12 +119,12 @@ function processEventEmojiMap(value) {
                 try {
                     userValue = parse(userValue);
                 } catch (error) {
-                    core.setFailed(`❌ Failed to parse nested YAML structure in EVENT_EMOJI_MAP for "${event}": ${error.message}`);
+                    setFailed(`❌ Failed to parse nested YAML structure in EVENT_EMOJI_MAP for "${event}": ${error.message}`);
                     process.exit(1);
                 }
             }
             if (typeof map[event] === 'object' && typeof userValue === 'string') {
-                core.setFailed(`❌ EVENT_EMOJI_MAP for "${event}" must be an object, not a string`);
+                setFailed(`❌ EVENT_EMOJI_MAP for "${event}" must be an object, not a string`);
                 process.exit(1);
             }
             if (typeof map[event] === 'object' && typeof userValue === 'object') {
@@ -135,20 +135,31 @@ function processEventEmojiMap(value) {
         });
     }
 
-    core.notice(`🔣 Using event emoji map keys: ${JSON.stringify(map)}`);
+    notice(`🔣 Using event emoji map keys: ${JSON.stringify(map)}`);
     return map;
 }
 
 // Load inputs from GitHub Actions
-module.exports = {
-    username: core.getInput('GITHUB_USERNAME', { required: true }),
-    token: core.getInput('GITHUB_TOKEN', { required: true }),
-    eventLimit: processEventLimit(core.getInput('EVENT_LIMIT')),
-    style: processStyle(core.getInput('OUTPUT_STYLE')),
-    ignoreEvents: processIgnoreEvents(core.getInput('IGNORE_EVENTS')),
-    hideDetailsOnPrivateRepos: processBooleanInput(core.getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS'),
-    readmePath: core.getInput('README_PATH'),
-    commitMessage: core.getInput('COMMIT_MESSAGE'),
-    eventEmojiMap: processEventEmojiMap(core.getInput('EVENT_EMOJI_MAP')),
-    dryRun: processBooleanInput(core.getInput('DRY_RUN'), 'DRY_RUN')
+const username = getInput('GITHUB_USERNAME', { required: true });
+const token = getInput('GITHUB_TOKEN', { required: true });
+const eventLimit = processEventLimit(getInput('EVENT_LIMIT'));
+const style = processStyle(getInput('OUTPUT_STYLE'));
+const ignoreEvents = processIgnoreEvents(getInput('IGNORE_EVENTS'));
+const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS');
+const readmePath = getInput('README_PATH');
+const commitMessage = getInput('COMMIT_MESSAGE');
+const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
+const dryRun = processBooleanInput(getInput('DRY_RUN'), 'DRY_RUN');
+
+export {
+    username,
+    token,
+    eventLimit,
+    style,
+    ignoreEvents,
+    hideDetailsOnPrivateRepos,
+    readmePath,
+    commitMessage,
+    eventEmojiMap,
+    dryRun,
 };
