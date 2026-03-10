@@ -32,8 +32,7 @@ function buildActionRunUrl() {
 }
 
 function buildBugReportUrl() {
-    const issueUrl = new URL('https://github.com/TheDanniCraft/activity-log/issues/new');
-    issueUrl.searchParams.set('template', 'ðŸ›-bug-report.yml');
+    const issueUrl = new URL('https://github.com/TheDanniCraft/activity-log/issues/new?template=%F0%9F%90%9B-bug-report.yml');
 
     const workflowLink = buildWorkflowLink();
     const actionRunUrl = buildActionRunUrl();

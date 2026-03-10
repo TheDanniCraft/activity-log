@@ -20,7 +20,7 @@ body:
       value: |
         **To Reproduce**
         Steps to reproduce the behavior:
-        
+
   - type: textarea
     id: steps-to-reproduce
     attributes:

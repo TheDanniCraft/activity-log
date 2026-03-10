@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 import { notice, setFailed, warning } from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 import { commitMessage, readmePath, token, dryRun } from '../config.js';
@@ -14,6 +15,25 @@ function logDebugActivity(activity) {
     if (process.env.ACT || dryRun) {
         console.log(activity);
     }
+}
+
+function getRepoRelativeReadmePath(filePath) {
+    const normalized = filePath.replace(/\\/g, '/');
+
+    if (!path.isAbsolute(filePath)) {
+        return normalized.replace(/^\.\//, '');
+    }
+
+    const workspace = process.env.GITHUB_WORKSPACE;
+    if (workspace) {
+        const normalizedWorkspace = workspace.replace(/\\/g, '/').replace(/\/+$/, '');
+        if (normalized.toLowerCase().startsWith(`${normalizedWorkspace.toLowerCase()}/`)) {
+            return normalized.slice(normalizedWorkspace.length + 1);
+        }
+    }
+
+    // Fallback for absolute paths outside workspace context.
+    return path.basename(normalized);
 }
 
 // Function to update README.md and push changes
@@ -89,7 +109,7 @@ async function updateReadme(activity) {
             repo,
             base_tree: treeSha,
             tree: [{
-                path: readmePath.replace(/\\/g, '/').replace(/^\.\//, ''),
+                path: getRepoRelativeReadmePath(readmePath),
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent
