@@ -1,0 +1,40 @@
+name: Update Major Version Tag
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  update-major-tag:
+    # Only move major tags for stable semver releases like v1.2.3.
+    if: ${{ github.event.release.prerelease == false && startsWith(github.event.release.tag_name, 'v') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Move major version tag
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+
+          if [[ ! "$RELEASE_TAG" =~ ^v([0-9]+)\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Release tag '$RELEASE_TAG' is not stable semver (vX.Y.Z). Skipping."
+            exit 0
+          fi
+
+          MAJOR_TAG="v${BASH_REMATCH[1]}"
+
+          git fetch --tags --force
+          RELEASE_SHA="$(git rev-list -n 1 "$RELEASE_TAG")"
+          git tag -f "$MAJOR_TAG" "$RELEASE_SHA"
+          git push origin "refs/tags/$MAJOR_TAG" --force
+
+          echo "Moved $MAJOR_TAG to $RELEASE_TAG ($RELEASE_SHA)."
