@@ -28,16 +28,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch [`prepare-v2.0.1`](https://github.com/TheDanniCraft/clipify/tree/prepare-v2.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-2. 🚀 Published release [`v2.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-3. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2562003c7cd7d9a8056e928962cb63aa2515f9d7)
-5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e28c01797bc6daf6a4d9240013721bd9010f286)
-6. 🔥 Deleted a branch `renovate/bun/usesend-js-1.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-7. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44a98319f566c84ea2d218f22530d61d244d1866)
-8. 🔥 Deleted a branch `prepare-v2-release` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-9. 🔀 Merged [PR #168](https://github.com/TheDanniCraft/clipify/pull/168) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
-10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19230bcec0ab6a4fc1460995c5590e68a09b5b5d)
+1. 🔀 Opened [PR #173](https://github.com/TheDanniCraft/clipify/pull/173) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+2. 🔥 Deleted a branch `renovate/github-actions/major-github-actions` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+3. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cbdd277672087017e48744e475bec37f5c70b51d)
+4. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/de90c576131d970cd2c15d5e8fb4bd46d8bedc1b)
+5. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8a57527f992ff8b80d8ebcc05530938e330c5e7)
+6. ✨ Created a new branch [`prepare-v2.0.1`](https://github.com/TheDanniCraft/clipify/tree/prepare-v2.0.1) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+7. 🚀 Published release [`v2.0.0`](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.0) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+8. 🔥 Deleted a branch `renovate/bun/motion-12.x` in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify)
+9. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2562003c7cd7d9a8056e928962cb63aa2515f9d7)
+10. 🚀 Committed to [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e28c01797bc6daf6a4d9240013721bd9010f286)
 <!--END_SECTION:activity-->
 
 ## 📖Usage
