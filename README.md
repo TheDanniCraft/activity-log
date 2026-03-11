@@ -175,7 +175,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
-| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `""`                                    | Template string                                                             |
+| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{subject}`, `{verb}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `"{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"`                                    | Template string                                                             |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -206,21 +206,23 @@ You can customize event rendering with one global template using `EVENT_TEMPLATE
 
 Supported placeholders:
 
-- `{emoji}`
-- `{event_type}`
-- `{action}`
-- `{repo}`
-- `{repo_url}`
-- `{date}`
-- `{number}`
-- `{url}`
-- `{ref}`
-- `{ref_type}`
+- `{emoji}`: Event emoji from the default map or `EVENT_EMOJI_MAP` (example: `🚀`)
+- `{event_type}`: Raw GitHub event type (example: `PushEvent`)
+- `{action}`: Human-readable action text (example: `Committed`, `Opened`, `Merged`)
+- `{subject}`: Event object for readable phrasing (example: `PR`, `issue`, `commit`, `release`)
+- `{verb}`: Connector based on legacy phrasing (example: `to`, `in`, or empty)
+- `{repo}`: Repository name (or `a private repository` for private events)
+- `{repo_url}`: Repository URL (example: `https://github.com/TheDanniCraft/activity-log`)
+- `{date}`: Formatted event date in UTC (example: `Mar 10, 2026`)
+- `{number}`: Issue/PR number when available (example: `#110`)
+- `{url}`: Link to the related resource (commit/comment/review/PR/issue/release when available, otherwise the repository URL for public events)
+- `{ref}`: Branch/tag ref when available (example: `main`, `v1.2.0`)
+- `{ref_type}`: Ref type for create/delete events (example: `branch`, `tag`, `repository`)
 
 Example:
 
 ```yaml
-EVENT_TEMPLATE: "{emoji} {action} [{repo}]({repo_url})"
+EVENT_TEMPLATE: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
 ```
 
 ## 📜License
@@ -270,3 +272,8 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 </table>
 
 Wrote a blog post about activity-log? [Open an issue](https://github.com/TheDanniCraft/activity-log/issues/new) and share the article link.
+
+
+
+
+

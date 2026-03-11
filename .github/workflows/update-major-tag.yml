@@ -55,4 +55,22 @@ jobs:
           git tag -f "$MAJOR_TAG" "$RELEASE_SHA"
           git push origin "refs/tags/$MAJOR_TAG" --force
 
+          # Keep v1 aligned with v0 releases only until real v1.x.y releases exist.
+          if [[ "$MAJOR_TAG" == "v0" ]]; then
+            HAS_REAL_V1="$(
+              git tag -l "v1.*.*" \
+                | grep -E '^v1\.[0-9]+\.[0-9]+$' \
+                | head -n 1 \
+                || true
+            )"
+
+            if [[ -z "$HAS_REAL_V1" ]]; then
+              git tag -f v1 "$RELEASE_SHA"
+              git push origin "refs/tags/v1" --force
+              echo "Moved v1 to $RELEASE_TAG ($RELEASE_SHA) because no real v1.x.y tag exists yet."
+            else
+              echo "Detected existing v1.x.y release tags; skipping v0 -> v1 alias update."
+            fi
+          fi
+
           echo "Moved $MAJOR_TAG to $RELEASE_TAG ($RELEASE_SHA)."
