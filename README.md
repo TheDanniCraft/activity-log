@@ -35,15 +35,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 published TheDanniCraft/activity-log on Mar 10, 2026
-2. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
+1. ✨ created TheDanniCraft/activity-log on Mar 10, 2026
+2. 🚀 published TheDanniCraft/activity-log on Mar 10, 2026
 3. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
 4. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
-5. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
+5. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
 6. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
 7. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
-8. 🔀 merged TheDanniCraft/activity-log on Mar 10, 2026
-9. 🚀 committed TheDanniCraft/activity-log on Mar 10, 2026
+8. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
+9. 🔀 merged TheDanniCraft/activity-log on Mar 10, 2026
 10. 🚀 committed TheDanniCraft/activity-log on Mar 10, 2026
 <!--END_SECTION:activity-->
 
