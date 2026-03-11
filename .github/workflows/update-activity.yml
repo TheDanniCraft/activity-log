@@ -33,5 +33,9 @@ jobs:
               closed: "✅"
             PullRequestEvent: |
               opened: "🔀"
-          EVENT_TEMPLATE: "{emoji} {action} {repo} on {date}"
+          EVENT_TEMPLATE: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url}) on {date}"
           DRY_RUN: false
+
+
+
+

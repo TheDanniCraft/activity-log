@@ -44,10 +44,10 @@ inputs:
   EVENT_TEMPLATE:
     description: |
       Template string used to render all events.
-      Placeholders: {emoji}, {event_type}, {action}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}
-      Example: "{emoji} {action} [{repo}]({repo_url})"
+      Placeholders: {emoji}, {event_type}, {action}, {subject}, {verb}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}
+      Example: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
     required: false
-    default: ""
+    default: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
   DRY_RUN:
     description: Enable dry run mode (no changes will be committed)
     required: false
@@ -59,3 +59,8 @@ branding:
 runs:
   using:  node20
   main:  ./dist/index.js
+
+
+
+
+
