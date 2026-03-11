@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ created TheDanniCraft/activity-log on Mar 10, 2026
-2. 🚀 published TheDanniCraft/activity-log on Mar 10, 2026
-3. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
-4. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
-5. 🗣 created TheDanniCraft/activity-log on Mar 10, 2026
-6. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
-7. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
-8. ✅ closed TheDanniCraft/activity-log on Mar 10, 2026
-9. 🔀 merged TheDanniCraft/activity-log on Mar 10, 2026
-10. 🚀 committed TheDanniCraft/activity-log on Mar 10, 2026
+1. 🚀 Published release v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.16) on Mar 11, 2026
+2. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d3e1ec09f07f30cd4472c34c194f57de6ee0404d) on Mar 11, 2026
+3. 🔀 Merged PR #111 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/111) on Mar 11, 2026
+4. 🚀 Committed to patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/973573cf9087425d7cee4df0c4e967e87f06b01d) on Mar 11, 2026
+5. 🚀 Committed to patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5da54f7cd22e3084f7621e500985e55c33be0510) on Mar 11, 2026
+6. 🔀 Opened PR #111 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/111) on Mar 11, 2026
+7. 🚀 Committed to patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/8a4b74d3e23febea5fe985b089431b11abcb8509) on Mar 11, 2026
+8. ✨ Created a new branch patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/patch-v0.0.16) on Mar 10, 2026
+9. 🚀 Published release v0.0.15 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.15) on Mar 10, 2026
+10. 🗣 Commented on issue #40 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/issues/40#issuecomment-4035171044) on Mar 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
