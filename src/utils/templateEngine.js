@@ -1,10 +1,9 @@
-function applyTemplate(template, data) {
-    if (!template || typeof template !== 'string') {
-        return null;
-    }
+function escapeRegExp(input) {
+    return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 
-    let result = template;
-    const placeholders = {
+function getTemplatePlaceholders(data) {
+    return {
         '{emoji}': data.emoji || '',
         '{event_type}': data.event_type || '',
         '{action}': data.action || '',
@@ -18,9 +17,12 @@ function applyTemplate(template, data) {
         '{ref}': data.ref || '',
         '{ref_type}': data.ref_type || ''
     };
+}
 
+function replacePlaceholders(template, placeholders) {
+    let result = template;
     for (const [placeholder, value] of Object.entries(placeholders)) {
-        const escaped = placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const escaped = escapeRegExp(placeholder);
         if (value === '') {
             // Only normalize spacing around empty placeholders, without touching unrelated literal spacing.
             result = result.replace(new RegExp(`[ \\t]*${escaped}[ \\t]*`, 'g'), ' ');
@@ -28,13 +30,25 @@ function applyTemplate(template, data) {
         }
         result = result.replace(new RegExp(escaped, 'g'), () => value);
     }
+    return result;
+}
 
+function normalizeRenderedTemplate(output) {
     // Prevent broken markdown links when URL placeholders are empty (e.g. private events).
-    result = result.replace(/\[([^\]]+)\]\(\s*\)/g, '$1');
+    let result = output.replace(/\[([^\]]+)\]\(\s*\)/g, '$1');
     // Remove empty optional parenthesized segments like "({ref})" without leaving double spaces.
     result = result.replace(/\s*\(\s*\)\s*/g, ' ');
-
     return result.trim();
+}
+
+function applyTemplate(template, data) {
+    if (!template || typeof template !== 'string') {
+        return null;
+    }
+
+    const placeholders = getTemplatePlaceholders(data);
+    const rendered = replacePlaceholders(template, placeholders);
+    return normalizeRenderedTemplate(rendered);
 }
 
 function getEventVerb(type, payload = {}) {
