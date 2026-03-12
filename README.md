@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f6050f2c730eeccca4303454de35990edf9040f8) on Mar 11, 2026
-2. 🔀 Merged PR #112 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/112) on Mar 11, 2026
-3. 🔀 Opened PR #112 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/112) on Mar 11, 2026
-4. ✨ Created a new branch fix-typo in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/fix-typo) on Mar 11, 2026
-5. 🚀 Published release v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.16) on Mar 11, 2026
-6. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d3e1ec09f07f30cd4472c34c194f57de6ee0404d) on Mar 11, 2026
-7. 🔀 Merged PR #111 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/111) on Mar 11, 2026
-8. 🚀 Committed to patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/973573cf9087425d7cee4df0c4e967e87f06b01d) on Mar 11, 2026
-9. 🚀 Committed to patch-v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/5da54f7cd22e3084f7621e500985e55c33be0510) on Mar 11, 2026
-10. 🔀 Opened PR #111 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/111) on Mar 11, 2026
+1. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/48d236bb71fdb8173b3339ec81a9f204e937e3c7) on Mar 12, 2026
+2. 🚀 Committed to master in [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/e2b4805c12f3ddef73a723d5db2f3cf60871ff7a) on Mar 12, 2026
+3. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/92ad173a766fb7939a7801f7ac7592649670c61c) on Mar 12, 2026
+4. 🚀 Committed to master in [Template-Pilot/template-pilot-docs](https://github.com/Template-Pilot/template-pilot-docs/commit/74f032a1c4cbbc458651eaab64b7df67f21cab4d) on Mar 12, 2026
+5. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/f6050f2c730eeccca4303454de35990edf9040f8) on Mar 11, 2026
+6. 🔀 Merged PR #112 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/112) on Mar 11, 2026
+7. 🔀 Opened PR #112 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/112) on Mar 11, 2026
+8. ✨ Created a new branch fix-typo in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/fix-typo) on Mar 11, 2026
+9. 🚀 Published release v0.0.16 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/releases/tag/v0.0.16) on Mar 11, 2026
+10. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d3e1ec09f07f30cd4472c34c194f57de6ee0404d) on Mar 11, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
