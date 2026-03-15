@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.5) on Mar 15, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/34343bf806c9b1c244569f6d7c786e3f77c4be5a) on Mar 15, 2026
-3. 🔥 Deleted a branch patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/36f3fb5a03f5f5a9a18eda487ab92ea818841e64) on Mar 15, 2026
-5. 🔀 Merged PR #183 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/183) on Mar 15, 2026
-6. 🚀 Committed to patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4691a611e91ed9bb482aa715b6731bee29022328) on Mar 15, 2026
-7. 🚀 Committed to patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f888aa5f87045412008394e47f4987e773fe6213) on Mar 15, 2026
-8. 🚀 Committed to patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/29aa3fe6e9266ecc3f7c28aa8fb397ec36c667c9) on Mar 15, 2026
-9. 🔀 Opened PR #183 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/183) on Mar 15, 2026
-10. 🚀 Committed to patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/753650cfdd70c2a855cb8ac7555d6e07af6ba1cf) on Mar 15, 2026
+1. 🚀 Published release v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.6) on Mar 15, 2026
+2. 🔥 Deleted a branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
+3. 🔀 Merged PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3ee8c16e79dcf4645ced3d37967c2345cbd9a69) on Mar 15, 2026
+5. 🔀 Opened PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
+6. ✨ Created a new branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/patch-v2.0.6) on Mar 15, 2026
+7. 🚀 Published release v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.5) on Mar 15, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/34343bf806c9b1c244569f6d7c786e3f77c4be5a) on Mar 15, 2026
+9. 🔥 Deleted a branch patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/36f3fb5a03f5f5a9a18eda487ab92ea818841e64) on Mar 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
