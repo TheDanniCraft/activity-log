@@ -35,7 +35,7 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/releases/tag/v0.0.1) on Mar 16, 2026
+1. 🔥 Deleted a tag v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot) on Mar 16, 2026
 2. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/44c9a360f42993e4312e128d19d18b1da98d536f) on Mar 16, 2026
 3. 🔥 Deleted a tag v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot) on Mar 16, 2026
 4. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/843cb514959c30a971bc011303415cc9177e3896) on Mar 16, 2026
