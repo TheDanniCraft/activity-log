@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/releases/tag/v0.0.1) on Mar 15, 2026
-2. 🚀 Published release v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.6) on Mar 15, 2026
-3. 🔥 Deleted a branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
-4. 🔀 Merged PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3ee8c16e79dcf4645ced3d37967c2345cbd9a69) on Mar 15, 2026
-6. 🔀 Opened PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
-7. ✨ Created a new branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/patch-v2.0.6) on Mar 15, 2026
-8. 🚀 Published release v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.5) on Mar 15, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/34343bf806c9b1c244569f6d7c786e3f77c4be5a) on Mar 15, 2026
-10. 🔥 Deleted a branch patch-v2.0.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
+1. 🚀 Published release v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/releases/tag/v0.0.1) on Mar 16, 2026
+2. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/843cb514959c30a971bc011303415cc9177e3896) on Mar 16, 2026
+3. 🚀 Committed to master in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot/commit/c59a6f24d476a4481db1a69fd0f71cc293e5c2a8) on Mar 16, 2026
+4. 🔥 Deleted a tag v0.0.1 in [Template-Pilot/template-pilot](https://github.com/Template-Pilot/template-pilot) on Mar 16, 2026
+5. 🚀 Published release v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.0.6) on Mar 15, 2026
+6. 🔥 Deleted a branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 15, 2026
+7. 🔀 Merged PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3ee8c16e79dcf4645ced3d37967c2345cbd9a69) on Mar 15, 2026
+9. 🔀 Opened PR #184 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/184) on Mar 15, 2026
+10. ✨ Created a new branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/patch-v2.0.6) on Mar 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
