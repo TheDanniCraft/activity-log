@@ -35,8 +35,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3058f9377e1907f38d82a161e19098cde0deb3fc) on Mar 17, 2026
-2. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-10.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 17, 2026
+1. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-10.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 17, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3058f9377e1907f38d82a161e19098cde0deb3fc) on Mar 17, 2026
 3. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 17, 2026
 4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d4cb005db31fa25dbc745370c81c8b61059d41bd) on Mar 17, 2026
 5. 🚀 Committed to main in [TheDanniCraft/jean](https://github.com/TheDanniCraft/jean/commit/9a911b2ba3faaf080f42fecd1124aa929b341d10) on Mar 17, 2026
