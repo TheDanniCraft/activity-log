@@ -36,14 +36,14 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🚀 Committed to patch-v2.1.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5d9bf6bfd81afaaa8bbc0e652a5edcf62031a338) on Mar 24, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eb623f52e64d27dfeca07081bf2be4308ea26843) on Mar 24, 2026
-3. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
+2. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eb623f52e64d27dfeca07081bf2be4308ea26843) on Mar 24, 2026
 4. 🔥 Deleted a branch renovate/bun/ws-8.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
 5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a5f1432801903bd3e63f74808e95b6bffc3fd9cc) on Mar 24, 2026
 6. 🔥 Deleted a branch renovate/bun/vercel-nft-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
 7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8a5580246580650857c5d47f7fc31768185a3be5) on Mar 24, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5afe65651f7f50c95592fa0781ceb4404bb5265b) on Mar 24, 2026
-9. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
+8. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5afe65651f7f50c95592fa0781ceb4404bb5265b) on Mar 24, 2026
 10. 🔥 Deleted a branch renovate/bun/major-typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 24, 2026
 <!--END_SECTION:activity-->
 
