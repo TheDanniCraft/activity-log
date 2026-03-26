@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8ea90d4a83e12f6731a87f54faf29e433c3e489c) on Mar 26, 2026
-2. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93c8710306a0ff9e3ef855445517c10801f7e98d) on Mar 26, 2026
-3. 🔀 Opened PR #203 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/203) on Mar 26, 2026
-4. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/069dd8e7edfd50c575eaaf4e3b95b1f3155ffc84) on Mar 26, 2026
-5. ✨ Created a new branch hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/hotfix-v2.1.1) on Mar 26, 2026
-6. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 26, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9e2123a5e927f7a0f9f1ad0aee7d8eba00bd324a) on Mar 26, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/486d9059aef0c70cddf8d7d0cbcceb052158191b) on Mar 26, 2026
-9. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 26, 2026
-10. 🔥 Deleted a branch renovate/bun/major-stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 26, 2026
+1. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e94a1bebc418a98c65ef8d14d2b8ca90af5eea61) on Mar 26, 2026
+2. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c00881f21defd93981ba689368d7335afdcc5347) on Mar 26, 2026
+3. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e30485c4f3357064ad21c23eac869b70710df0fd) on Mar 26, 2026
+4. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db52b7bb827ca6e62a5a6a391492acc803597ac3) on Mar 26, 2026
+5. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8ea90d4a83e12f6731a87f54faf29e433c3e489c) on Mar 26, 2026
+6. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93c8710306a0ff9e3ef855445517c10801f7e98d) on Mar 26, 2026
+7. 🔀 Opened PR #203 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/203) on Mar 26, 2026
+8. 🚀 Committed to hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/069dd8e7edfd50c575eaaf4e3b95b1f3155ffc84) on Mar 26, 2026
+9. ✨ Created a new branch hotfix-v2.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/hotfix-v2.1.1) on Mar 26, 2026
+10. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 26, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
