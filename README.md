@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/re2js-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 1, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d2a69b6cc93d37c488d7d7e6fe02a34f884385ad) on Apr 1, 2026
-3. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 1, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/91a38664b77b614d2b8d3fd4b76b053d30f95a15) on Apr 1, 2026
-5. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 1, 2026
-6. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/012095d1bfa75f4c4d42fa2791e3254b5a8e5336) on Apr 1, 2026
-7. ⭐ Starred [theOehrly/Fast-F1](https://github.com/theOehrly/Fast-F1) on Apr 1, 2026
-8. 🔥 Deleted a branch renovate/bun/minimatch-10.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 31, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0019727faa6791b7efe819696c6377681fd22f4e) on Mar 31, 2026
-10. 🚀 Published release v2.1.3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.1.3) on Mar 30, 2026
+1. 🔀 Opened PR #219 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/219) on Apr 2, 2026
+2. ✨ Created a new branch v2.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/v2.1.4) on Apr 2, 2026
+3. 🔥 Deleted a branch renovate/bun/re2js-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 1, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d2a69b6cc93d37c488d7d7e6fe02a34f884385ad) on Apr 1, 2026
+5. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 1, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/91a38664b77b614d2b8d3fd4b76b053d30f95a15) on Apr 1, 2026
+7. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 1, 2026
+8. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/012095d1bfa75f4c4d42fa2791e3254b5a8e5336) on Apr 1, 2026
+9. ⭐ Starred [theOehrly/Fast-F1](https://github.com/theOehrly/Fast-F1) on Apr 1, 2026
+10. 🔥 Deleted a branch renovate/bun/minimatch-10.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Mar 31, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
