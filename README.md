@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch add-grafana-daashbaords in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 9, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/040b0894cb43553b743a2d76dec7574828a76b62) on Apr 9, 2026
-3. 🔀 Merged PR #231 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/231) on Apr 9, 2026
-4. 🔀 Opened PR #231 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/231) on Apr 9, 2026
-5. ✨ Created a new branch add-grafana-daashbaords in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/add-grafana-daashbaords) on Apr 9, 2026
-6. 🔥 Deleted a branch renovate/bun/css-tooling in a private repository on Apr 9, 2026
-7. 🚀 Committed to master in a private repository on Apr 9, 2026
-8. 🚀 Published release v2.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.1.4) on Apr 9, 2026
-9. 🔥 Deleted a branch v2.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 9, 2026
-10. 🔀 Merged PR #219 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/219) on Apr 9, 2026
+1. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 10, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d5f8e941acff72bef0347937ca3905d8e505c11a) on Apr 10, 2026
+3. 🔥 Deleted a branch add-grafana-daashbaords in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 9, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/040b0894cb43553b743a2d76dec7574828a76b62) on Apr 9, 2026
+5. 🔀 Merged PR #231 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/231) on Apr 9, 2026
+6. 🔀 Opened PR #231 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/231) on Apr 9, 2026
+7. ✨ Created a new branch add-grafana-daashbaords in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/add-grafana-daashbaords) on Apr 9, 2026
+8. 🔥 Deleted a branch renovate/bun/css-tooling in a private repository on Apr 9, 2026
+9. 🚀 Committed to master in a private repository on Apr 9, 2026
+10. 🚀 Published release v2.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.1.4) on Apr 9, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
