@@ -15,7 +15,7 @@ jobs:
     if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'failure'
     steps:
       - name: Add comment on PR failure
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
