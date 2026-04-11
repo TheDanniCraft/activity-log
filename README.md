@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4719357d1006632a578ec6bd9d939a3f583a4fd1) on Apr 11, 2026
-2. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 11, 2026
-3. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 10, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af3f52137617dd35daa97b8058489a46754905b3) on Apr 10, 2026
-5. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 10, 2026
-6. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/305b8874456b1c4a01b02dde9a9ec4e408fce56f) on Apr 10, 2026
-7. 🔥 Deleted a branch renovate/github-actions/actions-github-script-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 10, 2026
-8. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ebea879df7bac59ba9cf9254a7dcf9a8ccc28f10) on Apr 10, 2026
-9. 🚀 Committed to renovate/github-actions/actions-github-script-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/85c84dfbd6fe07b674630a31971fb32f4e9ec945) on Apr 10, 2026
-10. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 10, 2026
+1. ✨ Created a new branch rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/rewrite-portfolio) on Apr 11, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4719357d1006632a578ec6bd9d939a3f583a4fd1) on Apr 11, 2026
+3. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 11, 2026
+4. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 10, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af3f52137617dd35daa97b8058489a46754905b3) on Apr 10, 2026
+6. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 10, 2026
+7. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/305b8874456b1c4a01b02dde9a9ec4e408fce56f) on Apr 10, 2026
+8. 🔥 Deleted a branch renovate/github-actions/actions-github-script-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Apr 10, 2026
+9. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ebea879df7bac59ba9cf9254a7dcf9a8ccc28f10) on Apr 10, 2026
+10. 🚀 Committed to renovate/github-actions/actions-github-script-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/85c84dfbd6fe07b674630a31971fb32f4e9ec945) on Apr 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
