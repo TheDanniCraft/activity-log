@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/51057e9d47d9206a947e61ea47ba2515f562685a) on Apr 17, 2026
-2. 🗣 Commented on PR #236 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/236#issuecomment-4266913244) on Apr 17, 2026
-3. 🚀 Committed to patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c327f6b2d20520e026d99e0c52f7237c09308b5c) on Apr 17, 2026
-4. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/846c7d3bc8427ef5d88b17375842dfb48fb7b84d) on Apr 17, 2026
-6. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4286983eab23397bbc49ad9d2e1717b6e1015ed) on Apr 17, 2026
-8. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8a1eec9ace9d4aa8d2290dcdc5e1537bf1f6ec80) on Apr 17, 2026
-10. 🚀 Committed to renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f2fe085b623b6457c7d2aa2123c8cffd71911f77) on Apr 17, 2026
+1. 🚀 Committed to patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a329ee8bc4224ff20232bf11e71c9573b71e4814) on Apr 17, 2026
+2. 🚀 Committed to patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/51057e9d47d9206a947e61ea47ba2515f562685a) on Apr 17, 2026
+3. 🗣 Commented on PR #236 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/236#issuecomment-4266913244) on Apr 17, 2026
+4. 🚀 Committed to patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c327f6b2d20520e026d99e0c52f7237c09308b5c) on Apr 17, 2026
+5. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/846c7d3bc8427ef5d88b17375842dfb48fb7b84d) on Apr 17, 2026
+7. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f4286983eab23397bbc49ad9d2e1717b6e1015ed) on Apr 17, 2026
+9. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8a1eec9ace9d4aa8d2290dcdc5e1537bf1f6ec80) on Apr 17, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
