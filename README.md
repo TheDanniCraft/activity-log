@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #243 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/243) on Apr 19, 2026
-2. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99a52a791f8d23ffba798d711528cab9afb1ee7e) on Apr 19, 2026
-3. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63cdac7f84a8767093b3c250cb5005624229d820) on Apr 19, 2026
-4. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-11.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 19, 2026
+1. ⭐ Starred [incidentfox/incidentfox](https://github.com/incidentfox/incidentfox) on Apr 20, 2026
+2. 🔀 Opened PR #243 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/243) on Apr 19, 2026
+3. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99a52a791f8d23ffba798d711528cab9afb1ee7e) on Apr 19, 2026
+4. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63cdac7f84a8767093b3c250cb5005624229d820) on Apr 19, 2026
 5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8780e0268a5124acd30268d25c99055fd8ade630) on Apr 19, 2026
-6. ✨ Created a new branch patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/patch-v2.2.1) on Apr 18, 2026
-7. 🔥 Deleted a branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 18, 2026
-8. 🚀 Published release v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.0) on Apr 17, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e59fdd25096e483c7ac4a03f444c68df4fb1085b) on Apr 17, 2026
-10. 🔥 Deleted a branch patch-v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 17, 2026
+6. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-11.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 19, 2026
+7. ✨ Created a new branch patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/patch-v2.2.1) on Apr 18, 2026
+8. 🔥 Deleted a branch patch-v2.0.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 18, 2026
+9. 🚀 Published release v2.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.0) on Apr 17, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e59fdd25096e483c7ac4a03f444c68df4fb1085b) on Apr 17, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
