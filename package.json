@@ -3,7 +3,7 @@
 	"dependencies": {
 		"@actions/core": "^3.0.0",
 		"@actions/github": "^9.0.0",
-		"axios": "^1.15.0",
+		"axios": "^1.15.2",
 		"commitlint-config-gitmoji": "^2.3.1",
 		"yaml": "^2.8.2"
 	},
