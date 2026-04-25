@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.1) on Apr 22, 2026
-2. 🔥 Deleted a branch patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 22, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d25d2c4300292af25cc566516e81d253b5bee684) on Apr 22, 2026
-4. 🔀 Merged PR #243 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/243) on Apr 22, 2026
-5. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/73ca5a2fe16c9ec6c34a87fc06ff91f1a295a5c4) on Apr 22, 2026
-6. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fca979661da8702196f3fd2d473eaf54d5e9b347) on Apr 22, 2026
-7. 🚀 Committed to patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5dae2e7b426696de1dc06ab88979e8c170835d9) on Apr 22, 2026
-8. 🔥 Deleted a branch renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 22, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/31adf36a1f3a7986b1f1553fe9f86a212cea5bd8) on Apr 22, 2026
-10. 🔥 Deleted a branch grafana-dashbaord-sync in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 22, 2026
+1. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a7afbf35c8b428bef365f7d1a1d47c51597b7c40) on Apr 25, 2026
+3. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92110ccc24764382d2f60e0476914c9fac5be5e8) on Apr 25, 2026
+5. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e851c38a62dce930a571a4a90fd32c633286c644) on Apr 25, 2026
+7. 🚀 Published release v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.1) on Apr 22, 2026
+8. 🔥 Deleted a branch patch-v2.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 22, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d25d2c4300292af25cc566516e81d253b5bee684) on Apr 22, 2026
+10. 🔀 Merged PR #243 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/243) on Apr 22, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
