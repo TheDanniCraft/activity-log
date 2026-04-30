@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/actions-checkout-6.x in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints) on Apr 30, 2026
-2. 🚀 Committed to master in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints/commit/37e4d7814c4ac239d1adad186018f99045f806f4) on Apr 30, 2026
-3. 🚀 Committed to main in [TheDanniCraft/gh-dashboard](https://github.com/TheDanniCraft/gh-dashboard/commit/2c3fb67250170b9de63c19c08d31aa9f098aac3a) on Apr 30, 2026
-4. 🍴 Forked [debba/gh-dashboard](https://github.com/debba/gh-dashboard) on Apr 30, 2026
-5. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 29, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d536a6a5f3c8e2b8a520b5dde6b733a8b5ff4acc) on Apr 29, 2026
-7. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 27, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bfef6e321b9e1d394b7dc1074b4cf9f4f0af89d3) on Apr 27, 2026
-9. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a7afbf35c8b428bef365f7d1a1d47c51597b7c40) on Apr 25, 2026
+1. 🔥 Deleted a branch renovate/npm/eslint in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+2. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/1a724e20a73c00c6d9ce1d88408e551db01364f6) on Apr 30, 2026
+3. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/746325e3e4ac2b31cc55b55cbd521d406a9c7950) on Apr 30, 2026
+4. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8b0cd8777f9b33addbf8fb13cac0eaca98b793d4) on Apr 30, 2026
+5. 🔥 Deleted a branch renovate/npm/npm-next-vulnerability in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+6. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0f62e774b85a715da960121af37bf3c4aebaa9d6) on Apr 30, 2026
+7. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+8. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/e967d584caad55b12b5c62ca161d9d3056d8e7dc) on Apr 30, 2026
+9. 🔥 Deleted a branch dependabot/npm_and_yarn/npm_and_yarn-e5a595f223 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+10. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/b8d49c22ace803a78a154dcbde0434d99df4e096) on Apr 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
