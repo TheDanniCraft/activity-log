@@ -13,7 +13,7 @@
 		"lint:commit": "commitlint --last --verbose"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^20.5.0",
+		"@commitlint/cli": "^20.5.3",
 		"@vercel/ncc": "^0.38.4"
 	}
 }
