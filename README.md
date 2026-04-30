@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 29, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d536a6a5f3c8e2b8a520b5dde6b733a8b5ff4acc) on Apr 29, 2026
-3. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 27, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bfef6e321b9e1d394b7dc1074b4cf9f4f0af89d3) on Apr 27, 2026
-5. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a7afbf35c8b428bef365f7d1a1d47c51597b7c40) on Apr 25, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92110ccc24764382d2f60e0476914c9fac5be5e8) on Apr 25, 2026
-8. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
-9. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e851c38a62dce930a571a4a90fd32c633286c644) on Apr 25, 2026
+1. 🔥 Deleted a branch renovate/actions-checkout-6.x in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints) on Apr 30, 2026
+2. 🚀 Committed to master in [TheDanniCraft/endpoints](https://github.com/TheDanniCraft/endpoints/commit/37e4d7814c4ac239d1adad186018f99045f806f4) on Apr 30, 2026
+3. 🚀 Committed to main in [TheDanniCraft/gh-dashboard](https://github.com/TheDanniCraft/gh-dashboard/commit/2c3fb67250170b9de63c19c08d31aa9f098aac3a) on Apr 30, 2026
+4. 🍴 Forked [debba/gh-dashboard](https://github.com/debba/gh-dashboard) on Apr 30, 2026
+5. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 29, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d536a6a5f3c8e2b8a520b5dde6b733a8b5ff4acc) on Apr 29, 2026
+7. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 27, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bfef6e321b9e1d394b7dc1074b4cf9f4f0af89d3) on Apr 27, 2026
+9. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Apr 25, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a7afbf35c8b428bef365f7d1a1d47c51597b7c40) on Apr 25, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
