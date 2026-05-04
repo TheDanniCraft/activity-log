@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🍴 Forked [cmauf/kumadb-migrator](https://github.com/cmauf/kumadb-migrator) on May 4, 2026
-2. 🗣 Commented on issue #310624 in [microsoft/vscode](https://github.com/microsoft/vscode/issues/310624#issuecomment-4364747269) on May 2, 2026
-3. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/90406bc786d66a2eadefbb9801838098d879dc44) on Apr 30, 2026
-4. 🔥 Deleted a branch renovate/npm/eslint in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
-5. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/1a724e20a73c00c6d9ce1d88408e551db01364f6) on Apr 30, 2026
-6. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/746325e3e4ac2b31cc55b55cbd521d406a9c7950) on Apr 30, 2026
-7. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8b0cd8777f9b33addbf8fb13cac0eaca98b793d4) on Apr 30, 2026
-8. 🔥 Deleted a branch renovate/npm/npm-next-vulnerability in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
-9. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0f62e774b85a715da960121af37bf3c4aebaa9d6) on Apr 30, 2026
-10. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+1. ⭐ Starred [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) on May 4, 2026
+2. 🍴 Forked [cmauf/kumadb-migrator](https://github.com/cmauf/kumadb-migrator) on May 4, 2026
+3. 🗣 Commented on issue #310624 in [microsoft/vscode](https://github.com/microsoft/vscode/issues/310624#issuecomment-4364747269) on May 2, 2026
+4. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/90406bc786d66a2eadefbb9801838098d879dc44) on Apr 30, 2026
+5. 🔥 Deleted a branch renovate/npm/eslint in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+6. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/1a724e20a73c00c6d9ce1d88408e551db01364f6) on Apr 30, 2026
+7. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/746325e3e4ac2b31cc55b55cbd521d406a9c7950) on Apr 30, 2026
+8. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8b0cd8777f9b33addbf8fb13cac0eaca98b793d4) on Apr 30, 2026
+9. 🔥 Deleted a branch renovate/npm/npm-next-vulnerability in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+10. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0f62e774b85a715da960121af37bf3c4aebaa9d6) on Apr 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
