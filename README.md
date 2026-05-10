@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2ffaddc734a52213dcc6d27294144d3ae4b9514c) on May 5, 2026
-2. ⭐ Starred [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) on May 4, 2026
-3. 🍴 Forked [cmauf/kumadb-migrator](https://github.com/cmauf/kumadb-migrator) on May 4, 2026
-4. 🗣 Commented on issue #310624 in [microsoft/vscode](https://github.com/microsoft/vscode/issues/310624#issuecomment-4364747269) on May 2, 2026
-5. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/90406bc786d66a2eadefbb9801838098d879dc44) on Apr 30, 2026
-6. 🔥 Deleted a branch renovate/npm/eslint in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
-7. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/1a724e20a73c00c6d9ce1d88408e551db01364f6) on Apr 30, 2026
-8. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/746325e3e4ac2b31cc55b55cbd521d406a9c7950) on Apr 30, 2026
-9. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/8b0cd8777f9b33addbf8fb13cac0eaca98b793d4) on Apr 30, 2026
-10. 🔥 Deleted a branch renovate/npm/npm-next-vulnerability in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Apr 30, 2026
+1. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67d3c8bf19223498bd9bb802f3f7aecc3d230c09) on May 10, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b9dddac90d2406248455f749e5f03792b1941a3d) on May 10, 2026
+4. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac734809a49738a17213cd52843fb1c4809854a8) on May 10, 2026
+6. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+7. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2ffaddc734a52213dcc6d27294144d3ae4b9514c) on May 5, 2026
+8. ⭐ Starred [webadderallorg/Recordly](https://github.com/webadderallorg/Recordly) on May 4, 2026
+9. 🍴 Forked [cmauf/kumadb-migrator](https://github.com/cmauf/kumadb-migrator) on May 4, 2026
+10. 🗣 Commented on issue #310624 in [microsoft/vscode](https://github.com/microsoft/vscode/issues/310624#issuecomment-4364747269) on May 2, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
