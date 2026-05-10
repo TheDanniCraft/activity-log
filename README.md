@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e10b3033dc9e673a7c4c59ad3f47cffcc07ad4ff) on May 10, 2026
-3. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-11.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/107d02ca99b711b359ae8cb534990673124223aa) on May 10, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c6e01995b8261fa317a2c50ca6d8f429080d3d5d) on May 10, 2026
-6. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
-7. 🔥 Deleted a branch renovate/bun/tabler-icons-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cc7730b13fe3c7442dde77e259de5be3f9c9cac5) on May 10, 2026
-9. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/51b231f14a98dbc3c8599458028e9ad25cc8d3ac) on May 10, 2026
+1. 🔀 Opened PR #265 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/265) on May 10, 2026
+2. 🚀 Committed to security/patch-findings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99737c59862098c6baaf90e19b0479538ac67964) on May 10, 2026
+3. ✨ Created a new branch security/patch-findings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/security/patch-findings) on May 10, 2026
+4. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cfab41885502534bc1a0e70a07fa8ab1be223cc1) on May 10, 2026
+6. 🔥 Deleted a branch renovate/bun/jest-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b9939d676299b7bba07e8510e3e213e31e18c6e9) on May 10, 2026
+8. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e10b3033dc9e673a7c4c59ad3f47cffcc07ad4ff) on May 10, 2026
+10. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-11.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
