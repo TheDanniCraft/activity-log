@@ -35,10 +35,10 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/515c7164979f7f3f511f91ffb1377f99117a8730) on May 13, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/874618baccff6e12e839b50dab5b7b29b6b4d833) on May 13, 2026
-4. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
+1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/515c7164979f7f3f511f91ffb1377f99117a8730) on May 13, 2026
+2. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
+3. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/874618baccff6e12e839b50dab5b7b29b6b4d833) on May 13, 2026
 5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d30ed2c2e3b38cc4f2f977c0417fea7fcc32d771) on May 13, 2026
 6. 🔥 Deleted a branch renovate/bun/ws-8.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
 7. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
