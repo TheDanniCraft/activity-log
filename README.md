@@ -35,16 +35,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 15, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1ac7ecb768934e13e5068b0fcd5a4596474bf2c8) on May 15, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/515c7164979f7f3f511f91ffb1377f99117a8730) on May 13, 2026
-4. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/874618baccff6e12e839b50dab5b7b29b6b4d833) on May 13, 2026
-6. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d30ed2c2e3b38cc4f2f977c0417fea7fcc32d771) on May 13, 2026
-8. 🔥 Deleted a branch renovate/bun/ws-8.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
-9. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 13, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d37bc113c5f28c5fa99a27a9b60794650dd821e4) on May 13, 2026
+1. 🚀 Committed to fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/bd1558f2b10aebf5da2f11a8c237281bff900041) on May 20, 2026
+2. ✨ Created a new branch fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/fix/increased-ratelimit-error) on May 20, 2026
+3. 🔥 Deleted a branch renovate/bun/actions-github-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
+4. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1910a6639c0db8bb202d6d4922bd98363faf93da) on May 20, 2026
+5. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/312822d32e542f5355c5cb1dea50c3fe10a3b657) on May 20, 2026
+6. 🔥 Deleted a branch renovate/bun/major-commitlint-monorepo in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
+7. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d0d3761f9274a8bcfb6a52d91ffe94f5b6cb8dcb) on May 20, 2026
+8. 🔎 Created PR #122 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/122#pullrequestreview-4326514888) on May 20, 2026
+9. 🔎 Created PR #122 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/122#pullrequestreview-4326509864) on May 20, 2026
+10. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/853828cc391710d0a66d04934a19b3e208f803c7) on May 20, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
