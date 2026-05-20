@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/bd1558f2b10aebf5da2f11a8c237281bff900041) on May 20, 2026
-2. ✨ Created a new branch fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/fix/increased-ratelimit-error) on May 20, 2026
-3. 🔥 Deleted a branch renovate/bun/actions-github-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
-4. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1910a6639c0db8bb202d6d4922bd98363faf93da) on May 20, 2026
-5. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/312822d32e542f5355c5cb1dea50c3fe10a3b657) on May 20, 2026
-6. 🔥 Deleted a branch renovate/bun/major-commitlint-monorepo in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
-7. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/d0d3761f9274a8bcfb6a52d91ffe94f5b6cb8dcb) on May 20, 2026
-8. 🔎 Created PR #122 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/122#pullrequestreview-4326514888) on May 20, 2026
-9. 🔎 Created PR #122 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/122#pullrequestreview-4326509864) on May 20, 2026
-10. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/853828cc391710d0a66d04934a19b3e208f803c7) on May 20, 2026
+1. 🔥 Deleted a branch fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
+2. 🔀 Merged PR #123 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/123) on May 20, 2026
+3. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1685b35327d80af04603faafac1f160beee996a5) on May 20, 2026
+4. 🚀 Committed to fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/cf3466f39bcae81fb947059d1a9944d3c5e73e20) on May 20, 2026
+5. 🚀 Committed to fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/ad74f96721a613352a292cd95970cc9ff6d2bbd7) on May 20, 2026
+6. 🔀 Opened PR #123 in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/pull/123) on May 20, 2026
+7. 🚀 Committed to fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/bd1558f2b10aebf5da2f11a8c237281bff900041) on May 20, 2026
+8. ✨ Created a new branch fix/increased-ratelimit-error in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/tree/fix/increased-ratelimit-error) on May 20, 2026
+9. 🔥 Deleted a branch renovate/bun/actions-github-9.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on May 20, 2026
+10. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/1910a6639c0db8bb202d6d4922bd98363faf93da) on May 20, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
