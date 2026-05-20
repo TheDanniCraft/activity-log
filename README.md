@@ -14,6 +14,9 @@
 
 A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
 
+> [!WARNING]
+> GitHub recently changed rate limits. See [Rate Limiting](#-rate-limiting) for more info.
+
 ## 📚 Project Docs
 
 - [Contributing Guidelines](./CONTRIBUTING.md)
@@ -168,7 +171,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | `GITHUB_USERNAME`               | Your GitHub username.                                                                                                                                                           | ✅               | `-`                                     | A valid GitHub username                                                     |
 | `GITHUB_TOKEN`                  | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username)  |
-| `EVENT_LIMIT`                   | The maximum number of events to display.                                                                                                                                        | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
+| `EVENT_LIMIT`                   | The maximum number of events to display. See [Rate Limiting](#-rate-limiting).                                                                                                 | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
 | `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                        |
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
@@ -224,6 +227,19 @@ Example:
 ```yaml
 EVENT_TEMPLATE: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
 ```
+
+## ⚠️ Rate Limiting
+
+GitHub has API rate limits. They are documented here:
+
+- [REST API rate limits](https://docs.github.com/rest/using-the-rest-api/rate-limits-for-the-rest-api)
+- [Secondary rate limits](https://docs.github.com/rest/using-the-rest-api/rate-limits-for-the-rest-api#about-secondary-rate-limits)
+
+This action respects these limits by design:
+
+- It waits and retries using GitHub's `retry-after` values.
+- It stands down/backs off when GitHub signals throttling.
+- It may run longer in heavy cases instead of failing immediately.
 
 ## 📜License
 

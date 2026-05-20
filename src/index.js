@@ -52,7 +52,7 @@ let hasFailed = false;
 function failWithSupportMessage(error) {
     if (hasFailed) return;
     hasFailed = true;
-    setFailed(`âŒ ${GENERIC_ERROR_MESSAGE}`);
+    setFailed(`❌ ${GENERIC_ERROR_MESSAGE}`);
     if (error) {
         console.error(error);
     }

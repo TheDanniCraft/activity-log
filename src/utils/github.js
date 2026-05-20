@@ -1,7 +1,7 @@
-import { getOctokit } from '@actions/github';
 import { warning } from '@actions/core';
 import eventDescriptions from './eventDescriptions.js';
 import { applyTemplate, extractEventData } from './templateEngine.js';
+import { createOctokit } from './octokit.js';
 import {
     username,
     token,
@@ -14,7 +14,61 @@ import {
 } from '../config.js';
 
 // Create an authenticated Octokit client
-const octokit = getOctokit(token);
+const octokit = createOctokit(token);
+const commitBotCheckCache = new Map();
+
+function sleep(ms) {
+    return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function getHeaderValue(headers, headerName) {
+    if (!headers) return undefined;
+    const direct = headers[headerName];
+    if (direct !== undefined) return direct;
+    const lowerName = headerName.toLowerCase();
+    for (const [key, value] of Object.entries(headers)) {
+        if (key.toLowerCase() === lowerName) return value;
+    }
+    return undefined;
+}
+
+async function withRateLimitRetry(requestFn, label, maxRetries = 4) {
+    let attempt = 0;
+    let delayMs = 0;
+
+    while (true) {
+        if (delayMs > 0) {
+            await sleep(delayMs);
+        }
+
+        try {
+            return await requestFn();
+        } catch (error) {
+            const status = error?.status;
+            const message = String(error?.message || '');
+            const headers = error?.response?.headers || {};
+
+            const isSecondaryRateLimit =
+                (status === 403 || status === 429) &&
+                /secondary rate limit/i.test(message);
+
+            if (!isSecondaryRateLimit || attempt >= maxRetries) {
+                throw error;
+            }
+
+            const retryAfterHeader = getHeaderValue(headers, 'retry-after');
+            const retryAfterSeconds = Number(retryAfterHeader);
+            const baseDelayMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0
+                ? retryAfterSeconds * 1000
+                : 60_000;
+            const exponentialFactor = Math.min(2 ** attempt, 8);
+            delayMs = baseDelayMs * exponentialFactor;
+            attempt++;
+
+            warning(`Secondary rate limit hit during ${label}. Retry ${attempt}/${maxRetries} in ${Math.round(delayMs / 1000)}s.`);
+        }
+    }
+}
 
 // Function to fetch starred repositories with pagination
 async function fetchAllStarredRepos() {
@@ -23,10 +77,13 @@ async function fetchAllStarredRepos() {
 
     while (true) {
         try {
-            const { data: pageStarredRepos } = await octokit.rest.activity.listReposStarredByAuthenticatedUser({
-                per_page: 100,
-                page
-            });
+            const { data: pageStarredRepos } = await withRateLimitRetry(
+                () => octokit.rest.activity.listReposStarredByAuthenticatedUser({
+                    per_page: 100,
+                    page
+                }),
+                'fetching starred repositories'
+            );
 
             if (pageStarredRepos.length === 0) {
                 break;
@@ -47,8 +104,15 @@ async function fetchAllStarredRepos() {
 
 // Function to check if the event was likely triggered by GitHub Actions or bots
 async function isTriggeredByGitHubActions(event) {
+    if (event?.type !== 'PushEvent') {
+        return false;
+    }
+
     // Regex patterns to match common GitHub Actions or bot commit messages
     const botPattern = /\[bot\]$|^github-actions$|^dependabot$|^dependabot\[bot\]$/i;
+
+    const actorLogin = event?.actor?.login || '';
+    if (botPattern.test(actorLogin)) return true;
 
     const sha = event.payload.head;
     const fullName = event.repo.name;
@@ -56,13 +120,20 @@ async function isTriggeredByGitHubActions(event) {
     if (!sha || !fullName) return false;
 
     const [owner, repo] = fullName.split('/');
+    const cacheKey = `${fullName}#${sha}`;
+    if (commitBotCheckCache.has(cacheKey)) {
+        return commitBotCheckCache.get(cacheKey);
+    }
 
     try {
-        const { data: commit } = await octokit.rest.repos.getCommit({
-            owner,
-            repo,
-            ref: sha,
-        });
+        const { data: commit } = await withRateLimitRetry(
+            () => octokit.rest.repos.getCommit({
+                owner,
+                repo,
+                ref: sha,
+            }),
+            `checking commit ${sha.slice(0, 7)} in ${fullName}`
+        );
 
         // Check if the commit author name matches any of the bot patterns
         const fields = [
@@ -79,13 +150,19 @@ async function isTriggeredByGitHubActions(event) {
         const messageLooksAutomated =
             /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
 
-        return fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
+        const isAutomated = fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
+        commitBotCheckCache.set(cacheKey, isAutomated);
+        return isAutomated;
     } catch (error) {
         if (error.status === 404) {
             // Commit was force-pushed or deleted; skip bot-check and keep going
             return false;
         }
-        throw error;
+
+        // Never fail the workflow because of commit bot-detection lookups.
+        // If this check fails, keep the event instead of aborting the run.
+        warning(`Bot-check skipped for ${fullName}@${sha.slice(0, 7)}: ${error.message}`);
+        return false;
     }
 }
 
@@ -99,11 +176,14 @@ function encodeHTML(str) {
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
-        const { data: events } = await octokit.rest.activity.listEventsForAuthenticatedUser({
-            username,
-            per_page: 100,
-            page
-        });
+        const { data: events } = await withRateLimitRetry(
+            () => octokit.rest.activity.listEventsForAuthenticatedUser({
+                username,
+                per_page: 100,
+                page
+            }),
+            `fetching events page ${page}`
+        );
 
         if (events.length === 0) {
             warning('No more events available.');

@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import { notice, setFailed, warning } from '@actions/core';
-import { context, getOctokit } from '@actions/github';
+import { context } from '@actions/github';
 import { commitMessage, readmePath, token, dryRun } from '../config.js';
+import { createOctokit } from './octokit.js';
 
 // Helper function for debug output logic
 function logDebugActivity(activity) {
@@ -81,7 +82,7 @@ async function updateReadme(activity) {
         }
 
         // Use @actions/github to commit and push changes
-        const octokit = getOctokit(token);
+        const octokit = createOctokit(token);
         const { owner, repo } = context.repo;
         const branch = context.ref.replace('refs/heads/', '');
 
