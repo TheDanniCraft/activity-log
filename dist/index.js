@@ -47174,7 +47174,7 @@ async function withRateLimitRetry(requestFn, label, maxRetries = 4) {
 
             const retryAfterHeader = getHeaderValue(headers, 'retry-after');
             const retryAfterSeconds = Number(retryAfterHeader);
-            const baseDelayMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0
+            const baseDelayMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds >= 0
                 ? retryAfterSeconds * 1000
                 : 60_000;
             const exponentialFactor = Math.min(2 ** attempt, 8);
