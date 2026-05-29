@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2cb483f9b2aa5da8a3c7c6f013f738bafc926011) on May 28, 2026
-2. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
-3. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0e417313afe5f62dfae61dc94bab0ce3a84f5cb5) on May 28, 2026
-5. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f6bc630579235acb43a6e8e4d2c762fc7a80d40) on May 28, 2026
-7. 🔥 Deleted a branch renovate/bun/vercel-nft-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a0c936ca1b3c9c612ac0d9e6a21273db6bb0d3d6) on May 28, 2026
-9. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c244773c36f08104f66297e585ee877124a8a8e7) on May 28, 2026
+1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2193567d0adf1d39f0d5870f0073e26ce448a4c3) on May 28, 2026
+2. 🔥 Deleted a branch renovate/bun/ws-8.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2cb483f9b2aa5da8a3c7c6f013f738bafc926011) on May 28, 2026
+4. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
+5. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0e417313afe5f62dfae61dc94bab0ce3a84f5cb5) on May 28, 2026
+7. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f6bc630579235acb43a6e8e4d2c762fc7a80d40) on May 28, 2026
+9. 🔥 Deleted a branch renovate/bun/vercel-nft-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on May 28, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a0c936ca1b3c9c612ac0d9e6a21273db6bb0d3d6) on May 28, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
