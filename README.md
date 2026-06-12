@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch improve-code-quality in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/improve-code-quality) on Jun 12, 2026
-2. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 12, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/edbeecab63518da50fb9336b1f0502694767e246) on Jun 12, 2026
-4. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5a02fc1b385b6cdcf0822dbe72a67f27a0c19e49) on Jun 10, 2026
-6. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3f1089d20286e3b18202dea7f5cd103d5cd4f05a) on Jun 10, 2026
-8. 🔥 Deleted a branch renovate/bun/rate-limiter-flexible-11.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a82289a422a5d18aec1ec6275d1e31a2423aea79) on Jun 10, 2026
-10. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
+1. 🚀 Published release v2.2.3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.3) on Jun 12, 2026
+2. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 12, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ce332c2b51c7c35657a56a3b037f4cdc33cd276) on Jun 12, 2026
+4. ✨ Created a new branch improve-code-quality in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/improve-code-quality) on Jun 12, 2026
+5. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 12, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/edbeecab63518da50fb9336b1f0502694767e246) on Jun 12, 2026
+7. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5a02fc1b385b6cdcf0822dbe72a67f27a0c19e49) on Jun 10, 2026
+9. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 10, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3f1089d20286e3b18202dea7f5cd103d5cd4f05a) on Jun 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
