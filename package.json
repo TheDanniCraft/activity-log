@@ -4,7 +4,7 @@
 		"@actions/core": "^3.0.1",
 		"@actions/github": "^9.1.1",
 		"@octokit/plugin-throttling": "^11.0.3",
-		"axios": "^1.18.0",
+		"axios": "^1.18.1",
 		"commitlint-config-gitmoji": "^2.3.1",
 		"yaml": "^2.9.0"
 	},
