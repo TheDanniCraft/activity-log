@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ba9aa638afecafd5c5f4f6d8dc9a664790dab5d2) on Jun 22, 2026
-2. 🔥 Deleted a branch renovate/bun/vercel-ncc-0.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Jun 18, 2026
-3. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0667911356c0cf65b3bc089838fd3b5fb9872ec5) on Jun 18, 2026
-4. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 18, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded786a5feb755a75de0cdfdc57a147405f1eb9e) on Jun 18, 2026
-6. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 18, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d53137dc3fd222cb57fbe90aae6c12474338722) on Jun 18, 2026
-8. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Jun 18, 2026
-9. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e10ee8e6bcd7386ff79836481c86a2b29e2010ba) on Jun 18, 2026
-10. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 18, 2026
+1. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c8130a990a9f95c086b463f8c12680318ffb380e) on Jun 25, 2026
+2. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ba9aa638afecafd5c5f4f6d8dc9a664790dab5d2) on Jun 22, 2026
+3. 🔥 Deleted a branch renovate/bun/vercel-ncc-0.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Jun 18, 2026
+4. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/0667911356c0cf65b3bc089838fd3b5fb9872ec5) on Jun 18, 2026
+5. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 18, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ded786a5feb755a75de0cdfdc57a147405f1eb9e) on Jun 18, 2026
+7. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 18, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7d53137dc3fd222cb57fbe90aae6c12474338722) on Jun 18, 2026
+9. 🔥 Deleted a branch renovate/bun/axios-1.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log) on Jun 18, 2026
+10. 🚀 Committed to master in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/e10ee8e6bcd7386ff79836481c86a2b29e2010ba) on Jun 18, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
