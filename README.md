@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v2.2.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.4) on Jun 29, 2026
-2. 🔥 Deleted a tag v2.2.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d0b28f5a34f68b0958c62e62531fba75dedd3aaf) on Jun 29, 2026
-4. 🔥 Deleted a branch feature/community-cache-refresh in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
-5. 🔀 Merged PR #304 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/304) on Jun 29, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2a054f68d55dfb00ceb650530fc10fc60631cdad) on Jun 29, 2026
-7. 🚀 Committed to feature/community-cache-refresh in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77b64dd7f24824a1cd188a73f62ff6f8439d586f) on Jun 29, 2026
-8. 🔀 Opened PR #304 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/304) on Jun 29, 2026
-9. 🚀 Committed to feature/community-cache-refresh in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1fc49a69326ae8c78e1cee37d87fd91bb99a3690) on Jun 29, 2026
-10. 🚀 Committed to feature/community-cache-refresh in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0f8ff92e02ca0399ce7a1e20a356fc968d70c307) on Jun 29, 2026
+1. 🚀 Published release v2.2.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.5) on Jun 29, 2026
+2. 🔥 Deleted a branch feat/small-qol-improvments in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9cf48455076357d55ce93b0e2e6e5b89a667195d) on Jun 29, 2026
+4. 🔀 Merged PR #305 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/305) on Jun 29, 2026
+5. 🚀 Committed to feat/small-qol-improvments in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/33e06ffb882163092897407071abee5e1efdd821) on Jun 29, 2026
+6. 🔀 Opened PR #305 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/305) on Jun 29, 2026
+7. ✨ Created a new branch feat/small-qol-improvments in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/small-qol-improvments) on Jun 29, 2026
+8. 🚀 Published release v2.2.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.4) on Jun 29, 2026
+9. 🔥 Deleted a tag v2.2.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d0b28f5a34f68b0958c62e62531fba75dedd3aaf) on Jun 29, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
