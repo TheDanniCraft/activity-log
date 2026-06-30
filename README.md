@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v2.2.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.6) on Jun 29, 2026
-2. 🔥 Deleted a branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afeb6c83248f3c11051c5345e436f15a8b672027) on Jun 29, 2026
-4. 🔀 Merged PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
-5. 🔀 Opened PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
-6. 🚀 Committed to fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d76607307a1db9c19f0768ad2a58e9ac0aa9fbac) on Jun 29, 2026
-7. ✨ Created a new branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/fix-data-laoding) on Jun 29, 2026
-8. 🚀 Published release v2.2.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.5) on Jun 29, 2026
-9. 🔥 Deleted a branch feat/small-qol-improvments in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9cf48455076357d55ce93b0e2e6e5b89a667195d) on Jun 29, 2026
+1. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9ec50ff56c05bb182b1173213967ea00827da73) on Jun 30, 2026
+3. 🚀 Published release v2.2.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.6) on Jun 29, 2026
+4. 🔥 Deleted a branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afeb6c83248f3c11051c5345e436f15a8b672027) on Jun 29, 2026
+6. 🔀 Merged PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
+7. 🔀 Opened PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
+8. 🚀 Committed to fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d76607307a1db9c19f0768ad2a58e9ac0aa9fbac) on Jun 29, 2026
+9. ✨ Created a new branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/fix-data-laoding) on Jun 29, 2026
+10. 🚀 Published release v2.2.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.5) on Jun 29, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
