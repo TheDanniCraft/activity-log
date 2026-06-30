@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9ec50ff56c05bb182b1173213967ea00827da73) on Jun 30, 2026
-3. 🚀 Published release v2.2.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.6) on Jun 29, 2026
-4. 🔥 Deleted a branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 29, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/afeb6c83248f3c11051c5345e436f15a8b672027) on Jun 29, 2026
-6. 🔀 Merged PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
-7. 🔀 Opened PR #306 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/306) on Jun 29, 2026
-8. 🚀 Committed to fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d76607307a1db9c19f0768ad2a58e9ac0aa9fbac) on Jun 29, 2026
-9. ✨ Created a new branch fix/fix-data-laoding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/fix-data-laoding) on Jun 29, 2026
-10. 🚀 Published release v2.2.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v2.2.5) on Jun 29, 2026
+1. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1598125e146efdf024717285d401609e3de1830e) on Jun 30, 2026
+3. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b32192856dde840cf46675391bcc3d08d0825e39) on Jun 30, 2026
+5. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/906fb31c6b7769e0575aff6b9560b021a5ee56bf) on Jun 30, 2026
+7. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/324a8f95d777082a12d8cbdb5ca0d38c6115655c) on Jun 30, 2026
+9. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jun 30, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9ec50ff56c05bb182b1173213967ea00827da73) on Jun 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
