@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #315 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/315) on Jul 5, 2026
-2. ✨ Created a new branch migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/migrate-v3) on Jul 5, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4384b47fa9db9b5c025e04d9f066a3b3b929a46f) on Jul 4, 2026
-4. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e6fc20ee029907e8de7068fb4cf84ea92a9e9f58) on Jul 4, 2026
-6. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
-7. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2dbefd008f57b2152f3e307f002bd08980daf9c4) on Jul 4, 2026
-9. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b75ceea8442250f23b7a6b95af7edabaaf352d34) on Jul 4, 2026
+1. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44929f5b1d155a0175dd48606611659068b241fd) on Jul 5, 2026
+2. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/46f907bcc5d0604d838ac303d50a8b0272487434) on Jul 5, 2026
+3. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/62876d0db099108179b10b16fa5ef1947b4be1f6) on Jul 5, 2026
+4. 🔀 Opened PR #315 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/315) on Jul 5, 2026
+5. ✨ Created a new branch migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/migrate-v3) on Jul 5, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4384b47fa9db9b5c025e04d9f066a3b3b929a46f) on Jul 4, 2026
+7. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
+8. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e6fc20ee029907e8de7068fb4cf84ea92a9e9f58) on Jul 4, 2026
+10. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 4, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
