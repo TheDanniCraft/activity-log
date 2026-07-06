@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/91c5e738b279de959e3e6f2885cb2f6d31f9205f) on Jul 6, 2026
-2. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e956e9afcbd63673258d86f2c8a8e31c3b5ec6b6) on Jul 6, 2026
-3. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f3dc4a77c056aa64ec1d79fe47b2284dff86d23f) on Jul 5, 2026
-4. 🔥 Deleted a branch renovate/bun/re2js-2.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 5, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37e60b5425128a264b2d71cc33b4b0750a76eabd) on Jul 5, 2026
-6. 🔎 Created PR #316 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/316#pullrequestreview-4632214049) on Jul 5, 2026
-7. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cdf81502fc50fdd629b2325f483ab135e97f2a83) on Jul 5, 2026
-8. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8b1bf6492b82b60f72b7d889e960adfb8a23fe51) on Jul 5, 2026
-9. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4b69f3e194c19baadc9ef165a8be3ca7a8b6a370) on Jul 5, 2026
-10. 🚀 Committed to migrate-v3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1b14211259ead9fa16af9322bea94cf9d5d89780) on Jul 5, 2026
+1. 🔥 Deleted a branch renovate/poetry/major-websockets in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py) on Jul 6, 2026
+2. 🚀 Committed to master in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py/commit/ce8d41d16a31592b90607e3a0604993e69cae0e3) on Jul 6, 2026
+3. 🔥 Deleted a branch renovate/github-actions/major-checkout-action in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py) on Jul 6, 2026
+4. 🚀 Committed to master in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py/commit/2553e7402516f57f0bfca44f343bdb746ee964f8) on Jul 6, 2026
+5. 🔥 Deleted a branch renovate/poetry/aiohttp in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py) on Jul 6, 2026
+6. 🚀 Committed to master in [Wiresense/wiresense.py](https://github.com/Wiresense/wiresense.py/commit/d1d994c23e13974d69836af4ecb6911ea82a26ec) on Jul 6, 2026
+7. 🚀 Committed to master in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/244d6e3b3230126996e4d81671f7b38e6bc5ae89) on Jul 6, 2026
+8. 🚀 Committed to master in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/0decfcf6bde85ee183d1241bac7f4ec42258e699) on Jul 6, 2026
+9. 🚀 Committed to master in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/commit/2c9630821fcb521284515306932fde6798742166) on Jul 6, 2026
+10. 🔥 Deleted a branch renovate/github-actions/major-github-actions-(node) in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js) on Jul 6, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
