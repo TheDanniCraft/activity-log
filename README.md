@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/tabler-icons-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08585705a95b1ceb94122eab2a0e4b857a351d5f) on Jul 17, 2026
-3. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e3b6ad5f2161e1745e5b7ede9f5fce82f4c9520) on Jul 17, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/610ac25b35d02599f41e1b674ba4fd8939c64d0e) on Jul 17, 2026
-6. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
-7. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9459012ecedc39955814a15d57f6e4d60767093f) on Jul 17, 2026
-9. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/80340bed8dc5217933d783bbfccf6d27f2894370) on Jul 16, 2026
-10. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/05b294bd4d177fe69c2221783dad8948331ea77c) on Jul 15, 2026
+1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/81272caa62a5335253869f2334313f6ada3dc288) on Jul 17, 2026
+2. 🔥 Deleted a branch renovate/bun/tabler-icons-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08585705a95b1ceb94122eab2a0e4b857a351d5f) on Jul 17, 2026
+4. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e3b6ad5f2161e1745e5b7ede9f5fce82f4c9520) on Jul 17, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/610ac25b35d02599f41e1b674ba4fd8939c64d0e) on Jul 17, 2026
+7. 🔥 Deleted a branch renovate/bun/tailwind in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
+8. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 17, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9459012ecedc39955814a15d57f6e4d60767093f) on Jul 17, 2026
+10. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/80340bed8dc5217933d783bbfccf6d27f2894370) on Jul 16, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
