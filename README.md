@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e78904adb643453022cf2511c6f504e842c07309) on Jul 18, 2026
-2. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c0932f64b86c27c822f3c3027eab3ed0bd2dc762) on Jul 18, 2026
-3. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d002fc20b4303dfd174353d7397a581f8ef16a5c) on Jul 18, 2026
-4. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67dfad697ce404fa1f06f83112ca1596275a8c49) on Jul 18, 2026
-5. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d41a0bea980cd0df73a8913a2919829e1ce1ac98) on Jul 18, 2026
-6. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7da7c9e8d8e400f1cf12795b84288d55a146be98) on Jul 18, 2026
-7. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/463203e70ea26f81a0bb20147b8a2ac0ed0406db) on Jul 18, 2026
-8. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9115139e9a039a5737768538ae39340e02e94976) on Jul 18, 2026
-9. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/577cba9582c97ea8ee18d9f7bdc4d679ac488df7) on Jul 18, 2026
-10. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6702dfb566075320897ff61165d4e8981bf6182f) on Jul 17, 2026
+1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c4153cd64c209288d0a1d394ee2973609e6b264d) on Jul 19, 2026
+2. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e78904adb643453022cf2511c6f504e842c07309) on Jul 18, 2026
+3. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c0932f64b86c27c822f3c3027eab3ed0bd2dc762) on Jul 18, 2026
+4. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d002fc20b4303dfd174353d7397a581f8ef16a5c) on Jul 18, 2026
+5. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/67dfad697ce404fa1f06f83112ca1596275a8c49) on Jul 18, 2026
+6. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d41a0bea980cd0df73a8913a2919829e1ce1ac98) on Jul 18, 2026
+7. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7da7c9e8d8e400f1cf12795b84288d55a146be98) on Jul 18, 2026
+8. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/463203e70ea26f81a0bb20147b8a2ac0ed0406db) on Jul 18, 2026
+9. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9115139e9a039a5737768538ae39340e02e94976) on Jul 18, 2026
+10. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/577cba9582c97ea8ee18d9f7bdc4d679ac488df7) on Jul 18, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
