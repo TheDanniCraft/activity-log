@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f2468098027e7463f789b7e9bd38ce0e539306e9) on Jul 26, 2026
-3. 🔥 Deleted a branch renovate/bun/lint-staged-17.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e6db53e5f9ecfb29ec8da5fd8071d81bf99b4d22) on Jul 26, 2026
-5. 🔥 Deleted a branch chore/document-quality-baseline in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 24, 2026
-6. 🔀 Merged PR #4 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/4) on Jul 24, 2026
-7. 🚀 Committed to chore/document-quality-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/90f5cf591f64700f14f6b03df8ca9a3d1b69f5b8) on Jul 24, 2026
-8. 🚀 Committed to chore/document-quality-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/a8a78545b30ec431b353cf29e3599786a82834e0) on Jul 24, 2026
-9. 🔀 Opened PR #4 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/4) on Jul 24, 2026
-10. ✨ Created a new branch chore/document-quality-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/chore/document-quality-baseline) on Jul 24, 2026
+1. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ca6460cc6d25b9806bebf3ab4d9edd15846a740) on Jul 26, 2026
+3. 🔥 Deleted a branch renovate/bun/recharts-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fb06031c99360156ed662a5c7c30c9f3e30ff9f6) on Jul 26, 2026
+5. 🔥 Deleted a branch renovate/bun/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f2468098027e7463f789b7e9bd38ce0e539306e9) on Jul 26, 2026
+7. 🔥 Deleted a branch renovate/bun/lint-staged-17.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 26, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e6db53e5f9ecfb29ec8da5fd8071d81bf99b4d22) on Jul 26, 2026
+9. 🔥 Deleted a branch chore/document-quality-baseline in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 24, 2026
+10. 🔀 Merged PR #4 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/4) on Jul 24, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
