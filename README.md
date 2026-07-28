@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f9a3d02eba0388c84199acff3889094b0cd1c655) on Jul 28, 2026
-2. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1acd2d1924b86de3acb7cd1b47c3c6031f64d70) on Jul 28, 2026
-3. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f485c17bcb32f12c1184a99d13997e04c5aaa24) on Jul 28, 2026
-4. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4a649b67666e50a3a770552ee7ea86abce720a6b) on Jul 28, 2026
-5. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a60c9d5a01e6fe2ab0af2e1fbda66250ce78b296) on Jul 28, 2026
-6. 🔥 Deleted a branch fix/preloading-regression in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 28, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e8666987fa050e3aae7c157694d349dcbca8d5f) on Jul 28, 2026
-8. 🔀 Merged PR #345 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/345) on Jul 28, 2026
-9. 🗣 Commented on PR #345 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/345#issuecomment-5104196153) on Jul 28, 2026
-10. 🗣 Commented on PR #345 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/345#issuecomment-5103913019) on Jul 28, 2026
+1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/791bb1bdebfb577450d1c9f1183960d2145dd125) on Jul 28, 2026
+2. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f9a3d02eba0388c84199acff3889094b0cd1c655) on Jul 28, 2026
+3. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1acd2d1924b86de3acb7cd1b47c3c6031f64d70) on Jul 28, 2026
+4. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4f485c17bcb32f12c1184a99d13997e04c5aaa24) on Jul 28, 2026
+5. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4a649b67666e50a3a770552ee7ea86abce720a6b) on Jul 28, 2026
+6. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a60c9d5a01e6fe2ab0af2e1fbda66250ce78b296) on Jul 28, 2026
+7. 🔥 Deleted a branch fix/preloading-regression in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 28, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e8666987fa050e3aae7c157694d349dcbca8d5f) on Jul 28, 2026
+9. 🔀 Merged PR #345 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/345) on Jul 28, 2026
+10. 🗣 Commented on PR #345 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/345#issuecomment-5104196153) on Jul 28, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
