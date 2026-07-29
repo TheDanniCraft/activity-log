@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/tabler-icons-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2e7af7bc4714cbd0427c72b1a631f4a2bd7e1c68) on Jul 29, 2026
-3. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6fbbf5ff141cac99826ac48857e629936917f967) on Jul 29, 2026
-5. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/88826fae2377e819ed6beb732091adaeee0f5c92) on Jul 29, 2026
-7. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/842b1f9126122cb2a7c45c184f095af8d6cd2b58) on Jul 29, 2026
-8. 🔀 Opened PR #2 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/2) on Jul 29, 2026
-9. ✨ Created a new branch build/1-generate-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/tree/build/1-generate-brand-assets) on Jul 29, 2026
-10. 👤 Assigned issue #1 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/1) on Jul 29, 2026
+1. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/69bda4e16d3ccaf179edf2b4d2d809e1ff64bab0) on Jul 29, 2026
+2. 🔥 Deleted a branch renovate/bun/tabler-icons-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2e7af7bc4714cbd0427c72b1a631f4a2bd7e1c68) on Jul 29, 2026
+4. 🔥 Deleted a branch renovate/bun/motion-12.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6fbbf5ff141cac99826ac48857e629936917f967) on Jul 29, 2026
+6. 🔥 Deleted a branch renovate/bun/sentry-javascript-monorepo in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/88826fae2377e819ed6beb732091adaeee0f5c92) on Jul 29, 2026
+8. 🚀 Committed to feature/self-hosted-runner in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/842b1f9126122cb2a7c45c184f095af8d6cd2b58) on Jul 29, 2026
+9. 🔀 Opened PR #2 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/2) on Jul 29, 2026
+10. ✨ Created a new branch build/1-generate-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/tree/build/1-generate-brand-assets) on Jul 29, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
