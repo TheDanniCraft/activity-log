@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v3.0.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v3.0.1) on Jul 30, 2026
-2. 🔥 Deleted a branch renovate/bun/stripe in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 30, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/48b9f3d9314714c25d5741a148f39f1d7e0784ff) on Jul 30, 2026
-4. 🔥 Deleted a branch renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/218ef171d037d8fbe0d15a2629954c9aeb7d3183) on Jul 29, 2026
-6. 🔥 Deleted a branch fix/v3.0.1-release-followups in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Jul 29, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4d4363686d9de4f26b903f7e4fb0cce558f97f2e) on Jul 29, 2026
-8. 🔀 Merged PR #355 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/355) on Jul 29, 2026
-9. 🗣 Commented on PR #112 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/112#issuecomment-5124504991) on Jul 29, 2026
-10. 🗣 Commented on PR #320 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/320#issuecomment-5124504875) on Jul 29, 2026
+1. 🔀 Opened PR #5 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/5) on Jul 30, 2026
+2. ✨ Created a new branch feat/4-icon-variants in [payloadbay/brand](https://github.com/payloadbay/brand/tree/feat/4-icon-variants) on Jul 30, 2026
+3. 👤 Assigned issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
+4. 🏷️ Added a label to issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
+5. 🆕 Opened issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
+6. 🔥 Deleted a branch build/1-generate-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand) on Jul 30, 2026
+7. 🔀 Merged PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
+8. ✅ Closed issue #1 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/1) on Jul 30, 2026
+9. 🔄 Reopened PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
+10. 🏷️ Added a label to PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
