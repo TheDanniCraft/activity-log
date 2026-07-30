@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #5 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/5) on Jul 30, 2026
-2. ✨ Created a new branch feat/4-icon-variants in [payloadbay/brand](https://github.com/payloadbay/brand/tree/feat/4-icon-variants) on Jul 30, 2026
-3. 👤 Assigned issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
-4. 🏷️ Added a label to issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
-5. 🆕 Opened issue #4 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/4) on Jul 30, 2026
-6. 🔥 Deleted a branch build/1-generate-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand) on Jul 30, 2026
-7. 🔀 Merged PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
-8. ✅ Closed issue #1 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/1) on Jul 30, 2026
-9. 🔄 Reopened PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
-10. 🏷️ Added a label to PR #3 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/3) on Jul 30, 2026
+1. 🔀 Opened PR #13 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/13) on Jul 30, 2026
+2. ❌ Closed PR #12 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/12) on Jul 30, 2026
+3. 🔥 Deleted a branch docs/organization-profile in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 30, 2026
+4. ✨ Created a new branch docs/11-organization-profile in [payloadbay/.github](https://github.com/payloadbay/.github/tree/docs/11-organization-profile) on Jul 30, 2026
+5. 🔀 Opened PR #12 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/12) on Jul 30, 2026
+6. ✨ Created a new branch docs/organization-profile in [payloadbay/.github](https://github.com/payloadbay/.github/tree/docs/organization-profile) on Jul 30, 2026
+7. 👤 Assigned issue #11 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/11) on Jul 30, 2026
+8. 🏷️ Added a label to issue #11 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/11) on Jul 30, 2026
+9. 🆕 Opened issue #11 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/11) on Jul 30, 2026
+10. 🔥 Deleted a branch feat/6-logo-surface-variants in [payloadbay/brand](https://github.com/payloadbay/brand) on Jul 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
