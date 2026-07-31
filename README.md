@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/5dbd495269ed90d17722370d3e49d7c2a0f7eeb0) on Jul 31, 2026
-2. 🔀 Opened PR #4 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/4) on Jul 31, 2026
-3. ✨ Created a new branch docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/docs/52-core-agent-guidance) on Jul 31, 2026
-4. 🔥 Deleted a branch docs/52-agent-baseline in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 31, 2026
-5. 🔀 Merged PR #20 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/20) on Jul 31, 2026
-6. 🚀 Committed to master in [payloadbay/.github](https://github.com/payloadbay/.github/commit/e28e081bee13a7abc5c15afdf5612bd489209ebf) on Jul 31, 2026
-7. 🚀 Committed to docs/52-agent-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/ffafe88d722afb119da5556ba3f7db4ee77abf4e) on Jul 31, 2026
-8. 🚀 Committed to docs/52-agent-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/762275f8a6f092ea8f4efab0cc3890dc81f81ae0) on Jul 31, 2026
-9. 🚀 Committed to docs/52-agent-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/684c1c3d110573455cf642e6ce493ae00ae52bf3) on Jul 31, 2026
-10. 🔀 Opened PR #20 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/20) on Jul 31, 2026
+1. 🔥 Deleted a branch docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Jul 31, 2026
+2. 🚀 Committed to master in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/27b03607aa8c5a120cdf1a8c1ff45e82c415b4aa) on Jul 31, 2026
+3. 🔀 Merged PR #4 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/4) on Jul 31, 2026
+4. 🚀 Committed to docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/4564efe31a9ee4c7c2a6f84ecfc842aa130f067b) on Jul 31, 2026
+5. 🔥 Deleted a branch docs/52-issue-first-guidance in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 31, 2026
+6. 🔀 Merged PR #21 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/21) on Jul 31, 2026
+7. 🚀 Committed to master in [payloadbay/.github](https://github.com/payloadbay/.github/commit/5d48b12a112f31e52c2c1a26d17fdd9a4e0ff8a5) on Jul 31, 2026
+8. 🔀 Opened PR #21 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/21) on Jul 31, 2026
+9. ✨ Created a new branch docs/52-issue-first-guidance in [payloadbay/.github](https://github.com/payloadbay/.github/tree/docs/52-issue-first-guidance) on Jul 31, 2026
+10. 🚀 Committed to docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/5dbd495269ed90d17722370d3e49d7c2a0f7eeb0) on Jul 31, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
