@@ -38,8 +38,8 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/27b03607aa8c5a120cdf1a8c1ff45e82c415b4aa) on Jul 31, 2026
-2. 🔥 Deleted a branch docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Jul 31, 2026
+1. 🔥 Deleted a branch docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Jul 31, 2026
+2. 🚀 Committed to master in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/27b03607aa8c5a120cdf1a8c1ff45e82c415b4aa) on Jul 31, 2026
 3. 🔀 Merged PR #4 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/4) on Jul 31, 2026
 4. 🚀 Committed to docs/52-core-agent-guidance in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/4564efe31a9ee4c7c2a6f84ecfc842aa130f067b) on Jul 31, 2026
 5. 🔥 Deleted a branch docs/52-issue-first-guidance in [payloadbay/.github](https://github.com/payloadbay/.github) on Jul 31, 2026
