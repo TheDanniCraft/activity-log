@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #19 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/19) on Jul 31, 2026
-2. 🔥 Deleted a branch docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Jul 31, 2026
-3. 🚀 Committed to master in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/e2ced5dc8a15771e78e477f0f872fc033f3a2174) on Jul 31, 2026
-4. ✅ Closed issue #2 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/2) on Jul 31, 2026
-5. 🔀 Merged PR #3 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/3) on Jul 31, 2026
-6. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/657d20b006a03f1daad68db761cf27af2d15d2a5) on Jul 31, 2026
-7. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/50a77ba6f2051a9a1a9cfa634be0ae950a3791ef) on Jul 31, 2026
-8. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/7ef4419e2119485597d2b9ec9d62277dc781e8c8) on Jul 31, 2026
-9. 🔀 Opened PR #3 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/3) on Jul 31, 2026
-10. ✨ Created a new branch docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/docs/2-product-landing-readme) on Jul 31, 2026
+1. ✨ Created a new branch docs/18-organization-profile in [payloadbay/.github](https://github.com/payloadbay/.github/tree/docs/18-organization-profile) on Jul 31, 2026
+2. 🔀 Opened PR #19 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/19) on Jul 31, 2026
+3. 🔥 Deleted a branch docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Jul 31, 2026
+4. 🚀 Committed to master in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/e2ced5dc8a15771e78e477f0f872fc033f3a2174) on Jul 31, 2026
+5. ✅ Closed issue #2 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/2) on Jul 31, 2026
+6. 🔀 Merged PR #3 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/3) on Jul 31, 2026
+7. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/657d20b006a03f1daad68db761cf27af2d15d2a5) on Jul 31, 2026
+8. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/50a77ba6f2051a9a1a9cfa634be0ae950a3791ef) on Jul 31, 2026
+9. 🚀 Committed to docs/2-product-landing-readme in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/7ef4419e2119485597d2b9ec9d62277dc781e8c8) on Jul 31, 2026
+10. 🔀 Opened PR #3 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/3) on Jul 31, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
