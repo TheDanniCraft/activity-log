@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbeff2788ea5e0e91f46fdf3a16e7883d6043ad3) on Aug 1, 2026
-3. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ed14f3b08203f6702aecef8dfbc6b3b1ab308b72) on Aug 1, 2026
-5. 🔥 Deleted a branch renovate/bun/heroui-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c22f8c2a74470346ef45af7ef508c1382d447e0d) on Aug 1, 2026
-7. 🔥 Deleted a branch renovate/bun/lint-staged-17.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/68e4c0ff70ec0c55f2ad88d42dde3a6306ff97b1) on Aug 1, 2026
-9. 🔥 Deleted a branch renovate/bun/heroui-styles-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3f0e658e999ef2326540832af10d87e0f5f80789) on Aug 1, 2026
+1. 🔥 Deleted a branch renovate/bun/yao-pkg-pkg-6.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/052ac854ce7024a52ff34a69fc5a1134a00506a7) on Aug 1, 2026
+3. ❌ Closed PR #361 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/361) on Aug 1, 2026
+4. 🗣 Commented on PR #361 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/361#issuecomment-5152119483) on Aug 1, 2026
+5. 🚀 Committed to renovate/bun/yao-pkg-pkg-6.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1f3b484e23e002fe57cb34d51c4d3cd36d493792) on Aug 1, 2026
+6. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bbeff2788ea5e0e91f46fdf3a16e7883d6043ad3) on Aug 1, 2026
+8. 🔥 Deleted a branch renovate/bun/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ed14f3b08203f6702aecef8dfbc6b3b1ab308b72) on Aug 1, 2026
+10. 🔥 Deleted a branch renovate/bun/heroui-react-3.x in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 1, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
