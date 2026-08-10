@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #383 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/383) on Aug 10, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/560f68576e3ec98f351fd233f61f2f439190740e) on Aug 10, 2026
-3. 🔥 Deleted a branch renovate/npm/esbuild-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
-4. 🔥 Deleted a branch renovate/npm/@testing-libraryjest-dom-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcdf71a489b0d8f893540e90067e880ebf00739) on Aug 10, 2026
-6. 🔥 Deleted a branch renovate/npm/@herouistyles-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
-7. 🔥 Deleted a branch renovate/npm/@herouireact-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/342eb07d20a22a48c1ad85ad74636945afabd5e1) on Aug 10, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/461cc8a3608786d51c90c19f28c9a0cb8c2a6cb2) on Aug 10, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/89ae62b6f70104383e921962df811de126e29ac0) on Aug 10, 2026
+1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/25e70780d59abec6d7609669b942b8f19c78a0b1) on Aug 10, 2026
+2. 🔥 Deleted a branch renovate/npm/@sentrynextjs-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af0b9148e75d4e24046ffe4f1f324ab2f6e14371) on Aug 10, 2026
+4. 🔥 Deleted a branch renovate/npm/database-(drizzlepg) in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
+5. 🔀 Opened PR #383 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/383) on Aug 10, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/560f68576e3ec98f351fd233f61f2f439190740e) on Aug 10, 2026
+7. 🔥 Deleted a branch renovate/npm/esbuild-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
+8. 🔥 Deleted a branch renovate/npm/@testing-libraryjest-dom-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
+9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8bcdf71a489b0d8f893540e90067e880ebf00739) on Aug 10, 2026
+10. 🔥 Deleted a branch renovate/npm/@herouistyles-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
