@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e646750a814a15af113dc54fd39b580f78ac6cdc) on Aug 13, 2026
-2. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ceb21a5e34237d0b05f032df88691f597c7ca002) on Aug 13, 2026
-3. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b694b2476c0e4b07a5eb663ba71c1c00e62bbed2) on Aug 13, 2026
-4. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/f930152429bc09e79f6d67ff280470ef31245914) on Aug 13, 2026
-5. 🔀 Opened PR #391 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/391) on Aug 13, 2026
-6. ✨ Created a new branch feature-increase-user-understanding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature-increase-user-understanding) on Aug 13, 2026
-7. ✨ Created a new branch feature/increase-user-understanding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/increase-user-understanding) on Aug 13, 2026
-8. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d4a9a8a5301b5262a2fc7bcb2d7f4d3ef5c6d5ce) on Aug 11, 2026
-9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/671cb0238d3ec34ecf2a9122c3788e9aed7ff2e7) on Aug 11, 2026
-10. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e36ac3a52712317bd6171a99804159e286ccc14c) on Aug 11, 2026
+1. 🔥 Deleted a branch renovate/npm/puppeteer-core-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 13, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f31d4e0df96ab0ed2f7a3433c578829e646295c6) on Aug 13, 2026
+3. 🔥 Deleted a branch renovate/npm/@testing-libraryuser-event-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 13, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/31ed468b3d620470cf16953b50edf23445739868) on Aug 13, 2026
+5. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4352db060d6d9bbbbe9017c98b8f3e9881a8325d) on Aug 13, 2026
+6. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6480f3f1fcbe36fc34501499e6ad8ae260aa0b5f) on Aug 13, 2026
+7. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e646750a814a15af113dc54fd39b580f78ac6cdc) on Aug 13, 2026
+8. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ceb21a5e34237d0b05f032df88691f597c7ca002) on Aug 13, 2026
+9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b694b2476c0e4b07a5eb663ba71c1c00e62bbed2) on Aug 13, 2026
+10. 🚀 Committed to rewrite-portfolio in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/f930152429bc09e79f6d67ff280470ef31245914) on Aug 13, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
