@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/95b83778c32fcbd51cf4c02b42187921f6488a6f) on Aug 20, 2026
-2. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb6f15e18da87ae0b5c3dff20aaffcdcd5c80e4) on Aug 20, 2026
-3. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd37ca07320315bbc93f104db123334f3110b435) on Aug 20, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/964fe57a7033bf15c81b304a0c3c9b9dfd832c25) on Aug 20, 2026
-5. 🔥 Deleted a branch renovate/npm/@swccore-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
-6. 🔥 Deleted a branch renovate/npm/@vercelnft-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/751f8ddce9285f1d00e5614b25bf0bc7731458e9) on Aug 20, 2026
-8. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8f16d5d331636227df7d1b013598549273165475) on Aug 19, 2026
-9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ab755ce7fffa18076459ca28a0f7bc381cd134e) on Aug 19, 2026
-10. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ac502996cd30fcc71c2ca2ae739f2f41db53c57e) on Aug 18, 2026
+1. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/990323746022483edf0fa3eba6d0ba735f87a278) on Aug 20, 2026
+2. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/95b83778c32fcbd51cf4c02b42187921f6488a6f) on Aug 20, 2026
+3. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb6f15e18da87ae0b5c3dff20aaffcdcd5c80e4) on Aug 20, 2026
+4. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd37ca07320315bbc93f104db123334f3110b435) on Aug 20, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/964fe57a7033bf15c81b304a0c3c9b9dfd832c25) on Aug 20, 2026
+6. 🔥 Deleted a branch renovate/npm/@swccore-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
+7. 🔥 Deleted a branch renovate/npm/@vercelnft-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/751f8ddce9285f1d00e5614b25bf0bc7731458e9) on Aug 20, 2026
+9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8f16d5d331636227df7d1b013598549273165475) on Aug 19, 2026
+10. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ab755ce7fffa18076459ca28a0f7bc381cd134e) on Aug 19, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
