@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #409 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/409) on Aug 20, 2026
-2. 🔥 Deleted a branch feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
-3. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8c88a2c4125f7866b567f4bea3fe8b987b6b40f1) on Aug 20, 2026
-4. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bf88e964a5b636afa3f466f10b8d0e2f875b9efa) on Aug 20, 2026
-5. 🔀 Merged PR #383 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/383) on Aug 20, 2026
-6. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c788e3b3a2c978cc34f3cb3c0dafd4dd13638c74) on Aug 20, 2026
-7. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/990323746022483edf0fa3eba6d0ba735f87a278) on Aug 20, 2026
-8. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/95b83778c32fcbd51cf4c02b42187921f6488a6f) on Aug 20, 2026
-9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb6f15e18da87ae0b5c3dff20aaffcdcd5c80e4) on Aug 20, 2026
-10. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd37ca07320315bbc93f104db123334f3110b435) on Aug 20, 2026
+1. 🔀 Merged PR #409 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/409) on Aug 20, 2026
+2. 🔀 Opened PR #409 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/409) on Aug 20, 2026
+3. 🔥 Deleted a branch feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
+4. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8c88a2c4125f7866b567f4bea3fe8b987b6b40f1) on Aug 20, 2026
+5. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bf88e964a5b636afa3f466f10b8d0e2f875b9efa) on Aug 20, 2026
+6. 🔀 Merged PR #383 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/383) on Aug 20, 2026
+7. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c788e3b3a2c978cc34f3cb3c0dafd4dd13638c74) on Aug 20, 2026
+8. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/990323746022483edf0fa3eba6d0ba735f87a278) on Aug 20, 2026
+9. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/95b83778c32fcbd51cf4c02b42187921f6488a6f) on Aug 20, 2026
+10. 🚀 Committed to feat/add-gallery-feature in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb6f15e18da87ae0b5c3dff20aaffcdcd5c80e4) on Aug 20, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
