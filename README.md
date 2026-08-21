@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/manual-migration-dispatch in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/de1ca4e93638ff6c2eeb2ff8a6ef796211fa804a) on Aug 21, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7e83bd74a1ad15d43265e2bded685903de09ad15) on Aug 21, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d4ecf838589c25ad80170e190f9e3430add6e277) on Aug 21, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/403f392a2f26bc7f38fff85c6bd5540f8e844359) on Aug 20, 2026
-5. 🔥 Deleted a branch renovate/npm/marked-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 21, 2026
-6. 🔥 Deleted a branch renovate/npm/@number-flowreact-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
-7. 🔥 Deleted a branch renovate/npm/@tiptapcore-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
-8. 🚀 Committed to fix/heroui-token-workflows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/acd33ec3204323e75fb5ba5f7523757bf862654d) on Aug 20, 2026
-9. ✨ Created a new branch fix/manual-migration-dispatch in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/manual-migration-dispatch) on Aug 20, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f1b13f6cc052457d7a70b9606669b26e03ce87fc) on Aug 20, 2026
+1. 🔥 Deleted a branch renovate/npm/@tiptapextension-link-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2aa9358552f42867096150e8d0de77df5d2393e4) on Aug 20, 2026
+3. 🔥 Deleted a branch renovate/npm/@tiptapreact-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 21, 2026
+4. 🔥 Deleted a branch renovate/npm/@tiptapextension-underline-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 20, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/41443ce9abb1a416d576b95f1235a1eef8a4edd1) on Aug 20, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c8ce353dfdfd791b98712a00c7cb1edf0719f3db) on Aug 20, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d45be35eae9e901ee40b3da07c48285b6af38d12) on Aug 21, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d7bed1e267d8483f9f52329ee44c63ef57490337) on Aug 21, 2026
+9. 🔥 Deleted a branch renovate/npm/@tiptapextensions-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 21, 2026
+10. 🚀 Committed to fix/manual-migration-dispatch in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/de1ca4e93638ff6c2eeb2ff8a6ef796211fa804a) on Aug 21, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
