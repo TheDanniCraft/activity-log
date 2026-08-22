@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/npm/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5af4b5c9e4a2be01368aa0ea5b98c5e0da55d40b) on Aug 22, 2026
-3. 🔥 Deleted a branch renovate/npm/react-aria-components-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77574feb3cd4f3d9a50ea01335ab6cd1ea4d83b5) on Aug 22, 2026
-5. 🔥 Deleted a branch renovate/dockerfile/docker-images in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6897a5e54557996e033fb93f2b432680c5931b98) on Aug 22, 2026
-7. 🔥 Deleted a branch renovate/npm/maplibre-gl-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9b841150322781e8ac6fc0f1e3b24446f4c9ff65) on Aug 22, 2026
-9. 🔥 Deleted a branch renovate/npm/@tiptapstarter-kit-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e54bfb5a92521212b471a0226392cf09a25a567b) on Aug 22, 2026
+1. 🔥 Deleted a branch renovate/npm/react-resizable-panels-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c91d7ff91936794cc032ba832660310a6b74ccf4) on Aug 22, 2026
+3. 🔥 Deleted a branch renovate/npm/@tiptapsuggestion-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/504c3098930c8dbe57ef8f2a743c558a84ba5bf0) on Aug 22, 2026
+5. 🔥 Deleted a branch renovate/npm/shiki-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/571e38dd7931541a9544dacca52e7ee76ad7803b) on Aug 22, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5af4b5c9e4a2be01368aa0ea5b98c5e0da55d40b) on Aug 22, 2026
+8. 🔥 Deleted a branch renovate/npm/nextreact-ecosystem in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
+9. 🔥 Deleted a branch renovate/npm/react-aria-components-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Aug 22, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/77574feb3cd4f3d9a50ea01335ab6cd1ea4d83b5) on Aug 22, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
