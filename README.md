@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/dockerfile/docker-images in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4341ebc32804e23e251e2381f7bfc9e74e51d5ef) on Sep 3, 2026
-3. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63e8e18e06e75688aeabe4aa3db364f9028d2ac0) on Sep 3, 2026
-4. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa011f7cba1686f4f463eebb2be2404b02474d2d) on Sep 3, 2026
-6. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63c5f3b53934737cbc6f146375b2084f759b1062) on Sep 2, 2026
-7. 🚀 Published release v3.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v3.2.0) on Sep 4, 2026
-8. 🔀 Merged PR #443 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/443) on Sep 4, 2026
-9. 🔀 Opened PR #472 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/472) on Sep 4, 2026
-10. 🔥 Deleted a branch renovate/npm/jest-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 2, 2026
+1. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/933ffabce56805e75ec2c71a36941087d2187087) on Sep 4, 2026
+2. 🔥 Deleted a branch renovate/npm/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 4, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a0de2c56ed4b6007e87029c58a8b386d8e51c78) on Sep 4, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/94f628cda48956344e6066832218e60f2652df82) on Sep 2, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92b163fceec8300144265792762c951163e54b28) on Sep 3, 2026
+6. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b92d96dbd3b290ce10a2d97ff31600366b630f7d) on Sep 2, 2026
+7. 🔥 Deleted a branch renovate/dockerfile/docker-images in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4341ebc32804e23e251e2381f7bfc9e74e51d5ef) on Sep 3, 2026
+9. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63e8e18e06e75688aeabe4aa3db364f9028d2ac0) on Sep 3, 2026
+10. 🔥 Deleted a branch renovate/github-actions/github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
