@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/npm/puppeteer-core-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-2. 🔥 Deleted a branch renovate/npm/maplibre-gl-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b77f65e1510c706896d66c08c308bbe9c6fbc442) on Sep 3, 2026
-4. 🔥 Deleted a branch renovate/npm/motion-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/39fa7f19975eeacaca77144729ce11dac35f5d18) on Sep 3, 2026
-6. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0a6a26c0ca9116422872f21d85c4220b9a59ae08) on Sep 3, 2026
-7. 🔥 Deleted a branch renovate/npm/@tiptappm-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 2, 2026
-8. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/933ffabce56805e75ec2c71a36941087d2187087) on Sep 4, 2026
-9. 🔥 Deleted a branch renovate/npm/typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 4, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3a0de2c56ed4b6007e87029c58a8b386d8e51c78) on Sep 4, 2026
+1. 🔥 Deleted a branch renovate/npm/@tiptapextensions-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d5a4498e4651fc20e888eab8b39afe235cab8f16) on Sep 3, 2026
+3. 🔥 Deleted a branch renovate/npm/@tiptapextension-link-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+4. 🔥 Deleted a branch renovate/npm/@tiptapcore-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8e8a9676c1119c7c15a76f21f97daef795ba2c17) on Sep 3, 2026
+6. 🔥 Deleted a branch renovate/npm/puppeteer-core-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b77f65e1510c706896d66c08c308bbe9c6fbc442) on Sep 3, 2026
+8. 🔥 Deleted a branch renovate/npm/maplibre-gl-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+9. 🔥 Deleted a branch renovate/npm/motion-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/39fa7f19975eeacaca77144729ce11dac35f5d18) on Sep 3, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
