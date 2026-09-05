@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/npm/resedit-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-2. 🔥 Deleted a branch feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 4, 2026
-3. ✨ Created a new branch gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/gamescom-improvements) on Sep 4, 2026
-4. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9648f307a0f4e74c9d8a74fa57ec3f0ad54dbfc) on Sep 3, 2026
-5. 🔥 Deleted a branch renovate/npm/@tiptappm-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
-6. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fb3e9acd534e99edd7aadc856d6cec76fd438f32) on Sep 4, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84d373c5e2931ed5fe3a1dfc7d24de872e51a9d7) on Sep 4, 2026
-8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a0b277efeb8d4371d4f4d9118963a9ec1373e975) on Sep 4, 2026
-9. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d00f349003ee96287dc6293941664c5c918c6e69) on Sep 4, 2026
-10. 🔥 Deleted a branch renovate/npm/@tiptapextensions-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+1. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c5d22d1ebda311e5eb4c2e1f0431965542af4efe) on Sep 3, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/42e3d46274e209fb6bf2246efac3d8c0384ec586) on Sep 3, 2026
+3. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/733ba5f1f946c1d9adaa89d8db360142caee858b) on Sep 3, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/693dca1ce15dcc42f1ba7cf294e26f60bdb2549d) on Sep 3, 2026
+5. 🔥 Deleted a branch renovate/npm/resedit-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+6. 🔥 Deleted a branch feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 4, 2026
+7. ✨ Created a new branch gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/gamescom-improvements) on Sep 4, 2026
+8. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9648f307a0f4e74c9d8a74fa57ec3f0ad54dbfc) on Sep 3, 2026
+9. 🔥 Deleted a branch renovate/npm/@tiptappm-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 3, 2026
+10. 🚀 Committed to feature/member-badges in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fb3e9acd534e99edd7aadc856d6cec76fd438f32) on Sep 4, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
