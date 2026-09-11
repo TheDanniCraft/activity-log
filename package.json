@@ -6,7 +6,7 @@
 		"@octokit/plugin-throttling": "^11.0.3",
 		"axios": "^1.18.1",
 		"commitlint-config-gitmoji": "^2.3.1",
-		"yaml": "^2.9.0"
+		"yaml": "^2.9.1"
 	},
 	"scripts": {
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
