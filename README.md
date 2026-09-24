@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/65c49805e68118dbaa62187b56305950355ad2b6) on Sep 24, 2026
-2. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/32494a1cd17009f09c70e28e2d6c000bdcd074fb) on Sep 24, 2026
-3. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4054d5db3256532b35cc5d41e4c599de04f62aac) on Sep 24, 2026
-4. 🔥 Deleted a branch renovate/github-actions/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 23, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1a36ac44f77af684800400d038399e62325f372c) on Sep 23, 2026
-6. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9b52dc33935a9f70b499e1a1549f7f25630d3fd8) on Sep 24, 2026
-7. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c254255d228c2f9f3b0b2fb5f858577c6620b050) on Sep 24, 2026
-8. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c14179314a8c09b2de9bf9c3418bbfaf1be7fe73) on Sep 24, 2026
-9. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/255be3c1590a3b5cbbcf3971008e7987f4a25427) on Sep 24, 2026
-10. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f1af2a912487a9ec142f9c507cf0ac9f7256593f) on Sep 24, 2026
+1. 🗣 Commented on PR #472 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/472#issuecomment-5811082399) on Sep 24, 2026
+2. 🗣 Commented on PR #472 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/472#issuecomment-5810795367) on Sep 24, 2026
+3. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7691e32b7cfa936b007342c404ad23a1e9a5f060) on Sep 24, 2026
+4. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/65c49805e68118dbaa62187b56305950355ad2b6) on Sep 24, 2026
+5. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/32494a1cd17009f09c70e28e2d6c000bdcd074fb) on Sep 24, 2026
+6. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4054d5db3256532b35cc5d41e4c599de04f62aac) on Sep 24, 2026
+7. 🔥 Deleted a branch renovate/github-actions/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 23, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1a36ac44f77af684800400d038399e62325f372c) on Sep 23, 2026
+9. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9b52dc33935a9f70b499e1a1549f7f25630d3fd8) on Sep 24, 2026
+10. 🚀 Committed to gamescom-improvements in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c254255d228c2f9f3b0b2fb5f858577c6620b050) on Sep 24, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
