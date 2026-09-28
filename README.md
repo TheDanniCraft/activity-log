@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3b8c734b92d4297dbd8a4f7179a5cccee041429b) on Sep 27, 2026
-2. 🔀 Opened PR #483 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/483) on Sep 27, 2026
-3. 🔥 Deleted a branch renovate/dockerfile/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 27, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4370bc9dfed9741dfae579d1383959ccfff2a54d) on Sep 27, 2026
-5. 🚀 Committed to feature/sentry-health-signals in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4c0bf2fdaa70bcba83a7d1fa485a228c098fcab4) on Sep 26, 2026
-6. 🔥 Deleted a branch feature/sentry-health-signals in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 27, 2026
-7. ✨ Created a new branch feature/sentry-health-signals in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/sentry-health-signals) on Sep 26, 2026
-8. ✨ Created a new branch feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/video-engine) on Sep 27, 2026
-9. 🚀 Published release v3.3.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v3.3.2) on Sep 27, 2026
-10. 🔀 Merged PR #481 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/481) on Sep 27, 2026
+1. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c89ba1c171adcaa82221ccd234d063d1dc5128f0) on Sep 28, 2026
+2. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f0b0faa0697fabcd647f24738d0410ae9ef25f23) on Sep 28, 2026
+3. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0dff178bf2b6c8e6e93457828bad7e24ac2625b9) on Sep 28, 2026
+4. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/149919565fe9ffcf1f94e975b0fbb70cb651830b) on Sep 28, 2026
+5. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/919ce43be5d064f67027e8d1c7aa81ed1eb43e07) on Sep 28, 2026
+6. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/78c3eb031fb6fe74ef20b806799db5c8d90c2615) on Sep 28, 2026
+7. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e04603886aa9dcf05f0fdc128b22267aa6d67bc0) on Sep 28, 2026
+8. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e58a03fc74c78c3750715aa22d45edfc7d02038b) on Sep 28, 2026
+9. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92cedcb6c6de69319d1dc747c849a67042892b38) on Sep 28, 2026
+10. ✨ Created a new branch feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/auth-engine-rewrite) on Sep 28, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
