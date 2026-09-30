@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR #483 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/483) on Sep 29, 2026
-2. 🚀 Committed to feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb6976bfdda7642662bcb69202d5dba2c0874589) on Sep 29, 2026
-3. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99e48ab39b06e4a3ff346406df6a423e8695f9c3) on Sep 29, 2026
-4. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d320c16c375cb530e2ba3626afe0292cb8971af1) on Sep 29, 2026
-5. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/65ec7fdc906c24c0bb8579b01f731398c364119b) on Sep 28, 2026
-6. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4046802027afaaecc54a53085265faf90d3546af) on Sep 29, 2026
-7. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bc989fd1cffe5a1465a1930487fc7ef0b9a8f7f6) on Sep 28, 2026
-8. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8073da8e953c3c2e00ba1b01e97c943b3db70617) on Sep 28, 2026
-9. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/20a8b9c0114b7b3bea713cc47a71fe05ba8f8852) on Sep 28, 2026
-10. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ff1b7005c818908dcad8d9af93612f56a2f718c2) on Sep 28, 2026
+1. 🔥 Deleted a branch feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 29, 2026
+2. 🚀 Committed to feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37827a6b44eba1ab40262743e2b03f002b850ca9) on Sep 29, 2026
+3. 🔀 Merged PR #483 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/483) on Sep 29, 2026
+4. 🚀 Committed to feature/video-engine in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb6976bfdda7642662bcb69202d5dba2c0874589) on Sep 29, 2026
+5. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99e48ab39b06e4a3ff346406df6a423e8695f9c3) on Sep 29, 2026
+6. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d320c16c375cb530e2ba3626afe0292cb8971af1) on Sep 29, 2026
+7. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/65ec7fdc906c24c0bb8579b01f731398c364119b) on Sep 28, 2026
+8. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4046802027afaaecc54a53085265faf90d3546af) on Sep 29, 2026
+9. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bc989fd1cffe5a1465a1930487fc7ef0b9a8f7f6) on Sep 28, 2026
+10. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8073da8e953c3c2e00ba1b01e97c943b3db70617) on Sep 28, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
