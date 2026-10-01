@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/privacy-copy-footer-fixes in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ccf7587d949df9c046437011eb5e3fac5acd88d) on Sep 29, 2026
-2. ✨ Created a new branch fix/privacy-copy-footer-fixes in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/privacy-copy-footer-fixes) on Sep 29, 2026
-3. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c293f494ec3826ae0fe148c5ca14e29780f61297) on Sep 29, 2026
-4. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a1047722f333b4c4f95c5e341c9d020da404fa3a) on Oct 1, 2026
-5. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/be53e0db7426f955b7cd004bf3b8f3123f5ba76f) on Sep 30, 2026
-6. 🔥 Deleted a branch feature/increase-user-understanding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 30, 2026
-7. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ab15b0707728776f38c9ae2ad3dc7c831af10241) on Sep 30, 2026
-8. 🔥 Deleted a branch fix/privacy-copy-footer-fixes in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 30, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a17b4551a930e5db03c15804129fe464d7e2aea8) on Sep 30, 2026
-10. 🔥 Deleted a branch improve-code-quality in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 30, 2026
+1. 🔥 Deleted a branch renovate/npm/major-dotenv-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 30, 2026
+2. 🚀 Committed to renovate/npm/major-typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bb77fe501103dad17951ecd7c53b4e0e8b77e7dc) on Sep 30, 2026
+3. 🔥 Deleted a tag v1.0.0 in a private repository on Oct 1, 2026
+4. 🚀 Committed to renovate/npm/major-typescript-and-types in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e129b2619fc6bce2c371e03c47ca83cddc5c1ad8) on Sep 30, 2026
+5. 🚀 Committed to fix/privacy-copy-footer-fixes in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9ccf7587d949df9c046437011eb5e3fac5acd88d) on Sep 29, 2026
+6. ✨ Created a new branch fix/privacy-copy-footer-fixes in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/privacy-copy-footer-fixes) on Sep 29, 2026
+7. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c293f494ec3826ae0fe148c5ca14e29780f61297) on Sep 29, 2026
+8. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a1047722f333b4c4f95c5e341c9d020da404fa3a) on Oct 1, 2026
+9. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/be53e0db7426f955b7cd004bf3b8f3123f5ba76f) on Sep 30, 2026
+10. 🔥 Deleted a branch feature/increase-user-understanding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Sep 30, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
