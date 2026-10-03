@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ba194c5957ab15787127edfbec0f5263dfa291f8) on Oct 1, 2026
-2. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/27fc69e60e3b13799dda2176e544e734f9ebf0ba) on Oct 2, 2026
-3. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcf8c995483cd056d102bf70165b99b7f4eab144) on Oct 2, 2026
-4. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/264edb043bd165d0057dc170271787c97ee4b024) on Oct 3, 2026
-5. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e89a34c2bb66bae83e6ae013aecee524c9d4a0ef) on Oct 2, 2026
-6. 🚀 Published release v1.0.0 in a private repository on Oct 2, 2026
-7. 🔥 Deleted a tag v1.0.0 in a private repository on Oct 2, 2026
-8. 🚀 Committed to master in a private repository on Oct 2, 2026
-9. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6816927fb8b5bde2a098afda6bbcb8b1f23640e5) on Oct 2, 2026
-10. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/19851a6a5b23d11e9f5b6ff008db6ab371f8f59a) on Oct 2, 2026
+1. 🔀 Merged PR #489 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/489) on Oct 3, 2026
+2. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ab381b4bc2547d6600f47e10f5ca664bc952a331) on Oct 3, 2026
+3. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e7e2ee9ba36451b79f4741ebcf66e38ad135ceb) on Oct 3, 2026
+4. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3288e3ef92de1d41026333651782b0cdfe59c22f) on Oct 3, 2026
+5. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ca219556206e10daffbf66b4c0454cd48025e58d) on Oct 3, 2026
+6. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0f4b115ba71b2eb5557f7f6dcc56d1d5696b3fab) on Oct 1, 2026
+7. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fba69360b5f62c65c923e796259b51a1a9bd9040) on Oct 2, 2026
+8. 🚀 Committed to feature/auth-engine-rewrite in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ba194c5957ab15787127edfbec0f5263dfa291f8) on Oct 1, 2026
+9. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/27fc69e60e3b13799dda2176e544e734f9ebf0ba) on Oct 2, 2026
+10. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcf8c995483cd056d102bf70165b99b7f4eab144) on Oct 2, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
