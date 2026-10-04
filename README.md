@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch codex/verify-renovate-signatures in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/codex/verify-renovate-signatures) on Oct 4, 2026
-2. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/e9c2c3da2010b88c198b740ca1a6978cc799c7af) on Oct 4, 2026
-3. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e327c2333ae886a10bad13ff9927c38a320378e5) on Oct 2, 2026
-4. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/7ff1ec790fb9ee14c86b5ac9f398b34adeae8d54) on Oct 4, 2026
-5. 🚀 Committed to codex/auth-dialog-spacing in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8dcf173c8d45c64b43c455b4ee057c7d6613d31) on Oct 3, 2026
-6. 🔥 Deleted a branch renovate/eslint-monorepo in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Oct 4, 2026
-7. ❌ Closed PR #201 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/201) on Oct 4, 2026
-8. 🗣 Commented on PR #201 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/issues/201#issuecomment-5975678178) on Oct 4, 2026
-9. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2fba07d8e5556c64e2c8bafa5e294225742fdfd4) on Oct 4, 2026
-10. 🚀 Published release v4.0.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.0.2) on Oct 4, 2026
+1. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/593ece79484fcca11a71a5a3286e69e17f6938fa) on Oct 4, 2026
+2. 🔀 Merged PR #202 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/202) on Oct 4, 2026
+3. 🔀 Opened PR #202 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/202) on Oct 4, 2026
+4. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/79cd79ad638576256a6ca72601edf8f5182e44bf) on Oct 2, 2026
+5. 🚀 Published release v4.0.3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.0.3) on Oct 4, 2026
+6. 🔥 Deleted a branch fix/community-avatar-rings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 4, 2026
+7. 🔀 Merged PR #493 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/493) on Oct 4, 2026
+8. 🚀 Committed to fix/community-avatar-rings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/df3a856413d39ec628e35507b7b64d5b541d572c) on Oct 4, 2026
+9. 🚀 Committed to fix/community-avatar-rings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/68a2470fa99763ba8d1df906b1c1daf586cb05e2) on Oct 4, 2026
+10. 🗣 Commented on PR #493 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/493#issuecomment-5980154690) on Oct 4, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
