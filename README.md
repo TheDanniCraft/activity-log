@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/988b7e9a525366821328722dac879dc6b21aff87) on Oct 3, 2026
-2. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/07bbbfe3b1a816fde5ef6169a32d3b490468e0d0) on Oct 3, 2026
-3. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/baaf87db674bf47115efe6e028b5826b3745b846) on Oct 3, 2026
-4. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/30c40ee15373da453b9077be996a33fca5b8ba7c) on Oct 3, 2026
-5. 🔥 Deleted a branch renovate/npm/major-@sentrynextjs-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 3, 2026
-6. 🔀 Opened PR #492 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/492) on Oct 3, 2026
-7. ✨ Created a new branch codex/auth-dialog-spacing in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/codex/auth-dialog-spacing) on Oct 3, 2026
-8. 🚀 Published release v4.0.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.0.1) on Oct 3, 2026
-9. 🔥 Deleted a branch fix/missing-auth-cleanup-migration in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 3, 2026
-10. 🔀 Merged PR #491 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/491) on Oct 3, 2026
+1. 🔥 Deleted a branch renovate/eslint-monorepo in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Oct 4, 2026
+2. ❌ Closed PR #201 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/201) on Oct 4, 2026
+3. 🗣 Commented on PR #201 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/issues/201#issuecomment-5975678178) on Oct 4, 2026
+4. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/2fba07d8e5556c64e2c8bafa5e294225742fdfd4) on Oct 4, 2026
+5. 🚀 Published release v4.0.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.0.2) on Oct 4, 2026
+6. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/775c3f83235a3fefa61f6c4df43629cdad28e7b7) on Oct 4, 2026
+7. 🔀 Merged PR #199 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/199) on Oct 4, 2026
+8. 🔥 Deleted a branch codex/auth-dialog-spacing in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 4, 2026
+9. 🔀 Merged PR #492 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/492) on Oct 4, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f763d3076bb4b10643429a90beb4cc388379cf07) on Oct 4, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
