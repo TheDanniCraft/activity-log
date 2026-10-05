@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5435bca082ed53d0f418ad5e5145682a8b827951) on Oct 4, 2026
-2. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e8fd1ac4115da866b89309c454a175d25114343f) on Oct 3, 2026
-3. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f004f844230b758b2926fa35d4818c277b27d724) on Oct 3, 2026
-4. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3bf220fe25ad7f1acc877b87dde029443ea60eb6) on Oct 3, 2026
-5. 🚀 Published release v4.0.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.0.4) on Oct 4, 2026
-6. 🔀 Merged PR #494 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/494) on Oct 4, 2026
-7. 🔥 Deleted a branch fix/obs-overlay-presence in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 4, 2026
-8. 🚀 Committed to fix/obs-overlay-presence in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/570935b5d1aa6907970369e43398e6a433b10377) on Oct 4, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/727d7393812de6cb8175198fc0709e0bf74072d6) on Oct 4, 2026
-10. 🗣 Commented on PR #494 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/494#issuecomment-5983164241) on Oct 4, 2026
+1. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0ac7ccfc50f389ce0b2d455fda5e736c290ba410) on Oct 4, 2026
+2. 🔀 Opened PR #203 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/203) on Oct 4, 2026
+3. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ced7a4810892f0cd52fab521b760d601288b0fe5) on Oct 4, 2026
+4. ✨ Created a new branch improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/improvements) on Oct 4, 2026
+5. ✨ Created a new branch fix/obs-overlay-presence in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/obs-overlay-presence) on Oct 4, 2026
+6. 🔥 Deleted a branch fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 3, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5435bca082ed53d0f418ad5e5145682a8b827951) on Oct 4, 2026
+8. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e8fd1ac4115da866b89309c454a175d25114343f) on Oct 3, 2026
+9. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f004f844230b758b2926fa35d4818c277b27d724) on Oct 3, 2026
+10. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3bf220fe25ad7f1acc877b87dde029443ea60eb6) on Oct 3, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
