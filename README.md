@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c5b3f1b18a6dbe319fcfff7d9af70a98a0458c1) on Oct 3, 2026
-2. 🚀 Committed to fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a3edbca9fc38161a80d451643e28696e39f84383) on Oct 3, 2026
-3. 🚀 Committed to renovate/npm/major-@sentrynextjs-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6ad2807bd9bd514df5519f7e7cb9883a4165ace3) on Oct 3, 2026
-4. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0ac7ccfc50f389ce0b2d455fda5e736c290ba410) on Oct 4, 2026
-5. 🔀 Opened PR #203 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/203) on Oct 4, 2026
-6. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ced7a4810892f0cd52fab521b760d601288b0fe5) on Oct 4, 2026
-7. ✨ Created a new branch improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/improvements) on Oct 4, 2026
-8. ✨ Created a new branch fix/obs-overlay-presence in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/obs-overlay-presence) on Oct 4, 2026
-9. 🔥 Deleted a branch fix/auth-cutover-polish in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 3, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5435bca082ed53d0f418ad5e5145682a8b827951) on Oct 4, 2026
+1. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/bed8814bb23a3f8ef8d0c6322d92172aafc330ed) on Oct 5, 2026
+2. ✨ Created a new branch fix/community-avatar-rings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/community-avatar-rings) on Oct 4, 2026
+3. 🚀 Committed to codex/auth-dialog-spacing in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/000e55fa97eabfa4ffc9581b102a87b45b807069) on Oct 3, 2026
+4. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/9d1777e7a55397d810f0818ff27b4589b46dbd2f) on Oct 5, 2026
+5. 🔀 Merged PR #203 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/203) on Oct 5, 2026
+6. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/0ac7ccfc50f389ce0b2d455fda5e736c290ba410) on Oct 5, 2026
+7. 🚀 Committed to improvements in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/aa17b15c00fe953ddc5979e9c64395b517a762ac) on Oct 5, 2026
+8. 🚀 Committed to fix/community-avatar-rings in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2ed013c9c75bd85d6821aee9c34d78ee4f9a0270) on Oct 4, 2026
+9. 🔥 Deleted a branch codex/verify-renovate-signatures in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio) on Oct 4, 2026
+10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7c5b3f1b18a6dbe319fcfff7d9af70a98a0458c1) on Oct 3, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
