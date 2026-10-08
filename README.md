@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch fix/better-auth-proxy-version in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 7, 2026
-2. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/36cea8accf889a16ed5262b3b6616e1a8ac416d3) on Oct 7, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e9a34dc0b9043461a9c67b421bdc2dc4789e20b6) on Oct 7, 2026
-4. ✨ Created a new branch fix/better-auth-proxy-version in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/better-auth-proxy-version) on Oct 7, 2026
-5. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae4335f67fed5b5af3b9ac6a95a25fe663e83731) on Oct 8, 2026
-6. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/03734d4455190bff78c36d1a778fd09428210d09) on Oct 8, 2026
-7. 🔥 Deleted a branch renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 7, 2026
-8. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/609b57cc94053ddc4c43ac0541252a4422d0bd66) on Oct 8, 2026
-9. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c7993ba892551bfb3f7cc38349ba5b019c0c4b22) on Oct 7, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5d803b0bc11723061308ef5ae919fc1c54b89198) on Oct 7, 2026
+1. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84ab6ec7833482347fc526dcb199b36cccd0b701) on Oct 8, 2026
+2. 🔥 Deleted a branch fix/better-auth-proxy-version in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 7, 2026
+3. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/36cea8accf889a16ed5262b3b6616e1a8ac416d3) on Oct 7, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e9a34dc0b9043461a9c67b421bdc2dc4789e20b6) on Oct 7, 2026
+5. ✨ Created a new branch fix/better-auth-proxy-version in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/better-auth-proxy-version) on Oct 7, 2026
+6. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae4335f67fed5b5af3b9ac6a95a25fe663e83731) on Oct 8, 2026
+7. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/03734d4455190bff78c36d1a778fd09428210d09) on Oct 8, 2026
+8. 🔥 Deleted a branch renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 7, 2026
+9. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/609b57cc94053ddc4c43ac0541252a4422d0bd66) on Oct 8, 2026
+10. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c7993ba892551bfb3f7cc38349ba5b019c0c4b22) on Oct 7, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
