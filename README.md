@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #499 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/499) on Oct 8, 2026
-2. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db43f291aa69533d5624631ea0fd71054848c33a) on Oct 8, 2026
-3. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f5cace55034f3e5c87866783b939fc5751f6ae90) on Oct 8, 2026
-4. 🔀 Merged PR #496 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/496) on Oct 8, 2026
-5. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/278425bf31be925c208579ec6ae029476afcc621) on Oct 8, 2026
-6. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f49a77d61a7390b8fca263092638553c47794dfd) on Oct 8, 2026
-7. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/15f77c812a8399ec94e6b8dd3ce4e84dae592309) on Oct 8, 2026
-8. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b66247f3809b4e3ad45140e66680880f5b13e013) on Oct 8, 2026
-9. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/84ab6ec7833482347fc526dcb199b36cccd0b701) on Oct 8, 2026
-10. 🔥 Deleted a branch fix/better-auth-proxy-version in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 7, 2026
+1. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2fcb4a5774bfabd7f302c232e54e2bef58dc15e2) on Oct 7, 2026
+2. 🔀 Merged PR #500 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/500) on Oct 9, 2026
+3. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/66e0ed755a85f07e3ce2d546c2a4b84f3a2bd67a) on Oct 8, 2026
+4. ✨ Created a new branch feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/mcp-support) on Oct 7, 2026
+5. 🔀 Opened PR #500 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/500) on Oct 9, 2026
+6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/52af12f43fd4b8e95280fa151c5cba363eab96c6) on Oct 9, 2026
+7. 🔀 Merged PR #499 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/499) on Oct 9, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/393f01102fc56d68c772dd6425ebdb415401001a) on Oct 9, 2026
+9. 🔀 Opened PR #499 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/499) on Oct 8, 2026
+10. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db43f291aa69533d5624631ea0fd71054848c33a) on Oct 8, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
