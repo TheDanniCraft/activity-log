@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd0fef6d41b43529a852c4fcc8a755f8b879fa71) on Oct 8, 2026
-2. 🚀 Published release v4.1.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.0) on Oct 9, 2026
-3. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/be8823233ada5a842207598fb32d6c61d1f95a95) on Oct 8, 2026
-4. 🔀 Merged PR #501 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/501) on Oct 9, 2026
-5. 🔥 Deleted a branch fix/migration-creator-uniqueness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 9, 2026
-6. 🔀 Opened PR #501 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/501) on Oct 9, 2026
-7. ✨ Created a new branch fix/sentry-errors in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/sentry-errors) on Oct 9, 2026
-8. 🚀 Committed to fix/migration-push-checks in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3f94cf142d908121dd3fbdcb5b219942b6e98a5d) on Oct 8, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9d5b54c36eb30fb7b193d4103a3d08e8d534f414) on Oct 8, 2026
-10. 🔥 Deleted a branch renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 8, 2026
+1. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e022ed8f34609df689c1f78b196d1ace87a19456) on Oct 8, 2026
+2. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b942bd6dcd19f14ca03927918382c89fe809eceb) on Oct 8, 2026
+3. 🔀 Opened PR #502 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/502) on Oct 9, 2026
+4. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bd0fef6d41b43529a852c4fcc8a755f8b879fa71) on Oct 8, 2026
+5. 🚀 Published release v4.1.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.0) on Oct 9, 2026
+6. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/be8823233ada5a842207598fb32d6c61d1f95a95) on Oct 8, 2026
+7. 🔀 Merged PR #501 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/501) on Oct 9, 2026
+8. 🔥 Deleted a branch fix/migration-creator-uniqueness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 9, 2026
+9. 🔀 Opened PR #501 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/501) on Oct 9, 2026
+10. ✨ Created a new branch fix/sentry-errors in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/sentry-errors) on Oct 9, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
