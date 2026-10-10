@@ -1,20 +1,21 @@
 {
-	"type": "module",
-	"dependencies": {
-		"@actions/core": "^3.0.1",
-		"@actions/github": "^9.1.1",
-		"@octokit/plugin-throttling": "^11.0.3",
-		"axios": "^1.20.0",
-		"commitlint-config-gitmoji": "^2.3.1",
-		"yaml": "^2.9.0"
-	},
-	"scripts": {
-		"watch": "ncc build src/index.js --watch --license licenses.txt",
-		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
-		"lint:commit": "commitlint --last --verbose"
-	},
-	"devDependencies": {
-		"@commitlint/cli": "^21.2.3",
-		"@vercel/ncc": "^0.44.1"
-	}
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@actions/core": "^3.0.1",
+    "@actions/github": "^9.1.1",
+    "@octokit/plugin-throttling": "^11.0.3",
+    "axios": "^1.20.0",
+    "commitlint-config-gitmoji": "^2.3.1",
+    "yaml": "^2.9.0"
+  },
+  "scripts": {
+    "watch": "ncc build src/index.js --watch --license licenses.txt",
+    "build": "bun install && bunx ncc build src/index.js --license licenses.txt",
+    "lint:commit": "commitlint --last --verbose"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@vercel/ncc": "^0.44.1"
+  }
 }
