@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/42ff8c8511e139a2093939454f75a539c8678541) on Oct 10, 2026
-2. 🔥 Deleted a branch feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 8, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b6135be5deb75fcc02c4a9e7e60644c78e1fe933) on Oct 8, 2026
-4. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b162485abb404dce0bf6bca5324c53e86a5e308c) on Oct 10, 2026
-5. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3a4cf7486fb9629ec5c5b745486e01b3e15da71) on Oct 8, 2026
-6. 🔥 Deleted a branch fix/migration-push-checks in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 9, 2026
-7. ✨ Created a new branch fix/migration-push-checks in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/migration-push-checks) on Oct 8, 2026
-8. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e5eae00a16780437b1820442160427c9c3fd468) on Oct 8, 2026
-9. ✨ Created a new branch feature/mcp-discovery-launch in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/mcp-discovery-launch) on Oct 9, 2026
-10. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/acb3b3e28f5a87c75b9bc9d186a8f7fd235b7d93) on Oct 8, 2026
+1. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5010111d4249ea68d63f79099338aaf09338df45) on Oct 10, 2026
+2. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecae530eaea00e9be9b104a94809d2c6e4ffd8e1) on Oct 8, 2026
+3. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1dafb0cc671b6cfc08698ac89faf65eb0907653) on Oct 10, 2026
+4. ✨ Created a new branch fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/oauth-resource-startup) on Oct 9, 2026
+5. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/42ff8c8511e139a2093939454f75a539c8678541) on Oct 10, 2026
+6. 🔥 Deleted a branch feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 8, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b6135be5deb75fcc02c4a9e7e60644c78e1fe933) on Oct 8, 2026
+8. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b162485abb404dce0bf6bca5324c53e86a5e308c) on Oct 10, 2026
+9. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3a4cf7486fb9629ec5c5b745486e01b3e15da71) on Oct 8, 2026
+10. 🔥 Deleted a branch fix/migration-push-checks in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 9, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
