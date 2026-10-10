@@ -95,6 +95,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # 嘗試刪除遠端已存在的同名 Release 與 Tag（若不存在則忽略錯誤繼續）
+          gh release delete "${{ env.TAG }}" --yes || true
+          git push origin --delete "${{ env.TAG }}" || true
+
+          # 重新建立 Release
           gh release create "${{ env.TAG }}" build.zip \
             --title "Release ${{ env.TAG }}" \
             --notes "${{ vars.RELEASE_NOTE }}"
