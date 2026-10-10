@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #504 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/504) on Oct 10, 2026
-2. 🔥 Deleted a branch fix/sentry-errors in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 9, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/49db765264d7b8a936eb3f93d2628e5d4d479db4) on Oct 9, 2026
-4. 🚀 Published release v4.1.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.1) on Oct 10, 2026
-5. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/0ea333612446c39313cc76e3e4f7141357900137) on Oct 10, 2026
-6. 🔀 Merged PR #502 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/502) on Oct 10, 2026
-7. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5010111d4249ea68d63f79099338aaf09338df45) on Oct 10, 2026
-8. 🚀 Committed to feature/mcp-support in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ecae530eaea00e9be9b104a94809d2c6e4ffd8e1) on Oct 8, 2026
-9. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b1dafb0cc671b6cfc08698ac89faf65eb0907653) on Oct 10, 2026
-10. ✨ Created a new branch fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/oauth-resource-startup) on Oct 9, 2026
+1. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a246ff8f8bfbb1e29525ea2e232d7eba57f4cd06) on Oct 10, 2026
+2. 🚀 Published release v4.1.3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.3) on Oct 10, 2026
+3. 🔀 Merged PR #505 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/505) on Oct 10, 2026
+4. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/75a8ce25117660f2158363ef1c417797ff440787) on Oct 10, 2026
+5. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1631fdebf51b116fa4835dc388c6a4969554e9a2) on Oct 10, 2026
+6. 🔀 Opened PR #505 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/505) on Oct 10, 2026
+7. 🚀 Published release v4.1.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.2) on Oct 10, 2026
+8. 🔀 Merged PR #504 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/504) on Oct 10, 2026
+9. ✨ Created a new branch fix/migration-creator-uniqueness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/migration-creator-uniqueness) on Oct 9, 2026
+10. 🔀 Opened PR #504 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/504) on Oct 10, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
