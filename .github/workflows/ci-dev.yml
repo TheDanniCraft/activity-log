@@ -1,8 +1,12 @@
-name: CI Dev Deployment
+name: CI/CD Deployment Pipeline
 
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -11,8 +15,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-        
-       # 👇 加入這一個新的步驟來安裝 bun
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
 
@@ -28,24 +30,38 @@ jobs:
           name: build-artifact
           path: build.zip
 
-  deploy-dev:
+  deploy-staging:
     needs: build
     runs-on: ubuntu-latest
-    environment: dev
-    permissions:
-      contents: write # 建立 Release 需要寫入權限
-
+    environment: staging
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
           name: build-artifact
 
-      - name: Release Dev Build
+      - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
-          gh release create "$TAG" build.zip --notes "$NOTE"
+          gh release create ${{ vars.BUILD_TAG }} build.zip \
+            --title "Release ${{ vars.BUILD_TAG }}" \
+            --notes "${{ vars.RELEASE_NOTE }}"
+
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create ${{ vars.BUILD_TAG }} build.zip \
+            --title "Release ${{ vars.BUILD_TAG }}" \
+            --notes "${{ vars.RELEASE_NOTE }}"
