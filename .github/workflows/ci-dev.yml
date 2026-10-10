@@ -104,13 +104,6 @@ jobs:
             --title "Release ${{ env.TAG }}" \
             --notes "${{ vars.RELEASE_NOTE }}"
 
-      - name: Add Release Notification Comment
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '🎉 系統已成功發布新版本：${{ env.TAG }}！'
-            })
+      - name: Print Release Notification
+        run: |
+          echo "Notification: Release ${{ env.TAG }} completed successfully!"
