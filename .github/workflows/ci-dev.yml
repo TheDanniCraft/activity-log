@@ -35,7 +35,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: staging
     steps:
-    # 👇 補上拉取程式碼的步驟
       - name: Checkout repo
         uses: actions/checkout@v4
         
@@ -44,12 +43,20 @@ jobs:
         with:
           name: build-artifact
 
+      # 👇 新增：從 package.json 動態讀取版本號
+      - name: Read version from package.json
+        id: get-version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "TAG=staging-v$VERSION" >> $GITHUB_ENV
+          echo "Released version is staging-v$VERSION"
+
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ vars.BUILD_TAG }} build.zip \
-            --title "Release ${{ vars.BUILD_TAG }}" \
+          gh release create "${{ env.TAG }}" build.zip \
+            --title "Release ${{ env.TAG }}" \
             --notes "${{ vars.RELEASE_NOTE }}"
 
   deploy-production:
@@ -57,7 +64,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: production
     steps:
-    # 👇 這裡也要補上拉取程式碼的步驟
       - name: Checkout repo
         uses: actions/checkout@v4
         
@@ -66,10 +72,18 @@ jobs:
         with:
           name: build-artifact
 
+      # 👇 新增：從 package.json 動態讀取版本號（Production 也可以用相同邏輯或加上 prod 前綴）
+      - name: Read version from package.json
+        id: get-version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "TAG=prod-v$VERSION" >> $GITHUB_ENV
+          echo "Released version is prod-v$VERSION"
+
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release create ${{ vars.BUILD_TAG }} build.zip \
-            --title "Release ${{ vars.BUILD_TAG }}" \
+          gh release create "${{ env.TAG }}" build.zip \
+            --title "Release ${{ env.TAG }}" \
             --notes "${{ vars.RELEASE_NOTE }}"
