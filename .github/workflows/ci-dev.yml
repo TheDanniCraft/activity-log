@@ -11,6 +11,11 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+        
+       # 👇 加入這一個新的步驟來安裝 bun
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
       - name: Build
         run: |
           npm install
