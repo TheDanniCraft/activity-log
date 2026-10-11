@@ -17,11 +17,12 @@ jobs:
       - name: 安裝 Node.js 與套件並編譯
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: |
+          npm install -g bun
           npm install
           npm run build
-          zip -r build.zip .  # 將所有檔案壓縮成 build.zip
+          zip -r build.zip .
           
       - name: 上傳打包好的檔案
         uses: actions/upload-artifact@v4
