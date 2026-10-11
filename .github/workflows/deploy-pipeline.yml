@@ -90,7 +90,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4  # <--- 請在這裡補上這一行！下載 .git 資訊
       - uses: actions/download-artifact@v4
         with: { name: build-artifact }
       - name: 建立 Production Release
