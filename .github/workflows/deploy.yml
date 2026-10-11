@@ -47,5 +47,4 @@ jobs:
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
           TAG=$(echo "$RAW_TAG" | xargs)
-          gh release delete "$TAG" --yes || true
           gh release create "$TAG" build.zip --notes "$NOTE"
