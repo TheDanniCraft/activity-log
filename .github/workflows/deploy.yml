@@ -1,4 +1,4 @@
-name: CI Dev Deployment
+name: CI/CD Multi-Stage Deployment Pipeline
 
 on:
   push:
@@ -6,6 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
+  # ==========================================
+  # 階段 1：建置產物 (Build Job)
+  # ==========================================
   build:
     runs-on: ubuntu-latest
     steps:
@@ -27,6 +30,9 @@ jobs:
           name: build-artifact
           path: build.zip
 
+  # ==========================================
+  # 階段 2：部署到 Dev 環境
+  # ==========================================
   deploy-dev:
     needs: build
     runs-on: ubuntu-latest
@@ -43,9 +49,58 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
-          RAW_TAG: ${{ vars.BUILD_TAG }} # <--- 防呆段落開始：先將環境變數存入 RAW_TAG
+          TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
-          TAG=$(echo "$RAW_TAG" | xargs) # <--- 核心防呆：自動過濾並修剪掉頭尾多餘的空白字元
+          gh release delete "$TAG" --yes || true
+          gh release create "$TAG" build.zip --notes "$NOTE"
+
+  # ==========================================
+  # 階段 3：部署到 Staging 環境
+  # ==========================================
+  deploy-staging:
+    needs: deploy-dev
+    runs-on: ubuntu-latest
+    environment: staging
+    permissions:
+      contents: write          # needed to create a release
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Release Staging Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
+          gh release delete "$TAG" --yes || true
+          gh release create "$TAG" build.zip --notes "$NOTE"
+
+  # ==========================================
+  # 階段 4：部署到 Production 環境（受審查者保護規則管控）
+  # ==========================================
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: write          # needed to create a release
+    steps:
+      - name: Download Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Release Production Build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          TAG: ${{ vars.BUILD_TAG }}
+          NOTE: ${{ vars.RELEASE_NOTE }}
+        run: |
           gh release delete "$TAG" --yes || true
           gh release create "$TAG" build.zip --notes "$NOTE"
