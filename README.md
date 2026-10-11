@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fbc48dcac413e71a321c2ac6353f27c6c24cefbc) on Oct 10, 2026
-2. 🚀 Published release v4.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.4) on Oct 11, 2026
-3. 🔀 Merged PR #507 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/507) on Oct 11, 2026
-4. 🔀 Opened PR #507 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/507) on Oct 11, 2026
-5. 🚀 Committed to fix/mcp-login-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eefa0cc7ad3b71304cde8866eca2a390f9c5aa96) on Oct 10, 2026
-6. ✨ Created a new branch fix/mcp-login-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/mcp-login-state) on Oct 10, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4df6b7b6858eb91ca09cb729ea4db08300f32f05) on Oct 10, 2026
-8. 🔥 Deleted a branch fix/mcp-login-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 10, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5911f82c72797562a93ded4e07dfddf76290829e) on Oct 9, 2026
-10. 🔥 Deleted a branch fix/twitch-oauth-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 10, 2026
+1. 🔀 Opened PR #508 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/508) on Oct 11, 2026
+2. ✨ Created a new branch fix/mcp-review-tools in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/mcp-review-tools) on Oct 11, 2026
+3. 🔥 Deleted a branch fix/mcp-clip-cache in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 11, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5d8e1bcbeb5bfb4eff8d54fa8e55cbd3897d23d6) on Oct 11, 2026
+5. 🚀 Committed to fix/mcp-clip-cache in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/59871d11be1a6f3b8933f8c24430b493bd9d1cb4) on Oct 11, 2026
+6. 🚀 Committed to fix/mcp-clip-cache in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a5df62e250e7152dd13614b5195a31e2a598b470) on Oct 11, 2026
+7. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7349a0f44c1352cd1559600adbe9f7947b788e79) on Oct 10, 2026
+8. ✨ Created a new branch fix/mcp-clip-cache in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/mcp-clip-cache) on Oct 11, 2026
+9. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fbc48dcac413e71a321c2ac6353f27c6c24cefbc) on Oct 10, 2026
+10. 🚀 Published release v4.1.4 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.4) on Oct 11, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
