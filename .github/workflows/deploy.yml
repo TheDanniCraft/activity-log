@@ -44,8 +44,10 @@ jobs:
       - name: Release Dev Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}   # gh 指令在未 checkout 時需要指定 repo
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ vars.BUILD_TAG || 'dev-v1.0' }}
+          NOTE: ${{ vars.RELEASE_NOTE || 'Development build release' }}
         run: |
-          gh release create "$TAG" build.zip --notes "$NOTE"
+          echo "Deploying release with tag: $TAG"
+          gh release delete "$TAG" --yes || true
+          gh release create "$TAG" build.zip --title "Dev Release $TAG" --notes "$NOTE"
