@@ -1,7 +1,9 @@
 name: CI Dev Deployment
+
 on:
   push:
     branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,7 +15,7 @@ jobs:
       - name: Build
         run: |
           npm install
-          npm run build
+          npm run build --if-present
           zip -r build.zip .
 
       - name: Upload Artifact
@@ -27,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: dev
     permissions:
-      contents: write          # needed to create a release
+      contents: write          # 建立 release 所需權限
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v4
@@ -37,7 +39,7 @@ jobs:
       - name: Release Dev Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          GH_REPO: ${{ github.repository }}   # gh 指令在未 checkout 時需要指定 repo
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
