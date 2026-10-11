@@ -12,16 +12,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 安裝專案需要的 bun 環境
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
-      # 執行專案原本的安裝與建置指令
       - name: Build
         run: |
           npm install
           npm run build
-          zip -r build.zip . -x ".git/*" ".github/*"
+          zip -r build.zip .
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
@@ -34,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: dev
     permissions:
-      contents: write          # 建立 release 所需權限
+      contents: write          # needed to create a release
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v4
@@ -44,10 +42,9 @@ jobs:
       - name: Release Dev Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
-          TAG: ${{ vars.BUILD_TAG || 'dev-v1.0' }}
-          NOTE: ${{ vars.RELEASE_NOTE || 'Development build release' }}
+          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          RAW_TAG: ${{ vars.BUILD_TAG }} # <--- 防呆段落開始：先將環境變數存入 RAW_TAG
+          NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
-          echo "Deploying release with tag: $TAG"
-          gh release delete "$TAG" --yes || true
-          gh release create "$TAG" build.zip --title "Dev Release $TAG" --notes "$NOTE"
+          TAG=$(echo "$RAW_TAG" | xargs) # <--- 核心防呆：自動過濾並修剪掉頭尾多餘的空白字元
+          gh release create "$TAG" build.zip --notes "$NOTE"
