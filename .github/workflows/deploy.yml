@@ -10,11 +10,13 @@ jobs:
   # 階段 1：建置產物 (Build Job)
   # ==========================================
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
+      # 專案依賴 bun 環境，加入 setup-bun 避免指令找不到 (exit code 127)
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
@@ -24,6 +26,7 @@ jobs:
           npm run build
           zip -r build.zip .
 
+      # 上傳共同產物，供後續 Dev / Staging / Production 階段共用
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
@@ -31,14 +34,17 @@ jobs:
           path: build.zip
 
   # ==========================================
-  # 階段 2：部署到 Dev 環境
+  # 階段 2：部署到 Dev 環境 (支線 A：由 Build 直接觸發)
   # ==========================================
   deploy-dev:
-    needs: build
+    name: Deploy to Dev
+    needs: [build]                       # 依賴 Build，建置完即可部署 Dev
     runs-on: ubuntu-latest
-    environment: dev
+    environment:
+      name: dev
+      url: 'http://dev.myapp.com'        # 呈現講義中的環境跳轉網址按鈕效果
     permissions:
-      contents: write          # needed to create a release
+      contents: write                    # 建立 Release 所需權限
     steps:
       - name: Download Artifact
         uses: actions/download-artifact@v4
@@ -48,7 +54,7 @@ jobs:
       - name: Release Dev Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          GH_REPO: ${{ github.repository }}
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
@@ -56,15 +62,20 @@ jobs:
           gh release create "$TAG" build.zip --notes "$NOTE"
 
   # ==========================================
-  # 階段 3：部署到 Staging 環境
+  # 階段 3：部署到 Staging 環境 (支線 B：由 Build 分岔觸發)
   # ==========================================
   deploy-staging:
-    needs: deploy-dev
+    name: Deploy to Staging
+    needs: [build]                       # 與 Dev 並行由 Build 分岔出來
+    if: github.event.ref == 'refs/heads/master'  # 講義第 33 頁重點：限定特定分支才執行部署
     runs-on: ubuntu-latest
-    environment: staging
+    environment:
+      name: staging
+      url: 'http://test.myapp.com'       # 呈現講義中的環境跳轉網址按鈕效果
     permissions:
-      contents: write          # needed to create a release
+      contents: write
     steps:
+      # 下載同一份產物 (Same artifact as staging/dev)
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
@@ -73,7 +84,7 @@ jobs:
       - name: Release Staging Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          GH_REPO: ${{ github.repository }}
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
@@ -81,15 +92,19 @@ jobs:
           gh release create "$TAG" build.zip --notes "$NOTE"
 
   # ==========================================
-  # 階段 4：部署到 Production 環境（受審查者保護規則管控）
+  # 階段 4：部署到 Production 環境 (受保護規則管控)
   # ==========================================
   deploy-production:
-    needs: deploy-staging
+    name: Deploy to Production
+    needs: [deploy-staging]              # 必須等 Staging 成功後才進入 Production
     runs-on: ubuntu-latest
-    environment: production
+    environment:
+      name: production                   # 觸發後台設定的 Required reviewers 人工審查機制
+      url: 'http://www.myapp.com'        # 呈現講義中的環境跳轉網址按鈕效果
     permissions:
-      contents: write          # needed to create a release
+      contents: write
     steps:
+      # 下載同一份產物 (Same artifact as staging/dev)
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
@@ -98,7 +113,7 @@ jobs:
       - name: Release Production Build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}   # gh needs this when there is no checkout
+          GH_REPO: ${{ github.repository }}
           TAG: ${{ vars.BUILD_TAG }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: |
