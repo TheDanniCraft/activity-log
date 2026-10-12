@@ -33,7 +33,13 @@ jobs:
 
       - name: Build project
         run: bun run build
-
+      - name: Validate build artifact
+        run: |
+          echo "Checking build output..."
+          test -s dist/index.js
+          test -s dist/licenses.txt
+          test -s dist/package.json
+          echo "Build artifact validation passed!"
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
