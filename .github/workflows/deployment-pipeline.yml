@@ -124,9 +124,40 @@ jobs:
             --notes "$RELEASE_NOTE" \
             --prerelease
 
+  ai-review:
+    name: AI Pre-deploy Review
+    needs: release-staging
+    runs-on: ubuntu-latest
+    environment: ai-review
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run AI risk review
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python3 scripts/ai_predeploy_review.py
+
+      - name: Upload AI review report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-predeploy-review
+          path: ai-review-report.md
+          if-no-files-found: warn
+          retention-days: 30
+
+
   release-production:
     name: Release to Production
-    needs: release-staging
+    needs: ai-review
     runs-on: ubuntu-latest
     environment: production
 
