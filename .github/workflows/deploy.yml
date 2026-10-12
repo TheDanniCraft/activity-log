@@ -11,17 +11,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
 
       - name: Install and build
         run: |
-          npm i -g @vercel/ncc
-          npm i @actions/github
-          npm install
-          npm run build
+          bun install
+          bun run build
 
       - name: Package build artifact
         run: zip -r build.zip . -x ".git/*" "node_modules/*"
