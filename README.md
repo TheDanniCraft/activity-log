@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #511 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/511) on Oct 12, 2026
-2. ✨ Created a new branch feature/openai-review-readiness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/openai-review-readiness) on Oct 12, 2026
-3. 🔥 Deleted a branch fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 10, 2026
-4. 🔀 Merged PR #510 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/510) on Oct 12, 2026
-5. 🔀 Opened PR #510 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/510) on Oct 12, 2026
-6. ✨ Created a new branch fix/editor-workspace-layout in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/editor-workspace-layout) on Oct 12, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ea9d13b7dafa0a4e98908327f13207150f6d2e82) on Oct 10, 2026
-8. 🚀 Committed to fix/mcp-login-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/35f1e4e8ab34246211e856563c9105e18ee67d41) on Oct 10, 2026
-9. 🚀 Committed to fix/oauth-resource-startup in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/01118788772b89b11075b32a57498ad3a6226103) on Oct 10, 2026
-10. 🚀 Published release v4.1.5 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.5) on Oct 12, 2026
+1. 🚀 Published release v4.1.7 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.7) on Oct 12, 2026
+2. 🔥 Deleted a branch fix/transactional-email-replies in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
+3. 🔀 Merged PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
+4. 🔀 Opened PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
+5. 🔥 Deleted a branch fix/health-metrics-dashboard in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
+6. 🔀 Merged PR #512 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/512) on Oct 12, 2026
+7. 🔀 Opened PR #512 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/512) on Oct 12, 2026
+8. ✨ Created a new branch fix/twitch-oauth-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/twitch-oauth-state) on Oct 10, 2026
+9. 🚀 Published release v4.1.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.6) on Oct 12, 2026
+10. 🔀 Merged PR #511 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/511) on Oct 12, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
