@@ -84,7 +84,7 @@ jobs:
           BUILD_TAG: ${{ vars.BUILD_TAG }}
         run: |
           VERSION=$(node -p "require('./package.json').version")
-          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}"
+          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}-attempt${GITHUB_RUN_ATTEMPT}"
           gh release create "$TAG" activity-log-build.zip \
             --target "$GITHUB_SHA" \
             --title "Dev Release $TAG" \
@@ -122,7 +122,7 @@ jobs:
           BUILD_TAG: ${{ vars.BUILD_TAG }}
         run: |
           VERSION=$(node -p "require('./package.json').version")
-          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}"
+          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}-attempt${GITHUB_RUN_ATTEMPT}"
           gh release create "$TAG" activity-log-build.zip \
             --target "$GITHUB_SHA" \
             --title "Staging Release $TAG" \
@@ -191,7 +191,7 @@ jobs:
           BUILD_TAG: ${{ vars.BUILD_TAG }}
         run: |
           VERSION=$(node -p "require('./package.json').version")
-          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}"
+          TAG="${BUILD_TAG%%-v*}-v${VERSION}-run${GITHUB_RUN_NUMBER}-attempt${GITHUB_RUN_ATTEMPT}"
           gh release create "$TAG" activity-log-build.zip \
             --target "$GITHUB_SHA" \
             --title "Production Release $TAG" \
