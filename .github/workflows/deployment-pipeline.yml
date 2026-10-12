@@ -132,17 +132,18 @@ jobs:
 
     permissions:
       contents: read
+      copilot-requests: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
+      - name: Install GitHub Copilot CLI
+        run: npm install -g @github/copilot
       - name: Run AI risk review
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4.1-mini
+          GITHUB_TOKEN: ${{ github.token }}
         run: python3 scripts/ai_predeploy_review.py
 
       - name: Upload AI review report
