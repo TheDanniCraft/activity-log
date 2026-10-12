@@ -1,0 +1,142 @@
+
+name: Assignment 4 Deployment Pipeline
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build with Bun
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Build project
+        run: bun run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: activity-log-build
+          path: |
+            dist/
+            action.yml
+          if-no-files-found: error
+          retention-days: 7
+
+
+  release-dev:
+    name: Release to Dev
+    needs: build
+    runs-on: ubuntu-latest
+    environment: dev
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-log-build
+          path: release-files
+
+      - name: Package release files
+        run: |
+          cd release-files
+          zip -r ../activity-log-build.zip .
+
+      - name: Create Dev GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_NOTE: ${{ vars.RELEASE_NOTE }}
+          BUILD_TAG: ${{ vars.BUILD_TAG }}
+        run: |
+          TAG="${BUILD_TAG}-run${GITHUB_RUN_NUMBER}"
+          gh release create "$TAG" activity-log-build.zip \
+            --target "$GITHUB_SHA" \
+            --title "Dev Release $TAG" \
+            --notes "$RELEASE_NOTE" \
+            --prerelease
+
+            
+  release-staging:
+    name: Release to Staging
+    needs: release-dev
+    runs-on: ubuntu-latest
+    environment: staging
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-log-build
+          path: release-files
+
+      - name: Package release files
+        run: |
+          cd release-files
+          zip -r ../activity-log-build.zip .
+
+      - name: Create Staging GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_NOTE: ${{ vars.RELEASE_NOTE }}
+          BUILD_TAG: ${{ vars.BUILD_TAG }}
+        run: |
+          TAG="${BUILD_TAG}-run${GITHUB_RUN_NUMBER}"
+          gh release create "$TAG" activity-log-build.zip \
+            --target "$GITHUB_SHA" \
+            --title "Staging Release $TAG" \
+            --notes "$RELEASE_NOTE" \
+            --prerelease
+
+  release-production:
+    name: Release to Production
+    needs: release-staging
+    runs-on: ubuntu-latest
+    environment: production
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: activity-log-build
+          path: release-files
+
+      - name: Package release files
+        run: |
+          cd release-files
+          zip -r ../activity-log-build.zip .
+
+      - name: Create Production GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_NOTE: ${{ vars.RELEASE_NOTE }}
+          BUILD_TAG: ${{ vars.BUILD_TAG }}
+        run: |
+          TAG="${BUILD_TAG}-run${GITHUB_RUN_NUMBER}"
+          gh release create "$TAG" activity-log-build.zip \
+            --target "$GITHUB_SHA" \
+            --title "Production Release $TAG" \
+            --notes "$RELEASE_NOTE"
