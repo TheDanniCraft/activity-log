@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR #24 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/24) on Oct 13, 2026
-2. ✨ Created a new branch fix/transactional-email-replies in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/transactional-email-replies) on Oct 12, 2026
-3. 🔀 Merged PR #210 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/210) on Oct 13, 2026
-4. ✨ Created a new branch codex/mobile-cookie-banner-actions in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/codex/mobile-cookie-banner-actions) on Oct 13, 2026
-5. 🔀 Merged PR #211 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/211) on Oct 13, 2026
-6. 🔀 Opened PR #211 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/211) on Oct 13, 2026
-7. ✨ Created a new branch codex/bootstrap-speckit-graphify in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/codex/bootstrap-speckit-graphify) on Oct 13, 2026
-8. 🔀 Opened PR #210 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/210) on Oct 13, 2026
-9. ✨ Created a new branch build/10-speckit-init in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/build/10-speckit-init) on Oct 13, 2026
-10. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/94d5537969845aecfe1495b792888d400274ec90) on Oct 13, 2026
+1. 🔥 Deleted a branch fix/editor-workspace-layout in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
+2. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97366c3b494cd77e6ab51ac65b15821aeea37372) on Oct 12, 2026
+3. 🔀 Merged PR #24 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/24) on Oct 13, 2026
+4. ✨ Created a new branch fix/transactional-email-replies in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/transactional-email-replies) on Oct 12, 2026
+5. 🔀 Merged PR #210 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/210) on Oct 13, 2026
+6. ✨ Created a new branch codex/mobile-cookie-banner-actions in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/codex/mobile-cookie-banner-actions) on Oct 13, 2026
+7. 🔀 Merged PR #211 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/211) on Oct 13, 2026
+8. 🔀 Opened PR #211 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/211) on Oct 13, 2026
+9. ✨ Created a new branch codex/bootstrap-speckit-graphify in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/tree/codex/bootstrap-speckit-graphify) on Oct 13, 2026
+10. 🔀 Opened PR #210 in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/pull/210) on Oct 13, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
