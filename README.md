@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v4.1.7 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.7) on Oct 12, 2026
-2. 🔥 Deleted a branch fix/transactional-email-replies in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
-3. 🔀 Merged PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
-4. 🔀 Opened PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
-5. 🔥 Deleted a branch fix/health-metrics-dashboard in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
-6. 🔀 Merged PR #512 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/512) on Oct 12, 2026
-7. 🔀 Opened PR #512 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/512) on Oct 12, 2026
-8. ✨ Created a new branch fix/twitch-oauth-state in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/twitch-oauth-state) on Oct 10, 2026
-9. 🚀 Published release v4.1.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.6) on Oct 12, 2026
-10. 🔀 Merged PR #511 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/511) on Oct 12, 2026
+1. 🔥 Deleted a branch feature/openai-review-readiness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
+2. 🚀 Committed to fix/mcp-clip-thumbnails in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cf026762437c4eaae1c9c63da36aef12b1e54a87) on Oct 13, 2026
+3. 🔀 Opened PR #514 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/514) on Oct 13, 2026
+4. ✨ Created a new branch fix/mcp-clip-thumbnails in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/mcp-clip-thumbnails) on Oct 13, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8774e9801c08c19746b4c2e052b24b99c986545a) on Oct 12, 2026
+6. 🚀 Published release v4.1.7 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.7) on Oct 12, 2026
+7. 🔥 Deleted a branch fix/transactional-email-replies in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
+8. 🔀 Merged PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
+9. 🔀 Opened PR #513 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/513) on Oct 12, 2026
+10. 🔥 Deleted a branch fix/health-metrics-dashboard in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 12, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
