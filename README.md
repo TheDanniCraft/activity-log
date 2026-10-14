@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/chore/25-typescript-tooling-baseline) on Oct 14, 2026
-2. 🔀 Opened PR #26 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/26) on Oct 14, 2026
-3. 🆕 Opened issue #25 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/25) on Oct 14, 2026
-4. 🏷️ Added a label to issue #25 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/25) on Oct 14, 2026
-5. 🔥 Deleted a branch fix/mcp-clip-thumbnails in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 13, 2026
-6. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/940c8f17a8e3ec62dd1e59ca27ec535c615c29cf) on Oct 12, 2026
-7. ✨ Created a new branch fix/health-metrics-dashboard in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/health-metrics-dashboard) on Oct 12, 2026
-8. 🔥 Deleted a branch chore/add-runtime-theme in [payloadbay/brand](https://github.com/payloadbay/brand) on Oct 13, 2026
-9. 🔀 Merged PR #10 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/10) on Oct 13, 2026
-10. 🔀 Opened PR #10 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/10) on Oct 13, 2026
+1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/17453837b79fc0972a9635c1afe42484ab24cbf9) on Oct 14, 2026
+2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/794c73af0e95527dbe138af27559c638e4d0e5e0) on Oct 14, 2026
+3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/72f7ecd3ae376c457de850bf702436b270d15068) on Oct 14, 2026
+4. 🔀 Opened PR #13 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/13) on Oct 14, 2026
+5. 🏷️ Added a label to issue #12 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/12) on Oct 14, 2026
+6. 🆕 Opened issue #12 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/12) on Oct 14, 2026
+7. ✨ Created a new branch docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/docs/mcp-manual-connection-guide) on Oct 13, 2026
+8. ✨ Created a new branch chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/chore/25-typescript-tooling-baseline) on Oct 14, 2026
+9. 🔀 Opened PR #26 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/26) on Oct 14, 2026
+10. 🆕 Opened issue #25 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/25) on Oct 14, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
