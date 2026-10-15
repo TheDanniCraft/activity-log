@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR #27 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/27) on Oct 15, 2026
-2. 🔀 Merged PR #14 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/14) on Oct 15, 2026
-3. 🔀 Opened PR #27 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/27) on Oct 15, 2026
-4. 🔀 Opened PR #14 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/14) on Oct 15, 2026
-5. 🚀 Committed to docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ad498e7afa33e3500fd9c28a5ed23328432f7964) on Oct 13, 2026
-6. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/cb6bec3df8018ef2837853923a60859b861a84b8) on Oct 13, 2026
-7. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c2bb9e24a7a9792aacfe5caead8d042ba1634f73) on Oct 13, 2026
-8. 🔥 Deleted a branch build/10-speckit-init in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 13, 2026
-9. ✨ Created a new branch build/speckit-preset in [payloadbay/.github](https://github.com/payloadbay/.github/tree/build/speckit-preset) on Oct 13, 2026
-10. 🔥 Deleted a branch docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 13, 2026
+1. 🔀 Opened PR #17 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/17) on Oct 15, 2026
+2. ❌ Closed PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
+3. 🔀 Opened PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
+4. ✨ Created a new branch chore/add-runtime-theme in [payloadbay/brand](https://github.com/payloadbay/brand/tree/chore/add-runtime-theme) on Oct 13, 2026
+5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/3a4abffb2838729a685019a1023d95c075714b71) on Oct 15, 2026
+6. 🔀 Opened PR #15 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/15) on Oct 15, 2026
+7. 🔀 Merged PR #27 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/27) on Oct 15, 2026
+8. 🔀 Merged PR #14 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/14) on Oct 15, 2026
+9. 🔀 Opened PR #27 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/27) on Oct 15, 2026
+10. 🔀 Opened PR #14 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/14) on Oct 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
