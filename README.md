@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 13, 2026
-2. 🚀 Committed to docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/416a5cbde3aced934fe7cbcc737df4db068dcb5c) on Oct 13, 2026
-3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/17453837b79fc0972a9635c1afe42484ab24cbf9) on Oct 14, 2026
-4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/794c73af0e95527dbe138af27559c638e4d0e5e0) on Oct 14, 2026
-5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/72f7ecd3ae376c457de850bf702436b270d15068) on Oct 14, 2026
-6. 🔀 Opened PR #13 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/13) on Oct 14, 2026
-7. 🏷️ Added a label to issue #12 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/12) on Oct 14, 2026
-8. 🆕 Opened issue #12 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/12) on Oct 14, 2026
-9. ✨ Created a new branch docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/docs/mcp-manual-connection-guide) on Oct 13, 2026
-10. ✨ Created a new branch chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/chore/25-typescript-tooling-baseline) on Oct 14, 2026
+1. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/cb6bec3df8018ef2837853923a60859b861a84b8) on Oct 13, 2026
+2. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/c2bb9e24a7a9792aacfe5caead8d042ba1634f73) on Oct 13, 2026
+3. 🔥 Deleted a branch build/10-speckit-init in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 13, 2026
+4. ✨ Created a new branch build/speckit-preset in [payloadbay/.github](https://github.com/payloadbay/.github/tree/build/speckit-preset) on Oct 13, 2026
+5. 🔥 Deleted a branch docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 13, 2026
+6. 🚀 Committed to docs/mcp-manual-connection-guide in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/416a5cbde3aced934fe7cbcc737df4db068dcb5c) on Oct 13, 2026
+7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/17453837b79fc0972a9635c1afe42484ab24cbf9) on Oct 14, 2026
+8. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/794c73af0e95527dbe138af27559c638e4d0e5e0) on Oct 14, 2026
+9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/72f7ecd3ae376c457de850bf702436b270d15068) on Oct 14, 2026
+10. 🔀 Opened PR #13 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/13) on Oct 14, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
