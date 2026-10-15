@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR #15 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/15) on Oct 15, 2026
-2. ✨ Created a new branch ci/squash-commit-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/ci/squash-commit-baseline) on Oct 15, 2026
-3. ✨ Created a new branch build/coolify-preview-bootstrap in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/build/coolify-preview-bootstrap) on Oct 15, 2026
-4. 🔀 Opened PR #28 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/28) on Oct 15, 2026
-5. 🔀 Opened PR #17 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/17) on Oct 15, 2026
-6. ❌ Closed PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
-7. 🔀 Opened PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
-8. ✨ Created a new branch chore/add-runtime-theme in [payloadbay/brand](https://github.com/payloadbay/brand/tree/chore/add-runtime-theme) on Oct 13, 2026
-9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/3a4abffb2838729a685019a1023d95c075714b71) on Oct 15, 2026
-10. 🔀 Opened PR #15 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/15) on Oct 15, 2026
+1. 🔀 Opened PR #11 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/11) on Oct 15, 2026
+2. 🔀 Merged PR #28 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/28) on Oct 15, 2026
+3. 🔀 Merged PR #17 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/17) on Oct 15, 2026
+4. 🔀 Merged PR #15 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/15) on Oct 15, 2026
+5. ✨ Created a new branch ci/squash-commit-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/ci/squash-commit-baseline) on Oct 15, 2026
+6. ✨ Created a new branch build/coolify-preview-bootstrap in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/build/coolify-preview-bootstrap) on Oct 15, 2026
+7. 🔀 Opened PR #28 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/28) on Oct 15, 2026
+8. 🔀 Opened PR #17 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/17) on Oct 15, 2026
+9. ❌ Closed PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
+10. 🔀 Opened PR #16 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/16) on Oct 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
