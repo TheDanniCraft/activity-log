@@ -1,44 +1,65 @@
-name: CI/CD Deployment Pipeline
+name: Build-Test-Release Pipeline
 
-# 當推送到 main 分支，或手動點擊時觸發
 on:
   push:
-    branches: [ main ]
+    branches: [ main ] # 請確認您的分支名稱是 master 還是 main
   workflow_dispatch:
 
 jobs:
-  # 階段 1：打包編譯
+  # 1. 建置階段
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: 下載程式碼
-        uses: actions/checkout@v4
-      
-      - name: 安裝 Node.js 與套件並編譯
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
       - run: |
           npm install -g bun
           npm install
           npm run build
           zip -r build.zip .
-          
-      - name: 上傳打包好的檔案
-        uses: actions/upload-artifact@v4
-        with: 
-          name: build-artifact
-          path: build.zip
+      - uses: actions/upload-artifact@v4
+        with: { name: build-artifact, path: build.zip }
 
-  # 階段 2：發布到 Dev 環境
-  deploy-dev:
+  # 2. 單元測試階段 (O級加分：使用 Matrix 同時測試 Node 20 與 22)
+  test-unit:
     needs: build
     runs-on: ubuntu-latest
-    environment: dev
-    permissions:
-      contents: write
+    strategy:
+      matrix:
+        node-version: [20, 22] # 同時開兩台虛擬機跑不同版本
     steps:
-      - uses: actions/checkout@v4  # <--- 請在這裡補上這一行！下載 .git 資訊
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '${{ matrix.node-version }}' }
+      - uses: actions/download-artifact@v4
+        with: { name: build-artifact }
+      - run: unzip -o build.zip
+      - name: 執行單元測試
+        run: npm run test:unit
+
+  # 3. 整合測試階段 (E級要求：獨立的測試階段)
+  test-integration:
+    needs: test-unit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/download-artifact@v4
+        with: { name: build-artifact }
+      - run: unzip -o build.zip
+      - name: 執行整合測試
+        run: npm run test:integration
+
+  # 4. 發布至開發環境 (必須等測試通過)
+  deploy-dev:
+    needs: test-integration
+    runs-on: ubuntu-latest
+    environment: dev
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with: { name: build-artifact }
       - name: 建立 Dev Release
@@ -48,54 +69,4 @@ jobs:
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: gh release create "$TAG" build.zip --notes "$NOTE" --title "$TAG"
 
-  # 階段 3：發布到 Staging 環境
-  deploy-staging:
-    needs: deploy-dev
-    runs-on: ubuntu-latest
-    environment: staging
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4  # <--- 請在這裡補上這一行！下載 .git 資訊
-      - uses: actions/download-artifact@v4
-        with: { name: build-artifact }
-      - name: 建立 Staging Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
-        run: gh release create "$TAG" build.zip --notes "$NOTE" --title "$TAG"
-
-  # 階段 4：AI 代理審查 (O級加分要求：產生發布總結)
-  ai-review:
-    needs: deploy-staging
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with: { fetch-depth: 0 }
-      - name: 模擬 AI 產出發布重點 (或替換為真實 AI Action)
-        run: |
-          echo "AI 總結：本次更新修復了若干 bug，並將程式碼發布至預備環境。風險評估：低。" > ai_report.md
-      - name: 上傳 AI 報告供人類審核
-        uses: actions/upload-artifact@v4
-        with:
-          name: ai-review-report
-          path: ai_report.md
-
-  # 階段 5：發布到 Production 正式環境 (設有人工保護鎖)
-  deploy-production:
-    needs: ai-review
-    runs-on: ubuntu-latest
-    environment: production
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4  # <--- 請在這裡補上這一行！下載 .git 資訊
-      - uses: actions/download-artifact@v4
-        with: { name: build-artifact }
-      - name: 建立 Production Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TAG: ${{ vars.BUILD_TAG }}
-          NOTE: ${{ vars.RELEASE_NOTE }}
-        run: gh release create "$TAG" build.zip --notes "$NOTE" --title "$TAG"D
+  # (若要完整，可再接續寫 deploy-staging 與 deploy-production，寫法與作業四相同，只需注意 needs 要指向上一個階段)
