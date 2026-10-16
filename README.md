@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✅ Closed issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
-2. 🔀 Merged PR #14 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/14) on Oct 15, 2026
-3. ❌ Closed PR #12 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/12) on Oct 15, 2026
-4. 🔀 Opened PR #14 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/14) on Oct 15, 2026
-5. 🏷️ Added a label to issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
-6. 🆕 Opened issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
-7. 🔀 Opened PR #12 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/12) on Oct 15, 2026
-8. ❌ Closed PR #11 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/11) on Oct 15, 2026
-9. 🔀 Opened PR #11 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/11) on Oct 15, 2026
-10. 🔀 Merged PR #28 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/28) on Oct 15, 2026
+1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/80f5eb3e0183ab31546b011d82e2dcf792d3aa90) on Oct 15, 2026
+2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/b4542dc3bcdb097d61c8948427241389ad160bdf) on Oct 15, 2026
+3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/63aa768c7205f32af84c050a2f6f126f877adfc0) on Oct 15, 2026
+4. ✅ Closed issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
+5. 🔀 Merged PR #14 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/14) on Oct 15, 2026
+6. ❌ Closed PR #12 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/12) on Oct 15, 2026
+7. 🔀 Opened PR #14 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/14) on Oct 15, 2026
+8. 🏷️ Added a label to issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
+9. 🆕 Opened issue #13 in [payloadbay/brand](https://github.com/payloadbay/brand/issues/13) on Oct 15, 2026
+10. 🔀 Opened PR #12 in [payloadbay/brand](https://github.com/payloadbay/brand/pull/12) on Oct 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
