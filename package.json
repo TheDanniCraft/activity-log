@@ -12,7 +12,7 @@
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
 		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
 		"lint:commit": "commitlint --last --verbose",
-		"test": "node test/mock.test.cjs"
+		"test": "node test/mock.test.cjs",
 		"test:unit": "node test/unit.test.cjs",
 		"test:integration": "node test/integration.test.cjs"
 	},
