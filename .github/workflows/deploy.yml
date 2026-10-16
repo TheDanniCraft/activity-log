@@ -10,10 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
       - name: Build
         run: |
           npm install
           npm run build
+
       - uses: actions/upload-artifact@v4
         with:
           name: build-artifact
@@ -24,11 +29,14 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v4
+
       - run: npm install
+
       - uses: actions/download-artifact@v4
         with:
           name: build-artifact
           path: dist/
+
       - name: Run Automated Tests
         run: |
           echo "Running automated tests..."
@@ -45,6 +53,7 @@ jobs:
         with:
           name: build-artifact
           path: dist/
+
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
