@@ -1,6 +1,6 @@
 name: Build-Test-Release Pipeline
 
-on:
+on: 
   push:
     branches: [ main ] # 請確認您的分支名稱是 master 還是 main
   workflow_dispatch:
