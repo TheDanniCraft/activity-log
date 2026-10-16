@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/4476dcdc43de9d24b9fb12af5e9fa669bd921f30) on Oct 15, 2026
-2. ✨ Created a new branch fix/11-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/tree/fix/11-transparent-dark-brand-assets) on Oct 15, 2026
-3. 🔥 Deleted a branch build/preview-service-hostnames in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 15, 2026
-4. 🚀 Committed to master in [payloadbay/.github](https://github.com/payloadbay/.github/commit/ae400620ee502720ab93f733107ac8e29a6b3656) on Oct 15, 2026
-5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6e46e5b00125a2f365a095ec69de7892868c2294) on Oct 15, 2026
-6. ✨ Created a new branch chore/ui-library-guidance in [payloadbay/.github](https://github.com/payloadbay/.github/tree/chore/ui-library-guidance) on Oct 15, 2026
-7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6ddea33e1e8243175f6cd6f45d382a285c808f5e) on Oct 15, 2026
-8. 🔥 Deleted a branch fix/12-public-preview-mail in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 15, 2026
-9. ✨ Created a new branch fix/12-public-preview-mail in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/fix/12-public-preview-mail) on Oct 15, 2026
-10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/9cc3cf83f04c954b003c95a1fcc468ab30da4baf) on Oct 16, 2026
+1. 🔥 Deleted a branch ci/squash-commit-baseline in [payloadbay/.github](https://github.com/payloadbay/.github) on Oct 15, 2026
+2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/400de2743691e86a7b28e4d31b4cf4404491f567) on Oct 16, 2026
+3. 🔥 Deleted a branch build/coolify-preview-bootstrap in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 15, 2026
+4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/fc61078baaea304d655114c643882a3303fe0ae8) on Oct 15, 2026
+5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/a45debc8cc1e10a7e38b0393f1677a654e980001) on Oct 15, 2026
+6. ✨ Created a new branch fix/public-preview-mail in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/fix/public-preview-mail) on Oct 15, 2026
+7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/4476dcdc43de9d24b9fb12af5e9fa669bd921f30) on Oct 15, 2026
+8. ✨ Created a new branch fix/11-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/tree/fix/11-transparent-dark-brand-assets) on Oct 15, 2026
+9. 🔥 Deleted a branch build/preview-service-hostnames in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay) on Oct 15, 2026
+10. 🚀 Committed to master in [payloadbay/.github](https://github.com/payloadbay/.github/commit/ae400620ee502720ab93f733107ac8e29a6b3656) on Oct 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
