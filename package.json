@@ -11,7 +11,7 @@
 	"scripts": {
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
 		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
-		"lint:commit": "commitlint --last --verbose"
+		"lint:commit": "commitlint --last --verbose",
 		"test:unit": "node test/unit.test.js",
         "test:integration": "node test/integration.test.js"
 	},
