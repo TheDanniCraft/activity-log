@@ -14,7 +14,7 @@
 		"lint:commit": "commitlint --last --verbose",
 		"test": "node test/mock.test.js"
 	},
-	"devDependencies": {
+	"devDependencies": { 
 		"@commitlint/cli": "^21.2.3",
 		"@vercel/ncc": "^0.44.1"
 	}
