@@ -21,11 +21,13 @@ jobs:
           name: build-artifact
           path: dist/
 
-  test:
+test:
     runs-on: ubuntu-latest
     needs: build
     steps:
       - uses: actions/checkout@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
       - run: npm install
       - uses: actions/download-artifact@v4
         with:
