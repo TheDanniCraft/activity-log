@@ -1,4 +1,4 @@
-name: Build-Test-Release
+name: Build-Test-Release (Grade E)
 
 on:
   push:
@@ -21,9 +21,11 @@ jobs:
           name: build-artifact
           path: dist/
 
-  test:
-    runs-on: ubuntu-latest
+  test-unit:
     needs: build
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: staging
     steps:
       - uses: actions/checkout@v4
       - name: Setup Bun
@@ -33,26 +35,60 @@ jobs:
         with:
           name: build-artifact
           path: dist/
-      - name: Run Automated Tests
-        run: |
-          echo "Running automated tests..."
-          npm test || (echo "❌ Tests failed" && exit 1)
+      - name: Run Unit Tests
+        run: npm run test:unit || (echo "❌ Unit Tests failed" && exit 1)
 
-  release:
+  test-integration:
+    needs: test-unit
     runs-on: ubuntu-latest
-    needs: test
-    environment: dev
+    env:
+      TEST_ENV: staging
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+      - run: npm install
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+      - name: Run Integration Tests
+        run: npm run test:integration || (echo "❌ Integration Tests failed" && exit 1)
+
+  deploy-staging:
+    needs: test-integration
+    runs-on: ubuntu-latest
+    environment: staging
     permissions:
       contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: build-artifact
           path: dist/
-      - name: Release
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_REPO: ${{ github.repository }}
+      - name: Release to Staging
         run: |
-          echo "✅ Tests passed. Releasing new dev build..."
-          gh release create "dev-$(date +%s)" dist/* --notes "Automated release after successful tests"
+          echo "✅ Tests passed. Releasing to Staging..."
+          gh release create "staging-$(date +%s)" dist/* --notes "Staging release after successful tests"
+
+  deploy-production:
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+      - name: Release to Production
+        run: |
+          echo "✅ Deploying to Production..."
+          gh release create "prod-$(date +%s)" dist/* --notes "Production release after manual approval"
