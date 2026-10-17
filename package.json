@@ -13,7 +13,8 @@
     "watch": "ncc build src/index.js --watch --license licenses.txt",
     "build": "bun install && bunx ncc build src/index.js --license licenses.txt",
     "lint:commit": "commitlint --last --verbose",
-    "test": "node test/mock.test.js"
+    "test:unit": "node test/mock.test.js",
+    "test:integration": "node test/mock.test.js"
   },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
