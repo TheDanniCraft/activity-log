@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand) on Oct 15, 2026
-2. 🚀 Committed to fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/commit/29a3f62b64cd2bb71fd401972567642f006c2c9d) on Oct 15, 2026
-3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/0c66ccf15b0f70a542746a6e26e1424b217c44c9) on Oct 15, 2026
-4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/0e0b686366ba5b83e3f41c06347e961bc9f67082) on Oct 16, 2026
-5. 🚀 Committed to master in [payloadbay/brand](https://github.com/payloadbay/brand/commit/2b4173e4d50dd08eb0ad5023251d955fad9e034d) on Oct 15, 2026
-6. 🚀 Committed to fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/commit/6f56407848b2e3cc8305f52b613d28e1aa8b6308) on Oct 15, 2026
-7. ✨ Created a new branch build/preview-service-hostnames in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/tree/build/preview-service-hostnames) on Oct 15, 2026
-8. 🚀 Committed to fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/commit/6f56407848b2e3cc8305f52b613d28e1aa8b6308) on Oct 15, 2026
-9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/b676e74683bba0d803d099f38ae97ea0c375ff16) on Oct 15, 2026
-10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/3b17ec4b63c9a777a09f713b7c993a1a53c0065e) on Oct 16, 2026
+1. ✨ Created a new branch fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/tree/fix/13-transparent-dark-brand-assets) on Oct 15, 2026
+2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/41e7514dcbda9aa94cce1c922eb94920a8674676) on Oct 16, 2026
+3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/bda57c22140a130110bbcecc99ca9a69f5960bbb) on Oct 16, 2026
+4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/61b896018ee0fa38a7b269d7a1cc22186d9379c3) on Oct 15, 2026
+5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/291f3e0244d8d3a1c1c2ed47e9e91303e5c48271) on Oct 16, 2026
+6. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6cc919136ff3f5db920195e14b4770903273c1fc) on Oct 15, 2026
+7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/e1a5aa48935cb8e1a81a951e4694e52abdf2030b) on Oct 16, 2026
+8. 🔥 Deleted a branch fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand) on Oct 15, 2026
+9. 🚀 Committed to fix/13-transparent-dark-brand-assets in [payloadbay/brand](https://github.com/payloadbay/brand/commit/29a3f62b64cd2bb71fd401972567642f006c2c9d) on Oct 15, 2026
+10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/0c66ccf15b0f70a542746a6e26e1424b217c44c9) on Oct 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
