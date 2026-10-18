@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/29aa23c965db7a58ce471fee94d4fab218a9ac8d) on Oct 17, 2026
-2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/017cd69983151b7d7e924ed49a9499c998502861) on Oct 17, 2026
-3. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/469c2fa02a6c74e82525a69078551f5e03f2bbd0) on Oct 18, 2026
-4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/effbdf7ad23bff0db704532ec49bbefb00f2909c) on Oct 17, 2026
-5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/1ac8422b14fe1c8ce08b5db3a82fc4fa95ef0e65) on Oct 17, 2026
-6. ✅ Closed issue #29 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/29) on Oct 18, 2026
-7. 🔀 Merged PR #30 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/30) on Oct 18, 2026
-8. 🔀 Merged PR #26 in [payloadbay/.github](https://github.com/payloadbay/.github/pull/26) on Oct 18, 2026
-9. ✅ Closed issue #25 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/25) on Oct 18, 2026
-10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/0956117e96d8fafae13c8b72c07aac0bba3e7fd7) on Oct 17, 2026
+1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6ed494324183aece4143b52fd1ab61837cfe81d5) on Oct 18, 2026
+2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/120ef452beea840e798419c81289da1e5dcd4f55) on Oct 17, 2026
+3. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/87908ec49e05b5b4ef6e2b3a07155a70503cd710) on Oct 18, 2026
+4. 🚀 Committed to chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/4f8c473cf3560eea41531e2e1c5f8c27ae865a1b) on Oct 18, 2026
+5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/29aa23c965db7a58ce471fee94d4fab218a9ac8d) on Oct 17, 2026
+6. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/017cd69983151b7d7e924ed49a9499c998502861) on Oct 17, 2026
+7. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/469c2fa02a6c74e82525a69078551f5e03f2bbd0) on Oct 18, 2026
+8. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/effbdf7ad23bff0db704532ec49bbefb00f2909c) on Oct 17, 2026
+9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/1ac8422b14fe1c8ce08b5db3a82fc4fa95ef0e65) on Oct 17, 2026
+10. ✅ Closed issue #29 in [payloadbay/.github](https://github.com/payloadbay/.github/issues/29) on Oct 18, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
