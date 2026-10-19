@@ -46,7 +46,7 @@ jobs:
       - name: Run unit tests
         run: |
           echo "Running unit tests against TEST_ENV=$TEST_ENV ..."
-          node test/unit.test.js
+          node test/unit.test.cjs
 
   test-integration:
     name: Test (Integration)
@@ -66,7 +66,7 @@ jobs:
       - name: Run integration tests
         run: |
           echo "Running integration tests against TEST_ENV=$TEST_ENV ..."
-          node test/integration.test.js
+          node test/integration.test.cjs
 
   deploy-staging:
     name: Deploy to Staging
