@@ -37,6 +37,7 @@ jobs:
       fail-fast: false
       matrix:
         node: [22, 24]
+
     steps:
       - uses: actions/checkout@v4
 
@@ -44,8 +45,23 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Run Unit Tests
-        run: npm run test:unit
+      - name: Run Unit Tests and Generate JUnit
+        run: |
+          mkdir -p reports
+          node --test \
+            --test-reporter=spec \
+            --test-reporter-destination=stdout \
+            --test-reporter=junit \
+            --test-reporter-destination=reports/unit.xml \
+            test/unit.test.js
+
+      - name: Upload Unit Test Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-report-node-${{ matrix.node }}
+          path: reports/unit.xml
+          if-no-files-found: warn
 
   integration-test:
     name: Integration Test and Coverage
@@ -53,6 +69,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TEST_ENV: staging
+
     steps:
       - uses: actions/checkout@v4
 
@@ -68,14 +85,31 @@ jobs:
       - name: Run Integration Tests
         run: npm run test:integration
 
-      - name: Enforce Coverage Gate
-        run: npm run test:coverage
+      - name: Generate Coverage and Enforce Gate
+        run: |
+          mkdir -p reports
+          npm run test:coverage > reports/coverage.txt 2>&1 || {
+            cat reports/coverage.txt
+            exit 1
+          }
+          cat reports/coverage.txt
+
+      - name: Upload Coverage Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: reports/coverage.txt
+          if-no-files-found: warn
 
   deploy-staging:
     name: Deploy Staging
     needs: integration-test
     runs-on: ubuntu-latest
     environment: staging
+    env:
+      TEST_ENV: staging
+
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -92,6 +126,9 @@ jobs:
     needs: deploy-staging
     runs-on: ubuntu-latest
     environment: production
+    env:
+      TEST_ENV: production
+
     steps:
       - uses: actions/download-artifact@v4
         with:
