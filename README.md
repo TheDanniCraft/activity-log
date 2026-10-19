@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cd5a522c5c28ddf1e0e0e818d57e2a8e945002a3) on Oct 18, 2026
-2. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/ec7337fb39febcc2598f6850e086da517cc69f7c) on Oct 18, 2026
-3. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9433536ee5a063eee3ea9a1c05d9d4919d21cd34) on Oct 18, 2026
-4. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/78025d384864f724c9e6bbe6d67cc526b42fa71d) on Oct 18, 2026
-5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6ed494324183aece4143b52fd1ab61837cfe81d5) on Oct 18, 2026
-6. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/120ef452beea840e798419c81289da1e5dcd4f55) on Oct 17, 2026
-7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/87908ec49e05b5b4ef6e2b3a07155a70503cd710) on Oct 18, 2026
-8. 🚀 Committed to chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/4f8c473cf3560eea41531e2e1c5f8c27ae865a1b) on Oct 18, 2026
-9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/29aa23c965db7a58ce471fee94d4fab218a9ac8d) on Oct 17, 2026
-10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/017cd69983151b7d7e924ed49a9499c998502861) on Oct 17, 2026
+1. ✨ Created a new branch plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/plan/free-runner-branding) on Oct 18, 2026
+2. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/971bb79b5c20f7f7a2613a4ad62ab5da809a11ba) on Oct 18, 2026
+3. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cd5a522c5c28ddf1e0e0e818d57e2a8e945002a3) on Oct 18, 2026
+4. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/ec7337fb39febcc2598f6850e086da517cc69f7c) on Oct 18, 2026
+5. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9433536ee5a063eee3ea9a1c05d9d4919d21cd34) on Oct 18, 2026
+6. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/78025d384864f724c9e6bbe6d67cc526b42fa71d) on Oct 18, 2026
+7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6ed494324183aece4143b52fd1ab61837cfe81d5) on Oct 18, 2026
+8. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/120ef452beea840e798419c81289da1e5dcd4f55) on Oct 17, 2026
+9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/87908ec49e05b5b4ef6e2b3a07155a70503cd710) on Oct 18, 2026
+10. 🚀 Committed to chore/25-typescript-tooling-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/commit/4f8c473cf3560eea41531e2e1c5f8c27ae865a1b) on Oct 18, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
