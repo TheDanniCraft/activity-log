@@ -1,0 +1,104 @@
+
+name: Assignment 5 - Automated Testing
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install and Build
+        run: |
+          bun install --frozen-lockfile
+          bun run build
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+          if-no-files-found: error
+
+  unit-test:
+    name: Unit Test - Node ${{ matrix.node }}
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Run Unit Tests
+        run: npm run test:unit
+
+  integration-test:
+    name: Integration Test and Coverage
+    needs: unit-test
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: staging
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+
+      - name: Run Integration Tests
+        run: npm run test:integration
+
+      - name: Enforce Coverage Gate
+        run: npm run test:coverage
+
+  deploy-staging:
+    name: Deploy Staging
+    needs: integration-test
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+
+      - name: Verify Staging Artifact
+        run: |
+          test -f dist/index.js
+          echo "Staging deployment simulation passed"
+
+  deploy-production:
+    name: Deploy Production
+    needs: deploy-staging
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+          path: dist/
+
+      - name: Verify Production Artifact
+        run: |
+          test -f dist/index.js
+          echo "Production deployment simulation passed"

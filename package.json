@@ -10,9 +10,13 @@
 		"yaml": "^2.9.0"
 	},
 	"scripts": {
-		"watch": "ncc build src/index.js --watch --license licenses.txt",
-		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
-		"lint:commit": "commitlint --last --verbose"
+  		"watch": "ncc build src/index.js --watch --license licenses.txt",
+  		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
+  		"lint:commit": "commitlint --last --verbose",
+ 	 	"test": "node --test test/*.test.js",
+ 	 	"test:unit": "node --test test/unit.test.js",
+  		"test:integration": "node --test test/integration.test.js",
+  		"test:coverage": "node --test --experimental-test-coverage --test-coverage-lines=80 test/unit.test.js test/integration.test.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.2.3",
