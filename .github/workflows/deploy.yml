@@ -28,13 +28,53 @@ jobs:
           name: build-artifact
           path: build.zip
 
+  test-unit:
+    name: Test (Unit)
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: staging
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Run unit tests
+        run: |
+          echo "Running unit tests against TEST_ENV=$TEST_ENV ..."
+          node test/mock.unit.test.js
+
+  test-integration:
+    name: Test (Integration)
+    needs: test-unit
+    runs-on: ubuntu-latest
+    env:
+      TEST_ENV: staging
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: Run integration tests
+        run: |
+          echo "Running integration tests against TEST_ENV=$TEST_ENV ..."
+          node test/mock.integration.test.js
+
   deploy-staging:
     name: Deploy to Staging
-    needs: build
+    needs: test-integration
     runs-on: ubuntu-latest
     environment:
       name: staging
-      url: https://github.com/${{ github.repository }}/releases/tag/${{ vars.BUILD_TAG }}
+      url: https://github.com/${{ github.repository }}/releases/tag/${{ vars.BUILD_TAG }}-staging-${{ github.run_number }}
     permissions:
       contents: write
     steps:
@@ -47,7 +87,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: ${{ vars.BUILD_TAG }}-staging-${{ github.run_number }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: gh release create "$TAG" build.zip --title "$TAG" --notes "$NOTE"
 
@@ -57,7 +97,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: production
-      url: https://github.com/${{ github.repository }}/releases/tag/${{ vars.BUILD_TAG }}
+      url: https://github.com/${{ github.repository }}/releases/tag/${{ vars.BUILD_TAG }}-prod-${{ github.run_number }}
     permissions:
       contents: write
     steps:
@@ -70,6 +110,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          TAG: ${{ vars.BUILD_TAG }}
+          TAG: ${{ vars.BUILD_TAG }}-prod-${{ github.run_number }}
           NOTE: ${{ vars.RELEASE_NOTE }}
         run: gh release create "$TAG" build.zip --title "$TAG" --notes "$NOTE"
