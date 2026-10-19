@@ -121,13 +121,18 @@ jobs:
           test -f dist/index.js
           echo "Staging deployment simulation passed"
 
+  
   deploy-production:
     name: Deploy Production
     needs: deploy-staging
     runs-on: ubuntu-latest
     environment: production
+    permissions:
+      contents: write
     env:
       TEST_ENV: production
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_REPO: ${{ github.repository }}
 
     steps:
       - uses: actions/download-artifact@v4
@@ -138,4 +143,16 @@ jobs:
       - name: Verify Production Artifact
         run: |
           test -f dist/index.js
-          echo "Production deployment simulation passed"
+          echo "Production artifact verified successfully"
+
+      - name: Package Production Artifact
+        run: |
+          tar -czf production-build.tar.gz -C dist .
+
+      - name: Create GitHub Release
+        run: |
+          gh release create "v1.0.${{ github.run_number }}" \
+            production-build.tar.gz \
+            --title "Production Release v1.0.${{ github.run_number }}" \
+            --notes "Automated release after successful unit tests, integration tests, coverage checks, staging verification, and production approval."
+
