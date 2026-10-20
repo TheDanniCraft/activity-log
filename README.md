@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/152f8b703d2e5eec264ba2bb789363d59ce8e418) on Oct 19, 2026
-2. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/039179f1d7f2088736d18498ba79112cf4c4f483) on Oct 19, 2026
-3. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44e31a3b3565d52d0acd72945827e77f2a06216d) on Oct 19, 2026
-4. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92d9ce9db0d18282fec9caec900349f5e221af4b) on Oct 19, 2026
-5. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/3ef0b8d0bdca97fc608d175c0b23816a593f34ae) on Oct 19, 2026
-6. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/6561578fd3152b35156f923ee82a45383233d601) on Oct 19, 2026
-7. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8cd3671fd22390824633a7bbac98e3d72c56f46) on Oct 19, 2026
-8. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3428f37e93bba9fc186aecbc81958424d6243b99) on Oct 19, 2026
-9. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/db2fb3ea1fc585ffc33440800fe6fb5b1e6465e8) on Oct 17, 2026
-10. 🗣 Commented on issue #8 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/8#issuecomment-6264643784) on Oct 19, 2026
+1. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/37ec497ed6e12ba88a19eb86dae729c4836ac538) on Oct 19, 2026
+2. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fae8b297ba4d4260218dac73f68c6af88e171fb1) on Oct 19, 2026
+3. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5329facad8a28548e56c2bc172d8553c77c96f60) on Oct 19, 2026
+4. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6809047cd8ba004ebe5ecf4507cc4f887608cea1) on Oct 19, 2026
+5. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/abba9adb5dfce2822ced5f4c359a21351d6f4b9e) on Oct 19, 2026
+6. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/359c83a9f8457dc9fe89d892e5f663d847d2e9a3) on Oct 19, 2026
+7. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/152f8b703d2e5eec264ba2bb789363d59ce8e418) on Oct 19, 2026
+8. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/039179f1d7f2088736d18498ba79112cf4c4f483) on Oct 19, 2026
+9. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44e31a3b3565d52d0acd72945827e77f2a06216d) on Oct 19, 2026
+10. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/92d9ce9db0d18282fec9caec900349f5e221af4b) on Oct 19, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
