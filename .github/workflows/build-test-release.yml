@@ -1,0 +1,40 @@
+name: Build-Test-Release Pipeline
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with: { node-version: 22 }
+    - run: |
+        npm install
+        npm run build --if-present
+        zip -r build.zip .
+    - uses: actions/upload-artifact@v4
+      with:
+        name: build
+        path: build.zip
+
+  test-unit:
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20, 22] # O 級加分：矩陣測試
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with: { node-version: ${{ matrix.node-version }} }
+    - uses: actions/download-artifact@v4
+      with:
+        name: build
+    - run: unzip -o build.zip
+    - run: npm install
+    - run: npm run test:unit
