@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/da6164bb2eac846350720e15cf673895258c5e38) on Oct 22, 2026
-2. 🚀 Published release v4.1.11 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.11) on Oct 23, 2026
-3. 🔀 Opened PR #527 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/527) on Oct 23, 2026
-4. 🚀 Committed to renovate/npm/major-c15t-consent-stack in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1c97708111178225b40b0b932870d08088de87f2) on Oct 22, 2026
-5. 🔥 Deleted a branch renovate/github-actions/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 22, 2026
-6. 🚀 Committed to hotfix/fix-onboarding-issues in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/506a88bc8be2c0db226941a993e880369c3d0857) on Oct 22, 2026
-7. 🔥 Deleted a branch fix/google-oauth-proxy in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 22, 2026
-8. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c3b9fd5fb5081ed13f19fa08463df42cbfca2f77) on Oct 22, 2026
-9. 🚀 Committed to master in [TheDanniCraft/Portfolio](https://github.com/TheDanniCraft/Portfolio/commit/ad64174fda7898049a82629529dce2ba1d3120cd) on Oct 22, 2026
-10. 🔥 Deleted a branch fix/next-security-16-4-1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 22, 2026
+1. 🔀 Merged PR #527 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/527) on Oct 23, 2026
+2. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e74c9f52380c843b265a03dba13a9dfc874c0abd) on Oct 21, 2026
+3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/43587197fd536ab0e8886230466b337ede1abc30) on Oct 22, 2026
+4. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1c47c7037fd907a61dfb5e0a3bf618334d842a62) on Oct 21, 2026
+5. 🔥 Deleted a branch hotfix/wire-onboarding-deployment in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 23, 2026
+6. ✨ Created a new branch hotfix/wire-onboarding-deployment in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/hotfix/wire-onboarding-deployment) on Oct 23, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/da6164bb2eac846350720e15cf673895258c5e38) on Oct 22, 2026
+8. 🚀 Published release v4.1.11 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.1.11) on Oct 23, 2026
+9. 🔀 Opened PR #527 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/527) on Oct 23, 2026
+10. 🚀 Committed to renovate/npm/major-c15t-consent-stack in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1c97708111178225b40b0b932870d08088de87f2) on Oct 22, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
