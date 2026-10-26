@@ -1,5 +1,5 @@
 export function appTitle() {
-  return 'Activity Log';
+  return 'Activity Log - Team A';
 }
 
 // Separate collaborator region
