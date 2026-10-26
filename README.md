@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93585e832172c4743206523003526bf13f30fa55) on Oct 26, 2026
-2. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eabd96d4b0c1ef53cee32df05ff0f08dce05bf6f) on Oct 26, 2026
-3. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aba0e1b0af91f2ff220d209cf39d61637fa0b4b7) on Oct 26, 2026
-4. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e68e81b14e71566548093d8832a55d7651fd5b20) on Oct 26, 2026
-5. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8c4573dd1f08972015f1c3d7bf60aada0a9f0b91) on Oct 26, 2026
-6. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/432cd510fe855b6e0513e6a06248c6e5006b116a) on Oct 26, 2026
-7. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9da611350f68beeb53e5397d1f9bb69089106dc6) on Oct 25, 2026
-8. 🚀 Committed to fix/daybreak-security-audit in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1bb45450f8388f61beb74b95fe4958ed2747ef2f) on Oct 25, 2026
-9. 🔀 Opened PR #532 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/532) on Oct 25, 2026
-10. 🚀 Committed to fix/daybreak-security-audit in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d055440302c6243b7c5ab4010e06c2101193de90) on Oct 25, 2026
+1. 🚀 Committed to fix/daybreak-security-audit in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4ccb46ec5c9f54433ed19b8f0acee44cbe2051cc) on Oct 25, 2026
+2. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/20b617a5c8dee55fe5c6999714fb4f26549d3fb6) on Oct 26, 2026
+3. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08477db2b5194fcfa9c87effa3163b12598031b2) on Oct 26, 2026
+4. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/93585e832172c4743206523003526bf13f30fa55) on Oct 26, 2026
+5. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eabd96d4b0c1ef53cee32df05ff0f08dce05bf6f) on Oct 26, 2026
+6. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aba0e1b0af91f2ff220d209cf39d61637fa0b4b7) on Oct 26, 2026
+7. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e68e81b14e71566548093d8832a55d7651fd5b20) on Oct 26, 2026
+8. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8c4573dd1f08972015f1c3d7bf60aada0a9f0b91) on Oct 26, 2026
+9. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/432cd510fe855b6e0513e6a06248c6e5006b116a) on Oct 26, 2026
+10. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9da611350f68beeb53e5397d1f9bb69089106dc6) on Oct 25, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
