@@ -1,0 +1,71 @@
+name: Assignment 6 - PR CI Gate
+on:
+  pull_request:
+    branches: [master, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: A6 Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - name: Install and build
+        run: |
+          bun install --frozen-lockfile
+          bun run build
+
+  static-check:
+    name: A6 Static Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JavaScript syntax
+        run: |
+          find src test -type f -name '*.js' -print0 | xargs -0 -r -n1 node --check
+
+  unit-test:
+    name: A6 Unit Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [20, 22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Run unit tests
+        run: node --test test/unit.test.js
+
+  integration-test:
+    name: A6 Integration
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Run integration tests
+        run: node --test test/integration.test.js
+
+  gate:
+    name: A6 Required CI Gate
+    if: always()
+    needs: [build, static-check, unit-test, integration-test]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block merging if any required job failed
+        env:
+          NEEDS_JSON: ${{ toJSON(needs) }}
+        run: |
+          echo "$NEEDS_JSON"
+          echo "$NEEDS_JSON" | jq -e 'all(.[]; .result == "success")'
