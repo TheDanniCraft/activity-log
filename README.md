@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v4.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.1) on Oct 27, 2026
-2. 🔀 Merged PR #534 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/534) on Oct 27, 2026
-3. 🔀 Opened PR #534 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/534) on Oct 27, 2026
-4. 🚀 Published release v4.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.0) on Oct 27, 2026
-5. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2367ae90fe5117fea27d46b7047b6bab0c8fa024) on Oct 26, 2026
-6. 🔥 Deleted a branch feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 27, 2026
-7. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/25853e8d0e8af769b5b010d0b8af4c634d4504d0) on Oct 26, 2026
-8. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e16ea63d67b17eb8c2a7d81b27845db1043ec4f6) on Oct 26, 2026
-9. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bcbfa044be6dc45a0c45a369925aa9159b94a209) on Oct 26, 2026
-10. 🔀 Opened PR #533 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/533) on Oct 27, 2026
+1. ✨ Created a new branch feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/redesign-landing-page) on Oct 27, 2026
+2. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af0947a29ccdb80c9057db82960abab0fa7f20b3) on Oct 26, 2026
+3. 🚀 Published release v4.2.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.1) on Oct 27, 2026
+4. 🔀 Merged PR #534 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/534) on Oct 27, 2026
+5. 🔀 Opened PR #534 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/534) on Oct 27, 2026
+6. 🚀 Published release v4.2.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.0) on Oct 27, 2026
+7. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2367ae90fe5117fea27d46b7047b6bab0c8fa024) on Oct 26, 2026
+8. 🔥 Deleted a branch feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 27, 2026
+9. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/25853e8d0e8af769b5b010d0b8af4c634d4504d0) on Oct 26, 2026
+10. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e16ea63d67b17eb8c2a7d81b27845db1043ec4f6) on Oct 26, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
