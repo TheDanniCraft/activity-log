@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9ea1d5469559b241c0f2bb12712ddc3d09cd8a5) on Oct 26, 2026
-2. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eaf3ffb00ce5a0fbe36d3b7debecb5a96172c1ac) on Oct 26, 2026
-3. ✨ Created a new branch feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/user-tour) on Oct 25, 2026
-4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb91a851135fd9233648889535f9cc22a3ada5b) on Oct 26, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb91a851135fd9233648889535f9cc22a3ada5b) on Oct 26, 2026
-6. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a004bc024b0c8da422b69f298675360b426a1344) on Oct 26, 2026
-7. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/1560be1e9ac0339ebeebc774b19f57c4d4fe80ff) on Oct 25, 2026
-8. 🚀 Committed to plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/459470768a84ed323596f4bc20dc50382fde7b03) on Oct 26, 2026
-9. 🔥 Deleted a branch fix/daybreak-security-audit in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 25, 2026
-10. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3d9a904042732810cf8ec3b527665c7bdfc51f9a) on Oct 26, 2026
+1. 🔀 Merged PR #532 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/532) on Oct 27, 2026
+2. 🔥 Deleted a branch plan/free-runner-branding in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 26, 2026
+3. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/83f9446bf76888802e0bfe605f1c694c6c7df7fd) on Oct 26, 2026
+4. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d9ea1d5469559b241c0f2bb12712ddc3d09cd8a5) on Oct 26, 2026
+5. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eaf3ffb00ce5a0fbe36d3b7debecb5a96172c1ac) on Oct 26, 2026
+6. ✨ Created a new branch feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/user-tour) on Oct 25, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb91a851135fd9233648889535f9cc22a3ada5b) on Oct 26, 2026
+8. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/deb91a851135fd9233648889535f9cc22a3ada5b) on Oct 26, 2026
+9. 🚀 Committed to feat/user-tour in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a004bc024b0c8da422b69f298675360b426a1344) on Oct 26, 2026
+10. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/1560be1e9ac0339ebeebc774b19f57c4d4fe80ff) on Oct 25, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
