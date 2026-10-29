@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b7d489ab8cfbb399c2ca82100596e0a40d666d5e) on Oct 27, 2026
-2. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/346b2260a582b7e5dbf7155d0313d394af1c2f7c) on Oct 28, 2026
-3. 🔥 Deleted a branch fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 28, 2026
-4. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9f6107a3549f11ce28e16921bd55fbf0a5ff023f) on Oct 28, 2026
-5. 🚀 Published release v4.2.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.2) on Oct 29, 2026
-6. 🔀 Merged PR #536 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/536) on Oct 29, 2026
-7. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f192094d8e39d09a82748deca31381653eff0d34) on Oct 28, 2026
-8. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dbced43093354b70020a285e4c202d62d81e5a26) on Oct 27, 2026
-9. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c09634ab10628d9a6a4039f99230026cc62b185) on Oct 28, 2026
-10. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fba5d8d7788dd911659c41893cfa25b12a594e50) on Oct 27, 2026
+1. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/db23f08022ada430940e7af6125459ec79ba0782) on Oct 28, 2026
+2. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b7d489ab8cfbb399c2ca82100596e0a40d666d5e) on Oct 27, 2026
+3. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/346b2260a582b7e5dbf7155d0313d394af1c2f7c) on Oct 28, 2026
+4. 🔥 Deleted a branch fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 28, 2026
+5. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9f6107a3549f11ce28e16921bd55fbf0a5ff023f) on Oct 28, 2026
+6. 🚀 Published release v4.2.2 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.2.2) on Oct 29, 2026
+7. 🔀 Merged PR #536 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/536) on Oct 29, 2026
+8. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f192094d8e39d09a82748deca31381653eff0d34) on Oct 28, 2026
+9. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dbced43093354b70020a285e4c202d62d81e5a26) on Oct 27, 2026
+10. 🚀 Committed to fix/recent-auth-flows in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2c09634ab10628d9a6a4039f99230026cc62b185) on Oct 28, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
