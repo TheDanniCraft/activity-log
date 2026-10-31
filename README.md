@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/922cef1b889927d691314b9067a1873921120f90) on Oct 29, 2026
-2. 🔀 Opened PR #541 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/541) on Oct 31, 2026
-3. 🔀 Opened PR #540 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/540) on Oct 31, 2026
-4. 🚀 Published release v4.3.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.3.0) on Oct 31, 2026
-5. ❌ Closed PR #539 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/539) on Oct 31, 2026
-6. 🔀 Opened PR #539 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/539) on Oct 31, 2026
-7. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e4770aead8ffa1fb733bfbe2591031d081a9c3fb) on Oct 29, 2026
-8. ❌ Closed PR #391 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/391) on Oct 7, 2026
-9. 🔀 Merged PR #533 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/533) on Oct 31, 2026
-10. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5be6c495d562328c69d526b5666c60c0ee97d278) on Oct 29, 2026
+1. 🔀 Opened PR #542 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/542) on Oct 31, 2026
+2. 🚀 Published release v4.3.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.3.1) on Oct 31, 2026
+3. 🔀 Merged PR #541 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/541) on Oct 31, 2026
+4. 🔀 Merged PR #540 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/540) on Oct 31, 2026
+5. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/922cef1b889927d691314b9067a1873921120f90) on Oct 29, 2026
+6. 🔀 Opened PR #541 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/541) on Oct 31, 2026
+7. 🔀 Opened PR #540 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/540) on Oct 31, 2026
+8. 🚀 Published release v4.3.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.3.0) on Oct 31, 2026
+9. ❌ Closed PR #539 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/539) on Oct 31, 2026
+10. 🔀 Opened PR #539 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/539) on Oct 31, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
