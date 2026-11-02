@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
-2. ✨ Created a new branch fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/newsletter-horizontal-verification) on Oct 31, 2026
-3. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c9123fbfa7b243bf2e1ca6b35a9ca20115d64a42) on Oct 31, 2026
-4. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8214f258825f821266527bcfc7e7d21a26178496) on Oct 31, 2026
-5. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c9bcd950bb7430ca0248860ec3a40bfc3338ef5c) on Oct 30, 2026
-6. ✨ Created a new branch fix/grafana-guide-labels in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/grafana-guide-labels) on Oct 31, 2026
-7. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/262a626e642dc66ee02125417094fadfb64fcbe6) on Oct 31, 2026
-8. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/600092e4fe499f42befc2cf47e30314fab9c31dc) on Oct 31, 2026
-9. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bc13be5002fe4696621e38a48c951c52c02560bc) on Oct 30, 2026
-10. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eff94f931729cbdec169d35168d6d729df9266fb) on Oct 29, 2026
+1. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/81f826c8c733f427e71717740e1af25d558f4e22) on Oct 31, 2026
+2. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/89d7b4c326876fe90b7115d76533ef615b48c1c1) on Oct 31, 2026
+3. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b0eb70deb5b5b868144103347084faa09ebbc1) on Oct 31, 2026
+4. 🚀 Committed to fix/grafana-guide-labels in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af6e9dae54e1ddab6b7c65bd65ae27959541b576) on Oct 31, 2026
+5. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99adee023dd9d090fa66ad96598316e8817a637a) on Oct 31, 2026
+6. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/60049a067595517708c228e6ecb5b9d7bc6f58db) on Oct 31, 2026
+7. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f42a24185d61d40181854e871a7be20340aca042) on Oct 31, 2026
+8. 🔥 Deleted a branch fix/grafana-guide-labels in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
+9. 🚀 Committed to feat/redesign-landing-page in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f95375b8d650e39f638bf33e97e8bedb8f6677f0) on Oct 30, 2026
+10. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a2b4622493c4abf806a82df8e28c1cdc89f3eb53) on Oct 31, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
