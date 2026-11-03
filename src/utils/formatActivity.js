@@ -39,15 +39,17 @@ export function wrapText(value, width = 80) {
 export function formatActivity(rows, { style = 'MARKDOWN', outputMode = 'list', svgOutput = false } = {}) {
     if (svgOutput || outputMode === 'svg' || style === 'SVG') {
         let y = 52;
+        const textX = 20 + (String(rows.length).length + 2) * 10;
         const text = rows.map((row, index) => {
-            const lines = wrapText(`${index + 1}. ${plainText(row.description)}`);
-            const result = lines.map(line => {
-                const element = `<text x="20" y="${y}" dominant-baseline="hanging">${escapeXml(line)}</text>`;
+            const rowY = y;
+            const lines = wrapText(plainText(row.description));
+            const body = lines.map(line => {
+                const element = `<text class="description" x="${textX}" y="${y}" dominant-baseline="hanging">${escapeXml(line)}</text>`;
                 y += 22;
                 return element;
             }).join('\n');
             y += 12;
-            return result;
+            return `<g class="activity-row"><text class="ordinal" x="${textX - 12}" y="${rowY}" text-anchor="end" dominant-baseline="hanging">${index + 1}.</text>\n${body}</g>`;
         }).join('\n');
         return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${y + 12}" viewBox="0 0 900 ${y + 12}" role="img" aria-labelledby="title">
 <title id="title">Recent Activity</title>

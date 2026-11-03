@@ -5,7 +5,7 @@ import { groupActivityEvents } from '../src/utils/groupEvents.js';
 import { formatActivity } from '../src/utils/formatActivity.js';
 import { previewEvents, previewOptions } from '../test/fixtures/previewEvents.js';
 
-const output = path.resolve(process.argv[2] || 'previews');
+const output = path.resolve(process.argv[2] || 'examples');
 const snapshotPath = process.argv[3];
 const events = snapshotPath ? JSON.parse(fs.readFileSync(snapshotPath, 'utf8')) : previewEvents;
 const rows = buildActivityRows(groupActivityEvents(events), previewOptions);
@@ -15,7 +15,7 @@ const table = formatActivity(rows, { outputMode: 'table' });
 const svg = formatActivity(rows, { outputMode: 'svg' });
 const htmlList = formatActivity(rows, { style: 'HTML' });
 const htmlTable = formatActivity(rows, { style: 'HTML', outputMode: 'table' });
-for (const [name, content] of Object.entries({ 'list.md': list, 'table.md': table, 'activity.svg': svg, 'list-fragment.html': htmlList, 'table-fragment.html': htmlTable, 'rows.json': JSON.stringify(rows, null, 2) })) {
+for (const [name, content] of Object.entries({ 'list.md': list, 'table.md': table, 'activity.svg': svg, 'list-fragment.html': htmlList, 'table-fragment.html': htmlTable })) {
     fs.writeFileSync(path.join(output, name), content + '\n');
 }
 const label = snapshotPath ? 'Saved event snapshot' : 'Synthetic event fixture';
@@ -37,5 +37,5 @@ const sections = {
 };
 for (const [name, body] of Object.entries(sections)) fs.writeFileSync(path.join(output, `${name}.html`), page(`${name.toUpperCase()} output`, body));
 fs.writeFileSync(path.join(output, 'index.html'), page('Activity log output comparison', Object.values(sections).join('')));
-fs.writeFileSync(path.join(output, 'pr-examples.md'), `### Default list (rendered)\n\n${list}\n\n### Table (rendered)\n\n${table}\n`);
+
 console.log(`Generated all previews from one dataset in ${output}; no GitHub requests made.`);

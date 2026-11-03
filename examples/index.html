@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Activity log output comparison</title>
+<style>
+:root { color-scheme: light dark; --bg: #fff; --fg: #24292f; --border: #d0d7de; --link: #0969da; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0d1117; --fg: #c9d1d9; --border: #30363d; --link: #58a6ff; } }
+* { box-sizing: border-box; } body { background: var(--bg); color: var(--fg); margin: 0; padding: 24px; font: 14px/1.5 system-ui, sans-serif; }
+main { max-width: 960px; margin: auto; } h1 { font-size: 24px; } h2 { font-size: 18px; } a { color: var(--link); } li { margin-bottom: 8px; }
+section { padding: 20px; margin: 20px 0; border: 1px solid var(--border); border-radius: 6px; overflow: auto; }
+table { border-collapse: collapse; table-layout: fixed; width: 100%; font-size: 12px; } th:nth-child(1) { width: 100px; } th:nth-child(2) { width: 170px; } th:nth-child(3) { width: 160px; } th, td { border: 1px solid var(--border); padding: 8px; text-align: left; overflow-wrap: anywhere; }
+img { display: block; max-width: 100%; height: auto; } .meta { opacity: .7; } code { overflow-wrap: anywhere; }
+</style></head><body><main><h1>Activity log output comparison</h1><p class="meta">Synthetic event fixture · all layouts reuse the same 13 prepared rows · zero GitHub API requests</p><section><h2>Default · Markdown list</h2><ol>
+<li>📝 Committed to main in <a href="https://github.com/octocat/hello-world/commit/abcdef3">octocat/hello-world</a> on Oct 31, 2026 (3×)</li>
+<li>🆕 Opened issue #25 in <a href="https://github.com/octocat/hello-world/issues/25">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🔀 Merged PR #56 in <a href="https://github.com/octocat/hello-world/pull/56">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🔎 Reviewed PR #73 in <a href="https://github.com/octocat/hello-world/pull/73#pullrequestreview-1">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🗣 Commented on issue #25 in <a href="https://github.com/octocat/hello-world/issues/25#issuecomment-1">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🚀 Published release v2.0.0 in <a href="https://github.com/octocat/hello-world/releases/tag/v2.0.0">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🎉 Created a new branch feature/activity-log in <a href="https://github.com/octocat/hello-world/tree/feature/activity-log">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🗑️ Deleted a branch feature/finished-work in <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>⭐ Starred <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>🍴 Forked <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>📝 Updated 2 pages (+1 new page) in <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</li>
+<li>📝 Committed in a private repository on Oct 31, 2026</li>
+<li>📝 Committed to feature/long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name- in <a href="https://github.com/octocat/hello-world/commit/abcdef4">octocat/hello-world</a> on Oct 31, 2026</li>
+</ol></section><section><h2>Table · Markdown or HTML</h2><table>
+<thead><tr><th>Date</th><th>Event</th><th>Repository</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td>Oct 31, 2026</td><td>PushEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>📝 Committed to main in <a href="https://github.com/octocat/hello-world/commit/abcdef3">octocat/hello-world</a> on Oct 31, 2026 (3×)</td></tr>
+<tr><td>Oct 31, 2026</td><td>IssuesEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🆕 Opened issue #25 in <a href="https://github.com/octocat/hello-world/issues/25">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>PullRequestEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🔀 Merged PR #56 in <a href="https://github.com/octocat/hello-world/pull/56">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>PullRequestReviewEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🔎 Reviewed PR #73 in <a href="https://github.com/octocat/hello-world/pull/73#pullrequestreview-1">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>IssueCommentEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🗣 Commented on issue #25 in <a href="https://github.com/octocat/hello-world/issues/25#issuecomment-1">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>ReleaseEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🚀 Published release v2.0.0 in <a href="https://github.com/octocat/hello-world/releases/tag/v2.0.0">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>CreateEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🎉 Created a new branch feature/activity-log in <a href="https://github.com/octocat/hello-world/tree/feature/activity-log">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>DeleteEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🗑️ Deleted a branch feature/finished-work in <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>StarEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>⭐ Starred <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>ForkEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>🍴 Forked <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>GollumEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>📝 Updated 2 pages (+1 new page) in <a href="https://github.com/octocat/hello-world">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>PushEvent</td><td>a private repository</td><td>📝 Committed in a private repository on Oct 31, 2026</td></tr>
+<tr><td>Oct 31, 2026</td><td>PushEvent</td><td><a href="https://github.com/octocat/hello-world">octocat/hello-world</a></td><td>📝 Committed to feature/long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name-long-branch-name- in <a href="https://github.com/octocat/hello-world/commit/abcdef4">octocat/hello-world</a> on Oct 31, 2026</td></tr>
+</tbody>
+</table></section><section><h2>SVG · transparent image</h2><img src="activity.svg" alt="Recent activity"></section></main></body></html>

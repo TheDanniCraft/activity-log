@@ -19,12 +19,12 @@ jobs:
           GITHUB_USERNAME: "thedannicraft"
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
           EVENT_LIMIT: 10
-          OUTPUT_MODE: svg
-          OUTPUT_PATH: activity-log.svg
+          OUTPUT_MODE: list
+          OUTPUT_PATH: README.md
           GROUP_EVENTS: true
           IGNORE_EVENTS: "[]"
           HIDE_DETAILS_ON_PRIVATE_REPOS: false
-          COMMIT_MESSAGE: ":memo: chore: Update activity image"
+          COMMIT_MESSAGE: ":memo: chore: Update activity log"
           EVENT_EMOJI_MAP: |
             PushEvent: "🚀"
             CreateEvent: "✨"

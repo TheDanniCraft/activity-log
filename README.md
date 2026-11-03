@@ -39,13 +39,22 @@ A GitHub Action that displays the latest activity from your GitHub account in a 
 
 ## ✍️ Example
 
-![Recent GitHub activity](./activity-log.svg)
+<!--START_SECTION:activity-->
+1. 🔥 Deleted a branch renovate/github-actions/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
+2. 🔥 Deleted a branch fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
+3. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/24d9f922015a9813fb1fcd4b12c0998dc417aa64) on Oct 31, 2026
+4. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/566b959680d801a1ae48eeb270e310fbc5157916) on Oct 31, 2026
+5. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/81f826c8c733f427e71717740e1af25d558f4e22) on Oct 31, 2026
+6. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/89d7b4c326876fe90b7115d76533ef615b48c1c1) on Oct 31, 2026
+7. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b0eb70deb5b5b868144103347084faa09ebbc1) on Oct 31, 2026
+8. 🚀 Committed to fix/grafana-guide-labels in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af6e9dae54e1ddab6b7c65bd65ae27959541b576) on Oct 31, 2026
+9. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99adee023dd9d090fa66ad96598316e8817a637a) on Oct 31, 2026
+10. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/60049a067595517708c228e6ecb5b9d7bc6f58db) on Oct 31, 2026
+<!--END_SECTION:activity-->
 
-This repository uses **SVG** with grouped pushes. The scheduled workflow updates
-`activity-log.svg`; the README's image link stays unchanged. The image starts with
-the last recorded real activity shown here and is refreshed by the next scheduled run.
-The action's default remains a Markdown list for existing users.
-
+This repository keeps the linked Markdown list so individual event links work in
+the README. Grouping reduces repeated entries; automated updates still edit this
+section. SVG is optional and does not support interactive links when embedded.
 
 ## 📖Usage
 
@@ -65,7 +74,7 @@ For **SVG**, add an image link instead (no section markers needed):
 ```
 
 Choose the matching inputs in [Output Modes](#-output-modes). Keep one active
-workflow and choose one output mode for it. This repository uses the SVG option.
+workflow and choose one output mode for it. This repository uses the default list option.
 
 ### 2. Create a Personal Access Token
 
@@ -246,13 +255,15 @@ with:
   OUTPUT_PATH: README.md
 ```
 
-### SVG: Used by This Repository
+### Optional SVG Image
 
 SVG writes a standalone transparent image. The README embeds it once; later runs
 commit changes to the image, avoiding repeated edits to the README. Text stays
 selectable when the SVG is opened directly; an embedded image behaves as an image.
-Links inside event descriptions become plain text in SVG; use list/table for
-clickable event links. Long descriptions wrap, including long branch names.
+Links inside event descriptions become plain text in SVG. Browsers disable
+interaction inside SVG images embedded with `<img>` or Markdown image syntax;
+adding anchors inside the SVG does not enable individual event links there.
+Use list/table when clickable event links are required in the README. Long descriptions wrap, including long branch names. Wrapped lines align beneath the event text rather than the number column.
 
 ```yaml
 with:
@@ -291,7 +302,14 @@ more API requests than the ungrouped mode, which can stop once the limit is met.
 Custom templates can use `{count}` (1 for an individual event). If omitted, grouped
 rows append a count such as `(3×)`.
 
-### Preview Every Mode Without API Calls or Commits
+### Examples and Screenshots
+
+Browse the committed [examples](examples/README.md) for list, table and SVG output,
+with light/dark screenshots covering grouped pushes, issues, merged PRs, reviews,
+comments, releases, branches, stars, forks, wiki edits, private activity and long
+text. The SVG examples demonstrate image layout, not clickable embedded links.
+
+Regenerate the examples manually from one offline fixture:
 
 ```bash
 bun install --frozen-lockfile
@@ -300,23 +318,16 @@ bunx playwright install --with-deps chromium
 bun run preview:screenshots
 ```
 
-Open `previews/index.html` to compare all layouts. The fixture covers grouped
-pushes, issues, merged PRs, reviews, comments, releases, branch creation/deletion,
-stars, forks, wiki edits, private activity and long text. Events are prepared **once**
-and rendered into every mode; these scripts make **zero GitHub API requests**.
+Open `examples/index.html` for a local comparison. These commands prepare events
+once and render every mode with **zero GitHub API requests**. They write ordinary
+files directly into `examples/`. There is no preview CI job or archive generation.
+The HTML wrapper approximates Markdown presentation; GitHub's styling may vary.
 
-To reuse a previously saved GitHub events JSON array instead of the fixture:
+To reuse a saved GitHub events JSON array:
 
 ```bash
-bun run preview -- previews path/to/events.json
+bun run preview -- examples path/to/events.json
 ```
-
-CI runs the same commands in the existing **Dist Build Check → output-previews**
-job. Its **activity-log-previews** artifact contains PNG screenshots for all modes
-in light and dark themes, SVG/Markdown/HTML output, and text-layout measurements.
-Screenshots and generated comparison files are ignored by Git and retained in CI
-for 14 days. The job summary also contains rendered list and table examples.
-The comparison uses a local HTML wrapper; GitHub's exact Markdown styling may vary.
 
 Application code can call `fetchActivityRows()` once and pass the returned rows
 to `formatActivity()` for each mode. Rendering requires no further API calls;

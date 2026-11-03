@@ -51,6 +51,14 @@ test('SVG is transparent, selectable, escaped, deterministic and wraps long word
     assert.match(formatActivity([], { svgOutput: true }), /<svg/);
 });
 
+test('SVG wraps descriptions beneath the text rather than the number column', () => {
+    const svg = formatActivity(Array.from({ length: 12 }, () => ({ ...row, description: 'word '.repeat(35) })), { outputMode: 'svg' });
+    const lines = [...svg.matchAll(/class="description" x="(\d+)"/g)];
+    assert.ok(lines.length > 12);
+    assert.ok(lines.every(match => match[1] === '60'));
+    assert.match(svg, /class="ordinal" x="48"[^>]+text-anchor="end"/);
+});
+
 test('count templates and private metadata stay consistent across modes', () => {
     const data = extractEventData({ ...push('secret'), public: false, count: 5 }, { PushEvent: '📝' }, true);
     assert.equal(applyTemplate('{emoji} {count} pushes to [{repo}]({url}) {ref}', data), '📝 5 pushes to a private repository');
