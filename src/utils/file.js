@@ -37,6 +37,32 @@ function getRepoRelativeOutputPath(filePath) {
     return path.basename(normalized);
 }
 
+function replaceActivitySection(content, activity) {
+    const startMarker = '<!--START_SECTION:activity-->';
+    const endMarker = '<!--END_SECTION:activity-->';
+    const start = content.indexOf(startMarker);
+    const end = content.indexOf(endMarker);
+    if (start === -1 || end === -1 || start > end) {
+        throw new Error('Section markers not found or invalid in output file.');
+    }
+    const previous = content.substring(start + startMarker.length, end).trim();
+    if (previous.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
+        return null;
+    }
+    return `${content.substring(0, start + startMarker.length)}\n${activity}\n${content.substring(end)}`;
+}
+
+function prepareOutput(activity) {
+    const current = svgOutput && !fs.existsSync(outputPath) ? '' : fs.readFileSync(outputPath, 'utf-8');
+    const updated = svgOutput ? activity : replaceActivitySection(current, activity);
+    if (updated === null || updated === current) {
+        notice('📄 No changes in output file, skipping...');
+        logDebugActivity(activity);
+        return null;
+    }
+    return updated;
+}
+
 // Update the requested output file and push changes.
 async function updateOutput(activity) {
     try {
@@ -45,35 +71,8 @@ async function updateOutput(activity) {
             return;
         }
 
-        const readmeContent = svgOutput && !fs.existsSync(outputPath) ? '' : fs.readFileSync(outputPath, 'utf-8');
-        const startMarker = '<!--START_SECTION:activity-->';
-        const endMarker = '<!--END_SECTION:activity-->';
-
-        const startIdx = readmeContent.indexOf(startMarker);
-        const endIdx = readmeContent.indexOf(endMarker);
-
-        if (!svgOutput && (startIdx === -1 || endIdx === -1 || startIdx > endIdx)) {
-            setFailed('❌ Section markers not found or invalid in README.md.');
-            return;
-        }
-
-        const currentSection = svgOutput ? readmeContent : readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
-        const updatedContent = svgOutput ? activity : [
-            readmeContent.substring(0, startIdx + startMarker.length),
-            '\n',
-            activity,
-            '\n',
-            readmeContent.substring(endIdx)
-        ].join('');
-
-        // Don't run if section didn't change
-        if (svgOutput ? currentSection === activity : currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            notice('📄 No changes in output file, skipping...');
-            if (process.env.ACT || dryRun) {
-                logDebugActivity(activity);
-            }
-            return;
-        }
+        const updatedContent = prepareOutput(activity);
+        if (updatedContent === null) return;
 
         // Log debug activity and skip update if ACT or dryRun is enabled
         if (process.env.ACT || dryRun) {

@@ -1,6 +1,5 @@
 import { warning } from '@actions/core';
-import eventDescriptions from './eventDescriptions.js';
-import { applyTemplate, extractEventData } from './templateEngine.js';
+import { buildActivityRows } from './activityRows.js';
 import { groupActivityEvents } from './groupEvents.js';
 import { formatActivity } from './formatActivity.js';
 import { createOctokit } from './octokit.js';
@@ -195,7 +194,7 @@ async function fetchEvents(page) {
 }
 
 // Function to fetch and filter events
-async function fetchAndFilterEvents() {
+async function fetchActivityRows() {
     const { starredRepoNames } = await fetchAllStarredRepos();
     let page = 1;
     let allEvents = await fetchEvents(page);
@@ -243,49 +242,15 @@ async function fetchAndFilterEvents() {
         warning(`Only ${fetchedEventCount} activity rows are available from ${totalFetchedEvents} fetched events after filtering and grouping.`);
     }
 
-    // Generate ordered list of events with descriptions
-    const rows = filteredEvents.map((event) => {
-        const type = event.type;
-        const repo = event.repo;
-        const isPrivate = !event.public;
-        const action = event.payload.pull_request
-            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
-            : event.payload.action;
+    return buildActivityRows(filteredEvents, { eventEmojiMap, eventTemplate, hideDetailsOnPrivateRepos });
+}
 
-        const pr = event.payload.pull_request || {};
-        const payload = event.payload;
-
-        let description = null;
-
-        if (eventTemplate) {
-            const eventData = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
-            description = applyTemplate(eventTemplate, eventData);
-        }
-
-        if (!description) {
-            if (!eventDescriptions[type]) {
-                warning(`Unknown event type: ${type}`);
-                description = `Unknown event in ${repo.name}`;
-            } else if (typeof eventDescriptions[type] === 'function') {
-                description = eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
-            } else if (eventDescriptions[type][action]) {
-                description = eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos });
-            } else {
-                warning(`Unknown action "${action}" for event type "${type}"`);
-                description = `Unknown ${type} action in ${repo.name}`;
-            }
-        }
-
-        if (event.count > 1 && !eventTemplate?.includes('{count}')) {
-            description += ` (${event.count}×)`;
-        }
-        const data = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
-        return { description, date: data.date, type: data.event_type, repo: data.repo, repoUrl: data.repo_url };
-    });
-
+async function fetchAndFilterEvents() {
+    const rows = await fetchActivityRows();
     return formatActivity(rows, { style, outputMode, svgOutput });
 }
 
 export {
     fetchAndFilterEvents,
+    fetchActivityRows,
 };

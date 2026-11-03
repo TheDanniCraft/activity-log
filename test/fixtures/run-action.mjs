@@ -61,9 +61,22 @@ mock.module('../../src/utils/octokit.js', { namedExports: {
     } })
 } });
 try {
-    const { fetchAndFilterEvents } = await import('../../src/utils/github.js');
+    const { fetchAndFilterEvents, fetchActivityRows } = await import('../../src/utils/github.js');
+    const { formatActivity } = await import('../../src/utils/formatActivity.js');
     const { updateOutput } = await import('../../src/utils/file.js');
-    const activity = await fetchAndFilterEvents();
+    let activity;
+    if (scenario === 'reuse') {
+        const rows = await fetchActivityRows();
+        const requestCount = requests.length;
+        for (const outputMode of ['list', 'table', 'svg']) {
+            const rendered = formatActivity(rows, { outputMode });
+            assert.match(rendered, /3×/);
+        }
+        assert.equal(requests.length, requestCount, 'Rendering extra modes must not refetch events');
+        activity = formatActivity(rows, { outputMode: mode });
+    } else {
+        activity = await fetchAndFilterEvents();
+    }
     assert.deepEqual(pages, [1, 2, 3]);
     assert.match(activity, /3×/);
     assert.match(activity, /owner\/other/);

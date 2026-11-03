@@ -12,7 +12,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
-A GitHub Action that automatically updates your README file with the latest activity from your GitHub account. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
+A GitHub Action that displays the latest activity from your GitHub account in a Markdown list, a table, or a standalone SVG image. Customize the displayed events, set a limit on the number of events, and ignore specific event types. Ideal for keeping your personal README file current with recent contributions and changes.
 
 > [!WARNING]
 > GitHub recently changed rate limits. See [Rate Limiting](#-rate-limiting) for more info.
@@ -32,36 +32,40 @@ A GitHub Action that automatically updates your README file with the latest acti
 - Customizable
 - Dry Run Mode (preview changes without committing)
 - Custom Commit Messages
+- List, Table and SVG Output Modes
 - Markdown or HTML Output Styles
+- Optional Grouping of Repeated Pushes
 - Hide Details on Private Repositories
 
 ## ✍️ Example
 
-<!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/github-actions/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
-2. 🔥 Deleted a branch fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Oct 31, 2026
-3. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/24d9f922015a9813fb1fcd4b12c0998dc417aa64) on Oct 31, 2026
-4. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/566b959680d801a1ae48eeb270e310fbc5157916) on Oct 31, 2026
-5. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/81f826c8c733f427e71717740e1af25d558f4e22) on Oct 31, 2026
-6. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/89d7b4c326876fe90b7115d76533ef615b48c1c1) on Oct 31, 2026
-7. 🚀 Committed to fix/newsletter-horizontal-verification in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b8b0eb70deb5b5b868144103347084faa09ebbc1) on Oct 31, 2026
-8. 🚀 Committed to fix/grafana-guide-labels in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af6e9dae54e1ddab6b7c65bd65ae27959541b576) on Oct 31, 2026
-9. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/99adee023dd9d090fa66ad96598316e8817a637a) on Oct 31, 2026
-10. 🚀 Committed to fix/public-page-navigation in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/60049a067595517708c228e6ecb5b9d7bc6f58db) on Oct 31, 2026
-<!--END_SECTION:activity-->
+![Recent GitHub activity](./activity-log.svg)
+
+This repository uses **SVG** with grouped pushes. The scheduled workflow updates
+`activity-log.svg`; the README's image link stays unchanged. The image starts with
+the last recorded real activity shown here and is refreshed by the next scheduled run.
+The action's default remains a Markdown list for existing users.
+
 
 ## 📖Usage
 
-### 1. Add Sections to `README.md`
+### 1. Choose How to Display Activity
 
-Include the following placeholders in your `README.md` where you want the activity log to appear:
+For the **default Markdown list**, add section markers to your README:
 
 ```markdown
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
 ```
 
-For a reference example, you can view this [sample `README.md`](https://github.com/TheDanniCraft/activity-log/blob/master/README.md?plain=1#L20-L31).
+For **SVG**, add an image link instead (no section markers needed):
+
+```markdown
+![Recent GitHub activity](./activity-log.svg)
+```
+
+Choose the matching inputs in [Output Modes](#-output-modes). Keep one active
+workflow and choose one output mode for it. This repository uses the SVG option.
 
 ### 2. Create a Personal Access Token
 
@@ -181,7 +185,7 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `README_PATH`                   | Deprecated alias for `OUTPUT_PATH`.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
-| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{subject}`, `{verb}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `"{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"`                                    | Template string                                                             |
+| `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{subject}`, `{verb}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`, `{count}`            | ❌              | `"{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"`                                    | Template string                                                             |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
 ## 🎨 Customizing Emojis
@@ -206,12 +210,126 @@ with:
 
 Reference the `EVENT_EMOJI_MAP` input in the [Inputs](#inputs) table above for more details.
 
+## 🖼️ Output Modes
+
+Use the same workflow shown above and choose **one** configuration below. All
+modes share templates, emojis, private-repository redaction and UTC dates.
+`OUTPUT_PATH` overrides the deprecated `README_PATH` alias.
+
+### Default: Markdown List
+
+Existing workflows need no changes. The list replaces only the content between
+the README activity markers.
+
+```yaml
+with:
+  GITHUB_USERNAME: your-username
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: list
+  OUTPUT_STYLE: MARKDOWN
+  OUTPUT_PATH: README.md
+```
+
+Example: `1. 📝 Committed to main in octocat/hello-world (3×)`.
+
+### Table
+
+Use the same README markers. The table has Date, Event, Repository and Description
+columns. For an HTML list or HTML table inside Markdown, set `OUTPUT_STYLE: HTML`.
+
+```yaml
+with:
+  GITHUB_USERNAME: your-username
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: table
+  OUTPUT_STYLE: MARKDOWN
+  OUTPUT_PATH: README.md
+```
+
+### SVG: Used by This Repository
+
+SVG writes a standalone transparent image. The README embeds it once; later runs
+commit changes to the image, avoiding repeated edits to the README. Text stays
+selectable when the SVG is opened directly; an embedded image behaves as an image.
+Links inside event descriptions become plain text in SVG; use list/table for
+clickable event links. Long descriptions wrap, including long branch names.
+
+```yaml
+with:
+  GITHUB_USERNAME: your-username
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+  OUTPUT_MODE: svg
+  OUTPUT_PATH: activity-log.svg
+  GROUP_EVENTS: 'true'
+```
+
+`OUTPUT_STYLE: SVG` also selects SVG output. SVG paths must end in `.svg`;
+list/table paths must end in `.md` or `.markdown` and contain the section markers.
+When paths are omitted, defaults are `README.md` or `activity-log.svg` for SVG.
+No existing SVG file is needed. `OUTPUT_STYLE: SVG` cannot be combined with table mode.
+
+For a separate automation repository, embed its raw image URL in your profile README:
+
+```markdown
+![Recent activity](https://raw.githubusercontent.com/YOUR_USER/YOUR_AUTOMATION_REPO/main/activity-log.svg)
+```
+
+The action still commits the image into the repository and branch running the
+workflow. Only the embedded image link is needed in the profile repository.
+See [the single active reference workflow](.github/workflows/update-activity.yml).
+
+### Group Repeated Pushes
+
+Set `GROUP_EVENTS: 'true'` to combine pushes to the same repository and branch by
+the same actor and visibility, including nonadjacent pushes. Groups keep the
+newest position and commit link. Other event types stay separate so their subjects
+and links are preserved. Ignored events and bot pushes are filtered first;
+`EVENT_LIMIT` applies to rows **after** grouping. Grouping is off by default.
+
+Grouping scans the available window, up to GitHub's last 300 events; it can use
+more API requests than the ungrouped mode, which can stop once the limit is met.
+Custom templates can use `{count}` (1 for an individual event). If omitted, grouped
+rows append a count such as `(3×)`.
+
+### Preview Every Mode Without API Calls or Commits
+
+```bash
+bun install --frozen-lockfile
+bun run preview
+bunx playwright install --with-deps chromium
+bun run preview:screenshots
+```
+
+Open `previews/index.html` to compare all layouts. The fixture covers grouped
+pushes, issues, merged PRs, reviews, comments, releases, branch creation/deletion,
+stars, forks, wiki edits, private activity and long text. Events are prepared **once**
+and rendered into every mode; these scripts make **zero GitHub API requests**.
+
+To reuse a previously saved GitHub events JSON array instead of the fixture:
+
+```bash
+bun run preview -- previews path/to/events.json
+```
+
+CI runs the same commands in the existing **Dist Build Check → output-previews**
+job. Its **activity-log-previews** artifact contains PNG screenshots for all modes
+in light and dark themes, SVG/Markdown/HTML output, and text-layout measurements.
+Screenshots and generated comparison files are ignored by Git and retained in CI
+for 14 days. The job summary also contains rendered list and table examples.
+The comparison uses a local HTML wrapper; GitHub's exact Markdown styling may vary.
+
+Application code can call `fetchActivityRows()` once and pass the returned rows
+to `formatActivity()` for each mode. Rendering requires no further API calls;
+only the selected production mode is committed by the scheduled workflow.
+For a production preview without committing, use `DRY_RUN: 'true'` (fetches real events).
+
 ## 🎯 Custom Event Templates
 
 You can customize event rendering with one global template using `EVENT_TEMPLATE`.
 
 Supported placeholders:
 
+- `{count}`: Number of grouped events (1 for an individual event)
 - `{emoji}`: Event emoji from the default map or `EVENT_EMOJI_MAP` (example: `🚀`)
 - `{event_type}`: Raw GitHub event type (example: `PushEvent`)
 - `{action}`: Human-readable action text (example: `Committed`, `Opened`, `Merged`)
@@ -291,53 +409,3 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 </table>
 
 Wrote a blog post about activity-log? [Open an issue](https://github.com/TheDanniCraft/activity-log/issues/new) and share the article link.
-
-
-
-
-
-
-### 🖼️ Output layouts and grouped activity
-
-![SVG output preview](examples/activity-log.svg)
-
-The default stays a Markdown list inside the existing activity section markers.
-Set `OUTPUT_MODE: table` for Date, Event, Repository and Description columns;
-`OUTPUT_STYLE: HTML` works with either list or table mode.
-
-```yaml
-with:
-  GITHUB_USERNAME: your-username
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  OUTPUT_MODE: svg
-  OUTPUT_PATH: images/activity-log.svg
-  GROUP_EVENTS: 'true'
-```
-
-`OUTPUT_MODE: svg` (or `OUTPUT_STYLE: SVG`) generates a standalone transparent
-image with selectable text, wrapping and light/dark text colors. No section
-markers or existing SVG file are needed. SVG paths must end in `.svg`;
-list/table paths must end in `.md` or `.markdown` and contain the usual markers.
-`OUTPUT_PATH` overrides the deprecated `README_PATH` alias. If both are omitted,
-the default is `README.md`, or `activity-log.svg` for SVG output.
-
-Embed the generated image manually: `![Recent activity](./images/activity-log.svg)`.
-For a separate automation repository, use its raw image URL in your profile README.
-The action commits into the repository running the workflow, using its token and
-branch. The image still receives commits there; the profile README stays unchanged.
-Keep `.github/workflows/update-activity.yml` as the reference workflow and change
-its inputs to select a layout. `DRY_RUN: 'true'` previews every layout without committing.
-
-With `GROUP_EVENTS: 'true'`, repeated pushes are combined across the fetched
-window (up to GitHub's last 300 events), including nonadjacent pushes. Groups keep
-the newest event's position and commit link and append a count, for example
-`📝 Committed to owner/repo (5×)`. Different branches, actors, repositories and
-visibility remain separate. Other event types keep their individual subjects and
-links. Ignored events and bot pushes are filtered before grouping; `EVENT_LIMIT`
-is applied afterward, so repeated pushes do not consume all visible rows.
-
-Custom templates can use `{count}` (1 for ungrouped events). If the template
-omits it, a count suffix is added for grouped entries. Templates, custom emojis
-and private-repository redaction apply consistently to every layout. Dates are UTC.
-
-Run the offline regression suite with `bun run test`, then `bun run build`.

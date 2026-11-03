@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import { groupActivityEvents } from '../src/utils/groupEvents.js';
 import { formatActivity, wrapText } from '../src/utils/formatActivity.js';
+import { buildActivityRows } from '../src/utils/activityRows.js';
+import { previewEvents, previewOptions } from './fixtures/previewEvents.js';
 import { applyTemplate, extractEventData } from '../src/utils/templateEngine.js';
 
 const push = (id, repo = 'owner/repo', ref = 'refs/heads/main') => ({
@@ -40,9 +42,9 @@ test('retains list output and supports HTML and table layouts', () => {
 });
 
 test('SVG is transparent, selectable, escaped, deterministic and wraps long words', () => {
-    const svg = formatActivity([{ ...row, description: '<script>& "hello" ' + 'x'.repeat(210) }], { svgOutput: true });
+    const svg = formatActivity([{ ...row, description: '<script>& "hello" <SCRIPT>alert(1)</SCRIPT> ' + 'x'.repeat(210) }], { svgOutput: true });
     assert.match(svg, /&lt;script&gt;&amp; &quot;hello&quot;/);
-    assert.doesNotMatch(svg, /<script>|<rect|foreignObject/);
+    assert.doesNotMatch(svg, /<script\b|<rect\b|foreignObject/i);
     assert.match(svg, /dominant-baseline="hanging"/);
     assert.ok(wrapText('x'.repeat(210)).every(line => Array.from(line).length <= 80));
     assert.equal(formatActivity([row], { svgOutput: true }), formatActivity([row], { style: 'SVG' }));
@@ -85,11 +87,25 @@ test('rejects invalid modes, booleans and incompatible extensions', () => {
 
 test('fetch/group/render/commit pipeline handles pagination, filters, every mode, no-op and dry runs', () => {
     for (const mode of ['list', 'table', 'svg']) {
-        for (const scenario of ['changed', 'same', 'dry']) {
+        for (const scenario of ['changed', 'same', 'dry', 'reuse']) {
             const result = spawnSync(process.execPath, ['--experimental-test-module-mocks', 'test/fixtures/run-action.mjs', mode, scenario], { encoding: 'utf8' });
             assert.ifError(result.error);
             assert.equal(result.status, 0, `${mode}/${scenario}: ${result.stderr}\n${result.stdout}`);
             assert.match(result.stdout, /Integration passed/);
         }
+    }
+});
+
+
+test('shared event rows cover varied events and redact private details before every layout', () => {
+    const rows = buildActivityRows(groupActivityEvents(previewEvents), previewOptions);
+    assert.equal(rows.length, 13);
+    assert.match(rows[0].description, /3×/);
+    assert.ok(rows.some(row => row.description.includes('Merged PR')));
+    const privateRow = rows.find(row => row.repo === 'a private repository');
+    assert.match(privateRow.description, /Committed in a private repository/);
+    for (const outputMode of ['list', 'table', 'svg']) {
+        const output = formatActivity(rows, { outputMode });
+        assert.doesNotMatch(output, /internal-secret|secret\/private-project|private-sha/);
     }
 });

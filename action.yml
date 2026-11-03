@@ -52,7 +52,7 @@ inputs:
   EVENT_TEMPLATE:
     description: |
       Template string used to render all events.
-      Placeholders: {emoji}, {event_type}, {action}, {subject}, {verb}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}
+      Placeholders: {emoji}, {event_type}, {action}, {subject}, {verb}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}, {count}
       Example: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
     required: false
     default: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
