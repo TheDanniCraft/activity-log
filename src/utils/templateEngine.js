@@ -5,6 +5,7 @@ function escapeRegExp(input) {
 function getTemplatePlaceholders(data) {
     return {
         '{emoji}': data.emoji || '',
+        '{count}': String(data.count || 1),
         '{event_type}': data.event_type || '',
         '{action}': data.action || '',
         '{verb}': data.verb || '',
@@ -402,6 +403,7 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
 
     return {
         emoji,
+        count: event.count || 1,
         event_type: type,
         action,
         verb,

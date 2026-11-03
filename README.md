@@ -171,11 +171,14 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-----------------------------------------|-----------------------------------------------------------------------------|
 | `GITHUB_USERNAME`               | Your GitHub username.                                                                                                                                                           | ✅               | `-`                                     | A valid GitHub username                                                     |
 | `GITHUB_TOKEN`                  | Your GitHub token.                                                                                                                                                              | ✅               | `-`                                     | A valid GitHub access token (must belong to the specified GitHub username)  |
-| `EVENT_LIMIT`                   | The maximum number of events to display. See [Rate Limiting](#-rate-limiting).                                                                                                 | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
-| `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format | ❌               | `MARKDOWN`                              | `MARKDOWN` or `HTML`                                                        |
+| `EVENT_LIMIT`                   | The maximum number of rows to display (after grouping, when enabled). See [Rate Limiting](#-rate-limiting).                                                                                                 | ❌               | `10`                                    | Any positive integer (250 max.)                                             |
+| `OUTPUT_STYLE`                  | Specifies the format in which your output should be rendered. <br> <ins>Must be one of:</ins> <br> - `MARKDOWN`: Output in Markdown format <br> - `HTML`: Output in HTML format <br> - `SVG`: Standalone transparent SVG | ❌               | `MARKDOWN`                              | `MARKDOWN`, `HTML` or `SVG`                                                        |
 | `IGNORE_EVENTS`                 | The events to ignore, specified as a JSON array.                                                                                                                                | ❌               | `[]`                                    | JSON array of event types (e.g., `["PushEvent", "PullRequestEvent"]`)       |
 | `HIDE_DETAILS_ON_PRIVATE_REPOS` | Hide details (branch/tag name) on private repositories                                                                                                                          | ❌               | `false`                                 | `true` or `false`                                                           |
-| `README_PATH`                   | The path to your README file.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
+| `OUTPUT_MODE` | Layout: `list`, `table`, or `svg` (standalone image). | ❌ | `list` | `list`, `table`, `svg` |
+| `OUTPUT_PATH` | Output file; takes precedence over `README_PATH`. | ❌ | `README.md` (`activity-log.svg` for SVG) | `.md` / `.markdown`, or `.svg` for SVG |
+| `GROUP_EVENTS` | Combine repeated pushes to the same repository, branch, actor and visibility. | ❌ | `false` | `true`, `false` |
+| `README_PATH`                   | Deprecated alias for `OUTPUT_PATH`.                                                                                                                                                   | ❌               | `README.md`                             | Any valid file path                                                         |
 | `COMMIT_MESSAGE`                | Commit message used when updating the README file.                                                                                                                              | ❌               | `Update README.md with latest activity`  | Any valid commit message                                                    |
 | `EVENT_EMOJI_MAP`               | Optional YAML object mapping event types to emojis. (See [🎨 Customizing Emojis](https://github.com/TheDanniCraft/activity-log#-customizing-emojis))                            | ❌               | `""`                                    | YAML object mapping event types to emojis                                   |
 | `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{subject}`, `{verb}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `"{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"`                                    | Template string                                                             |
@@ -293,3 +296,48 @@ Wrote a blog post about activity-log? [Open an issue](https://github.com/TheDann
 
 
 
+
+### 🖼️ Output layouts and grouped activity
+
+![SVG output preview](examples/activity-log.svg)
+
+The default stays a Markdown list inside the existing activity section markers.
+Set `OUTPUT_MODE: table` for Date, Event, Repository and Description columns;
+`OUTPUT_STYLE: HTML` works with either list or table mode.
+
+```yaml
+with:
+  GITHUB_USERNAME: your-username
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  OUTPUT_MODE: svg
+  OUTPUT_PATH: images/activity-log.svg
+  GROUP_EVENTS: 'true'
+```
+
+`OUTPUT_MODE: svg` (or `OUTPUT_STYLE: SVG`) generates a standalone transparent
+image with selectable text, wrapping and light/dark text colors. No section
+markers or existing SVG file are needed. SVG paths must end in `.svg`;
+list/table paths must end in `.md` or `.markdown` and contain the usual markers.
+`OUTPUT_PATH` overrides the deprecated `README_PATH` alias. If both are omitted,
+the default is `README.md`, or `activity-log.svg` for SVG output.
+
+Embed the generated image manually: `![Recent activity](./images/activity-log.svg)`.
+For a separate automation repository, use its raw image URL in your profile README.
+The action commits into the repository running the workflow, using its token and
+branch. The image still receives commits there; the profile README stays unchanged.
+Keep `.github/workflows/update-activity.yml` as the reference workflow and change
+its inputs to select a layout. `DRY_RUN: 'true'` previews every layout without committing.
+
+With `GROUP_EVENTS: 'true'`, repeated pushes are combined across the fetched
+window (up to GitHub's last 300 events), including nonadjacent pushes. Groups keep
+the newest event's position and commit link and append a count, for example
+`📝 Committed to owner/repo (5×)`. Different branches, actors, repositories and
+visibility remain separate. Other event types keep their individual subjects and
+links. Ignored events and bot pushes are filtered before grouping; `EVENT_LIMIT`
+is applied afterward, so repeated pushes do not consume all visible rows.
+
+Custom templates can use `{count}` (1 for ungrouped events). If the template
+omits it, a count suffix is added for grouped entries. Templates, custom emojis
+and private-repository redaction apply consistently to every layout. Dates are UTC.
+
+Run the offline regression suite with `bun run test`, then `bun run build`.

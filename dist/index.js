@@ -41949,10 +41949,10 @@ function processEventLimit(value) {
 }
 
 function processStyle(value) {
-    const style = value.toUpperCase();
+    const style = value.trim().toUpperCase();
 
-    if (style !== "MARKDOWN" && style !== "HTML") {
-        setFailed('❌ OUTPUT_STYLE is not MARKDOWN or HTML');
+    if (!["MARKDOWN", "HTML", "SVG"].includes(style)) {
+        setFailed('❌ OUTPUT_STYLE must be MARKDOWN, HTML or SVG');
         process.exit(1);
     }
 
@@ -42078,7 +42078,19 @@ const eventLimit = processEventLimit(getInput('EVENT_LIMIT'));
 const style = processStyle(getInput('OUTPUT_STYLE'));
 const ignoreEvents = processIgnoreEvents(getInput('IGNORE_EVENTS'));
 const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS');
-const readmePath = getInput('README_PATH');
+const outputMode = (getInput('OUTPUT_MODE') || 'list').trim().toLowerCase();
+if (!['list', 'table', 'svg'].includes(outputMode)) {
+    throw new Error('OUTPUT_MODE must be list, table or svg');
+}
+if (style === 'SVG' && outputMode === 'table') {
+    throw new Error('OUTPUT_STYLE SVG cannot be combined with table mode');
+}
+const svgOutput = outputMode === 'svg' || style === 'SVG';
+const outputPath = getInput('OUTPUT_PATH') || getInput('README_PATH') || (svgOutput ? 'activity-log.svg' : 'README.md');
+if (svgOutput ? !/\.svg$/i.test(outputPath) : !/\.(md|markdown)$/i.test(outputPath)) {
+    throw new Error('OUTPUT_PATH must end in .svg for SVG output or .md/.markdown for list/table output');
+}
+const groupEvents = processBooleanInput(getInput('GROUP_EVENTS'), 'GROUP_EVENTS');
 const commitMessage = getInput('COMMIT_MESSAGE');
 const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
 const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
@@ -42346,6 +42358,7 @@ function escapeRegExp(input) {
 function getTemplatePlaceholders(data) {
     return {
         '{emoji}': data.emoji || '',
+        '{count}': String(data.count || 1),
         '{event_type}': data.event_type || '',
         '{action}': data.action || '',
         '{verb}': data.verb || '',
@@ -42743,6 +42756,7 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
 
     return {
         emoji,
+        count: event.count || 1,
         event_type: type,
         action,
         verb,
@@ -42759,6 +42773,103 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
 
 
 
+
+;// CONCATENATED MODULE: ./src/utils/groupEvents.js
+function groupActivityEvents(events) {
+    const groups = new Map();
+    const result = [];
+    const seen = new Set();
+    for (const event of events) {
+        if (event.id && seen.has(event.id)) continue;
+        if (event.id) seen.add(event.id);
+        // Pushes share a destination; other events retain their individual subjects and links.
+        const key = event.type === 'PushEvent'
+            ? JSON.stringify([event.type, event.repo.name, event.payload.ref, event.actor?.login, event.public])
+            : null;
+        const previous = key && groups.get(key);
+        if (previous) {
+            previous.count++;
+        } else {
+            const group = { ...event, count: 1 };
+            result.push(group);
+            if (key) groups.set(key, group);
+        }
+    }
+    return result;
+}
+
+;// CONCATENATED MODULE: ./src/utils/formatActivity.js
+function escapeXml(value) {
+    return String(value).replace(/[&<>"']/g, character => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
+    })[character]);
+}
+
+function plainText(value) {
+    return value.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/`([^`]+)`/g, '$1');
+}
+
+function htmlText(value) {
+    return escapeXml(value)
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
+function tableCell(value) {
+    return value.replace(/\|/g, '&#124;').replace(/\r?\n/g, '<br>');
+}
+
+function wrapText(value, width = 80) {
+    const lines = [];
+    let line = '';
+    for (const word of value.split(/\s+/u)) {
+        const characters = Array.from(word);
+        if (line && Array.from(line).length + characters.length + 1 > width) {
+            lines.push(line);
+            line = '';
+        }
+        while (characters.length > width) {
+            lines.push(characters.splice(0, width).join(''));
+        }
+        if (characters.length) line += (line ? ' ' : '') + characters.join('');
+    }
+    if (line) lines.push(line);
+    return lines.length ? lines : [''];
+}
+
+function formatActivity(rows, { style = 'MARKDOWN', outputMode = 'list', svgOutput = false } = {}) {
+    if (svgOutput || outputMode === 'svg' || style === 'SVG') {
+        let y = 52;
+        const text = rows.map((row, index) => {
+            const lines = wrapText(`${index + 1}. ${plainText(row.description)}`);
+            const result = lines.map(line => {
+                const element = `<text x="20" y="${y}" dominant-baseline="hanging">${escapeXml(line)}</text>`;
+                y += 22;
+                return element;
+            }).join('\n');
+            y += 12;
+            return result;
+        }).join('\n');
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${y + 12}" viewBox="0 0 900 ${y + 12}" role="img" aria-labelledby="title">
+<title id="title">Recent Activity</title>
+<style>text { font: 16px ui-monospace, monospace; fill: #24292f; } @media (prefers-color-scheme: dark) { text { fill: #c9d1d9; } }</style>
+<text x="20" y="16" dominant-baseline="hanging" font-weight="bold">Recent Activity</text>
+${text}
+</svg>\n`;
+    }
+    if (outputMode === 'table') {
+        const headers = ['Date', 'Event', 'Repository', 'Description'];
+        const cells = rows.map(row => [row.date, row.type, row.repoUrl ? `[${row.repo}](${row.repoUrl})` : row.repo, row.description]);
+        if (style === 'HTML') {
+            return `<table>\n<thead><tr>${headers.map(label => `<th>${label}</th>`).join('')}</tr></thead>\n<tbody>\n${cells.map(row => `<tr>${row.map(cell => `<td>${htmlText(cell)}</td>`).join('')}</tr>`).join('\n')}\n</tbody>\n</table>`;
+        }
+        return [`| ${headers.join(' | ')} |`, '| --- | --- | --- | --- |', ...cells.map(row => `| ${row.map(tableCell).join(' | ')} |`)].join('\n');
+    }
+    const items = rows.map((row, index) => style === 'HTML'
+        ? `<li>${htmlText(row.description)}</li>`
+        : `${index + 1}. ${row.description}`);
+    return style === 'HTML' ? `<ol>\n${items.join('\n')}\n</ol>` : items.join('\n');
+}
 
 ;// CONCATENATED MODULE: ./node_modules/@actions/github/lib/context.js
 
@@ -47145,6 +47256,8 @@ function createOctokit(token) {
 
 
 
+
+
 // Create an authenticated Octokit client
 const octokit = createOctokit(token);
 const commitBotCheckCache = new Map();
@@ -47298,13 +47411,6 @@ async function isTriggeredByGitHubActions(event) {
     }
 }
 
-// Helper function to encode URLs
-function encodeHTML(str) {
-    return str
-        .replace(/`([^`]+)`/g, '<code>$1</code>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-}
-
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
@@ -47336,7 +47442,7 @@ async function fetchAndFilterEvents() {
 
     let filteredEvents = [];
 
-    while (filteredEvents.length < eventLimit) {
+    while (groupEvents || filteredEvents.length < eventLimit) {
         const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
@@ -47351,10 +47457,9 @@ async function fetchAndFilterEvents() {
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
                 return event;
-            })
-            .slice(0, eventLimit);
+            });
 
-        if (filteredEvents.length < eventLimit) {
+        if (groupEvents || filteredEvents.length < eventLimit) {
             page++;
             if (page > 3) {
                 warning(`Due to GitHub limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
@@ -47369,17 +47474,17 @@ async function fetchAndFilterEvents() {
         }
     }
 
-    filteredEvents = filteredEvents.slice(0, eventLimit);
+    filteredEvents = (groupEvents ? groupActivityEvents(filteredEvents) : filteredEvents).slice(0, eventLimit);
 
     const fetchedEventCount = filteredEvents.length;
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        warning(`Only ${fetchedEventCount} activity rows are available from ${totalFetchedEvents} fetched events after filtering and grouping.`);
     }
 
     // Generate ordered list of events with descriptions
-    const listItems = filteredEvents.map((event, index) => {
+    const rows = filteredEvents.map((event) => {
         const type = event.type;
         const repo = event.repo;
         const isPrivate = !event.public;
@@ -47411,14 +47516,14 @@ async function fetchAndFilterEvents() {
             }
         }
 
-        return style === 'MARKDOWN'
-            ? `${index + 1}. ${description}`
-            : `<li>${encodeHTML(description)}</li>`;
+        if (event.count > 1 && !eventTemplate?.includes('{count}')) {
+            description += ` (${event.count}×)`;
+        }
+        const data = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
+        return { description, date: data.date, type: data.event_type, repo: data.repo, repoUrl: data.repo_url };
     });
 
-    return style === 'MARKDOWN'
-        ? listItems.join('\n')
-        : `<ol>\n${listItems.join('\n')}\n</ol>`;
+    return formatActivity(rows, { style: style, outputMode: outputMode, svgOutput: svgOutput });
 }
 
 
@@ -47444,7 +47549,7 @@ function logDebugActivity(activity) {
     }
 }
 
-function getRepoRelativeReadmePath(filePath) {
+function getRepoRelativeOutputPath(filePath) {
     const normalized = filePath.replace(/\\/g, '/');
 
     if (!external_path_namespaceObject.isAbsolute(filePath)) {
@@ -47463,28 +47568,28 @@ function getRepoRelativeReadmePath(filePath) {
     return external_path_namespaceObject.basename(normalized);
 }
 
-// Function to update README.md and push changes
-async function updateReadme(activity) {
+// Update the requested output file and push changes.
+async function updateOutput(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            warning('⚠️ No activity to update. The README.md will not be changed.');
+            warning('⚠️ No activity to update. The output file will not be changed.');
             return;
         }
 
-        const readmeContent = external_fs_namespaceObject.readFileSync(readmePath, 'utf-8');
+        const readmeContent = svgOutput && !external_fs_namespaceObject.existsSync(outputPath) ? '' : external_fs_namespaceObject.readFileSync(outputPath, 'utf-8');
         const startMarker = '<!--START_SECTION:activity-->';
         const endMarker = '<!--END_SECTION:activity-->';
 
         const startIdx = readmeContent.indexOf(startMarker);
         const endIdx = readmeContent.indexOf(endMarker);
 
-        if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
+        if (!svgOutput && (startIdx === -1 || endIdx === -1 || startIdx > endIdx)) {
             setFailed('❌ Section markers not found or invalid in README.md.');
             return;
         }
 
-        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
-        const updatedContent = [
+        const currentSection = svgOutput ? readmeContent : readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
+        const updatedContent = svgOutput ? activity : [
             readmeContent.substring(0, startIdx + startMarker.length),
             '\n',
             activity,
@@ -47493,8 +47598,8 @@ async function updateReadme(activity) {
         ].join('');
 
         // Don't run if section didn't change
-        if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            notice('📄 No changes in README.md, skipping...');
+        if (svgOutput ? currentSection === activity : currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
+            notice('📄 No changes in output file, skipping...');
             if (process.env.ACT || dryRun) {
                 logDebugActivity(activity);
             }
@@ -47530,20 +47635,20 @@ async function updateReadme(activity) {
 
         const treeSha = commitData.tree.sha;
 
-        // Create a new tree with the updated README
+        // Create a new tree with the updated output.
         const { data: newTree } = await octokit.rest.git.createTree({
             owner,
             repo,
             base_tree: treeSha,
             tree: [{
-                path: getRepoRelativeReadmePath(readmePath),
+                path: getRepoRelativeOutputPath(outputPath),
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent
             }]
         });
 
-        notice('✅ README.md updated successfully!');
+        notice('✅ Output generated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
@@ -47571,14 +47676,13 @@ async function updateReadme(activity) {
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
         notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
-        setFailed(`❌ Error updating README.md: ${error.message}`);
+        setFailed(`❌ Error updating output: ${error.message}`);
     }
 }
 
 
 
 ;// CONCATENATED MODULE: ./src/index.js
-
 
 
 
@@ -47640,8 +47744,8 @@ function failWithSupportMessage(error) {
 
 // Main function to execute the update process
 async function main() {
-    const activity = await fetchAndFilterEvents({ username: username, token: token, eventLimit: eventLimit, ignoreEvents: ignoreEvents });
-    await updateReadme(activity, readmePath);
+    const activity = await fetchAndFilterEvents();
+    await updateOutput(activity);
 }
 
 process.on('unhandledRejection', (error) => failWithSupportMessage(error));

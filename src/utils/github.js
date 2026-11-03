@@ -1,6 +1,8 @@
 import { warning } from '@actions/core';
 import eventDescriptions from './eventDescriptions.js';
 import { applyTemplate, extractEventData } from './templateEngine.js';
+import { groupActivityEvents } from './groupEvents.js';
+import { formatActivity } from './formatActivity.js';
 import { createOctokit } from './octokit.js';
 import {
     username,
@@ -10,7 +12,10 @@ import {
     ignoreEvents,
     hideDetailsOnPrivateRepos,
     eventEmojiMap,
-    eventTemplate
+    eventTemplate,
+    groupEvents,
+    outputMode,
+    svgOutput
 } from '../config.js';
 
 // Create an authenticated Octokit client
@@ -166,13 +171,6 @@ async function isTriggeredByGitHubActions(event) {
     }
 }
 
-// Helper function to encode URLs
-function encodeHTML(str) {
-    return str
-        .replace(/`([^`]+)`/g, '<code>$1</code>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-}
-
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
@@ -204,7 +202,7 @@ async function fetchAndFilterEvents() {
 
     let filteredEvents = [];
 
-    while (filteredEvents.length < eventLimit) {
+    while (groupEvents || filteredEvents.length < eventLimit) {
         const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
@@ -219,10 +217,9 @@ async function fetchAndFilterEvents() {
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
                 return event;
-            })
-            .slice(0, eventLimit);
+            });
 
-        if (filteredEvents.length < eventLimit) {
+        if (groupEvents || filteredEvents.length < eventLimit) {
             page++;
             if (page > 3) {
                 warning(`Due to GitHub limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
@@ -237,17 +234,17 @@ async function fetchAndFilterEvents() {
         }
     }
 
-    filteredEvents = filteredEvents.slice(0, eventLimit);
+    filteredEvents = (groupEvents ? groupActivityEvents(filteredEvents) : filteredEvents).slice(0, eventLimit);
 
     const fetchedEventCount = filteredEvents.length;
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        warning(`Only ${fetchedEventCount} activity rows are available from ${totalFetchedEvents} fetched events after filtering and grouping.`);
     }
 
     // Generate ordered list of events with descriptions
-    const listItems = filteredEvents.map((event, index) => {
+    const rows = filteredEvents.map((event) => {
         const type = event.type;
         const repo = event.repo;
         const isPrivate = !event.public;
@@ -279,14 +276,14 @@ async function fetchAndFilterEvents() {
             }
         }
 
-        return style === 'MARKDOWN'
-            ? `${index + 1}. ${description}`
-            : `<li>${encodeHTML(description)}</li>`;
+        if (event.count > 1 && !eventTemplate?.includes('{count}')) {
+            description += ` (${event.count}×)`;
+        }
+        const data = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
+        return { description, date: data.date, type: data.event_type, repo: data.repo, repoUrl: data.repo_url };
     });
 
-    return style === 'MARKDOWN'
-        ? listItems.join('\n')
-        : `<ol>\n${listItems.join('\n')}\n</ol>`;
+    return formatActivity(rows, { style, outputMode, svgOutput });
 }
 
 export {

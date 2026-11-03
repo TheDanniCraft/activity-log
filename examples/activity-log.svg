@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="222" viewBox="0 0 900 222" role="img" aria-labelledby="title">
+<title id="title">Recent Activity</title>
+<style>text { font: 16px ui-monospace, monospace; fill: #24292f; } @media (prefers-color-scheme: dark) { text { fill: #c9d1d9; } }</style>
+<text x="20" y="16" dominant-baseline="hanging" font-weight="bold">Recent Activity</text>
+<text x="20" y="52" dominant-baseline="hanging">1. 📝 Committed to owner/project (5×)</text>
+<text x="20" y="86" dominant-baseline="hanging">2. 📥 Opened PR #42 in owner/project</text>
+<text x="20" y="120" dominant-baseline="hanging">3. ⭐ Starred owner/another-project</text>
+<text x="20" y="154" dominant-baseline="hanging">4. 📝 Committed to</text>
+<text x="20" y="176" dominant-baseline="hanging">owner/repository-with-a-long-name-to-demonstrate-text-wrapping-in-the-image</text>
+</svg>

@@ -9,6 +9,7 @@
 		"yaml": "^2.9.1"
 	},
 	"scripts": {
+		"test": "node --test test/*.test.js",
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
 		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
 		"lint:commit": "commitlint --last --verbose"

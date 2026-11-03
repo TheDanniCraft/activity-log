@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { notice, setFailed, warning } from '@actions/core';
 import { context } from '@actions/github';
-import { commitMessage, readmePath, token, dryRun } from '../config.js';
+import { commitMessage, outputPath, token, dryRun, svgOutput } from '../config.js';
 import { createOctokit } from './octokit.js';
 
 // Helper function for debug output logic
@@ -18,7 +18,7 @@ function logDebugActivity(activity) {
     }
 }
 
-function getRepoRelativeReadmePath(filePath) {
+function getRepoRelativeOutputPath(filePath) {
     const normalized = filePath.replace(/\\/g, '/');
 
     if (!path.isAbsolute(filePath)) {
@@ -37,28 +37,28 @@ function getRepoRelativeReadmePath(filePath) {
     return path.basename(normalized);
 }
 
-// Function to update README.md and push changes
-async function updateReadme(activity) {
+// Update the requested output file and push changes.
+async function updateOutput(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            warning('⚠️ No activity to update. The README.md will not be changed.');
+            warning('⚠️ No activity to update. The output file will not be changed.');
             return;
         }
 
-        const readmeContent = fs.readFileSync(readmePath, 'utf-8');
+        const readmeContent = svgOutput && !fs.existsSync(outputPath) ? '' : fs.readFileSync(outputPath, 'utf-8');
         const startMarker = '<!--START_SECTION:activity-->';
         const endMarker = '<!--END_SECTION:activity-->';
 
         const startIdx = readmeContent.indexOf(startMarker);
         const endIdx = readmeContent.indexOf(endMarker);
 
-        if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
+        if (!svgOutput && (startIdx === -1 || endIdx === -1 || startIdx > endIdx)) {
             setFailed('❌ Section markers not found or invalid in README.md.');
             return;
         }
 
-        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
-        const updatedContent = [
+        const currentSection = svgOutput ? readmeContent : readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
+        const updatedContent = svgOutput ? activity : [
             readmeContent.substring(0, startIdx + startMarker.length),
             '\n',
             activity,
@@ -67,8 +67,8 @@ async function updateReadme(activity) {
         ].join('');
 
         // Don't run if section didn't change
-        if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            notice('📄 No changes in README.md, skipping...');
+        if (svgOutput ? currentSection === activity : currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
+            notice('📄 No changes in output file, skipping...');
             if (process.env.ACT || dryRun) {
                 logDebugActivity(activity);
             }
@@ -104,20 +104,20 @@ async function updateReadme(activity) {
 
         const treeSha = commitData.tree.sha;
 
-        // Create a new tree with the updated README
+        // Create a new tree with the updated output.
         const { data: newTree } = await octokit.rest.git.createTree({
             owner,
             repo,
             base_tree: treeSha,
             tree: [{
-                path: getRepoRelativeReadmePath(readmePath),
+                path: getRepoRelativeOutputPath(outputPath),
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent
             }]
         });
 
-        notice('✅ README.md updated successfully!');
+        notice('✅ Output generated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
@@ -145,10 +145,10 @@ async function updateReadme(activity) {
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
         notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
-        setFailed(`❌ Error updating README.md: ${error.message}`);
+        setFailed(`❌ Error updating output: ${error.message}`);
     }
 }
 
 export {
-    updateReadme,
+    updateOutput,
 };
