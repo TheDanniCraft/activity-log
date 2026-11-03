@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR in a private repository on Nov 3, 2026
+1. 🚀 Committed to master in a private repository on Nov 3, 2026
 2. 🔀 Opened PR in a private repository on Nov 3, 2026
-3. 🔀 Opened PR in a private repository on Nov 3, 2026
-4. 🚀 Committed to master in a private repository on Nov 1, 2026
-5. ✨ Created a new branch master in a private repository on Nov 1, 2026
-6. 🚀 Committed to master in a private repository on Nov 1, 2026
-7. ✨ Created a new branch main in a private repository on Nov 1, 2026
+3. ❌ Closed PR in a private repository on Nov 3, 2026
+4. 🔀 Opened PR #546 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/546) on Nov 3, 2026
+5. 🔀 Merged PR in a private repository on Nov 3, 2026
+6. 🔀 Opened PR in a private repository on Nov 3, 2026
+7. 🔀 Opened PR in a private repository on Nov 3, 2026
 8. 🚀 Committed to master in a private repository on Nov 1, 2026
-9. 🚀 Committed to master in [payloadbay/website](https://github.com/payloadbay/website/commit/569023c3241b3e6421059e58ac3ab265839ad838) on Nov 3, 2026
-10. 🔀 Opened PR #4 in [payloadbay/website](https://github.com/payloadbay/website/pull/4) on Nov 3, 2026
+9. ✨ Created a new branch master in a private repository on Nov 1, 2026
+10. 🚀 Committed to master in a private repository on Nov 1, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
