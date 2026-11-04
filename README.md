@@ -38,15 +38,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch 009-mobbin-rewrite in a private repository on Nov 3, 2026
-2. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
+1. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/17fc33de476ada2f2739fdf620437a3db12dccf7) on Nov 3, 2026
+2. 🔥 Deleted a branch 009-mobbin-rewrite in a private repository on Nov 3, 2026
 3. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
-4. 🚀 Committed to master in a private repository on Nov 3, 2026
-5. 🔀 Opened PR in a private repository on Nov 3, 2026
-6. ❌ Closed PR in a private repository on Nov 3, 2026
-7. 🔀 Opened PR #546 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/546) on Nov 3, 2026
-8. 🔀 Merged PR in a private repository on Nov 3, 2026
-9. 🔀 Opened PR in a private repository on Nov 3, 2026
+4. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
+5. 🚀 Committed to master in a private repository on Nov 3, 2026
+6. 🔀 Opened PR in a private repository on Nov 3, 2026
+7. ❌ Closed PR in a private repository on Nov 3, 2026
+8. 🔀 Opened PR #546 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/546) on Nov 3, 2026
+9. 🔀 Merged PR in a private repository on Nov 3, 2026
 10. 🔀 Opened PR in a private repository on Nov 3, 2026
 <!--END_SECTION:activity-->
 
