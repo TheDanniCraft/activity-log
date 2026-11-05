@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/25-56-activity-log-format in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/9bacfc33e2017f883a1f1594dd39c6b7fa29b46a) on Nov 3, 2026
-2. 🔥 Deleted a branch fix/31-migration-key-baseline in [payloadbay/.github](https://github.com/payloadbay/.github) on Nov 3, 2026
-3. 🚀 Committed to renovate/bun/octokit-monorepo in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/7bdbb14f28218dd2b21e696da155c4492ff0483b) on Nov 3, 2026
-4. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/23f66c7bb56a625d3213b1ba747a4d78ead1e228) on Nov 4, 2026
-5. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/17fc33de476ada2f2739fdf620437a3db12dccf7) on Nov 3, 2026
-6. 🔥 Deleted a branch 009-mobbin-rewrite in a private repository on Nov 3, 2026
-7. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
-8. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
-9. 🚀 Committed to master in a private repository on Nov 3, 2026
-10. 🔀 Opened PR in a private repository on Nov 3, 2026
+1. ✨ Created a new branch feat/3-heroui-website in [payloadbay/website](https://github.com/payloadbay/website/tree/feat/3-heroui-website) on Nov 3, 2026
+2. ✨ Created a new branch fix/31-migration-key-baseline in [payloadbay/.github](https://github.com/payloadbay/.github/tree/fix/31-migration-key-baseline) on Nov 3, 2026
+3. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 4, 2026
+4. 🔥 Deleted a branch feat/1-alpha-landing-page in [payloadbay/website](https://github.com/payloadbay/website) on Nov 3, 2026
+5. ✨ Created a new branch master in [payloadbay/website](https://github.com/payloadbay/website/tree/master) on Nov 3, 2026
+6. 🚀 Committed to renovate/bun/yaml-2.x in [TheDanniCraft/activity-log](https://github.com/TheDanniCraft/activity-log/commit/227239ff7ea5194a0b95c3fc916cc2ca91c353d5) on Nov 3, 2026
+7. ✨ Created a new branch feat/1-alpha-landing-page in [payloadbay/website](https://github.com/payloadbay/website/tree/feat/1-alpha-landing-page) on Nov 3, 2026
+8. 🚀 Committed to master in [payloadbay/.github](https://github.com/payloadbay/.github/commit/a91fc1d8068c854a89a4acb4917499f8565e983a) on Nov 3, 2026
+9. 🚀 Committed to feat/3-heroui-website in [payloadbay/website](https://github.com/payloadbay/website/commit/2aefed0b90520524fc85cbd56ed5766f2dba05eb) on Nov 3, 2026
+10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 4, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
