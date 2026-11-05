@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ✨ Created a new branch feat/bootstrap-alpha-app in a private repository on Nov 3, 2026
-2. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 5, 2026
-3. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 5, 2026
-4. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
-5. ✨ Created a new branch features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/features/clip-export) on Nov 3, 2026
-6. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 4, 2026
-7. 🚀 Committed to 009-mobbin-rewrite in a private repository on Nov 3, 2026
-8. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/23b6dd303fd14462644ee01db3e94e5d84a11ae9) on Nov 4, 2026
-9. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3eb0f4fdb2395a68c12735c358400ebd85a2854a) on Nov 4, 2026
-10. ✨ Created a new branch bootstrap/source-validation in a private repository on Nov 3, 2026
+1. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5675e7dca82498961f70e6c056ebd70226803f8d) on Nov 5, 2026
+2. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 4, 2026
+3. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f9e5ca1d27d57c3d17055549c66beb9480b192a2) on Nov 5, 2026
+4. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 5, 2026
+5. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 5, 2026
+6. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d902b822d44e9b732144a806250da9a09abee4e3) on Nov 5, 2026
+7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 4, 2026
+8. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7b1e996f3d499fd0e1d5b0e22a522b2dc33259d2) on Nov 4, 2026
+9. ✨ Created a new branch feat/bootstrap-alpha-app in a private repository on Nov 3, 2026
+10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 5, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
