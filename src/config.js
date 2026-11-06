@@ -42,10 +42,10 @@ function processEventLimit(value) {
 }
 
 function processStyle(value) {
-    const style = value.toUpperCase();
+    const style = value.trim().toUpperCase();
 
-    if (style !== "MARKDOWN" && style !== "HTML") {
-        setFailed('❌ OUTPUT_STYLE is not MARKDOWN or HTML');
+    if (!["MARKDOWN", "HTML", "SVG"].includes(style)) {
+        setFailed('❌ OUTPUT_STYLE must be MARKDOWN, HTML or SVG');
         process.exit(1);
     }
 
@@ -171,7 +171,19 @@ const eventLimit = processEventLimit(getInput('EVENT_LIMIT'));
 const style = processStyle(getInput('OUTPUT_STYLE'));
 const ignoreEvents = processIgnoreEvents(getInput('IGNORE_EVENTS'));
 const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS');
-const readmePath = getInput('README_PATH');
+const outputMode = (getInput('OUTPUT_MODE') || 'list').trim().toLowerCase();
+if (!['list', 'table', 'svg'].includes(outputMode)) {
+    throw new Error('OUTPUT_MODE must be list, table or svg');
+}
+if (style === 'SVG' && outputMode === 'table') {
+    throw new Error('OUTPUT_STYLE SVG cannot be combined with table mode');
+}
+const svgOutput = outputMode === 'svg' || style === 'SVG';
+const outputPath = getInput('OUTPUT_PATH') || getInput('README_PATH') || (svgOutput ? 'activity-log.svg' : 'README.md');
+if (svgOutput ? !/\.svg$/i.test(outputPath) : !/\.(md|markdown)$/i.test(outputPath)) {
+    throw new Error('OUTPUT_PATH must end in .svg for SVG output or .md/.markdown for list/table output');
+}
+const groupEvents = processBooleanInput(getInput('GROUP_EVENTS'), 'GROUP_EVENTS');
 const commitMessage = getInput('COMMIT_MESSAGE');
 const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
 const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
@@ -184,7 +196,10 @@ export {
     style,
     ignoreEvents,
     hideDetailsOnPrivateRepos,
-    readmePath,
+    outputPath,
+    outputMode,
+    svgOutput,
+    groupEvents,
     commitMessage,
     eventEmojiMap,
     eventTemplate,
