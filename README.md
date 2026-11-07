@@ -38,15 +38,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
-2. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f206e23afd14713670f83d2580a9b097227d18d9) on Nov 7, 2026
+1. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7a3c56f85787ca872700226ad2c673d59ae552bc) on Nov 6, 2026
+2. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a8b6cc0ea1bd2760066bbf3a1262cfc4d5c2c647) on Nov 7, 2026
 3. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
-4. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
-5. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+4. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5e242f03e406a82d0401d09ecad234875a8e19ff) on Nov 7, 2026
+5. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
 6. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
-7. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e8e1bcdb570dcdb82d6dc78081a0cce2763f90bd) on Nov 7, 2026
-8. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
-9. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+8. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
+9. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f206e23afd14713670f83d2580a9b097227d18d9) on Nov 7, 2026
 10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
 <!--END_SECTION:activity-->
 
