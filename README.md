@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3c8c3cdc560ed30eee4aced746fe55478f1096eb) on Nov 6, 2026
-2. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4850fa26466c70039e3d39e81508d172db89ebb0) on Nov 7, 2026
-3. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/58a38e0f539977b6e69059f45619207814be2e95) on Nov 7, 2026
-4. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e0f0e2cda2ab4fc0a548ee61550e14b8ae52b910) on Nov 7, 2026
-5. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
-6. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
-7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
-8. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7a3c56f85787ca872700226ad2c673d59ae552bc) on Nov 6, 2026
-9. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a8b6cc0ea1bd2760066bbf3a1262cfc4d5c2c647) on Nov 7, 2026
-10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
+1. 🔥 Deleted a branch renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
+2. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
+3. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e1a98890f36f7bd6b5ac84e5f25cd53e7176c8eb) on Nov 8, 2026
+4. 🚀 Committed to renovate/npm/c15t-consent-stack in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/ae56c98c187253b2f9843540f1b9921dbf5c3b4b) on Nov 8, 2026
+5. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5bb1a1e944aa7f3b51d302b87df8a7df87f1e4b) on Nov 8, 2026
+6. 🚀 Committed to renovate/npm/major-puppeteer-core-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c8a77ea28dc12774a01788e1ce7c0e0d8f63e019) on Nov 8, 2026
+7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+8. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 6, 2026
+9. 🔥 Deleted a branch renovate/dockerfile/major-docker-images in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
+10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
