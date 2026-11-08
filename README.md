@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch renovate/npm/c15t-consent-stack in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
-2. 🔀 Merged PR #556 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/556) on Nov 8, 2026
-3. 🔀 Merged PR #555 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/555) on Nov 8, 2026
-4. 🔥 Deleted a branch renovate/npm/major-puppeteer-core-dependency-update in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
-5. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/58a3ceaa38c3db5c700513b7e6e514036619b9b4) on Nov 7, 2026
-6. 🚀 Committed to renovate/npm/c15t-consent-stack in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2d8e664a5a2656cd858f85cd3d9043e0fa4e3169) on Nov 8, 2026
-7. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4ed77033e8c36c64c9d931184457c4390e725758) on Nov 8, 2026
-8. 🚀 Committed to renovate/dockerfile/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3aec6d7dc385491f2ce6baadcde946ca007eae57) on Nov 7, 2026
-9. 🔀 Opened PR #556 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/556) on Nov 8, 2026
-10. 🔀 Opened PR #555 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/555) on Nov 8, 2026
+1. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+2. 🔀 Merged PR #557 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/557) on Nov 8, 2026
+3. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+4. 🔥 Deleted a branch features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
+5. ✨ Created a new branch features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/features/dashboard-guides) on Nov 8, 2026
+6. 🔀 Opened PR #557 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/557) on Nov 8, 2026
+7. 🚀 Committed to features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cf64499d24c782fbcb60130a6fc363df9524a906) on Nov 8, 2026
+8. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/05c848334428ab0629d9dfc7c663b3207d48dd0f) on Nov 7, 2026
+9. 🚀 Committed to features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87a3d7dcf0c9e67007467c9c6f49614ed990e559) on Nov 8, 2026
+10. ✨ Created a new branch fix/umami-tracking in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/umami-tracking) on Nov 8, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
