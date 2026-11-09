@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
-2. 🔀 Merged PR #557 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/557) on Nov 8, 2026
-3. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
-4. 🔥 Deleted a branch features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
-5. ✨ Created a new branch features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/features/dashboard-guides) on Nov 8, 2026
-6. 🔀 Opened PR #557 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/557) on Nov 8, 2026
-7. 🚀 Committed to features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cf64499d24c782fbcb60130a6fc363df9524a906) on Nov 8, 2026
-8. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/05c848334428ab0629d9dfc7c663b3207d48dd0f) on Nov 7, 2026
-9. 🚀 Committed to features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/87a3d7dcf0c9e67007467c9c6f49614ed990e559) on Nov 8, 2026
-10. ✨ Created a new branch fix/umami-tracking in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/umami-tracking) on Nov 8, 2026
+1. 🔀 Opened PR #559 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/559) on Nov 9, 2026
+2. 🔀 Merged PR #558 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/558) on Nov 9, 2026
+3. 🔀 Opened PR #558 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/558) on Nov 8, 2026
+4. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/44567db7213e298c781651d2c4a1f53c1fc5f7d5) on Nov 8, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5512cdb083154f5c2aadae73a8ff34915f0cc64e) on Nov 8, 2026
+6. 🚀 Published release v4.4.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.4.0) on Nov 8, 2026
+7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+8. 🔀 Merged PR #557 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/557) on Nov 8, 2026
+9. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 7, 2026
+10. 🔥 Deleted a branch features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
