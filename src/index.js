@@ -1,6 +1,5 @@
 import { fetchAndFilterEvents } from './utils/github.js';
-import { updateReadme } from './utils/file.js';
-import { username, token, eventLimit, ignoreEvents, readmePath } from './config.js';
+import { updateOutput } from './utils/file.js';
 import { setFailed } from '@actions/core';
 
 function buildWorkflowLink() {
@@ -60,8 +59,8 @@ function failWithSupportMessage(error) {
 
 // Main function to execute the update process
 async function main() {
-    const activity = await fetchAndFilterEvents({ username, token, eventLimit, ignoreEvents });
-    await updateReadme(activity, readmePath);
+    const activity = await fetchAndFilterEvents();
+    await updateOutput(activity);
 }
 
 process.on('unhandledRejection', (error) => failWithSupportMessage(error));

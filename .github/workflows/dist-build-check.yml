@@ -21,8 +21,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v7
 
+      - name: Setup Node for tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: '1.4.4'
+
+      - name: Run offline regression tests
+        run: bun install --frozen-lockfile && bun run test
 
       - name: Build distribution files
         run: bun run build
