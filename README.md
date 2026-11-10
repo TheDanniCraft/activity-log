@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e8bbcd623866065c30c00364467a75a3fba93f3d) on Nov 9, 2026
-2. 🚀 Committed to renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fe9202cc429fd8ba955ea3293beba662ef5d49f2) on Nov 8, 2026
-3. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/daee5d1270f12efe36e005adc7850c01d268dd3f) on Nov 9, 2026
-4. ✨ Created a new branch fix/admin-view-dashboard in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/admin-view-dashboard) on Nov 8, 2026
-5. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7a792ae011011220bca742a17892a63a9c2eed4c) on Nov 9, 2026
-6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8b9e801ca8dc0fd90b90c77aedc0452cec60924b) on Nov 9, 2026
-7. ✨ Created a new branch feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/event-platform) on Nov 9, 2026
-8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08639fec67de3db626b9c620ab463a0fb8654974) on Nov 9, 2026
-9. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b3a5d5ba24c1c46817ec0fffdef2dc74b5a5804d) on Nov 7, 2026
-10. 🔥 Deleted a branch fix/umami-tracking in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
+1. 🔀 Merged PR #561 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/561) on Nov 10, 2026
+2. 🔀 Opened PR #561 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/561) on Nov 9, 2026
+3. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7172fe2b80d7fb12d2369447fe47ddbfd5d10fee) on Nov 9, 2026
+4. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/476c7ee2b29ba5170c7db84e5493942bdea0bd0d) on Nov 8, 2026
+5. ✨ Created a new branch fix/sentry-recovery in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/sentry-recovery) on Nov 8, 2026
+6. 🔥 Deleted a branch renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 8, 2026
+7. 🚀 Committed to features/clip-export in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/940303a57ca581a60bfdfc09caeec8ca6a92c93d) on Nov 8, 2026
+8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cfc38d38e34125b765a621ad46a520ba540b4f30) on Nov 9, 2026
+9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e8bbcd623866065c30c00364467a75a3fba93f3d) on Nov 9, 2026
+10. 🚀 Committed to renovate/github-actions/major-github-actions in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fe9202cc429fd8ba955ea3293beba662ef5d49f2) on Nov 8, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
