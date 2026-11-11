@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔥 Deleted a branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 10, 2026
-2. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8019d3a273a5042b36e68ad2038c1afb97a49d67) on Nov 9, 2026
-3. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3c09e2d242e945239e77cf9446f1e21b82cf2bd0) on Nov 9, 2026
-4. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3ae8ea2ac4c0c5099826f4a4c58af2e6ffb9396a) on Nov 10, 2026
-5. 🔥 Deleted a branch fix/export-test-fixture-duration in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 9, 2026
-6. ✨ Created a new branch fix/export-test-fixture-duration in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/export-test-fixture-duration) on Nov 9, 2026
-7. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5ed8f758610af266bede0ca6f7d8f2cc5578ffa) on Nov 10, 2026
-8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e4dad8a04b8a836e0b20151ee26a3ecab8e72e3) on Nov 9, 2026
-9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b73c53f10b9979dccecc5cf2895d4661206e2ab4) on Nov 10, 2026
-10. 🚀 Committed to features/dashboard-guides in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9517db8e1204ec78091c8d692e6b6142b57bce39) on Nov 8, 2026
+1. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/775cbf0097c25ce01785a722a4451622b67f2663) on Nov 10, 2026
+2. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa0f4cbd0d388592e1db46c47ab466772f0831e4) on Nov 10, 2026
+3. 🔥 Deleted a branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 10, 2026
+4. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8019d3a273a5042b36e68ad2038c1afb97a49d67) on Nov 9, 2026
+5. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3c09e2d242e945239e77cf9446f1e21b82cf2bd0) on Nov 9, 2026
+6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3ae8ea2ac4c0c5099826f4a4c58af2e6ffb9396a) on Nov 10, 2026
+7. 🔥 Deleted a branch fix/export-test-fixture-duration in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 9, 2026
+8. ✨ Created a new branch fix/export-test-fixture-duration in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/export-test-fixture-duration) on Nov 9, 2026
+9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b5ed8f758610af266bede0ca6f7d8f2cc5578ffa) on Nov 10, 2026
+10. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4e4dad8a04b8a836e0b20151ee26a3ecab8e72e3) on Nov 9, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
