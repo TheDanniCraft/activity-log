@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa68cc96225434fd85749b5ad70fd05ac54daebc) on Nov 10, 2026
-2. 🚀 Committed to fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/965f2d2491749b994e097a7aa56f7c5843b64669) on Nov 9, 2026
-3. ✨ Created a new branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/google-connection-providers) on Nov 9, 2026
-4. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a94648399a5cfe599a0504d191b0156c57dc6a46) on Nov 10, 2026
-5. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/775cbf0097c25ce01785a722a4451622b67f2663) on Nov 10, 2026
-6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa0f4cbd0d388592e1db46c47ab466772f0831e4) on Nov 10, 2026
-7. 🔥 Deleted a branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 10, 2026
-8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8019d3a273a5042b36e68ad2038c1afb97a49d67) on Nov 9, 2026
-9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3c09e2d242e945239e77cf9446f1e21b82cf2bd0) on Nov 9, 2026
-10. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/3ae8ea2ac4c0c5099826f4a4c58af2e6ffb9396a) on Nov 10, 2026
+1. 🚀 Committed to fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/af67a0eb24182f655ee88c78f6eab881781027a1) on Nov 10, 2026
+2. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/36658c4731db41cea82bb8cc5a7fa93b88ee3472) on Nov 9, 2026
+3. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa68cc96225434fd85749b5ad70fd05ac54daebc) on Nov 10, 2026
+4. 🚀 Committed to fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/965f2d2491749b994e097a7aa56f7c5843b64669) on Nov 9, 2026
+5. ✨ Created a new branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/google-connection-providers) on Nov 9, 2026
+6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/a94648399a5cfe599a0504d191b0156c57dc6a46) on Nov 10, 2026
+7. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/775cbf0097c25ce01785a722a4451622b67f2663) on Nov 10, 2026
+8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa0f4cbd0d388592e1db46c47ab466772f0831e4) on Nov 10, 2026
+9. 🔥 Deleted a branch fix/google-connection-providers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 10, 2026
+10. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8019d3a273a5042b36e68ad2038c1afb97a49d67) on Nov 9, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
