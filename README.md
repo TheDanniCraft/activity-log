@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c36f96618b74ea545c2de14b075cfa34d40db26d) on Nov 11, 2026
-2. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc41fbc71665930cf0bdfec1b9980496f91138ba) on Nov 11, 2026
-3. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/01328d3e1764b1cec5e0c4f4f2aa65a6df14333c) on Nov 11, 2026
-4. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bc77fb780b9516f5e495cbd36cbe9ae84a61ad34) on Nov 11, 2026
-5. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/da80a2321c1428901dc964eccf2d98f75efcca1f) on Nov 11, 2026
-6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8be54d0b74945acab4341f91456b2d1fb03ad3b0) on Nov 11, 2026
-7. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/80d5a5dd0cfb0e39e97bed3466088f3ff4949ae5) on Nov 12, 2026
-8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b7ea5e02aeb86e7370c70dbcc4207822b59f5a48) on Nov 12, 2026
-9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/febb0cd240f8d4b417f7c116a98a7dab29a69bcd) on Nov 10, 2026
-10. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/64b666cac89b507b4382d13a38a3e1b90b06f3aa) on Nov 10, 2026
+1. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/258a84ad9deb8fbce9112896c0368da57798c967) on Nov 12, 2026
+2. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9f47bbd45b5f0239fc26e58618cfa0baff80c5ce) on Nov 12, 2026
+3. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4c5e604e18ebfc17c1566598c8f535a26c49d6df) on Nov 12, 2026
+4. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c36f96618b74ea545c2de14b075cfa34d40db26d) on Nov 11, 2026
+5. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc41fbc71665930cf0bdfec1b9980496f91138ba) on Nov 11, 2026
+6. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/01328d3e1764b1cec5e0c4f4f2aa65a6df14333c) on Nov 11, 2026
+7. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/bc77fb780b9516f5e495cbd36cbe9ae84a61ad34) on Nov 11, 2026
+8. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/da80a2321c1428901dc964eccf2d98f75efcca1f) on Nov 11, 2026
+9. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/8be54d0b74945acab4341f91456b2d1fb03ad3b0) on Nov 11, 2026
+10. 🚀 Committed to feature/event-platform in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/80d5a5dd0cfb0e39e97bed3466088f3ff4949ae5) on Nov 12, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
