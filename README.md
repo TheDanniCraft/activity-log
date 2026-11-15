@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
-2. 🔀 Opened PR #19 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/pull/19) on Nov 14, 2026
-3. 🆕 Opened issue #18 in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/issues/18) on Nov 14, 2026
-4. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
-5. 🔀 Opened PR #564 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/564) on Nov 14, 2026
+1. 🔥 Deleted a branch codex/grafana-live-usage in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 15, 2026
+2. 🔀 Merged PR #566 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/566) on Nov 15, 2026
+3. 🔀 Opened PR #566 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/566) on Nov 15, 2026
+4. 🚀 Published release v4.5.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.5.1) on Nov 15, 2026
+5. 🔀 Merged PR #565 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/565) on Nov 15, 2026
 6. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
-7. 🔥 Deleted a branch renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 14, 2026
-8. 🔥 Deleted a branch feat/clipify-social-trailers in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 14, 2026
-9. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b9de9bfe970c08b7da72b8c1706671af056745de) on Nov 14, 2026
-10. 🔀 Merged PR #563 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/563) on Nov 14, 2026
+7. 🔀 Opened PR #565 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/565) on Nov 15, 2026
+8. 🚀 Committed to feat/improve-clipify in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/181e3ee4494157fce29267963bb206f5eede146d) on Nov 15, 2026
+9. 🚀 Published release v4.5.0 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.5.0) on Nov 15, 2026
+10. 🚀 Committed to feat/improve-clipify in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/98f084a988edd7c38f1d4a822d4451f7aec205a2) on Nov 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
