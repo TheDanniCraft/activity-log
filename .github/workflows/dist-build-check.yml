@@ -24,6 +24,17 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
+      - name: Setup Node.js for regression tests
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install locked dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Run regression tests
+        run: bun run test
+
       - name: Build distribution files
         run: bun run build
 
