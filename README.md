@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Merged PR #567 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/567) on Nov 15, 2026
-2. 🔀 Opened PR #567 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/567) on Nov 15, 2026
-3. 🚀 Committed to feat/improve-clipify in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/90460bec2e53f231c60d6f4e461db82814475fa9) on Nov 14, 2026
-4. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
-5. 🔥 Deleted a branch codex/grafana-live-usage in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 15, 2026
-6. 🔀 Merged PR #566 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/566) on Nov 15, 2026
-7. 🔀 Opened PR #566 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/566) on Nov 15, 2026
-8. 🚀 Published release v4.5.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.5.1) on Nov 15, 2026
-9. 🔀 Merged PR #565 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/565) on Nov 15, 2026
-10. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
+1. 🚀 Committed to feat/12-releasable-alpha in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/4946387fb1b1f3548f207eabbe4c80665d927689) on Nov 15, 2026
+2. ❌ Closed PR #91 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/91) on Nov 15, 2026
+3. ❌ Closed PR #92 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/92) on Nov 3, 2026
+4. ❌ Closed PR #93 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/93) on Nov 14, 2026
+5. ❌ Closed PR #95 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/95) on Nov 14, 2026
+6. ❌ Closed PR #96 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/96) on Oct 22, 2026
+7. ❌ Closed PR #97 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/97) on Nov 9, 2026
+8. ❌ Closed PR #98 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/98) on Mar 17, 2026
+9. ❌ Closed PR #99 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/pull/99) on Nov 6, 2026
+10. ❌ Closed PR in a private repository on Oct 22, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
