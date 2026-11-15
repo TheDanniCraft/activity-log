@@ -31667,46 +31667,47 @@ function plainValue(source, onError) {
     }
     if (badChar)
         onError(0, 'BAD_SCALAR_START', `Plain value cannot start with ${badChar}`);
-    return foldLines(source);
+    return unfoldLines(source);
 }
 function singleQuotedValue(source, onError) {
     if (source[source.length - 1] !== "'" || source.length === 1)
         onError(source.length, 'MISSING_CHAR', "Missing closing 'quote");
-    return foldLines(source.slice(1, -1)).replace(/''/g, "'");
+    return unfoldLines(source.slice(1, -1)).replace(/''/g, "'");
 }
-function foldLines(source) {
-    /**
-     * The negative lookbehind here and in the `re` RegExp is to
-     * prevent causing a polynomial search time in certain cases.
-     *
-     * The try-catch is for Safari, which doesn't support this yet:
-     * https://caniuse.com/js-regexp-lookbehind
-     */
-    let first, line;
-    try {
-        first = new RegExp('(.*?)(?<![ \t])[ \t]*\r?\n', 'sy');
-        line = new RegExp('[ \t]*(.*?)(?:(?<![ \t])[ \t]*)?\r?\n', 'sy');
-    }
-    catch {
-        first = /(.*?)[ \t]*\r?\n/sy;
-        line = /[ \t]*(.*?)[ \t]*\r?\n/sy;
-    }
-    let match = first.exec(source);
+function unfoldLines(source) {
+    const line = /(.*?)\r?\n/sy;
+    let match = line.exec(source);
     if (!match)
         return source;
-    let res = match[1];
+    /**
+     * The negative lookbehinds in these RegExps are to
+     * prevent causing a polynomial search time in certain cases.
+     *
+     * The try-catch is for Safari < 16.4 and other old browsers:
+     * https://caniuse.com/js-regexp-lookbehind
+     */
+    let trimEnd, trimBoth;
+    try {
+        trimEnd = new RegExp('(?<![ \t])[ \t]+$');
+        trimBoth = new RegExp('^[ \t]+|(?<![ \t])[ \t]+$', 'g');
+    }
+    catch {
+        trimEnd = /[ \t]+$/;
+        trimBoth = /^[ \t]+|[ \t]+$/g;
+    }
+    let res = match[1].replace(trimEnd, '');
     let sep = ' ';
-    let pos = first.lastIndex;
-    line.lastIndex = pos;
+    let pos = line.lastIndex;
     while ((match = line.exec(source))) {
-        if (match[1] === '') {
+        const lm = match[1].replace(trimBoth, '');
+        if (lm === '') {
             if (sep === '\n')
                 res += sep;
             else
                 sep = '\n';
         }
         else {
-            res += sep + match[1];
+            res += sep + lm;
             sep = ' ';
         }
         pos = line.lastIndex;
@@ -33085,38 +33086,40 @@ class Alias extends Node.NodeBase {
             if (node.anchor === this.source)
                 found = node;
         }
+        if (found && ctx) {
+            const { anchors, doc, maxAliasCount } = ctx;
+            let data = anchors.get(found);
+            if (!data) {
+                // Resolve anchors for Node.prototype.toJS()
+                toJS.toJS(found, null, ctx);
+                data = anchors.get(found);
+            }
+            /* istanbul ignore if */
+            if (data?.res === undefined) {
+                const msg = 'This should not happen: Alias anchor was not resolved?';
+                throw new ReferenceError(msg);
+            }
+            if (maxAliasCount >= 0) {
+                data.count += 1;
+                if (data.aliasCount === 0)
+                    data.aliasCount = getAliasCount(doc, found, anchors);
+                if (data.count * data.aliasCount > maxAliasCount) {
+                    const msg = 'Excessive alias count indicates a resource exhaustion attack';
+                    throw new ReferenceError(msg);
+                }
+            }
+        }
         return found;
     }
     toJSON(_arg, ctx) {
         if (!ctx)
             return { source: this.source };
-        const { anchors, doc, maxAliasCount } = ctx;
-        const source = this.resolve(doc, ctx);
+        const source = this.resolve(ctx.doc, ctx);
         if (!source) {
             const msg = `Unresolved alias (the anchor must be set before the alias): ${this.source}`;
             throw new ReferenceError(msg);
         }
-        let data = anchors.get(source);
-        if (!data) {
-            // Resolve anchors for Node.prototype.toJS()
-            toJS.toJS(source, null, ctx);
-            data = anchors.get(source);
-        }
-        /* istanbul ignore if */
-        if (data?.res === undefined) {
-            const msg = 'This should not happen: Alias anchor was not resolved?';
-            throw new ReferenceError(msg);
-        }
-        if (maxAliasCount >= 0) {
-            data.count += 1;
-            if (data.aliasCount === 0)
-                data.aliasCount = getAliasCount(doc, source, anchors);
-            if (data.count * data.aliasCount > maxAliasCount) {
-                const msg = 'Excessive alias count indicates a resource exhaustion attack';
-                throw new ReferenceError(msg);
-            }
-        }
-        return data.res;
+        return ctx.anchors.get(source).res;
     }
     toString(ctx, _onComment, _onChompKeep) {
         const src = `*${this.source}`;
@@ -38948,9 +38951,8 @@ exports.visitAsync = visitAsync;
 /******/ }
 /******/ 
 /************************************************************************/
-/******/ /* webpack/runtime/compat */
-/******/ 
-/******/ if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = new URL('.', import.meta.url).pathname.slice(import.meta.url.match(/^file:\/\/\/\w:/) ? 1 : 0, -1) + "/";
+/******/ /* webpack/runtime/asset-relocator-loader */
+/******/ if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = decodeURIComponent(new URL('.', import.meta.url).pathname).slice(import.meta.url.match(/^file:\/\/\/\w:/) ? 1 : 0, -1) + "/";
 /******/ 
 /************************************************************************/
 var __webpack_exports__ = {};
@@ -46993,18 +46995,13 @@ function throttling(octokit, octokitOptions) {
   if (typeof connection !== "undefined") {
     common.connection = connection;
   }
-  if (groups.global == null) {
-    createGroups(Bottleneck, common);
-  }
   const state = Object.assign(
     {
       clustering: connection != null,
       triggersNotification,
       fallbackSecondaryRateRetryAfter: 60,
       retryAfterBaseValue: 1e3,
-      retryLimiter: new Bottleneck(),
-      id,
-      ...groups
+      id
     },
     octokitOptions.throttle
   );
@@ -47021,65 +47018,84 @@ function throttling(octokit, octokitOptions) {
         })
     `);
   }
-  const events = {};
-  const emitter = new Bottleneck.Events(events);
-  events.on("secondary-limit", state.onSecondaryRateLimit);
-  events.on("rate-limit", state.onRateLimit);
-  events.on(
-    "error",
-    (e) => octokit.log.warn("Error in throttling-plugin limit handler", e)
-  );
-  state.retryLimiter.on("failed", async function(error, info) {
-    const [state2, request, options] = info.args;
-    const { pathname } = new URL(options.url, "http://github.test");
-    const shouldRetryGraphQL = pathname.startsWith("/graphql") && error.status !== 401;
-    if (!(shouldRetryGraphQL || error.status === 403 || error.status === 429)) {
+  let initialized = false;
+  const initializeBottleneck = () => {
+    if (initialized) {
       return;
     }
-    const retryCount = ~~request.retryCount;
-    request.retryCount = retryCount;
-    options.request.retryCount = retryCount;
-    const { wantRetry, retryAfter = 0 } = await (async function() {
-      if (/\bsecondary rate\b/i.test(error.message)) {
-        const retryAfter2 = Number(error.response.headers["retry-after"]) || state2.fallbackSecondaryRateRetryAfter;
-        const wantRetry2 = await emitter.trigger(
-          "secondary-limit",
-          retryAfter2,
-          options,
-          octokit,
-          retryCount
-        );
-        return { wantRetry: wantRetry2, retryAfter: retryAfter2 };
-      }
-      if (error.response.headers != null && error.response.headers["x-ratelimit-remaining"] === "0" || (error.response.data?.errors ?? []).some(
-        (error2) => error2.type === "RATE_LIMITED"
-      )) {
-        const rateLimitReset = new Date(
-          ~~error.response.headers["x-ratelimit-reset"] * 1e3
-        ).getTime();
-        const retryAfter2 = Math.max(
-          // Add one second so we retry _after_ the reset time
-          // https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#exceeding-the-rate-limit
-          Math.ceil((rateLimitReset - Date.now()) / 1e3) + 1,
-          0
-        );
-        const wantRetry2 = await emitter.trigger(
-          "rate-limit",
-          retryAfter2,
-          options,
-          octokit,
-          retryCount
-        );
-        return { wantRetry: wantRetry2, retryAfter: retryAfter2 };
-      }
-      return {};
-    })();
-    if (wantRetry) {
-      request.retryCount++;
-      return retryAfter * state2.retryAfterBaseValue;
+    initialized = true;
+    if (groups.global == null) {
+      createGroups(Bottleneck, common);
     }
+    state.global = state.global ?? groups.global;
+    state.auth = state.auth ?? groups.auth;
+    state.search = state.search ?? groups.search;
+    state.write = state.write ?? groups.write;
+    state.notifications = state.notifications ?? groups.notifications;
+    state.retryLimiter = state.retryLimiter ?? new Bottleneck();
+    const events = {};
+    const emitter = new Bottleneck.Events(events);
+    events.on("secondary-limit", state.onSecondaryRateLimit);
+    events.on("rate-limit", state.onRateLimit);
+    events.on(
+      "error",
+      (e) => octokit.log.warn("Error in throttling-plugin limit handler", e)
+    );
+    state.retryLimiter.on("failed", async function(error, info) {
+      const [state2, request, options] = info.args;
+      const { pathname } = new URL(options.url, "http://github.test");
+      const shouldRetryGraphQL = pathname.startsWith("/graphql") && error.status !== 401;
+      if (!(shouldRetryGraphQL || error.status === 403 || error.status === 429)) {
+        return;
+      }
+      const retryCount = ~~request.retryCount;
+      request.retryCount = retryCount;
+      options.request.retryCount = retryCount;
+      const { wantRetry, retryAfter = 0 } = await (async function() {
+        if (/\bsecondary rate\b/i.test(error.message)) {
+          const retryAfter2 = Number(error.response.headers["retry-after"]) || state2.fallbackSecondaryRateRetryAfter;
+          const wantRetry2 = await emitter.trigger(
+            "secondary-limit",
+            retryAfter2,
+            options,
+            octokit,
+            retryCount
+          );
+          return { wantRetry: wantRetry2, retryAfter: retryAfter2 };
+        }
+        if (error.response.headers != null && error.response.headers["x-ratelimit-remaining"] === "0" || (error.response.data?.errors ?? []).some(
+          (error2) => error2.type === "RATE_LIMITED"
+        )) {
+          const rateLimitReset = new Date(
+            ~~error.response.headers["x-ratelimit-reset"] * 1e3
+          ).getTime();
+          const retryAfter2 = Math.max(
+            // Add one second so we retry _after_ the reset time
+            // https://docs.github.com/en/rest/overview/resources-in-the-rest-api?apiVersion=2022-11-28#exceeding-the-rate-limit
+            Math.ceil((rateLimitReset - Date.now()) / 1e3) + 1,
+            0
+          );
+          const wantRetry2 = await emitter.trigger(
+            "rate-limit",
+            retryAfter2,
+            options,
+            octokit,
+            retryCount
+          );
+          return { wantRetry: wantRetry2, retryAfter: retryAfter2 };
+        }
+        return {};
+      })();
+      if (wantRetry) {
+        request.retryCount++;
+        return retryAfter * state2.retryAfterBaseValue;
+      }
+    });
+  };
+  octokit.hook.wrap("request", (request, options) => {
+    initializeBottleneck();
+    return wrapRequest(state, request, options);
   });
-  octokit.hook.wrap("request", wrapRequest.bind(null, state));
   return {};
 }
 throttling.VERSION = plugin_throttling_dist_bundle_VERSION;

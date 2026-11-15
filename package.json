@@ -3,10 +3,10 @@
 	"dependencies": {
 		"@actions/core": "^3.0.1",
 		"@actions/github": "^9.1.1",
-		"@octokit/plugin-throttling": "^11.0.2",
-		"axios": "^1.16.1",
+		"@octokit/plugin-throttling": "^11.0.5",
+		"axios": "^1.21.1",
 		"commitlint-config-gitmoji": "^2.3.1",
-		"yaml": "^2.9.0"
+		"yaml": "^2.9.1"
 	},
 	"scripts": {
 		"test": "node --experimental-test-module-mocks --test tests/*.test.js",
@@ -15,7 +15,7 @@
 		"lint:commit": "commitlint --last --verbose"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.0.1",
-		"@vercel/ncc": "^0.38.4"
+		"@commitlint/cli": "^21.2.4",
+		"@vercel/ncc": "^0.45.0"
 	}
 }
