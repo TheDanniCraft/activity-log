@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. ❌ Closed PR #571 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/571) on Nov 15, 2026
-2. ✨ Created a new branch maintenance/heroui-v3 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/tree/maintenance/heroui-v3) on Nov 15, 2026
-3. 🔀 Opened PR #571 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/571) on Nov 15, 2026
-4. 🚀 Committed to fix/security-compatible-2026-11-15 in a private repository on Nov 15, 2026
-5. ❌ Closed PR in a private repository on Nov 15, 2026
-6. 🔀 Merged PR in a private repository on Nov 15, 2026
-7. 🔀 Opened PR in a private repository on Nov 15, 2026
-8. 🚀 Committed to master in a private repository on Nov 15, 2026
-9. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
-10. 🔀 Merged PR #568 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/568) on Nov 15, 2026
+1. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 15, 2026
+2. ✨ Created a new branch feat/improve-clipify in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/improve-clipify) on Nov 14, 2026
+3. 🚀 Committed to feat/improve-clipify in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5fc4d6ea028bdec37157e2c6c5b6e6799f1d4dca) on Nov 14, 2026
+4. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7067f6cfa44be24706c39f265944877cbba77863) on Nov 15, 2026
+5. ✨ Created a new branch fix/guide-browser-readiness in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/fix/guide-browser-readiness) on Nov 15, 2026
+6. 🚀 Committed to master in a private repository on Nov 15, 2026
+7. 🚀 Published release v4.5.3 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.5.3) on Nov 16, 2026
+8. ❌ Closed PR #571 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/571) on Nov 15, 2026
+9. ✨ Created a new branch maintenance/heroui-v3 in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/tree/maintenance/heroui-v3) on Nov 15, 2026
+10. 🔀 Opened PR #571 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/571) on Nov 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
