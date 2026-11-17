@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-2. 🔀 Merged PR #569 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/569) on Nov 17, 2026
-3. 🚀 Committed to master in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d07368d56535265d773c836a82b3cbc2873aadfd) on Nov 15, 2026
+1. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa2ebcd222fecacd64bb2d556c3a85cc51032872) on Nov 16, 2026
+2. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4d7ccb03bc436aed8322d8ab44866390bc2eaa7d) on Nov 16, 2026
+3. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa516cc311dcf2c3989ad40cddd8c6f85888b5fa) on Nov 16, 2026
 4. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08ce16d24f0595821ea243896c853625cf32a52c) on Nov 16, 2026
-6. ✨ Created a new branch codex/grafana-live-usage in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/codex/grafana-live-usage) on Nov 15, 2026
-7. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63bdc6bbe7059fb91eca3587cda99cfe09c51ed1) on Nov 16, 2026
-8. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-9. ✨ Created a new branch fix/validated-dependency-refresh in [Wiresense/frontend](https://github.com/Wiresense/frontend/tree/fix/validated-dependency-refresh) on Nov 15, 2026
-10. ✨ Created a new branch fix/validated-dependency-refresh in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/tree/fix/validated-dependency-refresh) on Nov 15, 2026
+5. 🔀 Opened PR #575 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/575) on Nov 17, 2026
+6. 🔥 Deleted a branch renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 16, 2026
+7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2290a686912684a0cd2f7bd44f507b64c2b8b8ea) on Nov 15, 2026
+8. 🚀 Committed to master in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/054903b63245d2c17195b0d041adc463c100b052) on Nov 15, 2026
+9. ✨ Created a new branch feat/improve-first-use in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/improve-first-use) on Nov 15, 2026
+10. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5c63260e701e4e2c1e1633ef9b6d6a3619a6e907) on Nov 17, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
