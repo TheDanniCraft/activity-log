@@ -39,15 +39,15 @@ A GitHub Action that automatically updates your README file with the latest acti
 
 <!--START_SECTION:activity-->
 1. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-2. 🔥 Deleted a branch codex/fix-ci-obs-presence in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 15, 2026
-3. 🚀 Committed to feat/18-runner-transport in [payloadbay/payloadbay](https://github.com/payloadbay/payloadbay/commit/128e9fa500624414e30d42a4862b733085277523) on Nov 15, 2026
-4. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/61d1f2aba26e2f48be39bd48f973586b642fefaf) on Nov 16, 2026
-5. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/30497ab5ae0b7e60b98df69e254c4d8f4b84963c) on Nov 14, 2026
-6. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/d6a09c7087335739f8ee01ea0e432d5ab079a31e) on Nov 14, 2026
-7. 🚀 Committed to feat/bootstrap-alpha-app in a private repository on Nov 14, 2026
+2. 🔀 Merged PR #569 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/569) on Nov 17, 2026
+3. 🚀 Committed to master in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/d07368d56535265d773c836a82b3cbc2873aadfd) on Nov 15, 2026
+4. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/08ce16d24f0595821ea243896c853625cf32a52c) on Nov 16, 2026
+6. ✨ Created a new branch codex/grafana-live-usage in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/codex/grafana-live-usage) on Nov 15, 2026
+7. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/63bdc6bbe7059fb91eca3587cda99cfe09c51ed1) on Nov 16, 2026
 8. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-9. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5733ac6f4b974368a784acd0df31b18f58fbf370) on Nov 16, 2026
-10. ✨ Created a new branch feature/standalone-awards-site in a private repository on Nov 16, 2026
+9. ✨ Created a new branch fix/validated-dependency-refresh in [Wiresense/frontend](https://github.com/Wiresense/frontend/tree/fix/validated-dependency-refresh) on Nov 15, 2026
+10. ✨ Created a new branch fix/validated-dependency-refresh in [Wiresense/wiresense.js](https://github.com/Wiresense/wiresense.js/tree/fix/validated-dependency-refresh) on Nov 15, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
