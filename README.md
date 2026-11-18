@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa2ebcd222fecacd64bb2d556c3a85cc51032872) on Nov 16, 2026
-2. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4d7ccb03bc436aed8322d8ab44866390bc2eaa7d) on Nov 16, 2026
-3. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa516cc311dcf2c3989ad40cddd8c6f85888b5fa) on Nov 16, 2026
-4. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-5. 🔀 Opened PR #575 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/575) on Nov 17, 2026
-6. 🔥 Deleted a branch renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 16, 2026
-7. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/2290a686912684a0cd2f7bd44f507b64c2b8b8ea) on Nov 15, 2026
-8. 🚀 Committed to master in [TheDanniCraft/swatch-studio](https://github.com/TheDanniCraft/swatch-studio/commit/054903b63245d2c17195b0d041adc463c100b052) on Nov 15, 2026
-9. ✨ Created a new branch feat/improve-first-use in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feat/improve-first-use) on Nov 15, 2026
-10. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/5c63260e701e4e2c1e1633ef9b6d6a3619a6e907) on Nov 17, 2026
+1. ✨ Created a new branch feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/admin-app-connections) on Nov 17, 2026
+2. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 17, 2026
+3. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/440ac27884d67e4fac5a2e64701ea562d211fa46) on Nov 16, 2026
+4. 🔥 Deleted a branch feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 17, 2026
+5. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97eb3bd946f5e6f22cda693a80ef0791af23fa8c) on Nov 17, 2026
+6. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/27459770993e6a46e8cc11432651d688d382986f) on Nov 17, 2026
+7. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/fa2ebcd222fecacd64bb2d556c3a85cc51032872) on Nov 16, 2026
+8. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/4d7ccb03bc436aed8322d8ab44866390bc2eaa7d) on Nov 16, 2026
+9. 🚀 Committed to fix/new-account-clip-inventory in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/aa516cc311dcf2c3989ad40cddd8c6f85888b5fa) on Nov 16, 2026
+10. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
