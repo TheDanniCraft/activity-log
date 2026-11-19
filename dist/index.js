@@ -41902,194 +41902,8 @@ function getIDToken(aud) {
  */
 
 //# sourceMappingURL=core.js.map
-// EXTERNAL MODULE: ./node_modules/yaml/dist/index.js
-var dist = __nccwpck_require__(8815);
-;// CONCATENATED MODULE: ./src/config.js
-
-
-
-function processIgnoreEvents(value) {
-    if (!value || value.trim() === '') {
-        return [];
-    }
-
-    try {
-        const parsed = JSON.parse(value);
-        if (Array.isArray(parsed)) {
-            return parsed
-                .map((event) => String(event).trim())
-                .filter(Boolean);
-        }
-    } catch {
-        // Fallback for non-JSON comma-separated input.
-    }
-
-    return value
-        .replace(/^\[|\]$/g, '')
-        .split(',')
-        .map((event) => event.trim().replace(/^['"]|['"]$/g, ''))
-        .filter(Boolean);
-}
-
-function processEventLimit(value) {
-    const limit = parseInt(value, 10);
-    if (isNaN(limit)) {
-        setFailed('❌ EVENT_LIMIT is not a number');
-        process.exit(1);
-    }
-    if (limit < 1) {
-        setFailed('❌ EVENT_LIMIT cannot be smaller than 1');
-        process.exit(1);
-    }
-    if (limit > 250) {
-        setFailed('❌ EVENT_LIMIT cannot be greater than 250.');
-        process.exit(1);
-    }
-    return limit;
-}
-
-function processStyle(value) {
-    const style = value.toUpperCase();
-
-    if (style !== "MARKDOWN" && style !== "HTML") {
-        setFailed('❌ OUTPUT_STYLE is not MARKDOWN or HTML');
-        process.exit(1);
-    }
-
-    return style;
-}
-
-function processBooleanInput(value, inputName) {
-    if (value === undefined || value === '') {
-        return false;
-    }
-
-    const boolValue = value.trim().toLowerCase();
-
-    if (!['true', 'false'].includes(boolValue)) {
-        setFailed(`❌ ${inputName} must be "true" or "false"`);
-        process.exit(1);
-    }
-
-    return boolValue === 'true';
-}
-
-function processEventTemplate(value) {
-    if (!value || value.trim() === '') {
-        notice('ℹ️ No custom EVENT_TEMPLATE provided, using default event descriptions.');
-        return null;
-    }
-    const template = value.trim();
-    notice(`🧩 Using EVENT_TEMPLATE: ${template}`);
-    return template;
-}
-
-function processEventEmojiMap(value) {
-    const map = {
-        PushEvent: "📝",
-        CreateEvent: "🎉",
-        DeleteEvent: "🗑️",
-        IssuesEvent: {
-            opened: "🆕",
-            edited: "🔧",
-            closed: "❌",
-            reopened: "🔄",
-            assigned: "👤",
-            unassigned: "👤",
-            labeled: "🏷️",
-            unlabeled: "🏷️",
-        },
-        PullRequestEvent: {
-            opened: "📥",
-            edited: "📝",
-            closed: "❌",
-            merged: "🔀",
-            reopened: "🔄",
-            assigned: "👤",
-            unassigned: "👤",
-            review_requested: "🔍",
-            review_request_removed: "🔍",
-            labeled: "🏷️",
-            unlabeled: "🏷️",
-            synchronize: "🔄",
-        },
-        ReleaseEvent: {
-            draft: "✏️",
-            published: "🚀",
-        },
-        ForkEvent: "🍴",
-        CommitCommentEvent: "🗣",
-        IssueCommentEvent: "🗣",
-        PullRequestReviewEvent: "🔎",
-        PullRequestReviewCommentEvent: "🗣",
-        PullRequestReviewThreadEvent: "🧵",
-        RepositoryEvent: "📋",
-        WatchEvent: "🔔",
-        StarEvent: "⭐",
-        PublicEvent: "🌍",
-        GollumEvent: "📝",
-    };
-
-    if (!value || (typeof value === 'string' && value.trim() === '')) {
-        notice('ℹ️ No custom emoji mapping provided, using default emojis.');
-        return map;
-    }
-
-    if (typeof value === 'string') {
-        let userMap;
-        try {
-            userMap = (0,dist/* parse */.qg)(value);
-        } catch (error) {
-            setFailed(`❌ Failed to parse user-provided EVENT_EMOJI_MAP YAML: ${error.message}`);
-            process.exit(1);
-        }
-
-        Object.keys(userMap).forEach(event => {
-            let userValue = userMap[event];
-            // If the value is a string, attempt to parse it as YAML to handle nested objects
-            if (typeof userValue === 'string') {
-                try {
-                    userValue = (0,dist/* parse */.qg)(userValue);
-                } catch (error) {
-                    setFailed(`❌ Failed to parse nested YAML structure in EVENT_EMOJI_MAP for "${event}": ${error.message}`);
-                    process.exit(1);
-                }
-            }
-            if (typeof map[event] === 'object' && typeof userValue === 'string') {
-                setFailed(`❌ EVENT_EMOJI_MAP for "${event}" must be an object, not a string`);
-                process.exit(1);
-            }
-            if (typeof map[event] === 'object' && typeof userValue === 'object') {
-                Object.assign(map[event], userValue);
-            } else {
-                map[event] = userValue;
-            }
-        });
-    }
-
-    notice(`🔣 Using event emoji map keys: ${JSON.stringify(map)}`);
-    return map;
-}
-
-// Load inputs from GitHub Actions
-const username = getInput('GITHUB_USERNAME', { required: true });
-const token = getInput('GITHUB_TOKEN', { required: true });
-const eventLimit = processEventLimit(getInput('EVENT_LIMIT'));
-const style = processStyle(getInput('OUTPUT_STYLE'));
-const ignoreEvents = processIgnoreEvents(getInput('IGNORE_EVENTS'));
-const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS');
-const readmePath = getInput('README_PATH');
-const commitMessage = getInput('COMMIT_MESSAGE');
-const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
-const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
-const dryRun = processBooleanInput(getInput('DRY_RUN'), 'DRY_RUN');
-
-
-
 ;// CONCATENATED MODULE: ./src/utils/eventDescriptions.js
-
-
-const eventDescriptions = {
+const createEventDescriptions = (eventEmojiMap) => ({
     'PushEvent': ({ repo, isPrivate, payload }) => {
         const commitSha = payload.head;
         return isPrivate
@@ -42334,9 +42148,9 @@ const eventDescriptions = {
 
         return description;
     },
-};
+});
 
-/* harmony default export */ const utils_eventDescriptions = (eventDescriptions);
+/* harmony default export */ const eventDescriptions = (createEventDescriptions);
 
 ;// CONCATENATED MODULE: ./src/utils/templateEngine.js
 function escapeRegExp(input) {
@@ -42346,6 +42160,7 @@ function escapeRegExp(input) {
 function getTemplatePlaceholders(data) {
     return {
         '{emoji}': data.emoji || '',
+        '{count}': String(data.count || 1),
         '{event_type}': data.event_type || '',
         '{action}': data.action || '',
         '{verb}': data.verb || '',
@@ -42729,7 +42544,6 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
     const isPrivate = !event.public;
     const payload = event.payload;
     const rawAction = getEventAction(type, payload);
-    const action = toSentenceAction(getDisplayAction(type, rawAction));
     const emoji = getEventEmoji(type, rawAction, eventEmojiMap, payload);
     const verb = getEventVerb(type, payload);
     const subject = getEventSubject(type, payload);
@@ -42740,9 +42554,11 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
     const number = getEventNumber(payload, isPrivate);
     const url = getEventUrl(type, payload, repo.name, isPrivate);
     const ref = getEventRef(type, payload, isPrivate, hideDetailsOnPrivateRepos);
+    const action = toSentenceAction(type === 'PushEvent' && !ref ? 'committed' : getDisplayAction(type, rawAction));
 
     return {
         emoji,
+        count: event.count || 1,
         event_type: type,
         action,
         verb,
@@ -42759,6 +42575,133 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
 
 
 
+
+;// CONCATENATED MODULE: ./src/utils/activityRows.js
+
+
+
+
+function buildActivityRows(events, { eventEmojiMap, eventTemplate, hideDetailsOnPrivateRepos = false }) {
+    const descriptions = eventDescriptions(eventEmojiMap);
+    return events.map(event => {
+        const { type, repo, payload } = event;
+        const isPrivate = !event.public;
+        const pr = payload.pull_request || {};
+        const action = pr.merged ? 'merged' : payload.action;
+        const data = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
+        let description = applyTemplate(eventTemplate, data);
+        if (!description) {
+            const formatter = typeof descriptions[type] === 'function' ? descriptions[type] : descriptions[type]?.[action];
+            if (formatter) {
+                description = formatter({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
+            } else {
+                warning(`Unknown event type or action: ${type}/${action || ''}`);
+                description = `Unknown event in ${data.repo}`;
+            }
+        }
+        if (event.count > 1 && !eventTemplate?.includes('{count}')) description += ` (${event.count}×)`;
+        return { description, date: data.date, type: data.event_type, repo: data.repo, repoUrl: data.repo_url };
+    });
+}
+
+;// CONCATENATED MODULE: ./src/utils/groupEvents.js
+function groupActivityEvents(events) {
+    const groups = new Map();
+    const result = [];
+    const seen = new Set();
+    for (const event of events) {
+        if (event.id && seen.has(event.id)) continue;
+        if (event.id) seen.add(event.id);
+        // Pushes share a destination; other events retain their individual subjects and links.
+        const key = event.type === 'PushEvent'
+            ? JSON.stringify([event.type, event.repo.name, event.payload.ref, event.actor?.login, event.public])
+            : null;
+        const previous = key && groups.get(key);
+        if (previous) {
+            previous.count++;
+        } else {
+            const group = { ...event, count: 1 };
+            result.push(group);
+            if (key) groups.set(key, group);
+        }
+    }
+    return result;
+}
+
+;// CONCATENATED MODULE: ./src/utils/formatActivity.js
+function escapeXml(value) {
+    return String(value).replace(/[&<>"']/g, character => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;'
+    })[character]);
+}
+
+function plainText(value) {
+    return value.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/`([^`]+)`/g, '$1');
+}
+
+function htmlText(value) {
+    return escapeXml(value)
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g, '<a href="$2">$1</a>');
+}
+
+function tableCell(value) {
+    return value.replace(/\|/g, '&#124;').replace(/\r?\n/g, '<br>');
+}
+
+function wrapText(value, width = 80) {
+    const lines = [];
+    let line = '';
+    for (const word of value.split(/\s+/u)) {
+        const characters = Array.from(word);
+        if (line && Array.from(line).length + characters.length + 1 > width) {
+            lines.push(line);
+            line = '';
+        }
+        while (characters.length > width) {
+            lines.push(characters.splice(0, width).join(''));
+        }
+        if (characters.length) line += (line ? ' ' : '') + characters.join('');
+    }
+    if (line) lines.push(line);
+    return lines.length ? lines : [''];
+}
+
+function formatActivity(rows, { style = 'MARKDOWN', outputMode = 'list', svgOutput = false } = {}) {
+    if (svgOutput || outputMode === 'svg' || style === 'SVG') {
+        let y = 52;
+        const textX = 20 + (String(rows.length).length + 2) * 10;
+        const text = rows.map((row, index) => {
+            const rowY = y;
+            const lines = wrapText(plainText(row.description));
+            const body = lines.map(line => {
+                const element = `<text class="description" x="${textX}" y="${y}" dominant-baseline="hanging">${escapeXml(line)}</text>`;
+                y += 22;
+                return element;
+            }).join('\n');
+            y += 12;
+            return `<g class="activity-row"><text class="ordinal" x="${textX - 12}" y="${rowY}" text-anchor="end" dominant-baseline="hanging">${index + 1}.</text>\n${body}</g>`;
+        }).join('\n');
+        return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${y + 12}" viewBox="0 0 900 ${y + 12}" role="img" aria-labelledby="title">
+<title id="title">Recent Activity</title>
+<style>text { font: 16px ui-monospace, monospace; fill: #24292f; } @media (prefers-color-scheme: dark) { text { fill: #c9d1d9; } }</style>
+<text x="20" y="16" dominant-baseline="hanging" font-weight="bold">Recent Activity</text>
+${text}
+</svg>\n`;
+    }
+    if (outputMode === 'table') {
+        const headers = ['Date', 'Event', 'Repository', 'Description'];
+        const cells = rows.map(row => [row.date, row.type, row.repoUrl ? `[${row.repo}](${row.repoUrl})` : row.repo, row.description]);
+        if (style === 'HTML') {
+            return `<table>\n<thead><tr>${headers.map(label => `<th>${label}</th>`).join('')}</tr></thead>\n<tbody>\n${cells.map(row => `<tr>${row.map(cell => `<td>${htmlText(cell)}</td>`).join('')}</tr>`).join('\n')}\n</tbody>\n</table>`;
+        }
+        return [`| ${headers.join(' | ')} |`, '| --- | --- | --- | --- |', ...cells.map(row => `| ${row.map(tableCell).join(' | ')} |`)].join('\n');
+    }
+    const items = rows.map((row, index) => style === 'HTML'
+        ? `<li>${htmlText(row.description)}</li>`
+        : `${index + 1}. ${row.description}`);
+    return style === 'HTML' ? `<ol>\n${items.join('\n')}\n</ol>` : items.join('\n');
+}
 
 ;// CONCATENATED MODULE: ./node_modules/@actions/github/lib/context.js
 
@@ -47138,7 +47081,204 @@ function createOctokit(token) {
 
 
 
+// EXTERNAL MODULE: ./node_modules/yaml/dist/index.js
+var dist = __nccwpck_require__(8815);
+;// CONCATENATED MODULE: ./src/config.js
+
+
+
+function processIgnoreEvents(value) {
+    if (!value || value.trim() === '') {
+        return [];
+    }
+
+    try {
+        const parsed = JSON.parse(value);
+        if (Array.isArray(parsed)) {
+            return parsed
+                .map((event) => String(event).trim())
+                .filter(Boolean);
+        }
+    } catch {
+        // Fallback for non-JSON comma-separated input.
+    }
+
+    return value
+        .replace(/^\[|\]$/g, '')
+        .split(',')
+        .map((event) => event.trim().replace(/^['"]|['"]$/g, ''))
+        .filter(Boolean);
+}
+
+function processEventLimit(value) {
+    const limit = parseInt(value, 10);
+    if (isNaN(limit)) {
+        setFailed('❌ EVENT_LIMIT is not a number');
+        process.exit(1);
+    }
+    if (limit < 1) {
+        setFailed('❌ EVENT_LIMIT cannot be smaller than 1');
+        process.exit(1);
+    }
+    if (limit > 250) {
+        setFailed('❌ EVENT_LIMIT cannot be greater than 250.');
+        process.exit(1);
+    }
+    return limit;
+}
+
+function processStyle(value) {
+    const style = value.trim().toUpperCase();
+
+    if (!["MARKDOWN", "HTML", "SVG"].includes(style)) {
+        setFailed('❌ OUTPUT_STYLE must be MARKDOWN, HTML or SVG');
+        process.exit(1);
+    }
+
+    return style;
+}
+
+function processBooleanInput(value, inputName) {
+    if (value === undefined || value === '') {
+        return false;
+    }
+
+    const boolValue = value.trim().toLowerCase();
+
+    if (!['true', 'false'].includes(boolValue)) {
+        setFailed(`❌ ${inputName} must be "true" or "false"`);
+        process.exit(1);
+    }
+
+    return boolValue === 'true';
+}
+
+function processEventTemplate(value) {
+    if (!value || value.trim() === '') {
+        notice('ℹ️ No custom EVENT_TEMPLATE provided, using default event descriptions.');
+        return null;
+    }
+    const template = value.trim();
+    notice(`🧩 Using EVENT_TEMPLATE: ${template}`);
+    return template;
+}
+
+function processEventEmojiMap(value) {
+    const map = {
+        PushEvent: "📝",
+        CreateEvent: "🎉",
+        DeleteEvent: "🗑️",
+        IssuesEvent: {
+            opened: "🆕",
+            edited: "🔧",
+            closed: "❌",
+            reopened: "🔄",
+            assigned: "👤",
+            unassigned: "👤",
+            labeled: "🏷️",
+            unlabeled: "🏷️",
+        },
+        PullRequestEvent: {
+            opened: "📥",
+            edited: "📝",
+            closed: "❌",
+            merged: "🔀",
+            reopened: "🔄",
+            assigned: "👤",
+            unassigned: "👤",
+            review_requested: "🔍",
+            review_request_removed: "🔍",
+            labeled: "🏷️",
+            unlabeled: "🏷️",
+            synchronize: "🔄",
+        },
+        ReleaseEvent: {
+            draft: "✏️",
+            published: "🚀",
+        },
+        ForkEvent: "🍴",
+        CommitCommentEvent: "🗣",
+        IssueCommentEvent: "🗣",
+        PullRequestReviewEvent: "🔎",
+        PullRequestReviewCommentEvent: "🗣",
+        PullRequestReviewThreadEvent: "🧵",
+        RepositoryEvent: "📋",
+        WatchEvent: "🔔",
+        StarEvent: "⭐",
+        PublicEvent: "🌍",
+        GollumEvent: "📝",
+    };
+
+    if (!value || (typeof value === 'string' && value.trim() === '')) {
+        notice('ℹ️ No custom emoji mapping provided, using default emojis.');
+        return map;
+    }
+
+    if (typeof value === 'string') {
+        let userMap;
+        try {
+            userMap = (0,dist/* parse */.qg)(value);
+        } catch (error) {
+            setFailed(`❌ Failed to parse user-provided EVENT_EMOJI_MAP YAML: ${error.message}`);
+            process.exit(1);
+        }
+
+        Object.keys(userMap).forEach(event => {
+            let userValue = userMap[event];
+            // If the value is a string, attempt to parse it as YAML to handle nested objects
+            if (typeof userValue === 'string') {
+                try {
+                    userValue = (0,dist/* parse */.qg)(userValue);
+                } catch (error) {
+                    setFailed(`❌ Failed to parse nested YAML structure in EVENT_EMOJI_MAP for "${event}": ${error.message}`);
+                    process.exit(1);
+                }
+            }
+            if (typeof map[event] === 'object' && typeof userValue === 'string') {
+                setFailed(`❌ EVENT_EMOJI_MAP for "${event}" must be an object, not a string`);
+                process.exit(1);
+            }
+            if (typeof map[event] === 'object' && typeof userValue === 'object') {
+                Object.assign(map[event], userValue);
+            } else {
+                map[event] = userValue;
+            }
+        });
+    }
+
+    notice(`🔣 Using event emoji map keys: ${JSON.stringify(map)}`);
+    return map;
+}
+
+// Load inputs from GitHub Actions
+const username = getInput('GITHUB_USERNAME', { required: true });
+const token = getInput('GITHUB_TOKEN', { required: true });
+const eventLimit = processEventLimit(getInput('EVENT_LIMIT'));
+const style = processStyle(getInput('OUTPUT_STYLE'));
+const ignoreEvents = processIgnoreEvents(getInput('IGNORE_EVENTS'));
+const hideDetailsOnPrivateRepos = processBooleanInput(getInput('HIDE_DETAILS_ON_PRIVATE_REPOS'), 'HIDE_DETAILS_ON_PRIVATE_REPOS');
+const outputMode = (getInput('OUTPUT_MODE') || 'list').trim().toLowerCase();
+if (!['list', 'table', 'svg'].includes(outputMode)) {
+    throw new Error('OUTPUT_MODE must be list, table or svg');
+}
+if (style === 'SVG' && outputMode === 'table') {
+    throw new Error('OUTPUT_STYLE SVG cannot be combined with table mode');
+}
+const svgOutput = outputMode === 'svg' || style === 'SVG';
+const outputPath = getInput('OUTPUT_PATH') || getInput('README_PATH') || (svgOutput ? 'activity-log.svg' : 'README.md');
+if (svgOutput ? !/\.svg$/i.test(outputPath) : !/\.(md|markdown)$/i.test(outputPath)) {
+    throw new Error('OUTPUT_PATH must end in .svg for SVG output or .md/.markdown for list/table output');
+}
+const groupEvents = processBooleanInput(getInput('GROUP_EVENTS'), 'GROUP_EVENTS');
+const commitMessage = getInput('COMMIT_MESSAGE');
+const eventEmojiMap = processEventEmojiMap(getInput('EVENT_EMOJI_MAP'));
+const eventTemplate = processEventTemplate(getInput('EVENT_TEMPLATE'));
+const dryRun = processBooleanInput(getInput('DRY_RUN'), 'DRY_RUN');
+
+
+
 ;// CONCATENATED MODULE: ./src/utils/github.js
+
 
 
 
@@ -47298,13 +47438,6 @@ async function isTriggeredByGitHubActions(event) {
     }
 }
 
-// Helper function to encode URLs
-function encodeHTML(str) {
-    return str
-        .replace(/`([^`]+)`/g, '<code>$1</code>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-}
-
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
@@ -47329,14 +47462,14 @@ async function fetchEvents(page) {
 }
 
 // Function to fetch and filter events
-async function fetchAndFilterEvents() {
+async function fetchActivityRows() {
     const { starredRepoNames } = await fetchAllStarredRepos();
     let page = 1;
     let allEvents = await fetchEvents(page);
 
     let filteredEvents = [];
 
-    while (filteredEvents.length < eventLimit) {
+    while (groupEvents || filteredEvents.length < eventLimit) {
         const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
@@ -47351,10 +47484,9 @@ async function fetchAndFilterEvents() {
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
                 return event;
-            })
-            .slice(0, eventLimit);
+            });
 
-        if (filteredEvents.length < eventLimit) {
+        if (groupEvents || filteredEvents.length < eventLimit) {
             page++;
             if (page > 3) {
                 warning(`Due to GitHub limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
@@ -47369,56 +47501,21 @@ async function fetchAndFilterEvents() {
         }
     }
 
-    filteredEvents = filteredEvents.slice(0, eventLimit);
+    filteredEvents = (groupEvents ? groupActivityEvents(filteredEvents) : filteredEvents).slice(0, eventLimit);
 
     const fetchedEventCount = filteredEvents.length;
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        warning(`Only ${fetchedEventCount} activity rows are available from ${totalFetchedEvents} fetched events after filtering and grouping.`);
     }
 
-    // Generate ordered list of events with descriptions
-    const listItems = filteredEvents.map((event, index) => {
-        const type = event.type;
-        const repo = event.repo;
-        const isPrivate = !event.public;
-        const action = event.payload.pull_request
-            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
-            : event.payload.action;
+    return buildActivityRows(filteredEvents, { eventEmojiMap: eventEmojiMap, eventTemplate: eventTemplate, hideDetailsOnPrivateRepos: hideDetailsOnPrivateRepos });
+}
 
-        const pr = event.payload.pull_request || {};
-        const payload = event.payload;
-
-        let description = null;
-
-        if (eventTemplate) {
-            const eventData = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
-            description = applyTemplate(eventTemplate, eventData);
-        }
-
-        if (!description) {
-            if (!utils_eventDescriptions[type]) {
-                warning(`Unknown event type: ${type}`);
-                description = `Unknown event in ${repo.name}`;
-            } else if (typeof utils_eventDescriptions[type] === 'function') {
-                description = utils_eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos: hideDetailsOnPrivateRepos });
-            } else if (utils_eventDescriptions[type][action]) {
-                description = utils_eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos: hideDetailsOnPrivateRepos });
-            } else {
-                warning(`Unknown action "${action}" for event type "${type}"`);
-                description = `Unknown ${type} action in ${repo.name}`;
-            }
-        }
-
-        return style === 'MARKDOWN'
-            ? `${index + 1}. ${description}`
-            : `<li>${encodeHTML(description)}</li>`;
-    });
-
-    return style === 'MARKDOWN'
-        ? listItems.join('\n')
-        : `<ol>\n${listItems.join('\n')}\n</ol>`;
+async function fetchAndFilterEvents() {
+    const rows = await fetchActivityRows();
+    return formatActivity(rows, { style: style, outputMode: outputMode, svgOutput: svgOutput });
 }
 
 
@@ -47444,7 +47541,7 @@ function logDebugActivity(activity) {
     }
 }
 
-function getRepoRelativeReadmePath(filePath) {
+function getRepoRelativeOutputPath(filePath) {
     const normalized = filePath.replace(/\\/g, '/');
 
     if (!external_path_namespaceObject.isAbsolute(filePath)) {
@@ -47463,43 +47560,42 @@ function getRepoRelativeReadmePath(filePath) {
     return external_path_namespaceObject.basename(normalized);
 }
 
-// Function to update README.md and push changes
-async function updateReadme(activity) {
+function replaceActivitySection(content, activity) {
+    const startMarker = '<!--START_SECTION:activity-->';
+    const endMarker = '<!--END_SECTION:activity-->';
+    const start = content.indexOf(startMarker);
+    const end = content.indexOf(endMarker);
+    if (start === -1 || end === -1 || start > end) {
+        throw new Error('Section markers not found or invalid in output file.');
+    }
+    const previous = content.substring(start + startMarker.length, end).trim();
+    if (previous.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
+        return null;
+    }
+    return `${content.substring(0, start + startMarker.length)}\n${activity}\n${content.substring(end)}`;
+}
+
+function prepareOutput(activity) {
+    const current = svgOutput && !external_fs_namespaceObject.existsSync(outputPath) ? '' : external_fs_namespaceObject.readFileSync(outputPath, 'utf-8');
+    const updated = svgOutput ? activity : replaceActivitySection(current, activity);
+    if (updated === null || updated === current) {
+        notice('📄 No changes in output file, skipping...');
+        logDebugActivity(activity);
+        return null;
+    }
+    return updated;
+}
+
+// Update the requested output file and push changes.
+async function updateOutput(activity) {
     try {
         if (!activity || activity.trim().length === 0) {
-            warning('⚠️ No activity to update. The README.md will not be changed.');
+            warning('⚠️ No activity to update. The output file will not be changed.');
             return;
         }
 
-        const readmeContent = external_fs_namespaceObject.readFileSync(readmePath, 'utf-8');
-        const startMarker = '<!--START_SECTION:activity-->';
-        const endMarker = '<!--END_SECTION:activity-->';
-
-        const startIdx = readmeContent.indexOf(startMarker);
-        const endIdx = readmeContent.indexOf(endMarker);
-
-        if (startIdx === -1 || endIdx === -1 || startIdx > endIdx) {
-            setFailed('❌ Section markers not found or invalid in README.md.');
-            return;
-        }
-
-        const currentSection = readmeContent.substring(startIdx + startMarker.length, endIdx).trim();
-        const updatedContent = [
-            readmeContent.substring(0, startIdx + startMarker.length),
-            '\n',
-            activity,
-            '\n',
-            readmeContent.substring(endIdx)
-        ].join('');
-
-        // Don't run if section didn't change
-        if (currentSection.replace(/\s+/g, ' ').trim() === activity.replace(/\s+/g, ' ').trim()) {
-            notice('📄 No changes in README.md, skipping...');
-            if (process.env.ACT || dryRun) {
-                logDebugActivity(activity);
-            }
-            return;
-        }
+        const updatedContent = prepareOutput(activity);
+        if (updatedContent === null) return;
 
         // Log debug activity and skip update if ACT or dryRun is enabled
         if (process.env.ACT || dryRun) {
@@ -47530,20 +47626,20 @@ async function updateReadme(activity) {
 
         const treeSha = commitData.tree.sha;
 
-        // Create a new tree with the updated README
+        // Create a new tree with the updated output.
         const { data: newTree } = await octokit.rest.git.createTree({
             owner,
             repo,
             base_tree: treeSha,
             tree: [{
-                path: getRepoRelativeReadmePath(readmePath),
+                path: getRepoRelativeOutputPath(outputPath),
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent
             }]
         });
 
-        notice('✅ README.md updated successfully!');
+        notice('✅ Output generated successfully!');
 
         // Create a new commit with the author set to github-actions[bot]
         const { data: newCommit } = await octokit.rest.git.createCommit({
@@ -47571,14 +47667,13 @@ async function updateReadme(activity) {
         const commitUrl = `https://github.com/${owner}/${repo}/commit/${newCommit.sha}`;
         notice(`✅ Changes pushed to the repository! Commit: ${commitUrl}`);
     } catch (error) {
-        setFailed(`❌ Error updating README.md: ${error.message}`);
+        setFailed(`❌ Error updating output: ${error.message}`);
     }
 }
 
 
 
 ;// CONCATENATED MODULE: ./src/index.js
-
 
 
 
@@ -47640,8 +47735,8 @@ function failWithSupportMessage(error) {
 
 // Main function to execute the update process
 async function main() {
-    const activity = await fetchAndFilterEvents({ username: username, token: token, eventLimit: eventLimit, ignoreEvents: ignoreEvents });
-    await updateReadme(activity, readmePath);
+    const activity = await fetchAndFilterEvents();
+    await updateOutput(activity);
 }
 
 process.on('unhandledRejection', (error) => failWithSupportMessage(error));

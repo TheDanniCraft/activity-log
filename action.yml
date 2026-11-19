@@ -12,8 +12,17 @@ inputs:
     description:  The maximum number of events to display.
     default:  '10'
   OUTPUT_STYLE:
-    description:  Specifies the format in which the output should be rendered (MARKDOWN or HTML).
+    description:  Specifies the format in which the output should be rendered (MARKDOWN, HTML or SVG).
     default:  MARKDOWN
+  OUTPUT_MODE:
+    description: Output layout (list, table or svg). SVG creates a standalone image.
+    default: list
+  OUTPUT_PATH:
+    description: Output file path (.md for list/table, .svg for SVG). Overrides README_PATH.
+    required: false
+  GROUP_EVENTS:
+    description: Group repeated pushes to the same repository and branch before applying EVENT_LIMIT.
+    default: 'false'
   IGNORE_EVENTS:
     description:  The events to ignore, specified as a JSON array.
     required: false
@@ -23,9 +32,8 @@ inputs:
     required: false
     default:  'false'
   README_PATH:
-    description:  The path to the README file.
+    description:  Deprecated alias for OUTPUT_PATH.
     required: false
-    default:  README.md
   COMMIT_MESSAGE:
     description:  Commit Message
     required: false
@@ -44,7 +52,7 @@ inputs:
   EVENT_TEMPLATE:
     description: |
       Template string used to render all events.
-      Placeholders: {emoji}, {event_type}, {action}, {subject}, {verb}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}
+      Placeholders: {emoji}, {event_type}, {action}, {subject}, {verb}, {repo}, {repo_url}, {date}, {number}, {url}, {ref}, {ref_type}, {count}
       Example: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"
     required: false
     default: "{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"

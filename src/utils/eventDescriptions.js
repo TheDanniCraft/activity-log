@@ -1,6 +1,4 @@
-import { eventEmojiMap } from '../config.js';
-
-const eventDescriptions = {
+const createEventDescriptions = (eventEmojiMap) => ({
     'PushEvent': ({ repo, isPrivate, payload }) => {
         const commitSha = payload.head;
         return isPrivate
@@ -245,6 +243,6 @@ const eventDescriptions = {
 
         return description;
     },
-};
+});
 
-export default eventDescriptions;
+export default createEventDescriptions;
