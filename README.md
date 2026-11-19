@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/4b6289c4bc1a42f6b8cec91d6ba07869a54fc380) on Nov 17, 2026
-2. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b21994a3ae668a7c0ac11a875acf1295a8a30bbc) on Nov 17, 2026
-3. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 17, 2026
-4. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 16, 2026
-5. 🚀 Committed to feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e3189ff4261b3d664fa933b263192752cab48223) on Nov 16, 2026
-6. ✨ Created a new branch feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/feature/admin-app-connections) on Nov 17, 2026
-7. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 17, 2026
-8. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/440ac27884d67e4fac5a2e64701ea562d211fa46) on Nov 16, 2026
-9. 🔥 Deleted a branch feature/awards-sdk-milestone in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 17, 2026
-10. 🚀 Committed to master in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/97eb3bd946f5e6f22cda693a80ef0791af23fa8c) on Nov 17, 2026
+1. 🔀 Merged PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
+2. 🔀 Opened PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
+3. 🔀 Merged PR #575 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/575) on Nov 19, 2026
+4. 🔀 Merged PR #576 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/576) on Nov 19, 2026
+5. 🗣 Commented on PR in a private repository on Nov 19, 2026
+6. 🗣 Commented on PR #560 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/560#issuecomment-7004760524) on Nov 19, 2026
+7. ❌ Closed PR #560 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/560) on Nov 14, 2026
+8. 🔀 Opened PR #576 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/576) on Nov 19, 2026
+9. 🔀 Merged PR in a private repository on Nov 19, 2026
+10. 🚀 Committed to master in [TheDanniCraft/HLTV.JS](https://github.com/TheDanniCraft/HLTV.JS/commit/4b6289c4bc1a42f6b8cec91d6ba07869a54fc380) on Nov 17, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
