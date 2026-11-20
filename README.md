@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b6cab7c376be16f0057f4992ecb26b1b8707913a) on Nov 19, 2026
-2. 🚀 Committed to master in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/d699981d1fe0fa807d739ee913e3769e4ecebdef) on Nov 17, 2026
-3. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc363d24ef0fe8f977a1e3d94ef22939c209c973) on Nov 18, 2026
-4. 🚀 Published release v4.6.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.1) on Nov 19, 2026
-5. 🔀 Merged PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
-6. 🔀 Opened PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
-7. 🔀 Merged PR #575 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/575) on Nov 19, 2026
-8. 🔀 Merged PR #576 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/576) on Nov 19, 2026
-9. 🗣 Commented on PR in a private repository on Nov 19, 2026
-10. 🗣 Commented on PR #560 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/issues/560#issuecomment-7004760524) on Nov 19, 2026
+1. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/eae1af01691aa285c6525be9c19b5d2fad7c0407) on Nov 18, 2026
+2. 🚀 Committed to codex/fix-guide-ci in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/7eeb084abe33ab68488dd9414dac560ed3b10a17) on Nov 19, 2026
+3. 🍴 Forked [coollabsio/coolify](https://github.com/coollabsio/coolify) on Nov 19, 2026
+4. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/b6cab7c376be16f0057f4992ecb26b1b8707913a) on Nov 19, 2026
+5. 🚀 Committed to master in [TheDanniCraft/tag-bumper](https://github.com/TheDanniCraft/tag-bumper/commit/d699981d1fe0fa807d739ee913e3769e4ecebdef) on Nov 17, 2026
+6. 🚀 Committed to feature/admin-app-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/dc363d24ef0fe8f977a1e3d94ef22939c209c973) on Nov 18, 2026
+7. 🚀 Published release v4.6.1 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.1) on Nov 19, 2026
+8. 🔀 Merged PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
+9. 🔀 Opened PR #577 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/577) on Nov 19, 2026
+10. 🔀 Merged PR #575 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/575) on Nov 19, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
