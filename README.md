@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to mcp-first-overlay-guidance in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/c186a0d8c8a36c18d91016daec21ac15034015ce) on Nov 19, 2026
-2. 🚀 Committed to displayfusion-control in a private repository on Nov 20, 2026
-3. 🔥 Deleted a branch codex/integrate-cs2-companion in a private repository on Nov 20, 2026
-4. 🚀 Committed to master in a private repository on Nov 20, 2026
-5. 🚀 Committed to feature/standalone-awards-site in a private repository on Nov 19, 2026
-6. 🚀 Committed to codex/until-revoked-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/f03b895b6e019819dd61f4c9ae68377927a47dac) on Nov 20, 2026
-7. 🔥 Deleted a branch main in a private repository on Nov 20, 2026
-8. 🚀 Committed to master in [TheDanniCraft/quickdrop](https://github.com/TheDanniCraft/quickdrop/commit/05ad059d1d467e51630a8ebcd4eabf281ed26ddd) on Nov 20, 2026
-9. 🔀 Opened PR in a private repository on Nov 20, 2026
-10. 🔀 Merged PR in a private repository on Nov 20, 2026
+1. 🚀 Committed to mcp-first-overlay-guidance in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/864d5ad311575b4ef9a620f616f808540e2609a4) on Nov 19, 2026
+2. 🚀 Committed to master in a private repository on Nov 20, 2026
+3. 🚀 Committed to mcp-first-overlay-guidance in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/e7fbaf62650b619d6ecdad2117f93ed298e8fdb5) on Nov 19, 2026
+4. 🚀 Committed to mcp-first-overlay-guidance in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/315891b9f59f857b959d8bd43577cf923810c2c4) on Nov 19, 2026
+5. ✨ Created a new branch mcp-first-overlay-guidance in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/tree/mcp-first-overlay-guidance) on Nov 19, 2026
+6. 🚀 Committed to master in a private repository on Nov 19, 2026
+7. 🚀 Committed to codex/until-revoked-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/55e459d7d07d118533bd8b3bc75c0efe949887f9) on Nov 20, 2026
+8. 🔥 Deleted a branch feature/standalone-awards-site in a private repository on Nov 19, 2026
+9. 🚀 Committed to codex/until-revoked-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/1d534079c07c4eeaf49f4b1eb7e13e993f5a9349) on Nov 20, 2026
+10. 🚀 Committed to codex/until-revoked-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/365a23a9f27b6b7925f77ad38a3662867c661720) on Nov 20, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
