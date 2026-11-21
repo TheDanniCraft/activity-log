@@ -181,6 +181,11 @@ You can find an example [here](https://github.com/TheDanniCraft/activity-log/blo
 | `EVENT_TEMPLATE`                | Template used to render all events. Placeholders: `{emoji}`, `{event_type}`, `{action}`, `{subject}`, `{verb}`, `{repo}`, `{repo_url}`, `{date}`, `{number}`, `{url}`, `{ref}`, `{ref_type}`            | ❌              | `"{emoji} {action} {subject} {ref} {number} {verb} [{repo}]({url})"`                                    | Template string                                                             |
 | `DRY_RUN`                       | Enable dry run mode (no changes will be committed)                                                                                                                              | ❌               | `false`                                 | `true` or `false`                                                           |
 
+> [!NOTE]
+> 🤖 Pushes are filtered by bot identity, so human commits with `chore:`, `build:`, or CI-related messages remain visible. `IGNORE_EVENTS` applies to the displayed event type: use `StarEvent` for repositories you currently star, `WatchEvent` for the remaining watch events, or both to hide both types.
+>
+> 📄 If no events remain, the existing activity section is preserved in both Markdown and HTML. Updates preserve remote README edits outside the activity section; dry runs preview the local file.
+
 ## 🎨 Customizing Emojis
 
 You can personalize the emojis shown for each event type using the `EVENT_EMOJI_MAP` input. This input accepts a YAML object mapping event types (and subtypes) to your preferred emojis.
@@ -237,9 +242,9 @@ GitHub has API rate limits. They are documented here:
 
 This action respects these limits by design:
 
-- It waits and retries using GitHub's `retry-after` values.
+- It waits and retries using GitHub's `retry-after` values for secondary limits and the reset time for primary limits.
 - It stands down/backs off when GitHub signals throttling.
-- It may run longer in heavy cases instead of failing immediately.
+- Each request retries at most four times, then reports the error. Optional commit bot-check lookups keep the event if the lookup fails.
 
 ## 📜License
 
