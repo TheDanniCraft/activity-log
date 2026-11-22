@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to displayfusion-control in a private repository on Nov 20, 2026
-2. ✨ Created a new branch displayfusion-control in a private repository on Nov 20, 2026
-3. 🚀 Committed to codex/auto-register-pr-plugins in a private repository on Nov 20, 2026
-4. 🚀 Committed to codex/integrate-cs2-companion in a private repository on Nov 20, 2026
-5. 🚀 Committed to codex/until-revoked-connections in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/9b98aa450172eebdd852ff7f3d20a312341cb162) on Nov 20, 2026
-6. 🔥 Deleted a tag coolify-control/v1.0.0 in a private repository on Nov 20, 2026
-7. 🚀 Committed to master in a private repository on Nov 20, 2026
-8. 🚀 Committed to master in a private repository on Nov 20, 2026
-9. 🚀 Committed to master in a private repository on Nov 20, 2026
-10. 🚀 Committed to codex/auto-register-pr-plugins in a private repository on Nov 20, 2026
+1. 🔀 Merged PR in a private repository on Nov 22, 2026
+2. ✨ Created a new branch fix/awards-search-inputs in a private repository on Nov 22, 2026
+3. 🔀 Opened PR in a private repository on Nov 22, 2026
+4. 🔀 Merged PR in a private repository on Nov 22, 2026
+5. 🔀 Opened PR in a private repository on Nov 22, 2026
+6. 🚀 Committed to codex/fix-google-connection-return in a private repository on Nov 22, 2026
+7. 🔀 Merged PR in a private repository on Nov 22, 2026
+8. 🔀 Opened PR in a private repository on Nov 22, 2026
+9. ✨ Created a new branch codex/auto-register-pr-plugins in a private repository on Nov 20, 2026
+10. ✨ Created a new branch codex/integrate-cs2-companion in a private repository on Nov 20, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
