@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🔀 Opened PR #583 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/583) on Nov 24, 2026
-2. 🔥 Deleted a branch codex/add-sdk-category-search in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 23, 2026
-3. 🔥 Deleted a branch codex/restore-game-category-search in a private repository on Nov 23, 2026
-4. ✨ Created a new branch codex/fix-game-proposals in a private repository on Nov 23, 2026
-5. 🚀 Committed to fix/awards-flow-audit in a private repository on Nov 23, 2026
-6. 🚀 Committed to master in a private repository on Nov 22, 2026
-7. 🚀 Committed to master in a private repository on Nov 22, 2026
-8. ✨ Created a new branch codex/fix-google-connection-return in a private repository on Nov 22, 2026
-9. ✨ Created a new branch fix/awards-event-refresh in a private repository on Nov 22, 2026
-10. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/cbaeec16ad1b6cd3e7e0e80340002dd2b7957a74) on Nov 23, 2026
+1. 🚀 Published release v4.6.7 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.7) on Nov 25, 2026
+2. 🔀 Merged PR #584 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/584) on Nov 25, 2026
+3. 🔀 Opened PR #584 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/584) on Nov 25, 2026
+4. 🚀 Published release v4.6.6 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.6) on Nov 25, 2026
+5. 🔀 Merged PR #583 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/583) on Nov 25, 2026
+6. 🚀 Committed to renovate/npm/daily-non-major in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/commit/6a60c6ae10608827224f84974538a5cb57eb6f8b) on Nov 23, 2026
+7. 🔀 Opened PR #583 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/583) on Nov 24, 2026
+8. 🔥 Deleted a branch codex/add-sdk-category-search in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 23, 2026
+9. 🔥 Deleted a branch codex/restore-game-category-search in a private repository on Nov 23, 2026
+10. ✨ Created a new branch codex/fix-game-proposals in a private repository on Nov 23, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
