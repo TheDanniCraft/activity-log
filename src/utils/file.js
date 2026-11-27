@@ -45,7 +45,29 @@ async function updateReadme(activity) {
             return;
         }
 
-        const readmeContent = fs.readFileSync(readmePath, 'utf-8');
+        const preview = Boolean(process.env.ACT || dryRun);
+        const octokit = preview ? null : createOctokit(token);
+        const repoPath = getRepoRelativeReadmePath(readmePath);
+        let owner, repo, branch, lastCommitSha, readmeContent;
+
+        if (preview) {
+            readmeContent = fs.readFileSync(readmePath, 'utf-8');
+        } else {
+            ({ owner, repo } = context.repo);
+            branch = context.ref.replace('refs/heads/', '');
+            const { data: refData } = await octokit.rest.git.getRef({
+                owner, repo, ref: `heads/${branch}`
+            });
+            lastCommitSha = refData.object.sha;
+            // Read from the exact parent commit so newer README edits are preserved.
+            const { data: file } = await octokit.rest.repos.getContent({
+                owner, repo, path: repoPath, ref: lastCommitSha
+            });
+            if (Array.isArray(file) || file.type !== 'file' || file.encoding !== 'base64') {
+                throw new Error('README_PATH must point to a readable file');
+            }
+            readmeContent = Buffer.from(file.content, 'base64').toString('utf-8');
+        }
         const startMarker = '<!--START_SECTION:activity-->';
         const endMarker = '<!--END_SECTION:activity-->';
 
@@ -81,20 +103,6 @@ async function updateReadme(activity) {
             return;
         }
 
-        // Use @actions/github to commit and push changes
-        const octokit = createOctokit(token);
-        const { owner, repo } = context.repo;
-        const branch = context.ref.replace('refs/heads/', '');
-
-        // Get the last commit SHA
-        const { data: refData } = await octokit.rest.git.getRef({
-            owner,
-            repo,
-            ref: `heads/${branch}`
-        });
-
-        const lastCommitSha = refData.object.sha;
-
         // Get the tree SHA
         const { data: commitData } = await octokit.rest.git.getCommit({
             owner,
@@ -110,7 +118,7 @@ async function updateReadme(activity) {
             repo,
             base_tree: treeSha,
             tree: [{
-                path: getRepoRelativeReadmePath(readmePath),
+                path: repoPath,
                 mode: '100644',
                 type: 'blob',
                 content: updatedContent
@@ -138,7 +146,8 @@ async function updateReadme(activity) {
             owner,
             repo,
             ref: `heads/${branch}`,
-            sha: newCommit.sha
+            sha: newCommit.sha,
+            force: false
         });
 
         // Construct the commit URL

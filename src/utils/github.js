@@ -17,59 +17,6 @@ import {
 const octokit = createOctokit(token);
 const commitBotCheckCache = new Map();
 
-function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function getHeaderValue(headers, headerName) {
-    if (!headers) return undefined;
-    const direct = headers[headerName];
-    if (direct !== undefined) return direct;
-    const lowerName = headerName.toLowerCase();
-    for (const [key, value] of Object.entries(headers)) {
-        if (key.toLowerCase() === lowerName) return value;
-    }
-    return undefined;
-}
-
-async function withRateLimitRetry(requestFn, label, maxRetries = 4) {
-    let attempt = 0;
-    let delayMs = 0;
-
-    while (true) {
-        if (delayMs > 0) {
-            await sleep(delayMs);
-        }
-
-        try {
-            return await requestFn();
-        } catch (error) {
-            const status = error?.status;
-            const message = String(error?.message || '');
-            const headers = error?.response?.headers || {};
-
-            const isSecondaryRateLimit =
-                (status === 403 || status === 429) &&
-                /secondary rate limit/i.test(message);
-
-            if (!isSecondaryRateLimit || attempt >= maxRetries) {
-                throw error;
-            }
-
-            const retryAfterHeader = getHeaderValue(headers, 'retry-after');
-            const retryAfterSeconds = Number(retryAfterHeader);
-            const baseDelayMs = Number.isFinite(retryAfterSeconds) && retryAfterSeconds >= 0
-                ? retryAfterSeconds * 1000
-                : 60_000;
-            const exponentialFactor = Math.min(2 ** attempt, 8);
-            delayMs = baseDelayMs * exponentialFactor;
-            attempt++;
-
-            warning(`Secondary rate limit hit during ${label}. Retry ${attempt}/${maxRetries} in ${Math.round(delayMs / 1000)}s.`);
-        }
-    }
-}
-
 // Function to fetch starred repositories with pagination
 async function fetchAllStarredRepos() {
     let starredRepos = [];
@@ -77,13 +24,10 @@ async function fetchAllStarredRepos() {
 
     while (true) {
         try {
-            const { data: pageStarredRepos } = await withRateLimitRetry(
-                () => octokit.rest.activity.listReposStarredByAuthenticatedUser({
-                    per_page: 100,
-                    page
-                }),
-                'fetching starred repositories'
-            );
+            const { data: pageStarredRepos } = await octokit.rest.activity.listReposStarredByAuthenticatedUser({
+                per_page: 100,
+                page
+            });
 
             if (pageStarredRepos.length === 0) {
                 break;
@@ -108,7 +52,7 @@ async function isTriggeredByGitHubActions(event) {
         return false;
     }
 
-    // Regex patterns to match common GitHub Actions or bot commit messages
+    // Regex patterns to match common GitHub Actions or bot identities
     const botPattern = /\[bot\]$|^github-actions$|^dependabot$|^dependabot\[bot\]$/i;
 
     const actorLogin = event?.actor?.login || '';
@@ -126,14 +70,7 @@ async function isTriggeredByGitHubActions(event) {
     }
 
     try {
-        const { data: commit } = await withRateLimitRetry(
-            () => octokit.rest.repos.getCommit({
-                owner,
-                repo,
-                ref: sha,
-            }),
-            `checking commit ${sha.slice(0, 7)} in ${fullName}`
-        );
+        const { data: commit } = await octokit.rest.repos.getCommit({ owner, repo, ref: sha });
 
         // Check if the commit author name matches any of the bot patterns
         const fields = [
@@ -145,12 +82,7 @@ async function isTriggeredByGitHubActions(event) {
             commit?.commit?.committer?.email,
         ].filter(Boolean);
 
-        const message = commit?.commit?.message || '';
-
-        const messageLooksAutomated =
-            /\bci\b|^chore(\(|:)|^build(\(|:)|dependabot/i.test(message);
-
-        const isAutomated = fields.some((v) => botPattern.test(v)) || messageLooksAutomated;
+        const isAutomated = fields.some((v) => botPattern.test(v));
         commitBotCheckCache.set(cacheKey, isAutomated);
         return isAutomated;
     } catch (error) {
@@ -176,14 +108,11 @@ function encodeHTML(str) {
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
-        const { data: events } = await withRateLimitRetry(
-            () => octokit.rest.activity.listEventsForAuthenticatedUser({
-                username,
-                per_page: 100,
-                page
-            }),
-            `fetching events page ${page}`
-        );
+        const { data: events } = await octokit.rest.activity.listEventsForAuthenticatedUser({
+            username,
+            per_page: 100,
+            page
+        });
 
         if (events.length === 0) {
             warning('No more events available.');
@@ -205,7 +134,11 @@ async function fetchAndFilterEvents() {
     let filteredEvents = [];
 
     while (filteredEvents.length < eventLimit) {
-        const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
+        const candidates = allEvents
+            .map((event) => event.type === 'WatchEvent' && starredRepoNames.has(event.repo.name)
+                ? { ...event, type: 'StarEvent' }
+                : event)
+            .filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
             candidates.map(async (event) => !(await isTriggeredByGitHubActions(event)))
@@ -213,13 +146,6 @@ async function fetchAndFilterEvents() {
 
         filteredEvents = candidates
             .filter((_, i) => keepFlags[i])
-            .map((event) => {
-                if (event.type === 'WatchEvent') {
-                    const isStarred = starredRepoNames.has(event.repo.name);
-                    return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
-                }
-                return event;
-            })
             .slice(0, eventLimit);
 
         if (filteredEvents.length < eventLimit) {
@@ -245,6 +171,8 @@ async function fetchAndFilterEvents() {
     if (fetchedEventCount < eventLimit) {
         warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
     }
+
+    if (filteredEvents.length === 0) return '';
 
     // Generate ordered list of events with descriptions
     const listItems = filteredEvents.map((event, index) => {
