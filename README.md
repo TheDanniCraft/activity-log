@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Published release v4.6.9 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.9) on Nov 26, 2026
-2. 🔀 Merged PR #587 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/587) on Nov 26, 2026
-3. 🔀 Opened PR #587 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/587) on Nov 26, 2026
-4. 🚀 Published release v4.6.8 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.8) on Nov 26, 2026
-5. 🔀 Merged PR #586 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/586) on Nov 26, 2026
-6. 🔀 Opened PR #586 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/586) on Nov 26, 2026
-7. 🔥 Deleted a branch codex/keep-pro-checkout in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 25, 2026
-8. 🔀 Merged PR in a private repository on Nov 26, 2026
-9. 🔀 Merged PR #585 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/585) on Nov 26, 2026
-10. 🔀 Opened PR in a private repository on Nov 26, 2026
+1. 🔥 Deleted a branch coolify-control-white-category-icon in a private repository on Nov 26, 2026
+2. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/3a9ec629072eef6b97498c4bd7c631cf74ec4329) on Nov 25, 2026
+3. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/9f2ad4cf8aac43b2aade5e05cdeac710954eccaf) on Nov 25, 2026
+4. 🚀 Published release v4.6.9 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.9) on Nov 26, 2026
+5. 🔀 Merged PR #587 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/587) on Nov 26, 2026
+6. 🔀 Opened PR #587 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/587) on Nov 26, 2026
+7. 🚀 Published release v4.6.8 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/releases/tag/v4.6.8) on Nov 26, 2026
+8. 🔀 Merged PR #586 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/586) on Nov 26, 2026
+9. 🔀 Opened PR #586 in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify/pull/586) on Nov 26, 2026
+10. 🔥 Deleted a branch codex/keep-pro-checkout in [TheDanniCraft/clipify](https://github.com/TheDanniCraft/clipify) on Nov 25, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
