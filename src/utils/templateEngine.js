@@ -5,6 +5,7 @@ function escapeRegExp(input) {
 function getTemplatePlaceholders(data) {
     return {
         '{emoji}': data.emoji || '',
+        '{count}': String(data.count || 1),
         '{event_type}': data.event_type || '',
         '{action}': data.action || '',
         '{verb}': data.verb || '',
@@ -388,7 +389,6 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
     const isPrivate = !event.public;
     const payload = event.payload;
     const rawAction = getEventAction(type, payload);
-    const action = toSentenceAction(getDisplayAction(type, rawAction));
     const emoji = getEventEmoji(type, rawAction, eventEmojiMap, payload);
     const verb = getEventVerb(type, payload);
     const subject = getEventSubject(type, payload);
@@ -399,9 +399,11 @@ function extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos = fals
     const number = getEventNumber(payload, isPrivate);
     const url = getEventUrl(type, payload, repo.name, isPrivate);
     const ref = getEventRef(type, payload, isPrivate, hideDetailsOnPrivateRepos);
+    const action = toSentenceAction(type === 'PushEvent' && !ref ? 'committed' : getDisplayAction(type, rawAction));
 
     return {
         emoji,
+        count: event.count || 1,
         event_type: type,
         action,
         verb,

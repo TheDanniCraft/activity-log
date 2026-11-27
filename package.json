@@ -9,12 +9,16 @@
 		"yaml": "^2.9.1"
 	},
 	"scripts": {
+		"test": "node --test test/*.test.js",
 		"watch": "ncc build src/index.js --watch --license licenses.txt",
 		"build": "bun install && bunx ncc build src/index.js --license licenses.txt",
-		"lint:commit": "commitlint --last --verbose"
+		"lint:commit": "commitlint --last --verbose",
+		"preview": "node scripts/generate-previews.js",
+		"preview:screenshots": "node scripts/screenshot-previews.js"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^21.2.4",
-		"@vercel/ncc": "^0.45.0"
+		"@vercel/ncc": "^0.45.0",
+		"playwright": "^1.64.1"
 	}
 }

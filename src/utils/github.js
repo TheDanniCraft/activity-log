@@ -1,6 +1,7 @@
 import { warning } from '@actions/core';
-import eventDescriptions from './eventDescriptions.js';
-import { applyTemplate, extractEventData } from './templateEngine.js';
+import { buildActivityRows } from './activityRows.js';
+import { groupActivityEvents } from './groupEvents.js';
+import { formatActivity } from './formatActivity.js';
 import { createOctokit } from './octokit.js';
 import {
     username,
@@ -10,7 +11,10 @@ import {
     ignoreEvents,
     hideDetailsOnPrivateRepos,
     eventEmojiMap,
-    eventTemplate
+    eventTemplate,
+    groupEvents,
+    outputMode,
+    svgOutput
 } from '../config.js';
 
 // Create an authenticated Octokit client
@@ -166,13 +170,6 @@ async function isTriggeredByGitHubActions(event) {
     }
 }
 
-// Helper function to encode URLs
-function encodeHTML(str) {
-    return str
-        .replace(/`([^`]+)`/g, '<code>$1</code>')
-        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
-}
-
 // Function to fetch all events with pagination and apply filtering
 async function fetchEvents(page) {
     try {
@@ -197,14 +194,14 @@ async function fetchEvents(page) {
 }
 
 // Function to fetch and filter events
-async function fetchAndFilterEvents() {
+async function fetchActivityRows() {
     const { starredRepoNames } = await fetchAllStarredRepos();
     let page = 1;
     let allEvents = await fetchEvents(page);
 
     let filteredEvents = [];
 
-    while (filteredEvents.length < eventLimit) {
+    while (groupEvents || filteredEvents.length < eventLimit) {
         const candidates = allEvents.filter((event) => !ignoreEvents.includes(event.type));
 
         const keepFlags = await Promise.all(
@@ -219,10 +216,9 @@ async function fetchAndFilterEvents() {
                     return { ...event, type: isStarred ? 'StarEvent' : 'WatchEvent' };
                 }
                 return event;
-            })
-            .slice(0, eventLimit);
+            });
 
-        if (filteredEvents.length < eventLimit) {
+        if (groupEvents || filteredEvents.length < eventLimit) {
             page++;
             if (page > 3) {
                 warning(`Due to GitHub limitations, only the last ${allEvents.length} events (${filteredEvents.length} after filtering) will be displayed.`);
@@ -237,58 +233,24 @@ async function fetchAndFilterEvents() {
         }
     }
 
-    filteredEvents = filteredEvents.slice(0, eventLimit);
+    filteredEvents = (groupEvents ? groupActivityEvents(filteredEvents) : filteredEvents).slice(0, eventLimit);
 
     const fetchedEventCount = filteredEvents.length;
     const totalFetchedEvents = allEvents.length;
 
     if (fetchedEventCount < eventLimit) {
-        warning(`Only ${fetchedEventCount} events met the criteria. ${totalFetchedEvents - fetchedEventCount} events were skipped due to filters.`);
+        warning(`Only ${fetchedEventCount} activity rows are available from ${totalFetchedEvents} fetched events after filtering and grouping.`);
     }
 
-    // Generate ordered list of events with descriptions
-    const listItems = filteredEvents.map((event, index) => {
-        const type = event.type;
-        const repo = event.repo;
-        const isPrivate = !event.public;
-        const action = event.payload.pull_request
-            ? (event.payload.pull_request.merged ? 'merged' : event.payload.action)
-            : event.payload.action;
+    return buildActivityRows(filteredEvents, { eventEmojiMap, eventTemplate, hideDetailsOnPrivateRepos });
+}
 
-        const pr = event.payload.pull_request || {};
-        const payload = event.payload;
-
-        let description = null;
-
-        if (eventTemplate) {
-            const eventData = extractEventData(event, eventEmojiMap, hideDetailsOnPrivateRepos);
-            description = applyTemplate(eventTemplate, eventData);
-        }
-
-        if (!description) {
-            if (!eventDescriptions[type]) {
-                warning(`Unknown event type: ${type}`);
-                description = `Unknown event in ${repo.name}`;
-            } else if (typeof eventDescriptions[type] === 'function') {
-                description = eventDescriptions[type]({ repo, isPrivate, pr, payload, hideDetailsOnPrivateRepos });
-            } else if (eventDescriptions[type][action]) {
-                description = eventDescriptions[type][action]({ repo, pr, isPrivate, payload, hideDetailsOnPrivateRepos });
-            } else {
-                warning(`Unknown action "${action}" for event type "${type}"`);
-                description = `Unknown ${type} action in ${repo.name}`;
-            }
-        }
-
-        return style === 'MARKDOWN'
-            ? `${index + 1}. ${description}`
-            : `<li>${encodeHTML(description)}</li>`;
-    });
-
-    return style === 'MARKDOWN'
-        ? listItems.join('\n')
-        : `<ol>\n${listItems.join('\n')}\n</ol>`;
+async function fetchAndFilterEvents() {
+    const rows = await fetchActivityRows();
+    return formatActivity(rows, { style, outputMode, svgOutput });
 }
 
 export {
     fetchAndFilterEvents,
+    fetchActivityRows,
 };

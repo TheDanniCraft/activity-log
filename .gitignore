@@ -1,3 +1,5 @@
 setEnv.bat
 
 node_modules
+
+previews/
