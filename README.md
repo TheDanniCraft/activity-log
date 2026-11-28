@@ -38,16 +38,16 @@ A GitHub Action that automatically updates your README file with the latest acti
 ## ✍️ Example
 
 <!--START_SECTION:activity-->
-1. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/68d273019d0386ec3d0ee724c09bc361ecfbcb7b) on Nov 25, 2026
-2. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/115b29311f5eed755458618e5ce0d84a1b7545f4) on Nov 26, 2026
-3. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/6f71a5ece163d1256120c72b1714c776d2489d6c) on Nov 26, 2026
-4. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/13cdbf677a5517d2be8778e8a573cf40311b7c8e) on Nov 25, 2026
-5. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/e44f724ebc4c2c2d246391c0abaa56fa6cd55f84) on Nov 26, 2026
-6. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/7ddde83de646d7f1d8444c964499bbad63d28484) on Nov 26, 2026
-7. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/3666f3568d414d64605dc3ed6b5de23eb98b0667) on Nov 27, 2026
-8. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/d8cd004280a19d207bd6ccc7182df24fb866c66a) on Nov 27, 2026
-9. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/d99440ac418c0148af92340e074aebd70882e9f9) on Nov 26, 2026
-10. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/b5d17ab6a32c0b44a6e6f3d937d2aa97077a88a6) on Nov 26, 2026
+1. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/fe3f9c0ab400051815af441d9578c72a5e48d009) on Nov 26, 2026
+2. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/f30aa9a01bb800a6f7fa68026770c3000c1a8341) on Nov 26, 2026
+3. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/4a58cb8c78cb94dd42eb565e3e1e9f28aa634c50) on Nov 25, 2026
+4. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/c98a7ea71449bcdb541eb1afffe7cf21447db0b8) on Nov 26, 2026
+5. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/68d273019d0386ec3d0ee724c09bc361ecfbcb7b) on Nov 25, 2026
+6. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/115b29311f5eed755458618e5ce0d84a1b7545f4) on Nov 26, 2026
+7. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/6f71a5ece163d1256120c72b1714c776d2489d6c) on Nov 26, 2026
+8. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/13cdbf677a5517d2be8778e8a573cf40311b7c8e) on Nov 25, 2026
+9. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/e44f724ebc4c2c2d246391c0abaa56fa6cd55f84) on Nov 26, 2026
+10. 🚀 Committed to master in [TheDanniCraft/datadeal](https://github.com/TheDanniCraft/datadeal/commit/7ddde83de646d7f1d8444c964499bbad63d28484) on Nov 26, 2026
 <!--END_SECTION:activity-->
 
 ## 📖Usage
