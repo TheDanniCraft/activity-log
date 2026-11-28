@@ -14,7 +14,7 @@
 		"lint:commit": "commitlint --last --verbose"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^21.2.4",
+		"@commitlint/cli": "^21.3.0",
 		"@vercel/ncc": "^0.45.0"
 	}
 }
